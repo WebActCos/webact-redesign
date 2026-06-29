@@ -1,0 +1,1389 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Logo Design Services | WebAct</title>
+  <meta name="description" content="WebAct logo design services for businesses that need a clean, professional brand identity for websites, advertising, social media, print, and signage.">
+  <style>
+    :root {
+      --blue: #159bd7;
+      --blue-dark: #0b6f9f;
+      --ink: #101820;
+      --muted: #5d6874;
+      --line: #dbe4ea;
+      --soft: #eef7fc;
+      --white: #ffffff;
+      --black: #000000;
+      --shadow: 0 18px 45px rgba(16, 24, 32, .12);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, .96);
+      border-bottom: 1px solid var(--line);
+      box-shadow: 0 8px 22px rgba(16, 24, 32, .06);
+    }
+
+    .nav-wrap {
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .brand {
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 0;
+      color: var(--black);
+      white-space: nowrap;
+    }
+
+    .brand span {
+      color: var(--blue);
+    }
+
+    .menu-toggle {
+      display: none;
+      margin-left: auto;
+      border: 1px solid var(--line);
+      background: var(--white);
+      width: 42px;
+      height: 42px;
+      border-radius: 6px;
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: auto;
+    }
+
+    .nav-item {
+      position: relative;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 0 10px;
+      color: #1f2a34;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+      color: var(--blue-dark);
+    }
+
+    .dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      min-width: 250px;
+      padding: 10px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: none;
+      grid-template-columns: 1fr;
+      gap: 3px;
+    }
+
+    .nav-item:hover .dropdown,
+    .nav-item:focus-within .dropdown {
+      display: grid;
+    }
+
+    .dropdown a {
+      display: block;
+      padding: 9px 10px;
+      border-radius: 6px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .dropdown a:hover,
+    .dropdown a:focus {
+      background: var(--soft);
+      color: var(--blue-dark);
+    }
+
+    .nav-cta {
+      margin-left: 10px;
+      background: var(--blue);
+      color: var(--white);
+      padding: 11px 16px;
+      border-radius: 6px;
+      font-weight: 900;
+      font-size: 14px;
+      box-shadow: 0 8px 18px rgba(21, 155, 215, .24);
+    }
+
+    .hero {
+      position: relative;
+      min-height: 650px;
+      color: var(--white);
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(0, 0, 0, .78) 0%, rgba(0, 0, 0, .62) 45%, rgba(0, 0, 0, .25) 100%),
+        url("https://images.unsplash.com/photo-1613909207039-6b173b755cc1?auto=format&fit=crop&w=1800&q=80") center/cover no-repeat;
+    }
+
+    .hero-inner {
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 104px 24px 70px;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 44px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      color: #bfeaff;
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(42px, 6vw, 82px);
+      line-height: .98;
+      letter-spacing: 0;
+    }
+
+    .hero-copy {
+      max-width: 670px;
+      margin: 22px 0 0;
+      color: #e8f2f7;
+      font-size: 20px;
+    }
+
+    .hero-actions,
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 13px 20px;
+      border-radius: 6px;
+      border: 2px solid transparent;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .button.primary {
+      background: var(--blue);
+      color: var(--white);
+    }
+
+    .button.secondary {
+      background: var(--white);
+      color: var(--ink);
+    }
+
+    .button.outline {
+      background: transparent;
+      color: var(--white);
+      border-color: rgba(255, 255, 255, .58);
+    }
+
+    .hero-panel {
+      background: rgba(255, 255, 255, .94);
+      color: var(--ink);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .logo-board {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .logo-tile {
+      min-height: 142px;
+      padding: 18px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #f8fbfd;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    .logo-tile strong {
+      font-size: 32px;
+      line-height: 1;
+    }
+
+    .logo-tile span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .logo-mark {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: var(--blue);
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      font-weight: 900;
+      font-size: 26px;
+    }
+
+    .logo-tile.dark {
+      background: var(--ink);
+      color: var(--white);
+      border-color: var(--ink);
+    }
+
+    .logo-tile.blue {
+      background: var(--blue);
+      color: var(--white);
+      border-color: var(--blue);
+    }
+
+    .hero-metrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      margin-top: 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--line);
+    }
+
+    .metric {
+      background: var(--white);
+      padding: 15px;
+    }
+
+    .metric strong {
+      display: block;
+      font-size: 24px;
+      line-height: 1;
+    }
+
+    .metric span {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .anchor-bar {
+      border-bottom: 1px solid var(--line);
+      background: var(--white);
+    }
+
+    .anchor-inner {
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+    }
+
+    .anchor-inner a {
+      flex: 0 0 auto;
+      padding: 17px 12px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .anchor-inner a:hover {
+      color: var(--blue-dark);
+    }
+
+    section {
+      padding: 78px 24px;
+    }
+
+    .section-inner {
+      max-width: 1220px;
+      margin: 0 auto;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .section-kicker {
+      margin: 0 0 10px;
+      color: var(--blue-dark);
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(32px, 4vw, 54px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    .lead {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .check-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .check {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 14px;
+      background: var(--soft);
+      border: 1px solid #cde8f5;
+      border-radius: var(--radius);
+      color: #25313b;
+      font-weight: 800;
+    }
+
+    .check::before {
+      content: "";
+      width: 12px;
+      height: 12px;
+      margin-top: 6px;
+      border-radius: 50%;
+      background: var(--blue);
+      flex: 0 0 12px;
+    }
+
+    .feature-card {
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: 0 12px 26px rgba(16, 24, 32, .07);
+    }
+
+    .feature-card.dark {
+      background: var(--ink);
+      color: var(--white);
+      border-color: var(--ink);
+    }
+
+    .feature-card.dark p {
+      color: #d9e5ec;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid.three {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid.four {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .service-card {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      min-height: 210px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .service-card .number {
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .service-card p,
+    .package-card p,
+    .process-step p,
+    .faq p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .band {
+      background: var(--soft);
+      border-top: 1px solid #d3eaf5;
+      border-bottom: 1px solid #d3eaf5;
+    }
+
+    .package-card {
+      position: relative;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      min-height: 100%;
+      box-shadow: 0 12px 24px rgba(16, 24, 32, .06);
+    }
+
+    .package-card.highlight {
+      border: 2px solid var(--blue);
+    }
+
+    .package-card ul {
+      margin: 22px 0 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 10px;
+    }
+
+    .package-card li {
+      padding-left: 18px;
+      position: relative;
+      color: #33404c;
+      font-weight: 700;
+    }
+
+    .package-card li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: .7em;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--blue);
+    }
+
+    .package-label {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--soft);
+      color: var(--blue-dark);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .process {
+      counter-reset: step;
+      display: grid;
+      gap: 18px;
+    }
+
+    .process-step {
+      counter-increment: step;
+      display: grid;
+      grid-template-columns: 76px 1fr;
+      gap: 18px;
+      align-items: start;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+    }
+
+    .process-step::before {
+      content: counter(step, decimal-leading-zero);
+      display: grid;
+      place-items: center;
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: var(--white);
+      font-weight: 900;
+    }
+
+    .showcase {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 12px;
+      margin-top: 34px;
+    }
+
+    .showcase-item {
+      min-height: 150px;
+      padding: 18px;
+      border-radius: var(--radius);
+      display: flex;
+      align-items: end;
+      color: var(--white);
+      font-weight: 900;
+      background: var(--ink);
+    }
+
+    .showcase-item:nth-child(2) {
+      background: var(--blue);
+    }
+
+    .showcase-item:nth-child(3) {
+      background: #2c3e50;
+    }
+
+    .showcase-item:nth-child(4) {
+      background: #0b6f9f;
+    }
+
+    .showcase-item:nth-child(5) {
+      background: #3c4856;
+    }
+
+    .showcase-item:nth-child(6) {
+      background: #111;
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .faq {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      overflow: hidden;
+    }
+
+    .faq summary {
+      cursor: pointer;
+      padding: 18px 20px;
+      font-weight: 900;
+      list-style: none;
+    }
+
+    .faq summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq p {
+      padding: 0 20px 20px;
+    }
+
+    .contact-panel {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 36px;
+      padding: 36px;
+      background: var(--ink);
+      color: var(--white);
+      border-radius: var(--radius);
+    }
+
+    .contact-panel .lead {
+      color: #d7e3ea;
+    }
+
+    form {
+      display: grid;
+      gap: 12px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      font-weight: 900;
+      font-size: 13px;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      min-height: 46px;
+      border: 1px solid #aeb9c3;
+      border-radius: 6px;
+      padding: 11px 12px;
+      font: inherit;
+      color: var(--ink);
+    }
+
+    textarea {
+      min-height: 126px;
+      resize: vertical;
+    }
+
+    .site-footer {
+      background: #070b0f;
+      color: var(--white);
+      padding: 42px 24px;
+    }
+
+    .footer-inner {
+      max-width: 1220px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      color: #cbd5df;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    @media (max-width: 1040px) {
+      .menu-toggle {
+        display: inline-grid;
+        place-items: center;
+      }
+
+      .main-nav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 74px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        max-height: calc(100vh - 74px);
+        overflow-y: auto;
+        background: var(--white);
+        border-bottom: 1px solid var(--line);
+        padding: 12px 24px 24px;
+      }
+
+      .main-nav.open {
+        display: flex;
+      }
+
+      .nav-link {
+        justify-content: space-between;
+        width: 100%;
+        padding: 12px 0;
+        min-height: 48px;
+      }
+
+      .dropdown {
+        position: static;
+        display: grid;
+        box-shadow: none;
+        border-radius: 6px;
+        margin-bottom: 8px;
+      }
+
+      .nav-cta {
+        margin: 10px 0 0;
+        text-align: center;
+      }
+
+      .hero-inner,
+      .split,
+      .contact-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .grid.three,
+      .grid.four {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .showcase {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 680px) {
+      .nav-wrap {
+        padding: 14px 18px;
+      }
+
+      .main-nav {
+        top: 70px;
+        max-height: calc(100vh - 70px);
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-inner {
+        padding: 72px 18px 52px;
+      }
+
+      .hero-copy {
+        font-size: 17px;
+      }
+
+      section {
+        padding: 58px 18px;
+      }
+
+      .logo-board,
+      .hero-metrics,
+      .check-grid,
+      .grid.three,
+      .grid.four,
+      .form-grid,
+      .showcase {
+        grid-template-columns: 1fr;
+      }
+
+      .process-step {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-panel {
+        padding: 24px;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+<style id="webact-promodo-header-style">
+.webact-promodo-header{position:sticky;top:0;z-index:9999;background:#fff;border-bottom:1px solid #e5edf5;font-family:Inter,Arial,sans-serif}
+.webact-promodo-topbar{background:#061421;color:#fff;font-weight:800;text-align:center;padding:12px 20px;font-size:14px;line-height:1.35}
+.webact-promodo-topbar a{color:#33aee7;text-decoration:none;margin-left:24px;white-space:nowrap}
+.webact-promodo-inner{max-width:1460px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:22px 28px;background:#fff}
+.webact-promodo-logo{display:inline-flex;align-items:center;flex:0 0 auto;text-decoration:none}
+.webact-promodo-logo img{width:230px;max-width:24vw;height:auto;display:block}
+.webact-promodo-nav{display:flex;align-items:center;gap:4px;flex:1}
+.webact-promodo-nav-list{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;width:100%}
+.webact-promodo-nav-item{position:relative}
+.webact-promodo-nav-link,.webact-promodo-drop-trigger{appearance:none;border:0;background:transparent;color:#071421;text-decoration:none;font-weight:850;font-size:16px;line-height:1.1;padding:14px 12px;border-radius:8px;display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;font-family:inherit}
+.webact-promodo-nav-link:hover,.webact-promodo-drop-trigger:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-chevron{border:solid currentColor;border-width:0 2px 2px 0;display:inline-block;padding:4px;transform:rotate(45deg);margin-top:-5px}
+.webact-promodo-menu{display:none;position:absolute;top:100%;left:0;min-width:310px;background:#fff;border:1px solid #dce8f1;box-shadow:0 24px 50px rgba(2,18,32,.14);padding:16px;border-radius:0 0 14px 14px;grid-template-columns:repeat(2,minmax(145px,1fr));gap:6px}
+.webact-promodo-menu a{color:#071421;text-decoration:none;padding:10px 12px;border-radius:8px;font-weight:700;font-size:14px;line-height:1.25}
+.webact-promodo-menu a:hover{background:#eaf7fc;color:#119fd7}
+.webact-promodo-nav-item:hover .webact-promodo-menu,.webact-promodo-nav-item:focus-within .webact-promodo-menu,.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}
+.webact-promodo-actions{display:flex;align-items:center;gap:14px;flex:0 0 auto}
+.webact-promodo-search{background:transparent;border:0;color:#071421;font-weight:850;font-size:16px;cursor:pointer;padding:12px;border-radius:8px;font-family:inherit}
+.webact-promodo-search:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-cta{background:#33abe1;color:#071421;text-decoration:none;font-weight:900;padding:18px 24px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;box-shadow:0 8px 18px rgba(51,171,225,.28)}
+.webact-promodo-cta:hover{background:#249ad0;color:#071421}
+.webact-promodo-menu-toggle{display:none;border:1px solid #cfe0eb;background:#fff;border-radius:8px;width:46px;height:42px;align-items:center;justify-content:center;gap:5px;flex-direction:column;cursor:pointer}
+.webact-promodo-menu-toggle span{width:22px;height:2px;background:#071421;display:block}
+body.webact-search-open .webact-search-overlay{display:flex}
+.webact-search-overlay{display:none;position:fixed;inset:0;z-index:10000;background:rgba(4,17,29,.62);align-items:flex-start;justify-content:center;padding:120px 20px 20px}
+.webact-search-panel{width:min(760px,100%);background:#fff;border-radius:14px;padding:24px;box-shadow:0 28px 70px rgba(0,0,0,.22)}
+.webact-search-row{display:flex;gap:10px}
+.webact-search-row input{flex:1;border:1px solid #cddce7;border-radius:8px;padding:14px 16px;font-size:16px}
+.webact-search-row button,.webact-search-close{border:0;border-radius:8px;padding:14px 18px;font-weight:850;cursor:pointer;font-family:inherit}
+.webact-search-row button{background:#33abe1;color:#071421}.webact-search-close{background:#f2f6f9;color:#071421}
+@media (max-width:1250px){.webact-promodo-inner{padding:18px 20px;gap:14px}.webact-promodo-logo img{width:190px}.webact-promodo-nav-link,.webact-promodo-drop-trigger{font-size:14px;padding:12px 8px}.webact-promodo-cta{padding:15px 18px}}
+@media (max-width:1060px){.webact-promodo-inner{flex-wrap:wrap}.webact-promodo-menu-toggle{display:flex}.webact-promodo-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e5edf5;padding-top:12px}.webact-promodo-header.webact-nav-open .webact-promodo-nav{display:block}.webact-promodo-nav-list{display:block}.webact-promodo-nav-item{border-bottom:1px solid #edf3f7}.webact-promodo-nav-link,.webact-promodo-drop-trigger{width:100%;justify-content:space-between;padding:15px 2px;font-size:16px}.webact-promodo-menu{position:static;box-shadow:none;border:0;border-radius:0;padding:0 0 12px 12px;grid-template-columns:1fr}.webact-promodo-nav-item .webact-promodo-menu{display:none}.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}.webact-promodo-actions{margin-left:auto}.webact-promodo-search{font-size:0}.webact-promodo-search:before{content:'Search';font-size:15px}.webact-promodo-cta{padding:13px 16px}}
+@media (max-width:640px){.webact-promodo-topbar{font-size:12px}.webact-promodo-topbar a{display:inline-block;margin-left:10px}.webact-promodo-logo img{width:160px;max-width:52vw}.webact-promodo-inner{padding:14px}.webact-promodo-actions{width:100%;justify-content:space-between;order:3}.webact-promodo-cta{flex:1}.webact-search-overlay{padding-top:90px}.webact-search-row{flex-direction:column}}
+</style>
+
+<link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css">
+</head>
+<body>
+<header class="wa-promodo-header" data-wa-nav>
+  <nav class="wa-promodo-nav" aria-label="Main navigation">
+    <a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home"><img src="../../assets/images/webact-logo.png" alt="WebAct"></a>
+    <ul class="wa-promodo-menu" data-wa-menu>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-design">Design</button>
+        <div class="wa-promodo-mega" id="wa-mega-design">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Design</p><h2 class="wa-promodo-mega-title">Design</h2><p class="wa-promodo-mega-text">Website, logo, graphics, and brand systems built for businesses that need a professional web presence.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="../../design/simple-editor/index.html">Simple Editor</a>
+              <a href="../../design/professional-editor/index.html">Professional Editor</a>
+              <a href="../../design/website-design/index.html">Website Design</a>
+              <a href="../../design/logo-design/index.html">Logo Design</a>
+              <a href="../../design/graphic-design/index.html">Graphic Design</a>
+              <a href="../../design/branding/index.html">Branding</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-digital-ads">Digital Ads</button>
+        <div class="wa-promodo-mega" id="wa-mega-digital-ads">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Digital Ads</p><h2 class="wa-promodo-mega-title">Digital Ads</h2><p class="wa-promodo-mega-text">Campaign services for search, social, local services, streaming TV, and retail advertising channels.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="../../digital-ads/google-advertising/index.html">Google Advertising</a>
+              <a href="../../digital-ads/local-services-advertising/index.html">Local Services Advertising</a>
+              <a href="../../digital-ads/microsoft-advertising/index.html">Microsoft Advertising</a>
+              <a href="../../digital-ads/social-media-advertising/index.html">Social Media Advertising</a>
+              <a href="../../digital-ads/amazon-advertising/index.html">Amazon Advertising</a>
+              <a href="../../digital-ads/television-advertising/index.html">Television Advertising</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-marketing">Marketing</button>
+        <div class="wa-promodo-mega" id="wa-mega-marketing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Marketing</p><h2 class="wa-promodo-mega-title">Marketing</h2><p class="wa-promodo-mega-text">SEO, local visibility, listings, business profiles, and email marketing support for steady growth.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="../../marketing/national-seo/index.html">National SEO</a>
+              <a href="../../marketing/local-seo/index.html">Local SEO</a>
+              <a href="../../marketing/aeo/index.html">AEO</a>
+              <a href="../../marketing/gmb/index.html">GMB</a>
+              <a href="../../marketing/local-listings/index.html">Local Listings</a>
+              <a href="../../marketing/email-marketing/index.html">Email Marketing</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-about">About</button>
+        <div class="wa-promodo-mega" id="wa-mega-about">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct About</p><h2 class="wa-promodo-mega-title">About</h2><p class="wa-promodo-mega-text">See WebAct work, resources, knowledge base articles, videos, and client support links.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="../../about/about-us/index.html">About WebAct</a>
+              <a href="../../about/portfolio/index.html">Portfolio</a>
+              <a href="../../about/faq/index.html">FAQ</a>
+              <a href="../../about/blog/index.html">Blog</a>
+              <a href="../../about/website-knowledge-base/index.html">Website Knowledge Base</a>
+              <a href="../../about/widget-knowledge-base/index.html">Widget Knowledge Base</a>
+              <a href="../../about/how-to-videos/index.html">How-To Videos</a>
+              <a href="../../about/login/index.html">Login</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-pricing">Pricing</button>
+        <div class="wa-promodo-mega" id="wa-mega-pricing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Pricing</p><h2 class="wa-promodo-mega-title">Pricing</h2><p class="wa-promodo-mega-text">Explore design, marketing, advertising, package, and app service pricing.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="../../pricing/design/index.html">Design Pricing</a>
+              <a href="../../pricing/marketing/index.html">Marketing Pricing</a>
+              <a href="../../pricing/advertising/index.html">Advertising Pricing</a>
+              <a href="../../pricing/packages/index.html">Packages</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-industries">Industries</button>
+        <div class="wa-promodo-mega" id="wa-mega-industries">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Industries</p><h2 class="wa-promodo-mega-title">Industries</h2><p class="wa-promodo-mega-text">Industry-specific website design, advertising, marketing, apps, and case-study examples.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="../../industries/index.html">All Industries</a>
+              <a href="../../industries/jewelry-stores/index.html">Jewelry Stores</a>
+              <a href="../../industries/hvac/index.html">HVAC</a>
+              <a href="../../industries/roofing/index.html">Roofing</a>
+              <a href="../../industries/plumbing/index.html">Plumbing</a>
+              <a href="../../industries/real-estate/index.html">Real Estate</a>
+              <a href="../../industries/non-profit/index.html">Non Profits</a>
+              <a href="../../industries/home-care/index.html">Home Care</a>
+              <a href="../../industries/parking-mobility/index.html">Parking &amp; Mobility</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-add-ons">Add-ons</button>
+        <div class="wa-promodo-mega" id="wa-mega-add-ons">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Add-ons</p><h2 class="wa-promodo-mega-title">Add-ons</h2><p class="wa-promodo-mega-text">Domains, email, widgets, and WebAct app store options that extend your website.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="../../addons/domain-names/index.html">Domain Names</a>
+              <a href="../../addons/professional-email/index.html">Professional Email</a>
+              <a href="../../addons/widgets/index.html">Widgets</a>
+              <a href="../../addons/website-app-store/index.html">Website App Store</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li>
+    </ul>
+    <div class="wa-promodo-actions">
+      <a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a>
+      <button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button>
+    </div>
+  </nav>
+</header>
+<main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">Logo Design Services</p>
+          <h1>Logo design that makes your business look ready.</h1>
+          <p class="hero-copy">WebAct creates professional logo systems for websites, advertising, social media, print, signage, and every place your customers meet your brand.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="../../contact/index.html">Start a Logo Project</a>
+            <a class="button outline" href="../../about/portfolio/index.html">View Portfolio</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Logo design preview">
+          <div class="logo-board">
+            <div class="logo-tile">
+              <div class="logo-mark">W</div>
+              <span>Brand mark</span>
+            </div>
+            <div class="logo-tile dark">
+              <strong>ACT</strong>
+              <span>Wordmark</span>
+            </div>
+            <div class="logo-tile blue">
+              <strong>WA</strong>
+              <span>Lettermark</span>
+            </div>
+            <div class="logo-tile">
+              <strong>Brand Kit</strong>
+              <span>Colors, files, and usage</span>
+            </div>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric">
+              <strong>3+</strong>
+              <span>Concept paths</span>
+            </div>
+            <div class="metric">
+              <strong>100%</strong>
+              <span>Custom work</span>
+            </div>
+            <div class="metric">
+              <strong>Web</strong>
+              <span>Print-ready files</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="anchor-bar">
+      <div class="anchor-inner">
+        <a href="#overview">Overview</a>
+        <a href="#styles">Logo Styles</a>
+        <a href="#packages">Packages</a>
+        <a href="#process">Process</a>
+        <a href="#deliverables">Deliverables</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <section id="overview">
+      <div class="section-inner split">
+        <div>
+          <p class="section-kicker">Custom Logo Design</p>
+          <h2>A logo built around your business, not a template.</h2>
+          <p class="lead">Your logo needs to be simple enough to remember, flexible enough to use everywhere, and polished enough to make customers trust you before they read a word.</p>
+        </div>
+        <div class="feature-card">
+          <h3>WebAct designs logos with the full brand experience in mind.</h3>
+          <p class="lead">That means your mark is created to work with your website, landing pages, Google ads, social profiles, email signatures, vehicle graphics, business cards, and storefront materials.</p>
+          <div class="check-grid">
+            <div class="check">Original logo concepts</div>
+            <div class="check">Color and font direction</div>
+            <div class="check">Horizontal and stacked layouts</div>
+            <div class="check">Transparent and dark-mode versions</div>
+            <div class="check">Social profile and favicon assets</div>
+            <div class="check">Launch-ready web and print files</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="styles" class="band">
+      <div class="section-inner">
+        <p class="section-kicker">Logo Styles</p>
+        <h2>Choose the right logo direction for how customers find you.</h2>
+        <p class="lead">We help you select the right format based on your industry, audience, signage needs, website layout, and advertising channels.</p>
+        <div class="grid four" style="margin-top: 34px;">
+          <article class="service-card">
+            <span class="number">01</span>
+            <h3>Wordmark Logos</h3>
+            <p>Clean typography-led logos for businesses that want their name to be the first thing customers remember.</p>
+          </article>
+          <article class="service-card">
+            <span class="number">02</span>
+            <h3>Lettermark Logos</h3>
+            <p>Initial-based designs for brands with longer names or businesses that need a compact, professional mark.</p>
+          </article>
+          <article class="service-card">
+            <span class="number">03</span>
+            <h3>Brand Marks</h3>
+            <p>Icon-driven marks that can stand alone on apps, social profiles, product labels, vehicles, uniforms, and signage.</p>
+          </article>
+          <article class="service-card">
+            <span class="number">04</span>
+            <h3>Combination Marks</h3>
+            <p>Flexible logo systems that pair a symbol with your business name for the strongest everyday use.</p>
+          </article>
+          <article class="service-card">
+            <span class="number">05</span>
+            <h3>Emblem Logos</h3>
+            <p>Badge-style logos for service businesses, clubs, restaurants, local brands, and organizations that need authority.</p>
+          </article>
+          <article class="service-card">
+            <span class="number">06</span>
+            <h3>Logo Refreshes</h3>
+            <p>Modernize an existing logo while keeping the recognition your customers already know.</p>
+          </article>
+          <article class="service-card">
+            <span class="number">07</span>
+            <h3>Brand Kits</h3>
+            <p>Logo, color palette, font direction, and usage rules so your team can stay consistent after launch.</p>
+          </article>
+          <article class="service-card">
+            <span class="number">08</span>
+            <h3>Campaign Logos</h3>
+            <p>Event, product, promotion, and sub-brand logos that support a specific launch or marketing push.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="packages">
+      <div class="section-inner">
+        <p class="section-kicker">Logo Design Packages</p>
+        <h2>Logo design options for new brands, growing businesses, and rebrands.</h2>
+        <p class="lead">Every project is scoped around your goals. These package types give you a clear starting point.</p>
+        <div class="grid three" style="margin-top: 34px;">
+          <article class="package-card">
+            <span class="package-label">Starter</span>
+            <h3>Logo Essentials</h3>
+            <p>A focused logo package for businesses that need a clean, professional identity quickly.</p>
+            <ul>
+              <li>Discovery questionnaire</li>
+              <li>Custom logo concepts</li>
+              <li>One selected logo direction</li>
+              <li>Basic color and type direction</li>
+              <li>Web-ready logo files</li>
+            </ul>
+            <div class="cta-row">
+              <a class="button primary" href="../../contact/index.html">Request Pricing</a>
+            </div>
+          </article>
+          <article class="package-card highlight">
+            <span class="package-label">Popular</span>
+            <h3>Business Brand Logo</h3>
+            <p>A complete logo system for businesses that need consistency across digital and print materials.</p>
+            <ul>
+              <li>Creative strategy and direction</li>
+              <li>Multiple concept routes</li>
+              <li>Horizontal, stacked, and icon versions</li>
+              <li>Color palette and font pairing</li>
+              <li>Transparent, dark, light, and print files</li>
+            </ul>
+            <div class="cta-row">
+              <a class="button primary" href="../../contact/index.html">Start This Package</a>
+            </div>
+          </article>
+          <article class="package-card">
+            <span class="package-label">Rebrand</span>
+            <h3>Complete Brand System</h3>
+            <p>A larger identity package for businesses updating their full public presence.</p>
+            <ul>
+              <li>Logo refresh or new logo direction</li>
+              <li>Full logo family and usage guide</li>
+              <li>Social, favicon, and ad-ready assets</li>
+              <li>Business card or email signature direction</li>
+              <li>Website and marketing alignment</li>
+            </ul>
+            <div class="cta-row">
+              <a class="button primary" href="../../contact/index.html">Plan a Rebrand</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="band">
+      <div class="section-inner split">
+        <div>
+          <p class="section-kicker">Our Process</p>
+          <h2>A clear path from idea to finished brand files.</h2>
+          <p class="lead">We keep the process direct and collaborative so your logo looks professional and still feels true to your business.</p>
+          <div class="cta-row">
+            <a class="button primary" href="../../contact/index.html">Talk to WebAct</a>
+          </div>
+        </div>
+        <div class="process">
+          <article class="process-step">
+            <div>
+              <h3>Discovery</h3>
+              <p>We learn your business, competitors, audience, style preferences, and where the logo needs to be used.</p>
+            </div>
+          </article>
+          <article class="process-step">
+            <div>
+              <h3>Concepts</h3>
+              <p>We create logo directions with different visual approaches so you can compare what fits best.</p>
+            </div>
+          </article>
+          <article class="process-step">
+            <div>
+              <h3>Refinement</h3>
+              <p>We tighten the selected direction, adjust colors, improve spacing, and prepare final variations.</p>
+            </div>
+          </article>
+          <article class="process-step">
+            <div>
+              <h3>Delivery</h3>
+              <p>You receive organized logo files for your website, ads, social media, print vendors, and business use.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="deliverables">
+      <div class="section-inner split">
+        <div class="feature-card dark">
+          <p class="section-kicker">Brand Ready</p>
+          <h2>Logo files for every place your business shows up.</h2>
+          <p class="lead">A good logo is not just one image. You need a complete file set so it looks right on white backgrounds, dark backgrounds, business cards, social profiles, websites, ads, uniforms, and signs.</p>
+        </div>
+        <div>
+          <div class="grid two">
+            <div class="check">PNG files with transparent backgrounds</div>
+            <div class="check">JPG files for quick everyday use</div>
+            <div class="check">Vector files for print and signage</div>
+            <div class="check">Dark, light, and one-color versions</div>
+            <div class="check">Stacked and horizontal layouts</div>
+            <div class="check">Favicon and social profile assets</div>
+          </div>
+        </div>
+      </div>
+      <div class="section-inner">
+        <div class="showcase">
+          <div class="showcase-item">Service Brands</div>
+          <div class="showcase-item">Retail Brands</div>
+          <div class="showcase-item">Medical Brands</div>
+          <div class="showcase-item">Local Brands</div>
+          <div class="showcase-item">Startups</div>
+          <div class="showcase-item">Rebrands</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="band">
+      <div class="section-inner">
+        <p class="section-kicker">Logo Design FAQ</p>
+        <h2>Questions businesses ask before starting a logo project.</h2>
+        <div class="faq-list">
+          <details class="faq" open>
+            <summary>What makes a professional logo different from a quick template logo?</summary>
+            <p>A professional logo is designed around your business goals, audience, competitors, and real-world use cases. It is built to scale, reproduce cleanly, and stay consistent across your website, ads, print, and signage.</p>
+          </details>
+          <details class="faq">
+            <summary>Can WebAct redesign my current logo?</summary>
+            <p>Yes. We can refresh your existing logo, clean up the artwork, modernize the typography, improve readability, and create proper file formats without losing the recognition your current customers already have.</p>
+          </details>
+          <details class="faq">
+            <summary>Do I get files for my website and print materials?</summary>
+            <p>Yes. Final delivery can include transparent PNG files, JPG files, vector files, black and white versions, color versions, and layout variations for web, print, social media, and vendors.</p>
+          </details>
+          <details class="faq">
+            <summary>Can you match the logo to my website design?</summary>
+            <p>Yes. WebAct designs logos with your website and marketing in mind, so your logo, colors, buttons, typography, and landing pages feel connected.</p>
+          </details>
+          <details class="faq">
+            <summary>How many concepts do I receive?</summary>
+            <p>The number of concepts depends on the project scope. Most projects begin with several visual directions so you can choose the strongest route before refinement.</p>
+          </details>
+          <details class="faq">
+            <summary>Can you create business cards, social graphics, or brand materials too?</summary>
+            <p>Yes. Logo projects can be paired with graphic design and branding services for business cards, social profile images, email signatures, flyers, brochures, and ad creative.</p>
+          </details>
+          <details class="faq">
+            <summary>Can you help choose colors and fonts?</summary>
+            <p>Yes. We can provide color palette direction and font recommendations so the logo is easy to apply across your website and marketing materials.</p>
+          </details>
+          <details class="faq">
+            <summary>How do I get started?</summary>
+            <p>Contact WebAct with your business name, industry, style preferences, current website if you have one, and any examples you like. We will help scope the right logo package.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-inner contact-panel">
+        <div>
+          <p class="section-kicker">Start Your Logo</p>
+          <h2>Ready for a logo that fits your business?</h2>
+          <p class="lead">Tell us what you are building, what you want customers to feel, and where the logo needs to be used. WebAct will help you turn that into a professional brand identity.</p>
+        </div>
+        <form action="../../contact/index.html" method="get">
+          <div class="form-grid">
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name">
+            </label>
+            <label>
+              Business Name
+              <input type="text" name="business">
+            </label>
+          </div>
+          <div class="form-grid">
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email">
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" autocomplete="tel">
+            </label>
+          </div>
+          <label>
+            Logo Project Type
+            <select name="logo_project">
+              <option>New logo</option>
+              <option>Logo refresh</option>
+              <option>Full brand system</option>
+              <option>Logo plus website design</option>
+            </select>
+          </label>
+          <label>
+            Project Notes
+            <textarea name="message" placeholder="Tell us about your business, style preferences, and where the logo will be used."></textarea>
+          </label>
+          <button class="button primary" type="submit">Send Logo Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a class="brand" href="../../index.html">Web<span>Act</span></a>
+        <p style="margin: 10px 0 0; color: #cbd5df;">Professional website design, logo design, advertising, and marketing under one team.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../website-design/index.html">Website Design</a>
+        <a href="../branding/index.html">Branding</a>
+        <a href="../../pricing/design/index.html">Design Pricing</a>
+        <a href="../../contact/index.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.main-nav');
+
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        const isOpen = nav.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(isOpen));
+      });
+    }
+  </script>
+<script id="webact-promodo-header-script">
+(function(){
+  document.querySelectorAll('[data-webact-promodo-header]').forEach(function(header){
+    var toggle=header.querySelector('[data-webact-menu-toggle]');
+    if(toggle){toggle.addEventListener('click',function(){var open=header.classList.toggle('webact-nav-open');toggle.setAttribute('aria-expanded',open?'true':'false');});}
+    header.querySelectorAll('[data-webact-dropdown]').forEach(function(btn){
+      btn.addEventListener('click',function(e){
+        if(window.matchMedia('(max-width:1060px)').matches){
+          e.preventDefault();
+          var item=btn.closest('.webact-promodo-nav-item');
+          if(item){item.classList.toggle('webact-open');btn.setAttribute('aria-expanded',item.classList.contains('webact-open')?'true':'false');}
+        }
+      });
+    });
+    var search=header.querySelector('[data-webact-search-open]');
+    var close=header.querySelector('[data-webact-search-close]');
+    if(search){search.addEventListener('click',function(){document.body.classList.add('webact-search-open');var input=header.querySelector('.webact-search-row input');if(input){setTimeout(function(){input.focus();},50);}});}
+    if(close){close.addEventListener('click',function(){document.body.classList.remove('webact-search-open');});}
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.body.classList.remove('webact-search-open');}});
+})();
+</script>
+
+<script src="../../assets/js/webact-promodo-nav.js" defer></script>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,12 @@
+{
+    "source":  "C:\\Users\\blewi\\AppData\\Local\\Temp\\codex-clipboard-6ada7a5d-6d0e-437c-9f5a-b7a0e83f13c5.png",
+    "sourceExists":  true,
+    "copied":  true,
+    "asset":  "C:\\Users\\blewi\\Documents\\Codex\\2026-06-08\\files-mentioned-by-the-user-2026\\outputs\\webact-redesign\\assets\\images\\industry-mockups\\auto-repair.png",
+    "assetExists":  true,
+    "indexUpdated":  false,
+    "updatedPages":  [
+
+                     ],
+    "error":  "Cannot convert argument \"matchTimeout\", with value: \"IgnoreCase\", for \"Replace\" to type \"System.TimeSpan\": \"Cannot convert value \"IgnoreCase\" to type \"System.TimeSpan\". Error: \"Invalid cast from \u0027System.Text.RegularExpressions.RegexOptions\u0027 to \u0027System.TimeSpan\u0027.\"\""
+}
