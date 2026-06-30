@@ -136,7 +136,7 @@ async function main() {
 
   fs.writeFileSync(
     path.join(outDir, 'portfolio-data-all.js'),
-    jsArray(rows, 'PORTFOLIO_ITEMS'),
+    jsArray(rows, 'webactPortfolioRows'),
     'utf8'
   );
 

@@ -1,4 +1,4 @@
-window.PORTFOLIO_ITEMS = [
+window.webactPortfolioRows = [
   ["360 Sales Advantage","Business","../../Resources/images/360 sales advantage-1920w.png",""],
   ["A Breed Apart Papillons","Pets","../../Resources/images/a-breed-apart-papillons-1920w.png",""],
   ["A CALIFORNIA Driving School","Education","../../Resources/images/A-CALIFORNIA-Driving-School-1920w.png",""],
