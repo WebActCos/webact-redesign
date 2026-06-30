@@ -38,7 +38,7 @@ function normalizeImage(src) {
 
 function guessIndustry(name) {
   const n = name.toLowerCase();
-
+if (/(360 sales advantage|consulting|coach|agency|business|sales|marketing|executive|capital|benefits|insurance|group|partners)/.test(n)) return 'Professional Services';
   if (/(dental|dentist|orthodont|implant|smile|dentures)/.test(n)) return 'Dental';
   if (/(law|legal|attorney|defender|creditor)/.test(n)) return 'Legal';
   if (/(restaurant|cuisine|pizza|sushi|zaika|mehak|haveli|tadka|nirvana|sage)/.test(n)) return 'Restaurant';
