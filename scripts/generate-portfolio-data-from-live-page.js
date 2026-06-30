@@ -36,17 +36,42 @@ function normalizeImage(src) {
   return `../../Resources/images/${file}`;
 }
 
+const INDUSTRY_OVERRIDES = {
+  "360 Sales Advantage": "Professional Services",
+  "A Breed Apart Papillons": "Pet Services",
+  "A CALIFORNIA Driving School": "Driving School",
+  "A Dog's Day Out": "Pet Services",
+  "A Pup's Valley": "Pet Services",
+  "Abdul Electric": "Electrical",
+  "Absolute Home Care": "Home Care",
+  "Absolute Pest Control Services": "Pest Control",
+  "Aces Driving School": "Driving School",
+  "Ace Pet Services": "Pet Services",
+  "NOLA Water": "Water Treatment",
+  "Little Caesars": "Restaurant",
+  "Mountain West Law Group": "Legal",
+  "Evans Legal Group": "Legal",
+  "Kramarz Law": "Legal",
+  "Summit Graphics": "Printing & Graphics",
+  "Superior Showers": "Home Services",
+  "US Green": "Energy",
+  "Tadka Indian Cuisine": "Restaurant",
+  "Zaika Colorado Springs": "Restaurant"
+};
+
 function guessIndustry(name) {
+  if (INDUSTRY_OVERRIDES[name]) return INDUSTRY_OVERRIDES[name];
+
   const n = name.toLowerCase();
-if (/(360 sales advantage|consulting|coach|agency|business|sales|marketing|executive|capital|benefits|insurance|group|partners)/.test(n)) return 'Professional Services';
+
+  if (/(360 sales advantage|consulting|coach|agency|business|sales|marketing|executive|capital|benefits|insurance|group|partners)/.test(n)) return 'Professional Services';
   if (/(dental|dentist|orthodont|implant|smile|dentures)/.test(n)) return 'Dental';
   if (/(law|legal|attorney|defender|creditor)/.test(n)) return 'Legal';
   if (/(restaurant|cuisine|pizza|sushi|zaika|mehak|haveli|tadka|nirvana|sage)/.test(n)) return 'Restaurant';
   if (/(pest|lawn|landscap|roof|hvac|heating|plumbing|electric|construction|remodel|shower|glass|home|inspection)/.test(n)) return 'Home Services';
-  if (/(driving|traffic|school)/.test(n)) return 'Education';
+  if (/(driving|traffic|school)/.test(n)) return 'Driving School';
   if (/(care|health|medical|hospice|wellness|fitness|bodywork|skin)/.test(n)) return 'Healthcare';
-  if (/(insurance|benefits|finance|capital|tax|accounting)/.test(n)) return 'Professional Services';
-  if (/(dog|pet|k9|papillon|labradoodle|equine)/.test(n)) return 'Pets';
+  if (/(dog|pet|k9|papillon|labradoodle|equine)/.test(n)) return 'Pet Services';
   if (/(fair|festival|charity|foundation|nonprofit|children)/.test(n)) return 'Nonprofit';
   if (/(wireless|cell|technology|app|esports|gaming)/.test(n)) return 'Technology';
 
@@ -146,7 +171,7 @@ async function main() {
     const chunk = rows.slice(i * chunkSize, (i + 1) * chunkSize);
     fs.writeFileSync(
       path.join(outDir, `portfolio-data-part${i + 1}.js`),
-      jsArray(chunk, `PORTFOLIO_ITEMS_PART_${i + 1}`),
+      jsArray(chunk, `webactPortfolioRowsPart${i + 1}`),
       'utf8'
     );
   }
