@@ -1,36 +1,184 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>WebAct Portfolio Case Study</title>
-<meta name="description" content="WebAct website design portfolio case study.">
-<link rel="stylesheet" href="../../styles.css?v=reviews-layout-fix"><link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css"><link rel="stylesheet" href="./portfolio-premium.css">
+<meta name="description" content="Explore this WebAct website design case study with project overview, services, industry details, and related portfolio work.">
+<link rel="canonical" href="https://www.webact.com/about/portfolio/case-study.html">
+<link rel="stylesheet" href="../../styles.css?v=reviews-layout-fix">
+<link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css">
 <style>
-:root{--blue:#27a8e0;--ink:#071927;--muted:#5d6c78;--line:#dce7ee;--soft:#f4f9fc}*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--ink);font-family:Inter,Arial,Helvetica,sans-serif}.case-hero{background:linear-gradient(180deg,#eef8fd 0%,#fff 100%);border-bottom:1px solid var(--line)}.case-wrap{max-width:1180px;margin:0 auto;padding:0 22px}.case-hero .case-wrap{padding-top:72px;padding-bottom:54px;display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.9fr);gap:42px;align-items:center}.eyebrow{margin:0 0 14px;color:var(--blue);font-weight:900;text-transform:uppercase;font-size:13px;letter-spacing:.08em}.case-hero h1{margin:0;font-size:clamp(42px,7vw,78px);line-height:.98}.case-hero p{margin:18px 0 0;color:var(--muted);font-size:20px;line-height:1.55}.case-section{padding:64px 0}.case-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.case-card{border:1px solid var(--line);border-radius:12px;background:#fff;padding:26px;box-shadow:0 12px 34px rgba(5,25,39,.06)}.case-card h2,.case-card h3{margin:0 0 14px}.case-card p,.case-card li{color:var(--muted);line-height:1.65}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.tags span{border-radius:999px;background:#e7f6fc;color:#148fc4;font-size:12px;font-weight:900;text-transform:uppercase;padding:8px 11px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border-radius:8px;background:#071927;color:#fff;font-weight:900;text-decoration:none}.btn.secondary{background:#27a8e0;color:#071927}.not-found{padding:80px 22px;text-align:center}.site-footer{border-top:1px solid var(--line);background:#071927;color:#fff;padding:32px 22px;text-align:center}.site-footer img{max-width:170px}.footer-links{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:18px;font-weight:900}@media(max-width:860px){.case-hero .case-wrap,.case-grid{grid-template-columns:1fr}.case-section{padding:44px 0}}
+:root{
+  --blue:#27a8e0;
+  --dark:#071927;
+  --text:#4f6372;
+  --muted:#6e7f8c;
+  --line:#dfe8ef;
+  --soft:#f5fafd;
+  --white:#fff;
+  --shadow:0 28px 80px rgba(7,25,39,.14);
+}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--dark);font-family:Inter,Arial,Helvetica,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.case-hero{background:linear-gradient(180deg,#eef8fd 0%,#fff 100%);border-bottom:1px solid var(--line)}
+.case-hero-inner{max-width:1220px;margin:0 auto;padding:72px 22px 54px;display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.72fr);gap:42px;align-items:center}
+.eyebrow{margin:0 0 14px;color:var(--blue);font-weight:900;text-transform:uppercase;font-size:13px;letter-spacing:.08em}
+.case-hero h1{margin:0;font-size:clamp(42px,7vw,82px);line-height:.95;letter-spacing:-.04em}
+.case-hero p{margin:20px 0 0;max-width:760px;color:var(--text);font-size:20px;line-height:1.6}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:14px 20px;font-weight:900;border:1px solid var(--dark)}
+.btn-primary{background:var(--blue);border-color:var(--blue);color:#fff}
+.btn-secondary{background:#fff;color:var(--dark)}
+.stats-panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:var(--shadow)}
+.stats-panel h2{margin:0 0 18px;font-size:22px}
+.stat-list{display:grid;gap:16px}
+.stat{padding:16px;border-radius:16px;background:var(--soft);border:1px solid #e2edf4}
+.stat span{display:block;color:var(--muted);font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.stat strong{display:block;font-size:18px;color:var(--dark)}
+.case-main{max-width:1220px;margin:0 auto;padding:52px 22px 82px}
+.browser-showcase{border-radius:24px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);background:#edf5f9;margin-bottom:54px}
+.browser-bar{display:flex;align-items:center;gap:9px;padding:14px 18px;background:#e4edf3;border-bottom:1px solid #d5e2ea}
+.dot{width:12px;height:12px;border-radius:50%;display:inline-block}
+.dot.red{background:#ff5f56}.dot.yellow{background:#ffbd2e}.dot.green{background:#27c93f}
+.browser-url{margin-left:12px;color:#70818d;font-size:12px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.hero-image{background:#fff}
+.hero-image img{display:block;width:100%;height:auto}
+.case-grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:36px;align-items:start}
+.section-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px;box-shadow:0 16px 48px rgba(7,25,39,.07);margin-bottom:24px}
+.section-card h2{margin:0 0 16px;font-size:34px;letter-spacing:-.03em}
+.section-card h3{margin:0 0 12px;font-size:22px}
+.section-card p{margin:0;color:var(--text);font-size:17px;line-height:1.75}
+.split-blocks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:22px}
+.mini-block{background:var(--soft);border:1px solid #e1edf4;border-radius:18px;padding:22px}
+.mini-block strong{display:block;margin-bottom:8px;font-size:17px}
+.mini-block p{font-size:15px;line-height:1.6}
+.service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}
+.service-card{padding:18px;border-radius:16px;background:var(--soft);border:1px solid #e1edf4;font-weight:900;color:var(--dark)}
+.service-card:before{content:"✓";display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;margin-right:9px;border-radius:50%;background:var(--blue);color:#fff;font-size:14px}
+.sidebar{position:sticky;top:24px}
+.sidebar-card{background:#071927;color:#fff;border-radius:22px;padding:28px;box-shadow:var(--shadow);margin-bottom:22px}
+.sidebar-card h3{margin:0 0 16px;font-size:24px}
+.sidebar-card p{margin:0 0 20px;color:#bfd2dd;line-height:1.65}
+.sidebar-card .btn{width:100%;background:var(--blue);border-color:var(--blue);color:#fff}
+.detail-list{display:grid;gap:14px;margin-top:20px}
+.detail{padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.14)}
+.detail:last-child{border-bottom:0;padding-bottom:0}
+.detail span{display:block;color:#91a9b7;font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.detail strong{display:block;font-size:17px}
+.related{margin-top:54px}
+.related h2{font-size:38px;margin:0 0 22px;letter-spacing:-.03em}
+.related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.related-card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 14px 40px rgba(7,25,39,.08);transition:transform .3s ease,box-shadow .3s ease}
+.related-card:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(7,25,39,.16)}
+.related-card img{width:100%;aspect-ratio:16/10;object-fit:cover;background:#f2f6f8}
+.related-card div{padding:18px}
+.related-card span{display:inline-flex;margin-bottom:9px;color:var(--blue);font-weight:900;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.related-card h3{margin:0;font-size:20px}
+.case-nav{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:46px}
+.case-nav a{border:1px solid var(--line);border-radius:999px;padding:14px 18px;font-weight:900;background:#fff}
+.cta-band{margin-top:64px;background:linear-gradient(135deg,#071927 0%,#0d344d 100%);color:#fff;border-radius:28px;padding:48px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;box-shadow:var(--shadow)}
+.cta-band h2{margin:0;font-size:42px;letter-spacing:-.04em}
+.cta-band p{margin:12px 0 0;color:#c3d6e0;font-size:18px;line-height:1.6}
+.cta-band .btn{background:var(--blue);border-color:var(--blue);color:#fff}
+.site-footer{border-top:1px solid var(--line);background:#071927;color:#fff;padding:32px 22px;text-align:center}
+.site-footer img{max-width:170px}
+.footer-links{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:18px;font-weight:900}
+.not-found{max-width:860px;margin:70px auto;padding:40px 22px;text-align:center}
+.not-found h1{font-size:48px;margin:0 0 12px}
+.not-found p{color:var(--text);font-size:18px;line-height:1.6}
+@media(max-width:980px){
+  .case-hero-inner,.case-grid,.cta-band{grid-template-columns:1fr}
+  .sidebar{position:relative;top:auto}
+  .related-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .split-blocks{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .case-hero-inner{padding-top:48px}
+  .service-grid,.related-grid{grid-template-columns:1fr}
+  .cta-band{padding:30px}
+  .cta-band h2{font-size:32px}
+}
 </style>
 </head>
 <body>
-<header class="wa-promodo-header" data-wa-nav><nav class="wa-promodo-nav" aria-label="Main navigation"><a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home"><img src="../../assets/images/webact-logo.png" alt="WebAct"></a><ul class="wa-promodo-menu" data-wa-menu><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../index.html">Home</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../design/website-design/index.html">Website Design</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../digital-ads/index.html">Digital Ads</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../marketing/index.html">Marketing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li></ul><div class="wa-promodo-actions"><a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a><button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button></div></nav></header>
-<main id="case-root"><div class="not-found">Loading case study...</div></main>
-<footer class="site-footer"><img src="../../assets/logo.png" alt="WebAct"><p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p><div class="footer-links"><a href="../../design/index.html">Design</a><a href="../../digital-ads/index.html">Digital Ads</a><a href="../../marketing/index.html">Marketing</a><a href="../../pricing/index.html">Pricing</a></div></footer>
-<script src="../../script.js?v=reviews-layout-fix"></script><script src="../../assets/js/webact-promodo-nav.js" defer></script><script src="./portfolio-data.js"></script><script src="./portfolio-data-all.js"></script>
+<header class="wa-promodo-header" data-wa-nav><nav class="wa-promodo-nav" aria-label="Main navigation"><a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home"><img src="../../assets/images/webact-logo.png" alt="WebAct"></a><ul class="wa-promodo-menu" data-wa-menu><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../design/website-design/index.html">Website Design</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../digital-ads/index.html">Digital Ads</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../marketing/index.html">Marketing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../industries/index.html">Industries</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../pricing/index.html">Pricing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li></ul><div class="wa-promodo-actions"><a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a><button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button></div></nav></header>
+
+<div id="case-root"></div>
+
+<footer class="site-footer"><img src="../../assets/logo.png" alt="WebAct"><p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p><div class="footer-links"><a href="../../design/index.html">Design</a><a href="../../digital-ads/index.html">Digital Ads</a><a href="../../marketing/index.html">Marketing</a><a href="../../pricing/index.html">Pricing</a><a href="../../addons/index.html">Add-ons</a></div></footer>
+
+<script src="../../script.js?v=reviews-layout-fix"></script>
+<script src="../../assets/js/webact-promodo-nav.js" defer></script>
+<script src="./portfolio-data.js?v=old-fallback"></script>
+<script src="./portfolio-data-all.js?v=full-231-rows-phase-4-case-study"></script>
+
 <script>
-const slug=s=>s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-const svc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive'].includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
-const rows=window.webactPortfolioRows||[];
 const fallback=window.webactPortfolioProjects||[];
-const projects=rows.length?rows.map(r=>({name:r[0],industry:r[1],img:r[2],url:r[3],services:svc(r[1]),desc:r[1]+' website design case study for '+r[0]+', focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.'})):fallback;
-const params=new URLSearchParams(location.search);
-const key=params.get('project')||'';
-const project=projects.find(p=>slug(p.name)===key)||projects[0];
+const rows=window.webactPortfolioRows||[];
+
+const svc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive','Dental','Legal','Electrical','Water Treatment','Printing & Graphics','Energy'].includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
+
+const slug=s=>String(s||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+
+const projects=rows.length?rows.map(r=>({
+  name:r[0],
+  industry:r[1],
+  img:r[2],
+  url:r[3],
+  services:svc(r[1]),
+  desc:r[1]+' website design case study for '+r[0]+', focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.'
+})):fallback;
+
+const params=new URLSearchParams(window.location.search);
+const requested=params.get('project')||'';
+let index=projects.findIndex(p=>slug(p.name)===requested);
+
+if(index<0 && projects.length) index=0;
+
 const root=document.getElementById('case-root');
-if(!project){root.innerHTML='<div class="not-found"><h1>Case study not found</h1><p><a href="./index.html">Back to portfolio</a></p></div>';}else{
-document.title=project.name+' Website Design Case Study | WebAct Portfolio';
-document.querySelector('meta[name="description"]').setAttribute('content',project.desc);
-const tags=(project.services||[]).map(s=>'<span>'+s+'</span>').join('');
-const related=projects.filter(p=>p.industry===project.industry&&p.name!==project.name).slice(0,3).map(p=>'<a class="related-card" href="./case-study.html?project='+slug(p.name)+'"><small>'+p.industry+'</small><strong>'+p.name+'</strong></a>').join('');
-root.innerHTML='<section class="case-hero"><div class="case-wrap"><div><p class="eyebrow">'+project.industry+' Case Study</p><h1>'+project.name+'</h1><p>'+project.desc+'</p><div class="tags">'+tags+'</div><div class="actions"><a class="btn" href="../../contact/index.html">Start a Similar Project</a><a class="btn secondary" href="./index.html">Back to Portfolio</a></div><div class="case-stat-grid"><div class="case-stat"><b>Industry</b><span>'+project.industry+'</span></div><div class="case-stat"><b>Website Type</b><span>Business Website</span></div><div class="case-stat"><b>Design</b><span>Responsive Layout</span></div><div class="case-stat"><b>Goal</b><span>Lead Generation</span></div></div></div><div class="case-browser-frame"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="case-image"><img src="'+project.img+'" alt="'+project.name+' website screenshot" loading="lazy"></div></div></div></section><section class="case-section"><div class="case-wrap case-grid"><article class="case-card"><h2>Project Overview</h2><p>This WebAct project highlights a website design built for '+project.name+' in the '+project.industry+' industry. The goal was to create a professional, trustworthy, and easy-to-navigate online presence that helps visitors understand the business and take the next step.</p></article><article class="case-card"><h2>Services Featured</h2><div class="tags">'+tags+'</div><p>Each portfolio project connects website design with the marketing foundation needed for visibility, credibility, and customer inquiries.</p></article><article class="case-card"><h3>Design Focus</h3><ul><li>Consistent branded presentation</li><li>Industry-relevant messaging</li><li>Mobile-friendly structure</li><li>Simple navigation and contact paths</li></ul></article><article class="case-card"><h3>Related WebAct Support</h3><ul><li>Website design and layout</li><li>Service page structure</li><li>Local search support</li><li>Conversion-focused calls to action</li></ul></article></div></section><section class="case-section" style="padding-top:0"><div class="case-wrap"><h2>Related '+project.industry+' Projects</h2><div class="related-grid">'+(related||'<p>No related projects available yet.</p>')+'</div></div></section>';
+
+function serviceText(project){
+  return project.services.map(s=>'<div class="service-card">'+s+'</div>').join('');
 }
-</script><script src="./portfolio-image-fallback.js"></script>
-</body>
-</html>
+
+function relatedCards(project){
+  return projects
+    .filter(p=>p.name!==project.name && p.industry===project.industry)
+    .slice(0,3)
+    .map(p=>'<a class="related-card" href="./case-study.html?project='+slug(p.name)+'"><img src="'+p.img+'" alt="'+p.name+' website design screenshot" loading="lazy"><div><span>'+p.industry+'</span><h3>'+p.name+'</h3></div></a>')
+    .join('');
+}
+
+function renderNotFound(){
+  root.innerHTML='<section class="not-found"><h1>Case study not found</h1><p>We could not find that portfolio project. Return to the portfolio to browse all WebAct website design case studies.</p><p><a class="btn btn-primary" href="./index.html">Back to Portfolio</a></p></section>';
+}
+
+function render(){
+  if(!projects.length){renderNotFound();return;}
+
+  const p=projects[index];
+  const prev=projects[(index-1+projects.length)%projects.length];
+  const next=projects[(index+1)%projects.length];
+  const related=relatedCards(p);
+
+  document.title=p.name+' Website Design Case Study | WebAct Portfolio';
+  document.querySelector('meta[name="description"]').setAttribute('content',p.desc);
+
+  root.innerHTML=
+    '<section class="case-hero"><div class="case-hero-inner"><div><p class="eyebrow">WebAct Case Study</p><h1>'+p.name+'</h1><p>'+p.desc+'</p><div class="hero-actions"><a class="btn btn-primary" href="../../contact/index.html">Start a Similar Project</a><a class="btn btn-secondary" href="./index.html">Back to Portfolio</a></div></div><aside class="stats-panel"><h2>Project Snapshot</h2><div class="stat-list"><div class="stat"><span>Industry</span><strong>'+p.industry+'</strong></div><div class="stat"><span>Services</span><strong>'+p.services.join(', ')+'</strong></div><div class="stat"><span>Portfolio Type</span><strong>Website Design Case Study</strong></div></div></aside></div></section>'+
+
+    '<main class="case-main"><div class="browser-showcase"><div class="browser-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="browser-url">webact portfolio showcase</span></div><div class="hero-image"><img src="'+p.img+'" alt="'+p.name+' website design screenshot"></div></div>'+
+
+    '<div class="case-grid"><section><article class="section-card"><h2>About This Project</h2><p>WebAct created a professional digital presence for '+p.name+' with a focus on clarity, credibility, and conversion. The project is presented as part of the WebAct portfolio to showcase practical website design work across real business categories.</p><div class="split-blocks"><div class="mini-block"><strong>Challenge</strong><p>Present the business clearly, build trust quickly, and help visitors understand the value of the company.</p></div><div class="mini-block"><strong>Solution</strong><p>Use a polished website layout, strong visual hierarchy, focused messaging, and clear paths toward customer action.</p></div><div class="mini-block"><strong>Outcome</strong><p>A stronger online showcase that supports lead generation, customer confidence, and brand presentation.</p></div></div></article>'+
+
+    '<article class="section-card"><h2>Services Used</h2><p>This project combines design, content structure, and conversion-focused website strategy tailored to the needs of a '+p.industry+' business.</p><div class="service-grid">'+serviceText(p)+'</div></article>'+
+
+    '<article class="section-card"><h2>Design Approach</h2><p>The design prioritizes clean presentation, approachable content, mobile-friendly structure, and visual consistency. Each portfolio project is displayed with a full website screenshot so visitors can review the work without depending on old preview links or inactive third-party websites.</p></article></section>'+
+
+    '<aside class="sidebar"><div class="sidebar-card"><h3>Like this project?</h3><p>WebAct can help build a professional website for your business with design, content, local SEO, advertising, domains, email, hosting, and ongoing support.</p><a class="btn" href="../../contact/index.html">Get Started</a><div class="detail-list"><div class="detail"><span>Company</span><strong>'+p.name+'</strong></div><div class="detail"><span>Industry</span><strong>'+p.industry+'</strong></div><div class="detail"><span>Primary Service</span><strong>Website Design</strong></div></div></div></aside></div>'+
+
+    '<section class="related"><h2>Related '+p.industry+' Projects</h2><div class="related-grid">'+(related||'<p>No related projects found yet.</p>')+'</div></section>'+
+
+    '<nav class="case-nav"><a href="./case-study.html?project='+slug(prev.name)+'">← '+prev.name+'</a><a
