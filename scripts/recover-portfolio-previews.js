@@ -13,6 +13,8 @@ function clean(value) {
   return String(value || '')
     .replace(/\s+/g, ' ')
     .replace(/ website design screenshot$/i, '')
+    .replace(/^website design for\s+/i, '')
+    .replace(/^webact website design(?: by| for)?\s+/i, '')
     .trim();
 }
 
@@ -22,6 +24,20 @@ function slug(value) {
     .replace(/&/g, 'and')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
+}
+
+function isBadTitle(value) {
+  const n = clean(value).toLowerCase();
+  return !n ||
+    n.length > 60 ||
+    n.startsWith('a computer') ||
+    n.startsWith('an ') ||
+    n.startsWith('the ') && n.includes('website is displayed') ||
+    n.includes('tablet') ||
+    n.includes('cell phone') ||
+    n.includes('monitor') ||
+    n.includes('displaying a website') ||
+    n.includes('shown on a white background');
 }
 
 function classify(name) {
@@ -50,19 +66,13 @@ function classify(name) {
     ['Education', ['college','kids','education','school']],
     ['Art & Creative', ['photo','photography','art','graphics','designs']]
   ];
-  for (const [industry, words] of rules) {
-    if (words.some(word => n.includes(word))) return industry;
-  }
+  for (const [industry, words] of rules) if (words.some(word => n.includes(word))) return industry;
   return 'Professional Services';
 }
 
 function services(industry) {
-  if (['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive'].includes(industry)) {
-    return ['Website Design', industry, 'Local SEO'];
-  }
-  if (['Construction','Transportation','Water Treatment'].includes(industry)) {
-    return ['Website Design', 'Local SEO', 'Lead Generation'];
-  }
+  if (['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive'].includes(industry)) return ['Website Design', industry, 'Local SEO'];
+  if (['Construction','Transportation','Water Treatment'].includes(industry)) return ['Website Design', 'Local SEO', 'Lead Generation'];
   if (industry === 'Nonprofit') return ['Website Design', 'Nonprofit', 'Content'];
   return ['Website Design', 'Content', 'Lead Generation'];
 }
@@ -97,16 +107,24 @@ async function main() {
     const anchors = [...document.querySelectorAll('a[href*="website.webact.com/preview/"]')];
     const rows = [];
     const seen = new Set();
+    function text(el){ return (el && el.textContent || '').replace(/\s+/g,' ').trim(); }
     for (const a of anchors) {
       const href = a.href;
       if (seen.has(href)) continue;
       seen.add(href);
-      const card = a.closest('article, li, .dmRespCol, .photoGalleryThumbs, .portfolio-card, div') || a;
-      const titleEl = card.querySelector('h1,h2,h3,h4,.caption-title,.title') || a;
+      const card = a.closest('article, li, .dmRespCol, .photoGalleryThumbs, .portfolio-card, .dmPhotoGallery, div') || a;
+      const candidates = [
+        card.querySelector('h3.caption-title'),
+        card.querySelector('.caption-title'),
+        card.querySelector('h3'),
+        card.querySelector('h2'),
+        card.querySelector('h4'),
+        card.querySelector('[class*="title"]'),
+        a
+      ];
+      const names = candidates.map(text).filter(Boolean);
       const img = card.querySelector('img');
-      const title = (titleEl.textContent || img?.alt || a.textContent || href).trim();
-      const imgSrc = img ? (img.currentSrc || img.src || img.getAttribute('data-src') || '') : '';
-      rows.push({ title, href, imgSrc });
+      rows.push({ titleCandidates: names, href, imgSrc: img ? (img.currentSrc || img.src || img.getAttribute('data-src') || '') : '', imgAlt: img ? (img.alt || '') : '' });
     }
     return rows;
   });
@@ -116,7 +134,8 @@ async function main() {
   const seenNames = new Set();
 
   for (const card of cards) {
-    const name = clean(card.title) || `Portfolio Project ${projects.length + 1}`;
+    const bestTitle = card.titleCandidates.find(t => t && !isBadTitle(t)) || card.titleCandidates[0] || card.imgAlt || `Portfolio Project ${projects.length + 1}`;
+    const name = clean(bestTitle);
     if (!name || seenNames.has(name.toLowerCase())) continue;
     seenNames.add(name.toLowerCase());
     const industry = classify(name);
@@ -125,9 +144,8 @@ async function main() {
 
     const previewPage = await context.newPage();
     try {
-      await previewPage.goto(card.href, { waitUntil: 'networkidle', timeout: 90000 });
-      await previewPage.setViewportSize({ width: 1440, height: 1200 });
-      await previewPage.waitForTimeout(1500);
+      await previewPage.goto(card.href, { waitUntil: 'domcontentloaded', timeout: 90000 });
+      await previewPage.waitForTimeout(2500);
       await previewPage.screenshot({ path: filePath, fullPage: false });
       console.log(`Captured ${name}`);
     } catch (err) {
@@ -155,11 +173,8 @@ async function main() {
   await browser.close();
   const out = path.join(portfolioDir, 'portfolio-data-recovered.js');
   fs.writeFileSync(out, 'window.webactPortfolioProjects=' + JSON.stringify(projects, null, 2) + ';\n');
-  console.log(`Recovered ${projects.length} preview projects.`);
+  console.log(`Recovered ${projects.length} preview projects using portfolio card names.`);
   console.log(`Wrote ${out}`);
 }
 
-main().catch(error => {
-  console.error(error);
-  process.exit(1);
-});
+main().catch(error => { console.error(error); process.exit(1); });
