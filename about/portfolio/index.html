@@ -35,7 +35,7 @@
   <section class="explorer-stats" id="explorer-stats"></section>
   <section class="portfolio-featured" id="portfolio-featured"></section>
 
-  <section class="explorer-browse">
+  <section class="explorer-browse" hidden>
     <div class="featured-heading"><p class="eyebrow">Browse Faster</p><h2>Explore by What Matters</h2></div>
     <div class="explorer-tabs">
       <button class="explorer-tab is-active" data-tab="industry" type="button">Industries</button>
@@ -51,14 +51,14 @@
       <div><h2>All Case Studies</h2><p class="result-count" id="result-count">Showing portfolio projects</p></div>
       <input class="search" id="portfolio-search" type="search" placeholder="Search company, industry, service, lawyer, dentist, restaurant..." aria-label="Search portfolio projects">
     </div>
-    <div class="advanced-filters">
+    <div class="advanced-filters" hidden>
       <select id="industry-select"><option value="">All Industries</option></select>
       <select id="service-select"><option value="">All Services</option></select>
       <select id="feature-select"><option value="">All Features</option></select>
       <select id="technology-select"><option value="">All Technologies</option></select>
       <button id="clear-filters" type="button">Clear Filters</button>
     </div>
-    <div class="filters" id="portfolio-filters"></div>
+    <div class="filters" id="portfolio-filters" hidden></div>
   </div>
 
   <p class="empty" id="portfolio-empty">No portfolio projects match that search. Try searching by industry, service, feature, technology, or business type.</p>
