@@ -8,25 +8,25 @@ const imageDir = path.join(root, 'Resources', 'images');
 const portfolioUrl = 'https://www.webact.com/portfolio';
 
 const EXTRA_PROJECTS = [
-  '2goCoconut',
-  'benton+dental',
-  'Blackridge-Defense',
-  'building-better-Breath',
-  'by+the+beach',
-  'cancer+with+courage',
-  'Carlock_Plumbing',
-  'Carwash_Coupons',
-  'cellBlock',
-  'deaf Vacation Cruise',
-  'dig For Energy',
-  'great+west Real Estate',
-  'island+cool+creams',
-  'marcoa',
-  'net+2+phone',
-  'new+era+dental',
-  'simply+cupcakes+pasadena',
-  'sniper+security',
-  'the+chambers+of+tucson+mall'
+  { name: '2go Coconut', industry: 'Restaurant', image: '2goCoconut.png' },
+  { name: 'Benton Dental', industry: 'Dental', image: 'benton+dental.png' },
+  { name: 'Blackridge Defense', industry: 'Security', image: 'Blackridge-Defense.png' },
+  { name: 'Building Better Breath', industry: 'Healthcare', image: 'building-better-Breath.png' },
+  { name: 'By The Beach', industry: 'Travel', image: 'by+the+beach.png' },
+  { name: 'Cancer With Courage', industry: 'Nonprofit', image: 'cancer+with+courage.png' },
+  { name: 'Carlock Plumbing', industry: 'Plumbing', image: 'Carlock_Plumbing.png' },
+  { name: 'Carwash Coupons', industry: 'Automotive', image: 'Carwash_Coupons.png' },
+  { name: 'CellBlock', industry: 'Technology', image: 'cellBlock.png' },
+  { name: 'Deaf Vacation Cruise', industry: 'Travel', image: 'deaf Vacation Cruise.png' },
+  { name: 'Dig For Energy', industry: 'Energy', image: 'dig For Energy.png' },
+  { name: 'Great West Real Estate', industry: 'Real Estate', image: 'great+west Real Estate.png' },
+  { name: 'Island Cool Creams', industry: 'Restaurant', image: 'island+cool+creams.png' },
+  { name: 'Marcoa', industry: 'Professional Services', image: 'marcoa.png' },
+  { name: 'Net 2 Phone', industry: 'Technology', image: 'net+2+phone.png' },
+  { name: 'New Era Dental', industry: 'Dental', image: 'new+era+dental.png' },
+  { name: 'Simply Cupcakes Pasadena', industry: 'Restaurant', image: 'simply+cupcakes+pasadena.png' },
+  { name: 'Sniper Security', industry: 'Security', image: 'sniper+security.png' },
+  { name: 'The Chambers Of Tucson Mall', industry: 'Retail', image: 'the+chambers+of+tucson+mall.png' }
 ];
 
 function clean(value) {
@@ -319,18 +319,16 @@ async function main() {
     projects.push(makeProject(name, imagePath));
   }
 
-  for (const rawName of EXTRA_PROJECTS) {
-    const imageFile = findImageForExtra(rawName);
+for (const project of EXTRA_PROJECTS) {
+    const imagePath = `../../Resources/images/${project.image}`;
 
-    if (!imageFile) {
-      console.warn(`Missing extra image: ${rawName}`);
+    if (!fs.existsSync(path.join(imageDir, project.image))) {
+      console.warn(`Missing extra image: ${project.name} -> ${project.image}`);
       continue;
     }
 
-    const name = titleFromFileName(rawName);
-    const imagePath = `../../Resources/images/${imageFile}`;
-    projects.push(makeProject(name, imagePath));
-    console.log(`Added extra project: ${name} -> ${imageFile}`);
+    projects.push(makeProject(project.name, imagePath));
+    console.log(`Added extra project: ${project.name} -> ${project.image}`);
   }
 
   const seen = new Set();
