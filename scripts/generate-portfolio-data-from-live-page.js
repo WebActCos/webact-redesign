@@ -425,6 +425,13 @@ deduped.sort((a, b) => {
   );
 });
 
+deduped.sort((a, b) => {
+  return a.master.name.localeCompare(b.master.name, 'en', {
+    numeric: true,
+    sensitivity: 'base'
+  });
+});
+
 const rows = deduped.map(project => project.row);
 const master = deduped.map(project => project.master);
 
