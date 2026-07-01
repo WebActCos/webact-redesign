@@ -229,11 +229,8 @@ function normalizeName(value){
   return String(value||'').replace(/&/g,'and').replace(/[^a-z0-9]+/gi,' ').trim().replace(/\s+/g,' ');
 }
 
-function refineIndustry(name, industry){
-
-  if(INDUSTRY_OVERRIDES[name]){
-    return INDUSTRY_OVERRIDES[name];
-  }
+function refineIndustry(name,industry){
+  const clean=normalizeName(name);
   if(INDUSTRY_OVERRIDES[clean]) return INDUSTRY_OVERRIDES[clean];
 
   const text=clean.toLowerCase();
