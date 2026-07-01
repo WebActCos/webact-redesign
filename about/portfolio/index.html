@@ -1,123 +1,174 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WebAct Portfolio Explorer | Website Design Case Studies by Industry</title>
-<meta name="description" content="Explore WebAct website design portfolio projects by company, industry, services, features, and technology.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top 250 Website Designs | WebAct Portfolio</title>
+<meta name="description" content="Explore WebAct's top 250 website designs and portfolio case studies by company, industry, services, and project type.">
 <link rel="canonical" href="https://www.webact.com/about/portfolio/">
 <link rel="stylesheet" href="../../styles.css?v=reviews-layout-fix">
 <link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css">
-<link rel="stylesheet" href="./portfolio-premium.css?v=explorer-v2">
+<link rel="stylesheet" href="./portfolio-premium.css">
 </head>
 <body class="portfolio-page">
-<header class="wa-promodo-header" data-wa-nav><nav class="wa-promodo-nav" aria-label="Main navigation"><a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home"><img src="../../assets/images/webact-logo.png" alt="WebAct"></a><ul class="wa-promodo-menu" data-wa-menu><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../design/website-design/index.html">Website Design</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../digital-ads/index.html">Digital Ads</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../marketing/index.html">Marketing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../industries/index.html">Industries</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../pricing/index.html">Pricing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li></ul><div class="wa-promodo-actions"><a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a><button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button></div></nav></header>
+<header class="wa-promodo-header" data-wa-nav>
+  <nav class="wa-promodo-nav" aria-label="Main navigation">
+    <a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home">
+      <img src="../../assets/images/webact-logo.png" alt="WebAct">
+    </a>
+    <ul class="wa-promodo-menu" data-wa-menu>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../design/website-design/index.html">Website Design</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../digital-ads/index.html">Digital Ads</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../marketing/index.html">Marketing</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../industries/index.html">Industries</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../pricing/index.html">Pricing</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li>
+    </ul>
+    <div class="wa-promodo-actions">
+      <a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a>
+      <button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button>
+    </div>
+  </nav>
+</header>
 
-<section class="portfolio-hero explorer-hero">
+<section class="portfolio-hero">
   <div class="portfolio-hero-inner">
     <div>
-      <p class="eyebrow">WebAct Portfolio Explorer</p>
-      <h1>Browse Real Website Design Work</h1>
-      <p>Explore WebAct website design projects by industry, service, feature, and technology. Every card opens into a premium case study powered by local screenshots and master portfolio data.</p>
-      <div class="hero-actions">
-        <a class="explorer-btn" href="#portfolio-grid">Explore Projects</a>
-        <a class="explorer-btn explorer-btn-secondary" href="./industry/">Browse Industries</a>
-      </div>
+      <p class="eyebrow">Real WebAct Work</p>
+      <h1>Top 250 Website Designs</h1>
+      <p>Explore our top 250 website designs and marketing projects. Search by company name, industry, service, or project type to find examples of WebAct work.</p>
     </div>
-    <div class="hero-panel explorer-panel">
-      <div><strong class="counter" id="project-count">0</strong><span>portfolio projects</span></div>
-      <div><strong class="counter" id="industry-count">0</strong><span>industries</span></div>
-      <div><strong class="counter" id="service-count">0</strong><span>service categories</span></div>
+    <div class="hero-panel">
+      <strong id="project-count">0</strong>
+      <span>Website Designs</span>
+      <span>Search every WebAct case study by company, industry, or service.</span>
     </div>
   </div>
 </section>
 
 <main class="portfolio-main">
-  <section class="explorer-stats" id="explorer-stats"></section>
-  <section class="portfolio-featured" id="portfolio-featured"></section>
-
-  <section class="explorer-browse">
-    <div class="featured-heading"><p class="eyebrow">Browse Faster</p><h2>Explore by What Matters</h2></div>
-    <div class="explorer-tabs">
-      <button class="explorer-tab is-active" data-tab="industry" type="button">Industries</button>
-      <button class="explorer-tab" data-tab="service" type="button">Services</button>
-      <button class="explorer-tab" data-tab="feature" type="button">Features</button>
-      <button class="explorer-tab" data-tab="technology" type="button">Technology</button>
+  <div class="toolbar">
+    <div>
+      <h2>All Case Studies</h2>
+      <p id="portfolio-showing" class="portfolio-showing">Showing 250 of 250 projects</p>
     </div>
-    <div class="explorer-chip-panel" id="explorer-chip-panel"></div>
-  </section>
-
-  <div class="portfolio-toolbar-wrap">
-    <div class="toolbar">
-      <div><h2>All Case Studies</h2><p class="result-count" id="result-count">Showing portfolio projects</p></div>
-      <input class="search" id="portfolio-search" type="search" placeholder="Search company, industry, service, lawyer, dentist, restaurant..." aria-label="Search portfolio projects">
-    </div>
-    <div class="advanced-filters">
-      <select id="industry-select"><option value="">All Industries</option></select>
-      <select id="service-select"><option value="">All Services</option></select>
-      <select id="feature-select"><option value="">All Features</option></select>
-      <select id="technology-select"><option value="">All Technologies</option></select>
-      <button id="clear-filters" type="button">Clear Filters</button>
-    </div>
-    <div class="filters" id="portfolio-filters"></div>
+    <input class="search" id="portfolio-search" type="search" placeholder="Search projects..." aria-label="Search portfolio projects">
   </div>
 
-  <p class="empty" id="portfolio-empty">No portfolio projects match that search. Try searching by industry, service, feature, technology, or business type.</p>
+  <p class="empty" id="portfolio-empty">No portfolio projects match that search.</p>
   <section class="portfolio-grid" id="portfolio-grid" aria-label="Portfolio projects"></section>
 </main>
 
-<footer class="site-footer"><img src="../../assets/logo.png" alt="WebAct"><p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p><div class="footer-links"><a href="../../design/index.html">Design</a><a href="../../digital-ads/index.html">Digital Ads</a><a href="../../marketing/index.html">Marketing</a><a href="../../pricing/index.html">Pricing</a><a href="../../addons/index.html">Add-ons</a></div></footer>
+<footer class="site-footer">
+  <img src="../../assets/logo.png" alt="WebAct">
+  <p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p>
+  <div class="footer-links">
+    <a href="../../design/index.html">Design</a>
+    <a href="../../digital-ads/index.html">Digital Ads</a>
+    <a href="../../marketing/index.html">Marketing</a>
+    <a href="../../pricing/index.html">Pricing</a>
+    <a href="../../addons/index.html">Add-ons</a>
+  </div>
+</footer>
 
 <script src="../../script.js?v=reviews-layout-fix"></script>
 <script src="../../assets/js/webact-promodo-nav.js" defer></script>
 <script src="./portfolio-data.js?v=old-fallback"></script>
-<script src="./portfolio-data-all.js?v=full-231-rows-explorer-v2"></script>
-<script src="./portfolio-master-data.js?v=master-data-explorer-v2"></script>
+<script src="./portfolio-data-all.js?v=full-250-rows-clean-filter"></script>
+<script src="./portfolio-master-data.js?v=master-250-clean-filter"></script>
 
 <script>
-(function(){
-const fallback=window.webactPortfolioProjects||[], rows=window.webactPortfolioRows||[], master=window.webactPortfolioMaster||[];
+const fallback=window.webactPortfolioProjects||[];
+const rows=window.webactPortfolioRows||[];
+const master=window.webactPortfolioMaster||[];
+
+const svc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive','Dental','Legal','Electrical','Water Treatment','Printing & Graphics','Energy','Security','Travel','Retail','Real Estate','Education'].includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
+
+const searchKeywords=i=>({
+  'Restaurant':'restaurant food dining menu catering takeout delivery indian cuisine pizza sushi cafe dining bar grill bakery cupcakes ice cream',
+  'Pet Services':'pet dog puppy animal grooming boarding training breeder papillons labradoodles k9 equine',
+  'Home Care':'home care senior care caregiver healthcare hospice medical support assisted living in home care',
+  'Healthcare':'health medical wellness skin bodywork therapy psychiatric hospice care doctor clinic treatment breathing cancer',
+  'Driving School':'driving school traffic lessons instructor driver education teen driving CDL road test',
+  'Dental':'dental dentist orthodontic smile implants dentures cranio facial oral care teeth',
+  'Legal':'law legal attorney lawyer defender creditor court litigation law firm legal group',
+  'Home Services':'home services contractor repair remodel construction plumbing hvac roofing pest glass shower landscaping inspection handyman',
+  'Professional Services':'professional services consulting sales marketing agency insurance finance benefits business executive accounting coaching',
+  'Technology':'technology gaming esports wireless cell phone app software IT computer digital phone',
+  'Nonprofit':'nonprofit charity foundation fair festival children community donation fundraiser cancer courage',
+  'Electrical':'electric electrician electrical contractor power wiring lighting panels',
+  'Pest Control':'pest control exterminator insects rodents termites bugs wildlife',
+  'Water Treatment':'water filtration treatment purification plumbing softener drinking water',
+  'Printing & Graphics':'printing graphics signs design signage wraps banners print shop',
+  'Energy':'energy solar green efficiency power renewable sustainability oil gas',
+  'Security':'security defense protection safety surveillance',
+  'Travel':'travel cruise vacation beach tourism lodging rental',
+  'Retail':'retail store shopping mall ecommerce products coupons',
+  'Real Estate':'real estate realtor property homes listings agent',
+  'Education':'education school learning classes training'
+}[i]||i);
+
 const slug=s=>String(s||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const esc=s=>String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-const legacySvc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive','Dental','Legal','Electrical','Water Treatment','Printing & Graphics','Energy'].includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
-const projects=master.length?master.map(p=>({name:p.name,slug:p.slug||slug(p.name),industry:p.industry,img:p.image,services:p.services||[],features:p.features||[],technologies:p.technologies||[],desc:p.description||p.industry+' website design case study for '+p.name+'.'})):(rows.length?rows.map(r=>({name:r[0],slug:slug(r[0]),industry:r[1],img:r[2],services:legacySvc(r[1]),features:[],technologies:[],desc:r[1]+' website design case study for '+r[0]+'.'})):fallback.map(p=>({name:p.name,slug:slug(p.name),industry:p.industry,img:p.img,services:p.services||[],features:[],technologies:[],desc:p.desc||''})));
 
-const grid=document.getElementById('portfolio-grid'), filters=document.getElementById('portfolio-filters'), search=document.getElementById('portfolio-search'), empty=document.getElementById('portfolio-empty'), resultCount=document.getElementById('result-count'), featured=document.getElementById('portfolio-featured'), stats=document.getElementById('explorer-stats'), chipPanel=document.getElementById('explorer-chip-panel');
-const industrySelect=document.getElementById('industry-select'), serviceSelect=document.getElementById('service-select'), featureSelect=document.getElementById('feature-select'), technologySelect=document.getElementById('technology-select'), clearFilters=document.getElementById('clear-filters');
-let active='all', activeBrowseValue='';
+const projects=master.length?master.map(p=>({
+  name:p.name,
+  industry:p.industry,
+  img:p.image,
+  url:p.liveUrl||p.previewUrl||'',
+  services:p.services&&p.services.length?p.services:svc(p.industry),
+  keywords:[searchKeywords(p.industry),p.name,p.industry,(p.services||[]).join(' '),(p.features||[]).join(' '),(p.technologies||[]).join(' ')].join(' '),
+  desc:p.description||p.industry+' website design case study for '+p.name+', focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.'
+})):rows.length?rows.map(r=>({
+  name:r[0],
+  industry:r[1],
+  img:r[2],
+  url:r[3],
+  services:svc(r[1]),
+  keywords:searchKeywords(r[1]),
+  desc:r[1]+' website design case study for '+r[0]+', focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.'
+})):fallback.map(p=>({
+  name:p.name,
+  industry:p.industry,
+  img:p.img,
+  url:p.url||'',
+  services:p.services||svc(p.industry),
+  keywords:(p.keywords||'')+' '+searchKeywords(p.industry),
+  desc:p.desc||''
+}));
 
-function uniqueValues(getter){const set=new Set();projects.forEach(p=>{const v=getter(p);Array.isArray(v)?v.forEach(x=>x&&set.add(x)):v&&set.add(v)});return Array.from(set).sort();}
-const industries=uniqueValues(p=>p.industry), services=uniqueValues(p=>p.services), features=uniqueValues(p=>p.features), technologies=uniqueValues(p=>p.technologies);
+const grid=document.getElementById('portfolio-grid');
+const search=document.getElementById('portfolio-search');
+const empty=document.getElementById('portfolio-empty');
+const showing=document.getElementById('portfolio-showing');
 
-function animateCounter(el,to){if(!el)return;const d=900,s=performance.now();function f(n){const p=Math.min((n-s)/d,1),e=1-Math.pow(1-p,3);el.textContent=Math.round(to*e);if(p<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
-animateCounter(document.getElementById('project-count'),projects.length);animateCounter(document.getElementById('industry-count'),industries.length);animateCounter(document.getElementById('service-count'),services.length);
-stats.innerHTML=[['Projects',projects.length],['Industries',industries.length],['Services',services.length],['Features',features.length],['Technologies',technologies.length]].map(i=>'<div class="explorer-stat"><strong class="counter" data-count="'+i[1]+'">0</strong><span>'+i[0]+'</span></div>').join('');
-document.querySelectorAll('.explorer-stat .counter').forEach(el=>animateCounter(el,Number(el.dataset.count)));
+document.getElementById('project-count').textContent=projects.length;
+showing.textContent='Showing '+projects.length+' of '+projects.length+' projects';
 
-function populate(select,items){select.innerHTML+=items.map(item=>'<option value="'+esc(item)+'">'+esc(item)+'</option>').join('')}
-populate(industrySelect,industries);populate(serviceSelect,services);populate(featureSelect,features);populate(technologySelect,technologies);
+grid.innerHTML=projects.map(p=>{
+  const tags=(p.services||[]).map(t=>'<em>'+esc(t)+'</em>').join('');
+  const img=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';
+  const searchText=[p.name,p.industry,(p.services||[]).join(' '),p.keywords||'',p.desc||''].join(' ');
+  return '<article class="portfolio-card" data-title="'+esc(searchText)+'" data-industry="'+esc(p.industry)+'"><a href="./case-study.html?project='+slug(p.name)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="service-tags">'+tags+'</div><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>';
+}).join('');
 
-const featuredProjects=[...projects.filter(p=>['Restaurant','Legal','Dental','Home Services','Healthcare','Pet Services'].includes(p.industry)).slice(0,3),...projects.slice(0,3)].slice(0,3);
-featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Featured Work</p><h2>Selected WebAct Case Studies</h2></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
-filters.innerHTML=['all',...industries].map((i,n)=>'<button class="filter-button '+(n?'':'is-active')+'" data-filter="'+esc(i)+'" type="button">'+(i==='all'?'All':esc(i))+'</button>').join('');
+function apply(){
+  const q=(search.value||'').toLowerCase().trim();
+  let shown=0;
 
-function renderChips(type){const map={industry:industries,service:services,feature:features,technology:technologies};chipPanel.innerHTML=(map[type]||[]).slice(0,40).map(item=>'<button class="explorer-chip" data-value="'+esc(item)+'" type="button">'+esc(item)+'</button>').join('')}
-function searchableText(p){return [p.name,p.industry,(p.services||[]).join(' '),(p.features||[]).join(' '),(p.technologies||[]).join(' '),p.desc].join(' ').toLowerCase()}
-function cardHtml(p,index){const tags=(p.services||[]).slice(0,3).map(t=>'<em>'+esc(t)+'</em>').join('');const img=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';return '<article class="portfolio-card reveal-card" style="--delay:'+(index%12)*45+'ms" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'" data-services="'+esc((p.services||[]).join('|'))+'" data-features="'+esc((p.features||[]).join('|'))+'" data-technologies="'+esc((p.technologies||[]).join('|'))+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="service-tags">'+tags+'</div><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>'}
-grid.innerHTML=projects.map(cardHtml).join('');
+  document.querySelectorAll('.portfolio-card').forEach(card=>{
+    const text=(card.textContent+' '+card.dataset.title+' '+card.dataset.industry).toLowerCase();
+    const show=!q||text.includes(q);
+    card.hidden=!show;
+    if(show)shown++;
+  });
 
-function has(pipe,value){return !value||String(pipe||'').split('|').includes(value)}
-function apply(){const q=(search.value||'').toLowerCase().trim();let shown=0;document.querySelectorAll('.portfolio-card').forEach(card=>{const text=(card.textContent+' '+card.dataset.title).toLowerCase(), industry=card.dataset.industry;const show=(!q||text.includes(q))&&(active==='all'||industry===active)&&(!industrySelect.value||industry===industrySelect.value)&&has(card.dataset.services,serviceSelect.value)&&has(card.dataset.features,featureSelect.value)&&has(card.dataset.technologies,technologySelect.value)&&(!activeBrowseValue||text.includes(activeBrowseValue.toLowerCase()));card.hidden=!show;if(show)shown++});resultCount.textContent='Showing '+shown+' of '+projects.length+' projects';empty.style.display=shown?'none':'block'}
-search.addEventListener('input',apply);[industrySelect,serviceSelect,featureSelect,technologySelect].forEach(s=>s.addEventListener('change',apply));
-clearFilters.addEventListener('click',()=>{search.value='';industrySelect.value='';serviceSelect.value='';featureSelect.value='';technologySelect.value='';active='all';activeBrowseValue='';document.querySelectorAll('.filter-button').forEach((b,i)=>b.classList.toggle('is-active',i===0));document.querySelectorAll('.explorer-chip').forEach(c=>c.classList.remove('is-active'));apply()});
-filters.addEventListener('click',e=>{if(!e.target.matches('button'))return;document.querySelectorAll('.filter-button').forEach(b=>b.classList.remove('is-active'));e.target.classList.add('is-active');active=e.target.dataset.filter;apply()});
-document.querySelectorAll('.explorer-tab').forEach(tab=>tab.addEventListener('click',()=>{document.querySelectorAll('.explorer-tab').forEach(t=>t.classList.remove('is-active'));tab.classList.add('is-active');activeBrowseValue='';renderChips(tab.dataset.tab);apply()}));
-chipPanel.addEventListener('click',e=>{if(!e.target.matches('.explorer-chip'))return;document.querySelectorAll('.explorer-chip').forEach(c=>c.classList.remove('is-active'));if(activeBrowseValue===e.target.dataset.value){activeBrowseValue=''}else{activeBrowseValue=e.target.dataset.value;e.target.classList.add('is-active')}apply()});
-document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==search){e.preventDefault();search.focus()}});
-const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}})},{threshold:.08});
-document.querySelectorAll('.reveal-card').forEach(card=>observer.observe(card));
-document.querySelectorAll('.portfolio-card img,.featured-card img').forEach(img=>{img.addEventListener('load',()=>img.classList.add('is-loaded'));if(img.complete)img.classList.add('is-loaded')});
-renderChips('industry');apply();
-})();
+  showing.textContent='Showing '+shown+' of '+projects.length+' projects';
+  empty.style.display=shown?'none':'block';
+}
+
+search.addEventListener('input',apply);
+apply();
 </script>
 <script src="./portfolio-image-fallback.js"></script>
 </body>
