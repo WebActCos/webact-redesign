@@ -38,11 +38,11 @@ const EXTRA_PROJECTS = [
     industry: "Nonprofit",
     image: "cancer-with-courage.png"
   },
-  {
-    name: "Carlock Plumbing",
-    industry: "Plumbing",
-    image: "Carlock_Plumbing.png"
-  },
+{
+  name: "Carlock Plumbing",
+  industry: "Plumbing",
+  image: "Carlock_Plumbing.png"
+},
   {
     name: "Carwash Coupons",
     industry: "Automotive",
