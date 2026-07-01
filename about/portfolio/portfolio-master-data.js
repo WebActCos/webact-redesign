@@ -13,9 +13,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -52,10 +52,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Photo Gallery",
-      "Trust Signals",
-      "Contact Forms"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -91,10 +91,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -130,10 +130,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Photo Gallery",
-      "Trust Signals",
-      "Contact Forms"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -169,10 +169,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Photo Gallery",
-      "Trust Signals",
-      "Contact Forms"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -208,10 +208,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Request Estimate CTA",
-      "Service Area SEO",
-      "Contact Forms"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -247,10 +247,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Care Service Pages",
-      "Trust Signals",
-      "Inquiry Forms",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -286,10 +286,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Pest Service Pages",
-      "Request Estimate CTA",
-      "Local SEO",
-      "Trust Signals"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -325,10 +325,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -364,10 +364,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Photo Gallery",
-      "Trust Signals",
-      "Contact Forms"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -403,9 +403,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -442,9 +442,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Mission Messaging",
-      "Donation CTA",
-      "Community Content",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -470,7 +470,7 @@ window.webactPortfolioMaster = [
   {
     "name": "Air Techs HVAC",
     "slug": "air-techs-hvac",
-    "industry": "Home Services",
+    "industry": "HVAC",
     "image": "../../Resources/images/airTechsHvac-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -481,10 +481,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -496,9 +496,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Air Techs HVAC, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Air Techs HVAC Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Air Techs HVAC website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "HVAC website design case study for Air Techs HVAC, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Air Techs HVAC Website Design Case Study | WebAct HVAC Portfolio",
+    "seoDescription": "Explore the Air Techs HVAC website design case study from WebAct, including HVAC website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Air Techs HVAC, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Air Techs HVAC quickly while guiding visitors toward the next step.",
@@ -520,10 +520,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -598,10 +598,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -637,9 +637,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -665,13 +665,13 @@ window.webactPortfolioMaster = [
   {
     "name": "American Sewer",
     "slug": "american-sewer",
-    "industry": "Business",
+    "industry": "Home Services",
     "image": "../../Resources/images/WebactAmericanSewer-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Service Area SEO",
       "Lead Generation"
     ],
     "features": [
@@ -691,9 +691,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for American Sewer, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "American Sewer Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the American Sewer website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Services website design case study for American Sewer, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "American Sewer Website Design Case Study | WebAct Home Services Portfolio",
+    "seoDescription": "Explore the American Sewer website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for American Sewer, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of American Sewer quickly while guiding visitors toward the next step.",
@@ -743,13 +743,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Apex Denver Locksmith",
     "slug": "apex-denver-locksmith",
-    "industry": "Business",
+    "industry": "Locksmith",
     "image": "../../Resources/images/Apex_Denver_Locksmith-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Local SEO",
       "Lead Generation"
     ],
     "features": [
@@ -769,9 +769,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Apex Denver Locksmith, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Apex Denver Locksmith Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Apex Denver Locksmith website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Locksmith website design case study for Apex Denver Locksmith, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Apex Denver Locksmith Website Design Case Study | WebAct Locksmith Portfolio",
+    "seoDescription": "Explore the Apex Denver Locksmith website design case study from WebAct, including Locksmith website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Apex Denver Locksmith, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Apex Denver Locksmith quickly while guiding visitors toward the next step.",
@@ -782,13 +782,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Ariana Waterfall",
     "slug": "ariana-waterfall",
-    "industry": "Business",
+    "industry": "Water Treatment",
     "image": "../../Resources/images/arianaWaterfall-9f2a1f5e-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Product Education",
       "Lead Generation"
     ],
     "features": [
@@ -808,9 +808,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Ariana Waterfall, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Ariana Waterfall Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Ariana Waterfall website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Water Treatment website design case study for Ariana Waterfall, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Ariana Waterfall Website Design Case Study | WebAct Water Treatment Portfolio",
+    "seoDescription": "Explore the Ariana Waterfall website design case study from WebAct, including Water Treatment website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Ariana Waterfall, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Ariana Waterfall quickly while guiding visitors toward the next step.",
@@ -821,14 +821,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Aspire Counseling",
     "slug": "aspire-counseling",
-    "industry": "Business",
+    "industry": "Healthcare",
     "image": "../../Resources/images/AspireCounseling-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Patient Trust",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -847,9 +847,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Aspire Counseling, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Aspire Counseling Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Aspire Counseling website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Healthcare website design case study for Aspire Counseling, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Aspire Counseling Website Design Case Study | WebAct Healthcare Portfolio",
+    "seoDescription": "Explore the Aspire Counseling website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Aspire Counseling, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Aspire Counseling quickly while guiding visitors toward the next step.",
@@ -860,13 +860,52 @@ window.webactPortfolioMaster = [
   {
     "name": "Aspire Hope For Kids",
     "slug": "aspire-hope-for-kids",
-    "industry": "Business",
+    "industry": "Nonprofit",
     "image": "../../Resources/images/Aspire-Hope-For-Kids-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Donation Messaging",
+      "Community Trust"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Nonprofit website design case study for Aspire Hope For Kids, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Aspire Hope For Kids Website Design Case Study | WebAct Nonprofit Portfolio",
+    "seoDescription": "Explore the Aspire Hope For Kids website design case study from WebAct, including Nonprofit website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Aspire Hope For Kids, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Aspire Hope For Kids quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Aspire Hope For Kids a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "Atlee Care",
+    "slug": "atlee-care",
+    "industry": "Home Care",
+    "image": "../../Resources/images/Atlee-Care-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Healthcare Messaging",
       "Lead Generation"
     ],
     "features": [
@@ -886,48 +925,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Aspire Hope For Kids, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Aspire Hope For Kids Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Aspire Hope For Kids website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Aspire Hope For Kids, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Aspire Hope For Kids quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Aspire Hope For Kids a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "Atlee Care",
-    "slug": "atlee-care",
-    "industry": "Healthcare",
-    "image": "../../Resources/images/Atlee-Care-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Patient Trust",
-      "Local SEO"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Pages",
-      "Patient Trust Signals",
-      "Appointment CTA",
-      "Local SEO"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
-      "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Healthcare website design case study for Atlee Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Atlee Care Website Design Case Study | WebAct Healthcare Portfolio",
-    "seoDescription": "Explore the Atlee Care website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Care website design case study for Atlee Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Atlee Care Website Design Case Study | WebAct Home Care Portfolio",
+    "seoDescription": "Explore the Atlee Care website design case study from WebAct, including Home Care website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Atlee Care, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Atlee Care quickly while guiding visitors toward the next step.",
@@ -949,10 +949,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Patient Trust Signals",
-      "Appointment CTA",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -977,21 +977,21 @@ window.webactPortfolioMaster = [
   {
     "name": "AY Home Health Care",
     "slug": "ay-home-health-care",
-    "industry": "Home Services",
+    "industry": "Home Care",
     "image": "../../Resources/images/AY-Home-Health-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Service Area SEO",
+      "Healthcare Messaging",
       "Lead Generation"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -1003,9 +1003,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for AY Home Health Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "AY Home Health Care Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the AY Home Health Care website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Care website design case study for AY Home Health Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "AY Home Health Care Website Design Case Study | WebAct Home Care Portfolio",
+    "seoDescription": "Explore the AY Home Health Care website design case study from WebAct, including Home Care website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for AY Home Health Care, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of AY Home Health Care quickly while guiding visitors toward the next step.",
@@ -1016,14 +1016,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Barbarians Cave Surf",
     "slug": "barbarians-cave-surf",
-    "industry": "Business",
+    "industry": "Restaurant",
     "image": "../../Resources/images/WebactBarbariansCaveSurf-e6d3047a-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Menu Presentation",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -1042,9 +1042,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Barbarians Cave Surf, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Barbarians Cave Surf Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Barbarians Cave Surf website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Restaurant website design case study for Barbarians Cave Surf, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Barbarians Cave Surf Website Design Case Study | WebAct Restaurant Portfolio",
+    "seoDescription": "Explore the Barbarians Cave Surf website design case study from WebAct, including Restaurant website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Barbarians Cave Surf, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Barbarians Cave Surf quickly while guiding visitors toward the next step.",
@@ -1055,14 +1055,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Barner Moving",
     "slug": "barner-moving",
-    "industry": "Business",
+    "industry": "Restaurant",
     "image": "../../Resources/images/WebactBarnerMoving-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Menu Presentation",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -1081,9 +1081,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Barner Moving, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Barner Moving Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Barner Moving website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Restaurant website design case study for Barner Moving, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Barner Moving Website Design Case Study | WebAct Restaurant Portfolio",
+    "seoDescription": "Explore the Barner Moving website design case study from WebAct, including Restaurant website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Barner Moving, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Barner Moving quickly while guiding visitors toward the next step.",
@@ -1094,13 +1094,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Bayou Solar",
     "slug": "bayou-solar",
-    "industry": "Business",
+    "industry": "Energy",
     "image": "../../Resources/images/Bayou-Solar-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Sustainability Messaging",
       "Lead Generation"
     ],
     "features": [
@@ -1120,9 +1120,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Bayou Solar, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Bayou Solar Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Bayou Solar website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Energy website design case study for Bayou Solar, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Bayou Solar Website Design Case Study | WebAct Energy Portfolio",
+    "seoDescription": "Explore the Bayou Solar website design case study from WebAct, including Energy website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Bayou Solar, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Bayou Solar quickly while guiding visitors toward the next step.",
@@ -1144,10 +1144,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -1183,9 +1183,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -1211,13 +1211,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Board Game Republic",
     "slug": "board-game-republic",
-    "industry": "Business",
+    "industry": "Entertainment",
     "image": "../../Resources/images/Board-Game-Republic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Event Presentation",
       "Lead Generation"
     ],
     "features": [
@@ -1237,9 +1237,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Board Game Republic, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Board Game Republic Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Board Game Republic website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Entertainment website design case study for Board Game Republic, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Board Game Republic Website Design Case Study | WebAct Entertainment Portfolio",
+    "seoDescription": "Explore the Board Game Republic website design case study from WebAct, including Entertainment website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Board Game Republic, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Board Game Republic quickly while guiding visitors toward the next step.",
@@ -1250,14 +1250,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Brick House Salon",
     "slug": "brick-house-salon",
-    "industry": "Business",
+    "industry": "Salon & Beauty",
     "image": "../../Resources/images/brickHouseSalon-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Service Presentation",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -1276,9 +1276,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Brick House Salon, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Brick House Salon Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Brick House Salon website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Salon & Beauty website design case study for Brick House Salon, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Brick House Salon Website Design Case Study | WebAct Salon & Beauty Portfolio",
+    "seoDescription": "Explore the Brick House Salon website design case study from WebAct, including Salon & Beauty website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Brick House Salon, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Brick House Salon quickly while guiding visitors toward the next step.",
@@ -1328,7 +1328,7 @@ window.webactPortfolioMaster = [
   {
     "name": "Budget Control Services",
     "slug": "budget-control-services",
-    "industry": "Business",
+    "industry": "Professional Services",
     "image": "../../Resources/images/bcs collect-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -1354,9 +1354,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Budget Control Services, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Budget Control Services Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Budget Control Services website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Professional Services website design case study for Budget Control Services, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Budget Control Services Website Design Case Study | WebAct Professional Services Portfolio",
+    "seoDescription": "Explore the Budget Control Services website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Budget Control Services, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Budget Control Services quickly while guiding visitors toward the next step.",
@@ -1367,13 +1367,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Building Better Transit",
     "slug": "building-better-transit",
-    "industry": "Business",
+    "industry": "Home Services",
     "image": "../../Resources/images/Building_Better_Transit-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Service Area SEO",
       "Lead Generation"
     ],
     "features": [
@@ -1393,9 +1393,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Building Better Transit, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Building Better Transit Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Building Better Transit website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Services website design case study for Building Better Transit, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Building Better Transit Website Design Case Study | WebAct Home Services Portfolio",
+    "seoDescription": "Explore the Building Better Transit website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Building Better Transit, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Building Better Transit quickly while guiding visitors toward the next step.",
@@ -1406,7 +1406,7 @@ window.webactPortfolioMaster = [
   {
     "name": "Callahan Hayes",
     "slug": "callahan-hayes",
-    "industry": "Business",
+    "industry": "Professional Services",
     "image": "../../Resources/images/callahanHayes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -1432,9 +1432,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Callahan Hayes, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Callahan Hayes Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Callahan Hayes website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Professional Services website design case study for Callahan Hayes, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Callahan Hayes Website Design Case Study | WebAct Professional Services Portfolio",
+    "seoDescription": "Explore the Callahan Hayes website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Callahan Hayes, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Callahan Hayes quickly while guiding visitors toward the next step.",
@@ -1445,14 +1445,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Carie's Posing Suits",
     "slug": "carie-s-posing-suits",
-    "industry": "Business",
+    "industry": "Retail",
     "image": "../../Resources/images/cariesPosingSuits-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Product Presentation",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -1471,9 +1471,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Carie's Posing Suits, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Carie's Posing Suits Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Carie's Posing Suits website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Retail website design case study for Carie's Posing Suits, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Carie's Posing Suits Website Design Case Study | WebAct Retail Portfolio",
+    "seoDescription": "Explore the Carie's Posing Suits website design case study from WebAct, including Retail website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Carie's Posing Suits, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Carie's Posing Suits quickly while guiding visitors toward the next step.",
@@ -1484,14 +1484,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Cass And Company Salon",
     "slug": "cass-and-company-salon",
-    "industry": "Business",
+    "industry": "Salon & Beauty",
     "image": "../../Resources/images/cassAndCompany-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Service Presentation",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -1510,9 +1510,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Cass And Company Salon, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Cass And Company Salon Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Cass And Company Salon website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Salon & Beauty website design case study for Cass And Company Salon, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Cass And Company Salon Website Design Case Study | WebAct Salon & Beauty Portfolio",
+    "seoDescription": "Explore the Cass And Company Salon website design case study from WebAct, including Salon & Beauty website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Cass And Company Salon, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Cass And Company Salon quickly while guiding visitors toward the next step.",
@@ -1523,13 +1523,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Castle Rock",
     "slug": "castle-rock",
-    "industry": "Business",
+    "industry": "Home Services",
     "image": "../../Resources/images/Castle-Rock-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Service Area SEO",
       "Lead Generation"
     ],
     "features": [
@@ -1549,9 +1549,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Castle Rock, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Castle Rock Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Castle Rock website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Services website design case study for Castle Rock, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Castle Rock Website Design Case Study | WebAct Home Services Portfolio",
+    "seoDescription": "Explore the Castle Rock website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Castle Rock, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Castle Rock quickly while guiding visitors toward the next step.",
@@ -1562,13 +1562,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Century Tire Inc.",
     "slug": "century-tire-inc",
-    "industry": "Business",
+    "industry": "Automotive",
     "image": "../../Resources/images/Century_Tire_inc-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Local SEO",
       "Lead Generation"
     ],
     "features": [
@@ -1588,9 +1588,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Century Tire Inc., focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Century Tire Inc. Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Century Tire Inc. website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Automotive website design case study for Century Tire Inc., focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Century Tire Inc. Website Design Case Study | WebAct Automotive Portfolio",
+    "seoDescription": "Explore the Century Tire Inc. website design case study from WebAct, including Automotive website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Century Tire Inc., helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Century Tire Inc. quickly while guiding visitors toward the next step.",
@@ -1601,14 +1601,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Christy Root Designs",
     "slug": "christy-root-designs",
-    "industry": "Business",
+    "industry": "Printing & Graphics",
     "image": "../../Resources/images/christyRootDesigns-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Portfolio Showcase",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -1627,9 +1627,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Christy Root Designs, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Christy Root Designs Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Christy Root Designs website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Printing & Graphics website design case study for Christy Root Designs, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Christy Root Designs Website Design Case Study | WebAct Printing & Graphics Portfolio",
+    "seoDescription": "Explore the Christy Root Designs website design case study from WebAct, including Printing & Graphics website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Christy Root Designs, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Christy Root Designs quickly while guiding visitors toward the next step.",
@@ -1651,10 +1651,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -1690,10 +1690,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -1718,20 +1718,20 @@ window.webactPortfolioMaster = [
   {
     "name": "College Planning Coach",
     "slug": "college-planning-coach",
-    "industry": "Professional Services",
+    "industry": "Education",
     "image": "../../Resources/images/WebactCollegePlanningCoach-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Program Pages",
       "Lead Generation"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -1744,9 +1744,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Professional Services website design case study for College Planning Coach, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "College Planning Coach Website Design Case Study | WebAct Professional Services Portfolio",
-    "seoDescription": "Explore the College Planning Coach website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Education website design case study for College Planning Coach, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "College Planning Coach Website Design Case Study | WebAct Education Portfolio",
+    "seoDescription": "Explore the College Planning Coach website design case study from WebAct, including Education website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for College Planning Coach, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of College Planning Coach quickly while guiding visitors toward the next step.",
@@ -1768,10 +1768,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Practice Area Pages",
-      "Consultation CTA",
-      "Attorney Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -1846,9 +1846,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -1885,9 +1885,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -1913,52 +1913,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Crest Pest Control",
     "slug": "crest-pest-control",
-    "industry": "Home Services",
+    "industry": "Pest Control",
     "image": "../../Resources/images/Crest-Pest-Control-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Service Area SEO",
-      "Lead Generation"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
       "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Home Services website design case study for Crest Pest Control, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Crest Pest Control Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Crest Pest Control website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Crest Pest Control, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Crest Pest Control quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Crest Pest Control a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "CT Gasket",
-    "slug": "ct-gasket",
-    "industry": "Business",
-    "image": "../../Resources/images/ctGasket-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Content Strategy",
       "Lead Generation"
     ],
     "features": [
@@ -1978,9 +1939,48 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for CT Gasket, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "CT Gasket Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the CT Gasket website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Pest Control website design case study for Crest Pest Control, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Crest Pest Control Website Design Case Study | WebAct Pest Control Portfolio",
+    "seoDescription": "Explore the Crest Pest Control website design case study from WebAct, including Pest Control website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Crest Pest Control, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Crest Pest Control quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Crest Pest Control a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "CT Gasket",
+    "slug": "ct-gasket",
+    "industry": "Manufacturing",
+    "image": "../../Resources/images/ctGasket-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Product Presentation",
+      "Lead Generation"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Manufacturing website design case study for CT Gasket, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "CT Gasket Website Design Case Study | WebAct Manufacturing Portfolio",
+    "seoDescription": "Explore the CT Gasket website design case study from WebAct, including Manufacturing website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for CT Gasket, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of CT Gasket quickly while guiding visitors toward the next step.",
@@ -2002,10 +2002,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -2030,13 +2030,13 @@ window.webactPortfolioMaster = [
   {
     "name": "D And D Machinery Movers",
     "slug": "d-and-d-machinery-movers",
-    "industry": "Business",
+    "industry": "Industrial",
     "image": "../../Resources/images/dAndDMachineryMovers-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Service Presentation",
       "Lead Generation"
     ],
     "features": [
@@ -2056,9 +2056,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for D And D Machinery Movers, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "D And D Machinery Movers Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the D And D Machinery Movers website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Industrial website design case study for D And D Machinery Movers, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "D And D Machinery Movers Website Design Case Study | WebAct Industrial Portfolio",
+    "seoDescription": "Explore the D And D Machinery Movers website design case study from WebAct, including Industrial website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for D And D Machinery Movers, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of D And D Machinery Movers quickly while guiding visitors toward the next step.",
@@ -2119,10 +2119,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Photo Gallery",
-      "Trust Signals",
-      "Contact Forms"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -2158,10 +2158,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -2197,10 +2197,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -2225,7 +2225,7 @@ window.webactPortfolioMaster = [
   {
     "name": "Denver's Best Heating",
     "slug": "denver-s-best-heating",
-    "industry": "Home Services",
+    "industry": "HVAC",
     "image": "../../Resources/images/WebactDenversBestHeating-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -2236,10 +2236,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -2251,9 +2251,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Denver's Best Heating, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Denver's Best Heating Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Denver's Best Heating website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "HVAC website design case study for Denver's Best Heating, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Denver's Best Heating Website Design Case Study | WebAct HVAC Portfolio",
+    "seoDescription": "Explore the Denver's Best Heating website design case study from WebAct, including HVAC website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Denver's Best Heating, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Denver's Best Heating quickly while guiding visitors toward the next step.",
@@ -2303,14 +2303,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Denver Sign Factory",
     "slug": "denver-sign-factory",
-    "industry": "Business",
+    "industry": "Printing & Graphics",
     "image": "../../Resources/images/denverSignFactory-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Portfolio Showcase",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -2329,9 +2329,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Denver Sign Factory, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Denver Sign Factory Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Denver Sign Factory website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Printing & Graphics website design case study for Denver Sign Factory, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Denver Sign Factory Website Design Case Study | WebAct Printing & Graphics Portfolio",
+    "seoDescription": "Explore the Denver Sign Factory website design case study from WebAct, including Printing & Graphics website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Denver Sign Factory, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Denver Sign Factory quickly while guiding visitors toward the next step.",
@@ -2342,13 +2342,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Denver Towing",
     "slug": "denver-towing",
-    "industry": "Business",
+    "industry": "Automotive",
     "image": "../../Resources/images/WebactDenverTowing-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Local SEO",
       "Lead Generation"
     ],
     "features": [
@@ -2368,9 +2368,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Denver Towing, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Denver Towing Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Denver Towing website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Automotive website design case study for Denver Towing, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Denver Towing Website Design Case Study | WebAct Automotive Portfolio",
+    "seoDescription": "Explore the Denver Towing website design case study from WebAct, including Automotive website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Denver Towing, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Denver Towing quickly while guiding visitors toward the next step.",
@@ -2470,10 +2470,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -2498,14 +2498,14 @@ window.webactPortfolioMaster = [
   {
     "name": "DSS By Kat",
     "slug": "dss-by-kat",
-    "industry": "Business",
+    "industry": "Salon & Beauty",
     "image": "../../Resources/images/dssByKat-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Service Presentation",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -2524,9 +2524,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for DSS By Kat, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "DSS By Kat Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the DSS By Kat website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Salon & Beauty website design case study for DSS By Kat, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "DSS By Kat Website Design Case Study | WebAct Salon & Beauty Portfolio",
+    "seoDescription": "Explore the DSS By Kat website design case study from WebAct, including Salon & Beauty website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for DSS By Kat, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of DSS By Kat quickly while guiding visitors toward the next step.",
@@ -2587,9 +2587,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Mission Messaging",
-      "Donation CTA",
-      "Community Content",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -2626,10 +2626,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Photo Gallery",
-      "Trust Signals",
-      "Contact Forms"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -2704,9 +2704,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Mission Messaging",
-      "Donation CTA",
-      "Community Content",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -2732,7 +2732,7 @@ window.webactPortfolioMaster = [
   {
     "name": "Einstein Plumbing",
     "slug": "einstein-plumbing",
-    "industry": "Home Services",
+    "industry": "Plumbing",
     "image": "../../Resources/images/WebactEinstein-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -2743,10 +2743,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -2758,9 +2758,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Einstein Plumbing, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Einstein Plumbing Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Einstein Plumbing website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Plumbing website design case study for Einstein Plumbing, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Einstein Plumbing Website Design Case Study | WebAct Plumbing Portfolio",
+    "seoDescription": "Explore the Einstein Plumbing website design case study from WebAct, including Plumbing website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Einstein Plumbing, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Einstein Plumbing quickly while guiding visitors toward the next step.",
@@ -2771,13 +2771,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Emergency Locksmith Denver",
     "slug": "emergency-locksmith-denver",
-    "industry": "Business",
+    "industry": "Locksmith",
     "image": "../../Resources/images/Emergency_Locksmith_Denver-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Local SEO",
       "Lead Generation"
     ],
     "features": [
@@ -2797,9 +2797,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Emergency Locksmith Denver, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Emergency Locksmith Denver Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Emergency Locksmith Denver website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Locksmith website design case study for Emergency Locksmith Denver, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Emergency Locksmith Denver Website Design Case Study | WebAct Locksmith Portfolio",
+    "seoDescription": "Explore the Emergency Locksmith Denver website design case study from WebAct, including Locksmith website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Emergency Locksmith Denver, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Emergency Locksmith Denver quickly while guiding visitors toward the next step.",
@@ -2810,52 +2810,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Empathy Care",
     "slug": "empathy-care",
-    "industry": "Healthcare",
+    "industry": "Home Care",
     "image": "../../Resources/images/Empathy-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Patient Trust",
-      "Local SEO"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Pages",
-      "Patient Trust Signals",
-      "Appointment CTA",
-      "Local SEO"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
-      "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Healthcare website design case study for Empathy Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Empathy Care Website Design Case Study | WebAct Healthcare Portfolio",
-    "seoDescription": "Explore the Empathy Care website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Empathy Care, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Empathy Care quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Empathy Care a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "Energy Performance Service",
-    "slug": "energy-performance-service",
-    "industry": "Business",
-    "image": "../../Resources/images/epshvac(EnergyPerformanceService)-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Content Strategy",
+      "Healthcare Messaging",
       "Lead Generation"
     ],
     "features": [
@@ -2875,9 +2836,48 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Energy Performance Service, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Energy Performance Service Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Energy Performance Service website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Care website design case study for Empathy Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Empathy Care Website Design Case Study | WebAct Home Care Portfolio",
+    "seoDescription": "Explore the Empathy Care website design case study from WebAct, including Home Care website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Empathy Care, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Empathy Care quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Empathy Care a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "Energy Performance Service",
+    "slug": "energy-performance-service",
+    "industry": "Energy",
+    "image": "../../Resources/images/epshvac(EnergyPerformanceService)-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Sustainability Messaging",
+      "Lead Generation"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Energy website design case study for Energy Performance Service, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Energy Performance Service Website Design Case Study | WebAct Energy Portfolio",
+    "seoDescription": "Explore the Energy Performance Service website design case study from WebAct, including Energy website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Energy Performance Service, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Energy Performance Service quickly while guiding visitors toward the next step.",
@@ -2927,13 +2927,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Epleyer",
     "slug": "epleyer",
-    "industry": "Business",
+    "industry": "Technology",
     "image": "../../Resources/images/Epleyer-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Product Positioning",
       "Lead Generation"
     ],
     "features": [
@@ -2953,9 +2953,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Epleyer, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Epleyer Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Epleyer website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Technology website design case study for Epleyer, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Epleyer Website Design Case Study | WebAct Technology Portfolio",
+    "seoDescription": "Explore the Epleyer website design case study from WebAct, including Technology website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Epleyer, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Epleyer quickly while guiding visitors toward the next step.",
@@ -2977,10 +2977,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Practice Area Pages",
-      "Consultation CTA",
-      "Attorney Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -3016,9 +3016,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Product Messaging",
-      "Feature Sections",
-      "Lead Capture",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -3083,13 +3083,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Extreme Autoworks",
     "slug": "extreme-autoworks",
-    "industry": "Business",
+    "industry": "Automotive",
     "image": "../../Resources/images/WebactExtremeAutowors-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Local SEO",
       "Lead Generation"
     ],
     "features": [
@@ -3109,9 +3109,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Extreme Autoworks, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Extreme Autoworks Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Extreme Autoworks website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Automotive website design case study for Extreme Autoworks, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Extreme Autoworks Website Design Case Study | WebAct Automotive Portfolio",
+    "seoDescription": "Explore the Extreme Autoworks website design case study from WebAct, including Automotive website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Extreme Autoworks, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Extreme Autoworks quickly while guiding visitors toward the next step.",
@@ -3122,13 +3122,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Fine Arts Movement",
     "slug": "fine-arts-movement",
-    "industry": "Business",
+    "industry": "Arts & Entertainment",
     "image": "../../Resources/images/WebactFAM-5c1828d3-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Portfolio Showcase",
       "Lead Generation"
     ],
     "features": [
@@ -3148,9 +3148,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Fine Arts Movement, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Fine Arts Movement Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Fine Arts Movement website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Arts & Entertainment website design case study for Fine Arts Movement, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Fine Arts Movement Website Design Case Study | WebAct Arts & Entertainment Portfolio",
+    "seoDescription": "Explore the Fine Arts Movement website design case study from WebAct, including Arts & Entertainment website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Fine Arts Movement, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Fine Arts Movement quickly while guiding visitors toward the next step.",
@@ -3172,9 +3172,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -3289,10 +3289,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -3367,10 +3367,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -3445,10 +3445,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -3484,10 +3484,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Practice Area Pages",
-      "Consultation CTA",
-      "Attorney Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -3512,91 +3512,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Genius Coaching",
     "slug": "genius-coaching",
-    "industry": "Professional Services",
+    "industry": "Education",
     "image": "../../Resources/images/GeniusCoaching-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
-      "SEO-Friendly Structure"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
-      "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Professional Services website design case study for Genius Coaching, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Genius Coaching Website Design Case Study | WebAct Professional Services Portfolio",
-    "seoDescription": "Explore the Genius Coaching website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Genius Coaching, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Genius Coaching quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Genius Coaching a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "Ghost Town Fitness",
-    "slug": "ghost-town-fitness",
-    "industry": "Healthcare",
-    "image": "../../Resources/images/ghostTownFitness-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Patient Trust",
-      "Local SEO"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Pages",
-      "Patient Trust Signals",
-      "Appointment CTA",
-      "Local SEO"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
-      "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Healthcare website design case study for Ghost Town Fitness, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Ghost Town Fitness Website Design Case Study | WebAct Healthcare Portfolio",
-    "seoDescription": "Explore the Ghost Town Fitness website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Ghost Town Fitness, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Ghost Town Fitness quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Ghost Town Fitness a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "Good Water",
-    "slug": "good-water",
-    "industry": "Business",
-    "image": "../../Resources/images/goodWater-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Content Strategy",
+      "Program Pages",
       "Lead Generation"
     ],
     "features": [
@@ -3616,9 +3538,87 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Good Water, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Good Water Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Good Water website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Education website design case study for Genius Coaching, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Genius Coaching Website Design Case Study | WebAct Education Portfolio",
+    "seoDescription": "Explore the Genius Coaching website design case study from WebAct, including Education website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Genius Coaching, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Genius Coaching quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Genius Coaching a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "Ghost Town Fitness",
+    "slug": "ghost-town-fitness",
+    "industry": "Fitness",
+    "image": "../../Resources/images/ghostTownFitness-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Membership CTA",
+      "Local SEO"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Fitness website design case study for Ghost Town Fitness, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Ghost Town Fitness Website Design Case Study | WebAct Fitness Portfolio",
+    "seoDescription": "Explore the Ghost Town Fitness website design case study from WebAct, including Fitness website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Ghost Town Fitness, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Ghost Town Fitness quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Ghost Town Fitness a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "Good Water",
+    "slug": "good-water",
+    "industry": "Water Treatment",
+    "image": "../../Resources/images/goodWater-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Product Education",
+      "Lead Generation"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Water Treatment website design case study for Good Water, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Good Water Website Design Case Study | WebAct Water Treatment Portfolio",
+    "seoDescription": "Explore the Good Water website design case study from WebAct, including Water Treatment website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Good Water, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Good Water quickly while guiding visitors toward the next step.",
@@ -3640,10 +3640,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -3668,13 +3668,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Great Escape",
     "slug": "great-escape",
-    "industry": "Business",
+    "industry": "Entertainment",
     "image": "../../Resources/images/great escape-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Event Presentation",
       "Lead Generation"
     ],
     "features": [
@@ -3694,9 +3694,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Great Escape, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Great Escape Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Great Escape website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Entertainment website design case study for Great Escape, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Great Escape Website Design Case Study | WebAct Entertainment Portfolio",
+    "seoDescription": "Explore the Great Escape website design case study from WebAct, including Entertainment website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Great Escape, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Great Escape quickly while guiding visitors toward the next step.",
@@ -3707,13 +3707,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Great West Restoration Colorado",
     "slug": "great-west-restoration-colorado",
-    "industry": "Business",
+    "industry": "Home Services",
     "image": "../../Resources/images/Great-West-Restoration-Colorado-be744ebf-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Service Area SEO",
       "Lead Generation"
     ],
     "features": [
@@ -3733,9 +3733,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Great West Restoration Colorado, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Great West Restoration Colorado Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Great West Restoration Colorado website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Services website design case study for Great West Restoration Colorado, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Great West Restoration Colorado Website Design Case Study | WebAct Home Services Portfolio",
+    "seoDescription": "Explore the Great West Restoration Colorado website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Great West Restoration Colorado, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Great West Restoration Colorado quickly while guiding visitors toward the next step.",
@@ -3746,13 +3746,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Great West Restoration Colorado Agent",
     "slug": "great-west-restoration-colorado-agent",
-    "industry": "Business",
+    "industry": "Home Services",
     "image": "../../Resources/images/Great-West-Restoration-Colorado-Agent-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Service Area SEO",
       "Lead Generation"
     ],
     "features": [
@@ -3772,9 +3772,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Great West Restoration Colorado Agent, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Great West Restoration Colorado Agent Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Great West Restoration Colorado Agent website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Services website design case study for Great West Restoration Colorado Agent, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Great West Restoration Colorado Agent Website Design Case Study | WebAct Home Services Portfolio",
+    "seoDescription": "Explore the Great West Restoration Colorado Agent website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Great West Restoration Colorado Agent, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Great West Restoration Colorado Agent quickly while guiding visitors toward the next step.",
@@ -3796,10 +3796,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Photo Gallery",
-      "Trust Signals",
-      "Contact Forms"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -3835,9 +3835,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Mission Messaging",
-      "Donation CTA",
-      "Community Content",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -3913,10 +3913,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -3941,7 +3941,7 @@ window.webactPortfolioMaster = [
   {
     "name": "Heritage Roofing",
     "slug": "heritage-roofing",
-    "industry": "Home Services",
+    "industry": "Roofing",
     "image": "../../Resources/images/WebactHeritage-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -3952,10 +3952,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -3967,9 +3967,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Heritage Roofing, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Heritage Roofing Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Heritage Roofing website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Roofing website design case study for Heritage Roofing, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Heritage Roofing Website Design Case Study | WebAct Roofing Portfolio",
+    "seoDescription": "Explore the Heritage Roofing website design case study from WebAct, including Roofing website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Heritage Roofing, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Heritage Roofing quickly while guiding visitors toward the next step.",
@@ -4108,10 +4108,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4136,21 +4136,21 @@ window.webactPortfolioMaster = [
   {
     "name": "Homeland Driving School Cavco Enterprises, Inc",
     "slug": "homeland-driving-school-cavco-enterprises-inc",
-    "industry": "Home Services",
+    "industry": "Driving School",
     "image": "../../Resources/images/Homeland-Driving-School-Cavco-Enterprises--Inc-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Service Area SEO",
-      "Lead Generation"
+      "Enrollment Flow",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4162,9 +4162,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Homeland Driving School Cavco Enterprises, Inc, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Homeland Driving School Cavco Enterprises, Inc Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Homeland Driving School Cavco Enterprises, Inc website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Driving School website design case study for Homeland Driving School Cavco Enterprises, Inc, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Homeland Driving School Cavco Enterprises, Inc Website Design Case Study | WebAct Driving School Portfolio",
+    "seoDescription": "Explore the Homeland Driving School Cavco Enterprises, Inc website design case study from WebAct, including Driving School website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Homeland Driving School Cavco Enterprises, Inc, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Homeland Driving School Cavco Enterprises, Inc quickly while guiding visitors toward the next step.",
@@ -4175,13 +4175,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Houston Energy Systems",
     "slug": "houston-energy-systems",
-    "industry": "Business",
+    "industry": "Energy",
     "image": "../../Resources/images/HoustonEnergySystems-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Sustainability Messaging",
       "Lead Generation"
     ],
     "features": [
@@ -4201,9 +4201,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Houston Energy Systems, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Houston Energy Systems Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Houston Energy Systems website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Energy website design case study for Houston Energy Systems, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Houston Energy Systems Website Design Case Study | WebAct Energy Portfolio",
+    "seoDescription": "Explore the Houston Energy Systems website design case study from WebAct, including Energy website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Houston Energy Systems, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Houston Energy Systems quickly while guiding visitors toward the next step.",
@@ -4225,9 +4225,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Mission Messaging",
-      "Donation CTA",
-      "Community Content",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -4253,13 +4253,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Hydro Dynamics",
     "slug": "hydro-dynamics",
-    "industry": "Business",
+    "industry": "Water Treatment",
     "image": "../../Resources/images/Hydro-Dynamics-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Product Education",
       "Lead Generation"
     ],
     "features": [
@@ -4279,9 +4279,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Hydro Dynamics, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Hydro Dynamics Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Hydro Dynamics website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Water Treatment website design case study for Hydro Dynamics, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Hydro Dynamics Website Design Case Study | WebAct Water Treatment Portfolio",
+    "seoDescription": "Explore the Hydro Dynamics website design case study from WebAct, including Water Treatment website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Hydro Dynamics, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Hydro Dynamics quickly while guiding visitors toward the next step.",
@@ -4303,10 +4303,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4381,10 +4381,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4448,7 +4448,7 @@ window.webactPortfolioMaster = [
   {
     "name": "Integration Design",
     "slug": "integration-design",
-    "industry": "Business",
+    "industry": "Professional Services",
     "image": "../../Resources/images/WebactIntergrationDesign-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -4474,9 +4474,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Integration Design, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Integration Design Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Integration Design website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Professional Services website design case study for Integration Design, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Integration Design Website Design Case Study | WebAct Professional Services Portfolio",
+    "seoDescription": "Explore the Integration Design website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Integration Design, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Integration Design quickly while guiding visitors toward the next step.",
@@ -4498,10 +4498,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4537,10 +4537,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4576,9 +4576,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -4604,13 +4604,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Island Slider Guy",
     "slug": "island-slider-guy",
-    "industry": "Business",
+    "industry": "Home Services",
     "image": "../../Resources/images/Island_Slider_Guy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Service Area SEO",
       "Lead Generation"
     ],
     "features": [
@@ -4630,9 +4630,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Island Slider Guy, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Island Slider Guy Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Island Slider Guy website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Services website design case study for Island Slider Guy, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Island Slider Guy Website Design Case Study | WebAct Home Services Portfolio",
+    "seoDescription": "Explore the Island Slider Guy website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Island Slider Guy, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Island Slider Guy quickly while guiding visitors toward the next step.",
@@ -4693,10 +4693,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4760,91 +4760,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Kasco HVAC",
     "slug": "kasco-hvac",
-    "industry": "Home Services",
+    "industry": "HVAC",
     "image": "../../Resources/images/Kasco-Hvac-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
       "Service Area SEO",
-      "Lead Generation"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
-      "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Home Services website design case study for Kasco HVAC, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Kasco HVAC Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Kasco HVAC website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Kasco HVAC, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Kasco HVAC quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Kasco HVAC a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "Kenyon Homecare Consulting",
-    "slug": "kenyon-homecare-consulting",
-    "industry": "Professional Services",
-    "image": "../../Resources/images/Kenyonn-Homecare-Consulting-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Content Strategy",
-      "Lead Generation"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
-      "SEO-Friendly Structure"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
-      "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Professional Services website design case study for Kenyon Homecare Consulting, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Kenyon Homecare Consulting Website Design Case Study | WebAct Professional Services Portfolio",
-    "seoDescription": "Explore the Kenyon Homecare Consulting website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Kenyon Homecare Consulting, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Kenyon Homecare Consulting quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Kenyon Homecare Consulting a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "Kinetico Denver",
-    "slug": "kinetico-denver",
-    "industry": "Business",
-    "image": "../../Resources/images/kinetico-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Content Strategy",
       "Lead Generation"
     ],
     "features": [
@@ -4864,9 +4786,87 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Kinetico Denver, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Kinetico Denver Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Kinetico Denver website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "HVAC website design case study for Kasco HVAC, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Kasco HVAC Website Design Case Study | WebAct HVAC Portfolio",
+    "seoDescription": "Explore the Kasco HVAC website design case study from WebAct, including HVAC website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Kasco HVAC, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Kasco HVAC quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Kasco HVAC a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "Kenyon Homecare Consulting",
+    "slug": "kenyon-homecare-consulting",
+    "industry": "Home Care",
+    "image": "../../Resources/images/Kenyonn-Homecare-Consulting-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Healthcare Messaging",
+      "Lead Generation"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Home Care website design case study for Kenyon Homecare Consulting, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Kenyon Homecare Consulting Website Design Case Study | WebAct Home Care Portfolio",
+    "seoDescription": "Explore the Kenyon Homecare Consulting website design case study from WebAct, including Home Care website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Kenyon Homecare Consulting, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Kenyon Homecare Consulting quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Kenyon Homecare Consulting a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "Kinetico Denver",
+    "slug": "kinetico-denver",
+    "industry": "Water Treatment",
+    "image": "../../Resources/images/kinetico-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Product Education",
+      "Lead Generation"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Water Treatment website design case study for Kinetico Denver, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Kinetico Denver Website Design Case Study | WebAct Water Treatment Portfolio",
+    "seoDescription": "Explore the Kinetico Denver website design case study from WebAct, including Water Treatment website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Kinetico Denver, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Kinetico Denver quickly while guiding visitors toward the next step.",
@@ -4888,10 +4888,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Practice Area Pages",
-      "Consultation CTA",
-      "Attorney Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4927,10 +4927,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4966,10 +4966,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -4994,14 +4994,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Light Of Mine",
     "slug": "light-of-mine",
-    "industry": "Business",
+    "industry": "Nonprofit",
     "image": "../../Resources/images/lightOfMine-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Donation Messaging",
+      "Community Trust"
     ],
     "features": [
       "Mobile Responsive",
@@ -5020,9 +5020,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Light Of Mine, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Light Of Mine Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Light Of Mine website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Nonprofit website design case study for Light Of Mine, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Light Of Mine Website Design Case Study | WebAct Nonprofit Portfolio",
+    "seoDescription": "Explore the Light Of Mine website design case study from WebAct, including Nonprofit website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Light Of Mine, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Light Of Mine quickly while guiding visitors toward the next step.",
@@ -5072,14 +5072,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Little Caesars Pueblo",
     "slug": "little-caesars-pueblo",
-    "industry": "Business",
+    "industry": "Restaurant",
     "image": "../../Resources/images/littleCaesars-f8b3a4d9-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Menu Presentation",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -5098,9 +5098,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Little Caesars Pueblo, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Little Caesars Pueblo Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Little Caesars Pueblo website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Restaurant website design case study for Little Caesars Pueblo, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Little Caesars Pueblo Website Design Case Study | WebAct Restaurant Portfolio",
+    "seoDescription": "Explore the Little Caesars Pueblo website design case study from WebAct, including Restaurant website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Little Caesars Pueblo, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Little Caesars Pueblo quickly while guiding visitors toward the next step.",
@@ -5111,13 +5111,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Lower Lake Ranch",
     "slug": "lower-lake-ranch",
-    "industry": "Business",
+    "industry": "Real Estate",
     "image": "../../Resources/images/WebactLowerLakeRanch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Property Presentation",
       "Lead Generation"
     ],
     "features": [
@@ -5137,9 +5137,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Lower Lake Ranch, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Lower Lake Ranch Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Lower Lake Ranch website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Real Estate website design case study for Lower Lake Ranch, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Lower Lake Ranch Website Design Case Study | WebAct Real Estate Portfolio",
+    "seoDescription": "Explore the Lower Lake Ranch website design case study from WebAct, including Real Estate website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Lower Lake Ranch, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Lower Lake Ranch quickly while guiding visitors toward the next step.",
@@ -5150,7 +5150,7 @@ window.webactPortfolioMaster = [
   {
     "name": "M Communications",
     "slug": "m-communications",
-    "industry": "Business",
+    "industry": "Professional Services",
     "image": "../../Resources/images/WebactMCommunications-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -5176,9 +5176,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for M Communications, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "M Communications Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the M Communications website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Professional Services website design case study for M Communications, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "M Communications Website Design Case Study | WebAct Professional Services Portfolio",
+    "seoDescription": "Explore the M Communications website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for M Communications, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of M Communications quickly while guiding visitors toward the next step.",
@@ -5189,13 +5189,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Manor House Apartments",
     "slug": "manor-house-apartments",
-    "industry": "Business",
+    "industry": "Real Estate",
     "image": "../../Resources/images/MANOR-HOUSE-APARTMENTS-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Property Presentation",
       "Lead Generation"
     ],
     "features": [
@@ -5215,9 +5215,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Manor House Apartments, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Manor House Apartments Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Manor House Apartments website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Real Estate website design case study for Manor House Apartments, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Manor House Apartments Website Design Case Study | WebAct Real Estate Portfolio",
+    "seoDescription": "Explore the Manor House Apartments website design case study from WebAct, including Real Estate website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Manor House Apartments, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Manor House Apartments quickly while guiding visitors toward the next step.",
@@ -5228,13 +5228,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Master Craft",
     "slug": "master-craft",
-    "industry": "Business",
+    "industry": "Home Services",
     "image": "../../Resources/images/Master-Craft-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Service Area SEO",
       "Lead Generation"
     ],
     "features": [
@@ -5254,9 +5254,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Master Craft, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Master Craft Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Master Craft website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Services website design case study for Master Craft, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Master Craft Website Design Case Study | WebAct Home Services Portfolio",
+    "seoDescription": "Explore the Master Craft website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Master Craft, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Master Craft quickly while guiding visitors toward the next step.",
@@ -5267,13 +5267,13 @@ window.webactPortfolioMaster = [
   {
     "name": "MDT Transit",
     "slug": "mdt-transit",
-    "industry": "Business",
+    "industry": "Transportation",
     "image": "../../Resources/images/MDT-Transit-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Service Area SEO",
       "Lead Generation"
     ],
     "features": [
@@ -5293,9 +5293,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for MDT Transit, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "MDT Transit Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the MDT Transit website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Transportation website design case study for MDT Transit, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "MDT Transit Website Design Case Study | WebAct Transportation Portfolio",
+    "seoDescription": "Explore the MDT Transit website design case study from WebAct, including Transportation website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for MDT Transit, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of MDT Transit quickly while guiding visitors toward the next step.",
@@ -5306,14 +5306,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Meadow Hills",
     "slug": "meadow-hills",
-    "industry": "Business",
+    "industry": "Dental",
     "image": "../../Resources/images/Meadow_Hills-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Patient Conversion",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -5332,9 +5332,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Meadow Hills, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Meadow Hills Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Meadow Hills website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Dental website design case study for Meadow Hills, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Meadow Hills Website Design Case Study | WebAct Dental Portfolio",
+    "seoDescription": "Explore the Meadow Hills website design case study from WebAct, including Dental website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Meadow Hills, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Meadow Hills quickly while guiding visitors toward the next step.",
@@ -5345,14 +5345,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Meditouch",
     "slug": "meditouch",
-    "industry": "Business",
+    "industry": "Healthcare",
     "image": "../../Resources/images/Meditouch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Patient Trust",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -5371,9 +5371,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Meditouch, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Meditouch Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Meditouch website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Healthcare website design case study for Meditouch, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Meditouch Website Design Case Study | WebAct Healthcare Portfolio",
+    "seoDescription": "Explore the Meditouch website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Meditouch, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Meditouch quickly while guiding visitors toward the next step.",
@@ -5395,10 +5395,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -5434,10 +5434,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -5473,10 +5473,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -5501,14 +5501,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Mile High Books",
     "slug": "mile-high-books",
-    "industry": "Business",
+    "industry": "Retail",
     "image": "../../Resources/images/Mile_High_Books-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Product Presentation",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -5527,9 +5527,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Mile High Books, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Mile High Books Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Mile High Books website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Retail website design case study for Mile High Books, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Mile High Books Website Design Case Study | WebAct Retail Portfolio",
+    "seoDescription": "Explore the Mile High Books website design case study from WebAct, including Retail website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Mile High Books, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Mile High Books quickly while guiding visitors toward the next step.",
@@ -5540,13 +5540,52 @@ window.webactPortfolioMaster = [
   {
     "name": "Mindful Minds Psychiatry",
     "slug": "mindful-minds-psychiatry",
-    "industry": "Business",
+    "industry": "Healthcare",
     "image": "../../Resources/images/MINDFUL-MINDS-PSYCHIATRY-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Patient Trust",
+      "Local SEO"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Healthcare website design case study for Mindful Minds Psychiatry, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Mindful Minds Psychiatry Website Design Case Study | WebAct Healthcare Portfolio",
+    "seoDescription": "Explore the Mindful Minds Psychiatry website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Mindful Minds Psychiatry, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Mindful Minds Psychiatry quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Mindful Minds Psychiatry a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "Midwest Appliance and HVAC",
+    "slug": "midwest-appliance-and-hvac",
+    "industry": "HVAC",
+    "image": "../../Resources/images/MIDWEST-APPLIANCE-AND-HVAC-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Service Area SEO",
       "Lead Generation"
     ],
     "features": [
@@ -5566,48 +5605,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Mindful Minds Psychiatry, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Mindful Minds Psychiatry Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Mindful Minds Psychiatry website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Mindful Minds Psychiatry, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Mindful Minds Psychiatry quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Mindful Minds Psychiatry a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "Midwest Appliance and HVAC",
-    "slug": "midwest-appliance-and-hvac",
-    "industry": "Home Services",
-    "image": "../../Resources/images/MIDWEST-APPLIANCE-AND-HVAC-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Service Area SEO",
-      "Lead Generation"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
-      "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Home Services website design case study for Midwest Appliance and HVAC, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Midwest Appliance and HVAC Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Midwest Appliance and HVAC website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "HVAC website design case study for Midwest Appliance and HVAC, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Midwest Appliance and HVAC Website Design Case Study | WebAct HVAC Portfolio",
+    "seoDescription": "Explore the Midwest Appliance and HVAC website design case study from WebAct, including HVAC website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Midwest Appliance and HVAC, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Midwest Appliance and HVAC quickly while guiding visitors toward the next step.",
@@ -5629,9 +5629,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Mission Messaging",
-      "Donation CTA",
-      "Community Content",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -5668,10 +5668,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -5774,20 +5774,20 @@ window.webactPortfolioMaster = [
   {
     "name": "Mountain Peak Law Group LLC",
     "slug": "mountain-peak-law-group-llc",
-    "industry": "Professional Services",
+    "industry": "Legal",
     "image": "../../Resources/images/Mountain-Peak-Law-Group-LLC-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Client Intake",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -5800,9 +5800,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Professional Services website design case study for Mountain Peak Law Group LLC, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Mountain Peak Law Group LLC Website Design Case Study | WebAct Professional Services Portfolio",
-    "seoDescription": "Explore the Mountain Peak Law Group LLC website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Legal website design case study for Mountain Peak Law Group LLC, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Mountain Peak Law Group LLC Website Design Case Study | WebAct Legal Portfolio",
+    "seoDescription": "Explore the Mountain Peak Law Group LLC website design case study from WebAct, including Legal website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Mountain Peak Law Group LLC, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Mountain Peak Law Group LLC quickly while guiding visitors toward the next step.",
@@ -5824,10 +5824,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Practice Area Pages",
-      "Consultation CTA",
-      "Attorney Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -5863,10 +5863,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -5891,14 +5891,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Niagra Designs",
     "slug": "niagra-designs",
-    "industry": "Business",
+    "industry": "Printing & Graphics",
     "image": "../../Resources/images/WebactNiagraDesigns-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Portfolio Showcase",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -5917,9 +5917,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Niagra Designs, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Niagra Designs Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Niagra Designs website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Printing & Graphics website design case study for Niagra Designs, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Niagra Designs Website Design Case Study | WebAct Printing & Graphics Portfolio",
+    "seoDescription": "Explore the Niagra Designs website design case study from WebAct, including Printing & Graphics website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Niagra Designs, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Niagra Designs quickly while guiding visitors toward the next step.",
@@ -5941,10 +5941,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -5980,10 +5980,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Product Education",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
       "Contact Forms",
-      "Service Area SEO",
-      "Trust Signals"
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6019,9 +6019,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -6086,21 +6086,21 @@ window.webactPortfolioMaster = [
   {
     "name": "Onestop Home Health Care",
     "slug": "onestop-home-health-care",
-    "industry": "Home Services",
+    "industry": "Home Care",
     "image": "../../Resources/images/ONESTOP-HOME-HEALTH-CARE-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Service Area SEO",
+      "Healthcare Messaging",
       "Lead Generation"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6112,9 +6112,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Onestop Home Health Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Onestop Home Health Care Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Onestop Home Health Care website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Care website design case study for Onestop Home Health Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Onestop Home Health Care Website Design Case Study | WebAct Home Care Portfolio",
+    "seoDescription": "Explore the Onestop Home Health Care website design case study from WebAct, including Home Care website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Onestop Home Health Care, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Onestop Home Health Care quickly while guiding visitors toward the next step.",
@@ -6125,21 +6125,21 @@ window.webactPortfolioMaster = [
   {
     "name": "Optimal Homecare",
     "slug": "optimal-homecare",
-    "industry": "Home Services",
+    "industry": "Home Care",
     "image": "../../Resources/images/WebactOptimal-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Service Area SEO",
+      "Healthcare Messaging",
       "Lead Generation"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6151,9 +6151,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Optimal Homecare, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Optimal Homecare Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Optimal Homecare website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Home Care website design case study for Optimal Homecare, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Optimal Homecare Website Design Case Study | WebAct Home Care Portfolio",
+    "seoDescription": "Explore the Optimal Homecare website design case study from WebAct, including Home Care website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Optimal Homecare, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Optimal Homecare quickly while guiding visitors toward the next step.",
@@ -6175,10 +6175,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Patient Trust Signals",
-      "Appointment CTA",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6203,14 +6203,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Palm Bay Power Equipment",
     "slug": "palm-bay-power-equipment",
-    "industry": "Business",
+    "industry": "Retail",
     "image": "../../Resources/images/palm bay power-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Product Presentation",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -6229,9 +6229,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Palm Bay Power Equipment, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Palm Bay Power Equipment Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Palm Bay Power Equipment website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Retail website design case study for Palm Bay Power Equipment, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Palm Bay Power Equipment Website Design Case Study | WebAct Retail Portfolio",
+    "seoDescription": "Explore the Palm Bay Power Equipment website design case study from WebAct, including Retail website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Palm Bay Power Equipment, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Palm Bay Power Equipment quickly while guiding visitors toward the next step.",
@@ -6253,10 +6253,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6398,14 +6398,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Paw Power Agility Equipment",
     "slug": "paw-power-agility-equipment",
-    "industry": "Business",
+    "industry": "Pet Services",
     "image": "../../Resources/images/Paw_Power_Agility_Equip-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Local SEO",
+      "Trust Building"
     ],
     "features": [
       "Mobile Responsive",
@@ -6424,9 +6424,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Paw Power Agility Equipment, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Paw Power Agility Equipment Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Paw Power Agility Equipment website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Pet Services website design case study for Paw Power Agility Equipment, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Paw Power Agility Equipment Website Design Case Study | WebAct Pet Services Portfolio",
+    "seoDescription": "Explore the Paw Power Agility Equipment website design case study from WebAct, including Pet Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Paw Power Agility Equipment, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Paw Power Agility Equipment quickly while guiding visitors toward the next step.",
@@ -6448,10 +6448,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6476,21 +6476,21 @@ window.webactPortfolioMaster = [
   {
     "name": "Peace Of Mind Pest Services",
     "slug": "peace-of-mind-pest-services",
-    "industry": "Home Services",
+    "industry": "Pest Control",
     "image": "../../Resources/images/Pest-Of-Mind-Pest-Services-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Service Area SEO",
+      "Local SEO",
       "Lead Generation"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6502,9 +6502,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Peace Of Mind Pest Services, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Peace Of Mind Pest Services Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Peace Of Mind Pest Services website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Pest Control website design case study for Peace Of Mind Pest Services, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Peace Of Mind Pest Services Website Design Case Study | WebAct Pest Control Portfolio",
+    "seoDescription": "Explore the Peace Of Mind Pest Services website design case study from WebAct, including Pest Control website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Peace Of Mind Pest Services, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Peace Of Mind Pest Services quickly while guiding visitors toward the next step.",
@@ -6554,52 +6554,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Pest Magic",
     "slug": "pest-magic",
-    "industry": "Home Services",
+    "industry": "Pest Control",
     "image": "../../Resources/images/Pest-Magic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Service Area SEO",
-      "Lead Generation"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
       "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Home Services website design case study for Pest Magic, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Pest Magic Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Pest Magic website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Pest Magic, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Pest Magic quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Pest Magic a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "Phase Contracting",
-    "slug": "phase-contracting",
-    "industry": "Business",
-    "image": "../../Resources/images/WebactPhaseContracting-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Content Strategy",
       "Lead Generation"
     ],
     "features": [
@@ -6619,9 +6580,48 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Phase Contracting, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Phase Contracting Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Phase Contracting website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Pest Control website design case study for Pest Magic, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Pest Magic Website Design Case Study | WebAct Pest Control Portfolio",
+    "seoDescription": "Explore the Pest Magic website design case study from WebAct, including Pest Control website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Pest Magic, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Pest Magic quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Pest Magic a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "Phase Contracting",
+    "slug": "phase-contracting",
+    "industry": "Home Services",
+    "image": "../../Resources/images/WebactPhaseContracting-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Service Area SEO",
+      "Lead Generation"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Home Services website design case study for Phase Contracting, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Phase Contracting Website Design Case Study | WebAct Home Services Portfolio",
+    "seoDescription": "Explore the Phase Contracting website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Phase Contracting, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Phase Contracting quickly while guiding visitors toward the next step.",
@@ -6721,10 +6721,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6749,13 +6749,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Pork Chop's Truck and Auto",
     "slug": "pork-chop-s-truck-and-auto",
-    "industry": "Business",
+    "industry": "Automotive",
     "image": "../../Resources/images/Pork-Chop-s-Truck-and-Auto-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Local SEO",
       "Lead Generation"
     ],
     "features": [
@@ -6775,9 +6775,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Pork Chop's Truck and Auto, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Pork Chop's Truck and Auto Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Pork Chop's Truck and Auto website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Automotive website design case study for Pork Chop's Truck and Auto, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Pork Chop's Truck and Auto Website Design Case Study | WebAct Automotive Portfolio",
+    "seoDescription": "Explore the Pork Chop's Truck and Auto website design case study from WebAct, including Automotive website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Pork Chop's Truck and Auto, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Pork Chop's Truck and Auto quickly while guiding visitors toward the next step.",
@@ -6799,9 +6799,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -6877,10 +6877,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6916,10 +6916,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -6944,52 +6944,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Roof Ready",
     "slug": "roof-ready",
-    "industry": "Home Services",
+    "industry": "Roofing",
     "image": "../../Resources/images/Roof-Ready-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
       "Service Area SEO",
-      "Lead Generation"
-    ],
-    "features": [
-      "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
-    ],
-    "technologies": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "Responsive Design",
-      "Local SEO",
-      "Performance Optimization",
-      "Analytics Ready",
-      "Secure Hosting"
-    ],
-    "description": "Home Services website design case study for Roof Ready, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Roof Ready Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Roof Ready website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
-    "caseStudy": {
-      "overview": "WebAct created a professional website presence for Roof Ready, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Roof Ready quickly while guiding visitors toward the next step.",
-      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Roof Ready a stronger online presence and a more polished way to showcase services to potential customers."
-    }
-  },
-  {
-    "name": "Roots & Brew",
-    "slug": "roots-and-brew",
-    "industry": "Business",
-    "image": "../../Resources/images/WebactRoots-Brew-1920w.png",
-    "previewUrl": "",
-    "liveUrl": "",
-    "services": [
-      "Website Design",
-      "Content Strategy",
       "Lead Generation"
     ],
     "features": [
@@ -7009,9 +6970,48 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Roots & Brew, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Roots & Brew Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Roots & Brew website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Roofing website design case study for Roof Ready, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Roof Ready Website Design Case Study | WebAct Roofing Portfolio",
+    "seoDescription": "Explore the Roof Ready website design case study from WebAct, including Roofing website strategy, services, features, and portfolio screenshots.",
+    "caseStudy": {
+      "overview": "WebAct created a professional website presence for Roof Ready, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Roof Ready quickly while guiding visitors toward the next step.",
+      "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
+      "result": "The finished website gives Roof Ready a stronger online presence and a more polished way to showcase services to potential customers."
+    }
+  },
+  {
+    "name": "Roots & Brew",
+    "slug": "roots-and-brew",
+    "industry": "Restaurant",
+    "image": "../../Resources/images/WebactRoots-Brew-1920w.png",
+    "previewUrl": "",
+    "liveUrl": "",
+    "services": [
+      "Website Design",
+      "Menu Presentation",
+      "Local SEO"
+    ],
+    "features": [
+      "Mobile Responsive",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Local SEO",
+      "Performance Optimization",
+      "Analytics Ready",
+      "Secure Hosting"
+    ],
+    "description": "Restaurant website design case study for Roots & Brew, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Roots & Brew Website Design Case Study | WebAct Restaurant Portfolio",
+    "seoDescription": "Explore the Roots & Brew website design case study from WebAct, including Restaurant website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Roots & Brew, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Roots & Brew quickly while guiding visitors toward the next step.",
@@ -7033,10 +7033,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7072,10 +7072,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7111,9 +7111,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Mission Messaging",
-      "Donation CTA",
-      "Community Content",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -7150,10 +7150,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7217,21 +7217,21 @@ window.webactPortfolioMaster = [
   {
     "name": "Skin Care Essentials",
     "slug": "skin-care-essentials",
-    "industry": "Healthcare",
+    "industry": "Salon & Beauty",
     "image": "../../Resources/images/SkinCare-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Patient Trust",
+      "Service Presentation",
       "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Patient Trust Signals",
-      "Appointment CTA",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7243,9 +7243,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Healthcare website design case study for Skin Care Essentials, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Skin Care Essentials Website Design Case Study | WebAct Healthcare Portfolio",
-    "seoDescription": "Explore the Skin Care Essentials website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
+    "description": "Salon & Beauty website design case study for Skin Care Essentials, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Skin Care Essentials Website Design Case Study | WebAct Salon & Beauty Portfolio",
+    "seoDescription": "Explore the Skin Care Essentials website design case study from WebAct, including Salon & Beauty website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Skin Care Essentials, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Skin Care Essentials quickly while guiding visitors toward the next step.",
@@ -7267,10 +7267,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7306,9 +7306,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Product Messaging",
-      "Feature Sections",
-      "Lead Capture",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -7345,9 +7345,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Product Messaging",
-      "Feature Sections",
-      "Lead Capture",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -7412,14 +7412,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Speak Clear Communications",
     "slug": "speak-clear-communications",
-    "industry": "Business",
+    "industry": "Healthcare",
     "image": "../../Resources/images/speakClearCommunications-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Patient Trust",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -7438,9 +7438,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Speak Clear Communications, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Speak Clear Communications Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Speak Clear Communications website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Healthcare website design case study for Speak Clear Communications, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Speak Clear Communications Website Design Case Study | WebAct Healthcare Portfolio",
+    "seoDescription": "Explore the Speak Clear Communications website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Speak Clear Communications, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Speak Clear Communications quickly while guiding visitors toward the next step.",
@@ -7462,10 +7462,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Practice Area Pages",
-      "Consultation CTA",
-      "Attorney Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7529,13 +7529,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Stephanie Ascari",
     "slug": "stephanie-ascari",
-    "industry": "Business",
+    "industry": "Automotive",
     "image": "../../Resources/images/Stephanie-Ascari-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Local SEO",
       "Lead Generation"
     ],
     "features": [
@@ -7555,9 +7555,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Stephanie Ascari, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Stephanie Ascari Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Stephanie Ascari website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Automotive website design case study for Stephanie Ascari, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Stephanie Ascari Website Design Case Study | WebAct Automotive Portfolio",
+    "seoDescription": "Explore the Stephanie Ascari website design case study from WebAct, including Automotive website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Stephanie Ascari, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Stephanie Ascari quickly while guiding visitors toward the next step.",
@@ -7568,14 +7568,14 @@ window.webactPortfolioMaster = [
   {
     "name": "Style Savy Designs",
     "slug": "style-savy-designs",
-    "industry": "Business",
+    "industry": "Printing & Graphics",
     "image": "../../Resources/images/WebactStyleSavy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Portfolio Showcase",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
@@ -7594,9 +7594,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Style Savy Designs, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Style Savy Designs Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Style Savy Designs website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Printing & Graphics website design case study for Style Savy Designs, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Style Savy Designs Website Design Case Study | WebAct Printing & Graphics Portfolio",
+    "seoDescription": "Explore the Style Savy Designs website design case study from WebAct, including Printing & Graphics website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Style Savy Designs, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Style Savy Designs quickly while guiding visitors toward the next step.",
@@ -7607,21 +7607,21 @@ window.webactPortfolioMaster = [
   {
     "name": "Stanleyview Home Care",
     "slug": "stanleyview-home-care",
-    "industry": "Home Services",
+    "industry": "Healthcare",
     "image": "../../Resources/images/Stanleyview-Home-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Service Area SEO",
-      "Lead Generation"
+      "Patient Trust",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7633,9 +7633,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Stanleyview Home Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Stanleyview Home Care Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Stanleyview Home Care website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Healthcare website design case study for Stanleyview Home Care, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Stanleyview Home Care Website Design Case Study | WebAct Healthcare Portfolio",
+    "seoDescription": "Explore the Stanleyview Home Care website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Stanleyview Home Care, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Stanleyview Home Care quickly while guiding visitors toward the next step.",
@@ -7696,10 +7696,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Portfolio Gallery",
-      "Quote Request CTA",
-      "Service Pages",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7735,10 +7735,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7774,10 +7774,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7813,10 +7813,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7852,10 +7852,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7891,10 +7891,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Patient Trust Signals",
-      "Appointment CTA",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7930,10 +7930,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -7969,9 +7969,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -8075,13 +8075,13 @@ window.webactPortfolioMaster = [
   {
     "name": "Thompson Water Media",
     "slug": "thompson-water-media",
-    "industry": "Business",
+    "industry": "Water Treatment",
     "image": "../../Resources/images/Thompson-Wate-Media-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Product Education",
       "Lead Generation"
     ],
     "features": [
@@ -8101,9 +8101,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Thompson Water Media, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Thompson Water Media Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Thompson Water Media website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Water Treatment website design case study for Thompson Water Media, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Thompson Water Media Website Design Case Study | WebAct Water Treatment Portfolio",
+    "seoDescription": "Explore the Thompson Water Media website design case study from WebAct, including Water Treatment website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Thompson Water Media, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Thompson Water Media quickly while guiding visitors toward the next step.",
@@ -8114,7 +8114,7 @@ window.webactPortfolioMaster = [
   {
     "name": "Tipping Hat",
     "slug": "tipping-hat",
-    "industry": "Business",
+    "industry": "Professional Services",
     "image": "../../Resources/images/tipping hat-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -8140,9 +8140,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Business website design case study for Tipping Hat, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Tipping Hat Website Design Case Study | WebAct Business Portfolio",
-    "seoDescription": "Explore the Tipping Hat website design case study from WebAct, including Business website strategy, services, features, and portfolio screenshots.",
+    "description": "Professional Services website design case study for Tipping Hat, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Tipping Hat Website Design Case Study | WebAct Professional Services Portfolio",
+    "seoDescription": "Explore the Tipping Hat website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Tipping Hat, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Tipping Hat quickly while guiding visitors toward the next step.",
@@ -8153,20 +8153,20 @@ window.webactPortfolioMaster = [
   {
     "name": "Total Wellness Group",
     "slug": "total-wellness-group",
-    "industry": "Professional Services",
+    "industry": "Healthcare",
     "image": "../../Resources/images/TotalWellnessGroup-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
-      "Lead Generation"
+      "Patient Trust",
+      "Local SEO"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -8179,9 +8179,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Professional Services website design case study for Total Wellness Group, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Total Wellness Group Website Design Case Study | WebAct Professional Services Portfolio",
-    "seoDescription": "Explore the Total Wellness Group website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Healthcare website design case study for Total Wellness Group, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Total Wellness Group Website Design Case Study | WebAct Healthcare Portfolio",
+    "seoDescription": "Explore the Total Wellness Group website design case study from WebAct, including Healthcare website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Total Wellness Group, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Total Wellness Group quickly while guiding visitors toward the next step.",
@@ -8203,10 +8203,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8281,10 +8281,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8359,9 +8359,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Sustainability Messaging",
-      "Service Pages",
-      "Lead Capture",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -8437,10 +8437,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Program Pages",
-      "Enrollment CTA",
-      "Instructor Information",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8504,7 +8504,7 @@ window.webactPortfolioMaster = [
   {
     "name": "Wake Heating and Air",
     "slug": "wake-heating-and-air",
-    "industry": "Home Services",
+    "industry": "HVAC",
     "image": "../../Resources/images/Wake-Heating-and-Air-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -8515,10 +8515,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Area Pages",
-      "Request Estimate CTA",
-      "Photo Gallery",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8530,9 +8530,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Home Services website design case study for Wake Heating and Air, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Wake Heating and Air Website Design Case Study | WebAct Home Services Portfolio",
-    "seoDescription": "Explore the Wake Heating and Air website design case study from WebAct, including Home Services website strategy, services, features, and portfolio screenshots.",
+    "description": "HVAC website design case study for Wake Heating and Air, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Wake Heating and Air Website Design Case Study | WebAct HVAC Portfolio",
+    "seoDescription": "Explore the Wake Heating and Air website design case study from WebAct, including HVAC website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Wake Heating and Air, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Wake Heating and Air quickly while guiding visitors toward the next step.",
@@ -8554,10 +8554,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Appointment CTA",
-      "Patient Trust Signals",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8593,9 +8593,9 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Product Messaging",
-      "Feature Sections",
-      "Lead Capture",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -8660,20 +8660,20 @@ window.webactPortfolioMaster = [
   {
     "name": "Your College Planning Coach",
     "slug": "your-college-planning-coach",
-    "industry": "Professional Services",
+    "industry": "Education",
     "image": "../../Resources/images/You-College-Planning-Coach-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
       "Website Design",
-      "Content Strategy",
+      "Program Pages",
       "Lead Generation"
     ],
     "features": [
       "Mobile Responsive",
-      "Service Pages",
-      "Lead Capture",
-      "Brand Positioning",
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
       "SEO-Friendly Structure"
     ],
     "technologies": [
@@ -8686,9 +8686,9 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Professional Services website design case study for Your College Planning Coach, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Your College Planning Coach Website Design Case Study | WebAct Professional Services Portfolio",
-    "seoDescription": "Explore the Your College Planning Coach website design case study from WebAct, including Professional Services website strategy, services, features, and portfolio screenshots.",
+    "description": "Education website design case study for Your College Planning Coach, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Your College Planning Coach Website Design Case Study | WebAct Education Portfolio",
+    "seoDescription": "Explore the Your College Planning Coach website design case study from WebAct, including Education website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
       "overview": "WebAct created a professional website presence for Your College Planning Coach, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Your College Planning Coach quickly while guiding visitors toward the next step.",
@@ -8749,10 +8749,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8788,10 +8788,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8827,10 +8827,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8866,10 +8866,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8905,10 +8905,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
@@ -8944,10 +8944,10 @@ window.webactPortfolioMaster = [
     ],
     "features": [
       "Mobile Responsive",
-      "Menu Sections",
-      "Location Information",
-      "Online Ordering Ready",
-      "Local SEO"
+      "Fast Loading Pages",
+      "Clear Calls To Action",
+      "Contact Forms",
+      "SEO-Friendly Structure"
     ],
     "technologies": [
       "HTML5",
