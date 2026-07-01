@@ -64,7 +64,7 @@ function guessIndustry(name) {
 
   const n = name.toLowerCase();
 
-  if (/(360 sales advantage|consulting|coach|agency|business|sales|marketing|executive|capital|benefits|insurance|group|partners)/.test(n)) return 'Professional Services';
+  if (/(consulting|coach|agency|business|sales|marketing|executive|capital|benefits|insurance|group|partners)/.test(n)) return 'Professional Services';
   if (/(dental|dentist|orthodont|implant|smile|dentures)/.test(n)) return 'Dental';
   if (/(law|legal|attorney|defender|creditor)/.test(n)) return 'Legal';
   if (/(restaurant|cuisine|pizza|sushi|zaika|mehak|haveli|tadka|nirvana|sage)/.test(n)) return 'Restaurant';
@@ -78,10 +78,97 @@ function guessIndustry(name) {
   return 'Business';
 }
 
+function servicesForIndustry(industry) {
+  const base = ['Website Design', 'Content Strategy', 'Lead Generation'];
+
+  const serviceMap = {
+    'Restaurant': ['Website Design', 'Menu Presentation', 'Local SEO'],
+    'Pet Services': ['Website Design', 'Local SEO', 'Trust Building'],
+    'Home Care': ['Website Design', 'Healthcare Messaging', 'Lead Generation'],
+    'Healthcare': ['Website Design', 'Patient Trust', 'Local SEO'],
+    'Driving School': ['Website Design', 'Enrollment Flow', 'Local SEO'],
+    'Dental': ['Website Design', 'Patient Conversion', 'Local SEO'],
+    'Legal': ['Website Design', 'Client Intake', 'Local SEO'],
+    'Home Services': ['Website Design', 'Service Area SEO', 'Lead Generation'],
+    'Professional Services': ['Website Design', 'Content Strategy', 'Lead Generation'],
+    'Technology': ['Website Design', 'Product Positioning', 'Lead Generation'],
+    'Nonprofit': ['Website Design', 'Donation Messaging', 'Community Trust'],
+    'Electrical': ['Website Design', 'Service Area SEO', 'Lead Generation'],
+    'Pest Control': ['Website Design', 'Local SEO', 'Lead Generation'],
+    'Water Treatment': ['Website Design', 'Product Education', 'Lead Generation'],
+    'Printing & Graphics': ['Website Design', 'Portfolio Showcase', 'Local SEO'],
+    'Energy': ['Website Design', 'Sustainability Messaging', 'Lead Generation']
+  };
+
+  return serviceMap[industry] || base;
+}
+
+function featuresForIndustry(industry) {
+  const base = ['Mobile Responsive', 'Fast Loading Pages', 'Clear Calls To Action', 'Contact Forms', 'SEO-Friendly Structure'];
+
+  const featureMap = {
+    'Restaurant': ['Mobile Responsive', 'Menu Sections', 'Location Information', 'Online Ordering Ready', 'Local SEO'],
+    'Pet Services': ['Mobile Responsive', 'Service Pages', 'Photo Gallery', 'Trust Signals', 'Contact Forms'],
+    'Home Care': ['Mobile Responsive', 'Care Service Pages', 'Trust Signals', 'Inquiry Forms', 'Local SEO'],
+    'Healthcare': ['Mobile Responsive', 'Service Pages', 'Patient Trust Signals', 'Appointment CTA', 'Local SEO'],
+    'Driving School': ['Mobile Responsive', 'Program Pages', 'Enrollment CTA', 'Instructor Information', 'Local SEO'],
+    'Dental': ['Mobile Responsive', 'Service Pages', 'Appointment CTA', 'Patient Trust Signals', 'Local SEO'],
+    'Legal': ['Mobile Responsive', 'Practice Area Pages', 'Consultation CTA', 'Attorney Trust Signals', 'Local SEO'],
+    'Home Services': ['Mobile Responsive', 'Service Area Pages', 'Request Estimate CTA', 'Photo Gallery', 'Local SEO'],
+    'Professional Services': ['Mobile Responsive', 'Service Pages', 'Lead Capture', 'Brand Positioning', 'SEO-Friendly Structure'],
+    'Technology': ['Mobile Responsive', 'Product Messaging', 'Feature Sections', 'Lead Capture', 'SEO-Friendly Structure'],
+    'Nonprofit': ['Mobile Responsive', 'Mission Messaging', 'Donation CTA', 'Community Content', 'SEO-Friendly Structure'],
+    'Electrical': ['Mobile Responsive', 'Service Pages', 'Request Estimate CTA', 'Service Area SEO', 'Contact Forms'],
+    'Pest Control': ['Mobile Responsive', 'Pest Service Pages', 'Request Estimate CTA', 'Local SEO', 'Trust Signals'],
+    'Water Treatment': ['Mobile Responsive', 'Product Education', 'Contact Forms', 'Service Area SEO', 'Trust Signals'],
+    'Printing & Graphics': ['Mobile Responsive', 'Portfolio Gallery', 'Quote Request CTA', 'Service Pages', 'Local SEO'],
+    'Energy': ['Mobile Responsive', 'Sustainability Messaging', 'Service Pages', 'Lead Capture', 'SEO-Friendly Structure']
+  };
+
+  return featureMap[industry] || base;
+}
+
+function technologiesForIndustry(industry) {
+  return [
+    'HTML5',
+    'CSS3',
+    'JavaScript',
+    'Responsive Design',
+    'Local SEO',
+    'Performance Optimization',
+    'Analytics Ready',
+    'Secure Hosting'
+  ];
+}
+
+function slug(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function descriptionFor(name, industry) {
+  return `${industry} website design case study for ${name}, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.`;
+}
+
+function seoTitleFor(name, industry) {
+  return `${name} Website Design Case Study | WebAct ${industry} Portfolio`;
+}
+
+function seoDescriptionFor(name, industry) {
+  return `Explore the ${name} website design case study from WebAct, including ${industry} website strategy, services, features, and portfolio screenshots.`;
+}
+
 function jsArray(rows, varName) {
   return `window.${varName} = [\n${rows
     .map(row => `  ${JSON.stringify(row)}`)
     .join(',\n')}\n];\n`;
+}
+
+function jsObject(rows, varName) {
+  return `window.${varName} = ${JSON.stringify(rows, null, 2)};\n`;
 }
 
 async function main() {
@@ -143,6 +230,7 @@ async function main() {
 
   const rows = cards.map(card => {
     const name = clean(card.name);
+    const industry = guessIndustry(name);
     const imagePath = normalizeImage(card.image);
     const fileName = imagePath.replace('../../Resources/images/', '');
     const localPath = path.join(imageDir, fileName);
@@ -153,15 +241,49 @@ async function main() {
 
     return [
       name,
-      guessIndustry(name),
+      industry,
       imagePath,
       ''
     ];
   });
 
+  const master = cards.map(card => {
+    const name = clean(card.name);
+    const industry = guessIndustry(name);
+    const imagePath = normalizeImage(card.image);
+    const projectSlug = slug(name);
+
+    return {
+      name,
+      slug: projectSlug,
+      industry,
+      image: imagePath,
+      previewUrl: '',
+      liveUrl: '',
+      services: servicesForIndustry(industry),
+      features: featuresForIndustry(industry),
+      technologies: technologiesForIndustry(industry),
+      description: descriptionFor(name, industry),
+      seoTitle: seoTitleFor(name, industry),
+      seoDescription: seoDescriptionFor(name, industry),
+      caseStudy: {
+        overview: `WebAct created a professional website presence for ${name}, helping the business present its services clearly and build trust with visitors.`,
+        challenge: `The project needed to communicate the value of ${name} quickly while guiding visitors toward the next step.`,
+        solution: `WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.`,
+        result: `The finished website gives ${name} a stronger online presence and a more polished way to showcase services to potential customers.`
+      }
+    };
+  });
+
   fs.writeFileSync(
     path.join(outDir, 'portfolio-data-all.js'),
     jsArray(rows, 'webactPortfolioRows'),
+    'utf8'
+  );
+
+  fs.writeFileSync(
+    path.join(outDir, 'portfolio-master-data.js'),
+    jsObject(master, 'webactPortfolioMaster'),
     'utf8'
   );
 
@@ -177,6 +299,11 @@ async function main() {
   }
 
   console.log(`Saved ${rows.length} old-format portfolio rows.`);
+  console.log(`Saved ${master.length} master portfolio records.`);
+  console.log('Wrote:');
+  console.log('about/portfolio/portfolio-data-all.js');
+  console.log('about/portfolio/portfolio-master-data.js');
+  console.log('about/portfolio/portfolio-data-part1.js through portfolio-data-part4.js');
 }
 
 main().catch(error => {
