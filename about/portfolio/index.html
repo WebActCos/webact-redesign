@@ -7,7 +7,7 @@
 <link rel="canonical" href="https://www.webact.com/about/portfolio/">
 <link rel="stylesheet" href="../../styles.css?v=reviews-layout-fix">
 <link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css">
-<link rel="stylesheet" href="./portfolio-premium.css?v=explorer-v2">
+<link rel="stylesheet" href="./portfolio-premium.css?v=filters-fixed">
 </head>
 <body class="portfolio-page">
 <header class="wa-promodo-header" data-wa-nav><nav class="wa-promodo-nav" aria-label="Main navigation"><a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home"><img src="../../assets/images/webact-logo.png" alt="WebAct"></a><ul class="wa-promodo-menu" data-wa-menu><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../design/website-design/index.html">Website Design</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../digital-ads/index.html">Digital Ads</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../marketing/index.html">Marketing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../industries/index.html">Industries</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../pricing/index.html">Pricing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li></ul><div class="wa-promodo-actions"><a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a><button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button></div></nav></header>
@@ -59,8 +59,8 @@
 <script src="../../script.js?v=reviews-layout-fix"></script>
 <script src="../../assets/js/webact-promodo-nav.js" defer></script>
 <script src="./portfolio-data.js?v=old-fallback"></script>
-<script src="./portfolio-data-all.js?v=full-250-search-filters"></script>
-<script src="./portfolio-master-data.js?v=master-data-search-filters"></script>
+<script src="./portfolio-data-all.js?v=full-250-filters-fixed"></script>
+<script src="./portfolio-master-data.js?v=master-data-filters-fixed"></script>
 
 <script>
 (function(){
@@ -89,18 +89,13 @@ const featuredProjects=[...projects.filter(p=>['Restaurant','Legal','Dental','Ho
 featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Featured Work</p><h2>Selected WebAct Case Studies</h2></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
 filters.innerHTML=['all',...industries].map((i,n)=>'<button class="filter-button '+(n?'':'is-active')+'" data-filter="'+esc(i)+'" type="button">'+(i==='all'?'All':esc(i))+'</button>').join('');
 
-function renderChips(type){const map={industry:industries,service:services,feature:features,technology:technologies};chipPanel.innerHTML=(map[type]||[]).slice(0,40).map(item=>'<button class="explorer-chip" data-value="'+esc(item)+'" type="button">'+esc(item)+'</button>').join('')}
 function searchableText(p){return [p.name,p.industry,(p.services||[]).join(' '),(p.features||[]).join(' '),(p.technologies||[]).join(' '),p.desc].join(' ').toLowerCase()}
-function cardHtml(p,index){const tags=(p.services||[]).slice(0,3).map(t=>'<em>'+esc(t)+'</em>').join('');const img=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';return '<article class="portfolio-card reveal-card" style="--delay:'+(index%12)*45+'ms" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'" data-services="'+esc((p.services||[]).join('|'))+'" data-features="'+esc((p.features||[]).join('|'))+'" data-technologies="'+esc((p.technologies||[]).join('|'))+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="service-tags">'+tags+'</div><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>'}
-grid.innerHTML=projects.map(cardHtml).join('');
+function cardHtml(p,index){
+  const img=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';
 
-grid.addEventListener('click',e=>{
-  const tag=e.target.closest('.service-tags em');
-  if(!tag)return;
-  e.preventDefault();
-  search.value=tag.textContent.trim();
-  apply();
-});
+  return '<article class="portfolio-card reveal-card" style="--delay:'+(index%12)*45+'ms" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'" data-services="'+esc((p.services||[]).join('|'))+'" data-features="'+esc((p.features||[]).join('|'))+'" data-technologies="'+esc((p.technologies||[]).join('|'))+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>';
+}
+grid.innerHTML=projects.map(cardHtml).join('');
 
 function has(pipe,value){return !value||String(pipe||'').split('|').includes(value)}
 function apply(){
@@ -126,9 +121,22 @@ function apply(){
   resultCount.textContent='Showing '+shown+' of '+projects.length+' projects';
   empty.style.display=shown?'none':'block';
 }
-search.addEventListener('input',apply);[industrySelect,serviceSelect,featureSelect,technologySelect].forEach(s=>s.addEventListener('change',apply));
+search.addEventListener('input',apply);
+industrySelect.addEventListener('change',()=>{
+  active='all';
+  document.querySelectorAll('.filter-button').forEach((b,i)=>b.classList.toggle('is-active',i===0));
+  apply();
+});
+[serviceSelect,featureSelect,technologySelect].forEach(s=>s.addEventListener('change',apply));
 clearFilters.addEventListener('click',()=>{search.value='';industrySelect.value='';serviceSelect.value='';featureSelect.value='';technologySelect.value='';active='all';document.querySelectorAll('.filter-button').forEach((b,i)=>b.classList.toggle('is-active',i===0));apply()});
-filters.addEventListener('click',e=>{if(!e.target.matches('button'))return;document.querySelectorAll('.filter-button').forEach(b=>b.classList.remove('is-active'));e.target.classList.add('is-active');active=e.target.dataset.filter;apply()});
+filters.addEventListener('click',e=>{
+  if(!e.target.matches('button'))return;
+  document.querySelectorAll('.filter-button').forEach(b=>b.classList.remove('is-active'));
+  e.target.classList.add('is-active');
+  active=e.target.dataset.filter;
+  industrySelect.value='';
+  apply();
+});
 
 
 document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==search){e.preventDefault();search.focus()}});
