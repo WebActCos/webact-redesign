@@ -7,7 +7,7 @@
 <link rel="canonical" href="https://www.webact.com/about/portfolio/">
 <link rel="stylesheet" href="../../styles.css?v=reviews-layout-fix">
 <link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css">
-<link rel="stylesheet" href="./portfolio-premium.css?v=filters-simple-v1">
+<link rel="stylesheet" href="./portfolio-premium.css?v=filters-visible-v2">
 </head>
 <body class="portfolio-page">
 <header class="wa-promodo-header" data-wa-nav><nav class="wa-promodo-nav" aria-label="Main navigation"><a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home"><img src="../../assets/images/webact-logo.png" alt="WebAct"></a><ul class="wa-promodo-menu" data-wa-menu><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../design/website-design/index.html">Website Design</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../digital-ads/index.html">Digital Ads</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../marketing/index.html">Marketing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../industries/index.html">Industries</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../pricing/index.html">Pricing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li></ul><div class="wa-promodo-actions"><a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a><button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button></div></nav></header>
@@ -59,8 +59,8 @@
 <script src="../../script.js?v=reviews-layout-fix"></script>
 <script src="../../assets/js/webact-promodo-nav.js" defer></script>
 <script src="./portfolio-data.js?v=old-fallback"></script>
-<script src="./portfolio-data-all.js?v=full-250-filters-simple-v1"></script>
-<script src="./portfolio-master-data.js?v=master-data-filters-simple-v1"></script>
+<script src="./portfolio-data-all.js?v=full-250-filters-visible-v2"></script>
+<script src="./portfolio-master-data.js?v=master-data-filters-visible-v2"></script>
 
 <script>
 (function(){
@@ -133,14 +133,9 @@ const services=uniqueValues(p=>p.services);
 const features=uniqueValues(p=>p.features);
 const technologies=uniqueValues(p=>p.technologies);
 
-function animateCounter(el,to){
-  if(!el)return;
-  el.textContent=to;
-}
-
-animateCounter(document.getElementById('project-count'),projects.length);
-animateCounter(document.getElementById('industry-count'),industries.length);
-animateCounter(document.getElementById('service-count'),services.length);
+document.getElementById('project-count').textContent=projects.length;
+document.getElementById('industry-count').textContent=industries.length;
+document.getElementById('service-count').textContent=services.length;
 
 stats.innerHTML=[
   ['Projects',projects.length],
@@ -180,7 +175,7 @@ function searchableText(p){
 function cardHtml(p,index){
   const img=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';
 
-  return '<article class="portfolio-card reveal-card" style="--delay:'+(index%12)*45+'ms" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'" data-services="'+esc((p.services||[]).join('|'))+'" data-features="'+esc((p.features||[]).join('|'))+'" data-technologies="'+esc((p.technologies||[]).join('|'))+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>';
+  return '<article class="portfolio-card is-visible" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'" data-services="'+esc((p.services||[]).join('|'))+'" data-features="'+esc((p.features||[]).join('|'))+'" data-technologies="'+esc((p.technologies||[]).join('|'))+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>';
 }
 
 grid.innerHTML=projects.map(cardHtml).join('');
@@ -205,6 +200,7 @@ function apply(){
       has(card.dataset.technologies,technologySelect.value);
 
     card.hidden=!show;
+    card.style.display=show?'':'none';
     if(show)shown++;
   });
 
@@ -230,17 +226,6 @@ document.addEventListener('keydown',e=>{
     search.focus();
   }
 });
-
-const observer=new IntersectionObserver(entries=>{
-  entries.forEach(entry=>{
-    if(entry.isIntersecting){
-      entry.target.classList.add('is-visible');
-      observer.unobserve(entry.target);
-    }
-  });
-},{threshold:.08});
-
-document.querySelectorAll('.reveal-card').forEach(card=>observer.observe(card));
 
 document.querySelectorAll('.portfolio-card img,.featured-card img').forEach(img=>{
   img.addEventListener('load',()=>img.classList.add('is-loaded'));
