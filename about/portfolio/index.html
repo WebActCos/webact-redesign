@@ -77,13 +77,15 @@
 <script src="../../assets/js/webact-promodo-nav.js" defer></script>
 <script src="./portfolio-data.js?v=old-fallback"></script>
 <script src="./portfolio-data-all.js?v=full-250-industry-refined-content-v1"></script>
+<script src="./industry-overrides.js?v=1"></script>
 <script src="./portfolio-master-data.js?v=master-data-industry-refined-content-v1"></script>
 
 <script>
 (function(){
-const fallback=window.webactPortfolioProjects||[];
-const rows=window.webactPortfolioRows||[];
-const master=window.webactPortfolioMaster||[];
+const fallback=window.webactPortfolioProjects||[],
+      rows=window.webactPortfolioRows||[],
+      master=window.webactPortfolioMaster||[],
+      INDUSTRY_OVERRIDES=window.webactIndustryOverrides||{};
 
 const slug=s=>String(s||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const esc=s=>String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -227,8 +229,11 @@ function normalizeName(value){
   return String(value||'').replace(/&/g,'and').replace(/[^a-z0-9]+/gi,' ').trim().replace(/\s+/g,' ');
 }
 
-function refineIndustry(name,industry){
-  const clean=normalizeName(name);
+function refineIndustry(name, industry){
+
+  if(INDUSTRY_OVERRIDES[name]){
+    return INDUSTRY_OVERRIDES[name];
+  }
   if(INDUSTRY_OVERRIDES[clean]) return INDUSTRY_OVERRIDES[clean];
 
   const text=clean.toLowerCase();
