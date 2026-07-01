@@ -8,25 +8,100 @@ const imageDir = path.join(root, 'Resources', 'images');
 const portfolioUrl = 'https://www.webact.com/portfolio';
 
 const EXTRA_PROJECTS = [
-  { name: '2go Coconut', industry: 'Restaurant', image: '2goCoconut.png' },
-  { name: 'Benton Dental', industry: 'Dental', image: 'benton+dental.png' },
-  { name: 'Blackridge Defense', industry: 'Security', image: 'Blackridge-Defense.png' },
-  { name: 'Building Better Breath', industry: 'Healthcare', image: 'building-better-Breath.png' },
-  { name: 'By The Beach', industry: 'Travel', image: 'by+the+beach.png' },
-  { name: 'Cancer With Courage', industry: 'Nonprofit', image: 'cancer+with+courage.png' },
-  { name: 'Carlock Plumbing', industry: 'Plumbing', image: 'Carlock_Plumbing.png' },
-  { name: 'Carwash Coupons', industry: 'Automotive', image: 'Carwash_Coupons.png' },
-  { name: 'CellBlock', industry: 'Technology', image: 'cellBlock.png' },
-  { name: 'Deaf Vacation Cruise', industry: 'Travel', image: 'deaf Vacation Cruise.png' },
-  { name: 'Dig For Energy', industry: 'Energy', image: 'dig For Energy.png' },
-  { name: 'Great West Real Estate', industry: 'Real Estate', image: 'great+west Real Estate.png' },
-  { name: 'Island Cool Creams', industry: 'Restaurant', image: 'island+cool+creams.png' },
-  { name: 'Marcoa', industry: 'Professional Services', image: 'marcoa.png' },
-  { name: 'Net 2 Phone', industry: 'Technology', image: 'net+2+phone.png' },
-  { name: 'New Era Dental', industry: 'Dental', image: 'new+era+dental.png' },
-  { name: 'Simply Cupcakes Pasadena', industry: 'Restaurant', image: 'simply+cupcakes+pasadena.png' },
-  { name: 'Sniper Security', industry: 'Security', image: 'sniper+security.png' },
-  { name: 'The Chambers Of Tucson Mall', industry: 'Retail', image: 'the+chambers+of+tucson+mall.png' }
+  {
+    name: "2go Coconut",
+    industry: "Restaurant",
+    image: "2goCoconut.png"
+  },
+  {
+    name: "Benton Dental",
+    industry: "Dental",
+    image: "benton-dental.png"
+  },
+  {
+    name: "Blackridge Defense",
+    industry: "Security",
+    image: "blackridge-defense.png"
+  },
+  {
+    name: "Building Better Breath",
+    industry: "Healthcare",
+    image: "building-better-breath.png"
+  },
+  {
+    name: "By The Beach",
+    industry: "Travel",
+    image: "by-the-beach.png"
+  },
+  {
+    name: "Cancer With Courage",
+    industry: "Nonprofit",
+    image: "cancer-with-courage.png"
+  },
+  {
+    name: "Carlock Plumbing",
+    industry: "Plumbing",
+    image: "Carlock_Plumbing.png"
+  },
+  {
+    name: "Carwash Coupons",
+    industry: "Automotive",
+    image: "carwash-coupons.png"
+  },
+  {
+    name: "CellBlock",
+    industry: "Technology",
+    image: "cellblock.png"
+  },
+  {
+    name: "Deaf Vacation Cruise",
+    industry: "Travel",
+    image: "deaf-vacation-cruise.png"
+  },
+  {
+    name: "Dig For Energy",
+    industry: "Energy",
+    image: "dig-for-energy.png"
+  },
+  {
+    name: "Great West Real Estate",
+    industry: "Real Estate",
+    image: "great-west-real-estate.png"
+  },
+  {
+    name: "Island Cool Creams",
+    industry: "Restaurant",
+    image: "island+cool+creams.png"  },
+  {
+    name: "Marcoa",
+    industry: "Professional Services",
+    image: "marcoa.png"
+  },
+  {
+    name: "Net 2 Phone",
+    industry: "Technology",
+    image: "net-2-phone.png"
+  },
+  {
+    name: "New Era Dental",
+    industry: "Dental",
+    image: "new-era-dental.png"
+  },
+  {
+    name: "Simply Cupcakes Pasadena",
+    industry: "Restaurant",
+    image: "simply-cupcakes-pasadena.png"
+  },
+  {
+    name: "Sniper Security",
+    industry: "Security",
+    image: "sniper-security.png"
+  },
+  {
+    name: "The Chambers Of Tucson Mall",
+    industry: "Retail",
+    image: "the-chambers-of-tucson-mall.png"
+  }
 ];
 
 function clean(value) {

@@ -9051,7 +9051,7 @@ window.webactPortfolioMaster = [
     "name": "Benton Dental",
     "slug": "benton-dental",
     "industry": "Dental",
-    "image": "../../Resources/images/benton+dental.png",
+    "image": "../../Resources/images/benton-dental.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9090,7 +9090,7 @@ window.webactPortfolioMaster = [
     "name": "Blackridge Defense",
     "slug": "blackridge-defense",
     "industry": "Security",
-    "image": "../../Resources/images/Blackridge-Defense.png",
+    "image": "../../Resources/images/blackridge-defense.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9129,7 +9129,7 @@ window.webactPortfolioMaster = [
     "name": "Building Better Breath",
     "slug": "building-better-breath",
     "industry": "Healthcare",
-    "image": "../../Resources/images/building-better-Breath.png",
+    "image": "../../Resources/images/building-better-breath.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9168,7 +9168,7 @@ window.webactPortfolioMaster = [
     "name": "By The Beach",
     "slug": "by-the-beach",
     "industry": "Travel",
-    "image": "../../Resources/images/by+the+beach.png",
+    "image": "../../Resources/images/by-the-beach.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9207,7 +9207,7 @@ window.webactPortfolioMaster = [
     "name": "Cancer With Courage",
     "slug": "cancer-with-courage",
     "industry": "Nonprofit",
-    "image": "../../Resources/images/cancer+with+courage.png",
+    "image": "../../Resources/images/cancer-with-courage.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9285,7 +9285,7 @@ window.webactPortfolioMaster = [
     "name": "Carwash Coupons",
     "slug": "carwash-coupons",
     "industry": "Automotive",
-    "image": "../../Resources/images/Carwash_Coupons.png",
+    "image": "../../Resources/images/carwash-coupons.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9324,7 +9324,7 @@ window.webactPortfolioMaster = [
     "name": "CellBlock",
     "slug": "cellblock",
     "industry": "Locksmith",
-    "image": "../../Resources/images/cellBlock.png",
+    "image": "../../Resources/images/cellblock.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9363,7 +9363,7 @@ window.webactPortfolioMaster = [
     "name": "Deaf Vacation Cruise",
     "slug": "deaf-vacation-cruise",
     "industry": "Travel",
-    "image": "../../Resources/images/deaf Vacation Cruise.png",
+    "image": "../../Resources/images/deaf-vacation-cruise.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9402,7 +9402,7 @@ window.webactPortfolioMaster = [
     "name": "Dig For Energy",
     "slug": "dig-for-energy",
     "industry": "Energy",
-    "image": "../../Resources/images/dig For Energy.png",
+    "image": "../../Resources/images/dig-for-energy.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9441,7 +9441,7 @@ window.webactPortfolioMaster = [
     "name": "Great West Real Estate",
     "slug": "great-west-real-estate",
     "industry": "Real Estate",
-    "image": "../../Resources/images/great+west Real Estate.png",
+    "image": "../../Resources/images/great-west-real-estate.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9558,7 +9558,7 @@ window.webactPortfolioMaster = [
     "name": "Net 2 Phone",
     "slug": "net-2-phone",
     "industry": "Technology",
-    "image": "../../Resources/images/net+2+phone.png",
+    "image": "../../Resources/images/net-2-phone.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9597,7 +9597,7 @@ window.webactPortfolioMaster = [
     "name": "New Era Dental",
     "slug": "new-era-dental",
     "industry": "Dental",
-    "image": "../../Resources/images/new+era+dental.png",
+    "image": "../../Resources/images/new-era-dental.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9636,7 +9636,7 @@ window.webactPortfolioMaster = [
     "name": "Simply Cupcakes Pasadena",
     "slug": "simply-cupcakes-pasadena",
     "industry": "Restaurant",
-    "image": "../../Resources/images/simply+cupcakes+pasadena.png",
+    "image": "../../Resources/images/simply-cupcakes-pasadena.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9675,7 +9675,7 @@ window.webactPortfolioMaster = [
     "name": "Sniper Security",
     "slug": "sniper-security",
     "industry": "Security",
-    "image": "../../Resources/images/sniper+security.png",
+    "image": "../../Resources/images/sniper-security.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9714,7 +9714,7 @@ window.webactPortfolioMaster = [
     "name": "The Chambers Of Tucson Mall",
     "slug": "the-chambers-of-tucson-mall",
     "industry": "Retail",
-    "image": "../../Resources/images/the+chambers+of+tucson+mall.png",
+    "image": "../../Resources/images/the-chambers-of-tucson-mall.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
