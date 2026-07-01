@@ -414,8 +414,19 @@ for (const project of EXTRA_PROJECTS) {
     return true;
   });
 
-  const rows = deduped.map(project => project.row);
-  const master = deduped.map(project => project.master);
+deduped.sort((a, b) => {
+  return a.master.name.localeCompare(
+    b.master.name,
+    'en',
+    {
+      numeric: true,
+      sensitivity: 'base'
+    }
+  );
+});
+
+const rows = deduped.map(project => project.row);
+const master = deduped.map(project => project.master);
 
   for (const row of rows) {
     const fileName = row[2].replace('../../Resources/images/', '');
