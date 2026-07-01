@@ -1287,8 +1287,8 @@ window.webactPortfolioMaster = [
     }
   },
   {
-    "name": "Blackridge Defense",
-    "slug": "blackridge-defense",
+    "name": "BlackBridge Defense",
+    "slug": "blackbridge-defense",
     "industry": "Security",
     "image": "../../Resources/images/Blackridge-Defense.png",
     "previewUrl": "",
@@ -1315,14 +1315,14 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Security website design case study for Blackridge Defense, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "Blackridge Defense Website Design Case Study | WebAct Security Portfolio",
-    "seoDescription": "Explore the Blackridge Defense website design case study from WebAct, including Security website strategy, services, features, and portfolio screenshots.",
+    "description": "Security website design case study for BlackBridge Defense, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "BlackBridge Defense Website Design Case Study | WebAct Security Portfolio",
+    "seoDescription": "Explore the BlackBridge Defense website design case study from WebAct, including Security website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
-      "overview": "WebAct created a professional website presence for Blackridge Defense, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Blackridge Defense quickly while guiding visitors toward the next step.",
+      "overview": "WebAct created a professional website presence for BlackBridge Defense, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of BlackBridge Defense quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Blackridge Defense a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives BlackBridge Defense a stronger online presence and a more polished way to showcase services to potential customers."
     }
   },
   {
@@ -1872,8 +1872,8 @@ window.webactPortfolioMaster = [
     }
   },
   {
-    "name": "CellBlock",
-    "slug": "cellblock",
+    "name": "Cell Block",
+    "slug": "cell-block",
     "industry": "Locksmith",
     "image": "../../Resources/images/cellBlock.png",
     "previewUrl": "",
@@ -1900,14 +1900,14 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Locksmith website design case study for CellBlock, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "CellBlock Website Design Case Study | WebAct Locksmith Portfolio",
-    "seoDescription": "Explore the CellBlock website design case study from WebAct, including Locksmith website strategy, services, features, and portfolio screenshots.",
+    "description": "Locksmith website design case study for Cell Block, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "Cell Block Website Design Case Study | WebAct Locksmith Portfolio",
+    "seoDescription": "Explore the Cell Block website design case study from WebAct, including Locksmith website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
-      "overview": "WebAct created a professional website presence for CellBlock, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of CellBlock quickly while guiding visitors toward the next step.",
+      "overview": "WebAct created a professional website presence for Cell Block, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Cell Block quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives CellBlock a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Cell Block a stronger online presence and a more polished way to showcase services to potential customers."
     }
   },
   {

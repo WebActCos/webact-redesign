@@ -19,7 +19,7 @@ const EXTRA_PROJECTS = [
     image: "benton-dental.png"
   },
 {
-  name: "Blackridge Defense",
+  name: "BlackBridge Defense",
   industry: "Security",
   image: "Blackridge-Defense.png"
 },
@@ -49,7 +49,7 @@ const EXTRA_PROJECTS = [
     image: "carwash-coupons.png"
   },
 {
-  name: "CellBlock",
+  name: "Cell Block",
   industry: "Technology",
   image: "cellBlock.png"
 },
@@ -166,7 +166,7 @@ function findImageForExtra(baseName) {
 const INDUSTRY_OVERRIDES = {
   "2go Coconut": "Restaurant",
   "Benton Dental": "Dental",
-  "Blackridge Defense": "Security",
+  "BlackBridge Defense": "Security",
   "Building Better Breath": "Healthcare",
   "By The Beach": "Travel",
   "Cancer With Courage": "Nonprofit",
