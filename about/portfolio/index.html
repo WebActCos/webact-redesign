@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WebAct Portfolio | Website Design Case Studies by Industry</title>
-<meta name="description" content="Explore WebAct website design portfolio projects by company, industry, services, and case study.">
+<title>WebAct Portfolio Explorer | Website Design Case Studies by Industry</title>
+<meta name="description" content="Explore 231 WebAct website design portfolio projects by company, industry, services, features, and technology.">
 <link rel="canonical" href="https://www.webact.com/about/portfolio/">
 <link rel="stylesheet" href="../../styles.css?v=reviews-layout-fix">
 <link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css">
@@ -12,31 +12,47 @@
 <body class="portfolio-page">
 <header class="wa-promodo-header" data-wa-nav><nav class="wa-promodo-nav" aria-label="Main navigation"><a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home"><img src="../../assets/images/webact-logo.png" alt="WebAct"></a><ul class="wa-promodo-menu" data-wa-menu><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../design/website-design/index.html">Website Design</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../digital-ads/index.html">Digital Ads</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../marketing/index.html">Marketing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../industries/index.html">Industries</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../pricing/index.html">Pricing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li></ul><div class="wa-promodo-actions"><a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a><button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button></div></nav></header>
 
-<section class="portfolio-hero">
+<section class="portfolio-hero explorer-hero">
   <div class="portfolio-hero-inner">
     <div>
-      <p class="eyebrow">Real WebAct Work</p>
-      <h1>WebAct Portfolio</h1>
-      <p>Explore website design projects by company, industry, and service type. Portfolio screenshots are displayed directly on case study pages instead of linking to old preview pages.</p>
+      <p class="eyebrow">WebAct Portfolio Explorer</p>
+      <h1>Browse Real Website Design Work</h1>
+      <p>Explore WebAct website design projects by industry, service, feature, and technology. Every card opens into a premium case study powered by local screenshots and master portfolio data.</p>
+      <div class="hero-actions">
+        <a class="explorer-btn" href="#portfolio-grid">Explore Projects</a>
+        <a class="explorer-btn explorer-btn-secondary" href="./industry/">Browse Industries</a>
+      </div>
     </div>
-    <div class="hero-panel">
-      <strong id="project-count">0</strong>
-      <span>portfolio projects rebuilt</span>
-      <span>Searchable case studies, industry labels, services, and screenshots connected.</span>
+    <div class="hero-panel explorer-panel">
+      <div><strong id="project-count">0</strong><span>portfolio projects</span></div>
+      <div><strong id="industry-count">0</strong><span>industries</span></div>
+      <div><strong id="service-count">0</strong><span>service categories</span></div>
     </div>
   </div>
 </section>
 
 <main class="portfolio-main">
+  <section class="explorer-stats" id="explorer-stats"></section>
   <section class="portfolio-featured" id="portfolio-featured" aria-label="Featured portfolio projects"></section>
+
+  <section class="explorer-browse" id="explorer-browse">
+    <div class="featured-heading"><p class="eyebrow">Browse Faster</p><h2>Explore by What Matters</h2></div>
+    <div class="explorer-tabs">
+      <button class="explorer-tab is-active" data-tab="industry">Industries</button>
+      <button class="explorer-tab" data-tab="service">Services</button>
+      <button class="explorer-tab" data-tab="feature">Features</button>
+      <button class="explorer-tab" data-tab="technology">Technology</button>
+    </div>
+    <div class="explorer-chip-panel" id="explorer-chip-panel"></div>
+  </section>
 
   <div class="portfolio-toolbar-wrap">
     <div class="toolbar">
       <div>
-        <h2>Case Studies</h2>
+        <h2>All Case Studies</h2>
         <p class="result-count" id="result-count">Showing portfolio projects</p>
       </div>
-      <input class="search" id="portfolio-search" type="search" placeholder="Search company, industry, service, dentist, lawyer, restaurant..." aria-label="Search portfolio projects">
+      <input class="search" id="portfolio-search" type="search" placeholder="Search company, industry, service, lawyer, dentist, restaurant..." aria-label="Search portfolio projects">
     </div>
     <div class="filters" id="portfolio-filters" aria-label="Portfolio industry filters"></div>
   </div>
@@ -50,58 +66,46 @@
 <script src="../../script.js?v=reviews-layout-fix"></script>
 <script src="../../assets/js/webact-promodo-nav.js" defer></script>
 <script src="./portfolio-data.js?v=old-fallback"></script>
-<script src="./portfolio-data-all.js?v=full-231-rows-phase-5"></script>
-<script src="./portfolio-master-data.js?v=master-data-v1"></script>
+<script src="./portfolio-data-all.js?v=full-231-rows-explorer"></script>
+<script src="./portfolio-master-data.js?v=master-data-explorer"></script>
 
 <script>
 const fallback=window.webactPortfolioProjects||[];
 const rows=window.webactPortfolioRows||[];
 const master=window.webactPortfolioMaster||[];
 
-const svc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive','Dental','Legal','Electrical','Water Treatment','Printing & Graphics','Energy'].includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
-
-const searchKeywords=i=>({
-'Restaurant':'restaurant food dining menu catering takeout delivery indian cuisine pizza sushi cafe dining bar grill',
-'Pet Services':'pet dog puppy animal grooming boarding training breeder papillons labradoodles k9 equine',
-'Home Care':'home care senior care caregiver healthcare hospice medical support assisted living in home care',
-'Healthcare':'health medical wellness skin bodywork therapy psychiatric hospice care doctor clinic treatment',
-'Driving School':'driving school traffic lessons instructor driver education teen driving CDL road test',
-'Dental':'dental dentist orthodontic smile implants dentures cranio facial oral care teeth',
-'Legal':'law legal attorney lawyer defender creditor court litigation law firm legal group',
-'Home Services':'home services contractor repair remodel construction plumbing hvac roofing pest glass shower landscaping inspection handyman',
-'Professional Services':'professional services consulting sales marketing agency insurance finance benefits business executive accounting coaching',
-'Technology':'technology gaming esports wireless cell phone app software IT computer digital',
-'Nonprofit':'nonprofit charity foundation fair festival children community donation fundraiser',
-'Electrical':'electric electrician electrical contractor power wiring lighting panels',
-'Pest Control':'pest control exterminator insects rodents termites bugs wildlife',
-'Water Treatment':'water filtration treatment purification plumbing softener drinking water',
-'Printing & Graphics':'printing graphics signs design signage wraps banners print shop',
-'Energy':'energy solar green efficiency power renewable sustainability'
-}[i]||i);
-
 const slug=s=>String(s||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 
-const rowProjects=rows.length?rows.map(r=>({
-  name:r[0],
-  slug:slug(r[0]),
-  industry:r[1],
-  img:r[2],
-  url:r[3],
-  services:svc(r[1]),
-  keywords:searchKeywords(r[1]),
-  desc:r[1]+' website design case study for '+r[0]+', focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.'
-})):fallback;
+const legacySvc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive','Dental','Legal','Electrical','Water Treatment','Printing & Graphics','Energy'].includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
 
 const projects=master.length?master.map(p=>({
   name:p.name,
   slug:p.slug||slug(p.name),
   industry:p.industry,
   img:p.image,
-  url:p.previewUrl||'',
-  services:p.services||svc(p.industry),
-  keywords:[p.industry,(p.services||[]).join(' '),(p.features||[]).join(' '),(p.technologies||[]).join(' '),searchKeywords(p.industry)].join(' '),
+  services:p.services||[],
+  features:p.features||[],
+  technologies:p.technologies||[],
   desc:p.description||p.industry+' website design case study for '+p.name+'.'
-})):rowProjects;
+})):(rows.length?rows.map(r=>({
+  name:r[0],
+  slug:slug(r[0]),
+  industry:r[1],
+  img:r[2],
+  services:legacySvc(r[1]),
+  features:[],
+  technologies:[],
+  desc:r[1]+' website design case study for '+r[0]+'.'
+})):fallback.map(p=>({
+  name:p.name,
+  slug:slug(p.name),
+  industry:p.industry,
+  img:p.img,
+  services:p.services||[],
+  features:[],
+  technologies:[],
+  desc:p.desc||''
+})));
 
 const grid=document.getElementById('portfolio-grid');
 const filters=document.getElementById('portfolio-filters');
@@ -109,26 +113,75 @@ const search=document.getElementById('portfolio-search');
 const empty=document.getElementById('portfolio-empty');
 const resultCount=document.getElementById('result-count');
 const featured=document.getElementById('portfolio-featured');
+const stats=document.getElementById('explorer-stats');
+const chipPanel=document.getElementById('explorer-chip-panel');
+
+let active='all';
+let activeBrowseValue='';
+
+function uniqueValues(listGetter){
+  const set=new Set();
+  projects.forEach(p=>{
+    const value=listGetter(p);
+    if(Array.isArray(value)) value.forEach(v=>v&&set.add(v));
+    else if(value) set.add(value);
+  });
+  return Array.from(set).sort();
+}
+
+const industries=uniqueValues(p=>p.industry);
+const services=uniqueValues(p=>p.services);
+const features=uniqueValues(p=>p.features);
+const technologies=uniqueValues(p=>p.technologies);
 
 document.getElementById('project-count').textContent=projects.length;
+document.getElementById('industry-count').textContent=industries.length;
+document.getElementById('service-count').textContent=services.length;
 
-const featuredProjects=projects.slice(0,3);
+stats.innerHTML=[
+  ['Projects',projects.length],
+  ['Industries',industries.length],
+  ['Services',services.length],
+  ['Features',features.length],
+  ['Technologies',technologies.length]
+].map(item=>'<div class="explorer-stat"><strong>'+item[1]+'</strong><span>'+item[0]+'</span></div>').join('');
+
+const featuredProjects=[
+  ...projects.filter(p=>['Restaurant','Legal','Dental','Home Services','Healthcare','Pet Services'].includes(p.industry)).slice(0,3),
+  ...projects.slice(0,3)
+].slice(0,3);
+
 featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Featured Work</p><h2>Selected WebAct Case Studies</h2></div><div class="featured-grid">'+featuredProjects.map(p=>{
   return '<a class="featured-card" href="./case-study.html?project='+p.slug+'"><img src="'+p.img+'" alt="'+p.name+' website design screenshot" loading="lazy"><div><span>'+p.industry+'</span><h3>'+p.name+'</h3><p>'+p.desc+'</p></div></a>';
 }).join('')+'</div>';
 
-const industries=['all',...new Set(projects.map(p=>p.industry).sort())];
+filters.innerHTML=['all',...industries].map((i,n)=>'<button class="filter-button '+(n?'':'is-active')+'" data-filter="'+i+'">'+(i==='all'?'All':i)+'</button>').join('');
 
-filters.innerHTML=industries.map((i,n)=>'<button class="filter-button '+(n?'':'is-active')+'" data-filter="'+i+'">'+(i==='all'?'All':i)+'</button>').join('');
+function renderChips(type){
+  const map={
+    industry:industries,
+    service:services,
+    feature:features,
+    technology:technologies
+  };
+  const items=(map[type]||[]).slice(0,36);
+  chipPanel.innerHTML=items.map(item=>'<button class="explorer-chip" data-value="'+item+'">'+item+'</button>').join('');
+}
 
-grid.innerHTML=projects.map((p,index)=>{
-  const tags=p.services.map(t=>'<em>'+t+'</em>').join('');
+function cardHtml(p,index){
+  const tags=(p.services||[]).slice(0,3).map(t=>'<em>'+t+'</em>').join('');
   const img=p.img?'<img src="'+p.img+'" alt="'+p.name+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+p.name+'</span>';
-  const searchText=p.name+' '+p.industry+' '+p.services.join(' ')+' '+(p.keywords||'');
+  const searchText=[
+    p.name,
+    p.industry,
+    (p.services||[]).join(' '),
+    (p.features||[]).join(' '),
+    (p.technologies||[]).join(' ')
+  ].join(' ');
   return '<article class="portfolio-card reveal-card" style="--delay:'+(index%12)*45+'ms" data-title="'+searchText+'" data-industry="'+p.industry+'"><a href="./case-study.html?project='+p.slug+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+p.industry+'</span></div><h3>'+p.name+'</h3><p>'+p.desc+'</p><div class="service-tags">'+tags+'</div><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>';
-}).join('');
+}
 
-let active='all';
+grid.innerHTML=projects.map(cardHtml).join('');
 
 function apply(){
   const q=(search.value||'').toLowerCase().trim();
@@ -137,7 +190,8 @@ function apply(){
   document.querySelectorAll('.portfolio-card').forEach(card=>{
     const text=(card.textContent+' '+card.dataset.title).toLowerCase();
     const industry=card.dataset.industry;
-    const show=(!q||text.includes(q))&&(active==='all'||industry===active);
+    const browseMatch=!activeBrowseValue||text.includes(activeBrowseValue.toLowerCase());
+    const show=(!q||text.includes(q))&&(active==='all'||industry===active)&&browseMatch;
     card.hidden=!show;
     if(show)shown++;
   });
@@ -153,6 +207,28 @@ filters.addEventListener('click',e=>{
   document.querySelectorAll('.filter-button').forEach(b=>b.classList.remove('is-active'));
   e.target.classList.add('is-active');
   active=e.target.dataset.filter;
+  apply();
+});
+
+document.querySelectorAll('.explorer-tab').forEach(tab=>{
+  tab.addEventListener('click',()=>{
+    document.querySelectorAll('.explorer-tab').forEach(t=>t.classList.remove('is-active'));
+    tab.classList.add('is-active');
+    activeBrowseValue='';
+    renderChips(tab.dataset.tab);
+    apply();
+  });
+});
+
+chipPanel.addEventListener('click',e=>{
+  if(!e.target.matches('.explorer-chip'))return;
+  document.querySelectorAll('.explorer-chip').forEach(c=>c.classList.remove('is-active'));
+  if(activeBrowseValue===e.target.dataset.value){
+    activeBrowseValue='';
+  }else{
+    activeBrowseValue=e.target.dataset.value;
+    e.target.classList.add('is-active');
+  }
   apply();
 });
 
@@ -179,6 +255,7 @@ document.querySelectorAll('.portfolio-card img,.featured-card img').forEach(img=
   if(img.complete) img.classList.add('is-loaded');
 });
 
+renderChips('industry');
 apply();
 </script>
 <script src="./portfolio-image-fallback.js"></script>
