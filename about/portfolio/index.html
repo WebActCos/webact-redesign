@@ -7,7 +7,23 @@
 <link rel="canonical" href="https://www.webact.com/about/portfolio/">
 <link rel="stylesheet" href="../../styles.css?v=reviews-layout-fix">
 <link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css">
-<link rel="stylesheet" href="./portfolio-premium.css?v=industry-filter-v1">
+<link rel="stylesheet" href="./portfolio-premium.css?v=industry-refined-content-v1">
+
+<style>
+.portfolio-toolbar-refined{align-items:flex-start}
+.portfolio-search-stack{display:flex;flex-direction:column;gap:12px;align-items:flex-end;min-width:min(100%,460px)}
+.portfolio-search-stack .search{width:100%}
+.refined-filters{display:flex;justify-content:flex-end;gap:10px;width:100%;flex-wrap:wrap}
+.refined-filters select,.refined-filters button{min-height:44px;border-radius:999px;border:1px solid #dbe7ef;padding:0 16px;font-weight:800;background:#fff;color:#071927}
+.refined-filters button{cursor:pointer;background:#071927;color:#fff;border-color:#071927}
+@media(max-width:760px){
+  .portfolio-toolbar-refined{flex-direction:column}
+  .portfolio-search-stack{align-items:stretch;width:100%;min-width:0}
+  .refined-filters{justify-content:stretch}
+  .refined-filters select,.refined-filters button{width:100%}
+}
+</style>
+
 </head>
 <body class="portfolio-page">
 <header class="wa-promodo-header" data-wa-nav><nav class="wa-promodo-nav" aria-label="Main navigation"><a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home"><img src="../../assets/images/webact-logo.png" alt="WebAct"></a><ul class="wa-promodo-menu" data-wa-menu><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../design/website-design/index.html">Website Design</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../digital-ads/index.html">Digital Ads</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../marketing/index.html">Marketing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../industries/index.html">Industries</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../pricing/index.html">Pricing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li></ul><div class="wa-promodo-actions"><a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a><button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button></div></nav></header>
@@ -35,14 +51,19 @@
   <section class="portfolio-featured" id="portfolio-featured"></section>
 
   <div class="portfolio-toolbar-wrap">
-    <div class="toolbar">
-      <div><h2>All Case Studies</h2><p class="result-count" id="result-count">Showing portfolio projects</p></div>
-      <input class="search" id="portfolio-search" type="search" placeholder="Search company, industry, service, lawyer, dentist, restaurant..." aria-label="Search portfolio projects">
-    </div>
+    <div class="toolbar portfolio-toolbar-refined">
+      <div>
+        <h2>All Case Studies</h2>
+        <p class="result-count" id="result-count">Showing portfolio projects</p>
+      </div>
 
-    <div class="advanced-filters">
-      <select id="industry-select"><option value="">All Industries</option></select>
-      <button id="clear-filters" type="button">Clear Filters</button>
+      <div class="portfolio-search-stack">
+        <input class="search" id="portfolio-search" type="search" placeholder="Search company, industry, service, lawyer, dentist, restaurant..." aria-label="Search portfolio projects">
+        <div class="advanced-filters refined-filters">
+          <select id="industry-select"><option value="">All Industries</option></select>
+          <button id="clear-filters" type="button">Clear Filters</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -55,8 +76,8 @@
 <script src="../../script.js?v=reviews-layout-fix"></script>
 <script src="../../assets/js/webact-promodo-nav.js" defer></script>
 <script src="./portfolio-data.js?v=old-fallback"></script>
-<script src="./portfolio-data-all.js?v=full-250-industry-filter-v1"></script>
-<script src="./portfolio-master-data.js?v=master-data-industry-filter-v1"></script>
+<script src="./portfolio-data-all.js?v=full-250-industry-refined-content-v1"></script>
+<script src="./portfolio-master-data.js?v=master-data-industry-refined-content-v1"></script>
 
 <script>
 (function(){
@@ -67,40 +88,236 @@ const master=window.webactPortfolioMaster||[];
 const slug=s=>String(s||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const esc=s=>String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 
-const legacySvc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive','Dental','Legal','Electrical','Water Treatment','Printing & Graphics','Energy','Security','Travel','Retail','Real Estate','Education','Technology','Nonprofit','Professional Services','Home Services'].includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
+const legacySvc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive','Dental','Legal','Electrical','Water Treatment','Printing & Graphics','Energy','Security','Travel','Retail','Real Estate','Education','Technology','Nonprofit','Professional Services','Home Services','Business'].includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
+
+const INDUSTRY_OVERRIDES={
+  '2go Coconut':'Restaurant',
+  'Benton Dental':'Dental',
+  'Blackridge Defense':'Security',
+  'Building Better Breath':'Healthcare',
+  'By The Beach':'Travel',
+  'Cancer With Courage':'Nonprofit',
+  'Carlock Plumbing':'Plumbing',
+  'Carwash Coupons':'Automotive',
+  'CellBlock':'Technology',
+  'Deaf Vacation Cruise':'Travel',
+  'Dig For Energy':'Energy',
+  'Great West Real Estate':'Real Estate',
+  'Island Cool Creams':'Restaurant',
+  'Marcoa':'Professional Services',
+  'Net 2 Phone':'Technology',
+  'New Era Dental':'Dental',
+  'Simply Cupcakes Pasadena':'Restaurant',
+  'Sniper Security':'Security',
+  'The Chambers Of Tucson Mall':'Retail',
+  'Little Caesars Pueblo':'Restaurant',
+  'All Star Pizza':'Restaurant',
+  'Zaika Indian Cuisine':'Restaurant',
+  'Zaika Broomfield':'Restaurant',
+  'Zaika Castle Rock':'Restaurant',
+  'Zaika Colorado Springs':'Restaurant',
+  'Zaika Express':'Restaurant',
+  'Zaika Littleton':'Restaurant',
+  'Chutney Indian Cuisine':'Restaurant',
+  'Haveli Indian Cuisine':'Restaurant',
+  'Nirvana Indian Cuisine':'Restaurant',
+  'Sage Restaurant':'Restaurant',
+  'Sushi Co':'Restaurant',
+  'Tadka Indian Cuisine':'Restaurant',
+  'Roots Brew':'Restaurant',
+  'Dental Arts':'Dental',
+  'Miyazaki Dental':'Dental',
+  'Rostron Dental':'Dental',
+  'Washington Dental':'Dental',
+  'Peakview Dental':'Dental',
+  'Liberty Lake Smile Source':'Dental',
+  'Implant Excellence':'Dental',
+  'Front Range Dentures':'Dental',
+  'Prosthoodontic Dentures':'Dental',
+  'Gangle Law Firm':'Legal',
+  'Spector Law':'Legal',
+  'Mountain Peak Law Group LLC':'Legal',
+  'Mountain West Law Group':'Legal',
+  'Evans Legal Group':'Legal',
+  'Colorado Creditor Bar Association':'Legal',
+  'A California Driving School':'Driving School',
+  'Aces Driving School':'Driving School',
+  'G G Driving School':'Driving School',
+  'Menifee Driving School':'Driving School',
+  'Murrieta Driving School':'Driving School',
+  'Sunday Driving School':'Driving School',
+  'Temecula Driving School':'Driving School',
+  'Treasure Valley Driving School':'Driving School',
+  'VIP Driving Schools':'Driving School',
+  'Inland Valley Driving School':'Driving School',
+  'Signal Driving Traffic Schools':'Driving School',
+  'Driving Instructor Classes':'Driving School',
+  'American Sewer':'Plumbing',
+  'Einstein Plumbing':'Plumbing',
+  'Denver Towing':'Automotive',
+  'Extreme Autoworks':'Automotive',
+  'Pork Chop S Truck And Auto':'Automotive',
+  'Century Tire Inc':'Automotive',
+  'Crest Pest Control':'Pest Control',
+  'Absolute Pest Control Services':'Pest Control',
+  'Peace Of Mind Pest Services':'Pest Control',
+  'Pest Magic':'Pest Control',
+  'Air Techs HVAC':'HVAC',
+  'Denver S Best Heating':'HVAC',
+  'Kasco HVAC':'HVAC',
+  'Midwest Appliance And HVAC':'HVAC',
+  'Wake Heating And Air':'HVAC',
+  'Roof Ready':'Roofing',
+  'Heritage Roofing':'Roofing',
+  'NOLA Water':'Water Treatment',
+  'Good Water':'Water Treatment',
+  'Hydro Dynamics':'Water Treatment',
+  'Kinetico Denver':'Water Treatment',
+  'Denver Sign Factory':'Printing & Graphics',
+  'Summit Graphics':'Printing & Graphics',
+  'Bayou Solar':'Energy',
+  'Houston Energy Systems':'Energy',
+  'US Green':'Energy',
+  'Smart Cell Phone Parts':'Technology',
+  'Smart Wireless Parts':'Technology',
+  'Way Cool Gaming':'Technology',
+  'E Sports Foundation':'Technology',
+  'Esports Epleyer':'Technology',
+  'Mile High Books':'Retail',
+  'Board Game Republic':'Retail',
+  'Vacation Rentals':'Travel',
+  'Karma Tour Hawaii':'Travel',
+  'Barbarians Cave Surf':'Travel',
+  'Coastal Homes':'Real Estate',
+  'JK Hatcher Homes':'Real Estate',
+  'Pantera Homes':'Real Estate',
+  'College Planning Coach':'Education',
+  'Your College Planning Coach':'Education',
+  'Aid The Children':'Nonprofit',
+  'Grin Barrett Charity Ride':'Nonprofit',
+  'Yuma Airshow':'Nonprofit',
+  'Mississippi Valley Fair':'Nonprofit',
+  'Humbold Couty Fair':'Nonprofit',
+  'Salinas Valley Fair':'Nonprofit',
+  'Desert Empire':'Nonprofit',
+  'Absolute Home Care':'Home Care',
+  'Onestop Home Health Care':'Home Care',
+  'Optimal Homecare':'Home Care',
+  'Optimal Hospice':'Home Care',
+  'Empathy Care':'Home Care',
+  'Atlee Care':'Home Care',
+  'AY Home Health Care':'Home Care',
+  'Stanleyview Home Care':'Home Care',
+  'Tala Wellness':'Healthcare',
+  'Total Wellness Group':'Healthcare',
+  'Mindful Minds Psychiatry':'Healthcare',
+  'Skin Care Essentials':'Healthcare',
+  'Vi TalDerm MD':'Healthcare',
+  'Meditouch':'Healthcare',
+  'A Breed Apart Papillons':'Pet Services',
+  'A Dog S Day Out':'Pet Services',
+  'A Pup S Valley':'Pet Services',
+  'Ace Pet Services':'Pet Services',
+  'Deannas Papillons':'Pet Services',
+  'Granite State Labradoodles':'Pet Services',
+  'Paw Power Agility Equipment':'Pet Services'
+};
+
+function normalizeName(value){
+  return String(value||'').replace(/&/g,'and').replace(/[^a-z0-9]+/gi,' ').trim().replace(/\s+/g,' ');
+}
+
+function refineIndustry(name,industry){
+  const clean=normalizeName(name);
+  if(INDUSTRY_OVERRIDES[clean]) return INDUSTRY_OVERRIDES[clean];
+
+  const text=clean.toLowerCase();
+
+  if(/\b(dental|dentist|smile|implant|denture|orthodont|cranio|facial|teeth)\b/.test(text))return 'Dental';
+  if(/\b(pizza|restaurant|cuisine|indian|sushi|tadka|haveli|chutney|zaika|sage|brew|cafe|grill|cupcake|caesar|cream|coconut|food)\b/.test(text))return 'Restaurant';
+  if(/\b(law|legal|attorney|firm|creditor|bar association)\b/.test(text))return 'Legal';
+  if(/\b(driving|traffic school|driver|instructor)\b/.test(text))return 'Driving School';
+  if(/\b(plumb|sewer|pipe|drain)\b/.test(text))return 'Plumbing';
+  if(/\b(hvac|heating|air|appliance)\b/.test(text))return 'HVAC';
+  if(/\b(pest|termite|extermin)\b/.test(text))return 'Pest Control';
+  if(/\b(locksmith|lock)\b/.test(text))return 'Locksmith';
+  if(/\b(roof|roofing)\b/.test(text))return 'Roofing';
+  if(/\b(tow|auto|car|tire|bumper|carwash|truck)\b/.test(text))return 'Automotive';
+  if(/\b(water|hydro|kinetico|filtration)\b/.test(text))return 'Water Treatment';
+  if(/\b(sign|graphics|printing|print)\b/.test(text))return 'Printing & Graphics';
+  if(/\b(solar|energy|green|power)\b/.test(text))return 'Energy';
+  if(/\b(security|defense|sniper|investigation)\b/.test(text))return 'Security';
+  if(/\b(cruise|vacation|beach|surf|tour|hawaii|rental)\b/.test(text))return 'Travel';
+  if(/\b(real estate|homes|property|apartments|featured homes|coastal homes)\b/.test(text))return 'Real Estate';
+  if(/\b(retail|store|books|mall|coupons|board game)\b/.test(text))return 'Retail';
+  if(/\b(cell|wireless|phone|gaming|esports|technology|software|idt|net 2 phone)\b/.test(text))return 'Technology';
+  if(/\b(charity|children|fair|festival|airshow|courage|nonprofit)\b/.test(text))return 'Nonprofit';
+  if(/\b(home care|homecare|hospice|elder|caregiver)\b/.test(text))return 'Home Care';
+  if(/\b(health|medical|wellness|psychiatry|skin|breath|derm|therapy)\b/.test(text))return 'Healthcare';
+  if(/\b(pet|dog|pup|papillon|labradoodle|agility|equine)\b/.test(text))return 'Pet Services';
+  if(/\b(salon|beauty|skin care|posing suits)\b/.test(text))return 'Salon & Beauty';
+  if(/\b(school|college|planning|coach|classes|education)\b/.test(text))return 'Education';
+  if(/\b(construction|contractor|remodel|shower|glass|landscap|inspection|home pro)\b/.test(text))return 'Home Services';
+
+  return industry||'Business';
+}
+
+function makeCardDescription(p,index){
+  const name=p.name||'this project';
+  const industry=p.industry||'Business';
+  const services=(p.services||[]).filter(Boolean);
+  const serviceText=services.length?services.slice(0,2).join(' and '):'website design';
+  const variations=[
+    name+' showcases a '+industry.toLowerCase()+' website built around clear navigation, focused messaging, and practical paths for visitors to take action.',
+    'For '+name+', WebAct highlighted the business value, organized the content for quick understanding, and presented the '+industry.toLowerCase()+' brand with a polished online experience.',
+    'This '+industry.toLowerCase()+' portfolio example for '+name+' emphasizes credibility, mobile-friendly presentation, and service details that help visitors understand the next step.',
+    name+' uses professional design, concise page structure, and '+serviceText.toLowerCase()+' support to create a stronger first impression for prospective customers.',
+    'The '+name+' project demonstrates how a '+industry.toLowerCase()+' website can combine visual trust, simple content flow, and lead-focused calls to action.',
+    'WebAct positioned '+name+' with a cleaner digital presence, stronger service presentation, and a layout designed to help visitors move from browsing to contacting the business.',
+    'This case study for '+name+' focuses on making the '+industry.toLowerCase()+' offering easier to understand while giving the business a more established online presence.',
+    name+' is presented with a tailored website experience that balances brand personality, customer confidence, and a practical route toward inquiries or conversions.'
+  ];
+  return variations[index%variations.length];
+}
 
 const projects=master.length
   ? master.map(p=>({
       name:p.name||'',
       slug:p.slug||slug(p.name),
-      industry:p.industry||'Business',
+      industry:refineIndustry(p.name,p.industry),
       img:p.image||'',
-      services:p.services&&p.services.length?p.services:legacySvc(p.industry),
+      services:p.services&&p.services.length?p.services:legacySvc(refineIndustry(p.name,p.industry)),
       features:p.features||[],
       technologies:p.technologies||[],
-      desc:p.description||(p.industry||'Business')+' website design case study for '+(p.name||'this project')+'.'
+      desc:p.description||''
     }))
   : rows.length
   ? rows.map(r=>({
       name:r[0]||'',
       slug:slug(r[0]),
-      industry:r[1]||'Business',
+      industry:refineIndustry(r[0],r[1]),
       img:r[2]||'',
-      services:legacySvc(r[1]),
+      services:legacySvc(refineIndustry(r[0],r[1])),
       features:[],
       technologies:[],
-      desc:(r[1]||'Business')+' website design case study for '+(r[0]||'this project')+'.'
+      desc:''
     }))
   : fallback.map(p=>({
       name:p.name||'',
       slug:slug(p.name),
-      industry:p.industry||'Business',
+      industry:refineIndustry(p.name,p.industry),
       img:p.img||'',
-      services:p.services&&p.services.length?p.services:legacySvc(p.industry),
+      services:p.services&&p.services.length?p.services:legacySvc(refineIndustry(p.name,p.industry)),
       features:[],
       technologies:[],
       desc:p.desc||''
     }));
+
+projects.forEach((p,index)=>{
+  if(!p.desc||/website design case study for/i.test(p.desc)){
+    p.desc=makeCardDescription(p,index);
+  }
+});
 
 const grid=document.getElementById('portfolio-grid');
 const search=document.getElementById('portfolio-search');
