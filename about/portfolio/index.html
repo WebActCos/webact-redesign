@@ -7,7 +7,7 @@
 <link rel="canonical" href="https://www.webact.com/about/portfolio/">
 <link rel="stylesheet" href="../../styles.css?v=reviews-layout-fix">
 <link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css">
-<link rel="stylesheet" href="./portfolio-premium.css?v=industry-overrides-v2">
+<link rel="stylesheet" href="./portfolio-premium.css?v=industry-overrides-random-featured-v1">
 
 <style>
 .portfolio-toolbar-refined{align-items:flex-start}
@@ -76,9 +76,9 @@
 <script src="../../script.js?v=reviews-layout-fix"></script>
 <script src="../../assets/js/webact-promodo-nav.js" defer></script>
 <script src="./portfolio-data.js?v=old-fallback"></script>
-<script src="./portfolio-data-all.js?v=full-250-industry-overrides-v2"></script>
-<script src="./industry-overrides.js?v=2"></script>
-<script src="./portfolio-master-data.js?v=master-data-industry-overrides-v2"></script>
+<script src="./portfolio-data-all.js?v=full-250-industry-overrides-random-featured-v1"></script>
+<script src="./industry-overrides.js?v=3"></script>
+<script src="./portfolio-master-data.js?v=master-data-industry-overrides-random-featured-v1"></script>
 
 <script>
 (function(){
@@ -93,52 +93,28 @@ const legacySvc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Health
 
 const INDUSTRY_OVERRIDES=window.webactIndustryOverrides||{};
 const NAME_OVERRIDES=window.webactPortfolioNameOverrides||{};
+const FEATURED_PROJECTS=window.webactFeaturedProjects||[];
 
 function normalizeName(value){
   return String(value||'').replace(/&/g,'and').replace(/[^a-z0-9]+/gi,' ').trim().replace(/\s+/g,' ');
 }
 
-function displayName(value){
-  const clean=normalizeName(value);
-  return NAME_OVERRIDES[clean]||value||'';
+function lookupByName(table,name){
+  const raw=String(name||'');
+  const clean=normalizeName(raw);
+  return table[raw]||table[clean]||'';
 }
 
-function refineIndustry(name,industry){
-  const clean=normalizeName(name);
-  const shown=normalizeName(displayName(name));
-  if(INDUSTRY_OVERRIDES[name]) return INDUSTRY_OVERRIDES[name];
-  if(INDUSTRY_OVERRIDES[clean]) return INDUSTRY_OVERRIDES[clean];
-  if(INDUSTRY_OVERRIDES[shown]) return INDUSTRY_OVERRIDES[shown];
+function displayName(value){
+  return lookupByName(NAME_OVERRIDES,value)||value||'';
+}
 
-  const text=clean.toLowerCase();
-
-  if(/\b(dental|dentist|smile|implant|denture|orthodont|cranio|facial|teeth)\b/.test(text))return 'Dental';
-  if(/\b(pizza|restaurant|cuisine|indian|sushi|tadka|haveli|chutney|zaika|sage|brew|cafe|grill|cupcake|caesar|cream|coconut|food)\b/.test(text))return 'Restaurant';
-  if(/\b(law|legal|attorney|firm|creditor|bar association)\b/.test(text))return 'Legal';
-  if(/\b(driving|traffic school|driver|instructor)\b/.test(text))return 'Driving School';
-  if(/\b(plumb|sewer|pipe|drain)\b/.test(text))return 'Plumbing';
-  if(/\b(hvac|heating|air|appliance)\b/.test(text))return 'HVAC';
-  if(/\b(pest|termite|extermin)\b/.test(text))return 'Pest Control';
-  if(/\b(locksmith|lock)\b/.test(text))return 'Locksmith';
-  if(/\b(roof|roofing)\b/.test(text))return 'Roofing';
-  if(/\b(tow|auto|car|tire|bumper|carwash|truck)\b/.test(text))return 'Automotive';
-  if(/\b(water|hydro|kinetico|filtration)\b/.test(text))return 'Water Treatment';
-  if(/\b(sign|graphics|printing|print)\b/.test(text))return 'Printing & Graphics';
-  if(/\b(solar|energy|green|power)\b/.test(text))return 'Energy';
-  if(/\b(security|defense|sniper|investigation)\b/.test(text))return 'Security';
-  if(/\b(cruise|vacation|beach|surf|tour|hawaii|rental)\b/.test(text))return 'Travel';
-  if(/\b(real estate|homes|property|apartments|featured homes|coastal homes)\b/.test(text))return 'Real Estate';
-  if(/\b(retail|store|books|mall|coupons|board game)\b/.test(text))return 'Retail';
-  if(/\b(cell|wireless|phone|gaming|esports|technology|software|idt|net 2 phone)\b/.test(text))return 'Technology';
-  if(/\b(charity|children|fair|festival|airshow|courage|nonprofit)\b/.test(text))return 'Nonprofit';
-  if(/\b(home care|homecare|hospice|elder|caregiver)\b/.test(text))return 'Home Care';
-  if(/\b(health|medical|wellness|psychiatry|skin|breath|derm|therapy)\b/.test(text))return 'Healthcare';
-  if(/\b(pet|dog|pup|papillon|labradoodle|agility|equine)\b/.test(text))return 'Pet Services';
-  if(/\b(salon|beauty|skin care|posing suits)\b/.test(text))return 'Salon & Beauty';
-  if(/\b(school|college|planning|coach|classes|education)\b/.test(text))return 'Education';
-  if(/\b(construction|contractor|remodel|shower|glass|landscap|inspection|home pro)\b/.test(text))return 'Home Services';
-
-  return industry||'Business';
+function refineIndustry(name, industry){
+  return (
+    lookupByName(INDUSTRY_OVERRIDES,name) ||
+    industry ||
+    "Business"
+  );
 }
 
 function makeCardDescription(p,index){
@@ -146,16 +122,28 @@ function makeCardDescription(p,index){
   const industry=p.industry||'Business';
   const services=(p.services||[]).filter(Boolean);
   const serviceText=services.length?services.slice(0,2).join(' and '):'website design';
-  const variations=[
-    name+' showcases a '+industry.toLowerCase()+' website built around clear navigation, focused messaging, and practical paths for visitors to take action.',
-    'For '+name+', WebAct highlighted the business value, organized the content for quick understanding, and presented the '+industry.toLowerCase()+' brand with a polished online experience.',
-    'This '+industry.toLowerCase()+' portfolio example for '+name+' emphasizes credibility, mobile-friendly presentation, and service details that help visitors understand the next step.',
-    name+' uses professional design, concise page structure, and '+serviceText.toLowerCase()+' support to create a stronger first impression for prospective customers.',
-    'The '+name+' project demonstrates how a '+industry.toLowerCase()+' website can combine visual trust, simple content flow, and lead-focused calls to action.',
-    'WebAct positioned '+name+' with a cleaner digital presence, stronger service presentation, and a layout designed to help visitors move from browsing to contacting the business.',
-    'This case study for '+name+' focuses on making the '+industry.toLowerCase()+' offering easier to understand while giving the business a more established online presence.',
-    name+' is presented with a tailored website experience that balances brand personality, customer confidence, and a practical route toward inquiries or conversions.'
+  const focusWords=[
+    'trust','clarity','local visibility','visitor confidence','lead generation',
+    'mobile usability','professional presentation','brand credibility',
+    'service discovery','conversion flow','customer education','online growth'
   ];
+  const focus=focusWords[index%focusWords.length];
+
+  const variations=[
+    name+' presents a '+industry.toLowerCase()+' website experience centered on '+focus+', simple navigation, and practical next steps for visitors.',
+    'For '+name+', WebAct organized the message around '+serviceText.toLowerCase()+', helping visitors understand the business quickly and move toward contact.',
+    'This '+industry.toLowerCase()+' example gives '+name+' a stronger digital presence with focused content, polished visuals, and a layout built for real customer action.',
+    name+' uses a tailored page structure to explain services, support '+focus+', and make the business easier to evaluate on desktop and mobile.',
+    'The '+name+' project shows how a '+industry.toLowerCase()+' brand can communicate value with cleaner content, stronger first impressions, and clear calls to action.',
+    'WebAct shaped '+name+' around a more useful visitor journey, combining '+serviceText.toLowerCase()+' with design choices that support confidence and inquiries.',
+    'This portfolio example highlights '+name+' with industry-specific messaging, organized service details, and a website presentation built to feel credible from the first visit.',
+    name+' is designed to help visitors understand the offer, compare the business more easily, and take the next step without confusion.',
+    'The website direction for '+name+' balances brand personality with practical conversion goals, giving the '+industry.toLowerCase()+' project a more complete online presence.',
+    'For this '+industry.toLowerCase()+' case study, WebAct focused on making '+name+' easier to find, easier to understand, and easier to contact.',
+    name+' demonstrates a cleaner approach to '+industry.toLowerCase()+' web design, using concise sections, relevant service language, and a layout that supports action.',
+    'This project gives '+name+' a more polished online showcase while emphasizing '+focus+', customer understanding, and a smoother path to inquiry.'
+  ];
+
   return variations[index%variations.length];
 }
 
@@ -236,12 +224,23 @@ function populate(select,items){
 
 populate(industrySelect,industries);
 
-const featuredProjects=[
-  ...projects.filter(p=>['Restaurant','Legal','Dental','Home Services','Healthcare','Pet Services'].includes(p.industry)).slice(0,3),
-  ...projects.slice(0,3)
-].slice(0,3);
+function randomSample(items,count){
+  const copy=[...items];
+  for(let i=copy.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [copy[i],copy[j]]=[copy[j],copy[i]];
+  }
+  return copy.slice(0,count);
+}
 
-featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Featured Work</p><h2>Selected WebAct Case Studies</h2></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
+const featuredPool=projects.filter(p=>{
+  const clean=normalizeName(p.name);
+  return FEATURED_PROJECTS.includes(p.name)||FEATURED_PROJECTS.includes(clean);
+});
+
+const featuredProjects=randomSample(featuredPool.length>=3?featuredPool:projects,3);
+
+featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Featured Work</p><h2>Random Featured Website Designs</h2></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
 
 function searchableText(p){
   return [

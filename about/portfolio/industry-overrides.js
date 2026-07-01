@@ -2,6 +2,25 @@ window.webactPortfolioNameOverrides = {
   "Castle Rock": "Castle Rock Tattoo"
 };
 
+window.webactFeaturedProjects = [
+  "Benton Dental",
+  "Blackridge Defense",
+  "Building Better Breath",
+  "Carlock Plumbing",
+  "Carwash Coupons",
+  "CellBlock",
+  "Chutney Indian Cuisine",
+  "Dental Arts",
+  "Great West Real Estate",
+  "Island Cool Creams",
+  "New Era Dental",
+  "NOLA Water",
+  "Simply Cupcakes Pasadena",
+  "Sukoon",
+  "The Smilist",
+  "Tropical Remodel Solutions"
+];
+
 window.webactIndustryOverrides = {
 
   "Stephanie Ascari": "Photography",
