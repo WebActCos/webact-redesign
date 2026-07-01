@@ -9009,10 +9009,10 @@ window.webactPortfolioMaster = [
     }
   },
   {
-    "name": "2goCoconut",
-    "slug": "2gococonut",
+    "name": "2go Coconut",
+    "slug": "2go-coconut",
     "industry": "Restaurant",
-    "image": "../../Resources/images/2goCoconut-1920w.png",
+    "image": "../../Resources/images/2goCoconut.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9037,14 +9037,14 @@ window.webactPortfolioMaster = [
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Restaurant website design case study for 2goCoconut, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
-    "seoTitle": "2goCoconut Website Design Case Study | WebAct Restaurant Portfolio",
-    "seoDescription": "Explore the 2goCoconut website design case study from WebAct, including Restaurant website strategy, services, features, and portfolio screenshots.",
+    "description": "Restaurant website design case study for 2go Coconut, focused on clear messaging, professional presentation, visitor trust, and customer inquiry paths.",
+    "seoTitle": "2go Coconut Website Design Case Study | WebAct Restaurant Portfolio",
+    "seoDescription": "Explore the 2go Coconut website design case study from WebAct, including Restaurant website strategy, services, features, and portfolio screenshots.",
     "caseStudy": {
-      "overview": "WebAct created a professional website presence for 2goCoconut, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of 2goCoconut quickly while guiding visitors toward the next step.",
+      "overview": "WebAct created a professional website presence for 2go Coconut, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of 2go Coconut quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives 2goCoconut a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives 2go Coconut a stronger online presence and a more polished way to showcase services to potential customers."
     }
   },
   {
@@ -9246,7 +9246,7 @@ window.webactPortfolioMaster = [
     "name": "Carlock Plumbing",
     "slug": "carlock-plumbing",
     "industry": "Plumbing",
-    "image": "../../Resources/images/Carlock_Plumbing-1920w.png",
+    "image": "../../Resources/images/Carlock_Plumbing.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9480,7 +9480,7 @@ window.webactPortfolioMaster = [
     "name": "Island Cool Creams",
     "slug": "island-cool-creams",
     "industry": "Restaurant",
-    "image": "../../Resources/images/island cool creams-1920w.png",
+    "image": "../../Resources/images/island+cool+creams.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
