@@ -18,16 +18,16 @@ const EXTRA_PROJECTS = [
     industry: "Dental",
     image: "benton-dental.png"
   },
-  {
-    name: "Blackridge Defense",
-    industry: "Security",
-    image: "blackridge-defense.png"
-  },
-  {
-    name: "Building Better Breath",
-    industry: "Healthcare",
-    image: "building-better-breath.png"
-  },
+{
+  name: "Blackridge Defense",
+  industry: "Security",
+  image: "blackridge-defense.png"
+},
+{
+  name: "Building Better Breath",
+  industry: "Healthcare",
+  image: "building-better-breath.png"
+},
   {
     name: "By The Beach",
     industry: "Travel",
@@ -48,11 +48,11 @@ const EXTRA_PROJECTS = [
     industry: "Automotive",
     image: "carwash-coupons.png"
   },
-  {
-    name: "CellBlock",
-    industry: "Technology",
-    image: "cellblock.png"
-  },
+{
+  name: "CellBlock",
+  industry: "Technology",
+  image: "cellblock.png"
+},
   {
     name: "Deaf Vacation Cruise",
     industry: "Travel",
