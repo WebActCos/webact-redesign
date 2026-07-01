@@ -1290,7 +1290,7 @@ window.webactPortfolioMaster = [
     "name": "Blackridge Defense",
     "slug": "blackridge-defense",
     "industry": "Security",
-    "image": "../../Resources/images/blackridge-defense.png",
+    "image": "../../Resources/images/Blackridge-Defense.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1485,7 +1485,7 @@ window.webactPortfolioMaster = [
     "name": "Building Better Breath",
     "slug": "building-better-breath",
     "industry": "Healthcare",
-    "image": "../../Resources/images/building-better-breath.png",
+    "image": "../../Resources/images/building-better-Breath.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1875,7 +1875,7 @@ window.webactPortfolioMaster = [
     "name": "CellBlock",
     "slug": "cellblock",
     "industry": "Locksmith",
-    "image": "../../Resources/images/cellblock.png",
+    "image": "../../Resources/images/cellBlock.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [

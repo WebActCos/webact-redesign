@@ -21,12 +21,12 @@ const EXTRA_PROJECTS = [
 {
   name: "Blackridge Defense",
   industry: "Security",
-  image: "blackridge-defense.png"
+  image: "Blackridge-Defense.png"
 },
 {
   name: "Building Better Breath",
   industry: "Healthcare",
-  image: "building-better-breath.png"
+  image: "building-better-Breath.png"
 },
   {
     name: "By The Beach",
@@ -51,7 +51,7 @@ const EXTRA_PROJECTS = [
 {
   name: "CellBlock",
   industry: "Technology",
-  image: "cellblock.png"
+  image: "cellBlock.png"
 },
   {
     name: "Deaf Vacation Cruise",
