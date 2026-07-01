@@ -35,7 +35,7 @@
   <section class="explorer-stats" id="explorer-stats"></section>
   <section class="portfolio-featured" id="portfolio-featured"></section>
 
-  <section class="explorer-browse" hidden>
+  <section class="explorer-browse">
     <div class="featured-heading"><p class="eyebrow">Browse Faster</p><h2>Explore by What Matters</h2></div>
     <div class="explorer-tabs">
       <button class="explorer-tab is-active" data-tab="industry" type="button">Industries</button>
@@ -51,14 +51,14 @@
       <div><h2>All Case Studies</h2><p class="result-count" id="result-count">Showing portfolio projects</p></div>
       <input class="search" id="portfolio-search" type="search" placeholder="Search company, industry, service, lawyer, dentist, restaurant..." aria-label="Search portfolio projects">
     </div>
-    <div class="advanced-filters" hidden>
+    <div class="advanced-filters">
       <select id="industry-select"><option value="">All Industries</option></select>
       <select id="service-select"><option value="">All Services</option></select>
       <select id="feature-select"><option value="">All Features</option></select>
       <select id="technology-select"><option value="">All Technologies</option></select>
       <button id="clear-filters" type="button">Clear Filters</button>
     </div>
-    <div class="filters" id="portfolio-filters" hidden></div>
+    <div class="filters" id="portfolio-filters"></div>
   </div>
 
   <p class="empty" id="portfolio-empty">No portfolio projects match that search. Try searching by industry, service, feature, technology, or business type.</p>
@@ -105,8 +105,40 @@ function searchableText(p){return [p.name,p.industry,(p.services||[]).join(' '),
 function cardHtml(p,index){const tags=(p.services||[]).slice(0,3).map(t=>'<em>'+esc(t)+'</em>').join('');const img=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';return '<article class="portfolio-card reveal-card" style="--delay:'+(index%12)*45+'ms" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'" data-services="'+esc((p.services||[]).join('|'))+'" data-features="'+esc((p.features||[]).join('|'))+'" data-technologies="'+esc((p.technologies||[]).join('|'))+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="service-tags">'+tags+'</div><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>'}
 grid.innerHTML=projects.map(cardHtml).join('');
 
+grid.addEventListener('click',e=>{
+  const tag=e.target.closest('.service-tags em');
+  if(!tag)return;
+
+  e.preventDefault();
+  search.value=tag.textContent.trim();
+  apply();
+});
+
 function has(pipe,value){return !value||String(pipe||'').split('|').includes(value)}
-function apply(){const q=(search.value||'').toLowerCase().trim();let shown=0;document.querySelectorAll('.portfolio-card').forEach(card=>{const text=(card.textContent+' '+card.dataset.title).toLowerCase(), industry=card.dataset.industry;const show=(!q||text.includes(q))&&(active==='all'||industry===active)&&(!industrySelect.value||industry===industrySelect.value)&&has(card.dataset.services,serviceSelect.value)&&has(card.dataset.features,featureSelect.value)&&has(card.dataset.technologies,technologySelect.value)&&(!activeBrowseValue||text.includes(activeBrowseValue.toLowerCase()));card.hidden=!show;if(show)shown++});resultCount.textContent='Showing '+shown+' of '+projects.length+' projects';empty.style.display=shown?'none':'block'}
+function apply(){
+  const q=(search.value||'').toLowerCase().trim();
+  let shown=0;
+
+  document.querySelectorAll('.portfolio-card').forEach(card=>{
+    const text=(card.textContent+' '+card.dataset.title).toLowerCase();
+    const industry=card.dataset.industry;
+
+    const show =
+      (!q||text.includes(q)) &&
+      (active==='all'||industry===active) &&
+      (!industrySelect.value||industry===industrySelect.value) &&
+      has(card.dataset.services,serviceSelect.value) &&
+      has(card.dataset.features,featureSelect.value) &&
+      has(card.dataset.technologies,technologySelect.value) &&
+      (!activeBrowseValue||text.includes(activeBrowseValue.toLowerCase()));
+
+    card.hidden=!show;
+    if(show)shown++;
+  });
+
+  resultCount.textContent='Showing '+shown+' of '+projects.length+' projects';
+  empty.style.display=shown?'none':'block';
+}
 search.addEventListener('input',apply);[industrySelect,serviceSelect,featureSelect,technologySelect].forEach(s=>s.addEventListener('change',apply));
 clearFilters.addEventListener('click',()=>{search.value='';industrySelect.value='';serviceSelect.value='';featureSelect.value='';technologySelect.value='';active='all';activeBrowseValue='';document.querySelectorAll('.filter-button').forEach((b,i)=>b.classList.toggle('is-active',i===0));document.querySelectorAll('.explorer-chip').forEach(c=>c.classList.remove('is-active'));apply()});
 filters.addEventListener('click',e=>{if(!e.target.matches('button'))return;document.querySelectorAll('.filter-button').forEach(b=>b.classList.remove('is-active'));e.target.classList.add('is-active');active=e.target.dataset.filter;apply()});
