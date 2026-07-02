@@ -26,8 +26,7 @@
 .hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:14px 20px;font-weight:950;border:1px solid var(--dark);transition:transform .25s ease,box-shadow .25s ease}.btn:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(7,25,39,.16)}.btn-primary{background:var(--blue);border-color:var(--blue);color:#fff}.btn-secondary{background:#fff;color:var(--dark)}
 .stats-panel{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow)}.stats-panel h2{margin:0 0 18px;font-size:24px;letter-spacing:-.02em}.stat-list{display:grid;gap:16px}.stat{padding:16px;border-radius:16px;background:var(--soft);border:1px solid #e2edf4}.stat span{display:block;color:var(--muted);font-weight:900;font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}.stat strong{display:block;font-size:18px;color:var(--dark)}
 .case-main{max-width:1220px;margin:0 auto;padding:52px 22px 82px}.browser-showcase{border-radius:26px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);background:#edf5f9;margin-bottom:54px}.browser-bar{display:flex;align-items:center;gap:9px;padding:14px 18px;background:#e4edf3;border-bottom:1px solid #d5e2ea}.dot{width:12px;height:12px;border-radius:50%;display:inline-block}.dot.red{background:#ff5f56}.dot.yellow{background:#ffbd2e}.dot.green{background:#27c93f}.browser-url{margin-left:12px;color:#70818d;font-size:12px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.device-tools{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 14px}.device-tools button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:10px 14px;font-weight:900;cursor:pointer}.device-tools button.is-active{background:var(--dark);border-color:var(--dark);color:#fff}
-.hero-image{background:#fff;text-align:center}.hero-image img{display:block;width:100%;height:auto;cursor:zoom-in;transition:max-width .25s ease}.device-tablet .hero-image img{max-width:760px;margin:auto}.device-mobile .hero-image img{max-width:390px;margin:auto}
+.device-tools{display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;margin:0 0 14px}.device-tools button{border:1px solid var(--dark);background:var(--dark);color:#fff;border-radius:999px;padding:10px 16px;font-weight:900;cursor:pointer}.hero-image{background:#fff;text-align:center}.hero-image img{display:block;width:100%;height:auto;cursor:zoom-in}
 .case-grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:36px;align-items:start}.section-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:32px;box-shadow:var(--soft-shadow);margin-bottom:24px}.section-card h2{margin:0 0 16px;font-size:34px;letter-spacing:-.035em}.section-card p{margin:0;color:var(--text);font-size:17px;line-height:1.75}
 .split-blocks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}.mini-block{background:var(--soft);border:1px solid #e1edf4;border-radius:18px;padding:22px}.mini-block strong{display:block;margin-bottom:8px;font-size:17px}.mini-block p{font-size:15px;line-height:1.62}
 .service-grid,.feature-grid,.tech-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.service-card,.feature-card,.tech-card{padding:18px;border-radius:16px;background:var(--soft);border:1px solid #e1edf4;font-weight:900;color:var(--dark)}.service-card:before,.feature-card:before{content:"✓";display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;margin-right:9px;border-radius:50%;background:var(--blue);color:#fff;font-size:14px}.tech-card:before{content:"•";display:inline-flex;margin-right:9px;color:var(--blue);font-size:22px;line-height:0}
@@ -49,9 +48,9 @@
 <script src="../../script.js?v=reviews-layout-fix"></script>
 <script src="../../assets/js/webact-promodo-nav.js" defer></script>
 <script src="./portfolio-data.js?v=old-fallback"></script>
-<script src="./portfolio-data-all.js?v=full-250-case-phase-1-7-v1"></script>
-<script src="./industry-overrides.js?v=phase-1-7-v1"></script>
-<script src="./portfolio-master-data.js?v=master-data-case-phase-1-7-v1"></script>
+<script src="./portfolio-data-all.js?v=full-250-case-screenshot-only-v1"></script>
+<script src="./industry-overrides.js?v=screenshot-only-v1"></script>
+<script src="./portfolio-master-data.js?v=master-data-case-screenshot-only-v1"></script>
 <script>
 (function(){
 const fallback=window.webactPortfolioProjects||[];
@@ -199,7 +198,7 @@ function render(){
   root.innerHTML=
     '<nav class="breadcrumbs"><a href="../../index.html">Home</a> / <a href="./index.html">Top 250 Website Designs</a> / <span>'+esc(p.name)+'</span></nav>'+
     '<section class="case-hero"><div class="case-hero-inner"><div><p class="eyebrow">'+esc(p.industry)+' Website Design Case Study</p><h1>'+esc(p.name)+'</h1><p>'+esc(p.override.hero||p.description)+'</p><div class="hero-actions"><a class="btn btn-primary" href="../../contact/index.html">'+esc(cta[2])+'</a><a class="btn btn-secondary" href="./index.html">Back to Top 250 Designs</a></div></div><aside class="stats-panel"><h2>Project Snapshot</h2><div class="stat-list"><div class="stat"><span>Industry</span><strong>'+esc(p.industry)+'</strong></div><div class="stat"><span>Services</span><strong>'+esc((p.services||[]).slice(0,4).join(', '))+'</strong></div><div class="stat"><span>Collection</span><strong>Top 250 Website Designs</strong></div></div></aside></div></section>'+
-    '<main class="case-main"><div class="device-tools"><button type="button" class="is-active" data-device="desktop">Desktop</button><button type="button" data-device="tablet">Tablet</button><button type="button" data-device="mobile">Mobile</button><button type="button" id="open-lightbox">View Full Screenshot</button></div><div class="browser-showcase device-desktop" id="device-preview"><div class="browser-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="browser-url">'+esc(p.name)+' website design preview</span></div><div class="hero-image"><img id="main-shot" src="'+esc(p.image)+'" alt="'+esc(p.name)+' website design screenshot"></div></div>'+
+    '<main class="case-main"><div class="device-tools"><button type="button" id="open-lightbox">View Full Screenshot</button></div><div class="browser-showcase" id="device-preview"><div class="browser-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="browser-url">'+esc(p.name)+' website design preview</span></div><div class="hero-image"><img id="main-shot" src="'+esc(p.image)+'" alt="'+esc(p.name)+' website design screenshot"></div></div>'+
     '<div class="case-grid"><section><article class="section-card"><h2>Business Overview</h2><p>'+esc(sections.overview)+'</p></article>'+
     '<article class="section-card"><h2>Website Goals</h2><p>'+esc(sections.goals)+'</p><div class="split-blocks"><div class="mini-block"><strong>Visitor Experience</strong><p>'+esc(sections.experience)+'</p></div><div class="mini-block"><strong>Design Highlights</strong><p>'+esc(sections.highlights)+'</p></div><div class="mini-block"><strong>Results & Benefits</strong><p>'+esc(sections.benefits)+'</p></div></div></article>'+
     '<article class="section-card"><h2>Industry Challenges</h2><p>'+esc(sections.challenges)+'</p><div class="split-blocks"><div class="mini-block"><strong>Why This Design Works</strong><p>'+esc(sections.why)+'</p></div><div class="mini-block"><strong>CTA Strategy</strong><p>'+esc(cta[1])+'</p></div><div class="mini-block"><strong>Growth Support</strong><p>Internal links, SEO-friendly structure, and clean content help this page support broader marketing goals.</p></div></div></article>'+
@@ -213,12 +212,6 @@ function render(){
   wireInteractions(prev,next);
 }
 function wireInteractions(prev,next){
-  const preview=document.getElementById('device-preview');
-  document.querySelectorAll('.device-tools button[data-device]').forEach(btn=>btn.addEventListener('click',()=>{
-    document.querySelectorAll('.device-tools button[data-device]').forEach(b=>b.classList.remove('is-active'));
-    btn.classList.add('is-active');
-    preview.className='browser-showcase device-'+btn.dataset.device;
-  }));
   const lightbox=document.getElementById('image-lightbox'), lightboxImg=document.getElementById('lightbox-image'), shot=document.getElementById('main-shot');
   function openLightbox(){lightboxImg.src=shot.src;lightboxImg.alt=shot.alt;lightbox.classList.add('is-open');}
   document.getElementById('open-lightbox').addEventListener('click',openLightbox);
