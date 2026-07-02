@@ -204,3 +204,61 @@ body.wa-nav-open { overflow: hidden; }
   .wa-promodo-menu { inset-top: 72px; }
   .wa-promodo-cta { display: none; }
 }
+
+/* Compact global navigation */
+.wa-promodo-nav{
+  max-width:1460px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  padding:12px 28px !important;
+  min-height:82px;
+}
+
+.wa-promodo-logo{
+  display:flex;
+  align-items:center;
+}
+
+.wa-promodo-logo img{
+  width:205px !important;
+  height:auto;
+  display:block;
+}
+
+.wa-promodo-menu{
+  align-items:center;
+}
+
+.wa-promodo-link,
+.wa-promodo-direct{
+  padding:14px 14px !important;
+}
+
+.wa-promodo-cta{
+  padding:14px 22px !important;
+}
+
+@media (max-width:1060px){
+  .wa-promodo-nav{
+    padding:12px 18px !important;
+    min-height:72px;
+  }
+
+  .wa-promodo-logo img{
+    width:180px !important;
+  }
+}
+
+@media (max-width:640px){
+  .wa-promodo-nav{
+    padding:10px 14px !important;
+    min-height:66px;
+  }
+
+  .wa-promodo-logo img{
+    width:160px !important;
+  }
+}
