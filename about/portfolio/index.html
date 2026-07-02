@@ -7,8 +7,7 @@
 <link rel="canonical" href="https://www.webact.com/about/portfolio/">
 <link rel="stylesheet" href="../../styles.css?v=reviews-layout-fix">
 <link rel="stylesheet" href="../../assets/css/webact-promodo-nav.css">
-<link rel="stylesheet" href="./portfolio-premium.css?v=industry-overrides-random-featured-v1">
-
+<link rel="stylesheet" href="./portfolio-premium.css?v=phase-1-7-v1">
 <style>
 .portfolio-toolbar-refined{align-items:flex-start}
 .portfolio-search-stack{display:flex;flex-direction:column;gap:12px;align-items:flex-end;min-width:min(100%,460px)}
@@ -16,14 +15,8 @@
 .refined-filters{display:flex;justify-content:flex-end;gap:10px;width:100%;flex-wrap:wrap}
 .refined-filters select,.refined-filters button{min-height:44px;border-radius:999px;border:1px solid #dbe7ef;padding:0 16px;font-weight:800;background:#fff;color:#071927}
 .refined-filters button{cursor:pointer;background:#071927;color:#fff;border-color:#071927}
-@media(max-width:760px){
-  .portfolio-toolbar-refined{flex-direction:column}
-  .portfolio-search-stack{align-items:stretch;width:100%;min-width:0}
-  .refined-filters{justify-content:stretch}
-  .refined-filters select,.refined-filters button{width:100%}
-}
+@media(max-width:760px){.portfolio-toolbar-refined{flex-direction:column}.portfolio-search-stack{align-items:stretch;width:100%;min-width:0}.refined-filters{justify-content:stretch}.refined-filters select,.refined-filters button{width:100%}}
 </style>
-
 </head>
 <body class="portfolio-page">
 <header class="wa-promodo-header" data-wa-nav><nav class="wa-promodo-nav" aria-label="Main navigation"><a class="wa-promodo-logo" href="../../index.html" aria-label="WebAct home"><img src="../../assets/images/webact-logo.png" alt="WebAct"></a><ul class="wa-promodo-menu" data-wa-menu><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../design/website-design/index.html">Website Design</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../digital-ads/index.html">Digital Ads</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../marketing/index.html">Marketing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../industries/index.html">Industries</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../pricing/index.html">Pricing</a></li><li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../contact/index.html">Contact Us</a></li></ul><div class="wa-promodo-actions"><a class="wa-promodo-cta" href="../../contact/index.html">Get Started</a><button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button></div></nav></header>
@@ -56,7 +49,6 @@
         <h2>All Case Studies</h2>
         <p class="result-count" id="result-count">Showing portfolio projects</p>
       </div>
-
       <div class="portfolio-search-stack">
         <input class="search" id="portfolio-search" type="search" placeholder="Search company, industry, service, lawyer, dentist, restaurant..." aria-label="Search portfolio projects">
         <div class="advanced-filters refined-filters">
@@ -76,59 +68,35 @@
 <script src="../../script.js?v=reviews-layout-fix"></script>
 <script src="../../assets/js/webact-promodo-nav.js" defer></script>
 <script src="./portfolio-data.js?v=old-fallback"></script>
-<script src="./portfolio-data-all.js?v=full-250-industry-overrides-random-featured-v1"></script>
-<script src="./industry-overrides.js?v=3"></script>
-<script src="./portfolio-master-data.js?v=master-data-industry-overrides-random-featured-v1"></script>
-
+<script src="./portfolio-data-all.js?v=full-250-phase-1-7-v1"></script>
+<script src="./industry-overrides.js?v=phase-1-7-v1"></script>
+<script src="./portfolio-master-data.js?v=master-data-phase-1-7-v1"></script>
 <script>
 (function(){
 const fallback=window.webactPortfolioProjects||[];
 const rows=window.webactPortfolioRows||[];
 const master=window.webactPortfolioMaster||[];
+const INDUSTRY_OVERRIDES=window.webactIndustryOverrides||{};
+const NAME_OVERRIDES=window.webactPortfolioNameOverrides||{};
+const PROJECT_OVERRIDES=window.webactPortfolioOverrides||{};
+const FEATURED_PROJECTS=window.webactFeaturedProjects||[];
 
 const slug=s=>String(s||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const esc=s=>String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const normalizeName=value=>String(value||'').replace(/&/g,'and').replace(/[^a-z0-9]+/gi,' ').trim().replace(/\s+/g,' ');
+const lookupByName=(table,name)=>table[String(name||'')]||table[normalizeName(name)]||'';
+const displayName=value=>(lookupByName(PROJECT_OVERRIDES,value).name)||lookupByName(NAME_OVERRIDES,value)||value||'';
+const refineIndustry=(name,industry)=>(lookupByName(PROJECT_OVERRIDES,name).industry)||lookupByName(INDUSTRY_OVERRIDES,name)||industry||'Business';
 
-const legacySvc=i=>['Restaurant','Pet Services','Home Care','Healthcare','Health Care','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive','Dental','Dentist','Legal','Electrical','Water Treatment','Printing & Graphics','Energy','Security','Travel','Retail','Real Estate','Education','Technology','Nonprofit','Non Profit','Professional Services','Home Services','Business','Ecommerce','Investors','Transportation','Artist','Wedding','Tattoo Shop','Phone Repair','Interior Design','Glass Repair','Construction','Community','Fair','Investigation','Fitness','Home Inspection','Design','Golf','Bookkeeping','Photography','Photographer','Portfolio'].includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
-
-const INDUSTRY_OVERRIDES=window.webactIndustryOverrides||{};
-const NAME_OVERRIDES=window.webactPortfolioNameOverrides||{};
-const FEATURED_PROJECTS=window.webactFeaturedProjects||[];
-
-function normalizeName(value){
-  return String(value||'').replace(/&/g,'and').replace(/[^a-z0-9]+/gi,' ').trim().replace(/\s+/g,' ');
-}
-
-function lookupByName(table,name){
-  const raw=String(name||'');
-  const clean=normalizeName(raw);
-  return table[raw]||table[clean]||'';
-}
-
-function displayName(value){
-  return lookupByName(NAME_OVERRIDES,value)||value||'';
-}
-
-function refineIndustry(name, industry){
-  return (
-    lookupByName(INDUSTRY_OVERRIDES,name) ||
-    industry ||
-    "Business"
-  );
-}
+const knownIndustries=['Restaurant','Pet Services','Home Care','Healthcare','Health Care','Driving School','HVAC','Plumbing','Pest Control','Locksmith','Roofing','Salon & Beauty','Automotive','Dental','Dentist','Legal','Electrical','Water Treatment','Printing & Graphics','Energy','Security','Travel','Retail','Real Estate','Education','Technology','Nonprofit','Non Profit','Professional Services','Home Services','Business','Ecommerce','Investors','Transportation','Artist','Wedding','Tattoo Shop','Phone Repair','Interior Design','Glass Repair','Construction','Community','Fair','Investigation','Fitness','Home Inspection','Design','Golf','Bookkeeping','Photography','Photographer','Portfolio'];
+const legacySvc=i=>knownIndustries.includes(i)?['Website Design',i,'Local SEO']:['Website Design','Content','Lead Generation'];
 
 function makeCardDescription(p,index){
   const name=p.name||'this project';
   const industry=p.industry||'Business';
   const services=(p.services||[]).filter(Boolean);
   const serviceText=services.length?services.slice(0,2).join(' and '):'website design';
-  const focusWords=[
-    'trust','clarity','local visibility','visitor confidence','lead generation',
-    'mobile usability','professional presentation','brand credibility',
-    'service discovery','conversion flow','customer education','online growth'
-  ];
-  const focus=focusWords[index%focusWords.length];
-
+  const focus=['trust','clarity','local visibility','visitor confidence','lead generation','mobile usability','professional presentation','brand credibility','service discovery','conversion flow','customer education','online growth'][index%12];
   const variations=[
     name+' presents a '+industry.toLowerCase()+' website experience centered on '+focus+', simple navigation, and practical next steps for visitors.',
     'For '+name+', WebAct organized the message around '+serviceText.toLowerCase()+', helping visitors understand the business quickly and move toward contact.',
@@ -143,48 +111,30 @@ function makeCardDescription(p,index){
     name+' demonstrates a cleaner approach to '+industry.toLowerCase()+' web design, using concise sections, relevant service language, and a layout that supports action.',
     'This project gives '+name+' a more polished online showcase while emphasizing '+focus+', customer understanding, and a smoother path to inquiry.'
   ];
-
   return variations[index%variations.length];
 }
 
-const projects=master.length
-  ? master.map(p=>({
-      name:displayName(p.name),
-      slug:p.slug||slug(p.name),
-      industry:refineIndustry(p.name,p.industry),
-      img:p.image||'',
-      services:p.services&&p.services.length?p.services:legacySvc(refineIndustry(p.name,p.industry)),
-      features:p.features||[],
-      technologies:p.technologies||[],
-      desc:p.description||''
-    }))
-  : rows.length
-  ? rows.map(r=>({
-      name:displayName(r[0]),
-      slug:slug(r[0]),
-      industry:refineIndustry(r[0],r[1]),
-      img:r[2]||'',
-      services:legacySvc(refineIndustry(r[0],r[1])),
-      features:[],
-      technologies:[],
-      desc:''
-    }))
-  : fallback.map(p=>({
-      name:displayName(p.name),
-      slug:slug(p.name),
-      industry:refineIndustry(p.name,p.industry),
-      img:p.img||'',
-      services:p.services&&p.services.length?p.services:legacySvc(refineIndustry(p.name,p.industry)),
-      features:[],
-      technologies:[],
-      desc:p.desc||''
-    }));
+function normalizeProject(raw,index){
+  const originalName=raw.name||'';
+  const override=lookupByName(PROJECT_OVERRIDES,originalName)||{};
+  const name=override.name||displayName(originalName);
+  const industry=override.industry||refineIndustry(originalName,raw.industry);
+  const services=raw.services&&raw.services.length?raw.services:legacySvc(industry);
+  return {
+    ...raw,
+    name,
+    slug:raw.slug||slug(originalName),
+    industry,
+    img:raw.img||raw.image||'',
+    services,
+    features:raw.features||[],
+    technologies:raw.technologies||[],
+    desc:override.description||raw.desc||raw.description||makeCardDescription({name,industry,services},index),
+    featured:override.featured||FEATURED_PROJECTS.includes(name)||FEATURED_PROJECTS.includes(normalizeName(name))
+  };
+}
 
-projects.forEach((p,index)=>{
-  if(!p.desc||/website design case study for/i.test(p.desc)){
-    p.desc=makeCardDescription(p,index);
-  }
-});
+const projects=(master.length?master.map((p,index)=>normalizeProject({name:p.name,slug:p.slug||slug(p.name),industry:p.industry,img:p.image,services:p.services,features:p.features,technologies:p.technologies,desc:p.description},index)):rows.length?rows.map((r,index)=>normalizeProject({name:r[0],slug:slug(r[0]),industry:r[1],img:r[2],services:legacySvc(refineIndustry(r[0],r[1])),features:[],technologies:[],desc:''},index)):fallback.map((p,index)=>normalizeProject({name:p.name,slug:slug(p.name),industry:p.industry,img:p.img,services:p.services,features:[],technologies:[],desc:p.desc},index)));
 
 const grid=document.getElementById('portfolio-grid');
 const search=document.getElementById('portfolio-search');
@@ -197,117 +147,52 @@ const clearFilters=document.getElementById('clear-filters');
 
 function uniqueValues(getter){
   const set=new Set();
-  projects.forEach(p=>{
-    const v=getter(p);
-    if(Array.isArray(v)){v.forEach(x=>x&&set.add(x));}
-    else if(v){set.add(v);}
-  });
+  projects.forEach(p=>{const v=getter(p);Array.isArray(v)?v.forEach(x=>x&&set.add(x)):v&&set.add(v)});
   return Array.from(set).sort((a,b)=>String(a).localeCompare(String(b)));
 }
 
 const industries=uniqueValues(p=>p.industry);
-const services=uniqueValues(p=>p.services);
-const features=uniqueValues(p=>p.features);
-const technologies=uniqueValues(p=>p.technologies);
-
 document.getElementById('project-count').textContent=projects.length;
 document.getElementById('industry-count').textContent=industries.length;
+stats.innerHTML=[['Projects',projects.length],['Industries',industries.length]].map(i=>'<div class="explorer-stat"><strong>'+i[1]+'</strong><span>'+i[0]+'</span></div>').join('');
 
-stats.innerHTML=[
-  ['Projects',projects.length],
-  ['Industries',industries.length]
-].map(i=>'<div class="explorer-stat"><strong>'+i[1]+'</strong><span>'+i[0]+'</span></div>').join('');
-
-function populate(select,items){
-  select.innerHTML+=items.map(item=>'<option value="'+esc(item)+'">'+esc(item)+'</option>').join('');
-}
-
-populate(industrySelect,industries);
+industrySelect.innerHTML+=industries.map(item=>'<option value="'+esc(item)+'">'+esc(item)+'</option>').join('');
 
 function randomSample(items,count){
   const copy=[...items];
-  for(let i=copy.length-1;i>0;i--){
-    const j=Math.floor(Math.random()*(i+1));
-    [copy[i],copy[j]]=[copy[j],copy[i]];
-  }
+  for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]]}
   return copy.slice(0,count);
 }
-
-const featuredPool=projects.filter(p=>{
-  const clean=normalizeName(p.name);
-  return FEATURED_PROJECTS.includes(p.name)||FEATURED_PROJECTS.includes(clean);
-});
-
+const featuredPool=projects.filter(p=>p.featured);
 const featuredProjects=randomSample(featuredPool.length>=3?featuredPool:projects,3);
+featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Selected Work</p><h2>Featured Portfolio</h2></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
 
-featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Featured Work</p></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
-
-function searchableText(p){
-  return [
-    p.name,
-    p.industry,
-    (p.services||[]).join(' '),
-    (p.features||[]).join(' '),
-    (p.technologies||[]).join(' '),
-    p.desc
-  ].join(' ').toLowerCase();
-}
-
+function searchableText(p){return [p.name,p.industry,(p.services||[]).join(' '),(p.features||[]).join(' '),(p.technologies||[]).join(' '),p.desc].join(' ').toLowerCase();}
 function cardHtml(p,index){
   const img=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';
-
-  return '<article class="portfolio-card is-visible" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'" data-services="'+esc((p.services||[]).join('|'))+'" data-features="'+esc((p.features||[]).join('|'))+'" data-technologies="'+esc((p.technologies||[]).join('|'))+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>';
+  return '<article class="portfolio-card is-visible" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>';
 }
-
 grid.innerHTML=projects.map(cardHtml).join('');
-
-function has(pipe,value){
-  return !value||String(pipe||'').split('|').includes(value);
-}
 
 function apply(){
   const q=(search.value||'').toLowerCase().trim();
   let shown=0;
-
   document.querySelectorAll('.portfolio-card').forEach(card=>{
     const text=(card.textContent+' '+card.dataset.title+' '+card.dataset.industry).toLowerCase();
     const industry=card.dataset.industry;
-
-    const show =
-      (!q||text.includes(q)) &&
-      (!industrySelect.value||industry===industrySelect.value);
-
+    const show=(!q||text.includes(q))&&(!industrySelect.value||industry===industrySelect.value);
     card.hidden=!show;
     card.style.display=show?'':'none';
-
     if(show)shown++;
   });
-
   resultCount.textContent='Showing '+shown+' of '+projects.length+' projects';
   empty.style.display=shown?'none':'block';
 }
-
 search.addEventListener('input',apply);
 industrySelect.addEventListener('change',apply);
-
-clearFilters.addEventListener('click',()=>{
-  search.value='';
-  industrySelect.value='';
-  apply();
-});
-
-document.addEventListener('keydown',e=>{
-  if(e.key==='/'&&document.activeElement!==search){
-    e.preventDefault();
-    search.focus();
-  }
-});
-
-document.querySelectorAll('.portfolio-card img,.featured-card img').forEach(img=>{
-  img.addEventListener('load',()=>img.classList.add('is-loaded'));
-  if(img.complete)img.classList.add('is-loaded');
-});
-
+clearFilters.addEventListener('click',()=>{search.value='';industrySelect.value='';apply()});
+document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==search){e.preventDefault();search.focus()}});
+document.querySelectorAll('.portfolio-card img,.featured-card img').forEach(img=>{img.addEventListener('load',()=>img.classList.add('is-loaded'));if(img.complete)img.classList.add('is-loaded')});
 apply();
 })();
 </script>
