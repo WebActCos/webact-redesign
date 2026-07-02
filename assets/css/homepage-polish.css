@@ -1,0 +1,357 @@
+/* Homepage 2.1 polish
+   Keeps existing scrolling showcases and Google reviews intact.
+   Focuses on spacing, typography, cards, trust signals, and removing footer gap.
+*/
+
+:root{
+  --wa-blue:#33ABE1;
+  --wa-blue-dark:#119fd7;
+  --wa-ink:#071927;
+  --wa-muted:#5f7080;
+  --wa-soft:#f4f9fc;
+  --wa-line:#dce7ee;
+  --wa-black:#050505;
+  --wa-radius:18px;
+  --wa-shadow:0 18px 45px rgba(7,25,39,.09);
+}
+
+/* General homepage polish */
+body{
+  overflow-x:hidden;
+}
+
+main,
+.home-main,
+.homepage-main{
+  margin-bottom:0 !important;
+}
+
+section{
+  scroll-margin-top:110px;
+}
+
+.home-section,
+.wa-home-section,
+.services-section,
+.reviews-section,
+.portfolio-section,
+.featured-work,
+.why-webact,
+.process-section{
+  padding-top:76px;
+  padding-bottom:76px;
+}
+
+.home-section h2,
+.wa-home-section h2,
+.services-section h2,
+.reviews-section h2,
+.portfolio-section h2,
+.featured-work h2,
+.why-webact h2,
+.process-section h2{
+  letter-spacing:-.035em;
+}
+
+/* Hero polish without rebuilding it */
+.hero,
+.home-hero,
+.wa-hero,
+.homepage-hero,
+section[class*="hero"]{
+  position:relative;
+}
+
+.hero h1,
+.home-hero h1,
+.wa-hero h1,
+.homepage-hero h1,
+section[class*="hero"] h1{
+  font-size:clamp(44px,7vw,82px);
+  line-height:.95;
+  letter-spacing:-.06em;
+}
+
+.hero p,
+.home-hero p,
+.wa-hero p,
+.homepage-hero p,
+section[class*="hero"] p{
+  font-size:clamp(17px,2vw,21px);
+  line-height:1.65;
+}
+
+.hero a,
+.home-hero a,
+.wa-hero a,
+.homepage-hero a{
+  transition:transform .22s ease, box-shadow .22s ease, background .22s ease, color .22s ease;
+}
+
+.hero a:hover,
+.home-hero a:hover,
+.wa-hero a:hover,
+.homepage-hero a:hover{
+  transform:translateY(-2px);
+}
+
+/* Trust strip inserted by homepage-polish.js */
+.wa-home-trust-strip{
+  width:min(1180px,92vw);
+  margin:28px auto 0;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
+}
+
+.wa-home-trust-item{
+  background:#fff;
+  border:1px solid var(--wa-line);
+  border-radius:16px;
+  padding:18px 16px;
+  box-shadow:0 10px 26px rgba(7,25,39,.06);
+}
+
+.wa-home-trust-item strong{
+  display:block;
+  color:var(--wa-ink);
+  font-size:clamp(22px,3vw,34px);
+  line-height:1;
+  letter-spacing:-.04em;
+}
+
+.wa-home-trust-item span{
+  display:block;
+  color:var(--wa-muted);
+  margin-top:8px;
+  font-size:14px;
+  font-weight:800;
+}
+
+/* Service/card polish */
+.service-card,
+.services-card,
+.wa-service-card,
+.card,
+[class*="service"] article,
+[class*="services"] article{
+  border-radius:var(--wa-radius);
+  transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.service-card:hover,
+.services-card:hover,
+.wa-service-card:hover,
+.card:hover,
+[class*="service"] article:hover,
+[class*="services"] article:hover{
+  transform:translateY(-5px);
+  box-shadow:var(--wa-shadow);
+}
+
+.service-card a,
+.services-card a,
+.wa-service-card a,
+[class*="service"] article a,
+[class*="services"] article a{
+  font-weight:900;
+}
+
+/* Why choose WebAct section inserted by JS */
+.wa-why-webact-polish{
+  background:linear-gradient(180deg,#fff 0%,var(--wa-soft) 100%);
+  border-top:1px solid var(--wa-line);
+  border-bottom:1px solid var(--wa-line);
+  padding:82px 0;
+}
+
+.wa-why-webact-inner{
+  width:min(1180px,92vw);
+  margin:0 auto;
+}
+
+.wa-why-webact-heading{
+  max-width:760px;
+  margin:0 0 34px;
+}
+
+.wa-why-webact-heading .eyebrow,
+.wa-why-webact-heading span{
+  color:var(--wa-blue-dark);
+  text-transform:uppercase;
+  font-size:13px;
+  letter-spacing:.12em;
+  font-weight:950;
+}
+
+.wa-why-webact-heading h2{
+  margin:12px 0 0;
+  color:var(--wa-ink);
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  letter-spacing:-.05em;
+}
+
+.wa-why-webact-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:18px;
+}
+
+.wa-why-card{
+  background:#fff;
+  border:1px solid var(--wa-line);
+  border-radius:18px;
+  padding:28px;
+  box-shadow:0 12px 30px rgba(7,25,39,.06);
+}
+
+.wa-why-icon{
+  width:44px;
+  height:44px;
+  border-radius:14px;
+  background:rgba(51,171,225,.12);
+  color:var(--wa-blue-dark);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:950;
+  margin-bottom:18px;
+}
+
+.wa-why-card h3{
+  margin:0 0 10px;
+  color:var(--wa-ink);
+  font-size:20px;
+}
+
+.wa-why-card p{
+  margin:0;
+  color:var(--wa-muted);
+  line-height:1.65;
+}
+
+/* Google reviews polish — keeps reviews present */
+.google-reviews,
+.reviews-section,
+[class*="review"]{
+  position:relative;
+}
+
+.google-reviews,
+.reviews-section{
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+/* Scrolling website showcases: keep them, tighten vertical gaps */
+.scrolling-websites-section,
+.website-scroller,
+.scrolling-sites,
+.portfolio-marquee,
+.logo-marquee,
+.showcase-marquee,
+[class*="scrolling"],
+[class*="marquee"]{
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+}
+
+/* Remove large white space before footer */
+body > footer,
+.wa-global-footer,
+.site-footer{
+  margin-top:0 !important;
+}
+
+body > *:has(+ .wa-global-footer),
+body > *:has(+ footer){
+  margin-bottom:0 !important;
+}
+
+/* Fallback for browsers/scripts: class added by JS */
+.wa-before-footer{
+  margin-bottom:0 !important;
+  padding-bottom:0 !important;
+}
+
+.wa-before-footer .scrolling-websites-section,
+.wa-before-footer .website-scroller,
+.wa-before-footer .scrolling-sites,
+.wa-before-footer .portfolio-marquee,
+.wa-before-footer .showcase-marquee{
+  padding-bottom:0 !important;
+  margin-bottom:0 !important;
+}
+
+/* Final CTA should not create a big gap before scroller/footer */
+.final-cta,
+.home-final-cta,
+.cta-section,
+[class*="final"][class*="cta"]{
+  margin-bottom:0 !important;
+}
+
+/* Buttons */
+.btn,
+.button,
+.cta,
+[class*="btn"],
+[class*="button"]{
+  transition:transform .22s ease, box-shadow .22s ease, background .22s ease, color .22s ease;
+}
+
+.btn:hover,
+.button:hover,
+.cta:hover,
+[class*="btn"]:hover,
+[class*="button"]:hover{
+  transform:translateY(-2px);
+}
+
+/* Responsive */
+@media(max-width:980px){
+  .wa-home-trust-strip,
+  .wa-why-webact-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
+  .home-section,
+  .wa-home-section,
+  .services-section,
+  .reviews-section,
+  .portfolio-section,
+  .featured-work,
+  .why-webact,
+  .process-section{
+    padding-top:58px;
+    padding-bottom:58px;
+  }
+}
+
+@media(max-width:640px){
+  .wa-home-trust-strip,
+  .wa-why-webact-grid{
+    grid-template-columns:1fr;
+  }
+
+  .wa-home-trust-strip{
+    margin-top:20px;
+  }
+
+  .wa-why-card{
+    padding:24px;
+  }
+
+  .home-section,
+  .wa-home-section,
+  .services-section,
+  .reviews-section,
+  .portfolio-section,
+  .featured-work,
+  .why-webact,
+  .process-section{
+    padding-top:46px;
+    padding-bottom:46px;
+  }
+}
