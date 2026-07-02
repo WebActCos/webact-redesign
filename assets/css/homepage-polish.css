@@ -1,0 +1,106 @@
+/* Homepage safe polish only */
+
+.home-hero{
+  min-height:720px;
+  grid-template-columns:minmax(0,1fr) minmax(360px,.48fr);
+  gap:46px;
+}
+
+.home-hero h1{
+  font-size:clamp(46px,6vw,76px);
+  line-height:.95;
+}
+
+.hero-form{
+  max-width:430px;
+  justify-self:end;
+}
+
+.logo-rotator{
+  padding-top:48px;
+  padding-bottom:48px;
+  margin:0;
+}
+
+.partner-rotator{
+  margin-bottom:0 !important;
+  padding-bottom:34px !important;
+}
+
+.google-review-band{
+  grid-template-columns:minmax(0,.78fr) minmax(420px,1fr);
+  gap:42px;
+  padding-top:86px;
+  padding-bottom:86px;
+}
+
+.google-review-card{
+  min-height:360px;
+}
+
+.google-review-card p{
+  font-size:18px;
+  line-height:1.55;
+}
+
+.home-cta{
+  margin-bottom:0 !important;
+}
+
+.home-cta + .partner-rotator{
+  margin-top:0 !important;
+}
+
+main{
+  margin-bottom:0 !important;
+}
+
+main > section:last-child{
+  margin-bottom:0 !important;
+}
+
+.wa-global-footer{
+  margin-top:0 !important;
+}
+
+.home-service-list a{
+  transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.home-service-list a:hover{
+  transform:translateY(-4px);
+  box-shadow:0 16px 38px rgba(6,17,29,.1);
+  border-color:#b9ddeb;
+}
+
+@media(max-width:860px){
+  .home-hero{
+    grid-template-columns:1fr;
+    min-height:auto;
+  }
+
+  .hero-form{
+    max-width:none;
+    justify-self:stretch;
+  }
+
+  .google-review-band{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:620px){
+  .home-hero{
+    padding-top:44px;
+    padding-bottom:44px;
+  }
+
+  .home-hero h1{
+    font-size:40px;
+  }
+
+  .google-review-band{
+    padding-top:54px;
+    padding-bottom:54px;
+  }
+}

@@ -13,7 +13,7 @@
 .wa-global-footer{
   background:var(--wa-footer-black);
   color:var(--wa-footer-white);
-  margin-top:120px;
+  margin-top:0 !important;
   font-family:Inter,Arial,Helvetica,sans-serif;
 }
 
