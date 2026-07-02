@@ -129,7 +129,7 @@ function normalizeProject(raw,index){
     services,
     features:raw.features||[],
     technologies:raw.technologies||[],
-    desc:override.description||raw.desc||raw.description||makeCardDescription({name,industry,services},index),
+    desc:override.description||makeCardDescription({name,industry,services},index),
     featured:override.featured||FEATURED_PROJECTS.includes(name)||FEATURED_PROJECTS.includes(normalizeName(name))
   };
 }

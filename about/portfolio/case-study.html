@@ -127,7 +127,7 @@ function normalizeProject(raw,index){
   const name=override.name||displayName(originalName);
   const industry=override.industry||refineIndustry(originalName,raw.industry);
   const services=raw.services&&raw.services.length?raw.services:legacySvc(industry);
-  const desc=override.description||raw.desc||raw.description||makeDescription({name,industry,services},index);
+  const desc=override.description||makeDescription({name,industry,services},index);
   return {
     ...raw,
     name,
