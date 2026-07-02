@@ -165,7 +165,7 @@ function randomSample(items,count){
 }
 const featuredPool=projects.filter(p=>p.featured);
 const featuredProjects=randomSample(featuredPool.length>=3?featuredPool:projects,3);
-featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Selected Work</p><h2>Featured Portfolio</h2></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
+featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Selected Work</p></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
 
 function searchableText(p){return [p.name,p.industry,(p.services||[]).join(' '),(p.features||[]).join(' '),(p.technologies||[]).join(' '),p.desc].join(' ').toLowerCase();}
 function cardHtml(p,index){
