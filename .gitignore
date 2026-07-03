@@ -14,3 +14,6 @@ automation-exclude.txt
 
 # Local header/footer audit reports
 header-*-issues.csv
+
+# Local header/footer audit reports
+header-*-issues.csv
