@@ -455,3 +455,50 @@ cd C:\Projects\webact-clean
   }
 }
 '@ | Set-Content .\css\navigation.css
+/* ==========================================================
+   FULL-WIDTH DROPDOWN OVERRIDE
+   Keeps original WebAct header/footer styling.
+   ========================================================== */
+
+.wa-promodo-header,
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.wa-promodo-item {
+  position: static !important;
+}
+
+.wa-promodo-mega,
+.mega {
+  position: fixed !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100vw !important;
+  max-width: none !important;
+  top: var(--wa-header-height, 74px) !important;
+  z-index: 9999 !important;
+  border-radius: 0 !important;
+}
+
+.wa-promodo-mega-inner {
+  width: min(1320px, 92vw) !important;
+  margin: 0 auto !important;
+}
+
+.wa-promodo-item:hover .wa-promodo-mega,
+.wa-promodo-item:focus-within .wa-promodo-mega,
+.wa-promodo-item.is-open .wa-promodo-mega {
+  display: block !important;
+}
+
+@media (max-width: 860px) {
+  .wa-promodo-mega,
+  .mega {
+    position: static !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+}
