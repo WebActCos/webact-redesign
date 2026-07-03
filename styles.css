@@ -4390,6 +4390,27 @@ body{
   padding-right:24px;
 }
 
+.home-services .section-footer-cta,
+.home-services-centered .section-footer-cta{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:14px;
+  margin:36px auto 0;
+}
+
+.home-services .section-footer-cta .button,
+.home-services-centered .section-footer-cta .button{
+  min-width:168px;
+}
+
+.home-services .section-footer-cta .button.secondary,
+.home-services-centered .section-footer-cta .button.secondary{
+  border-color:#c9d9e5;
+  color:#071421;
+  background:#fff;
+}
+
 .section-actions .button.secondary,
 .remarkable-results .button.secondary{
   border-color:rgba(255,255,255,.28);
@@ -4816,54 +4837,6 @@ body{
   color:#fff;
 }
 
-/* Final CTA */
-.home-cta{
-  margin-bottom:0 !important;
-}
-
-.home-final-cta{
-  grid-template-columns:minmax(0,1fr) auto;
-  padding-top:96px;
-  padding-bottom:96px;
-  background:
-    radial-gradient(circle at 14% 24%, rgba(48,174,233,.32), transparent 30%),
-    linear-gradient(105deg, rgba(6,17,29,.98), rgba(6,17,29,.8)),
-    url("assets/studio-desk.png") center / cover;
-}
-
-.home-final-cta h2{
-  max-width:900px;
-  font-size:clamp(40px,5vw,66px);
-  line-height:.98;
-  letter-spacing:-.045em;
-}
-
-.home-final-cta .hero-actions{
-  margin-top:0;
-  justify-content:flex-end;
-}
-
-.home-final-cta .button{
-  min-height:56px;
-  border-radius:999px;
-  padding-left:24px;
-  padding-right:24px;
-}
-
-.home-final-cta .button.secondary{
-  background:rgba(255,255,255,.08);
-}
-
-.home-cta + .partner-rotator,
-.partner-rotator{
-  margin-top:0 !important;
-}
-
-.partner-rotator{
-  margin-bottom:0 !important;
-  padding-bottom:34px !important;
-}
-
 /* Responsive homepage refinement */
 @media(max-width:1180px){
   .home-service-list,
@@ -4960,8 +4933,8 @@ body{
     font-size:17px;
   }
 
-  .home-final-cta .hero-actions,
-  .section-actions{
+  .section-actions,
+  .section-footer-cta{
     display:grid;
   }
 }
