@@ -1,3 +1,0 @@
-"File","Type","Missing","ExpectedPath"
-"C:\Projects\webact-clean\pages\about-portfolio.html","src","' + images[0].src + '","C:\Projects\webact-clean\pages\' + images[0].src + '"
-"C:\Projects\webact-clean\pages\industries-hardware-stores.html","src","../../assets/industry-hardware-stores.png","C:\Projects\assets\industry-hardware-stores.png"

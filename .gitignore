@@ -3,3 +3,7 @@
 backup-before-*
 *-backup-*
 *.bak
+
+# Local audit reports
+broken-links-audit*.csv
+project-audit.csv
