@@ -4423,9 +4423,13 @@ body{
 }
 
 .home-growth .section-actions .button.secondary{
-  border-color:#c9d9e5;
-  color:#071421;
-  background:#fff;
+  background:#ffffff;
+  color:#06111d;
+  border:2px solid #06111d;
+}
+.home-growth .section-actions .button.secondary:hover{
+  background:#06111d;
+  color:#ffffff;
 }
 
 /* Everything You Need */
