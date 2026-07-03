@@ -1,32 +1,90 @@
 <header class="site-header">
-  <div class="notice-bar">
-    <a href="tel:8889322284">Call WebAct: (888) 932-2284</a>
-    <a href="pages/pricing.html">View Pricing</a>
-  </div>
-
   <div class="header-main">
     <a class="brand" href="index.html" aria-label="WebAct Home">
       <img src="images/webact-logo.png" alt="WebAct">
     </a>
 
     <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
+      <span></span><span></span><span></span>
     </button>
 
     <nav class="primary-nav" aria-label="Primary navigation">
-      <a href="pages/marketing.html">Marketing</a>
-      <a href="pages/design.html">Design</a>
-      <a href="pages/digital-ads.html">Digital Ads</a>
-      <a href="pages/industries.html">Industries</a>
+      <div class="nav-item">
+        <a href="pages/marketing.html">Marketing</a>
+        <div class="mega">
+          <div class="mega-intro"><p>Marketing</p><h3>Grow with search, content, and visibility.</h3><span>SEO, AEO, listings, email, and Google Business Profile support.</span></div>
+          <div class="mega-grid">
+            <a class="mega-card" href="pages/marketing-seo.html"><strong>SEO</strong><span>Organic search strategy and optimization.</span></a>
+            <a class="mega-card" href="pages/marketing-local-seo.html"><strong>Local SEO</strong><span>Rank locally and convert nearby customers.</span></a>
+            <a class="mega-card" href="pages/marketing-national-seo.html"><strong>National SEO</strong><span>Compete across broader markets.</span></a>
+            <a class="mega-card" href="pages/marketing-aeo.html"><strong>AEO</strong><span>Optimize for answer engines and AI search.</span></a>
+            <a class="mega-card" href="pages/marketing-gmb.html"><strong>Google Business Profile</strong><span>Improve maps, reviews, and local trust.</span></a>
+            <a class="mega-card" href="pages/marketing-email-marketing.html"><strong>Email Marketing</strong><span>Campaigns that keep customers engaged.</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a href="pages/design.html">Design</a>
+        <div class="mega">
+          <div class="mega-intro"><p>Design</p><h3>Modern websites and brand systems.</h3><span>Design work that looks professional and supports conversion.</span></div>
+          <div class="mega-grid">
+            <a class="mega-card" href="pages/design-website-design.html"><strong>Website Design</strong><span>Custom websites built to perform.</span></a>
+            <a class="mega-card" href="pages/design-branding.html"><strong>Branding</strong><span>Visual identity and brand direction.</span></a>
+            <a class="mega-card" href="pages/design-logo-design.html"><strong>Logo Design</strong><span>Professional marks for growing brands.</span></a>
+            <a class="mega-card" href="pages/design-graphic-design.html"><strong>Graphic Design</strong><span>Creative assets for campaigns and sales.</span></a>
+            <a class="mega-card" href="pages/design-simple-editor.html"><strong>Simple Editor</strong><span>Easy website editing tools.</span></a>
+            <a class="mega-card" href="pages/design-professional-editor.html"><strong>Professional Editor</strong><span>Advanced website builder options.</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a href="pages/digital-ads.html">Digital Ads</a>
+        <div class="mega">
+          <div class="mega-intro"><p>Advertising</p><h3>Campaigns across search, social, shopping, and TV.</h3><span>Reach the right audience with measurable campaigns.</span></div>
+          <div class="mega-grid">
+            <a class="mega-card" href="pages/digital-ads-google-advertising.html"><strong>Google Ads</strong><span>Search and display campaigns.</span></a>
+            <a class="mega-card" href="pages/digital-ads-microsoft-advertising.html"><strong>Microsoft Ads</strong><span>Bing and Microsoft network ads.</span></a>
+            <a class="mega-card" href="pages/digital-ads-social-media-advertising.html"><strong>Social Media Ads</strong><span>Facebook, Instagram, and social campaigns.</span></a>
+            <a class="mega-card" href="pages/digital-ads-amazon-advertising.html"><strong>Amazon Ads</strong><span>Promote products on Amazon.</span></a>
+            <a class="mega-card" href="pages/digital-ads-local-services-advertising.html"><strong>Local Services Ads</strong><span>Lead generation for local businesses.</span></a>
+            <a class="mega-card" href="pages/digital-ads-television-advertising.html"><strong>TV Ads</strong><span>Streaming and television advertising.</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a href="pages/industries.html">Industries</a>
+        <div class="mega">
+          <div class="mega-intro"><p>Industries</p><h3>Marketing built for your business type.</h3><span>Solutions for local services, healthcare, retail, restaurants, and more.</span></div>
+          <div class="mega-grid">
+            <a class="mega-card" href="pages/industries-home-services.html"><strong>Home Services</strong><span>Contractors, HVAC, plumbing, roofing, and more.</span></a>
+            <a class="mega-card" href="pages/industries-dental-medical.html"><strong>Dental & Medical</strong><span>Healthcare websites and growth campaigns.</span></a>
+            <a class="mega-card" href="pages/industries-restaurants.html"><strong>Restaurants</strong><span>Menus, local search, and online visibility.</span></a>
+            <a class="mega-card" href="pages/industries-law-firms.html"><strong>Law Firms</strong><span>Professional visibility for legal practices.</span></a>
+            <a class="mega-card" href="pages/industries-real-estate.html"><strong>Real Estate</strong><span>Lead-focused real estate marketing.</span></a>
+            <a class="mega-card" href="pages/industries.html"><strong>View All Industries</strong><span>Browse every industry page.</span></a>
+          </div>
+        </div>
+      </div>
+
       <a href="pages/pricing.html">Pricing</a>
       <a class="nav-cta" href="pages/contact.html">Contact Us</a>
     </nav>
 
     <div class="header-actions">
-      <a class="search-link" href="pages/about-website-knowledge-base.html">Search</a>
+      <button class="search-link" type="button" data-site-search-open>Search</button>
       <a class="proposal-link" href="pages/contact.html">Contact Us</a>
+    </div>
+  </div>
+
+  <div class="site-search-overlay" data-site-search-overlay aria-hidden="true">
+    <div class="site-search-panel">
+      <button class="site-search-close" type="button" data-site-search-close> </button>
+      <p class="eyebrow">Search WebAct</p>
+      <input type="search" placeholder="Search services, pricing, industries, articles..." data-site-search-input>
+      <div class="site-search-results" data-site-search-results></div>
     </div>
   </div>
 </header>
