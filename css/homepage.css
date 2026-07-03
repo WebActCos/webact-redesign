@@ -1,0 +1,558 @@
+/* ==========================================================
+   WEBACT HOMEPAGE STYLES
+   Homepage-only hero, rotators, service sections, results, reviews, and CTA.
+   ========================================================== */
+
+.home-hero {
+min-height: 760px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.5fr);
+  gap: 42px;
+  align-items: center;
+  padding: 76px 56px;
+  color: var(--white);
+  background:
+    linear-gradient(115deg, rgba(6, 17, 29, 0.96), rgba(6, 17, 29, 0.74)),
+    url('../images/team-work.jpg') center / cover;
+}
+
+.home-hero-copy {
+max-width: 800px;
+}
+
+.home-hero h1 {
+max-width: 820px;
+  font-size: 76px;
+}
+
+.passion-line {
+margin: 22px 0 0;
+  color: #dbeaf5;
+  font-size: 28px;
+  font-weight: 750;
+}
+
+.passion-line span {
+color: var(--blue);
+}
+
+.passion-tags {
+display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.passion-tags span,
+.proof-strip span,
+.result-tabs span {
+border-radius: 8px;
+  font-weight: 850;
+}
+
+.passion-tags span {
+padding: 8px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #eff8ff;
+}
+
+.hero-form {
+display: grid;
+  gap: 13px;
+  padding: 26px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+}
+
+.hero-form h2 {
+font-size: 30px;
+}
+
+.hero-form p {
+margin: -4px 0 4px;
+  color: var(--muted);
+}
+
+.hero-form label {
+display: grid;
+  gap: 6px;
+  color: var(--slate);
+  font-size: 14px;
+  font-weight: 850;
+}
+
+.hero-form input,
+.hero-form select,
+.hero-form textarea {
+width: 100%;
+  padding: 12px 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font: inherit;
+}
+
+.logo-rotator {
+overflow: hidden;
+  padding: 48px 0;
+  background: #071524;
+  color: var(--white);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.partner-rotator {
+background: #0b1a2a;
+  border-top: 0;
+}
+
+.logo-rotator-heading {
+display: grid;
+  gap: 6px;
+  max-width: 1180px;
+  margin: 0 auto 24px;
+  padding: 0 56px;
+}
+
+.logo-rotator-heading h2 {
+font-size: 28px;
+}
+
+.logo-section-copy {
+max-width: 920px;
+  margin: 4px 0 0;
+  color: #d5e2ee;
+  font-size: 18px;
+}
+
+.logo-marquee {
+position: relative;
+  overflow: hidden;
+}
+
+.logo-marquee::before,
+.logo-marquee::after {
+content: "";
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 110px;
+  height: 100%;
+  pointer-events: none;
+}
+
+.logo-marquee::before {
+left: 0;
+  background: linear-gradient(90deg, #071524, rgba(7, 21, 36, 0));
+}
+
+.logo-marquee::after {
+right: 0;
+  background: linear-gradient(270deg, #071524, rgba(7, 21, 36, 0));
+}
+
+.logo-track {
+width: max-content;
+  display: flex;
+  gap: 18px;
+  animation: logo-scroll 42s linear infinite;
+}
+
+.logo-marquee:hover .logo-track {
+animation-play-state: paused;
+}
+
+.logo-track-reverse {
+animation-name: logo-scroll-reverse;
+}
+
+.logo-slide {
+width: 230px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.logo-slide img {
+max-width: 100%;
+  max-height: 62px;
+  object-fit: contain;
+}
+
+@keyframes logo-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 9px));
+  }
+}
+
+@keyframes logo-scroll-reverse {
+  from {
+    transform: translateX(calc(-50% - 9px));
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.home-services {
+display: grid;
+  grid-template-columns: minmax(280px, 0.64fr) minmax(0, 0.9fr);
+  gap: 30px 46px;
+  align-items: center;
+}
+
+.home-services-media {
+grid-row: span 2;
+}
+
+.home-services-media img {
+width: 100%;
+  padding: 24px;
+  border-radius: 8px;
+  background: var(--soft);
+  box-shadow: var(--shadow);
+}
+
+.home-service-list {
+display: grid;
+  gap: 12px;
+}
+
+.home-service-list a {
+display: grid;
+  gap: 4px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff, #f7fbfe);
+}
+
+.home-service-list strong {
+color: var(--blue-dark);
+  font-size: 20px;
+}
+
+.home-service-list span {
+color: var(--muted);
+}
+
+.home-story {
+display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.48fr);
+  gap: 44px;
+  align-items: center;
+  background: var(--soft);
+}
+
+.home-story p {
+color: var(--slate);
+  font-size: 18px;
+}
+
+.remarkable-results {
+background: var(--ink);
+  color: var(--white);
+}
+
+.remarkable-results .section-heading p {
+color: #b9c8d8;
+}
+
+.result-tabs {
+display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.result-tabs span {
+padding: 9px 12px;
+  background: #132b42;
+  color: #dbeaf5;
+}
+
+.result-grid {
+display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.result-grid article {
+overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: #0d1d2e;
+}
+
+.result-grid img {
+width: 100%;
+  height: 180px;
+  object-fit: contain;
+  padding: 18px;
+  background: #f6fbff;
+}
+
+.result-grid h3,
+.result-grid p {
+padding-left: 18px;
+  padding-right: 18px;
+}
+
+.result-grid h3 {
+margin-top: 18px;
+}
+
+.result-grid p {
+color: #c8d5e0;
+}
+
+.testimonial-band {
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  background: var(--soft);
+}
+
+.quote-card {
+padding: 30px;
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 10px 30px rgba(6, 17, 29, 0.06);
+}
+
+.quote-card p {
+margin-top: 0;
+  color: var(--slate);
+  font-size: 22px;
+  font-weight: 750;
+}
+
+.quote-card span {
+color: var(--blue-dark);
+  font-weight: 900;
+}
+
+.google-review-band {
+display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(360px, 1fr);
+  gap: 28px;
+  align-items: center;
+  background: var(--soft);
+}
+
+.google-review-copy {
+display: grid;
+  gap: 14px;
+}
+
+.google-review-copy h2 {
+max-width: 720px;
+}
+
+.google-review-widget {
+position: relative;
+  min-height: 0;
+}
+
+.google-review-track {
+position: relative;
+  min-height: 0;
+}
+
+.google-review-card {
+position: relative;
+  display: none;
+  align-content: space-between;
+  gap: 22px;
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 16px 40px rgba(6, 17, 29, 0.08);
+  opacity: 0;
+  transform: translateX(18px);
+  pointer-events: none;
+  transition: opacity 240ms ease, transform 240ms ease;
+}
+
+.google-review-card.active {
+display: grid;
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+.google-review-stars {
+color: #fbbc04;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.google-review-card p {
+margin: 0;
+  color: var(--slate);
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.google-review-card strong,
+.google-review-card span {
+display: block;
+}
+
+.google-review-card strong {
+color: var(--blue-dark);
+  font-size: 18px;
+}
+
+.google-review-card span {
+margin-top: 4px;
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.google-review-controls {
+display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.google-review-controls button {
+width: 44px;
+  height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--blue-dark);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.google-review-controls button:hover {
+border-color: var(--blue);
+  background: var(--blue-dark);
+  color: var(--white);
+}
+
+.google-review-controls span {
+min-width: 54px;
+  color: var(--muted);
+  font-weight: 850;
+  text-align: center;
+}
+
+.home-cta {
+display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  align-items: center;
+  padding: 76px 56px;
+  color: var(--white);
+  background:
+    linear-gradient(100deg, rgba(6, 17, 29, 0.98), rgba(6, 17, 29, 0.8)),
+    url('../images/studio-desk.png') center / cover;
+}
+
+.home-cta p {
+max-width: 760px;
+  color: #d5e2ee;
+}
+
+@media (max-width: 1160px) {
+
+.testimonial-band {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.result-grid {
+grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.logo-rotator-heading {
+padding-left: 34px;
+    padding-right: 34px;
+}
+
+}
+
+@media (max-width: 860px) {
+
+.home-hero,
+.home-services,
+.home-story,
+.google-review-band,
+.home-cta {
+grid-template-columns: 1fr;
+}
+
+.home-hero h1 {
+font-size: 54px;
+}
+
+}
+
+@media (max-width: 620px) {
+
+.home-hero,
+.home-cta {
+padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo-rotator-heading {
+padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo-slide {
+width: 190px;
+}
+
+.result-grid,
+.testimonial-band {
+grid-template-columns: 1fr;
+}
+
+.home-hero h1 {
+font-size: 40px;
+}
+
+.passion-line {
+font-size: 22px;
+}
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+.logo-track {
+animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    padding: 0 20px;
+}
+
+.logo-marquee::before,
+.logo-marquee::after {
+display: none;
+}
+
+}
