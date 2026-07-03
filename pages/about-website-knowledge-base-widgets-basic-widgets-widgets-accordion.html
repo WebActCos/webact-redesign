@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Widgets: Accordion | WebAct</title>
+    <meta name="description" content="Widgets: Accordion support topic for WebAct website customers.">
+    <link rel="stylesheet" href="../css/styles.css?v=reviews-layout-fix">
+<style id="webact-promodo-header-style">
+.webact-promodo-header{position:sticky;top:0;z-index:9999;background:#fff;border-bottom:1px solid #e5edf5;font-family:Inter,Arial,sans-serif}
+.webact-promodo-topbar{background:#061421;color:#fff;font-weight:800;text-align:center;padding:12px 20px;font-size:14px;line-height:1.35}
+.webact-promodo-topbar a{color:#33aee7;text-decoration:none;margin-left:24px;white-space:nowrap}
+.webact-promodo-inner{max-width:1460px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:22px 28px;background:#fff}
+.webact-promodo-logo{display:inline-flex;align-items:center;flex:0 0 auto;text-decoration:none}
+.webact-promodo-logo img{width:230px;max-width:24vw;height:auto;display:block}
+.webact-promodo-nav{display:flex;align-items:center;gap:4px;flex:1}
+.webact-promodo-nav-list{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;width:100%}
+.webact-promodo-nav-item{position:relative}
+.webact-promodo-nav-link,.webact-promodo-drop-trigger{appearance:none;border:0;background:transparent;color:#071421;text-decoration:none;font-weight:850;font-size:16px;line-height:1.1;padding:14px 12px;border-radius:8px;display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;font-family:inherit}
+.webact-promodo-nav-link:hover,.webact-promodo-drop-trigger:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-chevron{border:solid currentColor;border-width:0 2px 2px 0;display:inline-block;padding:4px;transform:rotate(45deg);margin-top:-5px}
+.webact-promodo-menu{display:none;position:absolute;top:100%;left:0;min-width:310px;background:#fff;border:1px solid #dce8f1;box-shadow:0 24px 50px rgba(2,18,32,.14);padding:16px;border-radius:0 0 14px 14px;grid-template-columns:repeat(2,minmax(145px,1fr));gap:6px}
+.webact-promodo-menu a{color:#071421;text-decoration:none;padding:10px 12px;border-radius:8px;font-weight:700;font-size:14px;line-height:1.25}
+.webact-promodo-menu a:hover{background:#eaf7fc;color:#119fd7}
+.webact-promodo-nav-item:hover .webact-promodo-menu,.webact-promodo-nav-item:focus-within .webact-promodo-menu,.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}
+.webact-promodo-actions{display:flex;align-items:center;gap:14px;flex:0 0 auto}
+.webact-promodo-search{background:transparent;border:0;color:#071421;font-weight:850;font-size:16px;cursor:pointer;padding:12px;border-radius:8px;font-family:inherit}
+.webact-promodo-search:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-cta{background:#33abe1;color:#071421;text-decoration:none;font-weight:900;padding:18px 24px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;box-shadow:0 8px 18px rgba(51,171,225,.28)}
+.webact-promodo-cta:hover{background:#249ad0;color:#071421}
+.webact-promodo-menu-toggle{display:none;border:1px solid #cfe0eb;background:#fff;border-radius:8px;width:46px;height:42px;align-items:center;justify-content:center;gap:5px;flex-direction:column;cursor:pointer}
+.webact-promodo-menu-toggle span{width:22px;height:2px;background:#071421;display:block}
+body.webact-search-open .webact-search-overlay{display:flex}
+.webact-search-overlay{display:none;position:fixed;inset:0;z-index:10000;background:rgba(4,17,29,.62);align-items:flex-start;justify-content:center;padding:120px 20px 20px}
+.webact-search-panel{width:min(760px,100%);background:#fff;border-radius:14px;padding:24px;box-shadow:0 28px 70px rgba(0,0,0,.22)}
+.webact-search-row{display:flex;gap:10px}
+.webact-search-row input{flex:1;border:1px solid #cddce7;border-radius:8px;padding:14px 16px;font-size:16px}
+.webact-search-row button,.webact-search-close{border:0;border-radius:8px;padding:14px 18px;font-weight:850;cursor:pointer;font-family:inherit}
+.webact-search-row button{background:#33abe1;color:#071421}.webact-search-close{background:#f2f6f9;color:#071421}
+@media (max-width:1250px){.webact-promodo-inner{padding:18px 20px;gap:14px}.webact-promodo-logo img{width:190px}.webact-promodo-nav-link,.webact-promodo-drop-trigger{font-size:14px;padding:12px 8px}.webact-promodo-cta{padding:15px 18px}}
+@media (max-width:1060px){.webact-promodo-inner{flex-wrap:wrap}.webact-promodo-menu-toggle{display:flex}.webact-promodo-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e5edf5;padding-top:12px}.webact-promodo-header.webact-nav-open .webact-promodo-nav{display:block}.webact-promodo-nav-list{display:block}.webact-promodo-nav-item{border-bottom:1px solid #edf3f7}.webact-promodo-nav-link,.webact-promodo-drop-trigger{width:100%;justify-content:space-between;padding:15px 2px;font-size:16px}.webact-promodo-menu{position:static;box-shadow:none;border:0;border-radius:0;padding:0 0 12px 12px;grid-template-columns:1fr}.webact-promodo-nav-item .webact-promodo-menu{display:none}.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}.webact-promodo-actions{margin-left:auto}.webact-promodo-search{font-size:0}.webact-promodo-search:before{content:'Search';font-size:15px}.webact-promodo-cta{padding:13px 16px}}
+@media (max-width:640px){.webact-promodo-topbar{font-size:12px}.webact-promodo-topbar a{display:inline-block;margin-left:10px}.webact-promodo-logo img{width:160px;max-width:52vw}.webact-promodo-inner{padding:14px}.webact-promodo-actions{width:100%;justify-content:space-between;order:3}.webact-promodo-cta{flex:1}.webact-search-overlay{padding-top:90px}.webact-search-row{flex-direction:column}}
+</style>
+
+<link rel="stylesheet" href="../css/webact-promodo-nav.css">
+</head>
+  <body>
+<header class="wa-promodo-header" data-wa-nav>
+  <nav class="wa-promodo-nav" aria-label="Main navigation">
+    <a class="wa-promodo-logo" href="../index.html" aria-label="WebAct home"><img src="../images/webact-logo.png" alt="WebAct"></a>
+    <ul class="wa-promodo-menu" data-wa-menu>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-design">Design</button>
+        <div class="wa-promodo-mega" id="wa-mega-design">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Design</p><h2 class="wa-promodo-mega-title">Design</h2><p class="wa-promodo-mega-text">Website, logo, graphics, and brand systems built for businesses that need a professional web presence.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="design-simple-editor.html">Simple Editor</a>
+              <a href="design-professional-editor.html">Professional Editor</a>
+              <a href="design-website-design.html">Website Design</a>
+              <a href="design-logo-design.html">Logo Design</a>
+              <a href="design-graphic-design.html">Graphic Design</a>
+              <a href="design-branding.html">Branding</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-digital-ads">Digital Ads</button>
+        <div class="wa-promodo-mega" id="wa-mega-digital-ads">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Digital Ads</p><h2 class="wa-promodo-mega-title">Digital Ads</h2><p class="wa-promodo-mega-text">Campaign services for search, social, local services, streaming TV, and retail advertising channels.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="digital-ads-google-advertising.html">Google Advertising</a>
+              <a href="digital-ads-local-services-advertising.html">Local Services Advertising</a>
+              <a href="digital-ads-microsoft-advertising.html">Microsoft Advertising</a>
+              <a href="digital-ads-social-media-advertising.html">Social Media Advertising</a>
+              <a href="digital-ads-amazon-advertising.html">Amazon Advertising</a>
+              <a href="digital-ads-television-advertising.html">Television Advertising</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-marketing">Marketing</button>
+        <div class="wa-promodo-mega" id="wa-mega-marketing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Marketing</p><h2 class="wa-promodo-mega-title">Marketing</h2><p class="wa-promodo-mega-text">SEO, local visibility, listings, business profiles, and email marketing support for steady growth.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="marketing-national-seo.html">National SEO</a>
+              <a href="marketing-local-seo.html">Local SEO</a>
+              <a href="marketing-aeo.html">AEO</a>
+              <a href="marketing-gmb.html">GMB</a>
+              <a href="marketing-local-listings.html">Local Listings</a>
+              <a href="marketing-email-marketing.html">Email Marketing</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-about">About</button>
+        <div class="wa-promodo-mega" id="wa-mega-about">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct About</p><h2 class="wa-promodo-mega-title">About</h2><p class="wa-promodo-mega-text">See WebAct work, resources, knowledge base articles, videos, and client support links.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="about-about-us.html">About WebAct</a>
+              <a href="about-portfolio.html">Portfolio</a>
+              <a href="about-faq.html">FAQ</a>
+              <a href="about-blog.html">Blog</a>
+              <a href="about-website-knowledge-base.html">Website Knowledge Base</a>
+              <a href="about-widget-knowledge-base.html">Widget Knowledge Base</a>
+              <a href="about-how-to-videos.html">How-To Videos</a>
+              <a href="about-login.html">Login</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-pricing">Pricing</button>
+        <div class="wa-promodo-mega" id="wa-mega-pricing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Pricing</p><h2 class="wa-promodo-mega-title">Pricing</h2><p class="wa-promodo-mega-text">Explore design, marketing, advertising, package, and app service pricing.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pricing-design.html">Design Pricing</a>
+              <a href="pricing-marketing.html">Marketing Pricing</a>
+              <a href="pricing-advertising.html">Advertising Pricing</a>
+              <a href="pricing-packages.html">Packages</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-industries">Industries</button>
+        <div class="wa-promodo-mega" id="wa-mega-industries">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Industries</p><h2 class="wa-promodo-mega-title">Industries</h2><p class="wa-promodo-mega-text">Industry-specific website design, advertising, marketing, apps, and case-study examples.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="industries.html">All Industries</a>
+              <a href="industries-jewelry-stores.html">Jewelry Stores</a>
+              <a href="industries-hvac.html">HVAC</a>
+              <a href="industries-roofing.html">Roofing</a>
+              <a href="industries-plumbing.html">Plumbing</a>
+              <a href="industries-real-estate.html">Real Estate</a>
+              <a href="../../../../../industries/non-profit/index.html">Non Profits</a>
+              <a href="industries-home-care.html">Home Care</a>
+              <a href="industries-parking-mobility.html">Parking &amp; Mobility</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-add-ons">Add-ons</button>
+        <div class="wa-promodo-mega" id="wa-mega-add-ons">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Add-ons</p><h2 class="wa-promodo-mega-title">Add-ons</h2><p class="wa-promodo-mega-text">Domains, email, widgets, and WebAct app store options that extend your website.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="addons-domain-names.html">Domain Names</a>
+              <a href="addons-professional-email.html">Professional Email</a>
+              <a href="addons-widgets.html">Widgets</a>
+              <a href="addons-website-app-store.html">Website App Store</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="wa-promodo-actions">
+      <a class="wa-promodo-cta" href="contact.html">Get Started</a>
+      <button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button>
+    </div>
+  </nav>
+</header>
+<main><section class="page-hero">
+  <div>
+    <p class="breadcrumb"><a href="../index.html">Home</a> / Website Knowledge Base</p>
+    <p class="eyebrow">Basic Widgets</p>
+    <h1>Widgets: Accordion</h1>
+    <p class="hero-lede">Internal WebAct support page for Widgets: Accordion.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="contact.html">Start a conversation</a>
+      <a class="button secondary" href="pricing.html">View pricing</a>
+    </div>
+  </div>
+  <img src="../images/simple-editor.png" alt="Widgets: Accordion visual">
+</section>
+<section class="section website-design-intro knowledge-base-article-intro">
+  <div class="service-link-row" aria-label="Knowledge base article navigation">
+    <a href="about-website-knowledge-base.html">Website Knowledge Base</a>
+    <a href="about-how-to-videos.html">How-to Videos</a>
+    <a href="about-faq.html">FAQ</a>
+    <a href="contact.html">Ask WebAct</a>
+  </div>
+  <div class="website-design-copy">
+    <p class="eyebrow">Widgets / Basic Widgets</p>
+    <h2>Widgets: Accordion</h2>
+    <p>This local WebAct knowledge base page keeps the Widgets: Accordion support topic inside the redesigned website. Use it as the internal destination for customers who need help with this part of their website.</p>
+  </div>
+</section>
+<section class="section widget-kb-article-section">
+  <article class="widget-kb-article-copy">
+    <p class="eyebrow">Website Support Topic</p>
+    <h2>What this page covers</h2>
+    <p>Widgets: Accordion is part of the Basic Widgets section in the Widgets knowledge base area.</p>
+    <h3>Use this page when</h3>
+    <ul>
+      <li>A customer needs help finding or understanding the Widgets: Accordion topic.</li>
+      <li>The WebAct team wants to route support traffic to an internal page instead of an outside support search result.</li>
+      <li>The topic should stay grouped with related WebAct website support resources.</li>
+    </ul>
+    <h3>Recommended next step</h3>
+    <p>Review the page title, match it to the task the customer is trying to complete, and contact WebAct support if the website needs a hands-on update.</p>
+  </article>
+</section>
+<section class="section widget-kb-related-section">
+  <div class="section-heading compact">
+    <p class="eyebrow">Related Topics</p>
+    <h2>More articles in Basic Widgets</h2>
+  </div>
+  <div class="widget-kb-grid">
+    <article class="widget-kb-card"><p class="eyebrow">Widgets</p><h3>Widgets: Text and Titles (Headings)</h3><p>Basic Widgets</p><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-text-and-titles-headings.html">Read article</a></article><article class="widget-kb-card"><p class="eyebrow">Widgets</p><h3>Widgets: Button</h3><p>Basic Widgets</p><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-button.html">Read article</a></article><article class="widget-kb-card"><p class="eyebrow">Widgets</p><h3>Widgets: Hamburger Menu</h3><p>Basic Widgets</p><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-hamburger-menu.html">Read article</a></article><article class="widget-kb-card"><p class="eyebrow">Widgets</p><h3>Widgets: Breadcrumbs</h3><p>Basic Widgets</p><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-breadcrumbs.html">Read article</a></article>
+  </div>
+</section>
+<section class="section website-solutions-band">
+  <div>
+    <p class="eyebrow">Need Help?</p>
+    <h2>WebAct can help with website edits, support questions, and launch tasks.</h2>
+    <p>Use the knowledge base for self-service help or contact WebAct when the update needs extra support.</p>
+  </div>
+  <a class="button secondary" href="contact.html">Contact WebAct</a>
+</section></main>
+    <footer class="site-footer">
+      <img src="../images/logo.png" alt="WebAct">
+      <p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p>
+      <div class="footer-links">
+        <a href="design.html">Design</a>
+        <a href="digital-ads.html">Digital Ads</a>
+        <a href="marketing.html">Marketing</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="addons.html">Add-ons</a>
+      </div>
+    </footer>
+    <script src="../js/script.js?v=reviews-layout-fix"></script>
+<script id="webact-promodo-header-script">
+(function(){
+  document.querySelectorAll('[data-webact-promodo-header]').forEach(function(header){
+    var toggle=header.querySelector('[data-webact-menu-toggle]');
+    if(toggle){toggle.addEventListener('click',function(){var open=header.classList.toggle('webact-nav-open');toggle.setAttribute('aria-expanded',open?'true':'false');});}
+    header.querySelectorAll('[data-webact-dropdown]').forEach(function(btn){
+      btn.addEventListener('click',function(e){
+        if(window.matchMedia('(max-width:1060px)').matches){
+          e.preventDefault();
+          var item=btn.closest('.webact-promodo-nav-item');
+          if(item){item.classList.toggle('webact-open');btn.setAttribute('aria-expanded',item.classList.contains('webact-open')?'true':'false');}
+        }
+      });
+    });
+    var search=header.querySelector('[data-webact-search-open]');
+    var close=header.querySelector('[data-webact-search-close]');
+    if(search){search.addEventListener('click',function(){document.body.classList.add('webact-search-open');var input=header.querySelector('.webact-search-row input');if(input){setTimeout(function(){input.focus();},50);}});}
+    if(close){close.addEventListener('click',function(){document.body.classList.remove('webact-search-open');});}
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.body.classList.remove('webact-search-open');}});
+})();
+</script>
+
+<script src="../js/webact-promodo-nav.js" defer></script>
+</body>
+</html>
+
+
+
+
