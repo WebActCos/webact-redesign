@@ -4942,3 +4942,583 @@ body{
     display:grid;
   }
 }
+
+/* ===========================================
+   WebAct Marketing System - Shared Marketing Page Components
+   Used by marketing hub and future marketing service pages.
+=========================================== */
+
+/* Marketing hub hero */
+body:not(.wa-homepage) .page-hero{
+  position:relative;
+  overflow:hidden;
+  min-height:620px;
+  grid-template-columns:minmax(0,1fr) minmax(340px,.55fr);
+  gap:56px;
+  padding-top:92px;
+  padding-bottom:92px;
+  background:
+    radial-gradient(circle at 14% 18%,rgba(48,174,233,.32),transparent 28%),
+    radial-gradient(circle at 92% 88%,rgba(123,215,197,.16),transparent 30%),
+    linear-gradient(112deg,rgba(6,17,29,.98),rgba(6,17,29,.78)),
+    url("assets/team-work.jpg") center / cover;
+}
+
+body:not(.wa-homepage) .page-hero::after{
+  content:"";
+  position:absolute;
+  inset:auto 56px 42px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(48,174,233,.45),transparent);
+  pointer-events:none;
+}
+
+body:not(.wa-homepage) .page-hero > div{
+  position:relative;
+  z-index:2;
+  max-width:920px;
+}
+
+body:not(.wa-homepage) .page-hero h1{
+  max-width:960px;
+  font-size:clamp(46px,6vw,78px);
+  line-height:.94;
+  letter-spacing:-.045em;
+}
+
+body:not(.wa-homepage) .page-hero .hero-lede{
+  max-width:820px;
+  color:#e0edf7;
+  font-size:20px;
+  line-height:1.7;
+}
+
+body:not(.wa-homepage) .page-hero > img{
+  position:relative;
+  z-index:2;
+  width:100%;
+  max-height:430px;
+  padding:34px;
+  border:1px solid rgba(255,255,255,.22);
+  border-radius:28px;
+  background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(244,248,251,.9));
+  box-shadow:0 28px 80px rgba(0,0,0,.28);
+}
+
+body:not(.wa-homepage) .breadcrumb{
+  color:#c8d9e7;
+}
+
+body:not(.wa-homepage) .breadcrumb a{
+  color:#8edcff;
+}
+
+body:not(.wa-homepage) .page-hero .button{
+  min-height:56px;
+  border-radius:999px;
+  padding-left:24px;
+  padding-right:24px;
+}
+
+body:not(.wa-homepage) .page-hero .button.secondary{
+  background:rgba(255,255,255,.1);
+  border-color:rgba(255,255,255,.32);
+  color:#fff;
+}
+
+/* Marketing intro / quick links */
+.website-design-intro{
+  position:relative;
+  display:grid;
+  gap:42px;
+  padding-top:84px;
+  padding-bottom:84px;
+  background:#ffffff;
+}
+
+.website-design-intro::before{
+  content:"";
+  position:absolute;
+  inset:0 auto auto 50%;
+  width:min(1120px,86vw);
+  height:1px;
+  transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,rgba(48,174,233,.28),transparent);
+}
+
+.service-link-row{
+  justify-content:center;
+  gap:12px;
+}
+
+.service-link-row a{
+  min-height:46px;
+  padding:11px 16px;
+  border-radius:999px;
+  background:#f7fbfe;
+  border-color:#dce8f1;
+  color:#27364a;
+  transition:transform .2s ease,background .2s ease,border-color .2s ease,color .2s ease;
+}
+
+.service-link-row a:hover{
+  transform:translateY(-2px);
+  border-color:var(--blue);
+  background:var(--blue);
+  color:#06111d;
+}
+
+.website-design-copy{
+  max-width:1120px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.website-design-copy h2{
+  max-width:980px;
+  margin:0 auto;
+  font-size:clamp(36px,5vw,62px);
+  line-height:1;
+  letter-spacing:-.045em;
+}
+
+.website-design-copy p:not(.eyebrow){
+  max-width:920px;
+  margin:20px auto 0;
+  color:var(--slate);
+  font-size:19px;
+  line-height:1.78;
+}
+
+/* Marketing service cards */
+.website-benefits-section,
+.page-section,
+.process-section,
+.faq-section{
+  position:relative;
+}
+
+.website-benefits-section{
+  background:linear-gradient(180deg,#f8fbfd 0%,#eef6fb 100%);
+}
+
+.page-section{
+  background:#ffffff;
+}
+
+.section-heading{
+  max-width:1040px;
+}
+
+.section-heading h2{
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  letter-spacing:-.04em;
+}
+
+.section-heading > p{
+  max-width:920px;
+  line-height:1.72;
+}
+
+.page-card-grid{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:20px;
+}
+
+.page-card{
+  position:relative;
+  display:grid;
+  gap:12px;
+  align-content:start;
+  min-height:260px;
+  padding:30px;
+  border-color:#dce8f1;
+  border-radius:24px;
+  background:linear-gradient(180deg,#ffffff 0%,#f7fbfe 100%);
+  box-shadow:0 14px 34px rgba(6,17,29,.06);
+  transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease,background .22s ease;
+}
+
+.page-card::before{
+  content:"";
+  display:block;
+  width:44px;
+  height:5px;
+  margin-bottom:10px;
+  border-radius:999px;
+  background:var(--blue);
+}
+
+.page-card:hover{
+  transform:translateY(-5px);
+  border-color:#b9ddeb;
+  background:#fff;
+  box-shadow:0 22px 48px rgba(6,17,29,.12);
+}
+
+.page-card h3{
+  margin:0;
+  color:#071421;
+  font-size:24px;
+  letter-spacing:-.015em;
+}
+
+.page-card p{
+  margin:0;
+  color:#647386;
+  font-size:16px;
+  line-height:1.72;
+}
+
+.page-card a{
+  align-self:end;
+  margin-top:10px;
+  color:#0878b8;
+  font-weight:950;
+}
+
+.page-card a::after{
+  content:" →";
+}
+
+/* Dark connected strategy CTA bands */
+.website-solutions-band{
+  position:relative;
+  overflow:hidden;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:42px;
+  padding-top:88px;
+  padding-bottom:88px;
+  background:
+    radial-gradient(circle at 12% 20%,rgba(48,174,233,.28),transparent 30%),
+    radial-gradient(circle at 90% 80%,rgba(123,215,197,.14),transparent 32%),
+    linear-gradient(115deg,#06111d 0%,#0b1a2a 100%);
+}
+
+.website-solutions-band h2{
+  max-width:900px;
+  font-size:clamp(36px,5vw,62px);
+  line-height:1;
+  letter-spacing:-.045em;
+}
+
+.website-solutions-band p:not(.eyebrow){
+  max-width:840px;
+  color:#d5e2ee;
+  font-size:18px;
+  line-height:1.75;
+}
+
+.website-solutions-band .button{
+  min-height:56px;
+  border-radius:999px;
+  padding-left:24px;
+  padding-right:24px;
+}
+
+.website-solutions-band .button.primary{
+  color:#06111d;
+  background:var(--blue);
+  border-color:var(--blue);
+}
+
+.website-solutions-band .button.secondary{
+  color:#ffffff;
+  background:rgba(255,255,255,.08);
+  border-color:rgba(255,255,255,.28);
+}
+
+/* Benefit cards with lists */
+.benefit-grid{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:20px;
+}
+
+.benefit-grid article{
+  position:relative;
+  min-height:320px;
+  padding:30px;
+  border-color:#dce8f1;
+  border-radius:24px;
+  background:#fff;
+  box-shadow:0 14px 34px rgba(6,17,29,.06);
+  transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;
+}
+
+.benefit-grid article:hover{
+  transform:translateY(-5px);
+  border-color:#b9ddeb;
+  box-shadow:0 22px 48px rgba(6,17,29,.12);
+}
+
+.benefit-grid span{
+  width:46px;
+  height:6px;
+  margin-bottom:24px;
+}
+
+.benefit-grid h3{
+  font-size:24px;
+  letter-spacing:-.015em;
+}
+
+.benefit-grid p{
+  color:#647386;
+  line-height:1.72;
+}
+
+.benefit-grid ul{
+  gap:10px;
+  margin-top:20px;
+  padding-left:0;
+  list-style:none;
+}
+
+.benefit-grid li{
+  position:relative;
+  padding-left:26px;
+  color:#27364a;
+  font-weight:800;
+}
+
+.benefit-grid li::before{
+  content:"✓";
+  position:absolute;
+  left:0;
+  top:0;
+  color:#0878b8;
+  font-weight:950;
+}
+
+/* Marketing process */
+.process-section{
+  background:linear-gradient(180deg,#ffffff 0%,#f8fbfd 100%);
+}
+
+.process-timeline-grid{
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:18px;
+}
+
+.process-timeline-grid article{
+  min-height:280px;
+  padding:26px;
+  border-color:#dce8f1;
+  border-radius:24px;
+  background:#ffffff;
+  box-shadow:0 14px 34px rgba(6,17,29,.06);
+  transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;
+}
+
+.process-timeline-grid article:hover{
+  transform:translateY(-5px);
+  border-color:#b9ddeb;
+  box-shadow:0 22px 48px rgba(6,17,29,.12);
+}
+
+.process-timeline-grid strong{
+  width:52px;
+  height:52px;
+  border-radius:16px;
+  background:#071927;
+  color:#30aee9;
+  font-size:16px;
+}
+
+.process-timeline-grid h3{
+  font-size:23px;
+}
+
+.process-timeline-grid p{
+  color:#647386;
+  line-height:1.68;
+}
+
+/* Marketing support section */
+.website-testimonial-section{
+  align-items:center;
+  gap:48px;
+  padding-top:88px;
+  padding-bottom:88px;
+  background:
+    radial-gradient(circle at 92% 12%,rgba(48,174,233,.1),transparent 34%),
+    #ffffff;
+}
+
+.website-testimonial-section h2{
+  max-width:760px;
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  letter-spacing:-.04em;
+}
+
+.website-testimonial-section p:not(.eyebrow){
+  max-width:780px;
+  color:#27364a;
+  font-size:18px;
+  line-height:1.76;
+}
+
+.detail-list{
+  gap:12px;
+  padding:26px;
+  border-color:#dce8f1;
+  border-radius:24px;
+  background:#f8fbfd;
+  box-shadow:0 14px 34px rgba(6,17,29,.06);
+}
+
+.detail-list span{
+  position:relative;
+  min-height:54px;
+  padding:14px 16px 14px 44px;
+  border:1px solid #dce8f1;
+  border-radius:16px;
+  color:#27364a;
+}
+
+.detail-list span::before{
+  content:"✓";
+  position:absolute;
+  left:16px;
+  color:#0878b8;
+  font-weight:950;
+}
+
+/* FAQs */
+.faq-section{
+  background:linear-gradient(180deg,#f8fbfd 0%,#eef6fb 100%);
+}
+
+.faq-accordion{
+  max-width:1120px;
+  gap:14px;
+}
+
+.faq-accordion details{
+  border-color:#dce8f1;
+  border-radius:20px;
+  box-shadow:0 12px 30px rgba(6,17,29,.06);
+}
+
+.faq-accordion summary{
+  min-height:72px;
+  padding:22px 26px;
+  font-size:19px;
+}
+
+.faq-accordion summary::after{
+  width:34px;
+  height:34px;
+  background:#e8f6fc;
+}
+
+.faq-accordion details p{
+  padding:0 26px 26px;
+  color:#27364a;
+  font-size:17px;
+  line-height:1.75;
+}
+
+/* Button contrast cleanup for marketing pages */
+body:not(.wa-homepage) .button.primary:hover,
+.website-solutions-band .button.primary:hover{
+  background:#54bdf0;
+  border-color:#54bdf0;
+  transform:translateY(-2px);
+}
+
+body:not(.wa-homepage) .button.secondary:hover,
+.website-solutions-band .button.secondary:hover{
+  background:#ffffff;
+  color:#06111d;
+  border-color:#ffffff;
+  transform:translateY(-2px);
+}
+
+/* Marketing system responsive */
+@media(max-width:1180px){
+  body:not(.wa-homepage) .page-hero,
+  .website-solutions-band,
+  .website-testimonial-section{
+    grid-template-columns:1fr;
+  }
+
+  body:not(.wa-homepage) .page-hero > img{
+    max-width:620px;
+  }
+
+  .page-card-grid,
+  .benefit-grid,
+  .process-timeline-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
+  .website-solutions-band .hero-actions{
+    justify-content:flex-start;
+  }
+}
+
+@media(max-width:760px){
+  body:not(.wa-homepage) .page-hero{
+    min-height:auto;
+    padding-top:58px;
+    padding-bottom:58px;
+  }
+
+  body:not(.wa-homepage) .page-hero h1{
+    font-size:42px;
+  }
+
+  body:not(.wa-homepage) .page-hero > img{
+    padding:22px;
+    border-radius:22px;
+  }
+
+  .website-design-intro,
+  .website-benefits-section,
+  .page-section,
+  .process-section,
+  .website-testimonial-section,
+  .faq-section,
+  .website-solutions-band{
+    padding-top:62px;
+    padding-bottom:62px;
+  }
+
+  .website-design-copy h2,
+  .section-heading h2,
+  .website-solutions-band h2,
+  .website-testimonial-section h2{
+    font-size:34px;
+  }
+
+  .page-card-grid,
+  .benefit-grid,
+  .process-timeline-grid{
+    grid-template-columns:1fr;
+  }
+
+  .page-card,
+  .benefit-grid article,
+  .process-timeline-grid article{
+    min-height:auto;
+    padding:24px;
+  }
+
+  .service-link-row a{
+    width:100%;
+    justify-content:center;
+  }
+
+  .website-solutions-band .hero-actions,
+  body:not(.wa-homepage) .page-hero .hero-actions{
+    display:grid;
+  }
+
+  .website-solutions-band .button,
+  body:not(.wa-homepage) .page-hero .button{
+    width:100%;
+  }
+}
