@@ -40,9 +40,11 @@ body.webact-search-open .webact-search-overlay{display:flex}
 @media (max-width:1060px){.webact-promodo-inner{flex-wrap:wrap}.webact-promodo-menu-toggle{display:flex}.webact-promodo-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e5edf5;padding-top:12px}.webact-promodo-header.webact-nav-open .webact-promodo-nav{display:block}.webact-promodo-nav-list{display:block}.webact-promodo-nav-item{border-bottom:1px solid #edf3f7}.webact-promodo-nav-link,.webact-promodo-drop-trigger{width:100%;justify-content:space-between;padding:15px 2px;font-size:16px}.webact-promodo-menu{position:static;box-shadow:none;border:0;border-radius:0;padding:0 0 12px 12px;grid-template-columns:1fr}.webact-promodo-nav-item .webact-promodo-menu{display:none}.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}.webact-promodo-actions{margin-left:auto}.webact-promodo-search{font-size:0}.webact-promodo-search:before{content:'Search';font-size:15px}.webact-promodo-cta{padding:13px 16px}}
 @media (max-width:640px){.webact-promodo-topbar{font-size:12px}.webact-promodo-topbar a{display:inline-block;margin-left:10px}.webact-promodo-logo img{width:160px;max-width:52vw}.webact-promodo-inner{padding:14px}.webact-promodo-actions{width:100%;justify-content:space-between;order:3}.webact-promodo-cta{flex:1}.webact-search-overlay{padding-top:90px}.webact-search-row{flex-direction:column}}
 </style>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/navigation.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/navigation.css">
+<link rel="stylesheet" href="../css/footer.css">
+
 </head>
   <body>
 <header class="wa-promodo-header" data-wa-nav>
@@ -209,62 +211,7 @@ body.webact-search-open .webact-search-overlay{display:flex}
       title="WebAct interactive website templates"
       loading="eager"></iframe>
   </div>
-  <script>
-    window.addEventListener("message", function(event) {
-      var frame = document.querySelector(".interactive-template-frame");
-      if (!frame) return;
-      if (!event.data) return;
-      if (event.data.type === "webact-template-height") {
-        var height = Math.max(900, Math.min(Number(event.data.height || 0) + 40, 40000));
-        frame.style.height = height + "px";
-      }
-      if (event.data.type === "webact-template-modal-open") {
-        frame.classList.add("webact-template-modal-active");
-        document.body.classList.add("webact-template-modal-open");
-      }
-      if (event.data.type === "webact-template-modal-close") {
-        frame.classList.remove("webact-template-modal-active");
-        document.body.classList.remove("webact-template-modal-open");
-      }
-    });
-  </script>
-</section>
-<section class="section publish-section">
-  <div>
-    <p class="eyebrow">Publishing</p>
-    <h2>Build first, go live when you are ready.</h2>
-    <p>Any work you do is saved automatically. When the site is ready, use the Publish button in the builder to choose hosting and finish the domain connection.</p>
-  </div>
-  <div class="publish-grid">
-    <article><h3>Hosting Plan</h3><p>Publishing starts by selecting the right WebAct hosting plan for the finished website.</p><a href="pricing-design.html">View design pricing</a></article>
-    <article><h3>Domain Connection</h3><p>WebAct can help connect an existing domain or point a new domain to the right servers.</p><a href="addons-domain-names.html">View domains</a></article>
-    <article><h3>Dashboard Access</h3><p>Keep editing the website later by logging back into the WebAct dashboard.</p><a href="https://website.webact.com" target="_blank" rel="noreferrer">Open dashboard</a></article>
-  </div>
-</section>
-<section class="section editor-builder-section professional-support-section">
-  <div class="builder-copy">
-    <p class="eyebrow">Advanced Editing</p>
-    <h2>More control than the simple editor.</h2>
-    <p>The professional editor is for businesses that want richer templates, deeper layout control, reusable content sections, and the option to pair internal editing with WebAct's design and support team.</p>
-  </div>
-  <div class="detail-list">
-    <span>Advanced layouts</span><span>Reusable sections</span><span>Import by URL</span><span>Saved dashboard access</span><span>Hosting path</span><span>Domain support</span>
-  </div>
-</section>
-<section class="section page-section"><div class="section-heading compact"><p class="eyebrow">Related pages</p><h2>More in Design</h2></div><div class="page-card-grid"><article class="page-card"><h3>Simple Editor</h3><p>Begin with the simpler starter editor flow.</p><a href="design-simple-editor.html">View page</a></article><article class="page-card"><h3>Website Design</h3><p>Work with WebAct on a professionally designed site.</p><a href="design-website-design.html">View page</a></article><article class="page-card"><h3>Design Pricing</h3><p>Compare design and publishing options.</p><a href="pricing-design.html">View page</a></article><article class="page-card"><h3>Domain Names</h3><p>Connect or register the domain for launch.</p><a href="addons-domain-names.html">View page</a></article></div></section></main>
-    <footer class="site-footer">
-      <img src="../images/logo.png" alt="WebAct">
-      <p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p>
-      <div class="footer-links">
-        <a href="design.html">Design</a>
-        <a href="digital-ads.html">Digital Ads</a>
-        <a href="marketing.html">Marketing</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="addons.html">Add-ons</a>
-      </div>
-    </footer>
-    <script src="../js/script.js"></script>
-<script id="webact-promodo-header-script">
+  <script id="webact-promodo-header-script">
 (function(){
   document.querySelectorAll('[data-webact-promodo-header]').forEach(function(header){
     var toggle=header.querySelector('[data-webact-menu-toggle]');
@@ -288,8 +235,19 @@ body.webact-search-open .webact-search-overlay{display:flex}
 </script>
 
 <script src="../js/webact-promodo-nav.js" defer></script>
+
+<script src="../js/script.js"></script>
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <p>&copy; WebAct. All rights reserved.</p>
+    </div>
+</footer>
 </body>
 </html>
+
+
+
 
 
 

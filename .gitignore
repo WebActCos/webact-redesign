@@ -7,3 +7,7 @@ backup-before-*
 # Local audit reports
 broken-links-audit*.csv
 project-audit.csv
+
+# Local automation reports
+template-audit*.csv
+automation-exclude.txt
