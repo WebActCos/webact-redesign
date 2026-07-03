@@ -11,3 +11,6 @@ project-audit.csv
 # Local automation reports
 template-audit*.csv
 automation-exclude.txt
+
+# Local header/footer audit reports
+header-*-issues.csv
