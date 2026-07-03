@@ -1,92 +1,59 @@
-const toggle = document.querySelector(".menu-toggle");
-const nav = document.querySelector(".primary-nav");
-const desktopNav = window.matchMedia("(min-width: 861px)");
-const siteHeader = document.querySelector(".site-header");
+/* WebAct Promodo Header */
+document.querySelectorAll("[data-wa-nav]").forEach((header) => {
+  const toggle = header.querySelector("[data-wa-menu-toggle]");
+  const menu = header.querySelector("[data-wa-menu]");
+  const desktop = window.matchMedia("(min-width: 1061px)");
 
-if (siteHeader) {
-  const syncHeaderScroll = () => {
-    siteHeader.classList.toggle("is-scrolled", window.scrollY > 4);
-  };
+  if (toggle && menu) {
+    toggle.addEventListener("click", () => {
+      const isOpen = header.classList.toggle("wa-nav-open");
+      toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+  }
 
-  syncHeaderScroll();
-  window.addEventListener("scroll", syncHeaderScroll, { passive: true });
-}
+  header.querySelectorAll(".wa-promodo-item").forEach((item) => {
+    const trigger = item.querySelector(".wa-promodo-link");
+    if (!trigger) return;
 
-function closeDesktopMenus(exceptItem = null) {
-  document.querySelectorAll(".primary-nav .nav-item.is-open").forEach((item) => {
-    if (item === exceptItem) return;
-    item.classList.remove("is-open");
-    item.querySelector(":scope > a")?.setAttribute("aria-expanded", "false");
-  });
-}
+    const closeAll = () => {
+      header.querySelectorAll(".wa-promodo-item.wa-open").forEach((openItem) => {
+        if (openItem === item) return;
+        openItem.classList.remove("wa-open");
+        openItem.querySelector(".wa-promodo-link")?.setAttribute("aria-expanded", "false");
+      });
+    };
 
-if (toggle && nav) {
-  toggle.addEventListener("click", () => {
-    const isOpen = nav.classList.toggle("open");
-    toggle.setAttribute("aria-expanded", String(isOpen));
-  });
+    item.addEventListener("mouseenter", () => {
+      if (!desktop.matches) return;
+      closeAll();
+      item.classList.add("wa-open");
+      trigger.setAttribute("aria-expanded", "true");
+    });
 
-  document.querySelectorAll(".primary-nav a").forEach((link) => {
-    link.addEventListener("click", () => {
-      if (desktopNav.matches) return;
-      nav.classList.remove("open");
-      toggle.setAttribute("aria-expanded", "false");
+    item.addEventListener("mouseleave", () => {
+      if (!desktop.matches) return;
+      item.classList.remove("wa-open");
+      trigger.setAttribute("aria-expanded", "false");
+    });
+
+    trigger.addEventListener("click", (e) => {
+      if (desktop.matches) return;
+      e.preventDefault();
+      const isOpen = item.classList.toggle("wa-open");
+      trigger.setAttribute("aria-expanded", String(isOpen));
     });
   });
-}
 
-document.querySelectorAll(".primary-nav .nav-item").forEach((item) => {
-  const trigger = item.querySelector(":scope > a");
-  if (!trigger) return;
-
-  trigger.setAttribute("aria-haspopup", "true");
-  trigger.setAttribute("aria-expanded", "false");
-
-  let closeTimer;
-  const openMenu = () => {
-    if (!desktopNav.matches) return;
-    window.clearTimeout(closeTimer);
-    closeDesktopMenus(item);
-    item.classList.add("is-open");
-    trigger.setAttribute("aria-expanded", "true");
-  };
-  const queueClose = () => {
-    if (!desktopNav.matches) return;
-    window.clearTimeout(closeTimer);
-    closeTimer = window.setTimeout(() => closeDesktopMenus(), 120);
-  };
-
-  item.addEventListener("pointerenter", openMenu);
-  item.addEventListener("pointerleave", queueClose);
-  item.addEventListener("focusin", openMenu);
-  item.addEventListener("focusout", (event) => {
-    if (item.contains(event.relatedTarget)) return;
-    queueClose();
-  });
-
-  trigger.addEventListener("click", (event) => {
-    if (!desktopNav.matches) return;
-    if (!item.classList.contains("is-open")) {
-      event.preventDefault();
-      openMenu();
-    }
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    header.classList.remove("wa-nav-open");
+    header.querySelectorAll(".wa-promodo-item.wa-open").forEach((item) => {
+      item.classList.remove("wa-open");
+      item.querySelector(".wa-promodo-link")?.setAttribute("aria-expanded", "false");
+    });
   });
 });
 
-document.addEventListener("click", (event) => {
-  if (!desktopNav.matches) return;
-  if (event.target.closest(".primary-nav")) return;
-  closeDesktopMenus();
-});
-
-document.addEventListener("keydown", (event) => {
-  if (event.key !== "Escape") return;
-  closeDesktopMenus();
-});
-
-desktopNav.addEventListener("change", () => {
-  closeDesktopMenus();
-});
 
 document.querySelectorAll("[data-google-review-rotator]").forEach((rotator) => {
   const minRating = Number(rotator.dataset.minRating || 5);
@@ -774,5 +741,6 @@ document.querySelectorAll(".professional-template-widget[data-template-feed]").f
     if (fallback) fallback.hidden = false;
   }
 });
+
 
 
