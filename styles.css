@@ -4184,9 +4184,9 @@ body.webact-template-modal-open {
 }
 
 /* ===========================================
-   Homepage 2.4 - WebAct Homepage Final Polish
-   Supports webact_square growth image, Everything You Need CTAs,
-   and the redesigned Featured Results portfolio preview.
+   Homepage 2.5 - Final Homepage Section Polish
+   Supports centered growth services, removed home-choice section,
+   redesigned featured results, redesigned Google reviews, and final CTA.
 =========================================== */
 
 .wa-global-footer{
@@ -4274,117 +4274,110 @@ body{
   border-radius:14px;
 }
 
-/* Growth services image area using Resources/images/webact_square.png */
-.home-services{
+/* Connected Growth Services - centered, full-width, no image */
+.home-services,
+.home-services-centered{
   position:relative;
-  gap:46px 58px;
-  align-items:center;
+  display:block;
   overflow:hidden;
+  padding-top:96px;
+  padding-bottom:104px;
   background:
-    radial-gradient(circle at 8% 12%, rgba(48,174,233,.08), transparent 28%),
+    radial-gradient(circle at 12% 8%, rgba(48,174,233,.10), transparent 28%),
+    radial-gradient(circle at 88% 92%, rgba(123,215,197,.10), transparent 30%),
     linear-gradient(180deg,#ffffff 0%,#f8fbfd 100%);
 }
 
-.home-services::before{
+.home-services::before,
+.home-services-centered::before{
   content:"";
   position:absolute;
-  inset:auto -120px 34px auto;
-  width:420px;
-  height:420px;
-  border-radius:50%;
-  background:radial-gradient(circle, rgba(48,174,233,.14), transparent 66%);
+  inset:38px auto auto 50%;
+  width:min(900px,82vw);
+  height:1px;
+  transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,rgba(48,174,233,.32),transparent);
   pointer-events:none;
+}
+
+.home-services .section-heading,
+.home-services-centered .section-heading{
+  max-width:980px;
+  margin:0 auto 42px;
+  text-align:center;
+}
+
+.home-services .section-heading h2,
+.home-services-centered .section-heading h2{
+  font-size:clamp(38px,5vw,64px);
+  line-height:1;
+  letter-spacing:-.045em;
+}
+
+.home-services .section-heading > p,
+.home-services-centered .section-heading > p{
+  max-width:840px;
+  margin-left:auto;
+  margin-right:auto;
+  color:var(--slate);
 }
 
 .home-services-media{
-  position:relative;
-  min-height:520px;
-  display:grid;
-  place-items:center;
-  padding:34px;
-  border:1px solid #dce8f1;
-  border-radius:30px;
-  background:
-    radial-gradient(circle at 18% 18%, rgba(48,174,233,.22), transparent 30%),
-    linear-gradient(145deg,#071927 0%,#0d344d 100%);
-  box-shadow:0 24px 70px rgba(6,17,29,.18);
-  isolation:isolate;
-}
-
-.home-services-media::before{
-  content:"Connected WebAct Services";
-  position:absolute;
-  top:28px;
-  left:28px;
-  z-index:3;
-  display:inline-flex;
-  align-items:center;
-  min-height:34px;
-  padding:0 13px;
-  border-radius:999px;
-  background:rgba(255,255,255,.12);
-  border:1px solid rgba(255,255,255,.22);
-  color:#e8f7ff;
-  font-size:12px;
-  font-weight:950;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-}
-
-.home-services-media::after{
-  content:"";
-  position:absolute;
-  right:28px;
-  bottom:28px;
-  z-index:1;
-  width:160px;
-  height:160px;
-  border-radius:50%;
-  background:radial-gradient(circle, rgba(123,215,197,.22), transparent 68%);
-  pointer-events:none;
-}
-
-.home-services-media img{
-  position:relative;
-  z-index:2;
-  width:min(100%,520px);
-  max-height:450px;
-  margin:auto;
-  padding:0;
-  border-radius:26px;
-  background:transparent;
-  box-shadow:
-    0 28px 65px rgba(0,0,0,.28),
-    0 0 0 1px rgba(255,255,255,.16);
-  filter:none;
-  opacity:1;
-  object-fit:contain;
+  display:none !important;
 }
 
 .home-service-list{
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:14px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:18px;
+  max-width:1180px;
+  margin:0 auto;
 }
 
 .home-service-list a{
-  min-height:138px;
-  padding:22px;
-  border-radius:18px;
+  position:relative;
+  min-height:176px;
+  display:grid;
+  align-content:start;
+  gap:10px;
+  padding:30px;
+  border:1px solid #dce8f1;
+  border-radius:24px;
+  background:linear-gradient(180deg,#ffffff 0%,#f7fbfe 100%);
+  box-shadow:0 14px 34px rgba(6,17,29,.06);
   transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease, background .22s ease;
 }
 
+.home-service-list a::before{
+  content:"";
+  display:block;
+  width:42px;
+  height:5px;
+  margin-bottom:12px;
+  border-radius:999px;
+  background:var(--blue);
+}
+
 .home-service-list a:hover{
-  transform:translateY(-4px);
-  box-shadow:0 16px 38px rgba(6,17,29,.1);
+  transform:translateY(-5px);
   border-color:#b9ddeb;
   background:#fff;
+  box-shadow:0 22px 48px rgba(6,17,29,.12);
 }
 
 .home-service-list strong{
-  font-size:21px;
+  color:#071421;
+  font-size:22px;
+  line-height:1.15;
 }
 
-/* Shared section action buttons */
+.home-service-list span{
+  color:#647386;
+  font-size:16px;
+  line-height:1.65;
+}
+
+/* Shared action buttons */
 .section-actions{
   margin-top:26px;
 }
@@ -4404,6 +4397,10 @@ body{
   background:rgba(255,255,255,.08);
 }
 
+.home-growth .section-actions{
+  justify-content:center;
+}
+
 .home-growth .section-actions .button.secondary{
   border-color:#c9d9e5;
   color:#071421;
@@ -4418,13 +4415,11 @@ body{
 }
 
 .home-growth .section-heading,
-.home-choice .section-heading,
 .home-process .section-heading{
   max-width:980px;
 }
 
 .home-growth .section-heading h2,
-.home-choice .section-heading h2,
 .home-process .section-heading h2{
   font-size:clamp(38px,5vw,62px);
   line-height:1;
@@ -4483,38 +4478,9 @@ body{
   line-height:1.7;
 }
 
-/* Why choose WebAct */
+/* Remove any leftover home-choice styling from previous homepage versions */
 .home-choice{
-  background:
-    radial-gradient(circle at 8% 15%, rgba(48,174,233,.16), transparent 34%),
-    linear-gradient(180deg,#071927 0%,#0b1a2a 100%);
-  color:#fff;
-}
-
-.home-choice .section-heading > p{
-  color:#c6d9e8;
-}
-
-.home-choice .growth-grid{
-  grid-template-columns:repeat(4,minmax(0,1fr));
-}
-
-.home-choice .growth-grid article{
-  background:rgba(255,255,255,.08);
-  border-color:rgba(255,255,255,.13);
-  box-shadow:none;
-}
-
-.home-choice .growth-grid article::before{
-  background:#7bd7c5;
-}
-
-.home-choice .growth-grid h3{
-  color:#fff;
-}
-
-.home-choice .growth-grid p{
-  color:#c7d7e5;
+  display:none !important;
 }
 
 /* Featured results redesigned as visual portfolio preview */
@@ -4654,29 +4620,200 @@ body{
 .home-process .growth-grid article:nth-child(4)::before{content:"04";}
 .home-process .growth-grid article:nth-child(5)::before{content:"05";}
 
-/* Google reviews */
-.google-review-band{
-  gap:42px;
-  padding-top:90px;
-  padding-bottom:90px;
+/* Google reviews redesigned - keeps original review cards and JS behavior intact */
+.google-review-band,
+.google-review-redesign{
+  position:relative;
+  display:grid;
+  grid-template-columns:minmax(0,.92fr) minmax(420px,1fr);
+  gap:54px;
+  align-items:center;
+  padding-top:104px;
+  padding-bottom:104px;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 14% 18%, rgba(48,174,233,.13), transparent 34%),
+    radial-gradient(circle at 92% 88%, rgba(123,215,197,.12), transparent 32%),
+    linear-gradient(180deg,#f8fbfd 0%,#ffffff 100%);
+}
+
+.google-review-redesign::before{
+  content:"";
+  position:absolute;
+  inset:44px 56px auto;
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(48,174,233,.38),transparent);
+  pointer-events:none;
+}
+
+.google-review-copy{
+  position:relative;
+  display:grid;
+  gap:16px;
+  align-content:center;
+}
+
+.google-review-copy .eyebrow{
+  color:var(--blue-dark);
+}
+
+.google-review-copy h2{
+  max-width:780px;
+  font-size:clamp(38px,5vw,66px);
+  line-height:.98;
+  letter-spacing:-.045em;
+}
+
+.google-review-copy > p{
+  max-width:720px;
+  color:var(--slate);
+  font-size:19px;
+  line-height:1.7;
+}
+
+.google-review-highlights{
+  display:grid;
+  gap:10px;
+  margin-top:12px;
+}
+
+.google-review-highlights span{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  width:fit-content;
+  max-width:100%;
+  min-height:44px;
+  padding:10px 14px;
+  border:1px solid #dce8f1;
+  border-radius:999px;
+  background:#fff;
+  color:#27364a;
+  font-weight:850;
+  box-shadow:0 10px 28px rgba(6,17,29,.05);
+}
+
+.google-review-highlights strong{
+  color:var(--blue-dark);
+}
+
+.google-review-redesign .section-actions{
+  margin-top:18px;
+}
+
+.google-review-redesign .section-actions .button.secondary{
+  border-color:#c9d9e5;
+  color:#071421;
+  background:#fff;
+}
+
+.google-review-widget{
+  position:relative;
+  min-height:0;
+}
+
+.google-review-widget::before{
+  content:"";
+  position:absolute;
+  inset:-22px;
+  border-radius:34px;
+  background:
+    linear-gradient(135deg,rgba(48,174,233,.12),rgba(123,215,197,.08)),
+    #ffffff;
+  border:1px solid #dce8f1;
+  box-shadow:0 24px 70px rgba(6,17,29,.12);
+  pointer-events:none;
+}
+
+.google-review-track{
+  position:relative;
+  z-index:2;
+  min-height:0;
 }
 
 .google-review-card{
-  min-height:360px;
-  border-radius:22px;
+  position:relative;
+  display:none;
+  align-content:space-between;
+  gap:24px;
+  min-height:430px;
+  padding:40px;
+  border:1px solid #dce8f1;
+  border-radius:28px;
+  background:#ffffff;
+  box-shadow:none;
+  opacity:0;
+  transform:translateX(18px);
+  pointer-events:none;
+  transition:opacity 240ms ease, transform 240ms ease;
+}
+
+.google-review-card.active{
+  display:grid;
+  opacity:1;
+  transform:translateX(0);
+  pointer-events:auto;
+}
+
+.google-review-stars{
+  color:#fbbc04;
+  font-size:28px;
+  letter-spacing:1px;
 }
 
 .google-review-card p{
-  font-size:18px;
+  margin:0;
+  color:#27364a;
+  font-size:20px;
+  font-weight:800;
   line-height:1.55;
 }
 
+.google-review-card strong,
+.google-review-card span{
+  display:block;
+}
+
+.google-review-card strong{
+  color:#071421;
+  font-size:20px;
+}
+
+.google-review-card span{
+  margin-top:4px;
+  color:#647386;
+  font-weight:750;
+}
+
+.google-review-controls{
+  position:relative;
+  z-index:3;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:12px;
+  margin-top:18px;
+}
+
 .google-review-controls button{
+  width:48px;
+  height:48px;
+  border:1px solid #c9d9e5;
+  border-radius:999px;
+  background:#fff;
+  color:#0878b8;
+  font-size:30px;
+  font-weight:900;
+  line-height:1;
+  cursor:pointer;
   transition:background .2s ease, color .2s ease, border-color .2s ease, transform .2s ease;
 }
 
 .google-review-controls button:hover{
   transform:translateY(-2px);
+  border-color:var(--blue);
+  background:var(--blue-dark);
+  color:#fff;
 }
 
 /* Final CTA */
@@ -4729,20 +4866,12 @@ body{
 
 /* Responsive homepage refinement */
 @media(max-width:1180px){
+  .home-service-list,
   .growth-grid,
-  .home-choice .growth-grid,
   .home-process .growth-grid,
   .result-grid,
   .featured-results-grid{
     grid-template-columns:repeat(2,minmax(0,1fr));
-  }
-
-  .home-service-list{
-    grid-template-columns:1fr;
-  }
-
-  .home-services-media{
-    min-height:460px;
   }
 }
 
@@ -4757,18 +4886,19 @@ body{
     justify-self:stretch;
   }
 
-  .home-services-media{
-    min-height:380px;
-    grid-row:auto;
-  }
-
-  .home-services-media img{
-    max-height:330px;
-  }
-
   .google-review-band,
+  .google-review-redesign,
   .home-final-cta{
     grid-template-columns:1fr;
+  }
+
+  .google-review-widget::before{
+    inset:-14px;
+  }
+
+  .google-review-card{
+    min-height:380px;
+    padding:30px;
   }
 
   .home-final-cta .hero-actions{
@@ -4786,42 +4916,28 @@ body{
     font-size:40px;
   }
 
+  .home-services,
+  .home-services-centered,
   .home-growth,
-  .home-choice,
   .home-process,
-  .remarkable-results{
+  .remarkable-results,
+  .google-review-band,
+  .google-review-redesign{
     padding-top:64px;
     padding-bottom:64px;
   }
 
+  .home-service-list,
   .growth-grid,
-  .home-choice .growth-grid,
   .home-process .growth-grid,
   .result-grid,
   .featured-results-grid{
     grid-template-columns:1fr;
   }
 
-  .home-services-media{
-    min-height:330px;
-    padding:18px;
-  }
-
-  .home-services-media::before{
-    top:18px;
-    left:18px;
-  }
-
-  .home-services-media::after{
-    width:120px;
-    height:120px;
-    right:18px;
-    bottom:18px;
-  }
-
-  .home-services-media img{
-    max-height:260px;
-    border-radius:20px;
+  .home-service-list a{
+    min-height:auto;
+    padding:24px;
   }
 
   .result-grid img,
@@ -4829,9 +4945,19 @@ body{
     height:210px;
   }
 
-  .google-review-band{
-    padding-top:56px;
-    padding-bottom:56px;
+  .google-review-highlights span{
+    width:100%;
+    align-items:flex-start;
+    border-radius:18px;
+  }
+
+  .google-review-card{
+    min-height:0;
+    padding:24px;
+  }
+
+  .google-review-card p{
+    font-size:17px;
   }
 
   .home-final-cta .hero-actions,
