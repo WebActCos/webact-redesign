@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Knowledge Base | WebAct</title>
+    <meta name="description" content="Support articles can teach customers how to edit, publish, manage pages, and use the website platform.">
+    <link rel="stylesheet" href="../css/styles.css">
+<style id="webact-promodo-header-style">
+.webact-promodo-header{position:sticky;top:0;z-index:9999;background:#fff;border-bottom:1px solid #e5edf5;font-family:Inter,Arial,sans-serif}
+.webact-promodo-topbar{background:#061421;color:#fff;font-weight:800;text-align:center;padding:12px 20px;font-size:14px;line-height:1.35}
+.webact-promodo-topbar a{color:#33aee7;text-decoration:none;margin-left:24px;white-space:nowrap}
+.webact-promodo-inner{max-width:1460px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:22px 28px;background:#fff}
+.webact-promodo-logo{display:inline-flex;align-items:center;flex:0 0 auto;text-decoration:none}
+.webact-promodo-logo img{width:230px;max-width:24vw;height:auto;display:block}
+.webact-promodo-nav{display:flex;align-items:center;gap:4px;flex:1}
+.webact-promodo-nav-list{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;width:100%}
+.webact-promodo-nav-item{position:relative}
+.webact-promodo-nav-link,.webact-promodo-drop-trigger{appearance:none;border:0;background:transparent;color:#071421;text-decoration:none;font-weight:850;font-size:16px;line-height:1.1;padding:14px 12px;border-radius:8px;display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;font-family:inherit}
+.webact-promodo-nav-link:hover,.webact-promodo-drop-trigger:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-chevron{border:solid currentColor;border-width:0 2px 2px 0;display:inline-block;padding:4px;transform:rotate(45deg);margin-top:-5px}
+.webact-promodo-menu{display:none;position:absolute;top:100%;left:0;min-width:310px;background:#fff;border:1px solid #dce8f1;box-shadow:0 24px 50px rgba(2,18,32,.14);padding:16px;border-radius:0 0 14px 14px;grid-template-columns:repeat(2,minmax(145px,1fr));gap:6px}
+.webact-promodo-menu a{color:#071421;text-decoration:none;padding:10px 12px;border-radius:8px;font-weight:700;font-size:14px;line-height:1.25}
+.webact-promodo-menu a:hover{background:#eaf7fc;color:#119fd7}
+.webact-promodo-nav-item:hover .webact-promodo-menu,.webact-promodo-nav-item:focus-within .webact-promodo-menu,.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}
+.webact-promodo-actions{display:flex;align-items:center;gap:14px;flex:0 0 auto}
+.webact-promodo-search{background:transparent;border:0;color:#071421;font-weight:850;font-size:16px;cursor:pointer;padding:12px;border-radius:8px;font-family:inherit}
+.webact-promodo-search:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-cta{background:#33abe1;color:#071421;text-decoration:none;font-weight:900;padding:18px 24px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;box-shadow:0 8px 18px rgba(51,171,225,.28)}
+.webact-promodo-cta:hover{background:#249ad0;color:#071421}
+.webact-promodo-menu-toggle{display:none;border:1px solid #cfe0eb;background:#fff;border-radius:8px;width:46px;height:42px;align-items:center;justify-content:center;gap:5px;flex-direction:column;cursor:pointer}
+.webact-promodo-menu-toggle span{width:22px;height:2px;background:#071421;display:block}
+body.webact-search-open .webact-search-overlay{display:flex}
+.webact-search-overlay{display:none;position:fixed;inset:0;z-index:10000;background:rgba(4,17,29,.62);align-items:flex-start;justify-content:center;padding:120px 20px 20px}
+.webact-search-panel{width:min(760px,100%);background:#fff;border-radius:14px;padding:24px;box-shadow:0 28px 70px rgba(0,0,0,.22)}
+.webact-search-row{display:flex;gap:10px}
+.webact-search-row input{flex:1;border:1px solid #cddce7;border-radius:8px;padding:14px 16px;font-size:16px}
+.webact-search-row button,.webact-search-close{border:0;border-radius:8px;padding:14px 18px;font-weight:850;cursor:pointer;font-family:inherit}
+.webact-search-row button{background:#33abe1;color:#071421}.webact-search-close{background:#f2f6f9;color:#071421}
+@media (max-width:1250px){.webact-promodo-inner{padding:18px 20px;gap:14px}.webact-promodo-logo img{width:190px}.webact-promodo-nav-link,.webact-promodo-drop-trigger{font-size:14px;padding:12px 8px}.webact-promodo-cta{padding:15px 18px}}
+@media (max-width:1060px){.webact-promodo-inner{flex-wrap:wrap}.webact-promodo-menu-toggle{display:flex}.webact-promodo-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e5edf5;padding-top:12px}.webact-promodo-header.webact-nav-open .webact-promodo-nav{display:block}.webact-promodo-nav-list{display:block}.webact-promodo-nav-item{border-bottom:1px solid #edf3f7}.webact-promodo-nav-link,.webact-promodo-drop-trigger{width:100%;justify-content:space-between;padding:15px 2px;font-size:16px}.webact-promodo-menu{position:static;box-shadow:none;border:0;border-radius:0;padding:0 0 12px 12px;grid-template-columns:1fr}.webact-promodo-nav-item .webact-promodo-menu{display:none}.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}.webact-promodo-actions{margin-left:auto}.webact-promodo-search{font-size:0}.webact-promodo-search:before{content:'Search';font-size:15px}.webact-promodo-cta{padding:13px 16px}}
+@media (max-width:640px){.webact-promodo-topbar{font-size:12px}.webact-promodo-topbar a{display:inline-block;margin-left:10px}.webact-promodo-logo img{width:160px;max-width:52vw}.webact-promodo-inner{padding:14px}.webact-promodo-actions{width:100%;justify-content:space-between;order:3}.webact-promodo-cta{flex:1}.webact-search-overlay{padding-top:90px}.webact-search-row{flex-direction:column}}
+</style>
+
+<link rel="stylesheet" href="../css/navigation.css">
+<link rel="stylesheet" href="../css/footer.css">
+</head>
+  <body>
+<header class="wa-promodo-header" data-wa-nav>
+  <nav class="wa-promodo-nav" aria-label="Main navigation">
+    <a class="wa-promodo-logo" href="../index.html" aria-label="WebAct home"><img src="../images/webact-logo.png" alt="WebAct"></a>
+    <ul class="wa-promodo-menu" data-wa-menu>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-design">Design</button>
+        <div class="wa-promodo-mega" id="wa-mega-design">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Design</p><h2 class="wa-promodo-mega-title">Design</h2><p class="wa-promodo-mega-text">Website, logo, graphics, and brand systems built for businesses that need a professional web presence.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="design-simple-editor.html">Simple Editor</a>
+              <a href="design-professional-editor.html">Professional Editor</a>
+              <a href="design-website-design.html">Website Design</a>
+              <a href="design-logo-design.html">Logo Design</a>
+              <a href="design-graphic-design.html">Graphic Design</a>
+              <a href="design-branding.html">Branding</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-digital-ads">Digital Ads</button>
+        <div class="wa-promodo-mega" id="wa-mega-digital-ads">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Digital Ads</p><h2 class="wa-promodo-mega-title">Digital Ads</h2><p class="wa-promodo-mega-text">Campaign services for search, social, local services, streaming TV, and retail advertising channels.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="digital-ads-google-advertising.html">Google Advertising</a>
+              <a href="digital-ads-local-services-advertising.html">Local Services Advertising</a>
+              <a href="digital-ads-microsoft-advertising.html">Microsoft Advertising</a>
+              <a href="digital-ads-social-media-advertising.html">Social Media Advertising</a>
+              <a href="digital-ads-amazon-advertising.html">Amazon Advertising</a>
+              <a href="digital-ads-television-advertising.html">Television Advertising</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-marketing">Marketing</button>
+        <div class="wa-promodo-mega" id="wa-mega-marketing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Marketing</p><h2 class="wa-promodo-mega-title">Marketing</h2><p class="wa-promodo-mega-text">SEO, local visibility, listings, business profiles, and email marketing support for steady growth.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="marketing-national-seo.html">National SEO</a>
+              <a href="marketing-local-seo.html">Local SEO</a>
+              <a href="marketing-aeo.html">AEO</a>
+              <a href="marketing-gmb.html">GMB</a>
+              <a href="marketing-local-listings.html">Local Listings</a>
+              <a href="marketing-email-marketing.html">Email Marketing</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-about">About</button>
+        <div class="wa-promodo-mega" id="wa-mega-about">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct About</p><h2 class="wa-promodo-mega-title">About</h2><p class="wa-promodo-mega-text">See WebAct work, resources, knowledge base articles, videos, and client support links.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="about-about-us.html">About WebAct</a>
+              <a href="about-portfolio.html">Portfolio</a>
+              <a href="about-faq.html">FAQ</a>
+              <a href="about-blog.html">Blog</a>
+              <a href="about-website-knowledge-base.html">Website Knowledge Base</a>
+              <a href="about-widget-knowledge-base.html">Widget Knowledge Base</a>
+              <a href="about-how-to-videos.html">How-To Videos</a>
+              <a href="about-login.html">Login</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-pricing">Pricing</button>
+        <div class="wa-promodo-mega" id="wa-mega-pricing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Pricing</p><h2 class="wa-promodo-mega-title">Pricing</h2><p class="wa-promodo-mega-text">Explore design, marketing, advertising, package, and app service pricing.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pricing-design.html">Design Pricing</a>
+              <a href="pricing-marketing.html">Marketing Pricing</a>
+              <a href="pricing-advertising.html">Advertising Pricing</a>
+              <a href="pricing-packages.html">Packages</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-industries">Industries</button>
+        <div class="wa-promodo-mega" id="wa-mega-industries">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Industries</p><h2 class="wa-promodo-mega-title">Industries</h2><p class="wa-promodo-mega-text">Industry-specific website design, advertising, marketing, apps, and case-study examples.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="industries.html">All Industries</a>
+              <a href="industries-jewelry-stores.html">Jewelry Stores</a>
+              <a href="industries-hvac.html">HVAC</a>
+              <a href="industries-roofing.html">Roofing</a>
+              <a href="industries-plumbing.html">Plumbing</a>
+              <a href="industries-real-estate.html">Real Estate</a>
+              <a href="../../industries/non-profit/index.html">Non Profits</a>
+              <a href="industries-home-care.html">Home Care</a>
+              <a href="industries-parking-mobility.html">Parking &amp; Mobility</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-add-ons">Add-ons</button>
+        <div class="wa-promodo-mega" id="wa-mega-add-ons">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Add-ons</p><h2 class="wa-promodo-mega-title">Add-ons</h2><p class="wa-promodo-mega-text">Domains, email, widgets, and WebAct app store options that extend your website.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="addons-domain-names.html">Domain Names</a>
+              <a href="addons-professional-email.html">Professional Email</a>
+              <a href="addons-widgets.html">Widgets</a>
+              <a href="addons-website-app-store.html">Website App Store</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="wa-promodo-actions">
+      <a class="wa-promodo-cta" href="contact.html">Get Started</a>
+      <button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button>
+    </div>
+  </nav>
+</header>
+<main><section class="page-hero">
+  <div>
+    <p class="breadcrumb"><a href="../index.html">Home</a> / About</p>
+    <p class="eyebrow">Website Help</p>
+    <h1>Website Knowledge Base</h1>
+    <p class="hero-lede">Search WebAct&#39;s organized website support directory for editor, publishing, widget, ecommerce, dashboard, and site-management topics.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="contact.html">Start a conversation</a>
+      <a class="button secondary" href="pricing.html">View pricing</a>
+    </div>
+  </div>
+  <img src="../images/simple-editor.png" alt="Website Knowledge Base visual">
+</section>
+<section class="section website-design-intro knowledge-base-intro">
+  <div class="service-link-row" aria-label="Knowledge base quick links">
+    <a href="#dashboard-and-account">Dashboard and Account</a><a href="#website-builder">Website Builder</a><a href="#widgets">Widgets</a><a href="#third-party-ecommerce">Third Party eCommerce</a><a href="#native-ecommerce">Native eCommerce</a>
+  </div>
+  <div class="website-design-copy">
+    <p class="eyebrow">Searchable Support Directory</p>
+    <h2>Find the website help topic and open it inside the WebAct site.</h2>
+    <p>This page organizes website support topics into WebAct's current design. Each article title opens a local WebAct knowledge base page instead of sending visitors to an outside support search page.</p>
+  </div>
+</section>
+<section class="section kb-search-section">
+  <div class="kb-search-panel">
+    <label for="kb-search">Search the knowledge base</label>
+    <input id="kb-search" data-kb-search type="search" placeholder="Search editor, widgets, DNS, SEO, forms, ecommerce..." autocomplete="off">
+    <div class="kb-filter-row" aria-label="Knowledge base filters">
+      <button class="active" type="button" data-kb-filter="all">All</button>
+      <button type="button" data-kb-filter="Dashboard and Account">Dashboard and Account</button><button type="button" data-kb-filter="Website Builder">Website Builder</button><button type="button" data-kb-filter="Widgets">Widgets</button><button type="button" data-kb-filter="Third Party eCommerce">Third Party eCommerce</button><button type="button" data-kb-filter="Native eCommerce">Native eCommerce</button>
+    </div>
+    <p data-kb-count>211 searchable article pages across 29 support sections.</p>
+  </div>
+</section>
+<section class="section website-metrics-section">
+  <div>
+    <p class="eyebrow">Imported Structure</p>
+    <h2>The support center is organized into clear WebAct browsing paths.</h2>
+    <p>The original support center groups help by dashboard, website builder, widgets, third-party ecommerce, and native ecommerce.</p>
+  </div>
+  <div class="metric-grid">
+    <article><strong>5</strong><span>Categories</span></article>
+    <article><strong>29</strong><span>Sections</span></article>
+    <article><strong>211</strong><span>Article pages</span></article>
+    <article><strong>0</strong><span>Iframes used</span></article>
+  </div>
+</section>
+<section class="section kb-directory-section" data-kb-directory>
+  <div class="kb-category-block" id="dashboard-and-account">
+    <div class="section-heading compact">
+      <p class="eyebrow">Dashboard and Account</p>
+      <h2>Account, dashboard, site list, settings, and site management help.</h2>
+    </div>
+    <div class="kb-section-grid">
+      <article class="kb-section-card" data-kb-card data-category="Dashboard and Account" data-search="dashboard and account overview account dashboard account settings site dashboard site dashboard: site audit export site list to csv save views of site list">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Dashboard and Account</p>
+            <h3>Overview</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="account dashboard"><a href="about-website-knowledge-base-dashboard-and-account-overview-account-dashboard.html">Account Dashboard</a></li><li data-kb-article data-search="account settings"><a href="about-website-knowledge-base-dashboard-and-account-overview-account-settings.html">Account Settings</a></li><li data-kb-article data-search="site dashboard"><a href="about-website-knowledge-base-dashboard-and-account-overview-site-dashboard.html">Site Dashboard</a></li><li data-kb-article data-search="site dashboard: site audit"><a href="about-website-knowledge-base-dashboard-and-account-overview-site-dashboard-site-audit.html">Site Dashboard: Site Audit</a></li><li data-kb-article data-search="export site list to csv"><a href="about-website-knowledge-base-dashboard-and-account-overview-export-site-list-to-csv.html">Export Site List to CSV</a></li><li data-kb-article data-search="save views of site list"><a href="about-website-knowledge-base-dashboard-and-account-overview-save-views-of-site-list.html">Save Views of Site List</a></li>
+          </ul>
+        </article>
+    </div>
+  </div><div class="kb-category-block" id="website-builder">
+    <div class="section-heading compact">
+      <p class="eyebrow">Website Builder</p>
+      <h2>Editor, publishing, pages, content, dynamic data, bookings, settings, AI tools, and mobile editing.</h2>
+    </div>
+    <div class="kb-section-grid">
+      <article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder editor side panel improvements in the editor editor overview editor versions how to identify the editor version your site uses features only available in editor 2.0 blog site comments site theme design with flexbox technology canvas actions and options screen sizes and devices manage elements outer and inner spacing custom code keyboard shortcuts system requirements launching your site checklist">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>Editor</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="side panel improvements in the editor"><a href="about-website-knowledge-base-website-builder-editor-side-panel-improvements-in-the-editor.html">Side Panel Improvements in the Editor</a></li><li data-kb-article data-search="editor overview"><a href="about-website-knowledge-base-website-builder-editor-editor-overview.html">Editor Overview</a></li><li data-kb-article data-search="editor versions"><a href="about-website-knowledge-base-website-builder-editor-editor-versions.html">Editor Versions</a></li><li data-kb-article data-search="how to identify the editor version your site uses"><a href="about-website-knowledge-base-website-builder-editor-how-to-identify-the-editor-version-your-site-uses.html">How to Identify the Editor Version Your Site Uses</a></li><li data-kb-article data-search="features only available in editor 2.0"><a href="about-website-knowledge-base-website-builder-editor-features-only-available-in-editor-2-0.html">Features Only Available in Editor 2.0</a></li><li data-kb-article data-search="blog"><a href="about-website-knowledge-base-website-builder-editor-blog.html">Blog</a></li><li data-kb-article data-search="site comments"><a href="about-website-knowledge-base-website-builder-editor-site-comments.html">Site Comments</a></li><li data-kb-article data-search="site theme"><a href="about-website-knowledge-base-website-builder-editor-site-theme.html">Site Theme</a></li><li data-kb-article data-search="design with flexbox technology"><a href="about-website-knowledge-base-website-builder-editor-design-with-flexbox-technology.html">Design with Flexbox Technology</a></li><li data-kb-article data-search="canvas actions and options"><a href="about-website-knowledge-base-website-builder-editor-canvas-actions-and-options.html">Canvas Actions and Options</a></li><li data-kb-article data-search="screen sizes and devices"><a href="about-website-knowledge-base-website-builder-editor-screen-sizes-and-devices.html">Screen Sizes and Devices</a></li><li data-kb-article data-search="manage elements"><a href="about-website-knowledge-base-website-builder-editor-manage-elements.html">Manage Elements</a></li><li data-kb-article data-search="outer and inner spacing"><a href="about-website-knowledge-base-website-builder-editor-outer-and-inner-spacing.html">Outer and Inner Spacing</a></li><li data-kb-article data-search="custom code"><a href="about-website-knowledge-base-website-builder-editor-custom-code.html">Custom Code</a></li><li data-kb-article data-search="keyboard shortcuts"><a href="about-website-knowledge-base-website-builder-editor-keyboard-shortcuts.html">Keyboard Shortcuts</a></li><li data-kb-article data-search="system requirements"><a href="about-website-knowledge-base-website-builder-editor-system-requirements.html">System Requirements</a></li><li data-kb-article data-search="launching your site checklist"><a href="about-website-knowledge-base-website-builder-editor-launching-your-site-checklist.html">Launching Your Site Checklist</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder publishing sites make your site live: initial steps and dns record setup configure alternate domains unpublish a site">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>Publishing Sites</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="make your site live: initial steps and dns record setup"><a href="about-website-knowledge-base-website-builder-publishing-sites-make-your-site-live-initial-steps-and-dns-record-setup.html">Make Your Site Live: Initial Steps and DNS Record Setup</a></li><li data-kb-article data-search="configure alternate domains"><a href="about-website-knowledge-base-website-builder-publishing-sites-configure-alternate-domains.html">Configure Alternate Domains</a></li><li data-kb-article data-search="unpublish a site"><a href="about-website-knowledge-base-website-builder-publishing-sites-unpublish-a-site.html">Unpublish a Site</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder pages and popups pages single page management popups personalization rules membership custom access membership taxes for membership">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>Pages and Popups</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="pages"><a href="about-website-knowledge-base-website-builder-pages-and-popups-pages.html">Pages</a></li><li data-kb-article data-search="single page management"><a href="about-website-knowledge-base-website-builder-pages-and-popups-single-page-management.html">Single Page Management</a></li><li data-kb-article data-search="popups"><a href="about-website-knowledge-base-website-builder-pages-and-popups-popups.html">Popups</a></li><li data-kb-article data-search="personalization rules"><a href="about-website-knowledge-base-website-builder-pages-and-popups-personalization-rules.html">Personalization Rules</a></li><li data-kb-article data-search="membership"><a href="about-website-knowledge-base-website-builder-pages-and-popups-membership.html">Membership</a></li><li data-kb-article data-search="custom access membership"><a href="about-website-knowledge-base-website-builder-pages-and-popups-custom-access-membership.html">Custom Access Membership</a></li><li data-kb-article data-search="taxes for membership"><a href="about-website-knowledge-base-website-builder-pages-and-popups-taxes-for-membership.html">Taxes for Membership</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder header and footer headers footer">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>Header and Footer</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="headers"><a href="about-website-knowledge-base-website-builder-header-and-footer-headers.html">Headers</a></li><li data-kb-article data-search="footer"><a href="about-website-knowledge-base-website-builder-header-and-footer-footer.html">Footer</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder content media manager, libraries, and pickers media panel import and collect content business data media: guidelines and specifications image editor media terms and licensing color picker element backgrounds">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>Content</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="media manager, libraries, and pickers"><a href="about-website-knowledge-base-website-builder-content-media-manager-libraries-and-pickers.html">Media Manager, Libraries, and Pickers</a></li><li data-kb-article data-search="media panel"><a href="about-website-knowledge-base-website-builder-content-media-panel.html">Media Panel</a></li><li data-kb-article data-search="import and collect content"><a href="about-website-knowledge-base-website-builder-content-import-and-collect-content.html">Import and Collect Content</a></li><li data-kb-article data-search="business data"><a href="about-website-knowledge-base-website-builder-content-business-data.html">Business Data</a></li><li data-kb-article data-search="media: guidelines and specifications"><a href="about-website-knowledge-base-website-builder-content-media-guidelines-and-specifications.html">Media: Guidelines and Specifications</a></li><li data-kb-article data-search="image editor"><a href="about-website-knowledge-base-website-builder-content-image-editor.html">Image Editor</a></li><li data-kb-article data-search="media terms and licensing"><a href="about-website-knowledge-base-website-builder-content-media-terms-and-licensing.html">Media Terms and Licensing</a></li><li data-kb-article data-search="color picker"><a href="about-website-knowledge-base-website-builder-content-color-picker.html">Color Picker</a></li><li data-kb-article data-search="element backgrounds"><a href="about-website-knowledge-base-website-builder-content-element-backgrounds.html">Element Backgrounds</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder connected data and dynamic pages dynamic content: business info, text, and images dynamic content: dynamic pages dynamic content overview dynamic content: collections dynamic content: external collections dynamic content: internal collections internal collections: import records from a csv dynamic content: collections for regular pages dynamic content: airtable collections dynamic content: google sheets collections dynamic content: display and navigation options for collection records">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>Connected Data and Dynamic Pages</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="dynamic content: business info, text, and images"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-business-info-text-and-images.html">Dynamic Content: Business Info, Text, and Images</a></li><li data-kb-article data-search="dynamic content: dynamic pages"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-dynamic-pages.html">Dynamic Content: Dynamic Pages</a></li><li data-kb-article data-search="dynamic content overview"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-overview.html">Dynamic Content Overview</a></li><li data-kb-article data-search="dynamic content: collections"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-collections.html">Dynamic Content: Collections</a></li><li data-kb-article data-search="dynamic content: external collections"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-external-collections.html">Dynamic Content: External Collections</a></li><li data-kb-article data-search="dynamic content: internal collections"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-internal-collections.html">Dynamic Content: Internal Collections</a></li><li data-kb-article data-search="internal collections: import records from a csv"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-internal-collections-import-records-from-a-csv.html">Internal Collections: Import Records from a CSV</a></li><li data-kb-article data-search="dynamic content: collections for regular pages"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-collections-for-regular-pages.html">Dynamic Content: Collections for Regular Pages</a></li><li data-kb-article data-search="dynamic content: airtable collections"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-airtable-collections.html">Dynamic Content: Airtable Collections</a></li><li data-kb-article data-search="dynamic content: google sheets collections"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-google-sheets-collections.html">Dynamic Content: Google Sheets Collections</a></li><li data-kb-article data-search="dynamic content: display and navigation options for collection records"><a href="about-website-knowledge-base-website-builder-connected-data-and-dynamic-pages-dynamic-content-display-and-navigation-options-for-collection-records.html">Dynamic Content: Display and Navigation Options for Collection Records</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder bookings bookings overview set up bookings manage bookings bookings faqs uninstall bookings">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>Bookings</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="bookings overview"><a href="about-website-knowledge-base-website-builder-bookings-bookings-overview.html">Bookings Overview</a></li><li data-kb-article data-search="set up bookings"><a href="about-website-knowledge-base-website-builder-bookings-set-up-bookings.html">Set Up Bookings</a></li><li data-kb-article data-search="manage bookings"><a href="about-website-knowledge-base-website-builder-bookings-manage-bookings.html">Manage Bookings</a></li><li data-kb-article data-search="bookings faqs"><a href="about-website-knowledge-base-website-builder-bookings-bookings-faqs.html">Bookings FAQs</a></li><li data-kb-article data-search="uninstall bookings"><a href="about-website-knowledge-base-website-builder-bookings-uninstall-bookings.html">Uninstall Bookings</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder site settings and performance site settings add and manage multiple languages set a default site language google tools connect and sync your google business profile site icons backup sites load site in an iframe ssls (https) facebook tracking pixels schema markup url redirects security measures privacy settings site seo/aeo settings built-in site optimization seo: key concepts and tools site performance and optimization core web vitals core web vitals best practices: site performance and optimization core web vitals faqs lighthouse and core web vitals comparison site configuration files indexnow progressive web app (pwa) general data protection regulation (gdpr) compliance information and resources the california consumer privacy act of 2018 (ccpa) compliance information and resources">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>Site Settings and Performance</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="site settings"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-site-settings.html">Site Settings</a></li><li data-kb-article data-search="add and manage multiple languages"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-add-and-manage-multiple-languages.html">Add and Manage Multiple Languages</a></li><li data-kb-article data-search="set a default site language"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-set-a-default-site-language.html">Set a Default Site Language</a></li><li data-kb-article data-search="google tools"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-google-tools.html">Google Tools</a></li><li data-kb-article data-search="connect and sync your google business profile"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-connect-and-sync-your-google-business-profile.html">Connect and Sync Your Google Business Profile</a></li><li data-kb-article data-search="site icons"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-site-icons.html">Site Icons</a></li><li data-kb-article data-search="backup sites"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-backup-sites.html">Backup Sites</a></li><li data-kb-article data-search="load site in an iframe"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-load-site-in-an-iframe.html">Load Site in an iframe</a></li><li data-kb-article data-search="ssls (https)"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-ssls-https.html">SSLs (HTTPS)</a></li><li data-kb-article data-search="facebook tracking pixels"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-facebook-tracking-pixels.html">Facebook Tracking Pixels</a></li><li data-kb-article data-search="schema markup"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-schema-markup.html">Schema Markup</a></li><li data-kb-article data-search="url redirects"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-url-redirects.html">URL Redirects</a></li><li data-kb-article data-search="security measures"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-security-measures.html">Security Measures</a></li><li data-kb-article data-search="privacy settings"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-privacy-settings.html">Privacy Settings</a></li><li data-kb-article data-search="site seo/aeo settings"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-site-seo-aeo-settings.html">Site SEO/AEO Settings</a></li><li data-kb-article data-search="built-in site optimization"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-built-in-site-optimization.html">Built-in Site Optimization</a></li><li data-kb-article data-search="seo: key concepts and tools"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-seo-key-concepts-and-tools.html">SEO: Key Concepts and Tools</a></li><li data-kb-article data-search="site performance and optimization"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-site-performance-and-optimization.html">Site Performance and Optimization</a></li><li data-kb-article data-search="core web vitals"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-core-web-vitals.html">Core Web Vitals</a></li><li data-kb-article data-search="core web vitals best practices: site performance and optimization"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-core-web-vitals-best-practices-site-performance-and-optimization.html">Core Web Vitals Best Practices: Site Performance and Optimization</a></li><li data-kb-article data-search="core web vitals faqs"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-core-web-vitals-faqs.html">Core Web Vitals FAQs</a></li><li data-kb-article data-search="lighthouse and core web vitals comparison"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-lighthouse-and-core-web-vitals-comparison.html">Lighthouse and Core Web Vitals Comparison</a></li><li data-kb-article data-search="site configuration files"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-site-configuration-files.html">Site Configuration Files</a></li><li data-kb-article data-search="indexnow"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-indexnow.html">IndexNow</a></li><li data-kb-article data-search="progressive web app (pwa)"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-progressive-web-app-pwa.html">Progressive Web App (PWA)</a></li><li data-kb-article data-search="general data protection regulation (gdpr) compliance information and resources"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-general-data-protection-regulation-gdpr-compliance-information-and-resources.html">General Data Protection Regulation (GDPR) Compliance Information and Resources</a></li><li data-kb-article data-search="the california consumer privacy act of 2018 (ccpa) compliance information and resources"><a href="about-website-knowledge-base-website-builder-site-settings-and-performance-the-california-consumer-privacy-act-of-2018-ccpa-compliance-information-and-resources.html">The California Consumer Privacy Act of 2018 (CCPA) Compliance Information and Resources</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder ai tools ai tools overview ai assistant for the text editor create a flex section with ai generate seo content with ai generate a site with ai how to write effective ai prompts">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>AI Tools</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="ai tools overview"><a href="about-website-knowledge-base-website-builder-ai-tools-ai-tools-overview.html">AI Tools Overview</a></li><li data-kb-article data-search="ai assistant for the text editor"><a href="about-website-knowledge-base-website-builder-ai-tools-ai-assistant-for-the-text-editor.html">AI Assistant for the Text Editor</a></li><li data-kb-article data-search="create a flex section with ai"><a href="about-website-knowledge-base-website-builder-ai-tools-create-a-flex-section-with-ai.html">Create a Flex Section with AI</a></li><li data-kb-article data-search="generate seo content with ai"><a href="about-website-knowledge-base-website-builder-ai-tools-generate-seo-content-with-ai.html">Generate SEO Content with AI</a></li><li data-kb-article data-search="generate a site with ai"><a href="about-website-knowledge-base-website-builder-ai-tools-generate-a-site-with-ai.html">Generate a Site with AI</a></li><li data-kb-article data-search="how to write effective ai prompts"><a href="about-website-knowledge-base-website-builder-ai-tools-how-to-write-effective-ai-prompts.html">How to Write Effective AI Prompts</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Website Builder" data-search="website builder edit on the go edit on the go site stats on mobile use the dashboard on mobile edit image widgets on mobile edit image slider and photo gallery widgets on mobile edit sites on a tablet edit click-to-call and click-to-email on mobile select and add images on mobile backup, publish, re-publish, and unpublish on mobile">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Website Builder</p>
+            <h3>Edit on the Go</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="edit on the go"><a href="about-website-knowledge-base-website-builder-edit-on-the-go-edit-on-the-go.html">Edit On the Go</a></li><li data-kb-article data-search="site stats on mobile"><a href="about-website-knowledge-base-website-builder-edit-on-the-go-site-stats-on-mobile.html">Site Stats on Mobile</a></li><li data-kb-article data-search="use the dashboard on mobile"><a href="about-website-knowledge-base-website-builder-edit-on-the-go-use-the-dashboard-on-mobile.html">Use the Dashboard on Mobile</a></li><li data-kb-article data-search="edit image widgets on mobile"><a href="about-website-knowledge-base-website-builder-edit-on-the-go-edit-image-widgets-on-mobile.html">Edit Image Widgets on Mobile</a></li><li data-kb-article data-search="edit image slider and photo gallery widgets on mobile"><a href="about-website-knowledge-base-website-builder-edit-on-the-go-edit-image-slider-and-photo-gallery-widgets-on-mobile.html">Edit Image Slider and Photo Gallery Widgets on Mobile</a></li><li data-kb-article data-search="edit sites on a tablet"><a href="about-website-knowledge-base-website-builder-edit-on-the-go-edit-sites-on-a-tablet.html">Edit Sites on a Tablet</a></li><li data-kb-article data-search="edit click-to-call and click-to-email on mobile"><a href="about-website-knowledge-base-website-builder-edit-on-the-go-edit-click-to-call-and-click-to-email-on-mobile.html">Edit Click-to-Call and Click-to-Email on Mobile</a></li><li data-kb-article data-search="select and add images on mobile"><a href="about-website-knowledge-base-website-builder-edit-on-the-go-select-and-add-images-on-mobile.html">Select and Add Images on Mobile</a></li><li data-kb-article data-search="backup, publish, re-publish, and unpublish on mobile"><a href="about-website-knowledge-base-website-builder-edit-on-the-go-backup-publish-re-publish-and-unpublish-on-mobile.html">Backup, Publish, Re-publish, and Unpublish on Mobile</a></li>
+          </ul>
+        </article>
+    </div>
+  </div><div class="kb-category-block" id="widgets">
+    <div class="section-heading compact">
+      <p class="eyebrow">Widgets</p>
+      <h2>Widget library, basic widgets, media widgets, business widgets, social widgets, and advanced widgets.</h2>
+    </div>
+    <div class="kb-section-grid">
+      <article class="kb-section-card" data-kb-card data-category="Widgets" data-search="widgets widget overview widgets: library and overview blog widgets: all posts (and recent posts) blog widgets: search posts link picker">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Widgets</p>
+            <h3>Widget Overview</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="widgets: library and overview"><a href="about-website-knowledge-base-widgets-widget-overview-widgets-library-and-overview.html">Widgets: Library and Overview</a></li><li data-kb-article data-search="blog widgets: all posts (and recent posts)"><a href="about-website-knowledge-base-widgets-widget-overview-blog-widgets-all-posts-and-recent-posts.html">Blog Widgets: All Posts (and Recent Posts)</a></li><li data-kb-article data-search="blog widgets: search posts"><a href="about-website-knowledge-base-widgets-widget-overview-blog-widgets-search-posts.html">Blog Widgets: Search Posts</a></li><li data-kb-article data-search="link picker"><a href="about-website-knowledge-base-widgets-widget-overview-link-picker.html">Link Picker</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Widgets" data-search="widgets basic widgets widgets: accordion widgets: text and titles (headings) widgets: button widgets: hamburger menu widgets: breadcrumbs widgets: icon widgets: table widgets: navigation links mega menu widgets: text &amp; image widgets: list widgets: tabs widgets: countdown widgets: copyright widgets: file (download a file button) widgets: spacer">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Widgets</p>
+            <h3>Basic Widgets</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="widgets: accordion"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-accordion.html">Widgets: Accordion</a></li><li data-kb-article data-search="widgets: text and titles (headings)"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-text-and-titles-headings.html">Widgets: Text and Titles (Headings)</a></li><li data-kb-article data-search="widgets: button"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-button.html">Widgets: Button</a></li><li data-kb-article data-search="widgets: hamburger menu"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-hamburger-menu.html">Widgets: Hamburger Menu</a></li><li data-kb-article data-search="widgets: breadcrumbs"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-breadcrumbs.html">Widgets: Breadcrumbs</a></li><li data-kb-article data-search="widgets: icon"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-icon.html">Widgets: Icon</a></li><li data-kb-article data-search="widgets: table"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-table.html">Widgets: Table</a></li><li data-kb-article data-search="widgets: navigation links"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-navigation-links.html">Widgets: Navigation Links</a></li><li data-kb-article data-search="mega menu"><a href="about-website-knowledge-base-widgets-basic-widgets-mega-menu.html">Mega Menu</a></li><li data-kb-article data-search="widgets: text &amp; image"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-text-image.html">Widgets: Text &amp; Image</a></li><li data-kb-article data-search="widgets: list"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-list.html">Widgets: List</a></li><li data-kb-article data-search="widgets: tabs"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-tabs.html">Widgets: Tabs</a></li><li data-kb-article data-search="widgets: countdown"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-countdown.html">Widgets: Countdown</a></li><li data-kb-article data-search="widgets: copyright"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-copyright.html">Widgets: Copyright</a></li><li data-kb-article data-search="widgets: file (download a file button)"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-file-download-a-file-button.html">Widgets: File (Download a File Button)</a></li><li data-kb-article data-search="widgets: spacer"><a href="about-website-knowledge-base-widgets-basic-widgets-widgets-spacer.html">Widgets: Spacer</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Widgets" data-search="widgets media widgets widgets: audio widgets: before &amp; after widgets: image widgets: image slider widgets: lottie animation widgets: media slider media widgets: photo gallery widgets: shape widgets: video">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Widgets</p>
+            <h3>Media Widgets</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="widgets: audio"><a href="about-website-knowledge-base-widgets-media-widgets-widgets-audio.html">Widgets: Audio</a></li><li data-kb-article data-search="widgets: before &amp; after"><a href="about-website-knowledge-base-widgets-media-widgets-widgets-before-after.html">Widgets: Before &amp; After</a></li><li data-kb-article data-search="widgets: image"><a href="about-website-knowledge-base-widgets-media-widgets-widgets-image.html">Widgets: Image</a></li><li data-kb-article data-search="widgets: image slider"><a href="about-website-knowledge-base-widgets-media-widgets-widgets-image-slider.html">Widgets: Image Slider</a></li><li data-kb-article data-search="widgets: lottie animation"><a href="about-website-knowledge-base-widgets-media-widgets-widgets-lottie-animation.html">Widgets: Lottie Animation</a></li><li data-kb-article data-search="widgets: media slider"><a href="about-website-knowledge-base-widgets-media-widgets-widgets-media-slider.html">Widgets: Media Slider</a></li><li data-kb-article data-search="media widgets: photo gallery"><a href="about-website-knowledge-base-widgets-media-widgets-media-widgets-photo-gallery.html">Media Widgets: Photo Gallery</a></li><li data-kb-article data-search="widgets: shape"><a href="about-website-knowledge-base-widgets-media-widgets-widgets-shape.html">Widgets: Shape</a></li><li data-kb-article data-search="widgets: video"><a href="about-website-knowledge-base-widgets-media-widgets-widgets-video.html">Widgets: Video</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Widgets" data-search="widgets business widgets widgets: business hours widgets: click to call widgets: click to email widgets: contact forms widgets: coupons widgets: google calendar widgets: map widgets: multi location widgets: online scheduling (vcita) widgets: opentable (reservation button) widgets: paypal button widgets: restaurant menu widgets: yelp reviews widgets: zoom">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Widgets</p>
+            <h3>Business Widgets</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="widgets: business hours"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-business-hours.html">Widgets: Business Hours</a></li><li data-kb-article data-search="widgets: click to call"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-click-to-call.html">Widgets: Click To Call</a></li><li data-kb-article data-search="widgets: click to email"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-click-to-email.html">Widgets: Click to Email</a></li><li data-kb-article data-search="widgets: contact forms"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-contact-forms.html">Widgets: Contact Forms</a></li><li data-kb-article data-search="widgets: coupons"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-coupons.html">Widgets: Coupons</a></li><li data-kb-article data-search="widgets: google calendar"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-google-calendar.html">Widgets: Google Calendar</a></li><li data-kb-article data-search="widgets: map"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-map.html">Widgets: Map</a></li><li data-kb-article data-search="widgets: multi location"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-multi-location.html">Widgets: Multi Location</a></li><li data-kb-article data-search="widgets: online scheduling (vcita)"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-online-scheduling-vcita.html">Widgets: Online Scheduling (vcita)</a></li><li data-kb-article data-search="widgets: opentable (reservation button)"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-opentable-reservation-button.html">Widgets: OpenTable (Reservation Button)</a></li><li data-kb-article data-search="widgets: paypal button"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-paypal-button.html">Widgets: PayPal Button</a></li><li data-kb-article data-search="widgets: restaurant menu"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-restaurant-menu.html">Widgets: Restaurant Menu</a></li><li data-kb-article data-search="widgets: yelp reviews"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-yelp-reviews.html">Widgets: Yelp Reviews</a></li><li data-kb-article data-search="widgets: zoom"><a href="about-website-knowledge-base-widgets-business-widgets-widgets-zoom.html">Widgets: Zoom</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Widgets" data-search="widgets social widgets widgets: disqus comments widgets: facebook comments widgets: facebook like widgets: facebook feed widgets: rss feeds widgets: social icons">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Widgets</p>
+            <h3>Social Widgets</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="widgets: disqus comments"><a href="about-website-knowledge-base-widgets-social-widgets-widgets-disqus-comments.html">Widgets: Disqus Comments</a></li><li data-kb-article data-search="widgets: facebook comments"><a href="about-website-knowledge-base-widgets-social-widgets-widgets-facebook-comments.html">Widgets: Facebook Comments</a></li><li data-kb-article data-search="widgets: facebook like"><a href="about-website-knowledge-base-widgets-social-widgets-widgets-facebook-like.html">Widgets: Facebook Like</a></li><li data-kb-article data-search="widgets: facebook feed"><a href="about-website-knowledge-base-widgets-social-widgets-widgets-facebook-feed.html">Widgets: Facebook Feed</a></li><li data-kb-article data-search="widgets: rss feeds"><a href="about-website-knowledge-base-widgets-social-widgets-widgets-rss-feeds.html">Widgets: RSS Feeds</a></li><li data-kb-article data-search="widgets: social icons"><a href="about-website-knowledge-base-widgets-social-widgets-widgets-social-icons.html">Widgets: Social Icons</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Widgets" data-search="widgets advanced widgets widgets: advanced forms widgets: html widgets: advanced tabs widgets: advanced accordion">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Widgets</p>
+            <h3>Advanced Widgets</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="widgets: advanced forms"><a href="about-website-knowledge-base-widgets-advanced-widgets-widgets-advanced-forms.html">Widgets: Advanced Forms</a></li><li data-kb-article data-search="widgets: html"><a href="about-website-knowledge-base-widgets-advanced-widgets-widgets-html.html">Widgets: HTML</a></li><li data-kb-article data-search="widgets: advanced tabs"><a href="about-website-knowledge-base-widgets-advanced-widgets-widgets-advanced-tabs.html">Widgets: Advanced Tabs</a></li><li data-kb-article data-search="widgets: advanced accordion"><a href="about-website-knowledge-base-widgets-advanced-widgets-widgets-advanced-accordion.html">Widgets: Advanced Accordion</a></li>
+          </ul>
+        </article>
+    </div>
+  </div><div class="kb-category-block" id="third-party-ecommerce">
+    <div class="section-heading compact">
+      <p class="eyebrow">Third Party eCommerce</p>
+      <h2>Third-party store setup, products, payments, shipping, sales channels, reporting, and customer management.</h2>
+    </div>
+    <div class="kb-section-grid">
+      <article class="kb-section-card" data-kb-card data-category="Third Party eCommerce" data-search="third party ecommerce store overview and set up store overview and set up ecommerce: getting started (third party store) how to add a store (third party store) ecommerce faqs (third party store) store plans (third party store) remove free demo store (third party store)">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Third Party eCommerce</p>
+            <h3>Store Overview and Set Up</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="store overview and set up"><a href="about-website-knowledge-base-third-party-ecommerce-store-overview-and-set-up-store-overview-and-set-up.html">Store Overview and Set Up</a></li><li data-kb-article data-search="ecommerce: getting started (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-store-overview-and-set-up-ecommerce-getting-started-third-party-store.html">eCommerce: Getting Started (Third Party Store)</a></li><li data-kb-article data-search="how to add a store (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-store-overview-and-set-up-how-to-add-a-store-third-party-store.html">How to Add a Store (Third Party Store)</a></li><li data-kb-article data-search="ecommerce faqs (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-store-overview-and-set-up-ecommerce-faqs-third-party-store.html">eCommerce FAQs (Third Party Store)</a></li><li data-kb-article data-search="store plans (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-store-overview-and-set-up-store-plans-third-party-store.html">Store Plans (Third Party Store)</a></li><li data-kb-article data-search="remove free demo store (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-store-overview-and-set-up-remove-free-demo-store-third-party-store.html">Remove Free Demo Store (Third Party Store)</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Third Party eCommerce" data-search="third party ecommerce add and manage products or services add and manage products or services add and edit products in the store (third party store) lowest product price before discounting (third party store) import products to your store (third party store) import products faqs and troubleshooting (third party store) product options (third party store)">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Third Party eCommerce</p>
+            <h3>Add and Manage Products or Services</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="add and manage products or services"><a href="about-website-knowledge-base-third-party-ecommerce-add-and-manage-products-or-services-add-and-manage-products-or-services.html">Add and Manage Products or Services</a></li><li data-kb-article data-search="add and edit products in the store (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-add-and-manage-products-or-services-add-and-edit-products-in-the-store-third-party-store.html">Add and Edit Products in the Store (Third Party Store)</a></li><li data-kb-article data-search="lowest product price before discounting (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-add-and-manage-products-or-services-lowest-product-price-before-discounting-third-party-store.html">Lowest Product Price Before Discounting (Third Party Store)</a></li><li data-kb-article data-search="import products to your store (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-add-and-manage-products-or-services-import-products-to-your-store-third-party-store.html">Import Products to Your Store (Third Party Store)</a></li><li data-kb-article data-search="import products faqs and troubleshooting (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-add-and-manage-products-or-services-import-products-faqs-and-troubleshooting-third-party-store.html">Import Products FAQs and Troubleshooting (Third Party Store)</a></li><li data-kb-article data-search="product options (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-add-and-manage-products-or-services-product-options-third-party-store.html">Product Options (Third Party Store)</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Third Party eCommerce" data-search="third party ecommerce payments and orders payments and orders about payment options (third party store) online payments (third party store) offline payments (third party store) orders (third party store) edit orders (third party store)">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Third Party eCommerce</p>
+            <h3>Payments and Orders</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="payments and orders"><a href="about-website-knowledge-base-third-party-ecommerce-payments-and-orders-payments-and-orders.html">Payments and Orders</a></li><li data-kb-article data-search="about payment options (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-payments-and-orders-about-payment-options-third-party-store.html">About Payment Options (Third Party Store)</a></li><li data-kb-article data-search="online payments (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-payments-and-orders-online-payments-third-party-store.html">Online Payments (Third Party Store)</a></li><li data-kb-article data-search="offline payments (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-payments-and-orders-offline-payments-third-party-store.html">Offline Payments (Third Party Store)</a></li><li data-kb-article data-search="orders (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-payments-and-orders-orders-third-party-store.html">Orders (Third Party Store)</a></li><li data-kb-article data-search="edit orders (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-payments-and-orders-edit-orders-third-party-store.html">Edit Orders (Third Party Store)</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Third Party eCommerce" data-search="third party ecommerce shipping and delivery shipping and delivery shipping (third party store) shipping options (third party store) shipping faqs (third party store) buy and print shipping labels (third party store) inventory tracking (third party store)">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Third Party eCommerce</p>
+            <h3>Shipping and Delivery</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="shipping and delivery"><a href="about-website-knowledge-base-third-party-ecommerce-shipping-and-delivery-shipping-and-delivery.html">Shipping and Delivery</a></li><li data-kb-article data-search="shipping (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-shipping-and-delivery-shipping-third-party-store.html">Shipping (Third Party Store)</a></li><li data-kb-article data-search="shipping options (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-shipping-and-delivery-shipping-options-third-party-store.html">Shipping Options (Third Party Store)</a></li><li data-kb-article data-search="shipping faqs (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-shipping-and-delivery-shipping-faqs-third-party-store.html">Shipping FAQs (Third Party Store)</a></li><li data-kb-article data-search="buy and print shipping labels (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-shipping-and-delivery-buy-and-print-shipping-labels-third-party-store.html">Buy and Print Shipping Labels (Third Party Store)</a></li><li data-kb-article data-search="inventory tracking (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-shipping-and-delivery-inventory-tracking-third-party-store.html">Inventory Tracking (Third Party Store)</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Third Party eCommerce" data-search="third party ecommerce sales channels and reports basic reports and sales stats (third party store) connect product catalog to tiktok (third party store) marketplaces (third party store) store app market (third party store) sell on facebook (third party store) reconnect facebook to store (third party store)">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Third Party eCommerce</p>
+            <h3>Sales Channels and Reports</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="basic reports and sales stats (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-sales-channels-and-reports-basic-reports-and-sales-stats-third-party-store.html">Basic Reports and Sales Stats (Third Party Store)</a></li><li data-kb-article data-search="connect product catalog to tiktok (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-sales-channels-and-reports-connect-product-catalog-to-tiktok-third-party-store.html">Connect Product Catalog to TikTok (Third Party Store)</a></li><li data-kb-article data-search="marketplaces (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-sales-channels-and-reports-marketplaces-third-party-store.html">Marketplaces (Third Party Store)</a></li><li data-kb-article data-search="store app market (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-sales-channels-and-reports-store-app-market-third-party-store.html">Store App Market (Third Party Store)</a></li><li data-kb-article data-search="sell on facebook (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-sales-channels-and-reports-sell-on-facebook-third-party-store.html">Sell on Facebook (Third Party Store)</a></li><li data-kb-article data-search="reconnect facebook to store (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-sales-channels-and-reports-reconnect-facebook-to-store-third-party-store.html">Reconnect Facebook to Store (Third Party Store)</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Third Party eCommerce" data-search="third party ecommerce manage customers add a store login (third party store) customer groups (third party store) email notifications (third party store) request customer approval for promo emails (third party store) send automated marketing emails (third party store) strong customer authentication (sca) (third party store)">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Third Party eCommerce</p>
+            <h3>Manage Customers</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="add a store login (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-manage-customers-add-a-store-login-third-party-store.html">Add a Store Login (Third Party Store)</a></li><li data-kb-article data-search="customer groups (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-manage-customers-customer-groups-third-party-store.html">Customer Groups (Third Party Store)</a></li><li data-kb-article data-search="email notifications (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-manage-customers-email-notifications-third-party-store.html">Email Notifications (Third Party Store)</a></li><li data-kb-article data-search="request customer approval for promo emails (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-manage-customers-request-customer-approval-for-promo-emails-third-party-store.html">Request Customer Approval for Promo Emails (Third Party Store)</a></li><li data-kb-article data-search="send automated marketing emails (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-manage-customers-send-automated-marketing-emails-third-party-store.html">Send Automated Marketing Emails (Third Party Store)</a></li><li data-kb-article data-search="strong customer authentication (sca) (third party store)"><a href="about-website-knowledge-base-third-party-ecommerce-manage-customers-strong-customer-authentication-sca-third-party-store.html">Strong Customer Authentication (SCA) (Third Party Store)</a></li>
+          </ul>
+        </article>
+    </div>
+  </div><div class="kb-category-block" id="native-ecommerce">
+    <div class="section-heading compact">
+      <p class="eyebrow">Native eCommerce</p>
+      <h2>Native store setup, products, services, payments, taxes, orders, shipping, contacts, carts, email, and bookings.</h2>
+    </div>
+    <div class="kb-section-grid">
+      <article class="kb-section-card" data-kb-card data-category="Native eCommerce" data-search="native ecommerce store set up and overview native store overview add or remove native store how to create an online store with native ecommerce how do i know if i am using native ecommerce or third party ecommerce? native ecommerce and third party ecommerce comparison native store business information">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Native eCommerce</p>
+            <h3>Store Set Up and Overview</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="native store overview"><a href="about-website-knowledge-base-native-ecommerce-store-set-up-and-overview-native-store-overview.html">Native Store Overview</a></li><li data-kb-article data-search="add or remove native store"><a href="about-website-knowledge-base-native-ecommerce-store-set-up-and-overview-add-or-remove-native-store.html">Add or Remove Native Store</a></li><li data-kb-article data-search="how to create an online store with native ecommerce"><a href="about-website-knowledge-base-native-ecommerce-store-set-up-and-overview-how-to-create-an-online-store-with-native-ecommerce.html">How to Create an Online Store with Native eCommerce</a></li><li data-kb-article data-search="how do i know if i am using native ecommerce or third party ecommerce?"><a href="about-website-knowledge-base-native-ecommerce-store-set-up-and-overview-how-do-i-know-if-i-am-using-native-ecommerce-or-third-party-ecommerce.html">How do I know if I am using native eCommerce or third party eCommerce?</a></li><li data-kb-article data-search="native ecommerce and third party ecommerce comparison"><a href="about-website-knowledge-base-native-ecommerce-store-set-up-and-overview-native-ecommerce-and-third-party-ecommerce-comparison.html">Native eCommerce and Third Party eCommerce Comparison</a></li><li data-kb-article data-search="native store business information"><a href="about-website-knowledge-base-native-ecommerce-store-set-up-and-overview-native-store-business-information.html">Native Store Business Information</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Native eCommerce" data-search="native ecommerce products and services products in native store import, export, and update products in native store subscriptions in native store google merchant center for native store">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Native eCommerce</p>
+            <h3>Products and Services</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="products in native store"><a href="about-website-knowledge-base-native-ecommerce-products-and-services-products-in-native-store.html">Products in Native Store</a></li><li data-kb-article data-search="import, export, and update products in native store"><a href="about-website-knowledge-base-native-ecommerce-products-and-services-import-export-and-update-products-in-native-store.html">Import, Export, and Update Products in Native Store</a></li><li data-kb-article data-search="subscriptions in native store"><a href="about-website-knowledge-base-native-ecommerce-products-and-services-subscriptions-in-native-store.html">Subscriptions in Native Store</a></li><li data-kb-article data-search="google merchant center for native store"><a href="about-website-knowledge-base-native-ecommerce-products-and-services-google-merchant-center-for-native-store.html">Google Merchant Center for Native Store</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Native eCommerce" data-search="native ecommerce payment, taxes, and orders payment in native store taxes in native store orders in native store">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Native eCommerce</p>
+            <h3>Payment, Taxes, and Orders</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="payment in native store"><a href="about-website-knowledge-base-native-ecommerce-payment-taxes-and-orders-payment-in-native-store.html">Payment in Native Store</a></li><li data-kb-article data-search="taxes in native store"><a href="about-website-knowledge-base-native-ecommerce-payment-taxes-and-orders-taxes-in-native-store.html">Taxes in Native Store</a></li><li data-kb-article data-search="orders in native store"><a href="about-website-knowledge-base-native-ecommerce-payment-taxes-and-orders-orders-in-native-store.html">Orders in Native Store</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Native eCommerce" data-search="native ecommerce shipping, pickup and delivery shipping and pickup in native store">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Native eCommerce</p>
+            <h3>Shipping, Pickup and Delivery</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="shipping and pickup in native store"><a href="about-website-knowledge-base-native-ecommerce-shipping-pickup-and-delivery-shipping-and-pickup-in-native-store.html">Shipping and Pickup in Native Store</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Native eCommerce" data-search="native ecommerce customer management site contacts in native store abandoned carts in native store native store emails">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Native eCommerce</p>
+            <h3>Customer Management</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="site contacts in native store"><a href="about-website-knowledge-base-native-ecommerce-customer-management-site-contacts-in-native-store.html">Site Contacts in Native Store</a></li><li data-kb-article data-search="abandoned carts in native store"><a href="about-website-knowledge-base-native-ecommerce-customer-management-abandoned-carts-in-native-store.html">Abandoned Carts in Native Store</a></li><li data-kb-article data-search="native store emails"><a href="about-website-knowledge-base-native-ecommerce-customer-management-native-store-emails.html">Native Store Emails</a></li>
+          </ul>
+        </article><article class="kb-section-card" data-kb-card data-category="Native eCommerce" data-search="native ecommerce bookings bookings overview set up bookings manage bookings">
+          <div class="kb-section-card-top">
+            <p class="eyebrow">Native eCommerce</p>
+            <h3>Bookings</h3>
+          </div>
+          <ul>
+            <li data-kb-article data-search="bookings overview"><a href="about-website-knowledge-base-native-ecommerce-bookings-bookings-overview.html">Bookings Overview</a></li><li data-kb-article data-search="set up bookings"><a href="about-website-knowledge-base-native-ecommerce-bookings-set-up-bookings.html">Set Up Bookings</a></li><li data-kb-article data-search="manage bookings"><a href="about-website-knowledge-base-native-ecommerce-bookings-manage-bookings.html">Manage Bookings</a></li>
+          </ul>
+        </article>
+    </div>
+  </div>
+  <div class="kb-empty" data-kb-empty hidden>No matching support topics found. Try a shorter search like "widget", "SEO", "publish", or "store".</div>
+</section></main>
+    <footer class="site-footer">
+      <img src="../images/logo.png" alt="WebAct">
+      <p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p>
+      <div class="footer-links">
+        <a href="design.html">Design</a>
+        <a href="digital-ads.html">Digital Ads</a>
+        <a href="marketing.html">Marketing</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="addons.html">Add-ons</a>
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+<script id="webact-promodo-header-script">
+(function(){
+  document.querySelectorAll('[data-webact-promodo-header]').forEach(function(header){
+    var toggle=header.querySelector('[data-webact-menu-toggle]');
+    if(toggle){toggle.addEventListener('click',function(){var open=header.classList.toggle('webact-nav-open');toggle.setAttribute('aria-expanded',open?'true':'false');});}
+    header.querySelectorAll('[data-webact-dropdown]').forEach(function(btn){
+      btn.addEventListener('click',function(e){
+        if(window.matchMedia('(max-width:1060px)').matches){
+          e.preventDefault();
+          var item=btn.closest('.webact-promodo-nav-item');
+          if(item){item.classList.toggle('webact-open');btn.setAttribute('aria-expanded',item.classList.contains('webact-open')?'true':'false');}
+        }
+      });
+    });
+    var search=header.querySelector('[data-webact-search-open]');
+    var close=header.querySelector('[data-webact-search-close]');
+    if(search){search.addEventListener('click',function(){document.body.classList.add('webact-search-open');var input=header.querySelector('.webact-search-row input');if(input){setTimeout(function(){input.focus();},50);}});}
+    if(close){close.addEventListener('click',function(){document.body.classList.remove('webact-search-open');});}
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.body.classList.remove('webact-search-open');}});
+})();
+</script>
+
+<script src="../js/webact-promodo-nav.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+

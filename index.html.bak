@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebAct Website Design, Advertising, Marketing | WebAct</title>
+    <meta name="description" content="Modern WebAct multi-page redesign prototype.">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/navigation.css">
+<link rel="stylesheet" href="css/footer.css">
+<style id="webact-promodo-header-style">
+.webact-promodo-header{position:sticky;top:0;z-index:9999;background:#fff;border-bottom:1px solid #e5edf5;font-family:Inter,Arial,sans-serif}
+.webact-promodo-topbar{background:#061421;color:#fff;font-weight:800;text-align:center;padding:12px 20px;font-size:14px;line-height:1.35}
+.webact-promodo-topbar a{color:#33aee7;text-decoration:none;margin-left:24px;white-space:nowrap}
+.webact-promodo-inner{max-width:1460px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:22px 28px;background:#fff}
+.webact-promodo-logo{display:inline-flex;align-items:center;flex:0 0 auto;text-decoration:none}
+.webact-promodo-logo img{width:230px;max-width:24vw;height:auto;display:block}
+.webact-promodo-nav{display:flex;align-items:center;gap:4px;flex:1}
+.webact-promodo-nav-list{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;width:100%}
+.webact-promodo-nav-item{position:relative}
+.webact-promodo-nav-link,.webact-promodo-drop-trigger{appearance:none;border:0;background:transparent;color:#071421;text-decoration:none;font-weight:850;font-size:16px;line-height:1.1;padding:14px 12px;border-radius:8px;display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;font-family:inherit}
+.webact-promodo-nav-link:hover,.webact-promodo-drop-trigger:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-chevron{border:solid currentColor;border-width:0 2px 2px 0;display:inline-block;padding:4px;transform:rotate(45deg);margin-top:-5px}
+.webact-promodo-menu{display:none;position:absolute;top:100%;left:0;min-width:310px;background:#fff;border:1px solid #dce8f1;box-shadow:0 24px 50px rgba(2,18,32,.14);padding:16px;border-radius:0 0 14px 14px;grid-template-columns:repeat(2,minmax(145px,1fr));gap:6px}
+.webact-promodo-menu a{color:#071421;text-decoration:none;padding:10px 12px;border-radius:8px;font-weight:700;font-size:14px;line-height:1.25}
+.webact-promodo-menu a:hover{background:#eaf7fc;color:#119fd7}
+.webact-promodo-nav-item:hover .webact-promodo-menu,.webact-promodo-nav-item:focus-within .webact-promodo-menu,.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}
+.webact-promodo-actions{display:flex;align-items:center;gap:14px;flex:0 0 auto}
+.webact-promodo-search{background:transparent;border:0;color:#071421;font-weight:850;font-size:16px;cursor:pointer;padding:12px;border-radius:8px;font-family:inherit}
+.webact-promodo-search:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-cta{background:#33abe1;color:#071421;text-decoration:none;font-weight:900;padding:18px 24px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;box-shadow:0 8px 18px rgba(51,171,225,.28)}
+.webact-promodo-cta:hover{background:#249ad0;color:#071421}
+.webact-promodo-menu-toggle{display:none;border:1px solid #cfe0eb;background:#fff;border-radius:8px;width:46px;height:42px;align-items:center;justify-content:center;gap:5px;flex-direction:column;cursor:pointer}
+.webact-promodo-menu-toggle span{width:22px;height:2px;background:#071421;display:block}
+body.webact-search-open .webact-search-overlay{display:flex}
+.webact-search-overlay{display:none;position:fixed;inset:0;z-index:10000;background:rgba(4,17,29,.62);align-items:flex-start;justify-content:center;padding:120px 20px 20px}
+.webact-search-panel{width:min(760px,100%);background:#fff;border-radius:14px;padding:24px;box-shadow:0 28px 70px rgba(0,0,0,.22)}
+.webact-search-row{display:flex;gap:10px}
+.webact-search-row input{flex:1;border:1px solid #cddce7;border-radius:8px;padding:14px 16px;font-size:16px}
+.webact-search-row button,.webact-search-close{border:0;border-radius:8px;padding:14px 18px;font-weight:850;cursor:pointer;font-family:inherit}
+.webact-search-row button{background:#33abe1;color:#071421}.webact-search-close{background:#f2f6f9;color:#071421}
+@media (max-width:1250px){.webact-promodo-inner{padding:18px 20px;gap:14px}.webact-promodo-logo img{width:190px}.webact-promodo-nav-link,.webact-promodo-drop-trigger{font-size:14px;padding:12px 8px}.webact-promodo-cta{padding:15px 18px}}
+@media (max-width:1060px){.webact-promodo-inner{flex-wrap:wrap}.webact-promodo-menu-toggle{display:flex}.webact-promodo-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e5edf5;padding-top:12px}.webact-promodo-header.webact-nav-open .webact-promodo-nav{display:block}.webact-promodo-nav-list{display:block}.webact-promodo-nav-item{border-bottom:1px solid #edf3f7}.webact-promodo-nav-link,.webact-promodo-drop-trigger{width:100%;justify-content:space-between;padding:15px 2px;font-size:16px}.webact-promodo-menu{position:static;box-shadow:none;border:0;border-radius:0;padding:0 0 12px 12px;grid-template-columns:1fr}.webact-promodo-nav-item .webact-promodo-menu{display:none}.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}.webact-promodo-actions{margin-left:auto}.webact-promodo-search{font-size:0}.webact-promodo-search:before{content:'Search';font-size:15px}.webact-promodo-cta{padding:13px 16px}}
+@media (max-width:640px){.webact-promodo-topbar{font-size:12px}.webact-promodo-topbar a{display:inline-block;margin-left:10px}.webact-promodo-logo img{width:160px;max-width:52vw}.webact-promodo-inner{padding:14px}.webact-promodo-actions{width:100%;justify-content:space-between;order:3}.webact-promodo-cta{flex:1}.webact-search-overlay{padding-top:90px}.webact-search-row{flex-direction:column}}
+</style>
+
+<link rel="stylesheet" href="css/webact-promodo-nav.css">
+</head>
+  <body>
+<header class="wa-promodo-header" data-wa-nav>
+  <nav class="wa-promodo-nav" aria-label="Main navigation">
+    <a class="wa-promodo-logo" href="index.html" aria-label="WebAct home"><img src="images/webact-logo.png" alt="WebAct"></a>
+    <ul class="wa-promodo-menu" data-wa-menu>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-design">Design</button>
+        <div class="wa-promodo-mega" id="wa-mega-design">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Design</p><h2 class="wa-promodo-mega-title">Design</h2><p class="wa-promodo-mega-text">Website, logo, graphics, and brand systems built for businesses that need a professional web presence.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pages/design-simple-editor.html">Simple Editor</a>
+              <a href="pages/design-professional-editor.html">Professional Editor</a>
+              <a href="pages/design-website-design.html">Website Design</a>
+              <a href="pages/design-logo-design.html">Logo Design</a>
+              <a href="pages/design-graphic-design.html">Graphic Design</a>
+              <a href="pages/design-branding.html">Branding</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-digital-ads">Digital Ads</button>
+        <div class="wa-promodo-mega" id="wa-mega-digital-ads">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Digital Ads</p><h2 class="wa-promodo-mega-title">Digital Ads</h2><p class="wa-promodo-mega-text">Campaign services for search, social, local services, streaming TV, and retail advertising channels.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pages/digital-ads-google-advertising.html">Google Advertising</a>
+              <a href="pages/digital-ads-local-services-advertising.html">Local Services Advertising</a>
+              <a href="pages/digital-ads-microsoft-advertising.html">Microsoft Advertising</a>
+              <a href="pages/digital-ads-social-media-advertising.html">Social Media Advertising</a>
+              <a href="pages/digital-ads-amazon-advertising.html">Amazon Advertising</a>
+              <a href="pages/digital-ads-television-advertising.html">Television Advertising</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-marketing">Marketing</button>
+        <div class="wa-promodo-mega" id="wa-mega-marketing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Marketing</p><h2 class="wa-promodo-mega-title">Marketing</h2><p class="wa-promodo-mega-text">SEO, local visibility, listings, business profiles, and email marketing support for steady growth.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pages/marketing-national-seo.html">National SEO</a>
+              <a href="pages/marketing-local-seo.html">Local SEO</a>
+              <a href="pages/marketing-aeo.html">AEO</a>
+              <a href="pages/marketing-gmb.html">GMB</a>
+              <a href="pages/marketing-local-listings.html">Local Listings</a>
+              <a href="pages/marketing-email-marketing.html">Email Marketing</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-about">About</button>
+        <div class="wa-promodo-mega" id="wa-mega-about">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct About</p><h2 class="wa-promodo-mega-title">About</h2><p class="wa-promodo-mega-text">See WebAct work, resources, knowledge base articles, videos, and client support links.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pages/about-about-us.html">About WebAct</a>
+              <a href="pages/about-portfolio.html">Portfolio</a>
+              <a href="pages/about-faq.html">FAQ</a>
+              <a href="pages/about-blog.html">Blog</a>
+              <a href="pages/about-website-knowledge-base.html">Website Knowledge Base</a>
+              <a href="pages/about-widget-knowledge-base.html">Widget Knowledge Base</a>
+              <a href="pages/about-how-to-videos.html">How-To Videos</a>
+              <a href="pages/about-login.html">Login</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-pricing">Pricing</button>
+        <div class="wa-promodo-mega" id="wa-mega-pricing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Pricing</p><h2 class="wa-promodo-mega-title">Pricing</h2><p class="wa-promodo-mega-text">Explore design, marketing, advertising, package, and app service pricing.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pages/pricing-design.html">Design Pricing</a>
+              <a href="pages/pricing-marketing.html">Marketing Pricing</a>
+              <a href="pages/pricing-advertising.html">Advertising Pricing</a>
+              <a href="pages/pricing-packages.html">Packages</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-industries">Industries</button>
+        <div class="wa-promodo-mega" id="wa-mega-industries">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Industries</p><h2 class="wa-promodo-mega-title">Industries</h2><p class="wa-promodo-mega-text">Industry-specific website design, advertising, marketing, apps, and case-study examples.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pages/industries.html">All Industries</a>
+              <a href="pages/industries-jewelry-stores.html">Jewelry Stores</a>
+              <a href="pages/industries-hvac.html">HVAC</a>
+              <a href="pages/industries-roofing.html">Roofing</a>
+              <a href="pages/industries-plumbing.html">Plumbing</a>
+              <a href="pages/industries-real-estate.html">Real Estate</a>
+              <a href="industries/non-profit/index.html">Non Profits</a>
+              <a href="pages/industries-home-care.html">Home Care</a>
+              <a href="pages/industries-parking-mobility.html">Parking &amp; Mobility</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-add-ons">Add-ons</button>
+        <div class="wa-promodo-mega" id="wa-mega-add-ons">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Add-ons</p><h2 class="wa-promodo-mega-title">Add-ons</h2><p class="wa-promodo-mega-text">Domains, email, widgets, and WebAct app store options that extend your website.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pages/addons-domain-names.html">Domain Names</a>
+              <a href="pages/addons-professional-email.html">Professional Email</a>
+              <a href="pages/addons-widgets.html">Widgets</a>
+              <a href="pages/addons-website-app-store.html">Website App Store</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="pages/contact.html">Contact Us</a></li>
+    </ul>
+    <div class="wa-promodo-actions">
+      <a class="wa-promodo-cta" href="pages/contact.html">Get Started</a>
+      <button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button>
+    </div>
+  </nav>
+</header>
+<main><section class="home-hero">
+  <div class="home-hero-copy">
+    <p class="eyebrow">Award-winning website design and digital growth support</p>
+    <h1>Grow your business with a smarter WebAct website.</h1>
+    <p class="passion-line">We are passionate about <span>web design.</span></p>
+    <div class="passion-tags" aria-label="WebAct specialties">
+      <span>Google Ads</span>
+      <span>National SEO</span>
+      <span>Local Listings</span>
+      <span>Websites</span>
+    </div>
+    <p class="hero-lede">WebAct brings websites, advertising, marketing, domains, email, and widgets into one professional growth partner for small and medium-sized businesses.</p>
+    <div class="hero-actions"><a class="button primary" href="pages/contact.html">Get a proposal</a><a class="button secondary" href="pages/industries.html">See industry work</a></div>
+  </div>
+  <form class="hero-form">
+    <h2>Start a Project</h2>
+    <p>Tell us what you want to improve.</p>
+    <label>Full Name<input type="text" name="name" autocomplete="name"></label>
+    <label>Email Address<input type="email" name="email" autocomplete="email"></label>
+    <label>Phone Number<input type="tel" name="phone" autocomplete="tel"></label>
+    <label>Interested In
+      <select name="interest">
+        <option>Website Design</option>
+        <option>Digital Advertising</option>
+        <option>National SEO / Local SEO / Email Marketing</option>
+        <option>Domains, Email, or Widgets</option>
+      </select>
+    </label>
+    <label>How can we help?<textarea name="message" rows="4"></textarea></label>
+    <button class="button primary" type="button">Request Consultation</button>
+  </form>
+</section>
+<section class="logo-rotator" aria-label="WebAct as seen on logos">
+  <div class="logo-rotator-heading">
+    <p class="eyebrow">Why WebAct is different</p>
+    <p class="logo-section-copy">We combine professional website design, advertising, and marketing under one team. Our work and expertise have been featured and have awards across these media outlets.</p>
+  </div>
+  <div class="logo-marquee">
+    <div class="logo-track"><div class="logo-slide"><img src="images/logo-forbes.png" alt="Forbes logo"></div><div class="logo-slide"><img src="images/logo-entrepreneur.png" alt="Entrepreneur logo"></div><div class="logo-slide"><img src="images/logo-seranking.png" alt="SE Ranking logo"></div><div class="logo-slide"><img src="images/logo-denver.svg" alt="Denver logo"></div><div class="logo-slide"><img src="images/logo-sej.png" alt="Search Engine Journal logo"></div><div class="logo-slide"><img src="images/logo-website.png" alt="Website Magazine logo"></div><div class="logo-slide"><img src="images/logo-traffic.png" alt="Traffic logo"></div><div class="logo-slide"><img src="images/logo-silicon.png" alt="Silicon logo"></div><div class="logo-slide"><img src="images/logo-forbes.png" alt="Forbes logo"></div><div class="logo-slide"><img src="images/logo-entrepreneur.png" alt="Entrepreneur logo"></div><div class="logo-slide"><img src="images/logo-seranking.png" alt="SE Ranking logo"></div><div class="logo-slide"><img src="images/logo-denver.svg" alt="Denver logo"></div><div class="logo-slide"><img src="images/logo-sej.png" alt="Search Engine Journal logo"></div><div class="logo-slide"><img src="images/logo-website.png" alt="Website Magazine logo"></div><div class="logo-slide"><img src="images/logo-traffic.png" alt="Traffic logo"></div><div class="logo-slide"><img src="images/logo-silicon.png" alt="Silicon logo"></div></div>
+  </div>
+</section>
+<section class="section home-services">
+  <div class="home-services-media"><img src="images/hero-devices.png" alt="WebAct responsive website portfolio"></div>
+  <div class="section-heading">
+    <p class="eyebrow">Results-driven growth</p>
+    <h2>One team for the services that make a website perform.</h2>
+    <p>Each service has its own page, but the strategy works best when design, ads, marketing, and add-ons support the same customer journey.</p>
+  </div>
+  <div class="home-service-list">
+    <a href="pages/design-website-design.html"><strong>Web Design</strong><span>Create a brand and communicate your value.</span></a>
+    <a href="pages/marketing-national-seo.html"><strong>National SEO</strong><span>Find new clients organically and build a foundation for tomorrow.</span></a>
+    <a href="pages/digital-ads-google-advertising.html"><strong>Digital Ads</strong><span>Put your business in front of the right people today.</span></a>
+    <a href="pages/design-branding.html"><strong>Branding</strong><span>Shape the message, visuals, and trust signals buyers remember.</span></a>
+    <a href="pages/addons-widgets.html"><strong>Widgets</strong><span>Add conversion tools, interactions, forms, and custom site features.</span></a>
+  </div>
+</section>
+<section class="section home-story">
+  <div>
+    <p class="eyebrow">Our story</p>
+    <h2>WebAct is built for businesses that need professional digital help from one connected team.</h2>
+    <p>From editor setup to professional redesigns, from local SEO to paid ads, WebAct gives owners a way to launch, improve, and keep growing without splitting every task across disconnected vendors.</p>
+    <a class="text-link" href="pages/about.html">Discover WebAct</a>
+  </div>
+  <div class="story-stats">
+    <span><strong>25</strong> industry page paths</span>
+    <span><strong>62</strong> prototype pages</span>
+    <span><strong>4</strong> pricing lanes</span>
+  </div>
+</section>
+<section class="section remarkable-results">
+  <div class="section-heading">
+    <p class="eyebrow">Remarkable results</p>
+    <h2>Case-study style paths for local businesses.</h2>
+  </div>
+  <div class="result-tabs" aria-label="Industry examples">
+    <span>Home Services</span>
+    <span>Medical</span>
+    <span>Restaurants</span>
+    <span>Automotive</span>
+    <span>Local Retail</span>
+  </div>
+  <div class="result-grid">
+    <article><img src="images/case-home-services.png" alt="Home services portfolio"><h3>Home Services</h3><p><strong>More calls</strong> from service pages, ads, reviews, and local listings.</p></article>
+    <article><img src="images/case-dental.png" alt="Dental portfolio"><h3>Dental & Medical</h3><p><strong>More appointments</strong> from trust-first content and Google visibility.</p></article>
+    <article><img src="images/case-restaurant.png" alt="Restaurant portfolio"><h3>Restaurants</h3><p><strong>More orders</strong> from menus, maps, promotions, and mobile-first design.</p></article>
+  </div>
+  <a class="button primary" href="pages/industries.html">View all industries</a>
+</section>
+<section class="section google-review-band" data-google-review-rotator data-min-rating="5" aria-label="WebAct Google five-star reviews">
+  <div class="google-review-copy">
+    <p class="eyebrow">Google Reviews</p>
+    <h2>Check out our reviews.</h2>
+    <p>See what our clients say about working with WebAct, from website design and support to marketing and advertising.</p>
+    <a class="text-link" href="https://www.google.com/maps/place/WebAct/@39.5078932,-104.7595407,17z/data=!4m8!3m7!1s0x8722784b497e587d:0x136e457469f159e2!8m2!3d39.5078932!4d-104.7595407!9m1!1b1!16s%2Fg%2F12lrzrrbl?entry=ttu" target="_blank" rel="noreferrer">View WebAct on Google</a>
+  </div>
+  <div class="google-review-widget">
+    <div class="google-review-track" data-google-review-track>
+      <article class="google-review-card active" data-rating="5" aria-hidden="false"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>Very Professional. Excellent Work. WebAct is #1. Lauren designed my website and she did an outstanding job, over and beyond. I will continue to do business with them. Top-notch! When my sale agreement was being put together I dealt with Shane from WebAct who arranged my agreement and I have to say, just a professional, he was able to give me what I was looking for which allowed Lauren to develop it. This company is phenomenal!</p><div><strong>Vi&#39;TalDerm MD Medical Facial Aesthetics</strong><span>Google review • May 22, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>I highly recommend WebAct! They not only created a beautiful website for me, but they also, quickly respond to any new questions or issues that I may have with updating my website. They made it very easy for me to add a new font that wasn&#39;t previously offered. Their customer service is outstanding and you cannot beat their prices. DO IT!!</p><div><strong>Dena</strong><span>Google review • Oct 24, 2020</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>The guys from webact have been great to work with. We have worked with Tyler for the last four months and are very happy with all the services he provided. We have worked with 4 other companies and WebAct is the best so far. All the services we requested were completed in a professional, timely manner. We highly recommend WebAct.</p><div><strong>Nazim Alazov</strong><span>Google review • May 15, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>As an author and blogger I quickly outgrew my home-made Word Press website. The constant upgrading of plugins, the restricted styles available, and the overall fragility of the platform became burdensome. I researched local website builders in the Denver area and chose WebAct. They migrated my website to their platform and gave it a clean, modern look. The results were stunning. It is good to have professionals backing you up when you need it. I highly recommend them for your own needs.</p><div><strong>Bruno Jambor</strong><span>Google review • Feb 8, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>I have nothing but rave reviews for WebAct and the service that they provided for me. I am a unbelievably novice in the website business. I&#39;m 60 and this is my first attempt to starting a needlepoint design studio and starting over in business. WebAct has been there for me, stupid questions and all. Brian and my wonderful web mistress, Beth took my ideas and laid them out beautifully. If I had a stupid question, I asked and they lovingly guided this old fashioned lady into the abyss of internet marketing. Also, I was on a very tight budget, and they worked with my budget and that&#39;s so very important for me, working on a shoe string budget. All I can say is.....let the great people at WebAct build and structure your ideas and make it happen, Cap&#39;n.</p><div><strong>Vicki Schoenwald</strong><span>Google review • Mar 15, 2018</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>We have been blown away by how much better our website looks and responds! We would wholeheartedly recommend webact for responsive, easy to use, web design for beginners! We were very nervous about transitioning from our old web site, but Tyler and Shane made the transition very easy for us! We absolutely love it! 2 thumbs up!!!</p><div><strong>Manor House Apartments</strong><span>Google review • Apr 27, 2016</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>Webact made it easy and so comforting working with them. We were changing out website from Wix (which I highly DO NOT recommend). All the staff we worked with went above and beyond in helping us from the smallest thing to much larger issues that we faced and we were kept updated from the start. Our web designers were amazing and as patient as can be assisting us in the different changes we wanted to make as well as listening to their opinions on what would look best. Needless to say we are thrilled with our new site!!! We thank you so much for all the hard work and effort you all put into making our site amazing!!</p><div><strong>Ariana Waterfall</strong><span>Google review • May 25, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>As an experienced business development professional and marketer, I have seen more false promises in this industry than anywhere ever! Customers don&#39;t understand website marketing or SEO and many website companies overcharge, under explain, and support is a joke. These guys are awesome! They understand business development, marketing, website design and SEO better than any company I have met! What&#39;s more, they are able to explain what they do, how it works, and to recommend specific solutions that are not only pertinent to their businesses, but that take into account their budget and the competitive marketplace. If you are looking for design . . . call these folks and relax! You and your company will be in great hands!</p><div><strong>Debra Rodriguez</strong><span>Google review • Aug 4, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>I&#39;m pleased to express my highest regard and recommendation for Brian Lewis and his Team at WebAct! We have been working with WebAct for the last number of years who built us Duda website templates for the lodging sector - hotels, motels, resorts, lodges, B &amp; B&#39;s and more. Included in this project was the development of Duda custom website widgets that generate the booking widgets (date pickers for checking room availability) which automatically connect to the property&#39;s Booking Engine powered by OnRes&#39; Hotel Management System / PMS. Additionally, WebAct developed turnkey digital marketing solutions for our clients in this sector. Not only are we thrilled with the work of WebAct, our clients love their websites and how OnRes integrates for driving more room reservations! Steve Behrisch, President &amp; CEO, OnRes</p><div><strong>OnRes Systems</strong><span>Google review • Mar 28, 2022</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>Wonderful, creative, and fast work! Tyler helped us design a smooth and functional site in under two days. He helped us build, and taught us how to create on our own! Would recommend to anyone who needs a wonderful site in no time. A++</p><div><strong>Devin Chapnick</strong><span>Google review • Jul 25, 2016</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>When it comes to web design or online advertising WebAct is #1 in quality, price and lead time. I have tried many companies and WebAct is thee best. Fast and efficient work, they accomplish what is discussed in a very quick manner. Thanks guys!</p><div><strong>Walter Kuenzle</strong><span>Google review • Jun 28, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>WebAct does a great job! I was in Silicon Valley recently, and a founder of a major VC firm, someone who&#39;s been coding for decades, told me he was impressed with the website. Coming from him, that is huge praise.</p><div><strong>Tom Campbell</strong><span>Google review • Oct 5, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>These guys are really wonderful and personable. They genuinely care and helped us so much with getting our new non profit website launched. If you feel lost on where to go to get your website built or rebuilt, you won&#39;t go wrong here. Web Act definitely gets my 5 Stars!</p><div><strong>Aid the Children</strong><span>Google review • Oct 4, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>I worked with Tyler to give my 10 year old website a new fresh look that works on all platforms smoothly (PC-Tablet-Mobile). Tyler was very patient with all of my requests, communicated in a timely manner, and had the website up and running smoothly in no time! Thank you Tyler, I hope you get a raise after dealing with me! :-)</p><div><strong>Christy Stregles</strong><span>Google review • Nov 21, 2016</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>I know how overwhelming can be to create a website. Webact and their team (Rebecca :) where there for me all the way. Spending all the time that I needed, giving me feedback and helping me with editing. All around a great company to work with. Look no further! they&#39;re the real deal and the best value. Thank you so much !</p><div><strong>Andrea Padilla</strong><span>Google review • May 5, 2020</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>&quot;A Small Business Dream&quot;. From the first day they listened to everything we had to stay and in return helped to brainstorm ideas for our website. In the end we received the exact website we needed and the professional service we only hope to get from other businesses. I would recommend this team to anyone and everyone.</p><div><strong>Gabriel Massie</strong><span>Google review • May 16, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>I highly recommend Webact! They made the process of changing over my website from another host so easy. There were moments that I didn&#39;t exactly know what I wanted and they were patient with me. They educated me as needed without talking down to me and offered great suggestions that put me at ease. They are professional and approachable.</p><div><strong>Dena Gould</strong><span>Google review • Jul 26, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>I found Webact online and it was a great experience! My website was created specifically to match my business needs. Customer service was always great. I would recommend webact to anyone needing a website.</p><div><strong>Simone Miller</strong><span>Google review • May 15, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>What a face lift these folks gave our website! Brand-new look with none of the pain or false plastic finish. Outstanding customer service to boot!</p><div><strong>Laura Hickey</strong><span>Google review • Apr 22, 2016</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>The place to go for a website hands down. They set up the website for my company. Zero worry, great prices and the best customer service out there. Thank you WebAct!!!!!!</p><div><strong>Absolute Home Care, LLC</strong><span>Google review • Jun 9, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>I am very happy with the service that I get from Web Act. I&#39;m so glad I chose them to do my web page if I have any questions them quickly and efficiently.</p><div><strong>Linda Lemos</strong><span>Google review • May 15, 2017</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>Ease of use, support and graphic design are exactly what my small business needs right now. Highly recommended.</p><div><strong>Michael Dolan</strong><span>Google review • Mar 19, 2018</span></div></article><article class="google-review-card" data-rating="5" aria-hidden="true"><div class="google-review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>Professional, timely and easy to work with. Am very happy with my experience and would highly recommend!</p><div><strong>I wang</strong><span>Google review • Jun 30, 2017</span></div></article>
+    </div>
+    <div class="google-review-controls" aria-label="Google review controls">
+      <button type="button" data-google-review-prev aria-label="Previous five-star review">‹</button>
+      <button type="button" data-google-review-next aria-label="Next five-star review">›</button>
+    </div>
+  </div>
+</section>
+<section class="home-cta">
+  <div>
+    <p class="eyebrow">Get started</p>
+    <h2>Exceed your goals with the right website and marketing partner.</h2>
+    <p>Start with design, ads, marketing, pricing, widgets, domains, or email. WebAct can route the request to the right lane.</p>
+  </div>
+  <a class="button primary" href="pages/contact.html">Schedule a consultation</a>
+</section>
+<section class="logo-rotator partner-rotator" aria-label="WebAct partnered with logos">
+  <div class="logo-rotator-heading">
+    <p class="eyebrow">Partnered With</p>
+  </div>
+  <div class="logo-marquee">
+    <div class="logo-track logo-track-reverse"><div class="logo-slide"><img src="images/logo-google-partner.png" alt="Google Partner logo"></div><div class="logo-slide"><img src="images/logo-microsoft-partner.png" alt="Microsoft Advertising Partner logo"></div><div class="logo-slide"><img src="images/logo-amazon-ads.png" alt="Amazon Ads Advanced Partner logo"></div><div class="logo-slide"><img src="images/logo-meta-partner.webp" alt="Meta Partner logo"></div><div class="logo-slide"><img src="images/logo-duda-partner.webp" alt="Duda Partner logo"></div><div class="logo-slide"><img src="images/logo-duda.png" alt="Duda logo"></div><div class="logo-slide"><img src="images/logo-google-partner.png" alt="Google Partner logo"></div><div class="logo-slide"><img src="images/logo-microsoft-partner.png" alt="Microsoft Advertising Partner logo"></div><div class="logo-slide"><img src="images/logo-amazon-ads.png" alt="Amazon Ads Advanced Partner logo"></div><div class="logo-slide"><img src="images/logo-meta-partner.webp" alt="Meta Partner logo"></div><div class="logo-slide"><img src="images/logo-duda-partner.webp" alt="Duda Partner logo"></div><div class="logo-slide"><img src="images/logo-duda.png" alt="Duda logo"></div></div>
+  </div>
+</section></main>
+    <footer class="site-footer">
+      <img src="images/logo.png" alt="WebAct">
+      <p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p>
+      <div class="footer-links">
+        <a href="pages/design.html">Design</a>
+        <a href="pages/digital-ads.html">Digital Ads</a>
+        <a href="pages/marketing.html">Marketing</a>
+        <a href="pages/pricing.html">Pricing</a>
+        <a href="pages/addons.html">Add-ons</a>
+      </div>
+    </footer>
+    <script src="js/script.js?v=reviews-layout-fix"></script>
+<script id="webact-promodo-header-script">
+(function(){
+  document.querySelectorAll('[data-webact-promodo-header]').forEach(function(header){
+    var toggle=header.querySelector('[data-webact-menu-toggle]');
+    if(toggle){toggle.addEventListener('click',function(){var open=header.classList.toggle('webact-nav-open');toggle.setAttribute('aria-expanded',open?'true':'false');});}
+    header.querySelectorAll('[data-webact-dropdown]').forEach(function(btn){
+      btn.addEventListener('click',function(e){
+        if(window.matchMedia('(max-width:1060px)').matches){
+          e.preventDefault();
+          var item=btn.closest('.webact-promodo-nav-item');
+          if(item){item.classList.toggle('webact-open');btn.setAttribute('aria-expanded',item.classList.contains('webact-open')?'true':'false');}
+        }
+      });
+    });
+    var search=header.querySelector('[data-webact-search-open]');
+    var close=header.querySelector('[data-webact-search-close]');
+    if(search){search.addEventListener('click',function(){document.body.classList.add('webact-search-open');var input=header.querySelector('.webact-search-row input');if(input){setTimeout(function(){input.focus();},50);}});}
+    if(close){close.addEventListener('click',function(){document.body.classList.remove('webact-search-open');});}
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.body.classList.remove('webact-search-open');}});
+})();
+</script>
+
+<script src="js/webact-promodo-nav.js" defer></script>
+</body>
+</html>
+
+
+
+

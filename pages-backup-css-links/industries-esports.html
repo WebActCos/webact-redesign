@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parking & Mobility Website Design | WebAct</title>
+    <meta name="description" content="Website design, digital ads, Local SEO, and marketing support for esports.">
+    <link rel="stylesheet" href="../css/styles.css">
+<style id="webact-promodo-header-style">
+.webact-promodo-header{position:sticky;top:0;z-index:9999;background:#fff;border-bottom:1px solid #e5edf5;font-family:Inter,Arial,sans-serif}
+.webact-promodo-topbar{background:#061421;color:#fff;font-weight:800;text-align:center;padding:12px 20px;font-size:14px;line-height:1.35}
+.webact-promodo-topbar a{color:#33aee7;text-decoration:none;margin-left:24px;white-space:nowrap}
+.webact-promodo-inner{max-width:1460px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:22px 28px;background:#fff}
+.webact-promodo-logo{display:inline-flex;align-items:center;flex:0 0 auto;text-decoration:none}
+.webact-promodo-logo img{width:230px;max-width:24vw;height:auto;display:block}
+.webact-promodo-nav{display:flex;align-items:center;gap:4px;flex:1}
+.webact-promodo-nav-list{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;width:100%}
+.webact-promodo-nav-item{position:relative}
+.webact-promodo-nav-link,.webact-promodo-drop-trigger{appearance:none;border:0;background:transparent;color:#071421;text-decoration:none;font-weight:850;font-size:16px;line-height:1.1;padding:14px 12px;border-radius:8px;display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;font-family:inherit}
+.webact-promodo-nav-link:hover,.webact-promodo-drop-trigger:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-chevron{border:solid currentColor;border-width:0 2px 2px 0;display:inline-block;padding:4px;transform:rotate(45deg);margin-top:-5px}
+.webact-promodo-menu{display:none;position:absolute;top:100%;left:0;min-width:310px;background:#fff;border:1px solid #dce8f1;box-shadow:0 24px 50px rgba(2,18,32,.14);padding:16px;border-radius:0 0 14px 14px;grid-template-columns:repeat(2,minmax(145px,1fr));gap:6px}
+.webact-promodo-menu a{color:#071421;text-decoration:none;padding:10px 12px;border-radius:8px;font-weight:700;font-size:14px;line-height:1.25}
+.webact-promodo-menu a:hover{background:#eaf7fc;color:#119fd7}
+.webact-promodo-nav-item:hover .webact-promodo-menu,.webact-promodo-nav-item:focus-within .webact-promodo-menu,.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}
+.webact-promodo-actions{display:flex;align-items:center;gap:14px;flex:0 0 auto}
+.webact-promodo-search{background:transparent;border:0;color:#071421;font-weight:850;font-size:16px;cursor:pointer;padding:12px;border-radius:8px;font-family:inherit}
+.webact-promodo-search:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-cta{background:#33abe1;color:#071421;text-decoration:none;font-weight:900;padding:18px 24px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;box-shadow:0 8px 18px rgba(51,171,225,.28)}
+.webact-promodo-cta:hover{background:#249ad0;color:#071421}
+.webact-promodo-menu-toggle{display:none;border:1px solid #cfe0eb;background:#fff;border-radius:8px;width:46px;height:42px;align-items:center;justify-content:center;gap:5px;flex-direction:column;cursor:pointer}
+.webact-promodo-menu-toggle span{width:22px;height:2px;background:#071421;display:block}
+body.webact-search-open .webact-search-overlay{display:flex}
+.webact-search-overlay{display:none;position:fixed;inset:0;z-index:10000;background:rgba(4,17,29,.62);align-items:flex-start;justify-content:center;padding:120px 20px 20px}
+.webact-search-panel{width:min(760px,100%);background:#fff;border-radius:14px;padding:24px;box-shadow:0 28px 70px rgba(0,0,0,.22)}
+.webact-search-row{display:flex;gap:10px}
+.webact-search-row input{flex:1;border:1px solid #cddce7;border-radius:8px;padding:14px 16px;font-size:16px}
+.webact-search-row button,.webact-search-close{border:0;border-radius:8px;padding:14px 18px;font-weight:850;cursor:pointer;font-family:inherit}
+.webact-search-row button{background:#33abe1;color:#071421}.webact-search-close{background:#f2f6f9;color:#071421}
+@media (max-width:1250px){.webact-promodo-inner{padding:18px 20px;gap:14px}.webact-promodo-logo img{width:190px}.webact-promodo-nav-link,.webact-promodo-drop-trigger{font-size:14px;padding:12px 8px}.webact-promodo-cta{padding:15px 18px}}
+@media (max-width:1060px){.webact-promodo-inner{flex-wrap:wrap}.webact-promodo-menu-toggle{display:flex}.webact-promodo-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e5edf5;padding-top:12px}.webact-promodo-header.webact-nav-open .webact-promodo-nav{display:block}.webact-promodo-nav-list{display:block}.webact-promodo-nav-item{border-bottom:1px solid #edf3f7}.webact-promodo-nav-link,.webact-promodo-drop-trigger{width:100%;justify-content:space-between;padding:15px 2px;font-size:16px}.webact-promodo-menu{position:static;box-shadow:none;border:0;border-radius:0;padding:0 0 12px 12px;grid-template-columns:1fr}.webact-promodo-nav-item .webact-promodo-menu{display:none}.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}.webact-promodo-actions{margin-left:auto}.webact-promodo-search{font-size:0}.webact-promodo-search:before{content:'Search';font-size:15px}.webact-promodo-cta{padding:13px 16px}}
+@media (max-width:640px){.webact-promodo-topbar{font-size:12px}.webact-promodo-topbar a{display:inline-block;margin-left:10px}.webact-promodo-logo img{width:160px;max-width:52vw}.webact-promodo-inner{padding:14px}.webact-promodo-actions{width:100%;justify-content:space-between;order:3}.webact-promodo-cta{flex:1}.webact-search-overlay{padding-top:90px}.webact-search-row{flex-direction:column}}
+</style>
+
+<link rel="stylesheet" href="../css/navigation.css">
+<link rel="stylesheet" href="../css/footer.css">
+</head>
+  <body>
+<header class="wa-promodo-header" data-wa-nav>
+  <nav class="wa-promodo-nav" aria-label="Main navigation">
+    <a class="wa-promodo-logo" href="../index.html" aria-label="WebAct home"><img src="../images/webact-logo.png" alt="WebAct"></a>
+    <ul class="wa-promodo-menu" data-wa-menu>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-design">Design</button>
+        <div class="wa-promodo-mega" id="wa-mega-design">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Design</p><h2 class="wa-promodo-mega-title">Design</h2><p class="wa-promodo-mega-text">Website, logo, graphics, and brand systems built for businesses that need a professional web presence.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="design-simple-editor.html">Simple Editor</a>
+              <a href="design-professional-editor.html">Professional Editor</a>
+              <a href="design-website-design.html">Website Design</a>
+              <a href="design-logo-design.html">Logo Design</a>
+              <a href="design-graphic-design.html">Graphic Design</a>
+              <a href="design-branding.html">Branding</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-digital-ads">Digital Ads</button>
+        <div class="wa-promodo-mega" id="wa-mega-digital-ads">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Digital Ads</p><h2 class="wa-promodo-mega-title">Digital Ads</h2><p class="wa-promodo-mega-text">Campaign services for search, social, local services, streaming TV, and retail advertising channels.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="digital-ads-google-advertising.html">Google Advertising</a>
+              <a href="digital-ads-local-services-advertising.html">Local Services Advertising</a>
+              <a href="digital-ads-microsoft-advertising.html">Microsoft Advertising</a>
+              <a href="digital-ads-social-media-advertising.html">Social Media Advertising</a>
+              <a href="digital-ads-amazon-advertising.html">Amazon Advertising</a>
+              <a href="digital-ads-television-advertising.html">Television Advertising</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-marketing">Marketing</button>
+        <div class="wa-promodo-mega" id="wa-mega-marketing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Marketing</p><h2 class="wa-promodo-mega-title">Marketing</h2><p class="wa-promodo-mega-text">SEO, local visibility, listings, business profiles, and email marketing support for steady growth.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="marketing-national-seo.html">National SEO</a>
+              <a href="marketing-local-seo.html">Local SEO</a>
+              <a href="marketing-aeo.html">AEO</a>
+              <a href="marketing-gmb.html">GMB</a>
+              <a href="marketing-local-listings.html">Local Listings</a>
+              <a href="marketing-email-marketing.html">Email Marketing</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-about">About</button>
+        <div class="wa-promodo-mega" id="wa-mega-about">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct About</p><h2 class="wa-promodo-mega-title">About</h2><p class="wa-promodo-mega-text">See WebAct work, resources, knowledge base articles, videos, and client support links.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="about-about-us.html">About WebAct</a>
+              <a href="about-portfolio.html">Portfolio</a>
+              <a href="about-faq.html">FAQ</a>
+              <a href="about-blog.html">Blog</a>
+              <a href="about-website-knowledge-base.html">Website Knowledge Base</a>
+              <a href="about-widget-knowledge-base.html">Widget Knowledge Base</a>
+              <a href="about-how-to-videos.html">How-To Videos</a>
+              <a href="about-login.html">Login</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-pricing">Pricing</button>
+        <div class="wa-promodo-mega" id="wa-mega-pricing">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Pricing</p><h2 class="wa-promodo-mega-title">Pricing</h2><p class="wa-promodo-mega-text">Explore design, marketing, advertising, package, and app service pricing.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="pricing-design.html">Design Pricing</a>
+              <a href="pricing-marketing.html">Marketing Pricing</a>
+              <a href="pricing-advertising.html">Advertising Pricing</a>
+              <a href="pricing-packages.html">Packages</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-industries">Industries</button>
+        <div class="wa-promodo-mega" id="wa-mega-industries">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Industries</p><h2 class="wa-promodo-mega-title">Industries</h2><p class="wa-promodo-mega-text">Industry-specific website design, advertising, marketing, apps, and case-study examples.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="industries.html">All Industries</a>
+              <a href="industries-jewelry-stores.html">Jewelry Stores</a>
+              <a href="industries-hvac.html">HVAC</a>
+              <a href="industries-roofing.html">Roofing</a>
+              <a href="industries-plumbing.html">Plumbing</a>
+              <a href="industries-real-estate.html">Real Estate</a>
+              <a href="../../industries/non-profit/index.html">Non Profits</a>
+              <a href="industries-home-care.html">Home Care</a>
+              <a href="industries-parking-mobility.html">Parking &amp; Mobility</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item">
+        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-add-ons">Add-ons</button>
+        <div class="wa-promodo-mega" id="wa-mega-add-ons">
+          <div class="wa-promodo-mega-inner">
+            <div><p class="wa-promodo-mega-kicker">WebAct Add-ons</p><h2 class="wa-promodo-mega-title">Add-ons</h2><p class="wa-promodo-mega-text">Domains, email, widgets, and WebAct app store options that extend your website.</p></div>
+            <div class="wa-promodo-mega-grid">
+              <a href="addons-domain-names.html">Domain Names</a>
+              <a href="addons-professional-email.html">Professional Email</a>
+              <a href="addons-widgets.html">Widgets</a>
+              <a href="addons-website-app-store.html">Website App Store</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="wa-promodo-actions">
+      <a class="wa-promodo-cta" href="contact.html">Get Started</a>
+      <button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle><span></span></button>
+    </div>
+  </nav>
+</header>
+<main><section class="page-hero">
+  <div>
+    <p class="breadcrumb"><a href="../index.html">Home</a> / Industries</p>
+    <p class="eyebrow">Esports Website Design</p>
+    <h1>Parking & Mobility Website Design</h1>
+    <p class="hero-lede">WebAct creates esport website design, digital advertising, Local SEO, and marketing paths that help esports turn online visitors into calls, forms, bookings, consultations, and qualified leads.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="contact.html">Start a conversation</a>
+      <a class="button secondary" href="pricing.html">View pricing</a>
+    </div>
+  </div>
+  <img src="../images/parking-mobility.png" alt="ParkingBoxx parking and mobility website preview">
+</section>
+<section class="section website-design-intro">
+  <div class="service-link-row"><a href="#industry-design">Website Design</a><a href="#industry-ads">Digital Ads</a><a href="#industry-local-seo">Local SEO</a><a href="#industry-work">Similar Work</a><a href="#industry-faq">FAQ</a><a href="contact.html">Request a proposal</a></div>
+  <div class="website-design-copy">
+    <p class="eyebrow">Esports Web Design</p>
+    <h2>SEO-focused esport website design built around trust, clarity, and conversion.</h2>
+    <p>WebAct helps esports build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales. A strong esport website should include clear pages, proof points, photos or examples, service or product details, reviews, location signals, and fast next steps. WebAct can connect the website with digital ads, Local SEO, listings, apps, widgets, domains, and email support so customers can find the business and take action.</p>
+    <div class="detail-list">
+      <span>website design for esports</span><span>esport website design company</span><span>esport web design services</span><span>digital ads for esports</span><span>local SEO for esports</span><span>esport marketing packages</span>
+    </div>
+  </div>
+</section>
+<section id="industry-design" class="section website-benefits-section">
+  <div class="section-heading compact"><p class="eyebrow">Industry Services</p><h2>Website design, digital ads, and Local SEO for esports.</h2><p>Each section is written around the main search phrases a buyer may use when comparing website design and marketing help for this industry.</p></div>
+  <div class="benefit-grid">
+    <article><span></span><h3>Website Design for Esports</h3><p>A esport website should make the business clear fast: what you offer, where you serve, why people should trust you, and what step they should take next. WebAct can create responsive layouts, service or product pages, galleries, calls to action, and conversion paths built around calls, forms, bookings, consultations, and qualified leads.</p><ul><li>Responsive website design</li><li>Clear service or product pages</li><li>Trust-building proof points</li><li>Fast contact and quote paths</li></ul></article><article><span></span><h3>Esport Website Design Company</h3><p>WebAct works as a practical website design company for esports, combining design, content, technical setup, launch support, and ongoing updates. The goal is a site that looks professional and supports search, ads, local visibility, and daily customer questions.</p><ul><li>Design and content structure</li><li>Launch support</li><li>Mobile-friendly pages</li><li>Ongoing website updates</li></ul></article><article><span></span><h3>Esport Web Design Services</h3><p>Web design services for esports can include new website builds, redesigns, landing pages, portfolio or gallery pages, forms, maps, FAQs, reviews, blog content, and app or widget setup. Each page should support the way customers compare options before contacting you.</p><ul><li>Landing pages</li><li>Forms and lead capture</li><li>Galleries and testimonials</li><li>FAQs and local content</li></ul></article><article><span></span><h3>Digital Ads for Esports</h3><p>Digital advertising can help esports reach people who are actively searching, comparing, or ready to buy. WebAct can align Google, Microsoft, Local Services, social, Amazon, or streaming TV campaigns with landing pages built for measurable next steps.</p><ul><li>Google and Microsoft Ads</li><li>Social media campaigns</li><li>Local Services Ads</li><li>Landing page tracking</li></ul></article><article><span></span><h3>Local SEO for Esports</h3><p>Local SEO for esports helps the business appear in nearby searches, map results, service-area searches, and local buyer research. WebAct can support Google Business Profile optimization, location pages, listing consistency, review signals, and content that answers real customer questions.</p><ul><li>Google Business Profile</li><li>Location and service pages</li><li>Local listings</li><li>Review signals</li></ul></article><article><span></span><h3>Esport Website Design Price</h3><p>Pricing depends on the number of pages, design complexity, content needs, integrations, apps, widgets, advertising, and ongoing marketing support. WebAct separates design pricing from package pricing so each esport can choose the right starting point.</p><ul><li>Design pricing</li><li>Marketing packages</li><li>Advertising support</li><li>App and widget add-ons</li></ul></article>
+  </div>
+</section>
+<section id="industry-local-seo" class="section website-benefits-section">
+  <div class="section-heading compact"><p class="eyebrow">How WebAct Helps</p><h2>What esports need online to earn trust and leads.</h2></div>
+  <div class="benefit-grid">
+    <article><span></span><h3>Website Structure</h3><p>WebAct can create responsive pages for esports that explain services, show proof, answer buyer questions, and guide visitors toward contact.</p></article><article><span></span><h3>Local SEO</h3><p>Location pages, service-area content, Google Business Profile support, and local listings can help esports appear where customers are searching.</p></article><article><span></span><h3>Advertising</h3><p>Google, Microsoft, Local Services Ads, social, Amazon, or TV campaigns can be matched to how esports buyers compare options.</p></article><article><span></span><h3>Reputation Signals</h3><p>Reviews, case studies, certifications, galleries, team bios, before-and-after proof, and customer education can build trust before a lead reaches out.</p></article><article><span></span><h3>Leads and Consultations</h3><p>Websites for esports need clear service pages, lead forms, click-to-call buttons, proof, FAQs, and strong next steps.</p></article><article><span></span><h3>Ongoing Support</h3><p>WebAct can support updates, domains, email, widgets, app installs, landing pages, reporting, and campaign improvements after launch.</p></article>
+  </div>
+</section>
+<section id="industry-ads" class="section website-metrics-section">
+  <div><p class="eyebrow">Digital Growth Plan</p><h2>Turn the esport website into a lead path.</h2><p>WebAct can connect the website, Local SEO, ads, listings, content, and app tools so the page supports search visibility and paid traffic.</p></div>
+  <div class="metric-grid"><article><strong>SEO</strong><span>Service and location pages</span></article><article><strong>Ads</strong><span>Search, social, local, and retargeting</span></article><article><strong>Trust</strong><span>Reviews, galleries, FAQs, and proof</span></article><article><strong>Leads</strong><span>Calls, forms, quotes, and bookings</span></article></div>
+</section>
+<section id="industry-tools" class="section website-benefits-section">
+  <div class="section-heading compact"><p class="eyebrow">Tools & Apps</p><h2>Recommended tools for esports.</h2><p>These tools can be mixed into the website, marketing plan, or app store setup based on the workflow.</p></div>
+  <div class="benefit-grid">
+    <article><span></span><h3>Website App Store</h3><p>Add reviews, booking, forms, popups, feeds, memberships, ecommerce, accessibility, and other site apps as the workflow grows.</p><a class="text-link" href="addons-website-app-store.html">View option</a></article><article><span></span><h3>Widgets</h3><p>Use WebAct widgets for forms, galleries, sliders, popups, reviews, calendars, navigation, and conversion tools.</p><a class="text-link" href="addons-widgets.html">View option</a></article><article><span></span><h3>Packages</h3><p>Pair the website with advertising, Local SEO, listings, profile setup, reporting, and monthly growth support.</p><a class="text-link" href="pricing-packages.html">View option</a></article>
+  </div>
+</section>
+<section id="industry-work" class="section featured-work-section">
+  <div class="section-heading compact"><p class="eyebrow">Similar Website</p><h2>A WebAct portfolio example related to this industry.</h2></div>
+  <div class="featured-work-list">
+    <article class="featured-work-card"><div class="featured-work-monitor"><img src="https://lirp.cdn-website.com/6495f877/dms3rep/multi/opt/Esports-Epleyer-1920w.png" alt="Esports Epleyer case study"></div><div><p class="eyebrow">Fitness &amp; Sports</p><h3>Esports Epleyer</h3><p>Esports Epleyer is part of the WebAct portfolio, showing work in the fitness &amp; sports category with clear presentation, mobile-friendly structure, and easy next steps for customers.</p><a href="about-portfolio-esports-epleyer.html">View case study</a></div></article>
+  </div>
+</section>
+<section class="section why-webact-section">
+  <div class="why-webact-media"><img src="../images/industry-esports.png" alt="Esports website design preview"></div>
+  <div><p class="eyebrow">Pricing & Next Step</p><h2>Build a plan for esports with the right pricing path.</h2><div class="why-points"><article><h3>Design pricing</h3><p>Use this when the website structure, pages, or brand presentation needs to be created or redesigned.</p><a class="text-link" href="pricing-design.html">View design pricing</a></article><article><h3>Package pricing</h3><p>Use this when the website should be paired with advertising, Local SEO, listings, and campaign reporting.</p><a class="text-link" href="pricing-packages.html">View packages</a></article><article><h3>Advertising pricing</h3><p>Use this when Google, Microsoft, social, Local Services, Amazon, or TV ads need dedicated campaign planning.</p><a class="text-link" href="pricing-advertising.html">View advertising pricing</a></article><article><h3>Marketing pricing</h3><p>Use this when Local SEO, National SEO, GMB, listings, AEO, or email support should continue after launch.</p><a class="text-link" href="pricing-marketing.html">View marketing pricing</a></article></div></div>
+</section>
+<section id="industry-faq" class="section faq-section">
+  <div class="section-heading compact"><p class="eyebrow">FAQ</p><h2>Questions about website design for esports.</h2></div>
+  <div class="faq-accordion">
+    <details open><summary>What should a esport website include?</summary><p>A strong esport website should include clear services or products, trust-building proof, photos or galleries, reviews, FAQs, contact options, location information, and pages that help customers understand why they should choose the business. WebAct can plan that structure through <a class="text-link" href="design-website-design.html">website design</a>.</p></details><details ><summary>Can WebAct help with digital ads for esports?</summary><p>Yes. WebAct can connect <a class="text-link" href="digital-ads.html">digital advertising</a> campaigns to focused landing pages so ads are easier to track and visitors have a clear next step.</p></details><details ><summary>Do esports need Local SEO?</summary><p>Most local or service-area businesses benefit from <a class="text-link" href="marketing-local-seo.html">Local SEO</a> because customers often compare nearby providers, map listings, reviews, hours, locations, and service pages before they call or visit.</p></details><details ><summary>How much does website design for esports cost?</summary><p>Pricing depends on the scope of the website, number of pages, content, design needs, integrations, and whether advertising or marketing support is included. Start with <a class="text-link" href="pricing-design.html">design pricing</a> or compare ongoing <a class="text-link" href="pricing-packages.html">package pricing</a>.</p></details><details ><summary>How can esports show up better on Google Maps?</summary><p><a class="text-link" href="marketing-gmb.html">Google Business Profile support</a>, location pages, reviews, categories, photos, services, and consistent citations can all support map visibility for esports. WebAct can also help with <a class="text-link" href="marketing-local-listings.html">Local Listings</a>.</p></details><details ><summary>Should esports use Google Ads?</summary><p><a class="text-link" href="digital-ads-google-advertising.html">Google Advertising</a> can help esports reach people who are actively searching for products, services, locations, appointments, or quotes. The best campaigns usually connect ads to industry-specific landing pages.</p></details><details ><summary>What pages should a esport website have for SEO?</summary><p>A esport website often needs a home page, service or product pages, location pages, FAQ content, testimonials, gallery or portfolio proof, and contact pages. WebAct can pair those pages with <a class="text-link" href="marketing-local-seo.html">Local SEO</a> or <a class="text-link" href="marketing-national-seo.html">National SEO</a>.</p></details><details ><summary>Can WebAct create landing pages for esports?</summary><p>Yes. Landing pages can be built for esports around a campaign, service, product, location, offer, event, or seasonal promotion. They can be connected to <a class="text-link" href="digital-ads-google-advertising.html">Google Advertising</a>, social ads, email, or Local SEO campaigns.</p></details><details ><summary>Can WebAct add apps or widgets to a esport website?</summary><p>Yes. WebAct can add <a class="text-link" href="addons-widgets.html">widgets</a> and apps from the <a class="text-link" href="addons-website-app-store.html">Website App Store</a> for reviews, forms, popups, galleries, booking, accessibility, ecommerce, memberships, and other conversion tools.</p></details><details ><summary>How can esports turn more visitors into leads?</summary><p>Clear calls to action, fast forms, click-to-call buttons, trust proof, reviews, galleries, FAQs, offers, and focused landing pages can help convert more visitors. WebAct can combine those pieces with <a class="text-link" href="design-website-design.html">website design</a> and <a class="text-link" href="digital-ads.html">digital advertising</a>.</p></details><details ><summary>Can WebAct help with email follow-up for esports?</summary><p>Yes. <a class="text-link" href="marketing-email-marketing.html">Email Marketing</a> can support newsletters, promotions, lead follow-up, customer reminders, review requests, and repeat-customer campaigns after the website starts generating traffic.</p></details><details ><summary>Can WebAct redesign an existing esport website?</summary><p>Yes. WebAct can review the current website, keep useful content, improve the design, rebuild the page structure, add stronger conversion paths, and connect the redesign to <a class="text-link" href="marketing-local-seo.html">Local SEO</a>, ads, or <a class="text-link" href="addons-widgets.html">widgets</a>.</p></details><details ><summary>Can I see similar WebAct work before starting?</summary><p>Yes. The <a class="text-link" href="about-portfolio.html">portfolio</a> shows examples of WebAct website work across industries. Each industry page also includes a related portfolio example where available.</p></details><details ><summary>How do esports get started with WebAct?</summary><p>Share the website, location, goals, current marketing, services or products, and any similar sites you like. Then <a class="text-link" href="contact.html">contact WebAct</a> to request a proposal or pricing recommendation.</p></details>
+  </div>
+</section>
+<section class="contact-section industry-contact-section" id="industry-contact">
+  <div>
+    <p class="eyebrow">Start Your Esports Project</p>
+    <h2>Talk with WebAct about website design, SEO, ads, and pricing for esports.</h2>
+    <p>Use this form to share your current website, goals, timeline, location, services, products, and the type of support you need. WebAct can recommend the right design, advertising, marketing, app, widget, or pricing path.</p>
+    <div class="contact-details">
+      <span>Website design</span>
+      <span>Digital ads</span>
+      <span>Local SEO</span>
+      <span>Pricing support</span>
+    </div>
+  </div>
+  <form class="contact-form" aria-label="Esports project contact form">
+    <h3>Request a Esport Proposal</h3>
+    <div class="form-row">
+      <label>Name:<input type="text" name="name" autocomplete="name"></label>
+      <label>Email:<input type="email" name="email" autocomplete="email"></label>
+    </div>
+    <div class="form-row">
+      <label>Phone:<input type="tel" name="phone" autocomplete="tel"></label>
+      <label>Business Name:<input type="text" name="business" autocomplete="organization"></label>
+    </div>
+    <label>Current Website:<input type="url" name="website" placeholder="https://"></label>
+    <label>What do you need?
+      <select name="service">
+        <option>Website design or redesign</option>
+        <option>Digital advertising</option>
+        <option>Local SEO or Google Business Profile</option>
+        <option>Marketing package</option>
+        <option>Apps, widgets, or add-ons</option>
+        <option>Not sure yet</option>
+      </select>
+    </label>
+    <label>Message:<textarea name="message" rows="6" placeholder="Tell us about your goals, location, timeline, and what you want the website or marketing to accomplish."></textarea></label>
+    <fieldset class="sms-consent-field">
+      <legend>SMS Consent</legend>
+      <label><input type="radio" name="sms-consent" value="yes"> Yes I agree to receive SMS messages from WebAct</label>
+      <label><input type="radio" name="sms-consent" value="no"> I do not agree to receive SMS messages from WebAct</label>
+    </fieldset>
+    <button class="button primary" type="button">Send Message</button>
+  </form>
+</section></main>
+    <footer class="site-footer">
+      <img src="../images/logo.png" alt="WebAct">
+      <p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p>
+      <div class="footer-links">
+        <a href="design.html">Design</a>
+        <a href="digital-ads.html">Digital Ads</a>
+        <a href="marketing.html">Marketing</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="addons.html">Add-ons</a>
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+<script id="webact-promodo-header-script">
+(function(){
+  document.querySelectorAll('[data-webact-promodo-header]').forEach(function(header){
+    var toggle=header.querySelector('[data-webact-menu-toggle]');
+    if(toggle){toggle.addEventListener('click',function(){var open=header.classList.toggle('webact-nav-open');toggle.setAttribute('aria-expanded',open?'true':'false');});}
+    header.querySelectorAll('[data-webact-dropdown]').forEach(function(btn){
+      btn.addEventListener('click',function(e){
+        if(window.matchMedia('(max-width:1060px)').matches){
+          e.preventDefault();
+          var item=btn.closest('.webact-promodo-nav-item');
+          if(item){item.classList.toggle('webact-open');btn.setAttribute('aria-expanded',item.classList.contains('webact-open')?'true':'false');}
+        }
+      });
+    });
+    var search=header.querySelector('[data-webact-search-open]');
+    var close=header.querySelector('[data-webact-search-close]');
+    if(search){search.addEventListener('click',function(){document.body.classList.add('webact-search-open');var input=header.querySelector('.webact-search-row input');if(input){setTimeout(function(){input.focus();},50);}});}
+    if(close){close.addEventListener('click',function(){document.body.classList.remove('webact-search-open');});}
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.body.classList.remove('webact-search-open');}});
+})();
+</script>
+
+<script src="../js/webact-promodo-nav.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+
