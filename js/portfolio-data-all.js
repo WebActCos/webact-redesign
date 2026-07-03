@@ -1,5 +1,5 @@
 ﻿window.webactPortfolioRows = [
-  ["2go Coconut","Restaurant","/webact-redesign/Resources/images/2goCoconut.png",""],
+  ["2go Coconut","Ecommerce","/webact-redesign/Resources/images/2goCoconut.png",""],
   ["360 Sales Advantage","Professional Services","/webact-redesign/Resources/images/360 sales advantage-1920w.png",""],
   ["A Breed Apart Papillons","Pet Services","/webact-redesign/Resources/images/a-breed-apart-papillons-1920w.png",""],
   ["A CALIFORNIA Driving School","Driving School","/webact-redesign/Resources/images/A-CALIFORNIA-Driving-School-1920w.png",""],
@@ -250,6 +250,7 @@
   ["Zaika Indian Cuisine","Restaurant","/webact-redesign/Resources/images/ZaikaIndianCuisine-1920w.png",""],
   ["Zaika Littleton","Restaurant","/webact-redesign/Resources/images/zaikaLittleton-1920w.png",""]
 ];
+
 
 
 

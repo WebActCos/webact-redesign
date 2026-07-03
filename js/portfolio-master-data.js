@@ -2,7 +2,7 @@
   {
     "name": "2go Coconut",
     "slug": "2go-coconut",
-    "industry": "Restaurant",
+    "industry": "Ecommerce",
     "image": "/webact-redesign/Resources/images/2goCoconut.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -9750,6 +9750,7 @@
     }
   }
 ];
+
 
 
 
