@@ -17,3 +17,7 @@ header-*-issues.csv
 
 # Local header/footer audit reports
 header-*-issues.csv
+
+# Local audit files
+*audit*.csv
+*issues.csv
