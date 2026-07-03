@@ -175,6 +175,10 @@
 
 
 
+
+
+
+
 <div id="case-root"></div>
 <div class="lightbox" id="image-lightbox"><button type="button" id="lightbox-close">Close</button><img id="lightbox-image" src="" alt=""></div>
 <footer class="wa-global-footer">
@@ -329,9 +333,15 @@
 
 
 
+
+
+
+
+
 <script src="../script.js?v=reviews-layout-fix"></script>
 <script src="../js/portfolio-data.js?v=old-fallback"></script>
 <script src="../js/portfolio-data-all.js?v=full-250-case-screenshot-only-v1"></script>
+<script src="../js/portfolio-tag-source.js"></script>
 <script src="./industry-overrides.js?v=screenshot-only-v1"></script>
 <script src="../js/portfolio-master-data.js?v=master-data-case-screenshot-only-v1"></script>
 <script>
@@ -511,7 +521,37 @@ render();
 })();
 </script>
 <script src="../assets/js/webact-promodo-nav.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  setTimeout(function(){
+    const params = new URLSearchParams(location.search);
+    const slug = (params.get("project") || "").toLowerCase();
+
+    const projects = []
+      .concat(window.webactPortfolioProjects || [])
+      .concat(window.webactPortfolioMasterData || [])
+      .concat(window.portfolioMasterData || []);
+
+    const project = projects.find(function(item){
+      const name = String(item.name || item.title || "").toLowerCase();
+      const itemSlug = String(item.slug || name.replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")).toLowerCase();
+      return itemSlug === slug || name.replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"") === slug;
+    });
+
+    const tag = window.webactGetPortfolioTag ? window.webactGetPortfolioTag(project) : "";
+    if(!tag) return;
+
+    document.querySelectorAll(
+      "[data-industry], [data-category], .case-study-industry, .case-study-category, .portfolio-industry, .portfolio-category, .project-industry, .project-category"
+    ).forEach(function(el){
+      el.textContent = tag;
+    });
+  }, 250);
+});
+</script>
 </body>
 </html>
+
+
 
 
