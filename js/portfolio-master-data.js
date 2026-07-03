@@ -1,9 +1,9 @@
-window.webactPortfolioMaster = [
+﻿window.webactPortfolioMaster = [
   {
     "name": "2go Coconut",
     "slug": "2go-coconut",
     "industry": "Restaurant",
-    "image": "../../Resources/images/2goCoconut.png",
+    "image": "Resources/images/2goCoconut.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -42,7 +42,7 @@ window.webactPortfolioMaster = [
     "name": "360 Sales Advantage",
     "slug": "360-sales-advantage",
     "industry": "Professional Services",
-    "image": "../../Resources/images/360 sales advantage-1920w.png",
+    "image": "Resources/images/360 sales advantage-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -81,7 +81,7 @@ window.webactPortfolioMaster = [
     "name": "A Breed Apart Papillons",
     "slug": "a-breed-apart-papillons",
     "industry": "Pet Services",
-    "image": "../../Resources/images/a-breed-apart-papillons-1920w.png",
+    "image": "Resources/images/a-breed-apart-papillons-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -120,7 +120,7 @@ window.webactPortfolioMaster = [
     "name": "A CALIFORNIA Driving School",
     "slug": "a-california-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/A-CALIFORNIA-Driving-School-1920w.png",
+    "image": "Resources/images/A-CALIFORNIA-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -159,7 +159,7 @@ window.webactPortfolioMaster = [
     "name": "A Dog's Day Out",
     "slug": "a-dog-s-day-out",
     "industry": "Pet Services",
-    "image": "../../Resources/images/WebactADogsDayOut-1920w.png",
+    "image": "Resources/images/WebactADogsDayOut-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -198,7 +198,7 @@ window.webactPortfolioMaster = [
     "name": "A Pup's Valley",
     "slug": "a-pup-s-valley",
     "industry": "Pet Services",
-    "image": "../../Resources/images/WebactAPupsValley-1920w.png",
+    "image": "Resources/images/WebactAPupsValley-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -237,7 +237,7 @@ window.webactPortfolioMaster = [
     "name": "Abdul Electric",
     "slug": "abdul-electric",
     "industry": "Electrical",
-    "image": "../../Resources/images/WebactAbdulElectric-1920w.png",
+    "image": "Resources/images/WebactAbdulElectric-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -276,7 +276,7 @@ window.webactPortfolioMaster = [
     "name": "Absolute Home Care",
     "slug": "absolute-home-care",
     "industry": "Home Care",
-    "image": "../../Resources/images/absoluteHomeCare-1920w.png",
+    "image": "Resources/images/absoluteHomeCare-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -315,7 +315,7 @@ window.webactPortfolioMaster = [
     "name": "Absolute Pest Control Services",
     "slug": "absolute-pest-control-services",
     "industry": "Pest Control",
-    "image": "../../Resources/images/absolutePestControlServices-1920w.png",
+    "image": "Resources/images/absolutePestControlServices-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -354,7 +354,7 @@ window.webactPortfolioMaster = [
     "name": "Ace Pet Services",
     "slug": "ace-pet-services",
     "industry": "Pet Services",
-    "image": "../../Resources/images/ace pet services-1920w.png",
+    "image": "Resources/images/ace pet services-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -393,7 +393,7 @@ window.webactPortfolioMaster = [
     "name": "Aces Driving School",
     "slug": "aces-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/ACES-DRIVING-SCHOOL-1920w.png",
+    "image": "Resources/images/ACES-DRIVING-SCHOOL-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -432,7 +432,7 @@ window.webactPortfolioMaster = [
     "name": "Advanced Business Systems",
     "slug": "advanced-business-systems",
     "industry": "Professional Services",
-    "image": "../../Resources/images/a-b-s-1920w.png",
+    "image": "Resources/images/a-b-s-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -471,7 +471,7 @@ window.webactPortfolioMaster = [
     "name": "Aid The Children",
     "slug": "aid-the-children",
     "industry": "Nonprofit",
-    "image": "../../Resources/images/Aid-The-Children-1920w.png",
+    "image": "Resources/images/Aid-The-Children-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -510,7 +510,7 @@ window.webactPortfolioMaster = [
     "name": "Air Techs HVAC",
     "slug": "air-techs-hvac",
     "industry": "HVAC",
-    "image": "../../Resources/images/airTechsHvac-1920w.png",
+    "image": "Resources/images/airTechsHvac-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -549,7 +549,7 @@ window.webactPortfolioMaster = [
     "name": "All Concrete Works & Landscaping",
     "slug": "all-concrete-works-and-landscaping",
     "industry": "Home Services",
-    "image": "../../Resources/images/ALL-CONCRETE-WORKS---LANDSCAPING-1920w.png",
+    "image": "Resources/images/ALL-CONCRETE-WORKS---LANDSCAPING-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -588,7 +588,7 @@ window.webactPortfolioMaster = [
     "name": "All Go Transportation",
     "slug": "all-go-transportation",
     "industry": "Business",
-    "image": "../../Resources/images/AllGoTransport-1920w.png",
+    "image": "Resources/images/AllGoTransport-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -627,7 +627,7 @@ window.webactPortfolioMaster = [
     "name": "All-Star Pizza",
     "slug": "all-star-pizza",
     "industry": "Restaurant",
-    "image": "../../Resources/images/allStarPizza-1920w.png",
+    "image": "Resources/images/allStarPizza-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -666,7 +666,7 @@ window.webactPortfolioMaster = [
     "name": "Alta Partners",
     "slug": "alta-partners",
     "industry": "Professional Services",
-    "image": "../../Resources/images/Alta_Partners-1920w.png",
+    "image": "Resources/images/Alta_Partners-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -705,7 +705,7 @@ window.webactPortfolioMaster = [
     "name": "American Sewer",
     "slug": "american-sewer",
     "industry": "Plumbing",
-    "image": "../../Resources/images/WebactAmericanSewer-1920w.png",
+    "image": "Resources/images/WebactAmericanSewer-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -744,7 +744,7 @@ window.webactPortfolioMaster = [
     "name": "Andree Hudson Art",
     "slug": "andree-hudson-art",
     "industry": "Business",
-    "image": "../../Resources/images/Andree_Hudson_Art-1920w.png",
+    "image": "Resources/images/Andree_Hudson_Art-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -783,7 +783,7 @@ window.webactPortfolioMaster = [
     "name": "Apex Denver Locksmith",
     "slug": "apex-denver-locksmith",
     "industry": "Locksmith",
-    "image": "../../Resources/images/Apex_Denver_Locksmith-1920w.png",
+    "image": "Resources/images/Apex_Denver_Locksmith-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -822,7 +822,7 @@ window.webactPortfolioMaster = [
     "name": "Ariana Waterfall",
     "slug": "ariana-waterfall",
     "industry": "Water Treatment",
-    "image": "../../Resources/images/arianaWaterfall-9f2a1f5e-1920w.png",
+    "image": "Resources/images/arianaWaterfall-9f2a1f5e-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -861,7 +861,7 @@ window.webactPortfolioMaster = [
     "name": "Aspire Counseling",
     "slug": "aspire-counseling",
     "industry": "Business",
-    "image": "../../Resources/images/AspireCounseling-1920w.png",
+    "image": "Resources/images/AspireCounseling-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -900,7 +900,7 @@ window.webactPortfolioMaster = [
     "name": "Aspire Hope For Kids",
     "slug": "aspire-hope-for-kids",
     "industry": "Business",
-    "image": "../../Resources/images/Aspire-Hope-For-Kids-1920w.png",
+    "image": "Resources/images/Aspire-Hope-For-Kids-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -939,7 +939,7 @@ window.webactPortfolioMaster = [
     "name": "Atlee Care",
     "slug": "atlee-care",
     "industry": "Healthcare",
-    "image": "../../Resources/images/Atlee-Care-1920w.png",
+    "image": "Resources/images/Atlee-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -978,7 +978,7 @@ window.webactPortfolioMaster = [
     "name": "Axel Medical Transportation",
     "slug": "axel-medical-transportation",
     "industry": "Healthcare",
-    "image": "../../Resources/images/WebactAxelMedicalTransport-1920w.png",
+    "image": "Resources/images/WebactAxelMedicalTransport-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1017,7 +1017,7 @@ window.webactPortfolioMaster = [
     "name": "AY Home Health Care",
     "slug": "ay-home-health-care",
     "industry": "Healthcare",
-    "image": "../../Resources/images/AY-Home-Health-Care-1920w.png",
+    "image": "Resources/images/AY-Home-Health-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1056,7 +1056,7 @@ window.webactPortfolioMaster = [
     "name": "Barbarians Cave Surf",
     "slug": "barbarians-cave-surf",
     "industry": "Restaurant",
-    "image": "../../Resources/images/WebactBarbariansCaveSurf-e6d3047a-1920w.png",
+    "image": "Resources/images/WebactBarbariansCaveSurf-e6d3047a-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1095,7 +1095,7 @@ window.webactPortfolioMaster = [
     "name": "Barner Moving",
     "slug": "barner-moving",
     "industry": "Restaurant",
-    "image": "../../Resources/images/WebactBarnerMoving-1920w.png",
+    "image": "Resources/images/WebactBarnerMoving-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1134,7 +1134,7 @@ window.webactPortfolioMaster = [
     "name": "Bayou Solar",
     "slug": "bayou-solar",
     "industry": "Energy",
-    "image": "../../Resources/images/Bayou-Solar-1920w.png",
+    "image": "Resources/images/Bayou-Solar-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1173,7 +1173,7 @@ window.webactPortfolioMaster = [
     "name": "Beltway Home Inspections",
     "slug": "beltway-home-inspections",
     "industry": "Home Services",
-    "image": "../../Resources/images/Beltway-Home-Inspections-1920w.png",
+    "image": "Resources/images/Beltway-Home-Inspections-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1212,7 +1212,7 @@ window.webactPortfolioMaster = [
     "name": "Benefits Matter",
     "slug": "benefits-matter",
     "industry": "Professional Services",
-    "image": "../../Resources/images/benefitsMatter-1920w.png",
+    "image": "Resources/images/benefitsMatter-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1251,7 +1251,7 @@ window.webactPortfolioMaster = [
     "name": "Benton Dental",
     "slug": "benton-dental",
     "industry": "Dental",
-    "image": "../../Resources/images/benton-dental.png",
+    "image": "Resources/images/benton-dental.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1290,7 +1290,7 @@ window.webactPortfolioMaster = [
     "name": "BlackBridge Defense",
     "slug": "blackbridge-defense",
     "industry": "Security",
-    "image": "../../Resources/images/Blackridge-Defense.png",
+    "image": "Resources/images/Blackridge-Defense.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1329,7 +1329,7 @@ window.webactPortfolioMaster = [
     "name": "Board Game Republic",
     "slug": "board-game-republic",
     "industry": "Business",
-    "image": "../../Resources/images/Board-Game-Republic-1920w.png",
+    "image": "Resources/images/Board-Game-Republic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1368,7 +1368,7 @@ window.webactPortfolioMaster = [
     "name": "Brick House Salon",
     "slug": "brick-house-salon",
     "industry": "Salon & Beauty",
-    "image": "../../Resources/images/brickHouseSalon-1920w.png",
+    "image": "Resources/images/brickHouseSalon-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1407,7 +1407,7 @@ window.webactPortfolioMaster = [
     "name": "Bruno Jambor",
     "slug": "bruno-jambor",
     "industry": "Business",
-    "image": "../../Resources/images/Bruno_Jambor-1920w.png",
+    "image": "Resources/images/Bruno_Jambor-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1446,7 +1446,7 @@ window.webactPortfolioMaster = [
     "name": "Budget Control Services",
     "slug": "budget-control-services",
     "industry": "Professional Services",
-    "image": "../../Resources/images/bcs collect-1920w.png",
+    "image": "Resources/images/bcs collect-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1485,7 +1485,7 @@ window.webactPortfolioMaster = [
     "name": "Building Better Breath",
     "slug": "building-better-breath",
     "industry": "Healthcare",
-    "image": "../../Resources/images/building-better-Breath.png",
+    "image": "Resources/images/building-better-Breath.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1524,7 +1524,7 @@ window.webactPortfolioMaster = [
     "name": "Building Better Transit",
     "slug": "building-better-transit",
     "industry": "Home Services",
-    "image": "../../Resources/images/Building_Better_Transit-1920w.png",
+    "image": "Resources/images/Building_Better_Transit-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1563,7 +1563,7 @@ window.webactPortfolioMaster = [
     "name": "By The Beach",
     "slug": "by-the-beach",
     "industry": "Travel",
-    "image": "../../Resources/images/by-the-beach.png",
+    "image": "Resources/images/by-the-beach.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1602,7 +1602,7 @@ window.webactPortfolioMaster = [
     "name": "Callahan Hayes",
     "slug": "callahan-hayes",
     "industry": "Business",
-    "image": "../../Resources/images/callahanHayes-1920w.png",
+    "image": "Resources/images/callahanHayes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1641,7 +1641,7 @@ window.webactPortfolioMaster = [
     "name": "Cancer With Courage",
     "slug": "cancer-with-courage",
     "industry": "Nonprofit",
-    "image": "../../Resources/images/cancer-with-courage.png",
+    "image": "Resources/images/cancer-with-courage.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1680,7 +1680,7 @@ window.webactPortfolioMaster = [
     "name": "Carie's Posing Suits",
     "slug": "carie-s-posing-suits",
     "industry": "Salon & Beauty",
-    "image": "../../Resources/images/cariesPosingSuits-1920w.png",
+    "image": "Resources/images/cariesPosingSuits-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1719,7 +1719,7 @@ window.webactPortfolioMaster = [
     "name": "Carlock Plumbing",
     "slug": "carlock-plumbing",
     "industry": "Plumbing",
-    "image": "../../Resources/images/Carlock_Plumbing.png",
+    "image": "Resources/images/Carlock_Plumbing.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1758,7 +1758,7 @@ window.webactPortfolioMaster = [
     "name": "Carwash Coupons",
     "slug": "carwash-coupons",
     "industry": "Automotive",
-    "image": "../../Resources/images/carwash-coupons.png",
+    "image": "Resources/images/carwash-coupons.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1797,7 +1797,7 @@ window.webactPortfolioMaster = [
     "name": "Cass And Company Salon",
     "slug": "cass-and-company-salon",
     "industry": "Salon & Beauty",
-    "image": "../../Resources/images/cassAndCompany-1920w.png",
+    "image": "Resources/images/cassAndCompany-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1836,7 +1836,7 @@ window.webactPortfolioMaster = [
     "name": "Castle Rock",
     "slug": "castle-rock",
     "industry": "Business",
-    "image": "../../Resources/images/Castle-Rock-1920w.png",
+    "image": "Resources/images/Castle-Rock-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1875,7 +1875,7 @@ window.webactPortfolioMaster = [
     "name": "Cell Block",
     "slug": "cell-block",
     "industry": "Locksmith",
-    "image": "../../Resources/images/cellBlock.png",
+    "image": "Resources/images/cellBlock.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1914,7 +1914,7 @@ window.webactPortfolioMaster = [
     "name": "Century Tire Inc.",
     "slug": "century-tire-inc",
     "industry": "Automotive",
-    "image": "../../Resources/images/Century_Tire_inc-1920w.png",
+    "image": "Resources/images/Century_Tire_inc-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1953,7 +1953,7 @@ window.webactPortfolioMaster = [
     "name": "Christy Root Designs",
     "slug": "christy-root-designs",
     "industry": "Printing & Graphics",
-    "image": "../../Resources/images/christyRootDesigns-1920w.png",
+    "image": "Resources/images/christyRootDesigns-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1992,7 +1992,7 @@ window.webactPortfolioMaster = [
     "name": "Chutney Indian Cuisine",
     "slug": "chutney-indian-cuisine",
     "industry": "Restaurant",
-    "image": "../../Resources/images/ChutneyIndianCusine-1920w.png",
+    "image": "Resources/images/ChutneyIndianCusine-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2031,7 +2031,7 @@ window.webactPortfolioMaster = [
     "name": "Coastal Homes",
     "slug": "coastal-homes",
     "industry": "Home Services",
-    "image": "../../Resources/images/coastalHomes-1920w.png",
+    "image": "Resources/images/coastalHomes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2070,7 +2070,7 @@ window.webactPortfolioMaster = [
     "name": "College Planning Coach",
     "slug": "college-planning-coach",
     "industry": "Education",
-    "image": "../../Resources/images/WebactCollegePlanningCoach-1920w.png",
+    "image": "Resources/images/WebactCollegePlanningCoach-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2109,7 +2109,7 @@ window.webactPortfolioMaster = [
     "name": "Colorado Creditor Bar Association",
     "slug": "colorado-creditor-bar-association",
     "industry": "Restaurant",
-    "image": "../../Resources/images/COLORADO-CREDITOR-BAR-1920w.png",
+    "image": "Resources/images/COLORADO-CREDITOR-BAR-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2148,7 +2148,7 @@ window.webactPortfolioMaster = [
     "name": "CoWest Durango",
     "slug": "cowest-durango",
     "industry": "Business",
-    "image": "../../Resources/images/coWestDurango-1920w.png",
+    "image": "Resources/images/coWestDurango-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2187,7 +2187,7 @@ window.webactPortfolioMaster = [
     "name": "CoWest Insurance Group",
     "slug": "cowest-insurance-group",
     "industry": "Professional Services",
-    "image": "../../Resources/images/coWestInsuranceGroup-1920w.png",
+    "image": "Resources/images/coWestInsuranceGroup-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2226,7 +2226,7 @@ window.webactPortfolioMaster = [
     "name": "Cowest Insurance Service",
     "slug": "cowest-insurance-service",
     "industry": "Professional Services",
-    "image": "../../Resources/images/CowestInsurance-Service-1920w.png",
+    "image": "Resources/images/CowestInsurance-Service-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2265,7 +2265,7 @@ window.webactPortfolioMaster = [
     "name": "Crest Pest Control",
     "slug": "crest-pest-control",
     "industry": "Pest Control",
-    "image": "../../Resources/images/Crest-Pest-Control-1920w.png",
+    "image": "Resources/images/Crest-Pest-Control-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2304,7 +2304,7 @@ window.webactPortfolioMaster = [
     "name": "CT Gasket",
     "slug": "ct-gasket",
     "industry": "Business",
-    "image": "../../Resources/images/ctGasket-1920w.png",
+    "image": "Resources/images/ctGasket-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2343,7 +2343,7 @@ window.webactPortfolioMaster = [
     "name": "Curved Glass Creations",
     "slug": "curved-glass-creations",
     "industry": "Home Services",
-    "image": "../../Resources/images/curvedGlassCreations-1920w.png",
+    "image": "Resources/images/curvedGlassCreations-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2382,7 +2382,7 @@ window.webactPortfolioMaster = [
     "name": "D And D Machinery Movers",
     "slug": "d-and-d-machinery-movers",
     "industry": "Home Services",
-    "image": "../../Resources/images/dAndDMachineryMovers-1920w.png",
+    "image": "Resources/images/dAndDMachineryMovers-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2421,7 +2421,7 @@ window.webactPortfolioMaster = [
     "name": "Dads of Parker",
     "slug": "dads-of-parker",
     "industry": "Business",
-    "image": "../../Resources/images/Dads-of-Parker-1920w.png",
+    "image": "Resources/images/Dads-of-Parker-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2460,7 +2460,7 @@ window.webactPortfolioMaster = [
     "name": "Deaf Vacation Cruise",
     "slug": "deaf-vacation-cruise",
     "industry": "Travel",
-    "image": "../../Resources/images/deaf-vacation-cruise.png",
+    "image": "Resources/images/deaf-vacation-cruise.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2499,7 +2499,7 @@ window.webactPortfolioMaster = [
     "name": "Deannas Papillons",
     "slug": "deannas-papillons",
     "industry": "Pet Services",
-    "image": "../../Resources/images/WebactDeannasPapillons-1920w.png",
+    "image": "Resources/images/WebactDeannasPapillons-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2538,7 +2538,7 @@ window.webactPortfolioMaster = [
     "name": "Dental Arts",
     "slug": "dental-arts",
     "industry": "Dental",
-    "image": "../../Resources/images/DentalArts-1920w.png",
+    "image": "Resources/images/DentalArts-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2577,7 +2577,7 @@ window.webactPortfolioMaster = [
     "name": "Dental Sleep Medicine",
     "slug": "dental-sleep-medicine",
     "industry": "Dental",
-    "image": "../../Resources/images/dentalSleepMedicine-1920w.png",
+    "image": "Resources/images/dentalSleepMedicine-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2616,7 +2616,7 @@ window.webactPortfolioMaster = [
     "name": "Dental Sleep Medicine & Cranio Facial Pain",
     "slug": "dental-sleep-medicine-and-cranio-facial-pain",
     "industry": "Dental",
-    "image": "../../Resources/images/Dental-Sleep-Medicine---Cranio-Facial-Pain-1920w.png",
+    "image": "Resources/images/Dental-Sleep-Medicine---Cranio-Facial-Pain-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2655,7 +2655,7 @@ window.webactPortfolioMaster = [
     "name": "Denver Issa",
     "slug": "denver-issa",
     "industry": "Business",
-    "image": "../../Resources/images/Denver-Issa-1920w.png",
+    "image": "Resources/images/Denver-Issa-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2694,7 +2694,7 @@ window.webactPortfolioMaster = [
     "name": "Denver Sign Factory",
     "slug": "denver-sign-factory",
     "industry": "Printing & Graphics",
-    "image": "../../Resources/images/denverSignFactory-1920w.png",
+    "image": "Resources/images/denverSignFactory-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2733,7 +2733,7 @@ window.webactPortfolioMaster = [
     "name": "Denver Towing",
     "slug": "denver-towing",
     "industry": "Home Services",
-    "image": "../../Resources/images/WebactDenverTowing-1920w.png",
+    "image": "Resources/images/WebactDenverTowing-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2772,7 +2772,7 @@ window.webactPortfolioMaster = [
     "name": "Denver's Best Heating",
     "slug": "denver-s-best-heating",
     "industry": "HVAC",
-    "image": "../../Resources/images/WebactDenversBestHeating-1920w.png",
+    "image": "Resources/images/WebactDenversBestHeating-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2811,7 +2811,7 @@ window.webactPortfolioMaster = [
     "name": "Desert Empire",
     "slug": "desert-empire",
     "industry": "Business",
-    "image": "../../Resources/images/DesertEmpire-1920w.png",
+    "image": "Resources/images/DesertEmpire-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2850,7 +2850,7 @@ window.webactPortfolioMaster = [
     "name": "Dig For Energy",
     "slug": "dig-for-energy",
     "industry": "Energy",
-    "image": "../../Resources/images/dig-for-energy.png",
+    "image": "Resources/images/dig-for-energy.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2889,7 +2889,7 @@ window.webactPortfolioMaster = [
     "name": "Dominion Craftsman Services",
     "slug": "dominion-craftsman-services",
     "industry": "Business",
-    "image": "../../Resources/images/Dominion-Craftsman-Services-1920w.png",
+    "image": "Resources/images/Dominion-Craftsman-Services-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2928,7 +2928,7 @@ window.webactPortfolioMaster = [
     "name": "Driving Instructor Classes",
     "slug": "driving-instructor-classes",
     "industry": "Driving School",
-    "image": "../../Resources/images/Driving-Instructor-Classes-1920w.png",
+    "image": "Resources/images/Driving-Instructor-Classes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2967,7 +2967,7 @@ window.webactPortfolioMaster = [
     "name": "DSS By Kat",
     "slug": "dss-by-kat",
     "industry": "Business",
-    "image": "../../Resources/images/dssByKat-1920w.png",
+    "image": "Resources/images/dssByKat-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3006,7 +3006,7 @@ window.webactPortfolioMaster = [
     "name": "DWW",
     "slug": "dww",
     "industry": "Business",
-    "image": "../../Resources/images/DWW-1920w.png",
+    "image": "Resources/images/DWW-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3045,7 +3045,7 @@ window.webactPortfolioMaster = [
     "name": "E-Sports Foundation",
     "slug": "e-sports-foundation",
     "industry": "Nonprofit",
-    "image": "../../Resources/images/ESportsFoundation-1920w.png",
+    "image": "Resources/images/ESportsFoundation-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3084,7 +3084,7 @@ window.webactPortfolioMaster = [
     "name": "Ebony Equines",
     "slug": "ebony-equines",
     "industry": "Pet Services",
-    "image": "../../Resources/images/Ebony-Equines-1920w.png",
+    "image": "Resources/images/Ebony-Equines-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3123,7 +3123,7 @@ window.webactPortfolioMaster = [
     "name": "Ed Prevost",
     "slug": "ed-prevost",
     "industry": "Business",
-    "image": "../../Resources/images/edProvost-1920w.png",
+    "image": "Resources/images/edProvost-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3162,7 +3162,7 @@ window.webactPortfolioMaster = [
     "name": "Edmotnton Heritage Festival",
     "slug": "edmotnton-heritage-festival",
     "industry": "Nonprofit",
-    "image": "../../Resources/images/WebactEdmonton-1920w.png",
+    "image": "Resources/images/WebactEdmonton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3201,7 +3201,7 @@ window.webactPortfolioMaster = [
     "name": "Einstein Plumbing",
     "slug": "einstein-plumbing",
     "industry": "Plumbing",
-    "image": "../../Resources/images/WebactEinstein-1920w.png",
+    "image": "Resources/images/WebactEinstein-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3240,7 +3240,7 @@ window.webactPortfolioMaster = [
     "name": "Emergency Locksmith Denver",
     "slug": "emergency-locksmith-denver",
     "industry": "Locksmith",
-    "image": "../../Resources/images/Emergency_Locksmith_Denver-1920w.png",
+    "image": "Resources/images/Emergency_Locksmith_Denver-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3279,7 +3279,7 @@ window.webactPortfolioMaster = [
     "name": "Empathy Care",
     "slug": "empathy-care",
     "industry": "Healthcare",
-    "image": "../../Resources/images/Empathy-Care-1920w.png",
+    "image": "Resources/images/Empathy-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3318,7 +3318,7 @@ window.webactPortfolioMaster = [
     "name": "Energy Performance Service",
     "slug": "energy-performance-service",
     "industry": "Energy",
-    "image": "../../Resources/images/epshvac(EnergyPerformanceService)-1920w.png",
+    "image": "Resources/images/epshvac(EnergyPerformanceService)-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3357,7 +3357,7 @@ window.webactPortfolioMaster = [
     "name": "Epic ivy",
     "slug": "epic-ivy",
     "industry": "Business",
-    "image": "../../Resources/images/Epic-Ivy-1920w.png",
+    "image": "Resources/images/Epic-Ivy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3396,7 +3396,7 @@ window.webactPortfolioMaster = [
     "name": "Epleyer",
     "slug": "epleyer",
     "industry": "Business",
-    "image": "../../Resources/images/Epleyer-1920w.png",
+    "image": "Resources/images/Epleyer-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3435,7 +3435,7 @@ window.webactPortfolioMaster = [
     "name": "Esports Epleyer",
     "slug": "esports-epleyer",
     "industry": "Technology",
-    "image": "../../Resources/images/Esports-Epleyer-1920w.png",
+    "image": "Resources/images/Esports-Epleyer-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3474,7 +3474,7 @@ window.webactPortfolioMaster = [
     "name": "Evans Legal Group",
     "slug": "evans-legal-group",
     "industry": "Legal",
-    "image": "../../Resources/images/Evans-Legal-Group-1920w.png",
+    "image": "Resources/images/Evans-Legal-Group-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3513,7 +3513,7 @@ window.webactPortfolioMaster = [
     "name": "Express Shipping Room Supply",
     "slug": "express-shipping-room-supply",
     "industry": "Business",
-    "image": "../../Resources/images/Express-Shipping-Room-Supply-1920w.png",
+    "image": "Resources/images/Express-Shipping-Room-Supply-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3552,7 +3552,7 @@ window.webactPortfolioMaster = [
     "name": "Extreme Autoworks",
     "slug": "extreme-autoworks",
     "industry": "Automotive",
-    "image": "../../Resources/images/WebactExtremeAutowors-1920w.png",
+    "image": "Resources/images/WebactExtremeAutowors-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3591,7 +3591,7 @@ window.webactPortfolioMaster = [
     "name": "Finding The Fantastic",
     "slug": "finding-the-fantastic",
     "industry": "Business",
-    "image": "../../Resources/images/WebactFindingTheFantastic-1920w.png",
+    "image": "Resources/images/WebactFindingTheFantastic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3630,7 +3630,7 @@ window.webactPortfolioMaster = [
     "name": "Fine Arts Movement",
     "slug": "fine-arts-movement",
     "industry": "Business",
-    "image": "../../Resources/images/WebactFAM-5c1828d3-1920w.png",
+    "image": "Resources/images/WebactFAM-5c1828d3-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3669,7 +3669,7 @@ window.webactPortfolioMaster = [
     "name": "Firm Group",
     "slug": "firm-group",
     "industry": "Professional Services",
-    "image": "../../Resources/images/Firm-Group-1920w.png",
+    "image": "Resources/images/Firm-Group-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3708,7 +3708,7 @@ window.webactPortfolioMaster = [
     "name": "Fit Republic",
     "slug": "fit-republic",
     "industry": "Business",
-    "image": "../../Resources/images/WebactFitRepublic-1920w.png",
+    "image": "Resources/images/WebactFitRepublic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3747,7 +3747,7 @@ window.webactPortfolioMaster = [
     "name": "Fr Bumper Solutions",
     "slug": "fr-bumper-solutions",
     "industry": "Business",
-    "image": "../../Resources/images/Fr-Bumper-Solutions-1920w.png",
+    "image": "Resources/images/Fr-Bumper-Solutions-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3786,7 +3786,7 @@ window.webactPortfolioMaster = [
     "name": "Frameless Shower Door",
     "slug": "frameless-shower-door",
     "industry": "Home Services",
-    "image": "../../Resources/images/WebactFramelessShowerDoor-1920w.png",
+    "image": "Resources/images/WebactFramelessShowerDoor-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3825,7 +3825,7 @@ window.webactPortfolioMaster = [
     "name": "Front Range Dentures",
     "slug": "front-range-dentures",
     "industry": "Dental",
-    "image": "../../Resources/images/WebactFrontRangeDentures-1920w.png",
+    "image": "Resources/images/WebactFrontRangeDentures-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3864,7 +3864,7 @@ window.webactPortfolioMaster = [
     "name": "Future Grasp",
     "slug": "future-grasp",
     "industry": "Business",
-    "image": "../../Resources/images/Future-Grasp-1920w.png",
+    "image": "Resources/images/Future-Grasp-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3903,7 +3903,7 @@ window.webactPortfolioMaster = [
     "name": "G & G Driving School",
     "slug": "g-and-g-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/G---G-Driving-School-1920w.png",
+    "image": "Resources/images/G---G-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3942,7 +3942,7 @@ window.webactPortfolioMaster = [
     "name": "Gangle Law Firm",
     "slug": "gangle-law-firm",
     "industry": "Legal",
-    "image": "../../Resources/images/gangleLawFirm-1920w.png",
+    "image": "Resources/images/gangleLawFirm-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3981,7 +3981,7 @@ window.webactPortfolioMaster = [
     "name": "Genius Coaching",
     "slug": "genius-coaching",
     "industry": "Education",
-    "image": "../../Resources/images/GeniusCoaching-1920w.png",
+    "image": "Resources/images/GeniusCoaching-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4020,7 +4020,7 @@ window.webactPortfolioMaster = [
     "name": "Ghost Town Fitness",
     "slug": "ghost-town-fitness",
     "industry": "Business",
-    "image": "../../Resources/images/ghostTownFitness-1920w.png",
+    "image": "Resources/images/ghostTownFitness-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4059,7 +4059,7 @@ window.webactPortfolioMaster = [
     "name": "Glass Act",
     "slug": "glass-act",
     "industry": "Home Services",
-    "image": "../../Resources/images/glass act 970-1920w.png",
+    "image": "Resources/images/glass act 970-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4098,7 +4098,7 @@ window.webactPortfolioMaster = [
     "name": "Good Water",
     "slug": "good-water",
     "industry": "Water Treatment",
-    "image": "../../Resources/images/goodWater-1920w.png",
+    "image": "Resources/images/goodWater-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4137,7 +4137,7 @@ window.webactPortfolioMaster = [
     "name": "Granite State Labradoodles",
     "slug": "granite-state-labradoodles",
     "industry": "Pet Services",
-    "image": "../../Resources/images/granite state labradoodles-1920w.png",
+    "image": "Resources/images/granite state labradoodles-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4176,7 +4176,7 @@ window.webactPortfolioMaster = [
     "name": "Great Escape",
     "slug": "great-escape",
     "industry": "Business",
-    "image": "../../Resources/images/great escape-1920w.png",
+    "image": "Resources/images/great escape-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4215,7 +4215,7 @@ window.webactPortfolioMaster = [
     "name": "Great West Real Estate",
     "slug": "great-west-real-estate",
     "industry": "Real Estate",
-    "image": "../../Resources/images/great-west-real-estate.png",
+    "image": "Resources/images/great-west-real-estate.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4254,7 +4254,7 @@ window.webactPortfolioMaster = [
     "name": "Great West Restoration Colorado",
     "slug": "great-west-restoration-colorado",
     "industry": "Home Services",
-    "image": "../../Resources/images/Great-West-Restoration-Colorado-be744ebf-1920w.png",
+    "image": "Resources/images/Great-West-Restoration-Colorado-be744ebf-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4293,7 +4293,7 @@ window.webactPortfolioMaster = [
     "name": "Great West Restoration Colorado Agent",
     "slug": "great-west-restoration-colorado-agent",
     "industry": "Home Services",
-    "image": "../../Resources/images/Great-West-Restoration-Colorado-Agent-1920w.png",
+    "image": "Resources/images/Great-West-Restoration-Colorado-Agent-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4332,7 +4332,7 @@ window.webactPortfolioMaster = [
     "name": "Grin & Barrett Charity Ride",
     "slug": "grin-and-barrett-charity-ride",
     "industry": "Restaurant",
-    "image": "../../Resources/images/gb biketours-1920w.png",
+    "image": "Resources/images/gb biketours-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4371,7 +4371,7 @@ window.webactPortfolioMaster = [
     "name": "Has Tag Lab",
     "slug": "has-tag-lab",
     "industry": "Business",
-    "image": "../../Resources/images/Has-Tag-Lab-1920w.png",
+    "image": "Resources/images/Has-Tag-Lab-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4410,7 +4410,7 @@ window.webactPortfolioMaster = [
     "name": "Haveli Indian Cuisine",
     "slug": "haveli-indian-cuisine",
     "industry": "Restaurant",
-    "image": "../../Resources/images/havelillittleton-1920w.png",
+    "image": "Resources/images/havelillittleton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4449,7 +4449,7 @@ window.webactPortfolioMaster = [
     "name": "Hebert Investigations",
     "slug": "hebert-investigations",
     "industry": "Business",
-    "image": "../../Resources/images/Hebert_Investigations-1920w.png",
+    "image": "Resources/images/Hebert_Investigations-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4488,7 +4488,7 @@ window.webactPortfolioMaster = [
     "name": "Heritage Roofing",
     "slug": "heritage-roofing",
     "industry": "Roofing",
-    "image": "../../Resources/images/WebactHeritage-1920w.png",
+    "image": "Resources/images/WebactHeritage-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4527,7 +4527,7 @@ window.webactPortfolioMaster = [
     "name": "Hi Dessert Egg",
     "slug": "hi-dessert-egg",
     "industry": "Business",
-    "image": "../../Resources/images/Hi-Dessert-Egg-1920w.png",
+    "image": "Resources/images/Hi-Dessert-Egg-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4566,7 +4566,7 @@ window.webactPortfolioMaster = [
     "name": "Home Pro Chesapeake",
     "slug": "home-pro-chesapeake",
     "industry": "Home Services",
-    "image": "../../Resources/images/homeProChesapeake-1920w.png",
+    "image": "Resources/images/homeProChesapeake-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4605,7 +4605,7 @@ window.webactPortfolioMaster = [
     "name": "Homeland Driving School Cavco Enterprises, Inc",
     "slug": "homeland-driving-school-cavco-enterprises-inc",
     "industry": "Driving School",
-    "image": "../../Resources/images/Homeland-Driving-School-Cavco-Enterprises--Inc-1920w.png",
+    "image": "Resources/images/Homeland-Driving-School-Cavco-Enterprises--Inc-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4644,7 +4644,7 @@ window.webactPortfolioMaster = [
     "name": "HouseSketch",
     "slug": "housesketch",
     "industry": "Business",
-    "image": "../../Resources/images/HouseSketch-1920w.png",
+    "image": "Resources/images/HouseSketch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4683,7 +4683,7 @@ window.webactPortfolioMaster = [
     "name": "Houston Energy Systems",
     "slug": "houston-energy-systems",
     "industry": "Energy",
-    "image": "../../Resources/images/HoustonEnergySystems-1920w.png",
+    "image": "Resources/images/HoustonEnergySystems-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4722,7 +4722,7 @@ window.webactPortfolioMaster = [
     "name": "Humbold Couty Fair",
     "slug": "humbold-couty-fair",
     "industry": "Nonprofit",
-    "image": "../../Resources/images/WebactHumboltCountyFair-1920w.png",
+    "image": "Resources/images/WebactHumboltCountyFair-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4761,7 +4761,7 @@ window.webactPortfolioMaster = [
     "name": "Hydro Dynamics",
     "slug": "hydro-dynamics",
     "industry": "Water Treatment",
-    "image": "../../Resources/images/Hydro-Dynamics-1920w.png",
+    "image": "Resources/images/Hydro-Dynamics-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4800,7 +4800,7 @@ window.webactPortfolioMaster = [
     "name": "I 5 Driving School",
     "slug": "i-5-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/I-5-Driving-School-1920w.png",
+    "image": "Resources/images/I-5-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4839,7 +4839,7 @@ window.webactPortfolioMaster = [
     "name": "IDT",
     "slug": "idt",
     "industry": "Business",
-    "image": "../../Resources/images/WebactIDT-1920w.png",
+    "image": "Resources/images/WebactIDT-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4878,7 +4878,7 @@ window.webactPortfolioMaster = [
     "name": "Implant Excellence",
     "slug": "implant-excellence",
     "industry": "Dental",
-    "image": "../../Resources/images/WebactImplantExcellence-1920w.png",
+    "image": "Resources/images/WebactImplantExcellence-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4917,7 +4917,7 @@ window.webactPortfolioMaster = [
     "name": "Inland Valley Driving School",
     "slug": "inland-valley-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/InlandValleyDrivingSchool-1920w.png",
+    "image": "Resources/images/InlandValleyDrivingSchool-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4956,7 +4956,7 @@ window.webactPortfolioMaster = [
     "name": "Inquiz Inspections",
     "slug": "inquiz-inspections",
     "industry": "Home Services",
-    "image": "../../Resources/images/Inquiz-Inspections-1920w.png",
+    "image": "Resources/images/Inquiz-Inspections-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4995,7 +4995,7 @@ window.webactPortfolioMaster = [
     "name": "Insightifi",
     "slug": "insightifi",
     "industry": "Business",
-    "image": "../../Resources/images/insightifi-1920w.png",
+    "image": "Resources/images/insightifi-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5034,7 +5034,7 @@ window.webactPortfolioMaster = [
     "name": "Integration Design",
     "slug": "integration-design",
     "industry": "Printing & Graphics",
-    "image": "../../Resources/images/WebactIntergrationDesign-1920w.png",
+    "image": "Resources/images/WebactIntergrationDesign-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5073,7 +5073,7 @@ window.webactPortfolioMaster = [
     "name": "Ironside Capital",
     "slug": "ironside-capital",
     "industry": "Professional Services",
-    "image": "../../Resources/images/IRONSIDE-CAPITAL-2aab2bce-1920w.png",
+    "image": "Resources/images/IRONSIDE-CAPITAL-2aab2bce-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5112,7 +5112,7 @@ window.webactPortfolioMaster = [
     "name": "Island Cool Creams",
     "slug": "island-cool-creams",
     "industry": "Restaurant",
-    "image": "../../Resources/images/island+cool+creams.png",
+    "image": "Resources/images/island+cool+creams.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5151,7 +5151,7 @@ window.webactPortfolioMaster = [
     "name": "Island Slider Guy",
     "slug": "island-slider-guy",
     "industry": "Business",
-    "image": "../../Resources/images/Island_Slider_Guy-1920w.png",
+    "image": "Resources/images/Island_Slider_Guy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5190,7 +5190,7 @@ window.webactPortfolioMaster = [
     "name": "Jack Lewis",
     "slug": "jack-lewis",
     "industry": "Business",
-    "image": "../../Resources/images/Jack-Lewis-1920w.png",
+    "image": "Resources/images/Jack-Lewis-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5229,7 +5229,7 @@ window.webactPortfolioMaster = [
     "name": "JK Hatcher Homes",
     "slug": "jk-hatcher-homes",
     "industry": "Home Services",
-    "image": "../../Resources/images/JK_Hactcher_Homes-1920w.png",
+    "image": "Resources/images/JK_Hactcher_Homes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5268,7 +5268,7 @@ window.webactPortfolioMaster = [
     "name": "Karma Tour Hawaii",
     "slug": "karma-tour-hawaii",
     "industry": "Business",
-    "image": "../../Resources/images/WebactKarmaTourHawaii-1920w.png",
+    "image": "Resources/images/WebactKarmaTourHawaii-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5307,7 +5307,7 @@ window.webactPortfolioMaster = [
     "name": "Kasco HVAC",
     "slug": "kasco-hvac",
     "industry": "HVAC",
-    "image": "../../Resources/images/Kasco-Hvac-1920w.png",
+    "image": "Resources/images/Kasco-Hvac-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5346,7 +5346,7 @@ window.webactPortfolioMaster = [
     "name": "Kenyon Homecare Consulting",
     "slug": "kenyon-homecare-consulting",
     "industry": "Healthcare",
-    "image": "../../Resources/images/Kenyonn-Homecare-Consulting-1920w.png",
+    "image": "Resources/images/Kenyonn-Homecare-Consulting-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5385,7 +5385,7 @@ window.webactPortfolioMaster = [
     "name": "Kinetico Denver",
     "slug": "kinetico-denver",
     "industry": "Water Treatment",
-    "image": "../../Resources/images/kinetico-1920w.png",
+    "image": "Resources/images/kinetico-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5424,7 +5424,7 @@ window.webactPortfolioMaster = [
     "name": "Kramarz Law",
     "slug": "kramarz-law",
     "industry": "Legal",
-    "image": "../../Resources/images/Kramarz-Law-1920w.png",
+    "image": "Resources/images/Kramarz-Law-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5463,7 +5463,7 @@ window.webactPortfolioMaster = [
     "name": "Lake Elsinore Driving School",
     "slug": "lake-elsinore-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/Lake-Elsinore-Driving-School-1920w.png",
+    "image": "Resources/images/Lake-Elsinore-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5502,7 +5502,7 @@ window.webactPortfolioMaster = [
     "name": "Liberty Lake Smile Source",
     "slug": "liberty-lake-smile-source",
     "industry": "Dental",
-    "image": "../../Resources/images/LibertyLake-1920w.png",
+    "image": "Resources/images/LibertyLake-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5541,7 +5541,7 @@ window.webactPortfolioMaster = [
     "name": "Light Of Mine",
     "slug": "light-of-mine",
     "industry": "Business",
-    "image": "../../Resources/images/lightOfMine-1920w.png",
+    "image": "Resources/images/lightOfMine-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5580,7 +5580,7 @@ window.webactPortfolioMaster = [
     "name": "Linda Wang",
     "slug": "linda-wang",
     "industry": "Business",
-    "image": "../../Resources/images/Linda_Wang-658457a6-1920w.png",
+    "image": "Resources/images/Linda_Wang-658457a6-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5619,7 +5619,7 @@ window.webactPortfolioMaster = [
     "name": "Little Caesars Pueblo",
     "slug": "little-caesars-pueblo",
     "industry": "Business",
-    "image": "../../Resources/images/littleCaesars-f8b3a4d9-1920w.png",
+    "image": "Resources/images/littleCaesars-f8b3a4d9-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5658,7 +5658,7 @@ window.webactPortfolioMaster = [
     "name": "Lower Lake Ranch",
     "slug": "lower-lake-ranch",
     "industry": "Real Estate",
-    "image": "../../Resources/images/WebactLowerLakeRanch-1920w.png",
+    "image": "Resources/images/WebactLowerLakeRanch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5697,7 +5697,7 @@ window.webactPortfolioMaster = [
     "name": "M Communications",
     "slug": "m-communications",
     "industry": "Professional Services",
-    "image": "../../Resources/images/WebactMCommunications-1920w.png",
+    "image": "Resources/images/WebactMCommunications-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5736,7 +5736,7 @@ window.webactPortfolioMaster = [
     "name": "Manor House Apartments",
     "slug": "manor-house-apartments",
     "industry": "Real Estate",
-    "image": "../../Resources/images/MANOR-HOUSE-APARTMENTS-1920w.png",
+    "image": "Resources/images/MANOR-HOUSE-APARTMENTS-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5775,7 +5775,7 @@ window.webactPortfolioMaster = [
     "name": "Marcoa",
     "slug": "marcoa",
     "industry": "Professional Services",
-    "image": "../../Resources/images/marcoa.png",
+    "image": "Resources/images/marcoa.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5814,7 +5814,7 @@ window.webactPortfolioMaster = [
     "name": "Master Craft",
     "slug": "master-craft",
     "industry": "Business",
-    "image": "../../Resources/images/Master-Craft-1920w.png",
+    "image": "Resources/images/Master-Craft-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5853,7 +5853,7 @@ window.webactPortfolioMaster = [
     "name": "MDT Transit",
     "slug": "mdt-transit",
     "industry": "Home Services",
-    "image": "../../Resources/images/MDT-Transit-1920w.png",
+    "image": "Resources/images/MDT-Transit-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5892,7 +5892,7 @@ window.webactPortfolioMaster = [
     "name": "Meadow Hills",
     "slug": "meadow-hills",
     "industry": "Business",
-    "image": "../../Resources/images/Meadow_Hills-1920w.png",
+    "image": "Resources/images/Meadow_Hills-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5931,7 +5931,7 @@ window.webactPortfolioMaster = [
     "name": "Meditouch",
     "slug": "meditouch",
     "industry": "Business",
-    "image": "../../Resources/images/Meditouch-1920w.png",
+    "image": "Resources/images/Meditouch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5970,7 +5970,7 @@ window.webactPortfolioMaster = [
     "name": "Mehak Denver",
     "slug": "mehak-denver",
     "industry": "Restaurant",
-    "image": "../../Resources/images/Mehak-Denver-1920w.png",
+    "image": "Resources/images/Mehak-Denver-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6009,7 +6009,7 @@ window.webactPortfolioMaster = [
     "name": "Mehak India's Aroma",
     "slug": "mehak-india-s-aroma",
     "industry": "Restaurant",
-    "image": "../../Resources/images/mehak-1920w.png",
+    "image": "Resources/images/mehak-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6048,7 +6048,7 @@ window.webactPortfolioMaster = [
     "name": "Menifee Driving School",
     "slug": "menifee-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/Menifee-Driving-School-1920w.png",
+    "image": "Resources/images/Menifee-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6087,7 +6087,7 @@ window.webactPortfolioMaster = [
     "name": "Midwest Appliance and HVAC",
     "slug": "midwest-appliance-and-hvac",
     "industry": "HVAC",
-    "image": "../../Resources/images/MIDWEST-APPLIANCE-AND-HVAC-1920w.png",
+    "image": "Resources/images/MIDWEST-APPLIANCE-AND-HVAC-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6126,7 +6126,7 @@ window.webactPortfolioMaster = [
     "name": "Mile High Books",
     "slug": "mile-high-books",
     "industry": "Retail",
-    "image": "../../Resources/images/Mile_High_Books-1920w.png",
+    "image": "Resources/images/Mile_High_Books-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6165,7 +6165,7 @@ window.webactPortfolioMaster = [
     "name": "Mindful Minds Psychiatry",
     "slug": "mindful-minds-psychiatry",
     "industry": "Healthcare",
-    "image": "../../Resources/images/MINDFUL-MINDS-PSYCHIATRY-1920w.png",
+    "image": "Resources/images/MINDFUL-MINDS-PSYCHIATRY-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6204,7 +6204,7 @@ window.webactPortfolioMaster = [
     "name": "Mississippi Valley Fair",
     "slug": "mississippi-valley-fair",
     "industry": "Nonprofit",
-    "image": "../../Resources/images/WebactMVFair-1920w.png",
+    "image": "Resources/images/WebactMVFair-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6243,7 +6243,7 @@ window.webactPortfolioMaster = [
     "name": "Miyazaki Dental",
     "slug": "miyazaki-dental",
     "industry": "Dental",
-    "image": "../../Resources/images/MiyasakiDental-1920w.png",
+    "image": "Resources/images/MiyasakiDental-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6282,7 +6282,7 @@ window.webactPortfolioMaster = [
     "name": "Molly Mulligan",
     "slug": "molly-mulligan",
     "industry": "Business",
-    "image": "../../Resources/images/Molly-Mulligan-1920w.png",
+    "image": "Resources/images/Molly-Mulligan-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6321,7 +6321,7 @@ window.webactPortfolioMaster = [
     "name": "Mountain Peak Law Group LLC",
     "slug": "mountain-peak-law-group-llc",
     "industry": "Legal",
-    "image": "../../Resources/images/Mountain-Peak-Law-Group-LLC-1920w.png",
+    "image": "Resources/images/Mountain-Peak-Law-Group-LLC-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6360,7 +6360,7 @@ window.webactPortfolioMaster = [
     "name": "Mountain West Law Group",
     "slug": "mountain-west-law-group",
     "industry": "Legal",
-    "image": "../../Resources/images/mountain west law group-1920w.png",
+    "image": "Resources/images/mountain west law group-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6399,7 +6399,7 @@ window.webactPortfolioMaster = [
     "name": "Mrad",
     "slug": "mrad",
     "industry": "Business",
-    "image": "../../Resources/images/WebactMrad-1920w.png",
+    "image": "Resources/images/WebactMrad-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6438,7 +6438,7 @@ window.webactPortfolioMaster = [
     "name": "Murrieta Driving School",
     "slug": "murrieta-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/Murrieta-Driving-School-1920w.png",
+    "image": "Resources/images/Murrieta-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6477,7 +6477,7 @@ window.webactPortfolioMaster = [
     "name": "Net 2 Phone",
     "slug": "net-2-phone",
     "industry": "Technology",
-    "image": "../../Resources/images/net-2-phone.png",
+    "image": "Resources/images/net-2-phone.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6516,7 +6516,7 @@ window.webactPortfolioMaster = [
     "name": "New Era Dental",
     "slug": "new-era-dental",
     "industry": "Dental",
-    "image": "../../Resources/images/new-era-dental.png",
+    "image": "Resources/images/new-era-dental.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6555,7 +6555,7 @@ window.webactPortfolioMaster = [
     "name": "Niagra Designs",
     "slug": "niagra-designs",
     "industry": "Printing & Graphics",
-    "image": "../../Resources/images/WebactNiagraDesigns-1920w.png",
+    "image": "Resources/images/WebactNiagraDesigns-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6594,7 +6594,7 @@ window.webactPortfolioMaster = [
     "name": "Nirvana Indian Cuisine",
     "slug": "nirvana-indian-cuisine",
     "industry": "Restaurant",
-    "image": "../../Resources/images/Nirvana-1920w.png",
+    "image": "Resources/images/Nirvana-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6633,7 +6633,7 @@ window.webactPortfolioMaster = [
     "name": "NOLA Water",
     "slug": "nola-water",
     "industry": "Water Treatment",
-    "image": "../../Resources/images/nolaWater-1920w.png",
+    "image": "Resources/images/nolaWater-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6672,7 +6672,7 @@ window.webactPortfolioMaster = [
     "name": "Obairagency",
     "slug": "obairagency",
     "industry": "Professional Services",
-    "image": "../../Resources/images/Obairagency-1920w.png",
+    "image": "Resources/images/Obairagency-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6711,7 +6711,7 @@ window.webactPortfolioMaster = [
     "name": "Okunade",
     "slug": "okunade",
     "industry": "Business",
-    "image": "../../Resources/images/WebactOkunade-1920w.png",
+    "image": "Resources/images/WebactOkunade-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6750,7 +6750,7 @@ window.webactPortfolioMaster = [
     "name": "Onestop Home Health Care",
     "slug": "onestop-home-health-care",
     "industry": "Healthcare",
-    "image": "../../Resources/images/ONESTOP-HOME-HEALTH-CARE-1920w.png",
+    "image": "Resources/images/ONESTOP-HOME-HEALTH-CARE-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6789,7 +6789,7 @@ window.webactPortfolioMaster = [
     "name": "Optimal Homecare",
     "slug": "optimal-homecare",
     "industry": "Healthcare",
-    "image": "../../Resources/images/WebactOptimal-1920w.png",
+    "image": "Resources/images/WebactOptimal-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6828,7 +6828,7 @@ window.webactPortfolioMaster = [
     "name": "Optimal Hospice",
     "slug": "optimal-hospice",
     "industry": "Healthcare",
-    "image": "../../Resources/images/Optimal-Hospice-1920w.png",
+    "image": "Resources/images/Optimal-Hospice-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6867,7 +6867,7 @@ window.webactPortfolioMaster = [
     "name": "Palm Bay Power Equipment",
     "slug": "palm-bay-power-equipment",
     "industry": "Energy",
-    "image": "../../Resources/images/palm bay power-1920w.png",
+    "image": "Resources/images/palm bay power-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6906,7 +6906,7 @@ window.webactPortfolioMaster = [
     "name": "Pantera Homes",
     "slug": "pantera-homes",
     "industry": "Home Services",
-    "image": "../../Resources/images/panteraHomes-1920w.png",
+    "image": "Resources/images/panteraHomes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6945,7 +6945,7 @@ window.webactPortfolioMaster = [
     "name": "Parking Payment, Validation & Reservations",
     "slug": "parking-payment-validation-and-reservations",
     "industry": "Business",
-    "image": "../../Resources/images/Parking-Payment--Validation---Reservations.-1920w.png",
+    "image": "Resources/images/Parking-Payment--Validation---Reservations.-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6984,7 +6984,7 @@ window.webactPortfolioMaster = [
     "name": "ParkingBoxx",
     "slug": "parkingboxx",
     "industry": "Business",
-    "image": "../../Resources/images/ParkingBoxx-1920w.png",
+    "image": "Resources/images/ParkingBoxx-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7023,7 +7023,7 @@ window.webactPortfolioMaster = [
     "name": "Partner Forces",
     "slug": "partner-forces",
     "industry": "Business",
-    "image": "../../Resources/images/WebactPartnerForces-1920w.png",
+    "image": "Resources/images/WebactPartnerForces-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7062,7 +7062,7 @@ window.webactPortfolioMaster = [
     "name": "Paw Power Agility Equipment",
     "slug": "paw-power-agility-equipment",
     "industry": "Energy",
-    "image": "../../Resources/images/Paw_Power_Agility_Equip-1920w.png",
+    "image": "Resources/images/Paw_Power_Agility_Equip-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7101,7 +7101,7 @@ window.webactPortfolioMaster = [
     "name": "Peace Of Mind Pest Services",
     "slug": "peace-of-mind-pest-services",
     "industry": "Pest Control",
-    "image": "../../Resources/images/Pest-Of-Mind-Pest-Services-1920w.png",
+    "image": "Resources/images/Pest-Of-Mind-Pest-Services-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7140,7 +7140,7 @@ window.webactPortfolioMaster = [
     "name": "Peakview Dental",
     "slug": "peakview-dental",
     "industry": "Dental",
-    "image": "../../Resources/images/Peakview-1920w.png",
+    "image": "Resources/images/Peakview-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7179,7 +7179,7 @@ window.webactPortfolioMaster = [
     "name": "Perthes",
     "slug": "perthes",
     "industry": "Business",
-    "image": "../../Resources/images/WebactPerthes-1920w.png",
+    "image": "Resources/images/WebactPerthes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7218,7 +7218,7 @@ window.webactPortfolioMaster = [
     "name": "Pest Magic",
     "slug": "pest-magic",
     "industry": "Pest Control",
-    "image": "../../Resources/images/Pest-Magic-1920w.png",
+    "image": "Resources/images/Pest-Magic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7257,7 +7257,7 @@ window.webactPortfolioMaster = [
     "name": "Phase Contracting",
     "slug": "phase-contracting",
     "industry": "Home Services",
-    "image": "../../Resources/images/WebactPhaseContracting-1920w.png",
+    "image": "Resources/images/WebactPhaseContracting-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7296,7 +7296,7 @@ window.webactPortfolioMaster = [
     "name": "Photophobic Society of America",
     "slug": "photophobic-society-of-america",
     "industry": "Business",
-    "image": "../../Resources/images/photophobicSocietyOfAmerica-1920w.png",
+    "image": "Resources/images/photophobicSocietyOfAmerica-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7335,7 +7335,7 @@ window.webactPortfolioMaster = [
     "name": "Platinum Registration",
     "slug": "platinum-registration",
     "industry": "Business",
-    "image": "../../Resources/images/Platinum-Registration-1920w.png",
+    "image": "Resources/images/Platinum-Registration-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7374,7 +7374,7 @@ window.webactPortfolioMaster = [
     "name": "Pompano Glass",
     "slug": "pompano-glass",
     "industry": "Home Services",
-    "image": "../../Resources/images/pompanoGlass-1920w.png",
+    "image": "Resources/images/pompanoGlass-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7413,7 +7413,7 @@ window.webactPortfolioMaster = [
     "name": "Pork Chop's Truck and Auto",
     "slug": "pork-chop-s-truck-and-auto",
     "industry": "Automotive",
-    "image": "../../Resources/images/Pork-Chop-s-Truck-and-Auto-1920w.png",
+    "image": "Resources/images/Pork-Chop-s-Truck-and-Auto-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7452,7 +7452,7 @@ window.webactPortfolioMaster = [
     "name": "Pride & Swagger",
     "slug": "pride-and-swagger",
     "industry": "Business",
-    "image": "../../Resources/images/WebactPrride-Swagger-1920w.png",
+    "image": "Resources/images/WebactPrride-Swagger-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7491,7 +7491,7 @@ window.webactPortfolioMaster = [
     "name": "Prime Life Benefits",
     "slug": "prime-life-benefits",
     "industry": "Professional Services",
-    "image": "../../Resources/images/prime life benefits-1920w.png",
+    "image": "Resources/images/prime life benefits-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7530,7 +7530,7 @@ window.webactPortfolioMaster = [
     "name": "Prosthoodontic Dentures",
     "slug": "prosthoodontic-dentures",
     "industry": "Dental",
-    "image": "../../Resources/images/WebactProsthodontic-1920w.png",
+    "image": "Resources/images/WebactProsthodontic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7569,7 +7569,7 @@ window.webactPortfolioMaster = [
     "name": "Redline Construction",
     "slug": "redline-construction",
     "industry": "Home Services",
-    "image": "../../Resources/images/WebactRedlineConstruction-1920w.png",
+    "image": "Resources/images/WebactRedlineConstruction-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7608,7 +7608,7 @@ window.webactPortfolioMaster = [
     "name": "Roof Ready",
     "slug": "roof-ready",
     "industry": "Roofing",
-    "image": "../../Resources/images/Roof-Ready-1920w.png",
+    "image": "Resources/images/Roof-Ready-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7647,7 +7647,7 @@ window.webactPortfolioMaster = [
     "name": "Roots & Brew",
     "slug": "roots-and-brew",
     "industry": "Restaurant",
-    "image": "../../Resources/images/WebactRoots-Brew-1920w.png",
+    "image": "Resources/images/WebactRoots-Brew-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7686,7 +7686,7 @@ window.webactPortfolioMaster = [
     "name": "Rostron Dental",
     "slug": "rostron-dental",
     "industry": "Dental",
-    "image": "../../Resources/images/WebactRostronDental-1920w.png",
+    "image": "Resources/images/WebactRostronDental-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7725,7 +7725,7 @@ window.webactPortfolioMaster = [
     "name": "Sage Restaurant",
     "slug": "sage-restaurant",
     "industry": "Restaurant",
-    "image": "../../Resources/images/Sage_Restaurant-1920w.png",
+    "image": "Resources/images/Sage_Restaurant-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7764,7 +7764,7 @@ window.webactPortfolioMaster = [
     "name": "Salinas Valley Fair",
     "slug": "salinas-valley-fair",
     "industry": "Nonprofit",
-    "image": "../../Resources/images/WebactSalinasCalley-1920w.png",
+    "image": "Resources/images/WebactSalinasCalley-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7803,7 +7803,7 @@ window.webactPortfolioMaster = [
     "name": "Signal Driving & Traffic Schools",
     "slug": "signal-driving-and-traffic-schools",
     "industry": "Driving School",
-    "image": "../../Resources/images/SignalSchool-1920w.png",
+    "image": "Resources/images/SignalSchool-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7842,7 +7842,7 @@ window.webactPortfolioMaster = [
     "name": "Simply Cupcakes Pasadena",
     "slug": "simply-cupcakes-pasadena",
     "industry": "Restaurant",
-    "image": "../../Resources/images/simply-cupcakes-pasadena.png",
+    "image": "Resources/images/simply-cupcakes-pasadena.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7881,7 +7881,7 @@ window.webactPortfolioMaster = [
     "name": "Six Corners",
     "slug": "six-corners",
     "industry": "Business",
-    "image": "../../Resources/images/WebactSixCorners-1920w.png",
+    "image": "Resources/images/WebactSixCorners-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7920,7 +7920,7 @@ window.webactPortfolioMaster = [
     "name": "Skin Care Essentials",
     "slug": "skin-care-essentials",
     "industry": "Healthcare",
-    "image": "../../Resources/images/SkinCare-1920w.png",
+    "image": "Resources/images/SkinCare-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7959,7 +7959,7 @@ window.webactPortfolioMaster = [
     "name": "Smart Cell Phone Parts",
     "slug": "smart-cell-phone-parts",
     "industry": "Technology",
-    "image": "../../Resources/images/SmartCellPhoneParts-1920w.png",
+    "image": "Resources/images/SmartCellPhoneParts-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7998,7 +7998,7 @@ window.webactPortfolioMaster = [
     "name": "Smart Wireless Parts",
     "slug": "smart-wireless-parts",
     "industry": "Technology",
-    "image": "../../Resources/images/Smart-Wireless-Parts-1920w.png",
+    "image": "Resources/images/Smart-Wireless-Parts-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8037,7 +8037,7 @@ window.webactPortfolioMaster = [
     "name": "Sniper Security",
     "slug": "sniper-security",
     "industry": "Security",
-    "image": "../../Resources/images/sniper-security.png",
+    "image": "Resources/images/sniper-security.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8076,7 +8076,7 @@ window.webactPortfolioMaster = [
     "name": "Southhall Investments",
     "slug": "southhall-investments",
     "industry": "Business",
-    "image": "../../Resources/images/WebactSouthhallInvestments-1920w.png",
+    "image": "Resources/images/WebactSouthhallInvestments-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8115,7 +8115,7 @@ window.webactPortfolioMaster = [
     "name": "Speak Clear Communications",
     "slug": "speak-clear-communications",
     "industry": "Professional Services",
-    "image": "../../Resources/images/speakClearCommunications-1920w.png",
+    "image": "Resources/images/speakClearCommunications-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8154,7 +8154,7 @@ window.webactPortfolioMaster = [
     "name": "Spector Law",
     "slug": "spector-law",
     "industry": "Legal",
-    "image": "../../Resources/images/spectorLaw-1920w.png",
+    "image": "Resources/images/spectorLaw-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8193,7 +8193,7 @@ window.webactPortfolioMaster = [
     "name": "Spring Fresh",
     "slug": "spring-fresh",
     "industry": "Business",
-    "image": "../../Resources/images/Spring-Fresh-1920w.png",
+    "image": "Resources/images/Spring-Fresh-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8232,7 +8232,7 @@ window.webactPortfolioMaster = [
     "name": "Stanleyview Home Care",
     "slug": "stanleyview-home-care",
     "industry": "Healthcare",
-    "image": "../../Resources/images/Stanleyview-Home-Care-1920w.png",
+    "image": "Resources/images/Stanleyview-Home-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8271,7 +8271,7 @@ window.webactPortfolioMaster = [
     "name": "Stephanie Ascari",
     "slug": "stephanie-ascari",
     "industry": "Automotive",
-    "image": "../../Resources/images/Stephanie-Ascari-1920w.png",
+    "image": "Resources/images/Stephanie-Ascari-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8310,7 +8310,7 @@ window.webactPortfolioMaster = [
     "name": "Style Savy Designs",
     "slug": "style-savy-designs",
     "industry": "Printing & Graphics",
-    "image": "../../Resources/images/WebactStyleSavy-1920w.png",
+    "image": "Resources/images/WebactStyleSavy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8349,7 +8349,7 @@ window.webactPortfolioMaster = [
     "name": "Sukoon",
     "slug": "sukoon",
     "industry": "Business",
-    "image": "../../Resources/images/Sukoon-1920w.png",
+    "image": "Resources/images/Sukoon-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8388,7 +8388,7 @@ window.webactPortfolioMaster = [
     "name": "Summit Graphics",
     "slug": "summit-graphics",
     "industry": "Printing & Graphics",
-    "image": "../../Resources/images/summit graphics-1920w.png",
+    "image": "Resources/images/summit graphics-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8427,7 +8427,7 @@ window.webactPortfolioMaster = [
     "name": "Sunday Driving School",
     "slug": "sunday-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/WebactSundayDrivingSchool-1920w.png",
+    "image": "Resources/images/WebactSundayDrivingSchool-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8466,7 +8466,7 @@ window.webactPortfolioMaster = [
     "name": "Superior Showers",
     "slug": "superior-showers",
     "industry": "Home Services",
-    "image": "../../Resources/images/superior showers-1920w.png",
+    "image": "Resources/images/superior showers-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8505,7 +8505,7 @@ window.webactPortfolioMaster = [
     "name": "Sushi & Co",
     "slug": "sushi-and-co",
     "industry": "Restaurant",
-    "image": "../../Resources/images/Sushi---Co-1920w.png",
+    "image": "Resources/images/Sushi---Co-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8544,7 +8544,7 @@ window.webactPortfolioMaster = [
     "name": "Tadka Indian Cuisine",
     "slug": "tadka-indian-cuisine",
     "industry": "Restaurant",
-    "image": "../../Resources/images/tadka boulder-1920w.png",
+    "image": "Resources/images/tadka boulder-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8583,7 +8583,7 @@ window.webactPortfolioMaster = [
     "name": "Tala Wellness",
     "slug": "tala-wellness",
     "industry": "Healthcare",
-    "image": "../../Resources/images/TalaWellness-1920w.png",
+    "image": "Resources/images/TalaWellness-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8622,7 +8622,7 @@ window.webactPortfolioMaster = [
     "name": "Temecula Driving School",
     "slug": "temecula-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/WebactTemecula DrivingSchool-1920w.png",
+    "image": "Resources/images/WebactTemecula DrivingSchool-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8661,7 +8661,7 @@ window.webactPortfolioMaster = [
     "name": "The Chambers Of Tucson Mall",
     "slug": "the-chambers-of-tucson-mall",
     "industry": "Retail",
-    "image": "../../Resources/images/the-chambers-of-tucson-mall.png",
+    "image": "Resources/images/the-chambers-of-tucson-mall.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8700,7 +8700,7 @@ window.webactPortfolioMaster = [
     "name": "The Executive Center",
     "slug": "the-executive-center",
     "industry": "Professional Services",
-    "image": "../../Resources/images/TheExecutiveCenter-1920w.png",
+    "image": "Resources/images/TheExecutiveCenter-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8739,7 +8739,7 @@ window.webactPortfolioMaster = [
     "name": "The Point",
     "slug": "the-point",
     "industry": "Business",
-    "image": "../../Resources/images/WebactThePoint-1920w.png",
+    "image": "Resources/images/WebactThePoint-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8778,7 +8778,7 @@ window.webactPortfolioMaster = [
     "name": "The Smilist",
     "slug": "the-smilist",
     "industry": "Business",
-    "image": "../../Resources/images/WebactSmilist-1920w.png",
+    "image": "Resources/images/WebactSmilist-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8817,7 +8817,7 @@ window.webactPortfolioMaster = [
     "name": "Thompson Water Media",
     "slug": "thompson-water-media",
     "industry": "Water Treatment",
-    "image": "../../Resources/images/Thompson-Wate-Media-1920w.png",
+    "image": "Resources/images/Thompson-Wate-Media-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8856,7 +8856,7 @@ window.webactPortfolioMaster = [
     "name": "Tipping Hat",
     "slug": "tipping-hat",
     "industry": "Business",
-    "image": "../../Resources/images/tipping hat-1920w.png",
+    "image": "Resources/images/tipping hat-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8895,7 +8895,7 @@ window.webactPortfolioMaster = [
     "name": "Total Wellness Group",
     "slug": "total-wellness-group",
     "industry": "Healthcare",
-    "image": "../../Resources/images/TotalWellnessGroup-1920w.png",
+    "image": "Resources/images/TotalWellnessGroup-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8934,7 +8934,7 @@ window.webactPortfolioMaster = [
     "name": "Treasure Valley Driving School",
     "slug": "treasure-valley-driving-school",
     "industry": "Driving School",
-    "image": "../../Resources/images/WebactTreasureValley-1920w.png",
+    "image": "Resources/images/WebactTreasureValley-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8973,7 +8973,7 @@ window.webactPortfolioMaster = [
     "name": "Trevey",
     "slug": "trevey",
     "industry": "Business",
-    "image": "../../Resources/images/trevey-1920w.png",
+    "image": "Resources/images/trevey-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9012,7 +9012,7 @@ window.webactPortfolioMaster = [
     "name": "Tropical Remodel Solutions",
     "slug": "tropical-remodel-solutions",
     "industry": "Home Services",
-    "image": "../../Resources/images/Tropical_Remodel_Solutions-1920w.png",
+    "image": "Resources/images/Tropical_Remodel_Solutions-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9051,7 +9051,7 @@ window.webactPortfolioMaster = [
     "name": "Turf Magic",
     "slug": "turf-magic",
     "industry": "Business",
-    "image": "../../Resources/images/Turf-Magic-1920w.png",
+    "image": "Resources/images/Turf-Magic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9090,7 +9090,7 @@ window.webactPortfolioMaster = [
     "name": "US Green",
     "slug": "us-green",
     "industry": "Energy",
-    "image": "../../Resources/images/us green energy-1920w.png",
+    "image": "Resources/images/us green energy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9129,7 +9129,7 @@ window.webactPortfolioMaster = [
     "name": "Vacation Rentals",
     "slug": "vacation-rentals",
     "industry": "Travel",
-    "image": "../../Resources/images/Vacation-Rentals-1920w.png",
+    "image": "Resources/images/Vacation-Rentals-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9168,7 +9168,7 @@ window.webactPortfolioMaster = [
     "name": "Vi'TalDerm MD",
     "slug": "vi-talderm-md",
     "industry": "Business",
-    "image": "../../Resources/images/vitalDerm-1920w.png",
+    "image": "Resources/images/vitalDerm-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9207,7 +9207,7 @@ window.webactPortfolioMaster = [
     "name": "Vip Driving Schools",
     "slug": "vip-driving-schools",
     "industry": "Driving School",
-    "image": "../../Resources/images/Vip-Driving-Schools-1920w.png",
+    "image": "Resources/images/Vip-Driving-Schools-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9246,7 +9246,7 @@ window.webactPortfolioMaster = [
     "name": "Wake Heating and Air",
     "slug": "wake-heating-and-air",
     "industry": "HVAC",
-    "image": "../../Resources/images/Wake-Heating-and-Air-1920w.png",
+    "image": "Resources/images/Wake-Heating-and-Air-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9285,7 +9285,7 @@ window.webactPortfolioMaster = [
     "name": "Washington Dental",
     "slug": "washington-dental",
     "industry": "Dental",
-    "image": "../../Resources/images/WashingtonDental-1920w.png",
+    "image": "Resources/images/WashingtonDental-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9324,7 +9324,7 @@ window.webactPortfolioMaster = [
     "name": "Way Cool Gaming",
     "slug": "way-cool-gaming",
     "industry": "Technology",
-    "image": "../../Resources/images/Way-Cool-Gaming-1920w.png",
+    "image": "Resources/images/Way-Cool-Gaming-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9363,7 +9363,7 @@ window.webactPortfolioMaster = [
     "name": "Winston C Throgmorton",
     "slug": "winston-c-throgmorton",
     "industry": "Business",
-    "image": "../../Resources/images/WebactWinstonCThrogmorton-1920w.png",
+    "image": "Resources/images/WebactWinstonCThrogmorton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9402,7 +9402,7 @@ window.webactPortfolioMaster = [
     "name": "Your College Planning Coach",
     "slug": "your-college-planning-coach",
     "industry": "Education",
-    "image": "../../Resources/images/You-College-Planning-Coach-1920w.png",
+    "image": "Resources/images/You-College-Planning-Coach-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9441,7 +9441,7 @@ window.webactPortfolioMaster = [
     "name": "Yuma Airshow",
     "slug": "yuma-airshow",
     "industry": "Business",
-    "image": "../../Resources/images/WebactYumaAirshow-1920w.png",
+    "image": "Resources/images/WebactYumaAirshow-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9480,7 +9480,7 @@ window.webactPortfolioMaster = [
     "name": "Z-XG",
     "slug": "z-xg",
     "industry": "Business",
-    "image": "../../Resources/images/Z-XG-1920w.png",
+    "image": "Resources/images/Z-XG-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9519,7 +9519,7 @@ window.webactPortfolioMaster = [
     "name": "Zaika Broomfield",
     "slug": "zaika-broomfield",
     "industry": "Restaurant",
-    "image": "../../Resources/images/zaikaBroomfield-1920w.png",
+    "image": "Resources/images/zaikaBroomfield-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9558,7 +9558,7 @@ window.webactPortfolioMaster = [
     "name": "Zaika Castle Rock",
     "slug": "zaika-castle-rock",
     "industry": "Restaurant",
-    "image": "../../Resources/images/zaikaCastleRock-1920w.png",
+    "image": "Resources/images/zaikaCastleRock-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9597,7 +9597,7 @@ window.webactPortfolioMaster = [
     "name": "Zaika Colorado Springs",
     "slug": "zaika-colorado-springs",
     "industry": "Restaurant",
-    "image": "../../Resources/images/zaika co springs-1920w.png",
+    "image": "Resources/images/zaika co springs-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9636,7 +9636,7 @@ window.webactPortfolioMaster = [
     "name": "Zaika Express",
     "slug": "zaika-express",
     "industry": "Restaurant",
-    "image": "../../Resources/images/zaikaExpress-1920w.png",
+    "image": "Resources/images/zaikaExpress-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9675,7 +9675,7 @@ window.webactPortfolioMaster = [
     "name": "Zaika Indian Cuisine",
     "slug": "zaika-indian-cuisine",
     "industry": "Restaurant",
-    "image": "../../Resources/images/ZaikaIndianCuisine-1920w.png",
+    "image": "Resources/images/ZaikaIndianCuisine-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9714,7 +9714,7 @@ window.webactPortfolioMaster = [
     "name": "Zaika Littleton",
     "slug": "zaika-littleton",
     "industry": "Restaurant",
-    "image": "../../Resources/images/zaikaLittleton-1920w.png",
+    "image": "Resources/images/zaikaLittleton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9750,3 +9750,6 @@ window.webactPortfolioMaster = [
     }
   }
 ];
+
+
+

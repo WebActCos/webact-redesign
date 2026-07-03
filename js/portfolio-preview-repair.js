@@ -145,3 +145,4 @@
   }
   window.addEventListener("load", repairPortfolioPreviews);
 })();
+

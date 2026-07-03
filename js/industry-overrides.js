@@ -1,4 +1,4 @@
-window.webactPortfolioOverrides = {
+﻿window.webactPortfolioOverrides = {
   "Castle Rock": {
     name: "Castle Rock Tattoo",
     industry: "Tattoo Shop",
@@ -100,3 +100,4 @@ window.webactPortfolioOverrides = {
   "Sniper Security": { industry: "Security" },
   "The Chambers Of Tucson Mall": { industry: "Retail" }
 };
+
