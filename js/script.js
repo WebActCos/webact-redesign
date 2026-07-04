@@ -1,4 +1,4 @@
-/* WebAct Promodo Header */
+﻿/* WebAct Promodo Header */
 document.querySelectorAll("[data-wa-nav]").forEach((header) => {
   const toggle = header.querySelector("[data-wa-menu-toggle]");
   const menu = header.querySelector("[data-wa-menu]");
@@ -741,6 +741,7 @@ document.querySelectorAll(".professional-template-widget[data-template-feed]").f
     if (fallback) fallback.hidden = false;
   }
 });
+
 
 
 

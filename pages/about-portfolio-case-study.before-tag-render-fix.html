@@ -484,7 +484,7 @@ function render(){
     '<article class="section-card"><h2>Technology Stack</h2><p>The project is structured for performance, responsive presentation, discoverability, and long-term maintainability.</p><div class="tech-grid">'+cardList(p.technologies,'tech-card')+'</div></article></section>'+
     '<aside class="sidebar"><div class="sidebar-card"><h3>'+esc(cta[0])+'</h3><p>'+esc(cta[1])+'</p><a class="btn" href="../contact/index.html">'+esc(cta[2])+'</a><div class="detail-list"><div class="detail"><span>Company</span><strong>'+esc(p.name)+'</strong></div><div class="detail"><span>Industry</span><strong>'+esc(p.industry)+'</strong></div><div class="detail"><span>Portfolio Type</span><strong>Website Design Case Study</strong></div></div></div></aside></div>'+
     '<section class="related"><h2>Related Website Designs</h2><div class="related-grid">'+(related||'<p>No related projects found yet.</p>')+'</div></section>'+
-    '<nav class="case-nav"><a href="./case-study.html?project='+esc(prev.slug)+'">â† '+esc(prev.name)+'</a><a href="./index.html">Back to Portfolio</a><a href="./case-study.html?project='+esc(next.slug)+'">'+esc(next.name)+' â†’</a></nav>'+
+    '<nav class="case-nav"><a href="./case-study.html?project='+esc(prev.slug)+'">← '+esc(prev.name)+'</a><a href="./index.html">Back to Portfolio</a><a href="./case-study.html?project='+esc(next.slug)+'">'+esc(next.name)+' ←’</a></nav>'+
     '<section class="cta-band"><div><h2>'+esc(cta[0])+'</h2><p>'+esc(cta[1])+'</p></div><a class="btn" href="../contact/index.html">'+esc(cta[2])+'</a></section></main>';
   wireInteractions(prev,next);
 }
@@ -535,6 +535,7 @@ document.addEventListener("DOMContentLoaded", function(){
 </script>
 <script src="../js/script.js"></script><script src="../js/portfolio-case-study-content-fix.js"></script></body>
 </html>
+
 
 
 
