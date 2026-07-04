@@ -442,60 +442,6 @@ function normalizeProject(raw,index){
 
 const legacyProjects=rows.length?rows.map((r,index)=>normalizeProject({name:r[0],slug:slug(r[0]),industry:r[1],image:r[2],services:legacySvc(refineIndustry(r[0],r[1]))},index)):fallback.map((p,index)=>normalizeProject({name:p.name,slug:slug(p.name),industry:p.industry,image:p.img,services:p.services,description:p.desc},index));
 const projects=master.length?master.map((p,index)=>normalizeProject(p,index)):legacyProjects;
-const WEBTACT_TAG_COPY={
-  "Ecommerce":["ecommerce website experience centered on product discovery, trust, simple navigation, and clear shopping paths for customers.","Grow Your Ecommerce Business Online","Showcase products, categories, promotions, brand story, and shopping paths with an ecommerce website built for customers."],
-  "Restaurant":["restaurant website experience centered on menus, location details, trust, and practical next steps for visitors.","Grow Your Restaurant Online","Showcase your menu, location, story, and ordering path with a restaurant website built for customers."],
-  "Dental":["dental website experience centered on patient trust, clear services, appointment paths, and local visibility.","Grow Your Dental Practice Online","Showcase services, providers, patient resources, location details, and appointment requests with a dental website built for patients."],
-  "Healthcare":["healthcare website experience centered on trust, services, patient education, and simple appointment paths.","Grow Your Healthcare Practice Online","Showcase care services, providers, patient resources, locations, and appointment paths with a healthcare website built for patients."],
-  "Home Services":["home services website experience centered on trust, service clarity, local proof, and quote-focused next steps.","Grow Your Home Services Business Online","Showcase services, service areas, reviews, project proof, and quote requests with a website built for local customers."],
-  "Roofing":["roofing website experience centered on service clarity, trust, project credibility, and quote-focused next steps.","Grow Your Roofing Business Online","Showcase roofing services, service areas, reviews, project proof, and quote requests with a website built for local customers."],
-  "HVAC":["HVAC website experience centered on emergency service visibility, trust, comfort solutions, and quote-focused next steps.","Grow Your HVAC Business Online","Showcase heating, cooling, indoor air quality, service areas, reviews, and appointment requests."],
-  "Plumbing":["plumbing website experience centered on urgent service needs, trust, clear service categories, and easy contact paths.","Grow Your Plumbing Business Online","Showcase plumbing services, emergency support, service areas, reviews, and quote requests."],
-  "Legal":["legal website experience centered on credibility, practice areas, trust, and consultation-focused next steps.","Grow Your Law Firm Online","Showcase practice areas, attorney credibility, client resources, and consultation paths."],
-  "Real Estate":["real estate website experience centered on listings, local expertise, trust, and lead generation.","Grow Your Real Estate Business Online","Showcase properties, communities, agent expertise, and buyer or seller inquiry paths."],
-  "Professional Services":["professional services website experience centered on expertise, trust, service clarity, and lead generation.","Grow Your Professional Services Business Online","Showcase services, expertise, proof, resources, and consultation paths."],
-  "Pet Services":["pet services website experience centered on trust, care details, services, and easy booking paths.","Grow Your Pet Services Business Online","Showcase services, care details, reviews, locations, and booking requests."],
-  "Automotive":["automotive website experience centered on services, inventory or repairs, trust, and appointment paths.","Grow Your Automotive Business Online","Showcase services, vehicles, specials, reviews, and appointment requests."],
-  "Technology":["technology website experience centered on solutions, credibility, product clarity, and conversion paths.","Grow Your Technology Business Online","Showcase solutions, features, use cases, proof, and demo or contact paths."],
-  "Nonprofit":["nonprofit website experience centered on mission, trust, community impact, and donation or volunteer paths.","Grow Your Nonprofit Online","Showcase your mission, programs, impact, events, donation paths, and volunteer opportunities."],
-  "Business":["business website experience centered on trust, service clarity, brand story, and practical next steps for visitors.","Grow Your Business Online","Showcase your services, story, proof, and conversion paths with a website built for customers."]
-};
-
-function webactSlug(v){return String(v||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
-function webactCaseCopy(tag,name){
-  const row=WEBTACT_TAG_COPY[tag]||WEBTACT_TAG_COPY.Business;
-  return {
-    intro:name+" presents a "+row[0],
-    heading:row[1],
-    body:row[2]
-  };
-}
-
-const webactPortfolioTagMap={};
-try{
-  (rows||[]).forEach(r=>{
-    if(r&&r[0]&&r[1]) webactPortfolioTagMap[webactSlug(r[0])]=r[1];
-  });
-}catch(e){}
-
-projects.forEach(p=>{
-  const sourceTag=webactPortfolioTagMap[webactSlug(p.name)]||p.industry||p.category||"Business";
-  p.industry=sourceTag;
-  p.category=sourceTag;
-
-  const copy=webactCaseCopy(sourceTag,p.name);
-  p.description=copy.intro;
-  p.seoDescription=copy.intro;
-  p.seoTitle=p.name+" "+sourceTag+" Website Design Case Study | WebAct Portfolio";
-
-  p.override=p.override||{};
-  p.override.hero=copy.intro;
-  p.override.cta={
-    headline:copy.heading,
-    text:copy.body,
-    button:"Start a Similar Project"
-  };
-});
 
 const params=new URLSearchParams(window.location.search);
 const requested=params.get('project')||'';
@@ -606,9 +552,8 @@ document.addEventListener("DOMContentLoaded", function(){
   }, 250);
 });
 </script>
-<script src="../js/script.js"></script></body>
+<script src="../js/script.js"></script><script src="../js/portfolio-case-study-content-fix.js"></script></body>
 </html>
-
 
 
 
