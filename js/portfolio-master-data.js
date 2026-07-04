@@ -626,7 +626,7 @@
   {
     "name": "All-Star Pizza",
     "slug": "all-star-pizza",
-    "industry": "Ecommerce",
+    "industry": "Restaurant",
     "image": "/webact-redesign/Resources/images/allStarPizza-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -9750,6 +9750,7 @@
     }
   }
 ];
+
 
 
 
