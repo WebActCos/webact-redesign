@@ -1,4 +1,6 @@
 ﻿(function(){
+  const slugify = v => String(v || "").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+
   const copyByTag = {
     "Tattoo": ["tattoo website experience centered on artist portfolios, studio trust, booking paths, and service presentation.", "Grow Your Tattoo Studio Online", "Showcase artists, portfolios, studio information, reviews, booking paths, and service details."],
     "Ecommerce": ["ecommerce website experience centered on product discovery, simple navigation, trust, and shopping paths.", "Grow Your Ecommerce Business Online", "Showcase products, categories, promotions, brand story, and shopping paths."],
@@ -6,22 +8,21 @@
     "Business": ["business website experience centered on trust, service clarity, brand story, and practical next steps.", "Grow Your Business Online", "Showcase services, story, proof, and conversion paths with a website built for customers."]
   };
 
-  const slugify = v => String(v || "").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
-  const rows = window.webactPortfolioAll || window.webactPortfolioDataAll || window.portfolioDataAll || [];
-  const slug = new URLSearchParams(location.search).get("project") || "";
+  async function getTagFromData(){
+    const slug = new URLSearchParams(location.search).get("project") || "";
+    const res = await fetch("../js/portfolio-data-all.js", { cache: "no-store" });
+    const text = await res.text();
 
-  function getTag(){
-    for(const row of rows){
-      if(Array.isArray(row) && slugify(row[0]) === slug) return row[1];
+    const matches = [...text.matchAll(/\["([^"]+)","([^"]+)"/g)];
+    for(const match of matches){
+      if(slugify(match[1]) === slug){
+        return { name: match[1], tag: match[2] };
+      }
     }
-    return "";
+    return null;
   }
 
-  function run(){
-    const tag = getTag();
-    if(!tag) return;
-
-    const projectName = document.querySelector("h1")?.textContent?.trim() || "This project";
+  function patchText(name, tag){
     const copy = copyByTag[tag] || [
       `${tag.toLowerCase()} website experience centered on trust, service clarity, brand story, and practical next steps.`,
       `Grow Your ${tag} Business Online`,
@@ -30,16 +31,16 @@
 
     document.querySelectorAll("*").forEach(el => {
       if(el.children.length) return;
-      let text = el.textContent.trim();
 
-      if(text === "Industry" || text.length > 250) return;
+      const text = el.textContent.trim();
+      if(!text || text.length > 300) return;
 
-      if(/^(Restaurant|Business|Ecommerce|Tattoo|Dental|Healthcare|Roofing|HVAC|Plumbing|Legal)$/.test(text)){
+      if(/^(Restaurant|Business|Ecommerce|Tattoo|Dental|Healthcare|Roofing|HVAC|Plumbing|Legal|Professional Services|Home Services)$/.test(text)){
         el.textContent = tag;
       }
 
       if(/presents a .* website experience/i.test(text)){
-        el.textContent = `${projectName} presents a ${copy[0]}`;
+        el.textContent = `${name} presents a ${copy[0]}`;
       }
 
       if(/Grow Your .* Online/i.test(text)){
@@ -52,9 +53,16 @@
     });
   }
 
+  async function run(){
+    const data = await getTagFromData();
+    if(!data) return;
+    patchText(data.name, data.tag);
+  }
+
   document.addEventListener("DOMContentLoaded", function(){
     run();
     setTimeout(run, 500);
     setTimeout(run, 1500);
+    setTimeout(run, 3000);
   });
 })();
