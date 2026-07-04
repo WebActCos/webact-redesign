@@ -1,0 +1,25 @@
+.webact-portfolio-preview-frame {
+  width: 100% !important;
+  aspect-ratio: 16 / 10;
+  display: grid !important;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #f4f8fb;
+}
+
+.webact-portfolio-preview-frame img {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  object-fit: contain !important;
+  padding: 10px;
+  background: #fff;
+}
+
+.portfolio-preview-repaired .placeholder,
+.portfolio-preview-repaired .preview-placeholder,
+.portfolio-preview-repaired [class*="placeholder"] {
+  display: none !important;
+}
+

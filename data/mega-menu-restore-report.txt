@@ -1,0 +1,14 @@
+Mega menu validation
+HTML files: 777
+Headers restored: 776
+Missing header: 1
+Missing css: 0
+Missing js: 0
+Escaped quote residue: 0
+
+Sample missing header files:
+C:\Users\blewi\Documents\Codex\2026-06-08\files-mentioned-by-the-user-2026\outputs\webact-redesign\assets\webact-template-feed.html
+
+Sample missing css files:
+
+Sample missing js files:

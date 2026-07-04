@@ -1,0 +1,23 @@
+
+# Local backups
+backup-before-*
+*-backup-*
+*.bak
+
+# Local audit reports
+broken-links-audit*.csv
+project-audit.csv
+
+# Local automation reports
+template-audit*.csv
+automation-exclude.txt
+
+# Local header/footer audit reports
+header-*-issues.csv
+
+# Local header/footer audit reports
+header-*-issues.csv
+
+# Local audit files
+*audit*.csv
+*issues.csv

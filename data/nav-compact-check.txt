@@ -1,0 +1,7 @@
+indexHeader=False
+css=False
+js=False
+logo=True
+oldMegaRefs=2333
+headers=0
+htmlFiles=777
