@@ -1,3 +1,46 @@
+$ErrorActionPreference = "Stop"
+
+$root = (Get-Location).Path
+$dataPath = ".\assets\data\case-studies.json"
+$templatePath = ".\assets\templates\case-study.html"
+$outputPath = ".\about\portfolio\case-study.html"
+
+New-Item -ItemType Directory -Path ".\assets\data" -Force | Out-Null
+New-Item -ItemType Directory -Path ".\assets\templates" -Force | Out-Null
+New-Item -ItemType Directory -Path ".\about\portfolio" -Force | Out-Null
+
+if (!(Test-Path $dataPath)) {
+@'
+[
+  {
+    "slug": "good-water",
+    "title": "Good Water Company",
+    "industry": "Water Treatment",
+    "summary": "A WebAct portfolio case study for Good Water Company.",
+    "services": ["Website Design", "SEO", "Local Visibility"],
+    "url": "/about/portfolio/good-water/index.html"
+  },
+  {
+    "slug": "roof-ready",
+    "title": "Roof Ready",
+    "industry": "Roofing",
+    "summary": "A WebAct portfolio case study for a roofing business website project.",
+    "services": ["Website Design", "Local SEO", "Lead Generation"],
+    "url": "/about/portfolio/roof-ready/index.html"
+  },
+  {
+    "slug": "zaika-indian-cuisine",
+    "title": "Zaika Indian Cuisine",
+    "industry": "Restaurant",
+    "summary": "A WebAct portfolio case study for a restaurant website and local marketing project.",
+    "services": ["Website Design", "Local SEO", "Restaurant Marketing"],
+    "url": "/about/portfolio/zaika-indian-cuisine/index.html"
+  }
+]
+'@ | Set-Content $dataPath -NoNewline
+}
+
+@'
 <!doctype html>
 <html lang="en">
 <head>
@@ -103,3 +146,12 @@
   <script src="/assets/js/includes.js"></script>
 </body>
 </html>
+'@ | Set-Content $templatePath -NoNewline
+
+$data = Get-Content $dataPath -Raw
+$template = Get-Content $templatePath -Raw
+$output = $template.Replace("{{CASE_STUDY_DATA}}", $data)
+
+Set-Content $outputPath $output -NoNewline
+
+Write-Host "Generated case study renderer: $outputPath" -ForegroundColor Green
