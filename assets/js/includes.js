@@ -1,6 +1,16 @@
 (function () {
   "use strict";
 
+  function getBasePath() {
+    var path = window.location.pathname;
+
+    if (path.indexOf("/webact-redesign/") === 0) {
+      return "/webact-redesign";
+    }
+
+    return "";
+  }
+
   function loadInclude(targetId, filePath) {
     var target = document.getElementById(targetId);
 
@@ -8,7 +18,7 @@
       return Promise.resolve();
     }
 
-    return fetch(filePath, { cache: "no-cache" })
+    return fetch(getBasePath() + filePath, { cache: "no-cache" })
       .then(function (response) {
         if (!response.ok) {
           throw new Error("Failed to load " + filePath + " (" + response.status + ")");
