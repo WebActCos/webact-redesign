@@ -4,7 +4,7 @@
         "title":  "Best Dental Website Designs",
         "category":  "Dental",
         "description":  "Browse dental website designs focused on patient trust, service clarity, appointment requests, and modern practice presentation.",
-        "image":  "../Resources/images/benton-dental.png",
+        "image":  "/Resources/images/benton-dental.png",
         "url":  "/about/portfolio/best-dental-website-designs/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=best-dental-website-designs",
         "services":  [
@@ -18,7 +18,7 @@
         "title":  "Best Ecommerce Website Designs",
         "category":  "Portfolio",
         "description":  "Explore ecommerce and retail website designs built to present products, offers, customer value, and conversion-focused next steps.",
-        "image":  "../Resources/images/2goCoconut.png",
+        "image":  "/Resources/images/2goCoconut.png",
         "url":  "/about/portfolio/best-ecommerce-website-designs/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=best-ecommerce-website-designs",
         "services":  [
@@ -32,7 +32,7 @@
         "title":  "Best Law Firm Website Designs",
         "category":  "Legal",
         "description":  "See law firm website designs that communicate authority, practice focus, trust, and clear inquiry paths.",
-        "image":  "../Resources/images/Evans-Legal-Group-1920w.png",
+        "image":  "/Resources/images/Evans-Legal-Group-1920w.png",
         "url":  "/about/portfolio/best-law-firm-website-designs/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=best-law-firm-website-designs",
         "services":  [
@@ -46,7 +46,7 @@
         "title":  "Best Restaurant Website Designs",
         "category":  "Restaurant",
         "description":  "Explore restaurant website designs built to present menus, locations, ordering paths, brand personality, and customer confidence.",
-        "image":  "../Resources/images/allStarPizza-1920w.png",
+        "image":  "/Resources/images/allStarPizza-1920w.png",
         "url":  "/about/portfolio/best-restaurant-website-designs/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=best-restaurant-website-designs",
         "services":  [
@@ -60,7 +60,7 @@
         "title":  "Best Roofing Website Designs",
         "category":  "Roofing",
         "description":  "Review roofing website designs created to build homeowner confidence, explain services, and generate qualified roofing leads.",
-        "image":  "../Resources/images/WebactHeritage-1920w.png",
+        "image":  "/Resources/images/WebactHeritage-1920w.png",
         "url":  "/about/portfolio/best-roofing-website-designs/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=best-roofing-website-designs",
         "services":  [
@@ -88,7 +88,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Murrieta Driving School is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/murrieta-driving-school/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=murrieta-driving-school",
         "services":  [
@@ -102,7 +102,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Nirvana Indian Cuisine is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/nirvana-indian-cuisine/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=nirvana-indian-cuisine",
         "services":  [
@@ -116,7 +116,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "HVAC",
         "description":  "Obairagency is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/obairagency/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=obairagency",
         "services":  [
@@ -130,7 +130,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Water Treatment",
         "description":  "NOLA Water is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/nola-water/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=nola-water",
         "services":  [
@@ -144,7 +144,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Molly Mulligan is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/molly-mulligan/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=molly-mulligan",
         "services":  [
@@ -158,7 +158,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Photophobic Society of America is part of the WebAct portfolio, showing work in the nonprofit category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/photophobic-society-of-america/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=photophobic-society-of-america",
         "services":  [
@@ -172,7 +172,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Legal",
         "description":  "Mountain Peak Law Group LLC is part of the WebAct portfolio, showing work in the legal category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/mountain-peak-law-group-llc/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=mountain-peak-law-group-llc",
         "services":  [
@@ -200,7 +200,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Legal",
         "description":  "Mountain West Law Group is part of the WebAct portfolio, showing work in the legal category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/mountain-west-law-group/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=mountain-west-law-group",
         "services":  [
@@ -228,7 +228,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Peace Of Mind Pest Services is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/peace-of-mind-pest-services/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=peace-of-mind-pest-services",
         "services":  [
@@ -242,7 +242,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Paw Power Agility Equipment is part of the WebAct portfolio, showing work in the pet services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/paw-power-agility-equipment/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=paw-power-agility-equipment",
         "services":  [
@@ -270,7 +270,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Dental",
         "description":  "Peakview Dental is part of the WebAct portfolio, showing work in the dental category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/peakview-dental/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=peakview-dental",
         "services":  [
@@ -298,7 +298,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Pest Magic is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/pest-magic/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=pest-magic",
         "services":  [
@@ -326,7 +326,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Optimal Hospice is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/optimal-hospice/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=optimal-hospice",
         "services":  [
@@ -354,7 +354,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Onestop Home Health Care is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/onestop-home-health-care/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=onestop-home-health-care",
         "services":  [
@@ -368,7 +368,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Palm Bay Power Equipment is part of the WebAct portfolio, showing work in the technology category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/palm-bay-power-equipment/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=palm-bay-power-equipment",
         "services":  [
@@ -382,7 +382,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "ParkingBoxx is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/parkingboxx/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=parkingboxx",
         "services":  [
@@ -396,7 +396,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Parking Payment, Validation \u0026amp; Reservations is part of the WebAct portfolio, showing work in the automotive category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/parking-payment-validation-reservations/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=parking-payment-validation-reservations",
         "services":  [
@@ -410,7 +410,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Pantera Homes is part of the WebAct portfolio, showing work in the real estate category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/pantera-homes/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=pantera-homes",
         "services":  [
@@ -424,7 +424,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Dental",
         "description":  "Miyazaki Dental is part of the WebAct portfolio, showing work in the dental category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/miyazaki-dental/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=miyazaki-dental",
         "services":  [
@@ -438,7 +438,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Legal",
         "description":  "Kramarz Law is part of the WebAct portfolio, showing work in the legal category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/kramarz-law/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=kramarz-law",
         "services":  [
@@ -452,7 +452,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Water Treatment",
         "description":  "Kinetico Denver is part of the WebAct portfolio, showing work in the technology category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/kinetico-denver/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=kinetico-denver",
         "services":  [
@@ -466,7 +466,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Kenyon Homecare Consulting is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/kenyon-homecare-consulting/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=kenyon-homecare-consulting",
         "services":  [
@@ -480,7 +480,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Lake Elsinore Driving School is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/lake-elsinore-driving-school/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=lake-elsinore-driving-school",
         "services":  [
@@ -494,7 +494,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Linda Wang is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/linda-wang/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=linda-wang",
         "services":  [
@@ -508,7 +508,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Light Of Mine is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/light-of-mine/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=light-of-mine",
         "services":  [
@@ -522,7 +522,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Dental",
         "description":  "Liberty Lake Smile Source is part of the WebAct portfolio, showing work in the dental category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/liberty-lake-smile-source/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=liberty-lake-smile-source",
         "services":  [
@@ -536,7 +536,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "HVAC",
         "description":  "Kasco HVAC is part of the WebAct portfolio, showing work in the hvac category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/kasco-hvac/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=kasco-hvac",
         "services":  [
@@ -550,7 +550,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Ironside Capital is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/ironside-capital/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=ironside-capital",
         "services":  [
@@ -578,7 +578,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Insightifi is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/insightifi/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=insightifi",
         "services":  [
@@ -592,7 +592,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Island Slider Guy is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/island-slider-guy/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=island-slider-guy",
         "services":  [
@@ -620,7 +620,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "JK Hatcher Homes is part of the WebAct portfolio, showing work in the real estate category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/jk-hatcher-homes/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=jk-hatcher-homes",
         "services":  [
@@ -634,7 +634,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Jack Lewis is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/jack-lewis/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=jack-lewis",
         "services":  [
@@ -648,7 +648,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Menifee Driving School is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/menifee-driving-school/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=menifee-driving-school",
         "services":  [
@@ -662,7 +662,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Mehak India\u0026#39;s Aroma is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/mehak-india-s-aroma/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=mehak-india-s-aroma",
         "services":  [
@@ -676,7 +676,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Mehak Denver is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/mehak-denver/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=mehak-denver",
         "services":  [
@@ -690,7 +690,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "HVAC",
         "description":  "Midwest Appliance and HVAC is part of the WebAct portfolio, showing work in the hvac category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/midwest-appliance-and-hvac/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=midwest-appliance-and-hvac",
         "services":  [
@@ -718,7 +718,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Mindful Minds Psychiatry is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/mindful-minds-psychiatry/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=mindful-minds-psychiatry",
         "services":  [
@@ -732,7 +732,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Mile High Books is part of the WebAct portfolio, showing work in the education category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/mile-high-books/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=mile-high-books",
         "services":  [
@@ -746,7 +746,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Meditouch is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/meditouch/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=meditouch",
         "services":  [
@@ -788,7 +788,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Little Caesars Pueblo is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/little-caesars-pueblo/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=little-caesars-pueblo",
         "services":  [
@@ -802,7 +802,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Manor House Apartments is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/manor-house-apartments/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=manor-house-apartments",
         "services":  [
@@ -816,7 +816,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Meadow Hills is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/meadow-hills/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=meadow-hills",
         "services":  [
@@ -830,7 +830,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "MDT Transit is part of the WebAct portfolio, showing work in the automotive category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/mdt-transit/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=mdt-transit",
         "services":  [
@@ -844,7 +844,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Master Craft is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/master-craft/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=master-craft",
         "services":  [
@@ -858,7 +858,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Trevey is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/trevey/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=trevey",
         "services":  [
@@ -886,7 +886,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Total Wellness Group is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/total-wellness-group/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=total-wellness-group",
         "services":  [
@@ -900,7 +900,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Tropical Remodel Solutions is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/tropical-remodel-solutions/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=tropical-remodel-solutions",
         "services":  [
@@ -914,7 +914,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Vacation Rentals is part of the WebAct portfolio, showing work in the real estate category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/vacation-rentals/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=vacation-rentals",
         "services":  [
@@ -928,7 +928,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "US Green is part of the WebAct portfolio, showing work in the technology category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/us-green/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=us-green",
         "services":  [
@@ -942,7 +942,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Turf Magic is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/turf-magic/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=turf-magic",
         "services":  [
@@ -956,7 +956,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "The Executive Center is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/the-executive-center/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=the-executive-center",
         "services":  [
@@ -984,7 +984,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Tala Wellness is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/tala-wellness/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=tala-wellness",
         "services":  [
@@ -1012,7 +1012,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Tipping Hat is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/tipping-hat/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=tipping-hat",
         "services":  [
@@ -1026,7 +1026,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Water Treatment",
         "description":  "Thompson Water Media is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/thompson-water-media/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=thompson-water-media",
         "services":  [
@@ -1054,7 +1054,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Zaika Broomfield is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/zaika-broomfield/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=zaika-broomfield",
         "services":  [
@@ -1068,7 +1068,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Z-XG is part of the WebAct portfolio, showing work in the technology category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/z-xg/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=z-xg",
         "services":  [
@@ -1096,7 +1096,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Zaika Castle Rock is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/zaika-castle-rock/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=zaika-castle-rock",
         "services":  [
@@ -1110,7 +1110,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Zaika Indian Cuisine is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/zaika-indian-cuisine/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=zaika-indian-cuisine",
         "services":  [
@@ -1124,7 +1124,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Zaika Express is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/zaika-express/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=zaika-express",
         "services":  [
@@ -1138,7 +1138,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Zaika Colorado Springs is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/zaika-colorado-springs/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=zaika-colorado-springs",
         "services":  [
@@ -1152,7 +1152,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "HVAC",
         "description":  "Wake Heating and Air is part of the WebAct portfolio, showing work in the hvac category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/wake-heating-and-air/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=wake-heating-and-air",
         "services":  [
@@ -1166,7 +1166,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Vip Driving Schools is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/vip-driving-schools/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=vip-driving-schools",
         "services":  [
@@ -1180,7 +1180,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Vi\u0026#39;TalDerm MD is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/vi-talderm-md/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=vi-talderm-md",
         "services":  [
@@ -1194,7 +1194,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Dental",
         "description":  "Washington Dental is part of the WebAct portfolio, showing work in the dental category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/washington-dental/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=washington-dental",
         "services":  [
@@ -1208,7 +1208,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Your College Planning Coach is part of the WebAct portfolio, showing work in the education category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/your-college-planning-coach/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=your-college-planning-coach",
         "services":  [
@@ -1236,7 +1236,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Way Cool Gaming is part of the WebAct portfolio, showing work in the fitness \u0026amp; sports category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/way-cool-gaming/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=way-cool-gaming",
         "services":  [
@@ -1250,7 +1250,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Sage Restaurant is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/sage-restaurant/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=sage-restaurant",
         "services":  [
@@ -1306,7 +1306,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Smart Cell Phone Parts is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/smart-cell-phone-parts/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=smart-cell-phone-parts",
         "services":  [
@@ -1320,7 +1320,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Skin Care Essentials is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/skin-care-essentials/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=skin-care-essentials",
         "services":  [
@@ -1334,7 +1334,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Signal Driving \u0026amp; Traffic Schools is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/signal-driving-traffic-schools/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=signal-driving-traffic-schools",
         "services":  [
@@ -1348,7 +1348,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Pork Chop\u0026#39;s Truck and Auto is part of the WebAct portfolio, showing work in the automotive category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/pork-chop-s-truck-and-auto/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=pork-chop-s-truck-and-auto",
         "services":  [
@@ -1362,7 +1362,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Pompano Glass is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/pompano-glass/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=pompano-glass",
         "services":  [
@@ -1376,7 +1376,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Platinum Registration is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/platinum-registration/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=platinum-registration",
         "services":  [
@@ -1404,7 +1404,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Roofing",
         "description":  "Roof Ready is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/roof-ready/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=roof-ready",
         "services":  [
@@ -1446,7 +1446,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Summit Graphics is part of the WebAct portfolio, showing work in the creative services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/summit-graphics/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=summit-graphics",
         "services":  [
@@ -1460,7 +1460,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Sukoon is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/sukoon/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=sukoon",
         "services":  [
@@ -1502,7 +1502,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Tadka Indian Cuisine is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/tadka-indian-cuisine/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=tadka-indian-cuisine",
         "services":  [
@@ -1516,7 +1516,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Sushi \u0026amp; Co is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/sushi-co/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=sushi-co",
         "services":  [
@@ -1530,7 +1530,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Superior Showers is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/superior-showers/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=superior-showers",
         "services":  [
@@ -1544,7 +1544,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Speak Clear Communications is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/speak-clear-communications/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=speak-clear-communications",
         "services":  [
@@ -1572,7 +1572,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Smart Wireless Parts is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/smart-wireless-parts/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=smart-wireless-parts",
         "services":  [
@@ -1586,7 +1586,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Legal",
         "description":  "Spector Law is part of the WebAct portfolio, showing work in the legal category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/spector-law/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=spector-law",
         "services":  [
@@ -1600,7 +1600,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Stephanie Ascari is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/stephanie-ascari/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=stephanie-ascari",
         "services":  [
@@ -1614,7 +1614,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Stanleyview Home Care is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/stanleyview-home-care/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=stanleyview-home-care",
         "services":  [
@@ -1628,7 +1628,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Spring Fresh is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/spring-fresh/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=spring-fresh",
         "services":  [
@@ -1642,7 +1642,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Inquiz Inspections is part of the WebAct portfolio, showing work in the real estate category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/inquiz-inspections/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=inquiz-inspections",
         "services":  [
@@ -1656,7 +1656,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Cass And Company Salon is part of the WebAct portfolio, showing work in the creative services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/cass-and-company-salon/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=cass-and-company-salon",
         "services":  [
@@ -1670,7 +1670,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Carie\u0026#39;s Posing Suits is part of the WebAct portfolio, showing work in the creative services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/carie-s-posing-suits/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=carie-s-posing-suits",
         "services":  [
@@ -1684,7 +1684,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Callahan Hayes is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/callahan-hayes/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=callahan-hayes",
         "services":  [
@@ -1698,7 +1698,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Christy Root Designs is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/christy-root-designs/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=christy-root-designs",
         "services":  [
@@ -1712,7 +1712,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Century Tire Inc. is part of the WebAct portfolio, showing work in the automotive category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/century-tire-inc/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=century-tire-inc",
         "services":  [
@@ -1726,7 +1726,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Castle Rock is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/castle-rock/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=castle-rock",
         "services":  [
@@ -1740,7 +1740,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Building Better Transit is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/building-better-transit/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=building-better-transit",
         "services":  [
@@ -1754,7 +1754,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Board Game Republic is part of the WebAct portfolio, showing work in the retail \u0026amp; ecommerce category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/board-game-republic/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=board-game-republic",
         "services":  [
@@ -1768,7 +1768,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Benefits Matter is part of the WebAct portfolio, showing work in the insurance category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/benefits-matter/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=benefits-matter",
         "services":  [
@@ -1782,7 +1782,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Beltway Home Inspections is part of the WebAct portfolio, showing work in the real estate category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/beltway-home-inspections/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=beltway-home-inspections",
         "services":  [
@@ -1796,7 +1796,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Budget Control Services is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/budget-control-services/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=budget-control-services",
         "services":  [
@@ -1810,7 +1810,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Bruno Jambor is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/bruno-jambor/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=bruno-jambor",
         "services":  [
@@ -1824,7 +1824,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Brick House Salon is part of the WebAct portfolio, showing work in the creative services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/brick-house-salon/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=brick-house-salon",
         "services":  [
@@ -1838,7 +1838,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Chutney Indian Cuisine is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/chutney-indian-cuisine/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=chutney-indian-cuisine",
         "services":  [
@@ -1852,7 +1852,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "D And D Machinery Movers is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/d-and-d-machinery-movers/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=d-and-d-machinery-movers",
         "services":  [
@@ -1866,7 +1866,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Curved Glass Creations is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/curved-glass-creations/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=curved-glass-creations",
         "services":  [
@@ -1880,7 +1880,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "CT Gasket is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/ct-gasket/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=ct-gasket",
         "services":  [
@@ -1894,7 +1894,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Dental",
         "description":  "Dental Arts is part of the WebAct portfolio, showing work in the dental category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/dental-arts/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=dental-arts",
         "services":  [
@@ -1922,7 +1922,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Dads of Parker is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/dads-of-parker/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=dads-of-parker",
         "services":  [
@@ -1936,7 +1936,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Crest Pest Control is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/crest-pest-control/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=crest-pest-control",
         "services":  [
@@ -1950,7 +1950,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Colorado Creditor Bar Association is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/colorado-creditor-bar-association/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=colorado-creditor-bar-association",
         "services":  [
@@ -1978,7 +1978,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Coastal Homes is part of the WebAct portfolio, showing work in the real estate category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/coastal-homes/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=coastal-homes",
         "services":  [
@@ -1992,7 +1992,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Cowest Insurance Service is part of the WebAct portfolio, showing work in the insurance category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/cowest-insurance-service/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=cowest-insurance-service",
         "services":  [
@@ -2006,7 +2006,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "CoWest Insurance Group is part of the WebAct portfolio, showing work in the insurance category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/cowest-insurance-group/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=cowest-insurance-group",
         "services":  [
@@ -2020,7 +2020,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "CoWest Durango is part of the WebAct portfolio, showing work in the insurance category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/cowest-durango/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=cowest-durango",
         "services":  [
@@ -2034,7 +2034,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Bayou Solar is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/bayou-solar/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=bayou-solar",
         "services":  [
@@ -2048,7 +2048,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Advanced Business Systems is part of the WebAct portfolio, showing work in the technology category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/advanced-business-systems/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=advanced-business-systems",
         "services":  [
@@ -2062,7 +2062,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Aces Driving School is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/aces-driving-school/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=aces-driving-school",
         "services":  [
@@ -2076,7 +2076,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Ace Pet Services is part of the WebAct portfolio, showing work in the pet services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/ace-pet-services/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=ace-pet-services",
         "services":  [
@@ -2090,7 +2090,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "All Concrete Works \u0026amp; Landscaping is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/all-concrete-works-landscaping/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=all-concrete-works-landscaping",
         "services":  [
@@ -2104,7 +2104,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "HVAC",
         "description":  "Air Techs HVAC is part of the WebAct portfolio, showing work in the hvac category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/air-techs-hvac/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=air-techs-hvac",
         "services":  [
@@ -2118,7 +2118,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Aid The Children is part of the WebAct portfolio, showing work in the education category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/aid-the-children/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=aid-the-children",
         "services":  [
@@ -2132,7 +2132,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Absolute Pest Control Services is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/absolute-pest-control-services/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=absolute-pest-control-services",
         "services":  [
@@ -2146,7 +2146,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "A CALIFORNIA Driving School is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/a-california-driving-school/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=a-california-driving-school",
         "services":  [
@@ -2160,7 +2160,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "A Breed Apart Papillons is part of the WebAct portfolio, showing work in the pet services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/a-breed-apart-papillons/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=a-breed-apart-papillons",
         "services":  [
@@ -2174,7 +2174,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "360 Sales Advantage is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/360-sales-advantage/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=360-sales-advantage",
         "services":  [
@@ -2188,7 +2188,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Absolute Home Care is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/absolute-home-care/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=absolute-home-care",
         "services":  [
@@ -2230,7 +2230,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "All Go Transportation is part of the WebAct portfolio, showing work in the automotive category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/all-go-transportation/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=all-go-transportation",
         "services":  [
@@ -2258,7 +2258,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Atlee Care is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/atlee-care/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=atlee-care",
         "services":  [
@@ -2272,7 +2272,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Aspire Hope For Kids is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/aspire-hope-for-kids/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=aspire-hope-for-kids",
         "services":  [
@@ -2314,7 +2314,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "AY Home Health Care is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/ay-home-health-care/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=ay-home-health-care",
         "services":  [
@@ -2328,7 +2328,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Aspire Counseling is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/aspire-counseling/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=aspire-counseling",
         "services":  [
@@ -2356,7 +2356,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Alta Partners is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/alta-partners/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=alta-partners",
         "services":  [
@@ -2370,7 +2370,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "All-Star Pizza is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/all-star-pizza/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=all-star-pizza",
         "services":  [
@@ -2384,7 +2384,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Water Treatment",
         "description":  "Ariana Waterfall is part of the WebAct portfolio, showing work in the retail \u0026amp; ecommerce category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/ariana-waterfall/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=ariana-waterfall",
         "services":  [
@@ -2398,7 +2398,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Apex Denver Locksmith is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/apex-denver-locksmith/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=apex-denver-locksmith",
         "services":  [
@@ -2412,7 +2412,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Andree Hudson Art is part of the WebAct portfolio, showing work in the creative services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/andree-hudson-art/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=andree-hudson-art",
         "services":  [
@@ -2426,7 +2426,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Dental",
         "description":  "Dental Sleep Medicine is part of the WebAct portfolio, showing work in the dental category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/dental-sleep-medicine/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=dental-sleep-medicine",
         "services":  [
@@ -2440,7 +2440,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Great Escape is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/great-escape/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=great-escape",
         "services":  [
@@ -2454,7 +2454,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Granite State Labradoodles is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/granite-state-labradoodles/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=granite-state-labradoodles",
         "services":  [
@@ -2468,7 +2468,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Water Treatment",
         "description":  "Good Water is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/good-water/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=good-water",
         "services":  [
@@ -2482,7 +2482,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Has Tag Lab is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/has-tag-lab/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=has-tag-lab",
         "services":  [
@@ -2496,7 +2496,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Grin \u0026amp; Barrett Charity Ride is part of the WebAct portfolio, showing work in the fitness \u0026amp; sports category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/grin-barrett-charity-ride/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=grin-barrett-charity-ride",
         "services":  [
@@ -2510,7 +2510,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Great West Restoration Colorado Agent is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/great-west-restoration-colorado-agent/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=great-west-restoration-colorado-agent",
         "services":  [
@@ -2524,7 +2524,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Glass Act is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/glass-act/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=glass-act",
         "services":  [
@@ -2538,7 +2538,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "G \u0026amp; G Driving School is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/g-g-driving-school/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=g-g-driving-school",
         "services":  [
@@ -2552,7 +2552,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Future Grasp is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/future-grasp/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=future-grasp",
         "services":  [
@@ -2580,7 +2580,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Ghost Town Fitness is part of the WebAct portfolio, showing work in the fitness \u0026amp; sports category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/ghost-town-fitness/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=ghost-town-fitness",
         "services":  [
@@ -2594,7 +2594,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Genius Coaching is part of the WebAct portfolio, showing work in the technology category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/genius-coaching/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=genius-coaching",
         "services":  [
@@ -2608,7 +2608,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Legal",
         "description":  "Gangle Law Firm is part of the WebAct portfolio, showing work in the legal category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/gangle-law-firm/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=gangle-law-firm",
         "services":  [
@@ -2622,7 +2622,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Haveli Indian Cuisine is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/haveli-indian-cuisine/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=haveli-indian-cuisine",
         "services":  [
@@ -2650,7 +2650,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Hydro Dynamics is part of the WebAct portfolio, showing work in the technology category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/hydro-dynamics/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=hydro-dynamics",
         "services":  [
@@ -2678,7 +2678,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Inland Valley Driving School is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/inland-valley-driving-school/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=inland-valley-driving-school",
         "services":  [
@@ -2692,7 +2692,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Restaurant",
         "description":  "Zaika Littleton is part of the WebAct portfolio, showing work in the restaurant category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/zaika-littleton/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=zaika-littleton",
         "services":  [
@@ -2720,7 +2720,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Houston Energy Systems is part of the WebAct portfolio, showing work in the technology category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/houston-energy-systems/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=houston-energy-systems",
         "services":  [
@@ -2734,7 +2734,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Hi Dessert Egg is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/hi-dessert-egg/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=hi-dessert-egg",
         "services":  [
@@ -2762,7 +2762,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Hebert Investigations is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/hebert-investigations/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=hebert-investigations",
         "services":  [
@@ -2776,7 +2776,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "HouseSketch is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/housesketch/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=housesketch",
         "services":  [
@@ -2790,7 +2790,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Homeland Driving School Cavco Enterprises, Inc is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/homeland-driving-school-cavco-enterprises-inc/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=homeland-driving-school-cavco-enterprises-inc",
         "services":  [
@@ -2804,7 +2804,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Home Pro Chesapeake is part of the WebAct portfolio, showing work in the real estate category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/home-pro-chesapeake/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=home-pro-chesapeake",
         "services":  [
@@ -2832,7 +2832,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "DWW is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/dww/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=dww",
         "services":  [
@@ -2846,7 +2846,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "DSS By Kat is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/dss-by-kat/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=dss-by-kat",
         "services":  [
@@ -2860,7 +2860,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Driving Instructor Classes is part of the WebAct portfolio, showing work in the driving school category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/driving-instructor-classes/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=driving-instructor-classes",
         "services":  [
@@ -2874,7 +2874,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Ed Prevost is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/ed-prevost/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=ed-prevost",
         "services":  [
@@ -2888,7 +2888,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Ebony Equines is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/ebony-equines/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=ebony-equines",
         "services":  [
@@ -2902,7 +2902,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "E-Sports Foundation is part of the WebAct portfolio, showing work in the fitness \u0026amp; sports category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/e-sports-foundation/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=e-sports-foundation",
         "services":  [
@@ -2916,7 +2916,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Dominion Craftsman Services is part of the WebAct portfolio, showing work in the construction category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/dominion-craftsman-services/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=dominion-craftsman-services",
         "services":  [
@@ -2944,7 +2944,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Denver Issa is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/denver-issa/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=denver-issa",
         "services":  [
@@ -2958,7 +2958,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Dental",
         "description":  "Dental Sleep Medicine \u0026amp; Cranio Facial Pain is part of the WebAct portfolio, showing work in the dental category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/dental-sleep-medicine-cranio-facial-pain/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=dental-sleep-medicine-cranio-facial-pain",
         "services":  [
@@ -2972,7 +2972,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Desert Empire is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/desert-empire/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=desert-empire",
         "services":  [
@@ -3000,7 +3000,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Denver Sign Factory is part of the WebAct portfolio, showing work in the retail \u0026amp; ecommerce category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/denver-sign-factory/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=denver-sign-factory",
         "services":  [
@@ -3056,7 +3056,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Express Shipping Room Supply is part of the WebAct portfolio, showing work in the automotive category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/express-shipping-room-supply/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=express-shipping-room-supply",
         "services":  [
@@ -3070,7 +3070,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Fr Bumper Solutions is part of the WebAct portfolio, showing work in the automotive category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/fr-bumper-solutions/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=fr-bumper-solutions",
         "services":  [
@@ -3084,7 +3084,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Firm Group is part of the WebAct portfolio, showing work in the professional services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/firm-group/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=firm-group",
         "services":  [
@@ -3112,7 +3112,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Legal",
         "description":  "Evans Legal Group is part of the WebAct portfolio, showing work in the legal category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/evans-legal-group/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=evans-legal-group",
         "services":  [
@@ -3140,7 +3140,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Healthcare",
         "description":  "Empathy Care is part of the WebAct portfolio, showing work in the healthcare category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/empathy-care/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=empathy-care",
         "services":  [
@@ -3154,7 +3154,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Emergency Locksmith Denver is part of the WebAct portfolio, showing work in the home services category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/emergency-locksmith-denver/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=emergency-locksmith-denver",
         "services":  [
@@ -3168,7 +3168,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Esports Epleyer is part of the WebAct portfolio, showing work in the fitness \u0026amp; sports category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/esports-epleyer/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=esports-epleyer",
         "services":  [
@@ -3182,7 +3182,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Epleyer is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/epleyer/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=epleyer",
         "services":  [
@@ -3196,7 +3196,7 @@
         "title":  "Parking \u0026 Mobility Case Study",
         "category":  "Portfolio",
         "description":  "Epic ivy is part of the WebAct portfolio, showing work in the business website category with clear presentation, mobile-friendly structure, and easy next steps for customers.",
-        "image":  "../../../assets/images/industry-mockups/parking-mobility.png",
+        "image":  "/images/parking-mobility.png",
         "url":  "/about/portfolio/epic-ivy/index.html",
         "caseStudyUrl":  "/about/portfolio/case-study.html?project=epic-ivy",
         "services":  [
