@@ -11,6 +11,42 @@
 <style>
 body{margin:0}.aeo{color:#071421}.hero{background:linear-gradient(135deg,#061421,#0d2740);color:#fff;padding:90px min(6vw,72px);display:grid;grid-template-columns:1.1fr .8fr;gap:48px}.hero h1{font-size:clamp(42px,6vw,76px);line-height:.96}.eyebrow{color:#73d7ff;font-weight:900;text-transform:uppercase;letter-spacing:.12em}.form{background:#fff;color:#071421;border-radius:24px;padding:28px}.form input,.form select,.form textarea{width:100%;padding:12px;border:1px solid #ccd;border-radius:10px;margin:6px 0 12px;box-sizing:border-box}.section{padding:80px min(6vw,72px)}.soft{background:#f4f8fb}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1280px;margin:auto}.card{background:#fff;border:1px solid #e0ebf2;border-radius:22px;padding:26px}.actions{display:flex;gap:14px;justify-content:center;margin-top:36px;flex-wrap:wrap}.compare{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:1180px;margin:auto}.compare .card{background:#fff}.dark{background:#071421;color:#fff}.dark p{color:#d4e8f2}.faq{max-width:1000px;margin:auto;display:grid;gap:12px}.faq details{background:#fff;border:1px solid #ddd;padding:18px;border-radius:16px}.cta{background:#071421;color:#fff;text-align:center;padding:80px 20px}@media(max-width:1000px){.hero,.grid,.compare{grid-template-columns:1fr}}
 </style>
+
+<style id="aeo-contrast-fix">
+  .aeo .button.secondary,
+  .aeo .actions .button.secondary,
+  .aeo .comparison-buttons .button.secondary {
+    background:#061421 !important;
+    border:2px solid #061421 !important;
+    color:#ffffff !important;
+  }
+
+  .aeo .button.primary,
+  .aeo .actions .button.primary,
+  .aeo .comparison-buttons .button.primary {
+    background:#33abe1 !important;
+    border:2px solid #33abe1 !important;
+    color:#061421 !important;
+  }
+
+  .aeo .dark .card,
+  .aeo .compare .card {
+    background:#ffffff !important;
+    color:#071421 !important;
+  }
+
+  .aeo .dark .card h3,
+  .aeo .compare .card h3 {
+    color:#071421 !important;
+  }
+
+  .aeo .dark .card p,
+  .aeo .compare .card p,
+  .aeo .dark .card li,
+  .aeo .compare .card li {
+    color:#44525d !important;
+  }
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
