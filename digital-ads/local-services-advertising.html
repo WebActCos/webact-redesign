@@ -85,6 +85,19 @@
     text-align:center;
 }
 
+
+  .lsa-section-actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+    justify-content:center;
+    margin:42px auto 0;
+  }
+
+  .lsa-section-actions .button{
+    min-width:220px;
+    justify-content:center;
+  }
 </style>
 </head>
 
@@ -138,21 +151,11 @@
       <p>Local Services Ads are different from traditional PPC. They are built around verified local providers, phone calls, service categories, service areas, reviews, availability, and lead quality. WebAct helps manage the details so the campaign supports real customer conversations.</p>
     </div>
 
-    <div class="lsa-grid">
-      <article class="lsa-card">
-        <h3>Designed for high-intent local searches</h3>
-        <p>LSAs help businesses appear when people are actively looking for a provider nearby, such as roofers, plumbers, HVAC companies, attorneys, real estate professionals, and home service businesses.</p>
-      </article>
-      <article class="lsa-card">
-        <h3>Built around calls and booked jobs</h3>
-        <p>The goal is not just clicks. The goal is to generate qualified calls, message leads, and booked appointments from people who need your service.</p>
-      </article>
-      <article class="lsa-card">
-        <h3>Powered by trust signals</h3>
-        <p>Reviews, verification, service categories, business details, responsiveness, and your broader online presence can all influence customer confidence.</p>
-      </article>
-    </div>
-  </section>
+    
+  param($m)
+  if ($m.Value -match 'lsa-section-actions') { return $m.Value }
+  return $m.Value -replace '</section>', "$buttons`r`n  </section>"
+
 
   <section class="lsa-section">
     <div class="lsa-heading">
@@ -161,63 +164,11 @@
       <p>Many businesses start Local Services Ads but never fully optimize them. WebAct helps review the account, improve the profile, monitor lead quality, and connect advertising to the rest of your digital presence.</p>
     </div>
 
-    <div class="lsa-grid">
-      <article class="lsa-card">
-        <h3>Profile and category setup</h3>
-        <ul>
-          <li>Business information review</li>
-          <li>Service category alignment</li>
-          <li>Service area targeting</li>
-          <li>Hours and contact details</li>
-        </ul>
-      </article>
-      <article class="lsa-card">
-        <h3>Budget and lead strategy</h3>
-        <ul>
-          <li>Monthly budget guidance</li>
-          <li>Lead flow review</li>
-          <li>Call quality monitoring</li>
-          <li>Adjustment recommendations</li>
-        </ul>
-      </article>
-      <article class="lsa-card">
-        <h3>Review and trust support</h3>
-        <ul>
-          <li>Review visibility guidance</li>
-          <li>Local trust signals</li>
-          <li>Website credibility checks</li>
-          <li>Google Business alignment</li>
-        </ul>
-      </article>
-      <article class="lsa-card">
-        <h3>Lead quality review</h3>
-        <ul>
-          <li>Spam and poor-fit lead review</li>
-          <li>Call outcome feedback</li>
-          <li>Lead category insights</li>
-          <li>Qualification improvements</li>
-        </ul>
-      </article>
-      <article class="lsa-card">
-        <h3>Website conversion support</h3>
-        <ul>
-          <li>Landing page messaging</li>
-          <li>Calls-to-action</li>
-          <li>Trust-building content</li>
-          <li>Mobile experience review</li>
-        </ul>
-      </article>
-      <article class="lsa-card">
-        <h3>Ongoing optimization</h3>
-        <ul>
-          <li>Monthly performance review</li>
-          <li>Service area refinement</li>
-          <li>Budget adjustments</li>
-          <li>Growth recommendations</li>
-        </ul>
-      </article>
-    </div>
-  </section>
+    
+  param($m)
+  if ($m.Value -match 'lsa-section-actions') { return $m.Value }
+  return $m.Value -replace '</section>', "$buttons`r`n  </section>"
+
 
   <section class="lsa-section lsa-dark">
     <div class="lsa-heading">
