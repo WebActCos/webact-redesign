@@ -11,6 +11,18 @@
     return "";
   }
 
+  function prefixRootUrls(html) {
+    var basePath = getBasePath();
+
+    if (!basePath) {
+      return html;
+    }
+
+    return html.replace(/(href|src)=("|')\/(?!\/|webact-redesign\/|https?:|mailto:|tel:|#)([^"']+)("|')/gi, function (match, attr, quoteStart, url, quoteEnd) {
+      return attr + "=" + quoteStart + basePath + "/" + url + quoteEnd;
+    });
+  }
+
   function loadInclude(targetId, filePath) {
     var target = document.getElementById(targetId);
     if (!target) return Promise.resolve();
@@ -23,7 +35,7 @@
         return response.text();
       })
       .then(function (html) {
-        target.innerHTML = html;
+        target.innerHTML = prefixRootUrls(html);
       })
       .catch(function (error) {
         console.error("WebAct include loading error:", error);
