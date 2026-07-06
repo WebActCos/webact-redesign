@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -78,7 +78,7 @@
         portfolioLink.href = study.url || "/about/portfolio.html";
 
         var services = study.services || [];
-        document.getElementById("wa-case-services").textContent = services.join(" • ");
+        document.getElementById("wa-case-services").textContent = services.join(" â€¢ ");
 
         var list = document.getElementById("wa-case-service-list");
         list.innerHTML = "";
@@ -98,8 +98,8 @@
     })();
   </script>
 
-  <script src="/assets/js/routes.js"></script>
-  <script src="/assets/js/navigation.js"></script>
-  <script src="/assets/js/includes.js"></script>
+  <script src="/webact-redesign/assets/js/routes.js"></script>
+  <script src="/webact-redesign/assets/js/navigation.js"></script>
+  <script src="/webact-redesign/assets/js/includes.js"></script>
 </body>
 </html>
