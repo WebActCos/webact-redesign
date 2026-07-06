@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WebAct Website Design, SEO & Digital Advertising | WebAct</title>
-    <meta name="description" content="WebAct builds professional websites, SEO campaigns, AI search optimization, ecommerce, branding, and digital advertising strategies for businesses ready to grow online.">
+    <meta name="description" content="WebAct builds professional websites, SEO campaigns, AI search optimization, television advertising, branding, local listings, and digital advertising strategies for businesses ready to grow online.">
     <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
     <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
     <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
@@ -30,6 +30,14 @@
   .hero-dashboard-item strong{display:block;margin-bottom:4px}
   .hero-mini-cta{margin-top:18px;padding:18px;border-radius:18px;background:#071421;color:#fff}
   .hero-mini-cta a{color:#73d7ff;font-weight:900;text-decoration:none}
+
+  .hero-form-v2{background:rgba(255,255,255,.96);color:#071421;border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.22)}
+  .hero-form-v2 h2{font-size:28px;margin:0 0 8px;letter-spacing:-.02em}
+  .hero-form-v2 p{color:#4b5b66;line-height:1.55;margin:0 0 18px}
+  .hero-form-v2 label{display:grid;gap:7px;margin-bottom:12px;font-weight:800;font-size:14px;color:#203241}
+  .hero-form-v2 input,.hero-form-v2 select,.hero-form-v2 textarea{width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:12px;padding:13px 14px;font:inherit;background:#fff;color:#071421}
+  .hero-form-v2 textarea{resize:vertical;min-height:92px}
+  .hero-form-v2 .button{width:100%;margin-top:6px;border:0;cursor:pointer}
   .wa-section-v2{padding:84px min(6vw,72px)}
   .wa-section-dark{background:#071421;color:#fff}
   .wa-section-soft{background:#f4f8fb}
@@ -67,8 +75,12 @@
   .process-v2 article:before{counter-increment:step;content:counter(step);width:42px;height:42px;border-radius:14px;background:#071421;color:#fff;display:grid;place-items:center;font-weight:900;margin-bottom:18px}
   .process-v2 h3{margin:0 0 10px;font-size:21px}
   .process-v2 p{margin:0;color:#4b5b66;line-height:1.55}
-  .partner-rotator-v2{padding:64px 0;background:#fff;border-top:1px solid #e8f0f5;border-bottom:1px solid #e8f0f5}
+  .partner-rotator-v2{padding:64px 0;background:#071421;color:#fff;border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12)}
   .partner-rotator-v2 .logo-rotator-heading{padding:0 min(6vw,72px)}
+  .partner-rotator-v2 .eyebrow{color:#73d7ff}
+  .partner-rotator-v2 .logo-section-copy{color:#d4e8f2}
+  .partner-rotator-v2 .logo-slide{background:rgba(255,255,255,.96);border-radius:16px;padding:16px;min-height:78px;display:grid;place-items:center}
+  .partner-rotator-v2 .logo-slide img{max-height:46px;filter:none}
   .final-cta-v2{padding:86px min(6vw,72px);background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center}
   .final-cta-v2 h2{font-size:clamp(34px,5vw,64px);line-height:1;margin:0 auto 18px;letter-spacing:-.045em;max-width:900px}
   .final-cta-v2 p{max-width:760px;margin:0 auto;color:#d4e8f2;font-size:19px;line-height:1.65}
@@ -85,9 +97,9 @@
         <div class="home-hero-copy">
           <p class="eyebrow">Website Design • SEO • AI Search • Digital Advertising</p>
           <h1>Website design that actually grows your business.</h1>
-          <p class="hero-lede">WebAct helps businesses build a stronger online presence with professional websites, SEO, AI optimization, Google Ads, ecommerce, branding, and ongoing support from one experienced digital team.</p>
+          <p class="hero-lede">WebAct helps businesses build a stronger online presence with professional websites, SEO, AI optimization, Google Ads, television advertising, branding, local listings, and ongoing improvements from one experienced digital team.</p>
           <div class="hero-proof" aria-label="WebAct strengths">
-            <span>★★★★★ Five-star client reviews</span>
+            <span>★★★★★ Five-Star Client Reviews</span>
             <span>Website design since 2012</span>
             <span>SEO + paid ads + support</span>
             <span>Built for real business growth</span>
@@ -98,22 +110,31 @@
           </div>
         </div>
 
-        <aside class="hero-visual-card" aria-label="WebAct growth plan preview">
-          <h2>One clear growth plan</h2>
-          <div class="hero-dashboard">
-            <div class="hero-dashboard-item"><span class="hero-dashboard-icon">1</span><div><strong>Build the website</strong><p>Modern pages, stronger messaging, mobile design, forms, tracking, and conversion paths.</p></div></div>
-            <div class="hero-dashboard-item"><span class="hero-dashboard-icon">2</span><div><strong>Improve visibility</strong><p>SEO, local search, Google Business support, AI-ready content, and better service pages.</p></div></div>
-            <div class="hero-dashboard-item"><span class="hero-dashboard-icon">3</span><div><strong>Bring in traffic</strong><p>Google Ads, Microsoft Ads, social campaigns, remarketing, and landing page improvements.</p></div></div>
-            <div class="hero-dashboard-item"><span class="hero-dashboard-icon">4</span><div><strong>Keep growing</strong><p>Ongoing website updates, content, reporting, support, and campaign improvements.</p></div></div>
-          </div>
-          <div class="hero-mini-cta">Ready to improve your website? <a href="/webact-redesign/contact/index.html">Start here.</a></div>
-        </aside>
+        <form class="hero-form-v2" aria-label="Start a WebAct project">
+          <h2>Start a Project</h2>
+          <p>Tell us what you want to improve and we will help point you in the right direction.</p>
+          <label>Full Name<input type="text" name="name" autocomplete="name"></label>
+          <label>Email Address<input type="email" name="email" autocomplete="email"></label>
+          <label>Phone Number<input type="tel" name="phone" autocomplete="tel"></label>
+          <label>Interested In
+            <select name="interest">
+              <option>Website Design</option>
+              <option>SEO / AI Optimization</option>
+              <option>Digital Advertising</option>
+              <option>Television Advertising</option>
+              <option>Local Listings</option>
+              <option>Branding or Website Features</option>
+            </select>
+          </label>
+          <label>How can we help?<textarea name="message" rows="4"></textarea></label>
+          <button class="button primary" type="button">Request Consultation</button>
+        </form>
       </section>
 
       <section class="logo-rotator" aria-label="WebAct as seen on logos">
   <div class="logo-rotator-heading">
     <p class="eyebrow">Featured In</p>
-    <p class="logo-section-copy">WebAct has helped businesses build stronger websites, improve online visibility, and connect design, SEO, advertising, ecommerce, and support into one growth-focused digital presence.</p>
+    <p class="logo-section-copy">WebAct has helped businesses build stronger websites, improve online visibility, and connect design, SEO, advertising, television advertising, and local visibility into one growth-focused digital presence.</p>
   </div>
   <div class="logo-marquee">
     <div class="logo-track"><div class="logo-slide"><img src="/webact-redesign/assets/logo-forbes.png" alt="Forbes logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-entrepreneur.png" alt="Entrepreneur logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-seranking.png" alt="SE Ranking logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-denver.svg" alt="Denver logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-sej.png" alt="Search Engine Journal logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-website.png" alt="Website Magazine logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-traffic.png" alt="Traffic logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-silicon.png" alt="Silicon logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-forbes.png" alt="Forbes logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-entrepreneur.png" alt="Entrepreneur logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-seranking.png" alt="SE Ranking logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-denver.svg" alt="Denver logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-sej.png" alt="Search Engine Journal logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-website.png" alt="Website Magazine logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-traffic.png" alt="Traffic logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-silicon.png" alt="Silicon logo"></div></div>
@@ -124,7 +145,7 @@
         <div class="wa-heading-v2">
           <p class="eyebrow">Connected Digital Services</p>
           <h2>Everything your website needs to perform better.</h2>
-          <p>WebAct brings the core pieces of digital growth together, so your website, search visibility, advertising, branding, ecommerce, and support all move in the same direction.</p>
+          <p>WebAct brings the core pieces of digital growth together, so your website, search visibility, advertising, branding, television advertising, and local listings all move in the same direction.</p>
         </div>
 
         <div class="service-grid-v2">
@@ -133,9 +154,9 @@
           <a class="service-card-v2" href="/webact-redesign/marketing/aeo.html"><span class="icon">🤖</span><h3>AI Optimization</h3><p>Structure your content so search engines and AI answer tools can better understand your business.</p><span>Explore AI optimization →</span></a>
           <a class="service-card-v2" href="/webact-redesign/digital-ads/google-advertising.html"><span class="icon">📈</span><h3>Google Ads</h3><p>Reach active buyers with search, display, remarketing, video, and landing-page focused campaigns.</p><span>Explore Google Ads →</span></a>
           <a class="service-card-v2" href="/webact-redesign/design/branding.html"><span class="icon">✨</span><h3>Branding</h3><p>Create a clearer visual identity, stronger messaging, and a more trustworthy digital presentation.</p><span>Explore branding →</span></a>
-          <a class="service-card-v2" href="/webact-redesign/addons/website-app-store.html"><span class="icon">🛒</span><h3>Ecommerce & Apps</h3><p>Add online selling, website features, appointment tools, galleries, forms, and business integrations.</p><span>Explore add-ons →</span></a>
+          <a class="service-card-v2" href="/webact-redesign/digital-ads/television-advertising.html"><span class="icon">TV</span><h3>Television Advertising</h3><p>Expand reach with streaming TV and television advertising campaigns built to support brand awareness and local growth.</p><span>Explore TV ads →</span></a>
           <a class="service-card-v2" href="/webact-redesign/digital-ads/social-media-advertising.html"><span class="icon">📣</span><h3>Social Advertising</h3><p>Expand awareness and retarget visitors with campaigns built around your offers and audiences.</p><span>Explore social ads →</span></a>
-          <a class="service-card-v2" href="/webact-redesign/contact/index.html"><span class="icon">🛠️</span><h3>Website Support</h3><p>Keep improving after launch with updates, content, landing pages, reporting, and hands-on support.</p><span>Start a project →</span></a>
+          <a class="service-card-v2" href="/webact-redesign/marketing/local-listings.html"><span class="icon">MAP</span><h3>Local Listings</h3><p>Improve business listings, citations, map visibility, and local trust signals so customers can find accurate information faster.</p><span>Explore local listings →</span></a>
         </div>
       </section>
 
@@ -194,8 +215,8 @@
             <div><span>Home Services</span><h3>Home Service Websites</h3><p>Service pages, local visibility, and quote-request paths designed around calls, leads, and booked jobs.</p><a href="/webact-redesign/about/portfolio/industry/home-services/index.html">View home service work →</a></div>
           </article>
           <article class="portfolio-card-v2">
-            <img src="/webact-redesign/Resources/images/Jais-Boutique-1920w.png" alt="Retail website design example">
-            <div><span>Retail & Ecommerce</span><h3>Ecommerce Websites</h3><p>Product discovery, brand presentation, shopping paths, and promotions that support local and online buying decisions.</p><a href="/webact-redesign/about/portfolio/best-ecommerce-website-designs/index.html">View ecommerce work →</a></div>
+            <img src="/webact-redesign/about/portfolio/2go-coconut-oil-website.png" alt="2Go Coconut Oil website design example">
+            <div><span>Consumer Product Website</span><h3>2Go Coconut Oil Website</h3><p>Brand presentation, product education, trust-building content, and a clean customer journey for a specialty consumer product business.</p><a href="/webact-redesign/about/portfolio/2go-coconut-oil/index.html">View 2Go Coconut Oil →</a></div>
           </article>
         </div>
       </section>
@@ -218,7 +239,7 @@
       <section class="logo-rotator partner-rotator-v2" aria-label="Partnered with WebAct logos">
   <div class="logo-rotator-heading">
     <p class="eyebrow">Partnered With WebAct</p>
-    <p class="logo-section-copy">WebAct connects website design, SEO, advertising, ecommerce, local visibility, analytics, and business tools into one easier digital growth experience.</p>
+    <p class="logo-section-copy">WebAct connects website design, SEO, advertising, television advertising, local listings, analytics, and business tools into one easier digital growth experience.</p>
   </div>
   <div class="logo-marquee">
     <div class="logo-track"><div class="logo-slide"><img src="/webact-redesign/assets/logo-forbes.png" alt="Forbes logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-entrepreneur.png" alt="Entrepreneur logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-seranking.png" alt="SE Ranking logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-denver.svg" alt="Denver logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-sej.png" alt="Search Engine Journal logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-website.png" alt="Website Magazine logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-traffic.png" alt="Traffic logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-silicon.png" alt="Silicon logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-forbes.png" alt="Forbes logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-entrepreneur.png" alt="Entrepreneur logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-seranking.png" alt="SE Ranking logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-denver.svg" alt="Denver logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-sej.png" alt="Search Engine Journal logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-website.png" alt="Website Magazine logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-traffic.png" alt="Traffic logo"></div><div class="logo-slide"><img src="/webact-redesign/assets/logo-silicon.png" alt="Silicon logo"></div></div>
@@ -232,7 +253,7 @@
     <p>Real clients mention the same things again and again: helpful communication, professional design, fast support, and a smoother path from idea to launch.</p>
 
     <div class="google-review-highlights" aria-label="WebAct review highlights">
-      <span><strong>★★★★★</strong> Five-star client feedback</span>
+      <span><strong>★★★★★</strong> Five-Star Client Reviews</span>
       <span><strong>Design</strong> Website redesigns, launches, and updates</span>
       <span><strong>Support</strong> Helpful guidance before and after launch</span>
     </div>
@@ -255,7 +276,7 @@
 
       <section class="final-cta-v2">
         <h2>Ready to build a better online presence?</h2>
-        <p>Whether you need a new website, stronger SEO, better advertising, ecommerce, branding, or ongoing website support, WebAct can help you create a clearer plan and move faster.</p>
+        <p>Whether you need a new website, stronger SEO, better advertising, television advertising, branding, local listings, or ongoing website improvements, WebAct can help you create a clearer plan and move faster.</p>
         <div class="hero-actions">
           <a class="button primary" href="/webact-redesign/contact/index.html">Schedule Consultation</a>
           <a class="button secondary" href="tel:8556974336">Call (855) 697-4336</a>
