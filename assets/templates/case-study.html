@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WebAct Case Study</title>
+  <meta name="description" content="Explore WebAct website design, SEO, advertising, and digital marketing case studies.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="webact-header"></div>
+
+  <main class="wa-case-study-page">
+    <section class="wa-case-study-hero">
+      <p class="wa-case-study-kicker">WebAct Case Study</p>
+      <h1 id="wa-case-title">Case Study</h1>
+      <p id="wa-case-summary">Loading case study...</p>
+      <div id="wa-case-services"></div>
+      <p><a id="wa-case-portfolio-link" href="/about/portfolio.html">View Portfolio Project</a></p>
+    </section>
+
+    <section class="wa-case-study-content">
+      <h2>Project Overview</h2>
+      <p id="wa-case-overview">This case study is part of the WebAct portfolio system.</p>
+
+      <h2>Services Provided</h2>
+      <ul id="wa-case-service-list"></ul>
+
+      <h2>Results Focus</h2>
+      <p>WebAct focuses on creating professional websites, stronger local visibility, better user experience, and digital marketing systems that help businesses grow.</p>
+    </section>
+  </main>
+
+  <div id="webact-footer"></div>
+
+  <script id="wa-case-study-data" type="application/json">
+{{CASE_STUDY_DATA}}
+  </script>
+
+  <script>
+    (function () {
+      function getProjectSlug() {
+        var params = new URLSearchParams(window.location.search);
+        return params.get("project") || "";
+      }
+
+      function renderCaseStudy() {
+        var dataTag = document.getElementById("wa-case-study-data");
+        var studies = [];
+
+        try {
+          studies = JSON.parse(dataTag.textContent);
+        } catch (error) {
+          console.error("Unable to parse case study data", error);
+        }
+
+        var slug = getProjectSlug();
+        var study = studies.find(function (item) {
+          return item.slug === slug;
+        });
+
+        if (!study) {
+          study = {
+            title: "WebAct Case Study",
+            summary: "This case study is being prepared.",
+            industry: "Digital Marketing",
+            services: ["Website Design", "SEO", "Digital Marketing"],
+            url: "/about/portfolio.html"
+          };
+        }
+
+        document.title = study.title + " Case Study | WebAct";
+
+        document.getElementById("wa-case-title").textContent = study.title;
+        document.getElementById("wa-case-summary").textContent = study.summary;
+        document.getElementById("wa-case-overview").textContent = study.summary;
+
+        var portfolioLink = document.getElementById("wa-case-portfolio-link");
+        portfolioLink.href = study.url || "/about/portfolio.html";
+
+        var services = study.services || [];
+        document.getElementById("wa-case-services").textContent = services.join(" • ");
+
+        var list = document.getElementById("wa-case-service-list");
+        list.innerHTML = "";
+
+        services.forEach(function (service) {
+          var li = document.createElement("li");
+          li.textContent = service;
+          list.appendChild(li);
+        });
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", renderCaseStudy);
+      } else {
+        renderCaseStudy();
+      }
+    })();
+  </script>
+
+  <script src="/assets/js/routes.js"></script>
+  <script src="/assets/js/navigation.js"></script>
+  <script src="/assets/js/includes.js"></script>
+</body>
+</html>
