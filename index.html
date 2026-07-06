@@ -81,55 +81,52 @@
 </style>
   
 
+<style id="homepage-v2-clean-fixes">
+  .service-icon {
+    font-size: 0 !important;
+  }
 
-<style id="homepage-v2-final-fixes">
+  .home-service-card:nth-child(1) .service-icon::before { content: "WEB"; }
+  .home-service-card:nth-child(2) .service-icon::before { content: "SEO"; }
+  .home-service-card:nth-child(3) .service-icon::before { content: "AI"; }
+  .home-service-card:nth-child(4) .service-icon::before { content: "ADS"; }
+  .home-service-card:nth-child(5) .service-icon::before { content: "BR"; }
+  .home-service-card:nth-child(6) .service-icon::before { content: "TV"; }
+  .home-service-card:nth-child(7) .service-icon::before { content: "SOC"; }
+  .home-service-card:nth-child(8) .service-icon::before { content: "MAP"; }
+
+  .service-icon::before {
+    font-size: 15px;
+    font-weight: 900;
+    color: #061421;
+    letter-spacing: .03em;
+  }
+
   .partnered-with-webact,
-  .home-partner-logos,
-  .partner-logo-rotator,
-  .logo-rotator.partnered,
+  .partnered-with-webact.logo-rotator,
   section[aria-label="Partnered With WebAct"] {
     background: #061421 !important;
     color: #ffffff !important;
   }
 
-  .partnered-with-webact .eyebrow,
-  .home-partner-logos .eyebrow,
-  .partner-logo-rotator .eyebrow,
-  .logo-rotator.partnered .eyebrow,
-  section[aria-label="Partnered With WebAct"] .eyebrow {
-    color: #33abe1 !important;
-  }
-
   .partnered-with-webact h2,
   .partnered-with-webact p,
-  .home-partner-logos h2,
-  .home-partner-logos p,
-  .partner-logo-rotator h2,
-  .partner-logo-rotator p,
-  .logo-rotator.partnered h2,
-  .logo-rotator.partnered p,
+  .partnered-with-webact .eyebrow,
   section[aria-label="Partnered With WebAct"] h2,
-  section[aria-label="Partnered With WebAct"] p {
+  section[aria-label="Partnered With WebAct"] p,
+  section[aria-label="Partnered With WebAct"] .eyebrow {
     color: #ffffff !important;
   }
 
   .partnered-with-webact .logo-slide,
-  .home-partner-logos .logo-slide,
-  .partner-logo-rotator .logo-slide,
-  .logo-rotator.partnered .logo-slide,
   section[aria-label="Partnered With WebAct"] .logo-slide {
-    background: rgba(255,255,255,.95) !important;
-    border-radius: 14px;
-    padding: 18px 28px;
+    background: transparent !important;
   }
 
-  .partnered-with-webact img,
-  .home-partner-logos img,
-  .partner-logo-rotator img,
-  .logo-rotator.partnered img,
-  section[aria-label="Partnered With WebAct"] img {
-    opacity: 1 !important;
-    filter: none !important;
+  .partnered-with-webact .logo-slide img,
+  section[aria-label="Partnered With WebAct"] .logo-slide img {
+    filter: brightness(0) invert(1) !important;
+    opacity: .95 !important;
   }
 </style>
 </head>
