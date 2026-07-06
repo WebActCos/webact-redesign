@@ -18,6 +18,7 @@ function Get-PageType($relativePath) {
 
 function Resolve-InternalPath($baseFile, $rawPath) {
     $clean = ($rawPath -replace '\?.*$', '' -replace '#.*$', '')
+$clean = $clean -replace '^/webact-redesign/', '/'
     if ([string]::IsNullOrWhiteSpace($clean)) { return $null }
 
     if ($clean.StartsWith("/")) {
