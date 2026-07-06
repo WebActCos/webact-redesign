@@ -152,9 +152,7 @@
     </div>
 
     
-  param($m)
-  if ($m.Value -match 'lsa-section-actions') { return $m.Value }
-  return $m.Value -replace '</section>', "$buttons`r`n  </section>"
+  </section>"
 
 
   <section class="lsa-section">
@@ -165,9 +163,11 @@
     </div>
 
     
-  param($m)
-  if ($m.Value -match 'lsa-section-actions') { return $m.Value }
-  return $m.Value -replace '</section>', "$buttons`r`n  </section>"
+      <div class="lsa-section-actions">
+      <a class="button primary" href="/webact-redesign/contact/index.html">Free Consultation</a>
+      <a class="button secondary" href="/webact-redesign/pricing/advertising.html">Advertising Pricing</a>
+    </div>
+  </section>"
 
 
   <section class="lsa-section lsa-dark">
