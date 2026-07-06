@@ -1,103 +1,131 @@
-﻿<!doctype html>
+﻿
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Professional Editor | WebAct</title>
-    <meta name="description" content="Professional Website Editor page redesigned from WebAct Build Your Own Website source content.">
-    <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Professional Website Editor | Advanced Website Builder | WebAct</title>
+<meta name="description" content="Build a professional website with WebAct's advanced website editor. Choose a template, customize layouts, import by URL, save your work, publish with hosting, and return to the dashboard anytime.">
+<link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<style>
+body{margin:0}.proeditor{color:#071421;background:#fff;overflow:hidden}.hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:92px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,.72fr);gap:48px;align-items:center}.hero h1{font-size:clamp(42px,6vw,78px);line-height:.96;margin:12px 0 22px;letter-spacing:-.05em}.hero p{color:#d9edf8;font-size:20px;line-height:1.6}.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}.hero .eyebrow{color:#73d7ff}.proof{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 0}.proof span{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);border-radius:999px;padding:10px 14px;font-weight:800}.lead-form{background:rgba(255,255,255,.96);color:#071421;border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.28)}.lead-form h2{font-size:28px;margin:0 0 8px}.lead-form p{color:#4b5b66;font-size:16px;line-height:1.55}.lead-form label{display:grid;gap:7px;margin-bottom:12px;font-weight:800;font-size:14px;color:#203241}.lead-form input,.lead-form select,.lead-form textarea{width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:12px;padding:13px 14px;font:inherit;background:#fff;color:#071421}.lead-form textarea{resize:vertical;min-height:92px}.lead-form .button{width:100%;border:0}.section{padding:84px min(6vw,72px)}.soft{background:#f4f8fb}.dark{background:#071421;color:#fff}.heading{max-width:980px;margin:0 auto 44px;text-align:center}.heading .eyebrow{color:#0c9bd2}.dark .heading .eyebrow{color:#73d7ff}.heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}.heading p{font-size:18px;line-height:1.65;color:#4b5b66}.dark .heading p{color:#d4e8f2}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1300px;margin:0 auto}.card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:28px;color:#071421;box-shadow:0 18px 42px rgba(7,20,33,.08);text-decoration:none}.card h3{font-size:24px;margin:0 0 10px;color:#071421}.card p,.card li{color:#4b5b66;line-height:1.6}.card ul{padding-left:20px}.step-number{width:42px;height:42px;border-radius:12px;background:#071421;color:#33abe1;display:grid;place-items:center;font-weight:900;margin-bottom:18px}.template-wrap{max-width:1440px;margin:0 auto}.template-copy{max-width:980px;margin:0 auto 36px;text-align:center}.template-copy .eyebrow{color:#0c9bd2}.template-copy h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}.template-copy p{font-size:18px;line-height:1.65;color:#4b5b66}.builder-note{background:#fff;border-left:4px solid #33abe1;border-radius:10px;padding:18px 20px;font-weight:800;margin:24px auto 0;max-width:920px;text-align:left}.interactive-template-iframe-wrap{background:#fff;border:1px solid #e0ebf2;border-radius:28px;padding:18px;box-shadow:0 20px 60px rgba(7,20,33,.10);overflow:hidden}.interactive-template-frame{width:100%;min-height:900px;border:0;border-radius:18px;background:#fff}.webact-template-modal-open{overflow:hidden}.interactive-template-frame.webact-template-modal-active{position:relative;z-index:10}.detail-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:1000px;margin:0 auto}.detail-list span{background:#fff;border:1px solid #e0ebf2;border-radius:18px;padding:18px 20px;font-weight:900;color:#071421;box-shadow:0 12px 28px rgba(7,20,33,.06)}.comparison{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.comparison article{background:#fff;color:#071421;border-radius:26px;padding:30px;border:1px solid #e0ebf2}.comparison h3{color:#071421}.comparison p,.comparison li{color:#44525d}.faq{max-width:1050px;margin:0 auto;display:grid;gap:14px}.faq details{background:#fff;border:1px solid #e0ebf2;border-radius:18px;padding:20px}.faq summary{font-weight:900;cursor:pointer}.faq p{color:#4b5b66;line-height:1.6}.actions,.comparison-buttons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:42px auto 0}.actions .button,.comparison-buttons .button,.lead-form .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important;transition:.2s ease}.actions .button.primary,.comparison-buttons .button.primary,.lead-form .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}.actions .button.primary:hover,.comparison-buttons .button.primary:hover{background:#58c4ec!important}.actions .button.secondary,.comparison-buttons .button.secondary{background:#061421!important;border:2px solid #061421!important;color:#fff!important}.cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}.cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}.cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.cta .hero-actions{justify-content:center}@media(max-width:1080px){.hero,.grid,.comparison{grid-template-columns:1fr}.detail-list{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:680px){.hero,.section,.cta{padding:56px 20px}.hero-actions .button,.actions .button{width:100%;justify-content:center}.proof span{width:100%;text-align:center}.detail-list{grid-template-columns:1fr}.interactive-template-iframe-wrap{padding:8px}}
+</style>
 </head>
-  <body>
+<body>
 <div id="webact-header"></div>
-<main><section class="page-hero">
-  <div>
-    <p class="breadcrumb"><a href="/index.html">Home</a> / Design</p>
-    <p class="eyebrow">Build Your Own Website</p>
-    <h1>Professional Editor</h1>
-    <p class="hero-lede">Choose a professional template, customize the full website, publish when you are ready, and return to the WebAct dashboard any time.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="/contact/index.html">Start a conversation</a>
-      <a class="button secondary" href="/pricing/index.html">View pricing</a>
-    </div>
-  </div>
-  <img src="/webact-redesign/assets/professional-editor.png" alt="Professional Editor visual">
-</section>
-<section class="section simple-editor-intro professional-editor-intro">
-  <div class="section-heading">
-    <p class="eyebrow">Professional Website Builder</p>
-    <h2>Ready to build your website?</h2>
-    <p>Choose a template below to get started. All templates are fully customizable, so you can build your website for free and publish when you are ready.</p>
-  </div>
-  <div class="editor-highlights">
-    <article><strong>1</strong><h3>Pick a Template</h3><p>Start with a professional layout or use a Start with URL option when importing an existing website.</p></article>
-    <article><strong>2</strong><h3>Customize the Site</h3><p>Edit pages, sections, images, styles, forms, and business content with advanced control.</p></article>
-    <article><strong>3</strong><h3>Publish Later</h3><p>When ready, choose hosting and WebAct can help connect your domain.</p></article>
-  </div>
-</section>
-<section class="section professional-template-section">
-  <div class="template-copy">
-    <p class="eyebrow">Template Library</p>
-    <h2>Choose a template below to get started.</h2>
-    <p>Some templates allow you to import an existing website. Choose a Start with URL template and enter your website address, or pick a professional design and begin customizing.</p>
-    <div class="builder-note">The professional drag-and-drop builder works best on a desktop computer or tablet.</div>
-  </div>
-  <div class="interactive-template-iframe-wrap">
-    <iframe
-      class="interactive-template-frame"
-      src="/webact-redesign/assets/webact-template-embed.html"
-      title="WebAct interactive website templates"
-      loading="eager"></iframe>
-  </div>
-  <script>
-    window.addEventListener("message", function(event) {
-      var frame = document.querySelector(".interactive-template-frame");
-      if (!frame) return;
-      if (!event.data) return;
-      if (event.data.type === "webact-template-height") {
-        var height = Math.max(900, Math.min(Number(event.data.height || 0) + 40, 40000));
-        frame.style.height = height + "px";
-      }
-      if (event.data.type === "webact-template-modal-open") {
-        frame.classList.add("webact-template-modal-active");
-        document.body.classList.add("webact-template-modal-open");
-      }
-      if (event.data.type === "webact-template-modal-close") {
-        frame.classList.remove("webact-template-modal-active");
-        document.body.classList.remove("webact-template-modal-open");
-      }
-    });
-  </script>
-</section>
-<section class="section publish-section">
-  <div>
-    <p class="eyebrow">Publishing</p>
-    <h2>Build first, go live when you are ready.</h2>
-    <p>Any work you do is saved automatically. When the site is ready, use the Publish button in the builder to choose hosting and finish the domain connection.</p>
-  </div>
-  <div class="publish-grid">
-    <article><h3>Hosting Plan</h3><p>Publishing starts by selecting the right WebAct hosting plan for the finished website.</p><a href="/pricing/design.html">View design pricing</a></article>
-    <article><h3>Domain Connection</h3><p>WebAct can help connect an existing domain or point a new domain to the right servers.</p><a href="/addons/domain-names.html">View domains</a></article>
-    <article><h3>Dashboard Access</h3><p>Keep editing the website later by logging back into the WebAct dashboard.</p><a href="https://website.webact.com" target="_blank" rel="noreferrer">Open dashboard</a></article>
-  </div>
-</section>
-<section class="section editor-builder-section professional-support-section">
-  <div class="builder-copy">
-    <p class="eyebrow">Advanced Editing</p>
-    <h2>More control than the simple editor.</h2>
-    <p>The professional editor is for businesses that want richer templates, deeper layout control, reusable content sections, and the option to pair internal editing with WebAct's design and support team.</p>
-  </div>
-  <div class="detail-list">
-    <span>Advanced layouts</span><span>Reusable sections</span><span>Import by URL</span><span>Saved dashboard access</span><span>Hosting path</span><span>Domain support</span>
-  </div>
-</section>
-<section class="section page-section"><div class="section-heading compact"><p class="eyebrow">Related pages</p><h2>More in Design</h2></div><div class="page-card-grid"><article class="page-card"><h3>Simple Editor</h3><p>Begin with the simpler starter editor flow.</p><a href="/design/simple-editor.html">View page</a></article><article class="page-card"><h3>Website Design</h3><p>Work with WebAct on a professionally designed site.</p><a href="/design/website-design.html">View page</a></article><article class="page-card"><h3>Design Pricing</h3><p>Compare design and publishing options.</p><a href="/pricing/design.html">View page</a></article><article class="page-card"><h3>Domain Names</h3><p>Connect or register the domain for launch.</p><a href="/addons/domain-names.html">View page</a></article></div></section></main>
-    <div id="webact-footer"></div>
-    <script src="/webact-redesign/script.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
-</body>
-</html>
 
+<main class="proeditor">
+<section class="hero">
+<div>
+<p class="eyebrow">Professional Website Editor</p>
+<h1>Build a professional website with more control, richer templates, and advanced editing.</h1>
+<p>Choose a professional template, customize the full website, publish when you are ready, and return to the WebAct dashboard any time. The professional editor is built for businesses that want more control than the simple editor without starting from scratch.</p>
+<div class="hero-actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="/webact-redesign/pricing/design.html">Design Pricing</a></div>
+<div class="proof"><span>Professional Templates</span><span>Advanced Layouts</span><span>Import by URL</span><span>Dashboard Access</span></div>
+</div>
+<form class="lead-form" aria-label="Request professional editor help">
+<h2>Need Help Choosing?</h2><p>Tell us what you want to build and WebAct can point you toward the best website option.</p>
+<label>Full Name<input type="text" name="name"></label><label>Email Address<input type="email" name="email"></label><label>Phone Number<input type="tel" name="phone"></label>
+<label>Interested In<select><option>Professional Website Editor</option><option>Simple Website Editor</option><option>Website Design</option><option>Import Existing Website</option><option>Hosting and Domain Setup</option></select></label>
+<label>How can we help?<textarea rows="4"></textarea></label><button class="button primary" type="button">Request Website Help</button>
+</form>
+</section>
+
+<section class="section soft">
+<div class="heading"><p class="eyebrow">How It Works</p><h2>Pick a template, customize the site, publish when ready.</h2><p>The professional editor gives you a stronger starting point with more control over layouts, reusable content sections, pages, images, forms, and website styling.</p></div>
+<div class="grid">
+<article class="card"><div class="step-number">1</div><h3>Pick a Template</h3><p>Start with a professional layout or use a Start with URL option when importing an existing website.</p></article>
+<article class="card"><div class="step-number">2</div><h3>Customize the Site</h3><p>Edit pages, sections, images, styles, forms, and business content with advanced control.</p></article>
+<article class="card"><div class="step-number">3</div><h3>Publish Later</h3><p>When ready, choose hosting and WebAct can help connect your domain.</p></article>
+</div>
+<div class="actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="/webact-redesign/design/simple-editor.html">Simple Editor</a></div>
+</section>
+
+<section class="section" id="templates">
+<div class="template-wrap">
+<div class="template-copy">
+<p class="eyebrow">Template Library</p>
+<h2>Choose a template below to get started.</h2>
+<p>Some templates allow you to import an existing website. Choose a Start with URL template and enter your website address, or pick a professional design and begin customizing.</p>
+<div class="builder-note">The professional drag-and-drop builder works best on a desktop computer or tablet.</div>
+</div>
+<div class="interactive-template-iframe-wrap">
+<iframe
+class="interactive-template-frame"
+src="/webact-redesign/assets/webact-template-embed.html"
+title="WebAct interactive website templates"
+loading="eager"></iframe>
+</div>
+</div>
+<script>
+window.addEventListener("message", function(event) {
+  var frame = document.querySelector(".interactive-template-frame");
+  if (!frame) return;
+  if (!event.data) return;
+  if (event.data.type === "webact-template-height") {
+    var height = Math.max(900, Math.min(Number(event.data.height || 0) + 40, 40000));
+    frame.style.height = height + "px";
+  }
+  if (event.data.type === "webact-template-modal-open") {
+    frame.classList.add("webact-template-modal-active");
+    document.body.classList.add("webact-template-modal-open");
+  }
+  if (event.data.type === "webact-template-modal-close") {
+    frame.classList.remove("webact-template-modal-active");
+    document.body.classList.remove("webact-template-modal-open");
+  }
+});
+</script>
+</section>
+
+<section class="section soft">
+<div class="heading"><p class="eyebrow">Publishing</p><h2>Build first, go live when you are ready.</h2><p>Any work you do is saved automatically. When the site is ready, use the Publish button in the builder to choose hosting and finish the domain connection.</p></div>
+<div class="grid">
+<article class="card"><h3>Hosting Plan</h3><p>Publishing starts by selecting the right WebAct hosting plan for the finished website.</p><a href="/webact-redesign/pricing/design.html">View design pricing</a></article>
+<article class="card"><h3>Domain Connection</h3><p>WebAct can help connect an existing domain or point a new domain to the right servers.</p><a href="/webact-redesign/addons/domain-names.html">View domains</a></article>
+<article class="card"><h3>Dashboard Access</h3><p>Keep editing the website later by logging back into the WebAct dashboard.</p><a href="https://website.webact.com" target="_blank" rel="noreferrer">Open dashboard</a></article>
+</div>
+<div class="actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="/webact-redesign/pricing/design.html">Design Pricing</a></div>
+</section>
+
+<section class="section">
+<div class="heading"><p class="eyebrow">Advanced Editing</p><h2>More control than the simple editor.</h2><p>The professional editor is for businesses that want richer templates, deeper layout control, reusable content sections, and the option to pair internal editing with WebAct's design and support team.</p></div>
+<div class="detail-list">
+<span>Advanced layouts</span><span>Reusable sections</span><span>Import by URL</span><span>Saved dashboard access</span><span>Hosting path</span><span>Domain support</span>
+</div>
+<div class="actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="/webact-redesign/design/website-design.html">Professional Design</a></div>
+</section>
+
+<section class="section dark">
+<div class="heading"><p class="eyebrow">Professional Editor vs Simple Editor</p><h2>Choose the builder based on how much control you need.</h2></div>
+<div class="comparison">
+<article><h3>Professional Editor</h3><p>Best for businesses that want more template options, richer page layouts, advanced editing, and the ability to customize more of the website experience.</p><ul><li>Advanced templates</li><li>Layout control</li><li>Import by URL options</li><li>Stronger for growing sites</li></ul><div class="comparison-buttons"><a class="button primary" href="#templates">Choose Template</a><a class="button secondary" href="/webact-redesign/pricing/design.html">Design Pricing</a></div></article>
+<article><h3>Simple Editor</h3><p>Best for owners who want a faster starter flow, simpler editing, and a lightweight way to begin a website before publishing.</p><ul><li>Fast start</li><li>Simple intake flow</li><li>Starter website path</li><li>Easy editing</li></ul><div class="comparison-buttons"><a class="button primary" href="/webact-redesign/design/simple-editor.html">Simple Editor</a><a class="button secondary" href="/webact-redesign/design/index.html">Design Hub</a></div></article>
+</div>
+</section>
+
+<section class="section">
+<div class="heading"><p class="eyebrow">FAQ</p><h2>Professional Website Editor questions businesses ask before starting.</h2></div>
+<div class="faq">
+<details open><summary>What is the Professional Website Editor?</summary><p>It is a more advanced website builder experience with professional templates, deeper customization, saved dashboard access, and a publish path through WebAct hosting.</p></details>
+<details><summary>Can I import an existing website?</summary><p>Some template options support a Start with URL flow, allowing you to enter an existing website address and begin from an imported starting point.</p></details>
+<details><summary>Can I build before publishing?</summary><p>Yes. You can build and customize first. When the website is ready, choose hosting and complete the domain connection.</p></details>
+<details><summary>Should I use the professional editor or hire WebAct for full design?</summary><p>Use the professional editor if you want to control the build yourself. Choose professional website design if you want WebAct to handle strategy, layout, content, SEO structure, and conversion planning.</p></details>
+</div>
+</section>
+
+<section class="cta">
+<h2>Ready to choose a professional website template?</h2>
+<p>Start with a template, customize your site, and publish when you are ready. WebAct can also help if you want strategy, design, hosting, and domain support.</p>
+<div class="hero-actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="tel:8556974336">Call (855) 697-4336</a></div>
+</section>
+</main>
+
+<div id="webact-footer"></div>
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+</body></html>
