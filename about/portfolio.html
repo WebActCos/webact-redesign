@@ -32,8 +32,8 @@
     .portfolio-search-panel{max-width:1180px;margin:0 auto 28px;background:#fff;border:1px solid #e0ebf2;border-radius:28px;padding:28px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
     .portfolio-search-panel label{display:block;font-weight:900;font-size:22px;margin-bottom:12px}
     .portfolio-search-panel input{width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:16px;padding:17px 18px;font:inherit;background:#fff;color:#071421}
-    .portfolio-filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:0 auto 36px;max-width:1300px}
-    .portfolio-filters button{border:1px solid #dcecf5;background:#fff;color:#071421;border-radius:999px;padding:11px 15px;font-weight:900;cursor:pointer;box-shadow:0 10px 24px rgba(7,20,33,.06)}
+    .portfolio-filters{display:flex;flex-wrap:nowrap;gap:10px;justify-content:flex-start;margin:0 auto 36px;max-width:1500px;overflow-x:auto;overflow-y:hidden;padding:6px 4px 18px;scrollbar-width:thin}
+    .portfolio-filters button{border:1px solid #dcecf5;background:#fff;color:#071421;border-radius:999px;padding:11px 20px;font-weight:900;cursor:pointer;box-shadow:0 10px 24px rgba(7,20,33,.06);white-space:nowrap;flex:0 0 auto}
     .portfolio-filters button.active,.portfolio-filters button:hover{background:#33abe1;border-color:#33abe1;color:#061421}
     .portfolio-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1500px;margin:0 auto}
     .portfolio-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;overflow:hidden;box-shadow:0 18px 42px rgba(7,20,33,.08);display:flex;flex-direction:column;min-height:100%;transition:.2s ease}
@@ -82,26 +82,18 @@
     </div>
 
     <div class="portfolio-panel">
-      <h2>Portfolio Library</h2>
-      <p>Use the search and filters below to browse WebAct website examples by business name, service type, or industry.</p>
+      <h2>Top 250 Website Designs</h2>
+      <p>Browse WebAct's top website design examples by business name, service type, or industry.</p>
       <strong id="portfolio-count">0</strong>
-      <p>Projects loaded from the portfolio data source.</p>
-    </div>
-  </section>
-
-  <section class="section soft">
-    <div class="heading">
-      <p class="eyebrow">Browse Work</p>
-      <h2>Find website examples by industry or business type.</h2>
-      <p>The portfolio is generated from the shared WebAct portfolio data file, keeping the page easier to manage and consistent with the project documentation.</p>
+      <p>Website design examples selected from the WebAct portfolio.</p>
     </div>
   </section>
 
   <section class="section" id="portfolio-work">
     <div class="heading">
       <p class="eyebrow">Portfolio Search</p>
-      <h2>Search the WebAct portfolio.</h2>
-      <p>Search by company, category, or industry. Filter buttons are generated automatically from the portfolio data.</p>
+      <h2>Search our top 250 website designs.</h2>
+      <p>Search by company, industry, or business type. Use the horizontal filter bar to quickly browse examples by category.</p>
     </div>
 
     <div class="portfolio-search-panel">
