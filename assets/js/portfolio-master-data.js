@@ -1,4 +1,4 @@
-﻿window.webactPortfolioMasterData = [
+window.webactPortfolioMasterData = [
   {
     "name": "2go Coconut",
     "slug": "2go-coconut",
@@ -35,7 +35,9 @@
       "overview": "WebAct created a professional website presence for 2go Coconut, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of 2go Coconut quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives 2go Coconut a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives 2go Coconut a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Ecommerce",
+      "category": "Ecommerce"
     },
     "category": "Ecommerce",
     "type": "Ecommerce",
@@ -55,7 +57,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a ecommerce website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Ecommerce"
+    ]
   },
   {
     "name": "360 Sales Advantage",
@@ -872,7 +877,7 @@
   {
     "name": "All Go Transportation",
     "slug": "all-go-transportation",
-    "industry": "Business",
+    "industry": "Transportation",
     "image": "/webact-redesign/Resources/images/AllGoTransport-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -905,9 +910,11 @@
       "overview": "WebAct created a professional website presence for All Go Transportation, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of All Go Transportation quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives All Go Transportation a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives All Go Transportation a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Transportation",
+      "category": "Transportation"
     },
-    "category": "Business",
+    "category": "Transportation",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -925,7 +932,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Transportation"
+    ]
   },
   {
     "name": "All-Star Pizza",
@@ -988,7 +998,7 @@
   {
     "name": "Alta Partners",
     "slug": "alta-partners",
-    "industry": "Professional Services",
+    "industry": "Investors",
     "image": "/webact-redesign/Resources/images/Alta_Partners-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -1021,9 +1031,11 @@
       "overview": "WebAct created a professional website presence for Alta Partners, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Alta Partners quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Alta Partners a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Alta Partners a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Investors",
+      "category": "Investors"
     },
-    "category": "Professional Services",
+    "category": "Investors",
     "type": "Professional Services",
     "snapshot": {
       "industry": "Professional Services"
@@ -1041,7 +1053,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a professional services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Investors"
+    ]
   },
   {
     "name": "American Sewer",
@@ -1104,7 +1119,7 @@
   {
     "name": "Andree Hudson Art",
     "slug": "andree-hudson-art",
-    "industry": "Business",
+    "industry": "Artist",
     "image": "/webact-redesign/Resources/images/Andree_Hudson_Art-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -1137,9 +1152,11 @@
       "overview": "WebAct created a professional website presence for Andree Hudson Art, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Andree Hudson Art quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Andree Hudson Art a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Andree Hudson Art a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Artist",
+      "category": "Artist"
     },
-    "category": "Business",
+    "category": "Artist",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -1157,7 +1174,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Artist"
+    ]
   },
   {
     "name": "Apex Denver Locksmith",
@@ -1220,7 +1240,7 @@
   {
     "name": "Ariana Waterfall",
     "slug": "ariana-waterfall",
-    "industry": "Water Treatment",
+    "industry": "Wedding",
     "image": "/webact-redesign/Resources/images/arianaWaterfall-9f2a1f5e-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -1253,9 +1273,11 @@
       "overview": "WebAct created a professional website presence for Ariana Waterfall, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Ariana Waterfall quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Ariana Waterfall a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Ariana Waterfall a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Wedding",
+      "category": "Wedding"
     },
-    "category": "Water Treatment",
+    "category": "Wedding",
     "type": "Water Treatment",
     "snapshot": {
       "industry": "Water Treatment"
@@ -1273,7 +1295,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a water treatment website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Wedding"
+    ]
   },
   {
     "name": "Aspire Counseling",
@@ -1336,7 +1361,7 @@
   {
     "name": "Aspire Hope For Kids",
     "slug": "aspire-hope-for-kids",
-    "industry": "Business",
+    "industry": "Non Profit",
     "image": "/webact-redesign/Resources/images/Aspire-Hope-For-Kids-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -1369,9 +1394,11 @@
       "overview": "WebAct created a professional website presence for Aspire Hope For Kids, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Aspire Hope For Kids quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Aspire Hope For Kids a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Aspire Hope For Kids a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Non Profit",
+      "category": "Non Profit"
     },
-    "category": "Business",
+    "category": "Non Profit",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -1389,7 +1416,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Non Profit"
+    ]
   },
   {
     "name": "Atlee Care",
@@ -1858,7 +1888,7 @@
   {
     "name": "Benton Dental",
     "slug": "benton-dental",
-    "industry": "Dental",
+    "industry": "Dentist",
     "image": "/webact-redesign/Resources/images/benton-dental.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -1891,9 +1921,11 @@
       "overview": "WebAct created a professional website presence for Benton Dental, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Benton Dental quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Benton Dental a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Benton Dental a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Dentist",
+      "category": "Dentist"
     },
-    "category": "Dental",
+    "category": "Dentist",
     "type": "Dental",
     "snapshot": {
       "industry": "Dental"
@@ -1911,7 +1943,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a dental website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Dentist"
+    ]
   },
   {
     "name": "BlackBridge Defense",
@@ -2206,7 +2242,7 @@
   {
     "name": "Building Better Breath",
     "slug": "building-better-breath",
-    "industry": "Healthcare",
+    "industry": "Retail",
     "image": "/webact-redesign/Resources/images/building-better-Breath.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -2239,9 +2275,11 @@
       "overview": "WebAct created a professional website presence for Building Better Breath, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Building Better Breath quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Building Better Breath a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Building Better Breath a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Retail",
+      "category": "Retail"
     },
-    "category": "Healthcare",
+    "category": "Retail",
     "type": "Healthcare",
     "snapshot": {
       "industry": "Healthcare"
@@ -2259,7 +2297,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a healthcare website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Retail"
+    ]
   },
   {
     "name": "Building Better Transit",
@@ -2355,7 +2397,9 @@
       "overview": "WebAct created a professional website presence for By The Beach, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of By The Beach quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives By The Beach a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives By The Beach a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Travel",
+      "category": "Travel"
     },
     "category": "Travel",
     "type": "Travel",
@@ -2375,7 +2419,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a travel website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Travel"
+    ]
   },
   {
     "name": "Callahan Hayes",
@@ -2438,7 +2485,7 @@
   {
     "name": "Cancer With Courage",
     "slug": "cancer-with-courage",
-    "industry": "Nonprofit",
+    "industry": "Non Profit",
     "image": "/webact-redesign/Resources/images/cancer-with-courage.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -2471,9 +2518,11 @@
       "overview": "WebAct created a professional website presence for Cancer With Courage, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Cancer With Courage quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Cancer With Courage a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Cancer With Courage a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Non Profit",
+      "category": "Non Profit"
     },
-    "category": "Nonprofit",
+    "category": "Non Profit",
     "type": "Nonprofit",
     "snapshot": {
       "industry": "Nonprofit"
@@ -2491,12 +2540,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a nonprofit website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Non Profit"
+    ]
   },
   {
     "name": "Carie's Posing Suits",
     "slug": "carie-s-posing-suits",
-    "industry": "Salon & Beauty",
+    "industry": "Ecommerce",
     "image": "/webact-redesign/Resources/images/cariesPosingSuits-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -2529,9 +2581,11 @@
       "overview": "WebAct created a professional website presence for Carie's Posing Suits, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Carie's Posing Suits quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Carie's Posing Suits a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Carie's Posing Suits a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Ecommerce",
+      "category": "Ecommerce"
     },
-    "category": "Salon & Beauty",
+    "category": "Ecommerce",
     "type": "Salon & Beauty",
     "snapshot": {
       "industry": "Salon & Beauty"
@@ -2549,7 +2603,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a salon & beauty website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Ecommerce"
+    ]
   },
   {
     "name": "Carlock Plumbing",
@@ -2587,7 +2644,9 @@
       "overview": "WebAct created a professional website presence for Carlock Plumbing, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Carlock Plumbing quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Carlock Plumbing a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Carlock Plumbing a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Plumbing",
+      "category": "Plumbing"
     },
     "category": "Plumbing",
     "type": "Plumbing",
@@ -2607,7 +2666,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a plumbing website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Plumbing"
+    ]
   },
   {
     "name": "Carwash Coupons",
@@ -2645,7 +2708,9 @@
       "overview": "WebAct created a professional website presence for Carwash Coupons, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Carwash Coupons quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Carwash Coupons a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Carwash Coupons a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Automotive",
+      "category": "Automotive"
     },
     "category": "Automotive",
     "type": "Automotive",
@@ -2665,7 +2730,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a automotive website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Automotive"
+    ]
   },
   {
     "name": "Cass And Company Salon",
@@ -2726,9 +2795,9 @@
     }
   },
   {
-    "name": "Castle Rock",
+    "name": "Castle Rock Tattoo",
     "slug": "castle-rock",
-    "industry": "Business",
+    "industry": "Tattoo Shop",
     "image": "/webact-redesign/Resources/images/Castle-Rock-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -2761,9 +2830,11 @@
       "overview": "WebAct created a professional website presence for Castle Rock, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Castle Rock quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Castle Rock a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Castle Rock a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Tattoo Shop",
+      "category": "Tattoo Shop"
     },
-    "category": "Business",
+    "category": "Tattoo Shop",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -2781,12 +2852,16 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Tattoo Shop"
+    ]
   },
   {
     "name": "Cell Block",
     "slug": "cell-block",
-    "industry": "Locksmith",
+    "industry": "Phone Repair",
     "image": "/webact-redesign/Resources/images/cellBlock.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -2819,9 +2894,11 @@
       "overview": "WebAct created a professional website presence for Cell Block, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Cell Block quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Cell Block a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Cell Block a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Phone Repair",
+      "category": "Phone Repair"
     },
-    "category": "Locksmith",
+    "category": "Phone Repair",
     "type": "Locksmith",
     "snapshot": {
       "industry": "Locksmith"
@@ -2839,7 +2916,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a locksmith website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Phone Repair"
+    ]
   },
   {
     "name": "Century Tire Inc.",
@@ -3018,7 +3098,7 @@
   {
     "name": "Coastal Homes",
     "slug": "coastal-homes",
-    "industry": "Home Services",
+    "industry": "Interior Design",
     "image": "/webact-redesign/Resources/images/coastalHomes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -3051,9 +3131,11 @@
       "overview": "WebAct created a professional website presence for Coastal Homes, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Coastal Homes quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Coastal Homes a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Coastal Homes a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Interior Design",
+      "category": "Interior Design"
     },
-    "category": "Home Services",
+    "category": "Interior Design",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -3071,7 +3153,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Interior Design"
+    ]
   },
   {
     "name": "College Planning Coach",
@@ -3192,7 +3277,7 @@
   {
     "name": "CoWest Durango",
     "slug": "cowest-durango",
-    "industry": "Business",
+    "industry": "Professional Services",
     "image": "/webact-redesign/Resources/images/coWestDurango-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -3225,9 +3310,11 @@
       "overview": "WebAct created a professional website presence for CoWest Durango, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of CoWest Durango quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives CoWest Durango a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives CoWest Durango a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Professional Services",
+      "category": "Professional Services"
     },
-    "category": "Business",
+    "category": "Professional Services",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -3245,7 +3332,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Professional Services"
+    ]
   },
   {
     "name": "CoWest Insurance Group",
@@ -3482,7 +3572,7 @@
   {
     "name": "Curved Glass Creations",
     "slug": "curved-glass-creations",
-    "industry": "Home Services",
+    "industry": "Glass Repair",
     "image": "/webact-redesign/Resources/images/curvedGlassCreations-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -3515,9 +3605,11 @@
       "overview": "WebAct created a professional website presence for Curved Glass Creations, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Curved Glass Creations quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Curved Glass Creations a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Curved Glass Creations a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Glass Repair",
+      "category": "Glass Repair"
     },
-    "category": "Home Services",
+    "category": "Glass Repair",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -3535,12 +3627,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Glass Repair"
+    ]
   },
   {
     "name": "D And D Machinery Movers",
     "slug": "d-and-d-machinery-movers",
-    "industry": "Home Services",
+    "industry": "Construction",
     "image": "/webact-redesign/Resources/images/dAndDMachineryMovers-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -3573,9 +3668,11 @@
       "overview": "WebAct created a professional website presence for D And D Machinery Movers, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of D And D Machinery Movers quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives D And D Machinery Movers a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives D And D Machinery Movers a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Construction",
+      "category": "Construction"
     },
-    "category": "Home Services",
+    "category": "Construction",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -3593,12 +3690,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Construction"
+    ]
   },
   {
     "name": "Dads of Parker",
     "slug": "dads-of-parker",
-    "industry": "Business",
+    "industry": "Non Profit",
     "image": "/webact-redesign/Resources/images/Dads-of-Parker-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -3631,9 +3731,11 @@
       "overview": "WebAct created a professional website presence for Dads of Parker, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Dads of Parker quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Dads of Parker a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Dads of Parker a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Non Profit",
+      "category": "Non Profit"
     },
-    "category": "Business",
+    "category": "Non Profit",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -3651,7 +3753,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Non Profit"
+    ]
   },
   {
     "name": "Deaf Vacation Cruise",
@@ -3689,7 +3794,9 @@
       "overview": "WebAct created a professional website presence for Deaf Vacation Cruise, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Deaf Vacation Cruise quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Deaf Vacation Cruise a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Deaf Vacation Cruise a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Travel",
+      "category": "Travel"
     },
     "category": "Travel",
     "type": "Travel",
@@ -3709,7 +3816,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a travel website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Travel"
+    ]
   },
   {
     "name": "Deannas Papillons",
@@ -3946,7 +4056,7 @@
   {
     "name": "Denver Issa",
     "slug": "denver-issa",
-    "industry": "Business",
+    "industry": "Community",
     "image": "/webact-redesign/Resources/images/Denver-Issa-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -3979,9 +4089,11 @@
       "overview": "WebAct created a professional website presence for Denver Issa, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Denver Issa quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Denver Issa a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Denver Issa a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Community",
+      "category": "Community"
     },
-    "category": "Business",
+    "category": "Community",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -3999,7 +4111,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Community"
+    ]
   },
   {
     "name": "Denver Sign Factory",
@@ -4178,7 +4293,7 @@
   {
     "name": "Desert Empire",
     "slug": "desert-empire",
-    "industry": "Business",
+    "industry": "Fair",
     "image": "/webact-redesign/Resources/images/DesertEmpire-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -4211,9 +4326,11 @@
       "overview": "WebAct created a professional website presence for Desert Empire, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Desert Empire quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Desert Empire a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Desert Empire a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Fair",
+      "category": "Fair"
     },
-    "category": "Business",
+    "category": "Fair",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -4231,7 +4348,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Fair"
+    ]
   },
   {
     "name": "Dig For Energy",
@@ -4269,7 +4389,9 @@
       "overview": "WebAct created a professional website presence for Dig For Energy, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Dig For Energy quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Dig For Energy a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Dig For Energy a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Energy",
+      "category": "Energy"
     },
     "category": "Energy",
     "type": "Energy",
@@ -4289,12 +4411,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a energy website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Energy"
+    ]
   },
   {
     "name": "Dominion Craftsman Services",
     "slug": "dominion-craftsman-services",
-    "industry": "Business",
+    "industry": "Construction",
     "image": "/webact-redesign/Resources/images/Dominion-Craftsman-Services-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -4327,9 +4452,11 @@
       "overview": "WebAct created a professional website presence for Dominion Craftsman Services, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Dominion Craftsman Services quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Dominion Craftsman Services a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Dominion Craftsman Services a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Construction",
+      "category": "Construction"
     },
-    "category": "Business",
+    "category": "Construction",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -4347,7 +4474,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Construction"
+    ]
   },
   {
     "name": "Driving Instructor Classes",
@@ -4410,7 +4540,7 @@
   {
     "name": "DSS By Kat",
     "slug": "dss-by-kat",
-    "industry": "Business",
+    "industry": "Pet Services",
     "image": "/webact-redesign/Resources/images/dssByKat-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -4443,9 +4573,11 @@
       "overview": "WebAct created a professional website presence for DSS By Kat, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of DSS By Kat quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives DSS By Kat a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives DSS By Kat a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Pet Services",
+      "category": "Pet Services"
     },
-    "category": "Business",
+    "category": "Pet Services",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -4463,12 +4595,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Pet Services"
+    ]
   },
   {
     "name": "DWW",
     "slug": "dww",
-    "industry": "Business",
+    "industry": "Energy",
     "image": "/webact-redesign/Resources/images/DWW-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -4501,9 +4636,11 @@
       "overview": "WebAct created a professional website presence for DWW, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of DWW quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives DWW a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives DWW a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Energy",
+      "category": "Energy"
     },
-    "category": "Business",
+    "category": "Energy",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -4521,7 +4658,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Energy"
+    ]
   },
   {
     "name": "E-Sports Foundation",
@@ -4642,7 +4782,7 @@
   {
     "name": "Ed Prevost",
     "slug": "ed-prevost",
-    "industry": "Business",
+    "industry": "Investigation",
     "image": "/webact-redesign/Resources/images/edProvost-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -4675,9 +4815,11 @@
       "overview": "WebAct created a professional website presence for Ed Prevost, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Ed Prevost quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Ed Prevost a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Ed Prevost a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Investigation",
+      "category": "Investigation"
     },
-    "category": "Business",
+    "category": "Investigation",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -4695,12 +4837,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Investigation"
+    ]
   },
   {
     "name": "Edmotnton Heritage Festival",
     "slug": "edmotnton-heritage-festival",
-    "industry": "Nonprofit",
+    "industry": "Fair",
     "image": "/webact-redesign/Resources/images/WebactEdmonton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -4733,9 +4878,11 @@
       "overview": "WebAct created a professional website presence for Edmotnton Heritage Festival, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Edmotnton Heritage Festival quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Edmotnton Heritage Festival a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Edmotnton Heritage Festival a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Fair",
+      "category": "Fair"
     },
-    "category": "Nonprofit",
+    "category": "Fair",
     "type": "Nonprofit",
     "snapshot": {
       "industry": "Nonprofit"
@@ -4753,7 +4900,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a nonprofit website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Fair"
+    ]
   },
   {
     "name": "Einstein Plumbing",
@@ -5048,7 +5198,7 @@
   {
     "name": "Epleyer",
     "slug": "epleyer",
-    "industry": "Business",
+    "industry": "Technology",
     "image": "/webact-redesign/Resources/images/Epleyer-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -5081,9 +5231,11 @@
       "overview": "WebAct created a professional website presence for Epleyer, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Epleyer quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Epleyer a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Epleyer a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Technology",
+      "category": "Technology"
     },
-    "category": "Business",
+    "category": "Technology",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -5101,7 +5253,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Technology"
+    ]
   },
   {
     "name": "Esports Epleyer",
@@ -5222,7 +5377,7 @@
   {
     "name": "Express Shipping Room Supply",
     "slug": "express-shipping-room-supply",
-    "industry": "Business",
+    "industry": "Ecommerce",
     "image": "/webact-redesign/Resources/images/Express-Shipping-Room-Supply-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -5255,9 +5410,11 @@
       "overview": "WebAct created a professional website presence for Express Shipping Room Supply, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Express Shipping Room Supply quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Express Shipping Room Supply a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Express Shipping Room Supply a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Ecommerce",
+      "category": "Ecommerce"
     },
-    "category": "Business",
+    "category": "Ecommerce",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -5275,7 +5432,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Ecommerce"
+    ]
   },
   {
     "name": "Extreme Autoworks",
@@ -5338,7 +5498,7 @@
   {
     "name": "Finding The Fantastic",
     "slug": "finding-the-fantastic",
-    "industry": "Business",
+    "industry": "Artist",
     "image": "/webact-redesign/Resources/images/WebactFindingTheFantastic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -5371,9 +5531,11 @@
       "overview": "WebAct created a professional website presence for Finding The Fantastic, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Finding The Fantastic quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Finding The Fantastic a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Finding The Fantastic a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Artist",
+      "category": "Artist"
     },
-    "category": "Business",
+    "category": "Artist",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -5391,12 +5553,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Artist"
+    ]
   },
   {
     "name": "Fine Arts Movement",
     "slug": "fine-arts-movement",
-    "industry": "Business",
+    "industry": "Artist",
     "image": "/webact-redesign/Resources/images/WebactFAM-5c1828d3-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -5429,9 +5594,11 @@
       "overview": "WebAct created a professional website presence for Fine Arts Movement, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Fine Arts Movement quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Fine Arts Movement a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Fine Arts Movement a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Artist",
+      "category": "Artist"
     },
-    "category": "Business",
+    "category": "Artist",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -5449,7 +5616,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Artist"
+    ]
   },
   {
     "name": "Firm Group",
@@ -5512,7 +5682,7 @@
   {
     "name": "Fit Republic",
     "slug": "fit-republic",
-    "industry": "Business",
+    "industry": "Fitness",
     "image": "/webact-redesign/Resources/images/WebactFitRepublic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -5545,9 +5715,11 @@
       "overview": "WebAct created a professional website presence for Fit Republic, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Fit Republic quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Fit Republic a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Fit Republic a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Fitness",
+      "category": "Fitness"
     },
-    "category": "Business",
+    "category": "Fitness",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -5565,7 +5737,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Fitness"
+    ]
   },
   {
     "name": "Fr Bumper Solutions",
@@ -5976,7 +6151,7 @@
   {
     "name": "Ghost Town Fitness",
     "slug": "ghost-town-fitness",
-    "industry": "Business",
+    "industry": "Fitness",
     "image": "/webact-redesign/Resources/images/ghostTownFitness-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -6009,9 +6184,11 @@
       "overview": "WebAct created a professional website presence for Ghost Town Fitness, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Ghost Town Fitness quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Ghost Town Fitness a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Ghost Town Fitness a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Fitness",
+      "category": "Fitness"
     },
-    "category": "Business",
+    "category": "Fitness",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -6029,7 +6206,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Fitness"
+    ]
   },
   {
     "name": "Glass Act",
@@ -6208,7 +6388,7 @@
   {
     "name": "Great Escape",
     "slug": "great-escape",
-    "industry": "Business",
+    "industry": "Professional Services",
     "image": "/webact-redesign/Resources/images/great escape-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -6241,9 +6421,11 @@
       "overview": "WebAct created a professional website presence for Great Escape, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Great Escape quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Great Escape a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Great Escape a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Professional Services",
+      "category": "Professional Services"
     },
-    "category": "Business",
+    "category": "Professional Services",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -6261,7 +6443,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Professional Services"
+    ]
   },
   {
     "name": "Great West Real Estate",
@@ -6299,7 +6484,9 @@
       "overview": "WebAct created a professional website presence for Great West Real Estate, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Great West Real Estate quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Great West Real Estate a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Great West Real Estate a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Real Estate",
+      "category": "Real Estate"
     },
     "category": "Real Estate",
     "type": "Real Estate",
@@ -6319,7 +6506,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a real estate website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Real Estate"
+    ]
   },
   {
     "name": "Great West Restoration Colorado",
@@ -6498,7 +6689,7 @@
   {
     "name": "Has Tag Lab",
     "slug": "has-tag-lab",
-    "industry": "Business",
+    "industry": "Ecommerce",
     "image": "/webact-redesign/Resources/images/Has-Tag-Lab-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -6531,9 +6722,11 @@
       "overview": "WebAct created a professional website presence for Has Tag Lab, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Has Tag Lab quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Has Tag Lab a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Has Tag Lab a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Ecommerce",
+      "category": "Ecommerce"
     },
-    "category": "Business",
+    "category": "Ecommerce",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -6551,7 +6744,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Ecommerce"
+    ]
   },
   {
     "name": "Haveli Indian Cuisine",
@@ -6614,7 +6810,7 @@
   {
     "name": "Hebert Investigations",
     "slug": "hebert-investigations",
-    "industry": "Business",
+    "industry": "Investigation",
     "image": "/webact-redesign/Resources/images/Hebert_Investigations-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -6647,9 +6843,11 @@
       "overview": "WebAct created a professional website presence for Hebert Investigations, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Hebert Investigations quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Hebert Investigations a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Hebert Investigations a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Investigation",
+      "category": "Investigation"
     },
-    "category": "Business",
+    "category": "Investigation",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -6667,7 +6865,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Investigation"
+    ]
   },
   {
     "name": "Heritage Roofing",
@@ -6730,7 +6931,7 @@
   {
     "name": "Hi Dessert Egg",
     "slug": "hi-dessert-egg",
-    "industry": "Business",
+    "industry": "Retail",
     "image": "/webact-redesign/Resources/images/Hi-Dessert-Egg-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -6763,9 +6964,11 @@
       "overview": "WebAct created a professional website presence for Hi Dessert Egg, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Hi Dessert Egg quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Hi Dessert Egg a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Hi Dessert Egg a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Retail",
+      "category": "Retail"
     },
-    "category": "Business",
+    "category": "Retail",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -6783,12 +6986,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Retail"
+    ]
   },
   {
     "name": "Home Pro Chesapeake",
     "slug": "home-pro-chesapeake",
-    "industry": "Home Services",
+    "industry": "Home Inspection",
     "image": "/webact-redesign/Resources/images/homeProChesapeake-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -6821,9 +7027,11 @@
       "overview": "WebAct created a professional website presence for Home Pro Chesapeake, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Home Pro Chesapeake quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Home Pro Chesapeake a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Home Pro Chesapeake a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Home Inspection",
+      "category": "Home Inspection"
     },
-    "category": "Home Services",
+    "category": "Home Inspection",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -6841,7 +7049,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Home Inspection"
+    ]
   },
   {
     "name": "Homeland Driving School Cavco Enterprises, Inc",
@@ -6904,7 +7115,7 @@
   {
     "name": "HouseSketch",
     "slug": "housesketch",
-    "industry": "Business",
+    "industry": "Design",
     "image": "/webact-redesign/Resources/images/HouseSketch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -6937,9 +7148,11 @@
       "overview": "WebAct created a professional website presence for HouseSketch, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of HouseSketch quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives HouseSketch a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives HouseSketch a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Design",
+      "category": "Design"
     },
-    "category": "Business",
+    "category": "Design",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -6957,7 +7170,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Design"
+    ]
   },
   {
     "name": "Houston Energy Systems",
@@ -7020,7 +7236,7 @@
   {
     "name": "Humbold Couty Fair",
     "slug": "humbold-couty-fair",
-    "industry": "Nonprofit",
+    "industry": "Fair",
     "image": "/webact-redesign/Resources/images/WebactHumboltCountyFair-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -7053,9 +7269,11 @@
       "overview": "WebAct created a professional website presence for Humbold Couty Fair, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Humbold Couty Fair quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Humbold Couty Fair a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Humbold Couty Fair a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Fair",
+      "category": "Fair"
     },
-    "category": "Nonprofit",
+    "category": "Fair",
     "type": "Nonprofit",
     "snapshot": {
       "industry": "Nonprofit"
@@ -7073,7 +7291,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a nonprofit website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Fair"
+    ]
   },
   {
     "name": "Hydro Dynamics",
@@ -7368,7 +7589,7 @@
   {
     "name": "Inquiz Inspections",
     "slug": "inquiz-inspections",
-    "industry": "Home Services",
+    "industry": "Home Inspection",
     "image": "/webact-redesign/Resources/images/Inquiz-Inspections-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -7401,9 +7622,11 @@
       "overview": "WebAct created a professional website presence for Inquiz Inspections, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Inquiz Inspections quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Inquiz Inspections a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Inquiz Inspections a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Home Inspection",
+      "category": "Home Inspection"
     },
-    "category": "Home Services",
+    "category": "Home Inspection",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -7421,12 +7644,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Home Inspection"
+    ]
   },
   {
     "name": "Insightifi",
     "slug": "insightifi",
-    "industry": "Business",
+    "industry": "Technology",
     "image": "/webact-redesign/Resources/images/insightifi-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -7459,9 +7685,11 @@
       "overview": "WebAct created a professional website presence for Insightifi, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Insightifi quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Insightifi a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Insightifi a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Technology",
+      "category": "Technology"
     },
-    "category": "Business",
+    "category": "Technology",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -7479,7 +7707,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Technology"
+    ]
   },
   {
     "name": "Integration Design",
@@ -7542,7 +7773,7 @@
   {
     "name": "Ironside Capital",
     "slug": "ironside-capital",
-    "industry": "Professional Services",
+    "industry": "Investors",
     "image": "/webact-redesign/Resources/images/IRONSIDE-CAPITAL-2aab2bce-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -7575,9 +7806,11 @@
       "overview": "WebAct created a professional website presence for Ironside Capital, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Ironside Capital quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Ironside Capital a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Ironside Capital a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Investors",
+      "category": "Investors"
     },
-    "category": "Professional Services",
+    "category": "Investors",
     "type": "Professional Services",
     "snapshot": {
       "industry": "Professional Services"
@@ -7595,12 +7828,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a professional services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Investors"
+    ]
   },
   {
     "name": "Island Cool Creams",
     "slug": "island-cool-creams",
-    "industry": "Restaurant",
+    "industry": "Retail",
     "image": "/webact-redesign/Resources/images/island+cool+creams.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -7633,9 +7869,11 @@
       "overview": "WebAct created a professional website presence for Island Cool Creams, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Island Cool Creams quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Island Cool Creams a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Island Cool Creams a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Retail",
+      "category": "Retail"
     },
-    "category": "Restaurant",
+    "category": "Retail",
     "type": "Restaurant",
     "snapshot": {
       "industry": "Restaurant"
@@ -7653,12 +7891,16 @@
         "text": "Showcase your services, story, proof, and conversion paths with a restaurant website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Retail"
+    ]
   },
   {
     "name": "Island Slider Guy",
     "slug": "island-slider-guy",
-    "industry": "Business",
+    "industry": "Glass Repair",
     "image": "/webact-redesign/Resources/images/Island_Slider_Guy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -7691,9 +7933,11 @@
       "overview": "WebAct created a professional website presence for Island Slider Guy, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Island Slider Guy quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Island Slider Guy a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Island Slider Guy a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Glass Repair",
+      "category": "Glass Repair"
     },
-    "category": "Business",
+    "category": "Glass Repair",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -7711,12 +7955,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Glass Repair"
+    ]
   },
   {
     "name": "Jack Lewis",
     "slug": "jack-lewis",
-    "industry": "Business",
+    "industry": "Portfolio",
     "image": "/webact-redesign/Resources/images/Jack-Lewis-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -7749,9 +7996,11 @@
       "overview": "WebAct created a professional website presence for Jack Lewis, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Jack Lewis quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Jack Lewis a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Jack Lewis a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Portfolio",
+      "category": "Portfolio"
     },
-    "category": "Business",
+    "category": "Portfolio",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -7769,12 +8018,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Portfolio"
+    ]
   },
   {
     "name": "JK Hatcher Homes",
     "slug": "jk-hatcher-homes",
-    "industry": "Home Services",
+    "industry": "Construction",
     "image": "/webact-redesign/Resources/images/JK_Hactcher_Homes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -7807,9 +8059,11 @@
       "overview": "WebAct created a professional website presence for JK Hatcher Homes, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of JK Hatcher Homes quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives JK Hatcher Homes a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives JK Hatcher Homes a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Construction",
+      "category": "Construction"
     },
-    "category": "Home Services",
+    "category": "Construction",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -7827,7 +8081,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Construction"
+    ]
   },
   {
     "name": "Karma Tour Hawaii",
@@ -8412,7 +8669,7 @@
   {
     "name": "Lower Lake Ranch",
     "slug": "lower-lake-ranch",
-    "industry": "Real Estate",
+    "industry": "Travel",
     "image": "/webact-redesign/Resources/images/WebactLowerLakeRanch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -8445,9 +8702,11 @@
       "overview": "WebAct created a professional website presence for Lower Lake Ranch, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Lower Lake Ranch quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Lower Lake Ranch a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Lower Lake Ranch a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Travel",
+      "category": "Travel"
     },
-    "category": "Real Estate",
+    "category": "Travel",
     "type": "Real Estate",
     "snapshot": {
       "industry": "Real Estate"
@@ -8465,7 +8724,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a real estate website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Travel"
+    ]
   },
   {
     "name": "M Communications",
@@ -8619,7 +8881,9 @@
       "overview": "WebAct created a professional website presence for Marcoa, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Marcoa quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Marcoa a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Marcoa a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Professional Services",
+      "category": "Professional Services"
     },
     "category": "Professional Services",
     "type": "Professional Services",
@@ -8639,12 +8903,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a professional services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Professional Services"
+    ]
   },
   {
     "name": "Master Craft",
     "slug": "master-craft",
-    "industry": "Business",
+    "industry": "Roofing",
     "image": "/webact-redesign/Resources/images/Master-Craft-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -8677,9 +8944,11 @@
       "overview": "WebAct created a professional website presence for Master Craft, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Master Craft quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Master Craft a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Master Craft a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Roofing",
+      "category": "Roofing"
     },
-    "category": "Business",
+    "category": "Roofing",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -8697,12 +8966,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Roofing"
+    ]
   },
   {
     "name": "MDT Transit",
     "slug": "mdt-transit",
-    "industry": "Home Services",
+    "industry": "Transportation",
     "image": "/webact-redesign/Resources/images/MDT-Transit-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -8735,9 +9007,11 @@
       "overview": "WebAct created a professional website presence for MDT Transit, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of MDT Transit quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives MDT Transit a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives MDT Transit a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Transportation",
+      "category": "Transportation"
     },
-    "category": "Home Services",
+    "category": "Transportation",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -8755,12 +9029,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Transportation"
+    ]
   },
   {
     "name": "Meadow Hills",
     "slug": "meadow-hills",
-    "industry": "Business",
+    "industry": "Golf",
     "image": "/webact-redesign/Resources/images/Meadow_Hills-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -8793,9 +9070,11 @@
       "overview": "WebAct created a professional website presence for Meadow Hills, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Meadow Hills quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Meadow Hills a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Meadow Hills a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Golf",
+      "category": "Golf"
     },
-    "category": "Business",
+    "category": "Golf",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -8813,12 +9092,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Golf"
+    ]
   },
   {
     "name": "Meditouch",
     "slug": "meditouch",
-    "industry": "Business",
+    "industry": "Ecommerce",
     "image": "/webact-redesign/Resources/images/Meditouch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -8851,9 +9133,11 @@
       "overview": "WebAct created a professional website presence for Meditouch, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Meditouch quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Meditouch a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Meditouch a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Ecommerce",
+      "category": "Ecommerce"
     },
-    "category": "Business",
+    "category": "Ecommerce",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -8871,7 +9155,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Ecommerce"
+    ]
   },
   {
     "name": "Mehak Denver",
@@ -9108,7 +9395,7 @@
   {
     "name": "Mile High Books",
     "slug": "mile-high-books",
-    "industry": "Retail",
+    "industry": "Bookkeeping",
     "image": "/webact-redesign/Resources/images/Mile_High_Books-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -9141,9 +9428,11 @@
       "overview": "WebAct created a professional website presence for Mile High Books, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Mile High Books quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Mile High Books a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Mile High Books a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Bookkeeping",
+      "category": "Bookkeeping"
     },
-    "category": "Retail",
+    "category": "Bookkeeping",
     "type": "Retail",
     "snapshot": {
       "industry": "Retail"
@@ -9161,7 +9450,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a retail website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Bookkeeping"
+    ]
   },
   {
     "name": "Mindful Minds Psychiatry",
@@ -9224,7 +9516,7 @@
   {
     "name": "Mississippi Valley Fair",
     "slug": "mississippi-valley-fair",
-    "industry": "Nonprofit",
+    "industry": "Fair",
     "image": "/webact-redesign/Resources/images/WebactMVFair-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -9257,9 +9549,11 @@
       "overview": "WebAct created a professional website presence for Mississippi Valley Fair, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Mississippi Valley Fair quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Mississippi Valley Fair a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Mississippi Valley Fair a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Fair",
+      "category": "Fair"
     },
-    "category": "Nonprofit",
+    "category": "Fair",
     "type": "Nonprofit",
     "snapshot": {
       "industry": "Nonprofit"
@@ -9277,7 +9571,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a nonprofit website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Fair"
+    ]
   },
   {
     "name": "Miyazaki Dental",
@@ -9340,7 +9637,7 @@
   {
     "name": "Molly Mulligan",
     "slug": "molly-mulligan",
-    "industry": "Business",
+    "industry": "Professional Services",
     "image": "/webact-redesign/Resources/images/Molly-Mulligan-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -9373,9 +9670,11 @@
       "overview": "WebAct created a professional website presence for Molly Mulligan, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Molly Mulligan quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Molly Mulligan a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Molly Mulligan a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Professional Services",
+      "category": "Professional Services"
     },
-    "category": "Business",
+    "category": "Professional Services",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -9393,7 +9692,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Professional Services"
+    ]
   },
   {
     "name": "Mountain Peak Law Group LLC",
@@ -9514,7 +9816,7 @@
   {
     "name": "Mrad",
     "slug": "mrad",
-    "industry": "Business",
+    "industry": "Health Care",
     "image": "/webact-redesign/Resources/images/WebactMrad-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -9547,9 +9849,11 @@
       "overview": "WebAct created a professional website presence for Mrad, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Mrad quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Mrad a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Mrad a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Health Care",
+      "category": "Health Care"
     },
-    "category": "Business",
+    "category": "Health Care",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -9567,7 +9871,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Health Care"
+    ]
   },
   {
     "name": "Murrieta Driving School",
@@ -9663,7 +9970,9 @@
       "overview": "WebAct created a professional website presence for Net 2 Phone, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Net 2 Phone quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Net 2 Phone a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Net 2 Phone a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Technology",
+      "category": "Technology"
     },
     "category": "Technology",
     "type": "Technology",
@@ -9683,12 +9992,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a technology website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Technology"
+    ]
   },
   {
     "name": "New Era Dental",
     "slug": "new-era-dental",
-    "industry": "Dental",
+    "industry": "Dentist",
     "image": "/webact-redesign/Resources/images/new-era-dental.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -9721,9 +10033,11 @@
       "overview": "WebAct created a professional website presence for New Era Dental, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of New Era Dental quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives New Era Dental a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives New Era Dental a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Dentist",
+      "category": "Dentist"
     },
-    "category": "Dental",
+    "category": "Dentist",
     "type": "Dental",
     "snapshot": {
       "industry": "Dental"
@@ -9741,7 +10055,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a dental website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Dentist"
+    ]
   },
   {
     "name": "Niagra Designs",
@@ -10210,7 +10528,7 @@
   {
     "name": "Palm Bay Power Equipment",
     "slug": "palm-bay-power-equipment",
-    "industry": "Energy",
+    "industry": "Ecommerce",
     "image": "/webact-redesign/Resources/images/palm bay power-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -10243,9 +10561,11 @@
       "overview": "WebAct created a professional website presence for Palm Bay Power Equipment, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Palm Bay Power Equipment quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Palm Bay Power Equipment a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Palm Bay Power Equipment a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Ecommerce",
+      "category": "Ecommerce"
     },
-    "category": "Energy",
+    "category": "Ecommerce",
     "type": "Energy",
     "snapshot": {
       "industry": "Energy"
@@ -10263,12 +10583,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a energy website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Ecommerce"
+    ]
   },
   {
     "name": "Pantera Homes",
     "slug": "pantera-homes",
-    "industry": "Home Services",
+    "industry": "Construction",
     "image": "/webact-redesign/Resources/images/panteraHomes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -10301,9 +10624,11 @@
       "overview": "WebAct created a professional website presence for Pantera Homes, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Pantera Homes quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Pantera Homes a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Pantera Homes a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Construction",
+      "category": "Construction"
     },
-    "category": "Home Services",
+    "category": "Construction",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -10321,7 +10646,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Construction"
+    ]
   },
   {
     "name": "Parking Payment, Validation & Reservations",
@@ -10674,7 +11002,7 @@
   {
     "name": "Perthes",
     "slug": "perthes",
-    "industry": "Business",
+    "industry": "Non Profit",
     "image": "/webact-redesign/Resources/images/WebactPerthes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -10707,9 +11035,11 @@
       "overview": "WebAct created a professional website presence for Perthes, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Perthes quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Perthes a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Perthes a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Non Profit",
+      "category": "Non Profit"
     },
-    "category": "Business",
+    "category": "Non Profit",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -10727,7 +11057,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Non Profit"
+    ]
   },
   {
     "name": "Pest Magic",
@@ -10848,7 +11181,7 @@
   {
     "name": "Photophobic Society of America",
     "slug": "photophobic-society-of-america",
-    "industry": "Business",
+    "industry": "Non Profit",
     "image": "/webact-redesign/Resources/images/photophobicSocietyOfAmerica-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -10881,9 +11214,11 @@
       "overview": "WebAct created a professional website presence for Photophobic Society of America, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Photophobic Society of America quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Photophobic Society of America a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Photophobic Society of America a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Non Profit",
+      "category": "Non Profit"
     },
-    "category": "Business",
+    "category": "Non Profit",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -10901,7 +11236,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Non Profit"
+    ]
   },
   {
     "name": "Platinum Registration",
@@ -10964,7 +11302,7 @@
   {
     "name": "Pompano Glass",
     "slug": "pompano-glass",
-    "industry": "Home Services",
+    "industry": "Glass Repair",
     "image": "/webact-redesign/Resources/images/pompanoGlass-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -10997,9 +11335,11 @@
       "overview": "WebAct created a professional website presence for Pompano Glass, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Pompano Glass quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Pompano Glass a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Pompano Glass a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Glass Repair",
+      "category": "Glass Repair"
     },
-    "category": "Home Services",
+    "category": "Glass Repair",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -11017,7 +11357,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Glass Repair"
+    ]
   },
   {
     "name": "Pork Chop's Truck and Auto",
@@ -11254,7 +11597,7 @@
   {
     "name": "Redline Construction",
     "slug": "redline-construction",
-    "industry": "Home Services",
+    "industry": "Construction",
     "image": "/webact-redesign/Resources/images/WebactRedlineConstruction-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -11287,9 +11630,11 @@
       "overview": "WebAct created a professional website presence for Redline Construction, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Redline Construction quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Redline Construction a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Redline Construction a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Construction",
+      "category": "Construction"
     },
-    "category": "Home Services",
+    "category": "Construction",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -11307,7 +11652,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Construction"
+    ]
   },
   {
     "name": "Roof Ready",
@@ -11544,7 +11892,7 @@
   {
     "name": "Salinas Valley Fair",
     "slug": "salinas-valley-fair",
-    "industry": "Nonprofit",
+    "industry": "Fair",
     "image": "/webact-redesign/Resources/images/WebactSalinasCalley-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -11577,9 +11925,11 @@
       "overview": "WebAct created a professional website presence for Salinas Valley Fair, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Salinas Valley Fair quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Salinas Valley Fair a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Salinas Valley Fair a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Fair",
+      "category": "Fair"
     },
-    "category": "Nonprofit",
+    "category": "Fair",
     "type": "Nonprofit",
     "snapshot": {
       "industry": "Nonprofit"
@@ -11597,7 +11947,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a nonprofit website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Fair"
+    ]
   },
   {
     "name": "Signal Driving & Traffic Schools",
@@ -11693,7 +12046,9 @@
       "overview": "WebAct created a professional website presence for Simply Cupcakes Pasadena, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Simply Cupcakes Pasadena quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Simply Cupcakes Pasadena a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Simply Cupcakes Pasadena a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Restaurant",
+      "category": "Restaurant"
     },
     "category": "Restaurant",
     "type": "Restaurant",
@@ -11713,12 +12068,16 @@
         "text": "Showcase your services, story, proof, and conversion paths with a restaurant website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Restaurant"
+    ]
   },
   {
     "name": "Six Corners",
     "slug": "six-corners",
-    "industry": "Business",
+    "industry": "Health Care",
     "image": "/webact-redesign/Resources/images/WebactSixCorners-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -11751,9 +12110,11 @@
       "overview": "WebAct created a professional website presence for Six Corners, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Six Corners quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Six Corners a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Six Corners a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Health Care",
+      "category": "Health Care"
     },
-    "category": "Business",
+    "category": "Health Care",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -11771,12 +12132,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Health Care"
+    ]
   },
   {
     "name": "Skin Care Essentials",
     "slug": "skin-care-essentials",
-    "industry": "Healthcare",
+    "industry": "Professional Services",
     "image": "/webact-redesign/Resources/images/SkinCare-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -11809,9 +12173,11 @@
       "overview": "WebAct created a professional website presence for Skin Care Essentials, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Skin Care Essentials quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Skin Care Essentials a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Skin Care Essentials a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Professional Services",
+      "category": "Professional Services"
     },
-    "category": "Healthcare",
+    "category": "Professional Services",
     "type": "Healthcare",
     "snapshot": {
       "industry": "Healthcare"
@@ -11829,7 +12195,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a healthcare website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Professional Services"
+    ]
   },
   {
     "name": "Smart Cell Phone Parts",
@@ -11983,7 +12352,9 @@
       "overview": "WebAct created a professional website presence for Sniper Security, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Sniper Security quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Sniper Security a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Sniper Security a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Security",
+      "category": "Security"
     },
     "category": "Security",
     "type": "Security",
@@ -12003,12 +12374,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a security website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Security"
+    ]
   },
   {
     "name": "Southhall Investments",
     "slug": "southhall-investments",
-    "industry": "Business",
+    "industry": "Investors",
     "image": "/webact-redesign/Resources/images/WebactSouthhallInvestments-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -12041,9 +12415,11 @@
       "overview": "WebAct created a professional website presence for Southhall Investments, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Southhall Investments quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Southhall Investments a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Southhall Investments a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Investors",
+      "category": "Investors"
     },
-    "category": "Business",
+    "category": "Investors",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -12061,7 +12437,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Investors"
+    ]
   },
   {
     "name": "Speak Clear Communications",
@@ -12298,7 +12677,7 @@
   {
     "name": "Stephanie Ascari",
     "slug": "stephanie-ascari",
-    "industry": "Automotive",
+    "industry": "Photography",
     "image": "/webact-redesign/Resources/images/Stephanie-Ascari-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -12331,9 +12710,11 @@
       "overview": "WebAct created a professional website presence for Stephanie Ascari, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Stephanie Ascari quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Stephanie Ascari a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Stephanie Ascari a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Photography",
+      "category": "Photography"
     },
-    "category": "Automotive",
+    "category": "Photography",
     "type": "Automotive",
     "snapshot": {
       "industry": "Automotive"
@@ -12351,7 +12732,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a automotive website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Photography"
+    ]
   },
   {
     "name": "Style Savy Designs",
@@ -12414,7 +12799,7 @@
   {
     "name": "Sukoon",
     "slug": "sukoon",
-    "industry": "Business",
+    "industry": "Restaurant",
     "image": "/webact-redesign/Resources/images/Sukoon-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -12447,9 +12832,11 @@
       "overview": "WebAct created a professional website presence for Sukoon, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Sukoon quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Sukoon a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Sukoon a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Restaurant",
+      "category": "Restaurant"
     },
-    "category": "Business",
+    "category": "Restaurant",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -12467,7 +12854,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Restaurant"
+    ]
   },
   {
     "name": "Summit Graphics",
@@ -12588,7 +12979,7 @@
   {
     "name": "Superior Showers",
     "slug": "superior-showers",
-    "industry": "Home Services",
+    "industry": "Glass Repair",
     "image": "/webact-redesign/Resources/images/superior showers-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -12621,9 +13012,11 @@
       "overview": "WebAct created a professional website presence for Superior Showers, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Superior Showers quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Superior Showers a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Superior Showers a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Glass Repair",
+      "category": "Glass Repair"
     },
-    "category": "Home Services",
+    "category": "Glass Repair",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -12641,7 +13034,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Glass Repair"
+    ]
   },
   {
     "name": "Sushi & Co",
@@ -12911,7 +13307,9 @@
       "overview": "WebAct created a professional website presence for The Chambers Of Tucson Mall, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of The Chambers Of Tucson Mall quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives The Chambers Of Tucson Mall a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives The Chambers Of Tucson Mall a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Retail",
+      "category": "Retail"
     },
     "category": "Retail",
     "type": "Retail",
@@ -12931,12 +13329,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a retail website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Retail"
+    ]
   },
   {
     "name": "The Executive Center",
     "slug": "the-executive-center",
-    "industry": "Professional Services",
+    "industry": "Real Estate",
     "image": "/webact-redesign/Resources/images/TheExecutiveCenter-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -12969,9 +13370,11 @@
       "overview": "WebAct created a professional website presence for The Executive Center, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of The Executive Center quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives The Executive Center a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives The Executive Center a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Real Estate",
+      "category": "Real Estate"
     },
-    "category": "Professional Services",
+    "category": "Real Estate",
     "type": "Professional Services",
     "snapshot": {
       "industry": "Professional Services"
@@ -12989,12 +13392,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a professional services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Real Estate"
+    ]
   },
   {
     "name": "The Point",
     "slug": "the-point",
-    "industry": "Business",
+    "industry": "Construction",
     "image": "/webact-redesign/Resources/images/WebactThePoint-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -13027,9 +13433,11 @@
       "overview": "WebAct created a professional website presence for The Point, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of The Point quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives The Point a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives The Point a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Construction",
+      "category": "Construction"
     },
-    "category": "Business",
+    "category": "Construction",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -13047,12 +13455,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Construction"
+    ]
   },
   {
     "name": "The Smilist",
     "slug": "the-smilist",
-    "industry": "Business",
+    "industry": "Dentist",
     "image": "/webact-redesign/Resources/images/WebactSmilist-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -13085,9 +13496,11 @@
       "overview": "WebAct created a professional website presence for The Smilist, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of The Smilist quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives The Smilist a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives The Smilist a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Dentist",
+      "category": "Dentist"
     },
-    "category": "Business",
+    "category": "Dentist",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -13105,7 +13518,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Dentist"
+    ]
   },
   {
     "name": "Thompson Water Media",
@@ -13168,7 +13585,7 @@
   {
     "name": "Tipping Hat",
     "slug": "tipping-hat",
-    "industry": "Business",
+    "industry": "Plumbing",
     "image": "/webact-redesign/Resources/images/tipping hat-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -13201,9 +13618,11 @@
       "overview": "WebAct created a professional website presence for Tipping Hat, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Tipping Hat quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Tipping Hat a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Tipping Hat a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Plumbing",
+      "category": "Plumbing"
     },
-    "category": "Business",
+    "category": "Plumbing",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -13221,7 +13640,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Plumbing"
+    ]
   },
   {
     "name": "Total Wellness Group",
@@ -13342,7 +13764,7 @@
   {
     "name": "Trevey",
     "slug": "trevey",
-    "industry": "Business",
+    "industry": "Real Estate",
     "image": "/webact-redesign/Resources/images/trevey-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -13375,9 +13797,11 @@
       "overview": "WebAct created a professional website presence for Trevey, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Trevey quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Trevey a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Trevey a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Real Estate",
+      "category": "Real Estate"
     },
-    "category": "Business",
+    "category": "Real Estate",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -13395,12 +13819,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Real Estate"
+    ]
   },
   {
     "name": "Tropical Remodel Solutions",
     "slug": "tropical-remodel-solutions",
-    "industry": "Home Services",
+    "industry": "Construction",
     "image": "/webact-redesign/Resources/images/Tropical_Remodel_Solutions-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -13433,9 +13860,11 @@
       "overview": "WebAct created a professional website presence for Tropical Remodel Solutions, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Tropical Remodel Solutions quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Tropical Remodel Solutions a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Tropical Remodel Solutions a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Construction",
+      "category": "Construction"
     },
-    "category": "Home Services",
+    "category": "Construction",
     "type": "Home Services",
     "snapshot": {
       "industry": "Home Services"
@@ -13453,7 +13882,11 @@
         "text": "Showcase your services, story, proof, and conversion paths with a home services website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "featured": true,
+    "tags": [
+      "Construction"
+    ]
   },
   {
     "name": "Turf Magic",
@@ -13922,7 +14355,7 @@
   {
     "name": "Winston C Throgmorton",
     "slug": "winston-c-throgmorton",
-    "industry": "Business",
+    "industry": "Legal",
     "image": "/webact-redesign/Resources/images/WebactWinstonCThrogmorton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -13955,9 +14388,11 @@
       "overview": "WebAct created a professional website presence for Winston C Throgmorton, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Winston C Throgmorton quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Winston C Throgmorton a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Winston C Throgmorton a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Legal",
+      "category": "Legal"
     },
-    "category": "Business",
+    "category": "Legal",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -13975,7 +14410,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Legal"
+    ]
   },
   {
     "name": "Your College Planning Coach",
@@ -14038,7 +14476,7 @@
   {
     "name": "Yuma Airshow",
     "slug": "yuma-airshow",
-    "industry": "Business",
+    "industry": "Fair",
     "image": "/webact-redesign/Resources/images/WebactYumaAirshow-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -14071,9 +14509,11 @@
       "overview": "WebAct created a professional website presence for Yuma Airshow, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Yuma Airshow quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Yuma Airshow a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Yuma Airshow a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Fair",
+      "category": "Fair"
     },
-    "category": "Business",
+    "category": "Fair",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -14091,12 +14531,15 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Fair"
+    ]
   },
   {
     "name": "Z-XG",
     "slug": "z-xg",
-    "industry": "Business",
+    "industry": "Ecommerce",
     "image": "/webact-redesign/Resources/images/Z-XG-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -14129,9 +14572,11 @@
       "overview": "WebAct created a professional website presence for Z-XG, helping the business present its services clearly and build trust with visitors.",
       "challenge": "The project needed to communicate the value of Z-XG quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Z-XG a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Z-XG a stronger online presence and a more polished way to showcase services to potential customers.",
+      "industry": "Ecommerce",
+      "category": "Ecommerce"
     },
-    "category": "Business",
+    "category": "Ecommerce",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -14149,7 +14594,10 @@
         "text": "Showcase your services, story, proof, and conversion paths with a business website built for customers.",
         "button": "Start a Similar Project"
       }
-    }
+    },
+    "tags": [
+      "Ecommerce"
+    ]
   },
   {
     "name": "Zaika Broomfield",
@@ -14500,4 +14948,3 @@
     }
   }
 ];
-
