@@ -75,6 +75,30 @@ body{margin:0}
   .kb-page .kb-proof span{width:100%;text-align:center}
 }
 </style>
+
+<style id="kb-scroll-fix">
+  html,
+  body{
+    height:auto !important;
+    min-height:100% !important;
+    overflow-x:hidden !important;
+    overflow-y:auto !important;
+  }
+
+  body.kb-page,
+  .kb-page,
+  .kb-page main{
+    height:auto !important;
+    min-height:100vh !important;
+    overflow:visible !important;
+  }
+
+  .kb-category-block,
+  .kb-directory-section,
+  .kb-section-grid{
+    overflow:visible !important;
+  }
+</style>
 </head>
   <body class="kb-page">
 <div id="webact-header"></div>
