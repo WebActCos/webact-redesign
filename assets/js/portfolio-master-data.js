@@ -60,6 +60,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Ecommerce"
+    ],
+    "categories": [
+      "Ecommerce"
+    ],
+    "filterTags": [
+      "Ecommerce"
+    ],
+    "industries": [
+      "Ecommerce"
     ]
   },
   {
@@ -935,6 +944,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Transportation"
+    ],
+    "categories": [
+      "Transportation"
+    ],
+    "filterTags": [
+      "Transportation"
+    ],
+    "industries": [
+      "Transportation"
     ]
   },
   {
@@ -1055,6 +1073,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Investors"
+    ],
+    "categories": [
+      "Investors"
+    ],
+    "filterTags": [
+      "Investors"
+    ],
+    "industries": [
       "Investors"
     ]
   },
@@ -1177,6 +1204,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Artist"
+    ],
+    "categories": [
+      "Artist"
+    ],
+    "filterTags": [
+      "Artist"
+    ],
+    "industries": [
+      "Artist"
     ]
   },
   {
@@ -1298,6 +1334,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Wedding"
+    ],
+    "categories": [
+      "Wedding"
+    ],
+    "filterTags": [
+      "Wedding"
+    ],
+    "industries": [
+      "Wedding"
     ]
   },
   {
@@ -1418,6 +1463,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Non Profit"
+    ],
+    "categories": [
+      "Non Profit"
+    ],
+    "filterTags": [
+      "Non Profit"
+    ],
+    "industries": [
       "Non Profit"
     ]
   },
@@ -1947,6 +2001,15 @@ window.webactPortfolioMasterData = [
     "featured": true,
     "tags": [
       "Dentist"
+    ],
+    "categories": [
+      "Dentist"
+    ],
+    "filterTags": [
+      "Dentist"
+    ],
+    "industries": [
+      "Dentist"
     ]
   },
   {
@@ -2301,6 +2364,15 @@ window.webactPortfolioMasterData = [
     "featured": true,
     "tags": [
       "Retail"
+    ],
+    "categories": [
+      "Retail"
+    ],
+    "filterTags": [
+      "Retail"
+    ],
+    "industries": [
+      "Retail"
     ]
   },
   {
@@ -2421,6 +2493,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Travel"
+    ],
+    "categories": [
+      "Travel"
+    ],
+    "filterTags": [
+      "Travel"
+    ],
+    "industries": [
       "Travel"
     ]
   },
@@ -2543,6 +2624,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Non Profit"
+    ],
+    "categories": [
+      "Non Profit"
+    ],
+    "filterTags": [
+      "Non Profit"
+    ],
+    "industries": [
+      "Non Profit"
     ]
   },
   {
@@ -2605,6 +2695,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Ecommerce"
+    ],
+    "categories": [
+      "Ecommerce"
+    ],
+    "filterTags": [
+      "Ecommerce"
+    ],
+    "industries": [
       "Ecommerce"
     ]
   },
@@ -2670,6 +2769,15 @@ window.webactPortfolioMasterData = [
     "featured": true,
     "tags": [
       "Plumbing"
+    ],
+    "categories": [
+      "Plumbing"
+    ],
+    "filterTags": [
+      "Plumbing"
+    ],
+    "industries": [
+      "Plumbing"
     ]
   },
   {
@@ -2733,6 +2841,15 @@ window.webactPortfolioMasterData = [
     },
     "featured": true,
     "tags": [
+      "Automotive"
+    ],
+    "categories": [
+      "Automotive"
+    ],
+    "filterTags": [
+      "Automotive"
+    ],
+    "industries": [
       "Automotive"
     ]
   },
@@ -2856,6 +2973,15 @@ window.webactPortfolioMasterData = [
     "featured": true,
     "tags": [
       "Tattoo Shop"
+    ],
+    "categories": [
+      "Tattoo Shop"
+    ],
+    "filterTags": [
+      "Tattoo Shop"
+    ],
+    "industries": [
+      "Tattoo Shop"
     ]
   },
   {
@@ -2918,6 +3044,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Phone Repair"
+    ],
+    "categories": [
+      "Phone Repair"
+    ],
+    "filterTags": [
+      "Phone Repair"
+    ],
+    "industries": [
       "Phone Repair"
     ]
   },
@@ -3156,6 +3291,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Interior Design"
+    ],
+    "categories": [
+      "Interior Design"
+    ],
+    "filterTags": [
+      "Interior Design"
+    ],
+    "industries": [
+      "Interior Design"
     ]
   },
   {
@@ -3334,6 +3478,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Professional Services"
+    ],
+    "categories": [
+      "Professional Services"
+    ],
+    "filterTags": [
+      "Professional Services"
+    ],
+    "industries": [
       "Professional Services"
     ]
   },
@@ -3630,6 +3783,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Glass Repair"
+    ],
+    "categories": [
+      "Glass Repair"
+    ],
+    "filterTags": [
+      "Glass Repair"
+    ],
+    "industries": [
+      "Glass Repair"
     ]
   },
   {
@@ -3692,6 +3854,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Construction"
+    ],
+    "categories": [
+      "Construction"
+    ],
+    "filterTags": [
+      "Construction"
+    ],
+    "industries": [
       "Construction"
     ]
   },
@@ -3756,6 +3927,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Non Profit"
+    ],
+    "categories": [
+      "Non Profit"
+    ],
+    "filterTags": [
+      "Non Profit"
+    ],
+    "industries": [
+      "Non Profit"
     ]
   },
   {
@@ -3818,6 +3998,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Travel"
+    ],
+    "categories": [
+      "Travel"
+    ],
+    "filterTags": [
+      "Travel"
+    ],
+    "industries": [
       "Travel"
     ]
   },
@@ -4114,6 +4303,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Community"
+    ],
+    "categories": [
+      "Community"
+    ],
+    "filterTags": [
+      "Community"
+    ],
+    "industries": [
+      "Community"
     ]
   },
   {
@@ -4351,6 +4549,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Fair"
+    ],
+    "categories": [
+      "Fair"
+    ],
+    "filterTags": [
+      "Fair"
+    ],
+    "industries": [
+      "Fair"
     ]
   },
   {
@@ -4414,6 +4621,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Energy"
+    ],
+    "categories": [
+      "Energy"
+    ],
+    "filterTags": [
+      "Energy"
+    ],
+    "industries": [
+      "Energy"
     ]
   },
   {
@@ -4476,6 +4692,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Construction"
+    ],
+    "categories": [
+      "Construction"
+    ],
+    "filterTags": [
+      "Construction"
+    ],
+    "industries": [
       "Construction"
     ]
   },
@@ -4598,6 +4823,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Pet Services"
+    ],
+    "categories": [
+      "Pet Services"
+    ],
+    "filterTags": [
+      "Pet Services"
+    ],
+    "industries": [
+      "Pet Services"
     ]
   },
   {
@@ -4660,6 +4894,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Energy"
+    ],
+    "categories": [
+      "Energy"
+    ],
+    "filterTags": [
+      "Energy"
+    ],
+    "industries": [
       "Energy"
     ]
   },
@@ -4840,6 +5083,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Investigation"
+    ],
+    "categories": [
+      "Investigation"
+    ],
+    "filterTags": [
+      "Investigation"
+    ],
+    "industries": [
+      "Investigation"
     ]
   },
   {
@@ -4902,6 +5154,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Fair"
+    ],
+    "categories": [
+      "Fair"
+    ],
+    "filterTags": [
+      "Fair"
+    ],
+    "industries": [
       "Fair"
     ]
   },
@@ -5256,6 +5517,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Technology"
+    ],
+    "categories": [
+      "Technology"
+    ],
+    "filterTags": [
+      "Technology"
+    ],
+    "industries": [
+      "Technology"
     ]
   },
   {
@@ -5435,6 +5705,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Ecommerce"
+    ],
+    "categories": [
+      "Ecommerce"
+    ],
+    "filterTags": [
+      "Ecommerce"
+    ],
+    "industries": [
+      "Ecommerce"
     ]
   },
   {
@@ -5556,6 +5835,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Artist"
+    ],
+    "categories": [
+      "Artist"
+    ],
+    "filterTags": [
+      "Artist"
+    ],
+    "industries": [
+      "Artist"
     ]
   },
   {
@@ -5618,6 +5906,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Artist"
+    ],
+    "categories": [
+      "Artist"
+    ],
+    "filterTags": [
+      "Artist"
+    ],
+    "industries": [
       "Artist"
     ]
   },
@@ -5739,6 +6036,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Fitness"
+    ],
+    "categories": [
+      "Fitness"
+    ],
+    "filterTags": [
+      "Fitness"
+    ],
+    "industries": [
       "Fitness"
     ]
   },
@@ -6209,6 +6515,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Fitness"
+    ],
+    "categories": [
+      "Fitness"
+    ],
+    "filterTags": [
+      "Fitness"
+    ],
+    "industries": [
+      "Fitness"
     ]
   },
   {
@@ -6446,6 +6761,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Professional Services"
+    ],
+    "categories": [
+      "Professional Services"
+    ],
+    "filterTags": [
+      "Professional Services"
+    ],
+    "industries": [
+      "Professional Services"
     ]
   },
   {
@@ -6509,6 +6833,15 @@ window.webactPortfolioMasterData = [
     },
     "featured": true,
     "tags": [
+      "Real Estate"
+    ],
+    "categories": [
+      "Real Estate"
+    ],
+    "filterTags": [
+      "Real Estate"
+    ],
+    "industries": [
       "Real Estate"
     ]
   },
@@ -6747,6 +7080,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Ecommerce"
+    ],
+    "categories": [
+      "Ecommerce"
+    ],
+    "filterTags": [
+      "Ecommerce"
+    ],
+    "industries": [
+      "Ecommerce"
     ]
   },
   {
@@ -6867,6 +7209,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Investigation"
+    ],
+    "categories": [
+      "Investigation"
+    ],
+    "filterTags": [
+      "Investigation"
+    ],
+    "industries": [
       "Investigation"
     ]
   },
@@ -6989,6 +7340,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Retail"
+    ],
+    "categories": [
+      "Retail"
+    ],
+    "filterTags": [
+      "Retail"
+    ],
+    "industries": [
+      "Retail"
     ]
   },
   {
@@ -7051,6 +7411,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Home Inspection"
+    ],
+    "categories": [
+      "Home Inspection"
+    ],
+    "filterTags": [
+      "Home Inspection"
+    ],
+    "industries": [
       "Home Inspection"
     ]
   },
@@ -7173,6 +7542,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Design"
+    ],
+    "categories": [
+      "Design"
+    ],
+    "filterTags": [
+      "Design"
+    ],
+    "industries": [
+      "Design"
     ]
   },
   {
@@ -7293,6 +7671,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Fair"
+    ],
+    "categories": [
+      "Fair"
+    ],
+    "filterTags": [
+      "Fair"
+    ],
+    "industries": [
       "Fair"
     ]
   },
@@ -7647,6 +8034,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Home Inspection"
+    ],
+    "categories": [
+      "Home Inspection"
+    ],
+    "filterTags": [
+      "Home Inspection"
+    ],
+    "industries": [
+      "Home Inspection"
     ]
   },
   {
@@ -7709,6 +8105,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Technology"
+    ],
+    "categories": [
+      "Technology"
+    ],
+    "filterTags": [
+      "Technology"
+    ],
+    "industries": [
       "Technology"
     ]
   },
@@ -7831,6 +8236,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Investors"
+    ],
+    "categories": [
+      "Investors"
+    ],
+    "filterTags": [
+      "Investors"
+    ],
+    "industries": [
+      "Investors"
     ]
   },
   {
@@ -7895,6 +8309,15 @@ window.webactPortfolioMasterData = [
     "featured": true,
     "tags": [
       "Retail"
+    ],
+    "categories": [
+      "Retail"
+    ],
+    "filterTags": [
+      "Retail"
+    ],
+    "industries": [
+      "Retail"
     ]
   },
   {
@@ -7957,6 +8380,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Glass Repair"
+    ],
+    "categories": [
+      "Glass Repair"
+    ],
+    "filterTags": [
+      "Glass Repair"
+    ],
+    "industries": [
       "Glass Repair"
     ]
   },
@@ -8021,6 +8453,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Portfolio"
+    ],
+    "categories": [
+      "Portfolio"
+    ],
+    "filterTags": [
+      "Portfolio"
+    ],
+    "industries": [
+      "Portfolio"
     ]
   },
   {
@@ -8083,6 +8524,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Construction"
+    ],
+    "categories": [
+      "Construction"
+    ],
+    "filterTags": [
+      "Construction"
+    ],
+    "industries": [
       "Construction"
     ]
   },
@@ -8727,6 +9177,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Travel"
+    ],
+    "categories": [
+      "Travel"
+    ],
+    "filterTags": [
+      "Travel"
+    ],
+    "industries": [
+      "Travel"
     ]
   },
   {
@@ -8906,6 +9365,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Professional Services"
+    ],
+    "categories": [
+      "Professional Services"
+    ],
+    "filterTags": [
+      "Professional Services"
+    ],
+    "industries": [
+      "Professional Services"
     ]
   },
   {
@@ -8968,6 +9436,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Roofing"
+    ],
+    "categories": [
+      "Roofing"
+    ],
+    "filterTags": [
+      "Roofing"
+    ],
+    "industries": [
       "Roofing"
     ]
   },
@@ -9032,6 +9509,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Transportation"
+    ],
+    "categories": [
+      "Transportation"
+    ],
+    "filterTags": [
+      "Transportation"
+    ],
+    "industries": [
+      "Transportation"
     ]
   },
   {
@@ -9095,6 +9581,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Golf"
+    ],
+    "categories": [
+      "Golf"
+    ],
+    "filterTags": [
+      "Golf"
+    ],
+    "industries": [
+      "Golf"
     ]
   },
   {
@@ -9157,6 +9652,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Ecommerce"
+    ],
+    "categories": [
+      "Ecommerce"
+    ],
+    "filterTags": [
+      "Ecommerce"
+    ],
+    "industries": [
       "Ecommerce"
     ]
   },
@@ -9453,6 +9957,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Bookkeeping"
+    ],
+    "categories": [
+      "Bookkeeping"
+    ],
+    "filterTags": [
+      "Bookkeeping"
+    ],
+    "industries": [
+      "Bookkeeping"
     ]
   },
   {
@@ -9574,6 +10087,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Fair"
+    ],
+    "categories": [
+      "Fair"
+    ],
+    "filterTags": [
+      "Fair"
+    ],
+    "industries": [
+      "Fair"
     ]
   },
   {
@@ -9694,6 +10216,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Professional Services"
+    ],
+    "categories": [
+      "Professional Services"
+    ],
+    "filterTags": [
+      "Professional Services"
+    ],
+    "industries": [
       "Professional Services"
     ]
   },
@@ -9874,6 +10405,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Health Care"
+    ],
+    "categories": [
+      "Health Care"
+    ],
+    "filterTags": [
+      "Health Care"
+    ],
+    "industries": [
+      "Health Care"
     ]
   },
   {
@@ -9995,6 +10535,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Technology"
+    ],
+    "categories": [
+      "Technology"
+    ],
+    "filterTags": [
+      "Technology"
+    ],
+    "industries": [
+      "Technology"
     ]
   },
   {
@@ -10058,6 +10607,15 @@ window.webactPortfolioMasterData = [
     },
     "featured": true,
     "tags": [
+      "Dentist"
+    ],
+    "categories": [
+      "Dentist"
+    ],
+    "filterTags": [
+      "Dentist"
+    ],
+    "industries": [
       "Dentist"
     ]
   },
@@ -10586,6 +11144,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Ecommerce"
+    ],
+    "categories": [
+      "Ecommerce"
+    ],
+    "filterTags": [
+      "Ecommerce"
+    ],
+    "industries": [
+      "Ecommerce"
     ]
   },
   {
@@ -10648,6 +11215,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Construction"
+    ],
+    "categories": [
+      "Construction"
+    ],
+    "filterTags": [
+      "Construction"
+    ],
+    "industries": [
       "Construction"
     ]
   },
@@ -11060,6 +11636,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Non Profit"
+    ],
+    "categories": [
+      "Non Profit"
+    ],
+    "filterTags": [
+      "Non Profit"
+    ],
+    "industries": [
+      "Non Profit"
     ]
   },
   {
@@ -11239,6 +11824,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Non Profit"
+    ],
+    "categories": [
+      "Non Profit"
+    ],
+    "filterTags": [
+      "Non Profit"
+    ],
+    "industries": [
+      "Non Profit"
     ]
   },
   {
@@ -11359,6 +11953,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Glass Repair"
+    ],
+    "categories": [
+      "Glass Repair"
+    ],
+    "filterTags": [
+      "Glass Repair"
+    ],
+    "industries": [
       "Glass Repair"
     ]
   },
@@ -11655,6 +12258,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Construction"
+    ],
+    "categories": [
+      "Construction"
+    ],
+    "filterTags": [
+      "Construction"
+    ],
+    "industries": [
+      "Construction"
     ]
   },
   {
@@ -11950,6 +12562,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Fair"
+    ],
+    "categories": [
+      "Fair"
+    ],
+    "filterTags": [
+      "Fair"
+    ],
+    "industries": [
+      "Fair"
     ]
   },
   {
@@ -12072,6 +12693,15 @@ window.webactPortfolioMasterData = [
     "featured": true,
     "tags": [
       "Restaurant"
+    ],
+    "categories": [
+      "Restaurant"
+    ],
+    "filterTags": [
+      "Restaurant"
+    ],
+    "industries": [
+      "Restaurant"
     ]
   },
   {
@@ -12135,6 +12765,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Health Care"
+    ],
+    "categories": [
+      "Health Care"
+    ],
+    "filterTags": [
+      "Health Care"
+    ],
+    "industries": [
+      "Health Care"
     ]
   },
   {
@@ -12197,6 +12836,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Professional Services"
+    ],
+    "categories": [
+      "Professional Services"
+    ],
+    "filterTags": [
+      "Professional Services"
+    ],
+    "industries": [
       "Professional Services"
     ]
   },
@@ -12377,6 +13025,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "filterTags": [
+      "Security"
+    ],
+    "industries": [
+      "Security"
     ]
   },
   {
@@ -12439,6 +13096,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Investors"
+    ],
+    "categories": [
+      "Investors"
+    ],
+    "filterTags": [
+      "Investors"
+    ],
+    "industries": [
       "Investors"
     ]
   },
@@ -12736,6 +13402,15 @@ window.webactPortfolioMasterData = [
     "featured": true,
     "tags": [
       "Photography"
+    ],
+    "categories": [
+      "Photography"
+    ],
+    "filterTags": [
+      "Photography"
+    ],
+    "industries": [
+      "Photography"
     ]
   },
   {
@@ -12857,6 +13532,15 @@ window.webactPortfolioMasterData = [
     },
     "featured": true,
     "tags": [
+      "Restaurant"
+    ],
+    "categories": [
+      "Restaurant"
+    ],
+    "filterTags": [
+      "Restaurant"
+    ],
+    "industries": [
       "Restaurant"
     ]
   },
@@ -13036,6 +13720,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Glass Repair"
+    ],
+    "categories": [
+      "Glass Repair"
+    ],
+    "filterTags": [
+      "Glass Repair"
+    ],
+    "industries": [
       "Glass Repair"
     ]
   },
@@ -13332,6 +14025,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Retail"
+    ],
+    "categories": [
+      "Retail"
+    ],
+    "filterTags": [
+      "Retail"
+    ],
+    "industries": [
+      "Retail"
     ]
   },
   {
@@ -13394,6 +14096,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Real Estate"
+    ],
+    "categories": [
+      "Real Estate"
+    ],
+    "filterTags": [
+      "Real Estate"
+    ],
+    "industries": [
       "Real Estate"
     ]
   },
@@ -13458,6 +14169,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Construction"
+    ],
+    "categories": [
+      "Construction"
+    ],
+    "filterTags": [
+      "Construction"
+    ],
+    "industries": [
+      "Construction"
     ]
   },
   {
@@ -13521,6 +14241,15 @@ window.webactPortfolioMasterData = [
     },
     "featured": true,
     "tags": [
+      "Dentist"
+    ],
+    "categories": [
+      "Dentist"
+    ],
+    "filterTags": [
+      "Dentist"
+    ],
+    "industries": [
       "Dentist"
     ]
   },
@@ -13642,6 +14371,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Plumbing"
+    ],
+    "categories": [
+      "Plumbing"
+    ],
+    "filterTags": [
+      "Plumbing"
+    ],
+    "industries": [
       "Plumbing"
     ]
   },
@@ -13822,6 +14560,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Real Estate"
+    ],
+    "categories": [
+      "Real Estate"
+    ],
+    "filterTags": [
+      "Real Estate"
+    ],
+    "industries": [
+      "Real Estate"
     ]
   },
   {
@@ -13885,6 +14632,15 @@ window.webactPortfolioMasterData = [
     },
     "featured": true,
     "tags": [
+      "Construction"
+    ],
+    "categories": [
+      "Construction"
+    ],
+    "filterTags": [
+      "Construction"
+    ],
+    "industries": [
       "Construction"
     ]
   },
@@ -14413,6 +15169,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Legal"
+    ],
+    "categories": [
+      "Legal"
+    ],
+    "filterTags": [
+      "Legal"
+    ],
+    "industries": [
+      "Legal"
     ]
   },
   {
@@ -14534,6 +15299,15 @@ window.webactPortfolioMasterData = [
     },
     "tags": [
       "Fair"
+    ],
+    "categories": [
+      "Fair"
+    ],
+    "filterTags": [
+      "Fair"
+    ],
+    "industries": [
+      "Fair"
     ]
   },
   {
@@ -14596,6 +15370,15 @@ window.webactPortfolioMasterData = [
       }
     },
     "tags": [
+      "Ecommerce"
+    ],
+    "categories": [
+      "Ecommerce"
+    ],
+    "filterTags": [
+      "Ecommerce"
+    ],
+    "industries": [
       "Ecommerce"
     ]
   },
