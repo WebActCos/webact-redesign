@@ -224,5 +224,27 @@
 <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+<script id="portfolio-override-merge">
+(function(){
+  function getData(){
+    return window.webactPortfolioMasterData || window.portfolioData || window.webactPortfolioData || [];
+  }
+
+  const data = getData();
+  const overrides = window.webactPortfolioOverrides || {};
+
+  if (!Array.isArray(data)) return;
+
+  Object.keys(overrides).forEach(function(company){
+    const override = overrides[company];
+
+    const item = data.find(function(p){
+      return p.name === company || p.company === company || p.title === company;
+    });
+
+    if (item) Object.assign(item, override);
+  });
+})();
+</script>
 </body>
 </html>
