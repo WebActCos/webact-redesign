@@ -44,13 +44,141 @@ body.webact-search-open .webact-search-overlay{display:flex}
 
 <link rel="stylesheet" href="../../../assets/css/webact-promodo-nav.css">
 <link rel="stylesheet" href="../../../assets/css/webact-footer.css">
+<style id="blog-post-cleanup-final">
+html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+body{margin:0}
+.blog-post-page{background:#fff;color:#071421}
+.blog-post-page main{overflow:visible!important}
+.blog-post-page .post-hero,
+.blog-post-page .article-hero,
+.blog-post-page .page-hero{
+  background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421)!important;
+  color:#fff!important;
+  padding:92px min(6vw,72px)!important;
+  display:block!important;
+}
+.blog-post-page h1{
+  font-size:clamp(42px,6vw,76px)!important;
+  line-height:.98!important;
+  letter-spacing:-.05em!important;
+  max-width:1050px!important;
+}
+.blog-post-page .page-hero p,
+.blog-post-page .post-hero p,
+.blog-post-page .article-hero p{
+  color:#d9edf8!important;
+  font-size:20px!important;
+  line-height:1.6!important;
+  max-width:900px!important;
+}
+.blog-post-page .breadcrumb,
+.blog-post-page .post-date,
+.blog-post-page .blog-date,
+.blog-post-page .date,
+.blog-post-page .meta,
+.blog-post-page .post-meta,
+.blog-post-page .author,
+.blog-post-page .byline,
+.blog-post-page time{
+  display:none!important;
+}
+.blog-post-page .post-wrap,
+.blog-post-page .article-wrap,
+.blog-post-page .blog-content,
+.blog-post-page .post-content,
+.blog-post-page article{
+  max-width:980px!important;
+  margin:0 auto!important;
+  padding:72px min(6vw,72px)!important;
+}
+.blog-post-page .post-content img,
+.blog-post-page .blog-content img,
+.blog-post-page article img{
+  max-width:100%!important;
+  height:auto!important;
+  border-radius:22px!important;
+  box-shadow:0 18px 42px rgba(7,20,33,.10)!important;
+}
+.blog-post-page .post-content p,
+.blog-post-page .blog-content p,
+.blog-post-page article p,
+.blog-post-page li{
+  color:#4b5b66!important;
+  font-size:18px!important;
+  line-height:1.8!important;
+}
+.blog-post-page .post-content h2,
+.blog-post-page .blog-content h2,
+.blog-post-page article h2{
+  font-size:clamp(30px,3.5vw,46px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.035em!important;
+  color:#071421!important;
+  margin-top:46px!important;
+}
+.blog-post-page .post-content h3,
+.blog-post-page .blog-content h3,
+.blog-post-page article h3{
+  font-size:26px!important;
+  color:#071421!important;
+  margin-top:34px!important;
+}
+.blog-post-page .blog-back-cta{
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  text-align:center;
+  padding:72px min(6vw,72px);
+}
+.blog-post-page .blog-back-cta h2{
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  margin:0 0 16px;
+}
+.blog-post-page .blog-back-cta p{
+  color:#d4e8f2;
+  font-size:19px;
+  line-height:1.6;
+  max-width:760px;
+  margin:0 auto;
+}
+.blog-post-page .blog-back-cta .actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-top:28px;
+}
+.blog-post-page .button.primary{
+  background:#33abe1!important;
+  border:2px solid #33abe1!important;
+  color:#061421!important;
+}
+.blog-post-page .button.secondary{
+  background:#fff!important;
+  border:2px solid #fff!important;
+  color:#071421!important;
+}
+@media(max-width:680px){
+  .blog-post-page .post-hero,
+  .blog-post-page .article-hero,
+  .blog-post-page .page-hero,
+  .blog-post-page .post-wrap,
+  .blog-post-page .article-wrap,
+  .blog-post-page .blog-content,
+  .blog-post-page .post-content,
+  .blog-post-page article,
+  .blog-post-page .blog-back-cta{
+    padding:56px 20px!important;
+  }
+}
+</style>
 </head>
-  <body>
+  <body class="blog-post-page">
 <div id="webact-header"></div>
 <main><section class="page-hero">
   <div>
     <p class="breadcrumb"><a href="../../../index.html">Home</a> / Blog</p>
-    <p class="eyebrow">May 23, 2018 / WebAct</p>
+    <p class="eyebrow"> / WebAct</p>
     <h1>How Customer Service Touches Every Aspect of Your Business</h1>
     <p class="hero-lede">Does your business need help at the customer service level? Get the information you need by reading about how customer service touches every aspect of your business!</p>
     <div class="hero-actions">
@@ -62,14 +190,14 @@ body.webact-search-open .webact-search-overlay{display:flex}
 </section>
 <section class="section blog-article-section">
   <article class="blog-article">
-    <div class="blog-article-meta"><span>By WebAct</span><span>May 23, 2018</span></div>
+    <div class="blog-article-meta"><span>By WebAct</span><span></span></div>
     <div class="blog-post-content"><p> Many companies view customer service as another division or department within a company. But service is a business opportunity for companies, not only to market and increase sales, but to identify areas to improve their operations. Here is how your customer service affects your business operations and what you can do to improve your own customer service methods. </p><p> Communications Efforts </p><p> If a company has been notified by customers about a particular problem, they will likely consult management. In doing so, they actively pursue ways to improve the customer experience. Once they have cleared up the issue, a company may want to convey new messaging to customers. This highlights the fact that they have a highly responsive department committed to improving the service experience. When customers can see a clear communication effort they are more likely to return or have a positive impression. </p><p> Better customer service also means better communication in general. Youâ€™ll have to open more direct lines, whether online, over instant chat options, or through call centers, making your business available is a part of having good customer service. In our modern age of convenient communication practices, it's important to have chat and text options available. Text messaging is emerging as a great way to interact with customers directly, at their convenience. Having a third party manage these kinds of communication can be a great boon to businesses as it can mean after-hours service at all times. </p><p> Training and Business </p><p> The customer experience influences major aspects of training business provide their staff. If there are a lot of complaints about representatives fielding inquiries, customers will want you to know. Calls that are transferred from department to department unnecessarily may be a frustrating for customers. Receiving two conflicting accounts on what should take place when a customer performs this particular task can highlight unawareness. Companies who experience problems like these benefit from better training. Training practices can be revisited to improve the customer experience. </p><p> Collecting Feedback </p><p> Collecting feedback is an important task that is often changed and influenced by customer service. Companies may implement an outreach effort to better communicate with customers and often include a follow up communication with customers who have had problems. The end result could be retention or possibly escalating the matter. Taking steps to resolve the customer complaint is something all businesses should aspire to do when challenges are brought to light. Operations may want to develop an outreach team as an extension of the customer service department to improve the experience. </p><p> Hiring Practices </p><p> Customer service ratings are often available online. Some companies share collected feedback internally among their employees. Some of these challenges may effectuate a different approach to hiring altogether. If you are receiving low ratings and are concerned about a competitorâ€™s performance in an area, your hiring practices may reflect that. If you require more expertise in this particular area, your hiring practices may be altered to address those very challenges. These ratings may also affect hiring practices by isolating desirable attributes and skill sets that could place a business in a place of advantage. </p><p> People often think of customer service as a silo, but itâ€™s much more. A company can use the customer service extension of its business to transform practices and performance across multiple areas. Thinking of customer service in terms of how it can be leveraged as a resource for identifying areas for improvement is advantageous for businesses. </p><p> Resources: </p><p><a href="https://blog.kissmetrics.com/best-ways-to-get-feedback/" target="_blank" rel="noopener"> https://blog.kissmetrics.com/best-ways-to-get-feedback/ </a></p><p><a href="https://www.shopify.com/blog/hiring-for-customer-service" target="_blank" rel="noopener"> https://www.shopify.com/blog/hiring-for-customer-service </a></p><p><a href="https://roicallcentersolutions.com/service/overflow-afterhours-247/" target="_blank" rel="noopener"> https://roicallcentersolutions.com/service/overflow-afterhours-247/ </a></p><p><a href="https://www.webact.com/business-website-features" target="_blank" rel="noopener"> https://www.webact.com/business-website-features </a></p><p><a href="https://www.blytzpay.com/payment/" target="_blank" rel="noopener"> https://www.blytzpay.com/payment/ </a></p><p><a href="https://www.podium.com/webchat/" target="_blank" rel="noopener"> https://www.podium.com/webchat/ </a></p><p><a href="https://www.preemploymentassessments.com/" target="_blank" rel="noopener"> https://www.preemploymentassessments.com/ </a></p><h3></h3></div>
     <div class="case-study-actions"><a href="../../../about/blog.html">Back to blog</a><a href="https://www.webact.com/how-customer-service-touches-every-aspect-of-your-business25d9f3d8" target="_blank" rel="noopener">Original WebAct post</a></div>
   </article>
   <aside class="blog-sidebar">
     <p class="eyebrow">More WebAct Posts</p>
     <h2>Keep reading</h2>
-    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span>May 4, 2023</span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span>June 1, 2022</span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span>May 18, 2022</span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
+    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span></span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span></span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span></span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
   </aside>
 </section></main>
     <div id="webact-footer"></div>

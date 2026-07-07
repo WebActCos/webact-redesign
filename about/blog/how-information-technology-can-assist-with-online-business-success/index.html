@@ -44,13 +44,141 @@ body.webact-search-open .webact-search-overlay{display:flex}
 
 <link rel="stylesheet" href="../../../assets/css/webact-promodo-nav.css">
 <link rel="stylesheet" href="../../../assets/css/webact-footer.css">
+<style id="blog-post-cleanup-final">
+html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+body{margin:0}
+.blog-post-page{background:#fff;color:#071421}
+.blog-post-page main{overflow:visible!important}
+.blog-post-page .post-hero,
+.blog-post-page .article-hero,
+.blog-post-page .page-hero{
+  background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421)!important;
+  color:#fff!important;
+  padding:92px min(6vw,72px)!important;
+  display:block!important;
+}
+.blog-post-page h1{
+  font-size:clamp(42px,6vw,76px)!important;
+  line-height:.98!important;
+  letter-spacing:-.05em!important;
+  max-width:1050px!important;
+}
+.blog-post-page .page-hero p,
+.blog-post-page .post-hero p,
+.blog-post-page .article-hero p{
+  color:#d9edf8!important;
+  font-size:20px!important;
+  line-height:1.6!important;
+  max-width:900px!important;
+}
+.blog-post-page .breadcrumb,
+.blog-post-page .post-date,
+.blog-post-page .blog-date,
+.blog-post-page .date,
+.blog-post-page .meta,
+.blog-post-page .post-meta,
+.blog-post-page .author,
+.blog-post-page .byline,
+.blog-post-page time{
+  display:none!important;
+}
+.blog-post-page .post-wrap,
+.blog-post-page .article-wrap,
+.blog-post-page .blog-content,
+.blog-post-page .post-content,
+.blog-post-page article{
+  max-width:980px!important;
+  margin:0 auto!important;
+  padding:72px min(6vw,72px)!important;
+}
+.blog-post-page .post-content img,
+.blog-post-page .blog-content img,
+.blog-post-page article img{
+  max-width:100%!important;
+  height:auto!important;
+  border-radius:22px!important;
+  box-shadow:0 18px 42px rgba(7,20,33,.10)!important;
+}
+.blog-post-page .post-content p,
+.blog-post-page .blog-content p,
+.blog-post-page article p,
+.blog-post-page li{
+  color:#4b5b66!important;
+  font-size:18px!important;
+  line-height:1.8!important;
+}
+.blog-post-page .post-content h2,
+.blog-post-page .blog-content h2,
+.blog-post-page article h2{
+  font-size:clamp(30px,3.5vw,46px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.035em!important;
+  color:#071421!important;
+  margin-top:46px!important;
+}
+.blog-post-page .post-content h3,
+.blog-post-page .blog-content h3,
+.blog-post-page article h3{
+  font-size:26px!important;
+  color:#071421!important;
+  margin-top:34px!important;
+}
+.blog-post-page .blog-back-cta{
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  text-align:center;
+  padding:72px min(6vw,72px);
+}
+.blog-post-page .blog-back-cta h2{
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  margin:0 0 16px;
+}
+.blog-post-page .blog-back-cta p{
+  color:#d4e8f2;
+  font-size:19px;
+  line-height:1.6;
+  max-width:760px;
+  margin:0 auto;
+}
+.blog-post-page .blog-back-cta .actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-top:28px;
+}
+.blog-post-page .button.primary{
+  background:#33abe1!important;
+  border:2px solid #33abe1!important;
+  color:#061421!important;
+}
+.blog-post-page .button.secondary{
+  background:#fff!important;
+  border:2px solid #fff!important;
+  color:#071421!important;
+}
+@media(max-width:680px){
+  .blog-post-page .post-hero,
+  .blog-post-page .article-hero,
+  .blog-post-page .page-hero,
+  .blog-post-page .post-wrap,
+  .blog-post-page .article-wrap,
+  .blog-post-page .blog-content,
+  .blog-post-page .post-content,
+  .blog-post-page article,
+  .blog-post-page .blog-back-cta{
+    padding:56px 20px!important;
+  }
+}
+</style>
 </head>
-  <body>
+  <body class="blog-post-page">
 <div id="webact-header"></div>
 <main><section class="page-hero">
   <div>
     <p class="breadcrumb"><a href="../../../index.html">Home</a> / Blog</p>
-    <p class="eyebrow">February 8, 2019 / WebAct</p>
+    <p class="eyebrow"> / WebAct</p>
     <h1>How Information Technology Can Assist with Online Business Success</h1>
     <p class="hero-lede">Need help with your online business ? Information technology has helped make more informed decisions, increase growth efforts with measurable data, as well as prove cost-effective in an ever-changing industry.</p>
     <div class="hero-actions">
@@ -62,14 +190,14 @@ body.webact-search-open .webact-search-overlay{display:flex}
 </section>
 <section class="section blog-article-section">
   <article class="blog-article">
-    <div class="blog-article-meta"><span>By WebAct</span><span>February 8, 2019</span></div>
+    <div class="blog-article-meta"><span>By WebAct</span><span></span></div>
     <div class="blog-post-content"><h3>Here are some tips to help your online business succeed</h3><p> When you own or manage a business, you'll need to utilize the latest and most advanced tools that are available to <a href="https://www.webact.com/google" target="_blank" rel="noopener"> increase your outreach </a> and have more success. Information technology is readily available and should be utilized to improve the functionality of your business dealings each day. Here are a few ways that information technology assists with your online business success by improving your marketing and internal productivity. <h3>Make Better Decisions</h3> As <a href="https://www.business2community.com/tech-gadgets/importance-information-technology-business-today-01393380" target="_blank" rel="noopener"> B2C </a> explains, information technology offers different tools to solve complex problems, whether you're using video conferences, creating online surveys for customer feedback, or reviewing comments on social media. Microsoft CRM Dynamics and Google Analytics can help you track your advertising ROI and any applications that you've been utilizing. You can begin making informed decisions based on your data and take fewer risks due to the information and data that you obtain in advance. <h3>Improve Growth and Innovation</h3> With a dedicated technology team, you can increase your growth efforts and boost your exposure. Technology can be used to inspire innovation. Chief Information Officers (CIOs) and tech leaders want to strengthen IT's contributions to organizational growth and innovation. And, we're seeing the value of <a href="https://sdlcpartners.com/insight/rise-of-the-robots-robotic-process-automation-and-the-age-of-the-digital-workforce/" target="_blank" rel="noopener"> Robotic Process Automation (RPA) </a> as one promising strategy for IT to add value. With the use of robotics, you can improve your process of obtaining information and compiling the information, which will prove to be efficient and valuable. RPA is also available to assist with data entry or other repetitive tasks that don't take much thought but can be time-consuming. You'll increase your internal productivity with these tools and can save time during the process. <h3>Cut Costs and Eliminate Waste</h3> Information technology is considered cost-effective because it helps streamline operational and managerial processes. It can allow you to do more with less while still maintaining the high quality and value of your business. It may be expensive once it's first utilized but can save you more money in the long run. For instance, you can use <a href="https://www.blytzpay.com/move-to-online-payments/" target="_blank" rel="noopener"> mobile bill payment technology </a> to streamline your billing processes and cut overhead costs. This simple upgrade simplifies the payment process for you and your customers. Convenience is king in the modern business landscape, so take steps to streamline business processes and make buying easier. Grow With Your Company <h3></h3> As you can see, information technology may just prove essential to growing your business. If you are unsure about how to get started in IT, then you can look at your options for employing software, hiring new team members, and even furthering your own education in this area. <a href="https://www.independence.edu" target="_blank" rel="noopener"> Independence University </a> explains that you can learn the fundamentals of computer programming and and web development through online sources and programs. Being in the know about IT and computer programming can give you a solid foundation to grow and innovate within your business. By understanding how versatile information technology is and how it can be a benefit to your online business, you'll begin to understand the value of the tools available to you. With the use of technology, you can become more efficient and advanced as you work hard to remain competitive in an ever-changing industry. </p></div>
     <div class="case-study-actions"><a href="../../../about/blog.html">Back to blog</a><a href="https://www.webact.com/how-information-technology-can-assist-with-online-business-successe8c8f182" target="_blank" rel="noopener">Original WebAct post</a></div>
   </article>
   <aside class="blog-sidebar">
     <p class="eyebrow">More WebAct Posts</p>
     <h2>Keep reading</h2>
-    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span>May 4, 2023</span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span>June 1, 2022</span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span>May 18, 2022</span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
+    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span></span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span></span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span></span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
   </aside>
 </section></main>
     <div id="webact-footer"></div>

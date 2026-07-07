@@ -44,13 +44,141 @@ body.webact-search-open .webact-search-overlay{display:flex}
 
 <link rel="stylesheet" href="../../../assets/css/webact-promodo-nav.css">
 <link rel="stylesheet" href="../../../assets/css/webact-footer.css">
+<style id="blog-post-cleanup-final">
+html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+body{margin:0}
+.blog-post-page{background:#fff;color:#071421}
+.blog-post-page main{overflow:visible!important}
+.blog-post-page .post-hero,
+.blog-post-page .article-hero,
+.blog-post-page .page-hero{
+  background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421)!important;
+  color:#fff!important;
+  padding:92px min(6vw,72px)!important;
+  display:block!important;
+}
+.blog-post-page h1{
+  font-size:clamp(42px,6vw,76px)!important;
+  line-height:.98!important;
+  letter-spacing:-.05em!important;
+  max-width:1050px!important;
+}
+.blog-post-page .page-hero p,
+.blog-post-page .post-hero p,
+.blog-post-page .article-hero p{
+  color:#d9edf8!important;
+  font-size:20px!important;
+  line-height:1.6!important;
+  max-width:900px!important;
+}
+.blog-post-page .breadcrumb,
+.blog-post-page .post-date,
+.blog-post-page .blog-date,
+.blog-post-page .date,
+.blog-post-page .meta,
+.blog-post-page .post-meta,
+.blog-post-page .author,
+.blog-post-page .byline,
+.blog-post-page time{
+  display:none!important;
+}
+.blog-post-page .post-wrap,
+.blog-post-page .article-wrap,
+.blog-post-page .blog-content,
+.blog-post-page .post-content,
+.blog-post-page article{
+  max-width:980px!important;
+  margin:0 auto!important;
+  padding:72px min(6vw,72px)!important;
+}
+.blog-post-page .post-content img,
+.blog-post-page .blog-content img,
+.blog-post-page article img{
+  max-width:100%!important;
+  height:auto!important;
+  border-radius:22px!important;
+  box-shadow:0 18px 42px rgba(7,20,33,.10)!important;
+}
+.blog-post-page .post-content p,
+.blog-post-page .blog-content p,
+.blog-post-page article p,
+.blog-post-page li{
+  color:#4b5b66!important;
+  font-size:18px!important;
+  line-height:1.8!important;
+}
+.blog-post-page .post-content h2,
+.blog-post-page .blog-content h2,
+.blog-post-page article h2{
+  font-size:clamp(30px,3.5vw,46px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.035em!important;
+  color:#071421!important;
+  margin-top:46px!important;
+}
+.blog-post-page .post-content h3,
+.blog-post-page .blog-content h3,
+.blog-post-page article h3{
+  font-size:26px!important;
+  color:#071421!important;
+  margin-top:34px!important;
+}
+.blog-post-page .blog-back-cta{
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  text-align:center;
+  padding:72px min(6vw,72px);
+}
+.blog-post-page .blog-back-cta h2{
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  margin:0 0 16px;
+}
+.blog-post-page .blog-back-cta p{
+  color:#d4e8f2;
+  font-size:19px;
+  line-height:1.6;
+  max-width:760px;
+  margin:0 auto;
+}
+.blog-post-page .blog-back-cta .actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-top:28px;
+}
+.blog-post-page .button.primary{
+  background:#33abe1!important;
+  border:2px solid #33abe1!important;
+  color:#061421!important;
+}
+.blog-post-page .button.secondary{
+  background:#fff!important;
+  border:2px solid #fff!important;
+  color:#071421!important;
+}
+@media(max-width:680px){
+  .blog-post-page .post-hero,
+  .blog-post-page .article-hero,
+  .blog-post-page .page-hero,
+  .blog-post-page .post-wrap,
+  .blog-post-page .article-wrap,
+  .blog-post-page .blog-content,
+  .blog-post-page .post-content,
+  .blog-post-page article,
+  .blog-post-page .blog-back-cta{
+    padding:56px 20px!important;
+  }
+}
+</style>
 </head>
-  <body>
+  <body class="blog-post-page">
 <div id="webact-header"></div>
 <main><section class="page-hero">
   <div>
     <p class="breadcrumb"><a href="../../../index.html">Home</a> / Blog</p>
-    <p class="eyebrow">September 25, 2018 / Brian Lewis</p>
+    <p class="eyebrow"> / Brian Lewis</p>
     <h1>What to Know Before You Partner with Another Business to Offer Deals</h1>
     <p class="hero-lede">In the United States, there are currently about 30 million registered small businesses, according to Forbes. Within that pool, about 500,000 are start-ups. Of those companies, about one business comes to life every minute. Among the thousands of start-up companies, some end up surviving and even thriving, while others ultimately fail.</p>
     <div class="hero-actions">
@@ -62,14 +190,14 @@ body.webact-search-open .webact-search-overlay{display:flex}
 </section>
 <section class="section blog-article-section">
   <article class="blog-article">
-    <div class="blog-article-meta"><span>By Brian Lewis</span><span>September 25, 2018</span></div>
+    <div class="blog-article-meta"><span>By Brian Lewis</span><span></span></div>
     <div class="blog-post-content"><p> In the United States, there are currently about 30 million registered small businesses, according to Forbes. Within that pool, about 500,000 are start-ups. Of those companies, about one business comes to life every minute. Among the thousands of start-up companies, some end up surviving and even thriving, while others ultimately fail. Many of the companies that do live on want to establish relationships and partnerships with other companies. But choosing the right partner for offering deals is critical, as a good partnership can enhance your business, but a bad one will reflect poorly on you for years to come. If you are in the position of considering a partnership with another business, here are some things to consider before signing the official documents. </p><p> Partner With a Business in Your Industry </p><p> One of the key aspects to consider when you're looking to partner with a business is how well they know your products and your target clients. Presumably, you're looking to partner with a business that is more experienced or more successful than yours. Therefore, it makes sense to find a partner within your industry. It would not make sense, for instance, for a boutique clothing retailer to partner with a construction company. <a href="http://www.businessdictionary.com/article/793/how-to-find-a-business-partner/" target="_blank" rel="noopener"> Business Dictionary </a> recommends doing some research on your own first by looking at the websites of companies that you are interested in partnering with. Getting to â€œknowâ€ them first, and even seeing who they are partners with, can tell you if they're a good fit for your company. </p><p> Know Who You're Dealing With </p><p> In your personal life, you probably wouldn't tell someone who you just met your top secrets. The same rationale applies to business relationships. Partnering with another business requires forming a close bond and instilling a fair amount of trust in the other entity. Since you won't really get a good sense for the potential partner at your first meeting, it's best to build a relationship with them before committing to an official business partnership. <a href="https://www.plusvouchercode.co.uk/" target="_blank" rel="noopener"> Plus Voucher Code </a> warns, â€œremember that a good partnership can enhance your business, but a bad one will reflect poorly on you for years to come.â€ Therefore, it's best to get to know a potential partner and build trust before starting a formal relationship. </p><p> Seek Legal Advice </p><p> Even in the most well-intentioned business relationships, things can go sour. Therefore, it's in your best interest to hire an attorney to help you manage the legal aspects of a business partnership. An attorney will be knowledgeable about the numerous, and frequently complex, aspects of a business partnership. He or she can help you understand the documents involved in partnership before you sign them. <a href="https://www.forbes.com/sites/amandaneville/2013/06/07/five-clauses-every-partnership-agreement-needs/#6f1f10d275cd" target="_blank" rel="noopener"> Forbes </a> recommends doing your own research is essential to know what clauses you are agreeing to and what you are making your business partner agree to. An attorney can also help you draft documents that will protect your company in case of a fallout later on. </p><p> Have an Exit Strategy </p><p> While all business partners hope for the best, the reality is that things don't always go as planned. Bankruptcy, a change in focus or values, and the dynamics of two companies working together can cause a partnership to collapse. <a href="https://www.ppwlaw.com/blog/2017/03/have-an-exit-strategy-for-your-business-partnership.shtml" target="_blank" rel="noopener"> Weisberg Law </a> cautions, having an exit strategy in place before you embark on a partnership can also save your company from a PR fiasco in case the partnership dissolves and becomes highly publicized. It's a good idea to hire an attorney to help with the legal and logical aspects of creating the framework for an exit strategy. </p><p> Plan for Success </p><p> While financial constraints may certainly be an issue, many business partnerships fail because of a lack of communication and a change in management roles, responsibilities, and oversight. To prevent a business partnership failure, you can set up a plan for communication before the partnership begins. Authors at <a href="https://www.entrepreneur.com/article/244632" target="_blank" rel="noopener"> Entrepreneur </a> say that it's a good idea to record (in writing) anything that goes against your initial partnership or operating agreement. This gives you legal strength in case of a future lawsuit, but it also gives you concrete evidence to present at business meetings. Many business partnerships allow for revisions and changes as the partnership develops, but these changes should always be written and signed by all parties. Staying â€œin touchâ€ with others as the partnership develops is also important. When a partnership develops, it is easy to take a hands-off approach and fail to be in constant communication with employees and management. If this happens, you'll miss potentially telling (and partnership-saving) information that's relayed on a lower level. Staying involved in business affairs also allows you to gain respect from employees and customers. </p><p> Embarking on a new business partnership is a new, exciting, and potentially advantageous experience. But in order to make it successful, you must first take some steps towards planning and preparing. One of the most important considerations is taking the time to get to know your prospective partner first, as a good partnership can enhance your business, but a bad one will reflect poorly on you for years to come. </p><a href="https://www.webact.com/how-to-make-content-your-customers-will-be-excited-to-read" target="_blank" rel="noopener"> Hereâ€™s another article </a> we think youâ€™d like! If youâ€™re looking for help in your website or are thinking of redesigning your web presence, <a href="https://www.webact.com/our-platform#" target="_blank" rel="noopener"> let us help you out </a> !</div>
     <div class="case-study-actions"><a href="../../../about/blog.html">Back to blog</a><a href="https://www.webact.com/what-to-know-before-you-partner-with-another-business-to-offer-deals9735e431" target="_blank" rel="noopener">Original WebAct post</a></div>
   </article>
   <aside class="blog-sidebar">
     <p class="eyebrow">More WebAct Posts</p>
     <h2>Keep reading</h2>
-    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span>May 4, 2023</span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span>June 1, 2022</span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span>May 18, 2022</span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
+    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span></span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span></span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span></span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
   </aside>
 </section></main>
     <div id="webact-footer"></div>

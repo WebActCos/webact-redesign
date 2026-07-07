@@ -44,13 +44,141 @@ body.webact-search-open .webact-search-overlay{display:flex}
 
 <link rel="stylesheet" href="../../../assets/css/webact-promodo-nav.css">
 <link rel="stylesheet" href="../../../assets/css/webact-footer.css">
+<style id="blog-post-cleanup-final">
+html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+body{margin:0}
+.blog-post-page{background:#fff;color:#071421}
+.blog-post-page main{overflow:visible!important}
+.blog-post-page .post-hero,
+.blog-post-page .article-hero,
+.blog-post-page .page-hero{
+  background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421)!important;
+  color:#fff!important;
+  padding:92px min(6vw,72px)!important;
+  display:block!important;
+}
+.blog-post-page h1{
+  font-size:clamp(42px,6vw,76px)!important;
+  line-height:.98!important;
+  letter-spacing:-.05em!important;
+  max-width:1050px!important;
+}
+.blog-post-page .page-hero p,
+.blog-post-page .post-hero p,
+.blog-post-page .article-hero p{
+  color:#d9edf8!important;
+  font-size:20px!important;
+  line-height:1.6!important;
+  max-width:900px!important;
+}
+.blog-post-page .breadcrumb,
+.blog-post-page .post-date,
+.blog-post-page .blog-date,
+.blog-post-page .date,
+.blog-post-page .meta,
+.blog-post-page .post-meta,
+.blog-post-page .author,
+.blog-post-page .byline,
+.blog-post-page time{
+  display:none!important;
+}
+.blog-post-page .post-wrap,
+.blog-post-page .article-wrap,
+.blog-post-page .blog-content,
+.blog-post-page .post-content,
+.blog-post-page article{
+  max-width:980px!important;
+  margin:0 auto!important;
+  padding:72px min(6vw,72px)!important;
+}
+.blog-post-page .post-content img,
+.blog-post-page .blog-content img,
+.blog-post-page article img{
+  max-width:100%!important;
+  height:auto!important;
+  border-radius:22px!important;
+  box-shadow:0 18px 42px rgba(7,20,33,.10)!important;
+}
+.blog-post-page .post-content p,
+.blog-post-page .blog-content p,
+.blog-post-page article p,
+.blog-post-page li{
+  color:#4b5b66!important;
+  font-size:18px!important;
+  line-height:1.8!important;
+}
+.blog-post-page .post-content h2,
+.blog-post-page .blog-content h2,
+.blog-post-page article h2{
+  font-size:clamp(30px,3.5vw,46px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.035em!important;
+  color:#071421!important;
+  margin-top:46px!important;
+}
+.blog-post-page .post-content h3,
+.blog-post-page .blog-content h3,
+.blog-post-page article h3{
+  font-size:26px!important;
+  color:#071421!important;
+  margin-top:34px!important;
+}
+.blog-post-page .blog-back-cta{
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  text-align:center;
+  padding:72px min(6vw,72px);
+}
+.blog-post-page .blog-back-cta h2{
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  margin:0 0 16px;
+}
+.blog-post-page .blog-back-cta p{
+  color:#d4e8f2;
+  font-size:19px;
+  line-height:1.6;
+  max-width:760px;
+  margin:0 auto;
+}
+.blog-post-page .blog-back-cta .actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-top:28px;
+}
+.blog-post-page .button.primary{
+  background:#33abe1!important;
+  border:2px solid #33abe1!important;
+  color:#061421!important;
+}
+.blog-post-page .button.secondary{
+  background:#fff!important;
+  border:2px solid #fff!important;
+  color:#071421!important;
+}
+@media(max-width:680px){
+  .blog-post-page .post-hero,
+  .blog-post-page .article-hero,
+  .blog-post-page .page-hero,
+  .blog-post-page .post-wrap,
+  .blog-post-page .article-wrap,
+  .blog-post-page .blog-content,
+  .blog-post-page .post-content,
+  .blog-post-page article,
+  .blog-post-page .blog-back-cta{
+    padding:56px 20px!important;
+  }
+}
+</style>
 </head>
-  <body>
+  <body class="blog-post-page">
 <div id="webact-header"></div>
 <main><section class="page-hero">
   <div>
     <p class="breadcrumb"><a href="../../../index.html">Home</a> / Blog</p>
-    <p class="eyebrow">July 21, 2016 / WebAct</p>
+    <p class="eyebrow"> / WebAct</p>
     <h1>Personalize Your Website and Increase Your Business with inSite</h1>
     <p class="hero-lede">Personalizing your website is what separates you from your competition. It defines the voice, attitude, and spirit of your company to all potential clients. Due to the rapid increase of connected devices, a customer attention span shortens when visiting certain websites. They require the information they seek within a few clicks and are less willing to search for it. An inSite can put the most relevant content front &amp; center for a visitor, giving them all the information they need.... Read More Read More</p>
     <div class="hero-actions">
@@ -62,14 +190,14 @@ body.webact-search-open .webact-search-overlay{display:flex}
 </section>
 <section class="section blog-article-section">
   <article class="blog-article">
-    <div class="blog-article-meta"><span>By WebAct</span><span>July 21, 2016</span></div>
+    <div class="blog-article-meta"><span>By WebAct</span><span></span></div>
     <div class="blog-post-content"><p> Personalizing your website is what separates you from your competition. It defines the voice, attitude, and spirit of your company to all potential clients. Due to the rapid increase of connected devices, a customer attention span shortens when visiting certain websites. They require the information they seek within a few clicks and are less willing to search for it. An inSite can put the most relevant content front Â¢ter for a visitor, giving them all the information they need.... Read More Read More </p><a href="https://irp-cdn.multiscreensite.com/6495f877/Popup-Examples2.png" target="_blank" rel="noopener"></a><p> Personalizing your website is what separates you from your competition. It defines the voice, attitude, and spirit of your company to all potential clients. Due to the rapid increase of connected devices, a customer attention span shortens when visiting certain websites. They require the information they seek within a few clicks and are less willing to search for it. An inSite can put the most relevant content front Â¢ter for a visitor, giving them all the information they need. inSite is a powerful website personalization tool available inside our Dynamic Website Builder. It enables you to extend the customer service past a simple website and cater to each visitor. Having a feature like inSite can be the perfect tool to use on your website to gain a bigger audience by increasing conversions and visitor interactions with one-on-one experiences every time they visit your website. This in-turn distinguishes yourself from your competitors, and gives you an advantage when potential clients are looking for the type of services you provide. </p><h3>How do inSites work?</h3><p> An inSite is a feature that works on a system of triggers and actions. When a triggerâ€™s individual needs are met, an action occurs that personalizes itself for that visitor. A trigger can be activated either individual or a combination of things such as: </p><a href="https://irp-cdn.multiscreensite.com/6495f877/Sales-Promo4.png" target="_blank" rel="noopener"></a><h3>What actions can be triggered?</h3><p> Triggers activate actions which then presents an inSite that a visitor will see on your website. The amount of actions that can be used after being triggered are endless. Some of the actions you can activate are: </p><h3>Will inSites make my site load slower?</h3><p> Not one bit! When you add your content to your website with inSite, it is completed through JavaScript after your page has loaded, meaning that the inSite is only triggered after all of your primary content has been loaded. </p><a href="https://irp-cdn.multiscreensite.com/6495f877/popup-examples4.png" target="_blank" rel="noopener"></a><p> inSites are an innovative way to draw in potential clients looking for services your business provides. Theyâ€™re created to help you personalize your website for your clients. Take advantage of the knowledge of client base and put it into a personalized tool such as inSite and maximize your businessâ€™ customer conversion in no time. To learn more about personalizing your website, head to <a href="https://www.webact.com/" target="_blank" rel="noopener"> WebAct.com </a> today. </p></div>
     <div class="case-study-actions"><a href="../../../about/blog.html">Back to blog</a><a href="https://www.webact.com/highlights/personalize-your-website-increase-your-business-using-the-insites-feature3df820fd" target="_blank" rel="noopener">Original WebAct post</a></div>
   </article>
   <aside class="blog-sidebar">
     <p class="eyebrow">More WebAct Posts</p>
     <h2>Keep reading</h2>
-    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span>May 4, 2023</span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span>June 1, 2022</span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span>May 18, 2022</span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
+    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span></span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span></span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span></span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
   </aside>
 </section></main>
     <div id="webact-footer"></div>

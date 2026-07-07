@@ -44,13 +44,141 @@ body.webact-search-open .webact-search-overlay{display:flex}
 
 <link rel="stylesheet" href="../../../assets/css/webact-promodo-nav.css">
 <link rel="stylesheet" href="../../../assets/css/webact-footer.css">
+<style id="blog-post-cleanup-final">
+html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+body{margin:0}
+.blog-post-page{background:#fff;color:#071421}
+.blog-post-page main{overflow:visible!important}
+.blog-post-page .post-hero,
+.blog-post-page .article-hero,
+.blog-post-page .page-hero{
+  background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421)!important;
+  color:#fff!important;
+  padding:92px min(6vw,72px)!important;
+  display:block!important;
+}
+.blog-post-page h1{
+  font-size:clamp(42px,6vw,76px)!important;
+  line-height:.98!important;
+  letter-spacing:-.05em!important;
+  max-width:1050px!important;
+}
+.blog-post-page .page-hero p,
+.blog-post-page .post-hero p,
+.blog-post-page .article-hero p{
+  color:#d9edf8!important;
+  font-size:20px!important;
+  line-height:1.6!important;
+  max-width:900px!important;
+}
+.blog-post-page .breadcrumb,
+.blog-post-page .post-date,
+.blog-post-page .blog-date,
+.blog-post-page .date,
+.blog-post-page .meta,
+.blog-post-page .post-meta,
+.blog-post-page .author,
+.blog-post-page .byline,
+.blog-post-page time{
+  display:none!important;
+}
+.blog-post-page .post-wrap,
+.blog-post-page .article-wrap,
+.blog-post-page .blog-content,
+.blog-post-page .post-content,
+.blog-post-page article{
+  max-width:980px!important;
+  margin:0 auto!important;
+  padding:72px min(6vw,72px)!important;
+}
+.blog-post-page .post-content img,
+.blog-post-page .blog-content img,
+.blog-post-page article img{
+  max-width:100%!important;
+  height:auto!important;
+  border-radius:22px!important;
+  box-shadow:0 18px 42px rgba(7,20,33,.10)!important;
+}
+.blog-post-page .post-content p,
+.blog-post-page .blog-content p,
+.blog-post-page article p,
+.blog-post-page li{
+  color:#4b5b66!important;
+  font-size:18px!important;
+  line-height:1.8!important;
+}
+.blog-post-page .post-content h2,
+.blog-post-page .blog-content h2,
+.blog-post-page article h2{
+  font-size:clamp(30px,3.5vw,46px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.035em!important;
+  color:#071421!important;
+  margin-top:46px!important;
+}
+.blog-post-page .post-content h3,
+.blog-post-page .blog-content h3,
+.blog-post-page article h3{
+  font-size:26px!important;
+  color:#071421!important;
+  margin-top:34px!important;
+}
+.blog-post-page .blog-back-cta{
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  text-align:center;
+  padding:72px min(6vw,72px);
+}
+.blog-post-page .blog-back-cta h2{
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  margin:0 0 16px;
+}
+.blog-post-page .blog-back-cta p{
+  color:#d4e8f2;
+  font-size:19px;
+  line-height:1.6;
+  max-width:760px;
+  margin:0 auto;
+}
+.blog-post-page .blog-back-cta .actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-top:28px;
+}
+.blog-post-page .button.primary{
+  background:#33abe1!important;
+  border:2px solid #33abe1!important;
+  color:#061421!important;
+}
+.blog-post-page .button.secondary{
+  background:#fff!important;
+  border:2px solid #fff!important;
+  color:#071421!important;
+}
+@media(max-width:680px){
+  .blog-post-page .post-hero,
+  .blog-post-page .article-hero,
+  .blog-post-page .page-hero,
+  .blog-post-page .post-wrap,
+  .blog-post-page .article-wrap,
+  .blog-post-page .blog-content,
+  .blog-post-page .post-content,
+  .blog-post-page article,
+  .blog-post-page .blog-back-cta{
+    padding:56px 20px!important;
+  }
+}
+</style>
 </head>
-  <body>
+  <body class="blog-post-page">
 <div id="webact-header"></div>
 <main><section class="page-hero">
   <div>
     <p class="breadcrumb"><a href="../../../index.html">Home</a> / Blog</p>
-    <p class="eyebrow">July 25, 2016 / WebAct</p>
+    <p class="eyebrow"> / WebAct</p>
     <h1>Google AdWords vs. Facebook Ads</h1>
     <p class="hero-lede">Itâ€™s been a debate for years, Facebook Ads or Google Adwords? Which one is better for your business? They each have their own benefits depending a couple of different factors. Google Adwords is more beneficial for immediate sales, where as, Facebook Ads is best used for lead generation and brand awareness. Hereâ€™s Why. Reach There are about 3 billion internet users in the world. One of the main advantages of using Google Adwords is its immense reach. Google Adwords can... Read More Read More</p>
     <div class="hero-actions">
@@ -62,14 +190,14 @@ body.webact-search-open .webact-search-overlay{display:flex}
 </section>
 <section class="section blog-article-section">
   <article class="blog-article">
-    <div class="blog-article-meta"><span>By WebAct</span><span>July 25, 2016</span></div>
+    <div class="blog-article-meta"><span>By WebAct</span><span></span></div>
     <div class="blog-post-content"><p> Itâ€™s been a debate for years, Facebook Ads or Google Adwords? Which one is better for your business? They each have their own benefits depending a couple of different factors. Google Adwords is more beneficial for immediate sales, where as, Facebook Ads is best used for lead generation and brand awareness. Hereâ€™s Why. Reach There are about 3 billion internet users in the world. One of the main advantages of using Google Adwords is its immense reach. Google Adwords can... Read More Read More </p><a href="https://irp-cdn.multiscreensite.com/6495f877/facebook-ads-vs.-google-adwords.jpg" target="_blank" rel="noopener"></a><p> They each have their own benefits depending a couple of different factors. Google Adwords is more beneficial for immediate sales, where as, Facebook Ads is best used for lead generation and brand awareness. Hereâ€™s Why. </p><h3>Reach</h3><p> There are about 3 billion internet users in the world. One of the main advantages of using Google Adwords is its immense reach. Google Adwords can reach over 2.6 billion searchers every month, with the potential to reach 90% of all internet users. Facebook also has a very large reach with 1.5 billion monthly active users, however unlike Google, rather then showing ads to their entire audience, Facebook targets their users who are most likely to be interested in the ad, which makes their potential reach a little less then 50% of all internet users. </p><h3>Targeting Options</h3><p> While both of these popular digital advertising platforms allow you to target your ads by location and demographics, they each have their own set of targeting options with different benefits. Facebook Ads lets you target your audience by behaviors, based on previous actions such as Likes and devices used, interests based on Page Likes, lookalike, which targets future prospects based on similarities to current Fans, customers, and website visitors, and lastly, website custom audiences which allows you to target to bounced traffic from your website or landing pages. Google Adwords has targeting options that include language, keywords used in search, negative keywords that are not relevant to your business, and device that you prefer your ad to show up on. </p><h3>Return on Investment</h3><p> The ROI for Facebook Ads and Google Adwords varies only slightly. The average cost-per-click for Google Adwords is between $0.35 and $5 and Facebook Ads is under a $1. The CPM for Google Adwords is $2.75 and Facebook Ads is between $0.80 and $1. The average click-though-rate for Google Adwords is 2% where as Facebook Ads is between 0.27% and .91% depending on the industry of the ad being shown. Google Adwordâ€™s average conversion rate is 2.35% and Facebook Adâ€™s average conversion rate is between 1% and 2%. The cost-per-conversion varies for Google Adwords because CPA bidding allows you to set your own CPA, the average cost-per-conversion for Facebook Ads is between $0.34 and $1.57. </p><p> So the debate ends here. The question is not which one is better or which one is best for my business because any smart business owner knows that utilizing both of the popular digital advertising platforms is will allow them to reach the most people while also targeting potential customers. </p></div>
     <div class="case-study-actions"><a href="../../../about/blog.html">Back to blog</a><a href="https://www.webact.com/tips/google-adwords-vs-facebook-adsd99ee133" target="_blank" rel="noopener">Original WebAct post</a></div>
   </article>
   <aside class="blog-sidebar">
     <p class="eyebrow">More WebAct Posts</p>
     <h2>Keep reading</h2>
-    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span>May 4, 2023</span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span>June 1, 2022</span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span>May 18, 2022</span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
+    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span></span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span></span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span></span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
   </aside>
 </section></main>
     <div id="webact-footer"></div>

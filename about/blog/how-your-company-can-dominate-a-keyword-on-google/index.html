@@ -44,13 +44,141 @@ body.webact-search-open .webact-search-overlay{display:flex}
 
 <link rel="stylesheet" href="../../../assets/css/webact-promodo-nav.css">
 <link rel="stylesheet" href="../../../assets/css/webact-footer.css">
+<style id="blog-post-cleanup-final">
+html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+body{margin:0}
+.blog-post-page{background:#fff;color:#071421}
+.blog-post-page main{overflow:visible!important}
+.blog-post-page .post-hero,
+.blog-post-page .article-hero,
+.blog-post-page .page-hero{
+  background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421)!important;
+  color:#fff!important;
+  padding:92px min(6vw,72px)!important;
+  display:block!important;
+}
+.blog-post-page h1{
+  font-size:clamp(42px,6vw,76px)!important;
+  line-height:.98!important;
+  letter-spacing:-.05em!important;
+  max-width:1050px!important;
+}
+.blog-post-page .page-hero p,
+.blog-post-page .post-hero p,
+.blog-post-page .article-hero p{
+  color:#d9edf8!important;
+  font-size:20px!important;
+  line-height:1.6!important;
+  max-width:900px!important;
+}
+.blog-post-page .breadcrumb,
+.blog-post-page .post-date,
+.blog-post-page .blog-date,
+.blog-post-page .date,
+.blog-post-page .meta,
+.blog-post-page .post-meta,
+.blog-post-page .author,
+.blog-post-page .byline,
+.blog-post-page time{
+  display:none!important;
+}
+.blog-post-page .post-wrap,
+.blog-post-page .article-wrap,
+.blog-post-page .blog-content,
+.blog-post-page .post-content,
+.blog-post-page article{
+  max-width:980px!important;
+  margin:0 auto!important;
+  padding:72px min(6vw,72px)!important;
+}
+.blog-post-page .post-content img,
+.blog-post-page .blog-content img,
+.blog-post-page article img{
+  max-width:100%!important;
+  height:auto!important;
+  border-radius:22px!important;
+  box-shadow:0 18px 42px rgba(7,20,33,.10)!important;
+}
+.blog-post-page .post-content p,
+.blog-post-page .blog-content p,
+.blog-post-page article p,
+.blog-post-page li{
+  color:#4b5b66!important;
+  font-size:18px!important;
+  line-height:1.8!important;
+}
+.blog-post-page .post-content h2,
+.blog-post-page .blog-content h2,
+.blog-post-page article h2{
+  font-size:clamp(30px,3.5vw,46px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.035em!important;
+  color:#071421!important;
+  margin-top:46px!important;
+}
+.blog-post-page .post-content h3,
+.blog-post-page .blog-content h3,
+.blog-post-page article h3{
+  font-size:26px!important;
+  color:#071421!important;
+  margin-top:34px!important;
+}
+.blog-post-page .blog-back-cta{
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  text-align:center;
+  padding:72px min(6vw,72px);
+}
+.blog-post-page .blog-back-cta h2{
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  margin:0 0 16px;
+}
+.blog-post-page .blog-back-cta p{
+  color:#d4e8f2;
+  font-size:19px;
+  line-height:1.6;
+  max-width:760px;
+  margin:0 auto;
+}
+.blog-post-page .blog-back-cta .actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-top:28px;
+}
+.blog-post-page .button.primary{
+  background:#33abe1!important;
+  border:2px solid #33abe1!important;
+  color:#061421!important;
+}
+.blog-post-page .button.secondary{
+  background:#fff!important;
+  border:2px solid #fff!important;
+  color:#071421!important;
+}
+@media(max-width:680px){
+  .blog-post-page .post-hero,
+  .blog-post-page .article-hero,
+  .blog-post-page .page-hero,
+  .blog-post-page .post-wrap,
+  .blog-post-page .article-wrap,
+  .blog-post-page .blog-content,
+  .blog-post-page .post-content,
+  .blog-post-page article,
+  .blog-post-page .blog-back-cta{
+    padding:56px 20px!important;
+  }
+}
+</style>
 </head>
-  <body>
+  <body class="blog-post-page">
 <div id="webact-header"></div>
 <main><section class="page-hero">
   <div>
     <p class="breadcrumb"><a href="../../../index.html">Home</a> / Blog</p>
-    <p class="eyebrow">November 18, 2020 / WebAct</p>
+    <p class="eyebrow"> / WebAct</p>
     <h1>How Your Company Can Dominate a Keyword on Google</h1>
     <p class="hero-lede">Keywords are going to be the center of your search engine optimization strategy. That much is obvious. What is less obvious is how to pick which keywords you should be using....</p>
     <div class="hero-actions">
@@ -62,14 +190,14 @@ body.webact-search-open .webact-search-overlay{display:flex}
 </section>
 <section class="section blog-article-section">
   <article class="blog-article">
-    <div class="blog-article-meta"><span>By WebAct</span><span>November 18, 2020</span></div>
+    <div class="blog-article-meta"><span>By WebAct</span><span></span></div>
     <div class="blog-post-content"><p>Keywords are going to be the center of your search engine optimization strategy. That much is obvious. What is less obvious is how to pick which keywords you should be using. After you've picked the keywords, you then need to be able to rank for that keyword. The following three tips will help make that happen.</p><h2>Do Keyword Research</h2><p>Don't just jot down a list of the first keywords that come to your mind and then go to town on content creation. You need to do some research. Fortunately, there are several tools out there that can help learn about specific keywords. You can get statistics on how often the keyword is searched and much more. While it may <a href="https://moz.com/beginners-guide-to-seo/keyword-research" target="_blank" rel="noopener">be tempting to select keywords</a> that have a high search volume, this can be counterproductive. This is because there is a lot of competition already for those keywords. While you are just starting out, you should try to focus on a few keywords that are less common.</p><h2>Be Specific</h2><p>If you're a niche industry, you need to be specific with your keyword. General keywords are only going to loosely relate to your business, and it will be hard to rank for them. Even if you did rank high, most searches would be performed by people that weren't interested in your site. In essence, you would be expending a lot of effort for little to no gain. You want to rank high on searches created by your target audience. For example, if you want to target people searching for information on CBD for their pets, you'll want to show <a href="https://www.hemmfy.com/blogs/guides/cbd-pets" target="_blank" rel="noopener">how CBD can benefit their pets</a>. Keywords like "CBD pet food" or "CBD dog benefits" are specific keywords that will be easier to rank for then something more general like "animal supplements".</p><h2>Be Patient</h2><p>Last but not least, be patient. Many companies fail to rank for keywords because they forget to apply this crucial step. It takes time for your site to be recognized by search engines. It takes time to generate the content necessary to rank. It <a href="https://digitalmarketinginstitute.com/blog/first-seo-steps-to-take-after-you-launch-a-new-website" target="_blank" rel="noopener">can take weeks to months to accomplish</a>. However, it will be worth it in the long run. When you rank for keywords, you will appear in the searches for potential customers without an ad tag next to your web link.</p><p>While you're working on improving your keyword ranking, you might feel a little overwhelmed with the things you need to do. You'll probably need to add written content to your site. You may want to incorporate inbound and outbound links. If it's getting a little much for you, don't be afraid to outsource some of this work to people that excel in SEO. </p><p> We can help your business to rank for the right keywords with our SEO services. <a href="https://www.webact.com/contact" target="_blank" rel="noopener">Contact us</a> today to get a quote! </p></div>
     <div class="case-study-actions"><a href="../../../about/blog.html">Back to blog</a><a href="https://www.webact.com/how-your-company-can-dominate-a-keyword-on-google7328879e" target="_blank" rel="noopener">Original WebAct post</a></div>
   </article>
   <aside class="blog-sidebar">
     <p class="eyebrow">More WebAct Posts</p>
     <h2>Keep reading</h2>
-    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span>May 4, 2023</span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span>June 1, 2022</span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span>May 18, 2022</span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
+    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span></span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span></span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span></span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
   </aside>
 </section></main>
     <div id="webact-footer"></div>

@@ -44,13 +44,141 @@ body.webact-search-open .webact-search-overlay{display:flex}
 
 <link rel="stylesheet" href="../../../assets/css/webact-promodo-nav.css">
 <link rel="stylesheet" href="../../../assets/css/webact-footer.css">
+<style id="blog-post-cleanup-final">
+html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+body{margin:0}
+.blog-post-page{background:#fff;color:#071421}
+.blog-post-page main{overflow:visible!important}
+.blog-post-page .post-hero,
+.blog-post-page .article-hero,
+.blog-post-page .page-hero{
+  background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421)!important;
+  color:#fff!important;
+  padding:92px min(6vw,72px)!important;
+  display:block!important;
+}
+.blog-post-page h1{
+  font-size:clamp(42px,6vw,76px)!important;
+  line-height:.98!important;
+  letter-spacing:-.05em!important;
+  max-width:1050px!important;
+}
+.blog-post-page .page-hero p,
+.blog-post-page .post-hero p,
+.blog-post-page .article-hero p{
+  color:#d9edf8!important;
+  font-size:20px!important;
+  line-height:1.6!important;
+  max-width:900px!important;
+}
+.blog-post-page .breadcrumb,
+.blog-post-page .post-date,
+.blog-post-page .blog-date,
+.blog-post-page .date,
+.blog-post-page .meta,
+.blog-post-page .post-meta,
+.blog-post-page .author,
+.blog-post-page .byline,
+.blog-post-page time{
+  display:none!important;
+}
+.blog-post-page .post-wrap,
+.blog-post-page .article-wrap,
+.blog-post-page .blog-content,
+.blog-post-page .post-content,
+.blog-post-page article{
+  max-width:980px!important;
+  margin:0 auto!important;
+  padding:72px min(6vw,72px)!important;
+}
+.blog-post-page .post-content img,
+.blog-post-page .blog-content img,
+.blog-post-page article img{
+  max-width:100%!important;
+  height:auto!important;
+  border-radius:22px!important;
+  box-shadow:0 18px 42px rgba(7,20,33,.10)!important;
+}
+.blog-post-page .post-content p,
+.blog-post-page .blog-content p,
+.blog-post-page article p,
+.blog-post-page li{
+  color:#4b5b66!important;
+  font-size:18px!important;
+  line-height:1.8!important;
+}
+.blog-post-page .post-content h2,
+.blog-post-page .blog-content h2,
+.blog-post-page article h2{
+  font-size:clamp(30px,3.5vw,46px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.035em!important;
+  color:#071421!important;
+  margin-top:46px!important;
+}
+.blog-post-page .post-content h3,
+.blog-post-page .blog-content h3,
+.blog-post-page article h3{
+  font-size:26px!important;
+  color:#071421!important;
+  margin-top:34px!important;
+}
+.blog-post-page .blog-back-cta{
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  text-align:center;
+  padding:72px min(6vw,72px);
+}
+.blog-post-page .blog-back-cta h2{
+  font-size:clamp(34px,5vw,58px);
+  line-height:1;
+  margin:0 0 16px;
+}
+.blog-post-page .blog-back-cta p{
+  color:#d4e8f2;
+  font-size:19px;
+  line-height:1.6;
+  max-width:760px;
+  margin:0 auto;
+}
+.blog-post-page .blog-back-cta .actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-top:28px;
+}
+.blog-post-page .button.primary{
+  background:#33abe1!important;
+  border:2px solid #33abe1!important;
+  color:#061421!important;
+}
+.blog-post-page .button.secondary{
+  background:#fff!important;
+  border:2px solid #fff!important;
+  color:#071421!important;
+}
+@media(max-width:680px){
+  .blog-post-page .post-hero,
+  .blog-post-page .article-hero,
+  .blog-post-page .page-hero,
+  .blog-post-page .post-wrap,
+  .blog-post-page .article-wrap,
+  .blog-post-page .blog-content,
+  .blog-post-page .post-content,
+  .blog-post-page article,
+  .blog-post-page .blog-back-cta{
+    padding:56px 20px!important;
+  }
+}
+</style>
 </head>
-  <body>
+  <body class="blog-post-page">
 <div id="webact-header"></div>
 <main><section class="page-hero">
   <div>
     <p class="breadcrumb"><a href="../../../index.html">Home</a> / Blog</p>
-    <p class="eyebrow">July 12, 2017 / WebAct</p>
+    <p class="eyebrow"> / WebAct</p>
     <h1>Website Personalization and Why Is It So Important!</h1>
     <p class="hero-lede">The internet has become so competitive nowadays with everyone using online methods to sell products or advertise their services now. Because the demands and needs of every customer is different, making, finding &amp; keeping customers is a rather difficult task, especially since youâ€™re one company amongst thousands or even millions. In such a cut throat market, itâ€™s important that you know how to make individual mark stand out from the rest as well as always stay a step ahead of... Read More Read More</p>
     <div class="hero-actions">
@@ -62,14 +190,14 @@ body.webact-search-open .webact-search-overlay{display:flex}
 </section>
 <section class="section blog-article-section">
   <article class="blog-article">
-    <div class="blog-article-meta"><span>By WebAct</span><span>July 12, 2017</span></div>
+    <div class="blog-article-meta"><span>By WebAct</span><span></span></div>
     <div class="blog-post-content"><p> The internet has become so competitive nowadays with everyone using online methods to sell products or advertise their services now. Because the demands and needs of every customer is different, making, finding & keeping customers is a rather difficult task, especially since youâ€™re one company amongst thousands or even millions. In such a cut throat market, itâ€™s important that you know how to make individual mark stand out from the rest as well as always stay a step ahead of... Read More Read More </p><p> The internet has become so competitive nowadays with everyone using online methods to sell products or advertise their services now. Because the demands and needs of every customer is different, making, finding & keeping customers is a rather difficult task, especially since youâ€™re one company amongst thousands or even millions. In such a cut throat market, itâ€™s important that you know how to make individual mark stand out from the rest as well as always stay a step ahead of you competition. This is why website personalization is crucial to the growth of your business. By personalizing your website, not only can you add your own style and quirkiness, but you have the potential to attract even more customers. </p><p> What is website personalization? <h3></h3> Now I know a lot of you are asking, what is website personalization? Website personalization is the process of dividing your customer base into different segments and providing personalized experiences for different visitors. In todayâ€™s world, just having your products or services online is not enough. Research suggests an online perspective visiting your website loses interest in a matter of 10 â€“ 20 seconds if they canâ€™t find what theyâ€™re looking for or if the website is too mundane. By providing your own individual spin on a visitorâ€™s experience to your website, you not only engage the visitor, but you peak their interest in learning more about your products or services. </p><p> There are many reasons why website personalization is important to the growth of your business. One reason is that website personalization can avoid a common problem that visitors face on a daily basis, â€œInformation Overloadâ€. Information overload is when as online prospects visits a website and is overload with random information that they canâ€™t navigate and find the proper information they were looking for so they leave. With website personalization you can create features that will essentially point the visitor in the right direction on your website. This can lead to an increase in sales for products or customer contact for business services. </p><p> Another reason why website personalization is needed is to make the content on your website unique to suit the customer. It makes no sense to create content if it is not of any use to a consumer in any way. Through website personalization the site can recognize its repeated customers and show them exactly what they are looking for. </p><p> Probably the most important reason why you need website personalization it to not only make the visitor feel welcome, but give them an individual experience they wonâ€™t find anywhere else. In fact if the website is personalized creatively, it can get a person addicted to a website. If the customer likes the interface he is bound to go to the website again and again. Word of mouth is still one of the major reasons for websites to gain popularity. If you can impress a visitor with website personalization, then you can definitely gain the traffic youâ€™re looking for so get your thinking caps on and create something to get your customers hooked! </p><p> If you donâ€™t know where to start or how to create website personalization, then youâ€™re in the right place! <a href="https://www.webact.com" target="_blank" rel="noopener"> WebAct </a> is a premier <a href="https://www.webact.com/web-design" target="_blank" rel="noopener"> web design </a> and <a href="https://www.webact.com/marketing" target="_blank" rel="noopener"> digital marketing </a> firm located in Denver, Colorado. We believe in creating the best professional, user-friendly websites through unparalleled, modern designs. With a unique <a href="https://www.webact.com/our-platform" target="_blank" rel="noopener"> website builder platform </a> , we can develop and integrate your businessâ€™ voice, brand, and identity into a new and innovate way to engage with your audience. <a href="https://www.webact.com/" target="_blank" rel="noopener"> Visit WebAct </a> and let us create the best website personalization for your business. </p></div>
     <div class="case-study-actions"><a href="../../../about/blog.html">Back to blog</a><a href="https://www.webact.com/tips/website-personalization-and-why-is-it-so-important32e07da5" target="_blank" rel="noopener">Original WebAct post</a></div>
   </article>
   <aside class="blog-sidebar">
     <p class="eyebrow">More WebAct Posts</p>
     <h2>Keep reading</h2>
-    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span>May 4, 2023</span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span>June 1, 2022</span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span>May 18, 2022</span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
+    <a href="../../../about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/index.html"><span></span><strong>Find Your Perfect Match: Best AI Software for Small Businesses</strong></a><a href="../../../about/blog/responsive-websites-success/index.html"><span></span><strong>Responsive Websites = Success</strong></a><a href="../../../about/blog/how-to-get-a-higher-roi-on-your-advertising/index.html"><span></span><strong>How to Get a Higher ROI on Your Advertising</strong></a>
   </aside>
 </section></main>
     <div id="webact-footer"></div>
