@@ -1,4 +1,4 @@
-window.WebActRoutes = {
+﻿window.WebActRoutes = {
   routes: {
     home: "/",
     contact: "/contact/index.html",

@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   function closeAll(header) {
     header.querySelectorAll('.wa-promodo-item.is-open').forEach(function (item) {
       item.classList.remove('is-open');

@@ -1,4 +1,4 @@
-window.webactPortfolioRowsPart3 = [
+﻿window.webactPortfolioRowsPart3 = [
   ["Inland Valley Driving School","Driving School","../../Resources/images/InlandValleyDrivingSchool-1920w.png",""],
   ["Inquiz Inspections","Home Services","../../Resources/images/Inquiz-Inspections-1920w.png",""],
   ["Insightifi","Business","../../Resources/images/insightifi-1920w.png",""],

@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   function closeAll(header) {
     header.querySelectorAll('.webact-nav-item.is-open').forEach(function (item) {
       item.classList.remove('is-open');

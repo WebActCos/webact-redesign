@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 
 const root = process.cwd();
@@ -74,7 +74,7 @@ function card(project) {
     <span>${escapeHtml(project.industry)}</span>
     <h3>${escapeHtml(project.name)}</h3>
     <p>${escapeHtml(project.description)}</p>
-    <strong>View Case Study →</strong>
+    <strong>View Case Study â†’</strong>
   </div>
 </a>`;
 }

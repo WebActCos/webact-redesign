@@ -1,10 +1,146 @@
-﻿<!doctype html>
+﻿$ErrorActionPreference = "Stop"
+
+$base = "https://website.webact.com"
+$listUrl = "https://website.webact.com/site/8cdfcf80/blog?preview=true"
+$root = ".\about\widget-knowledge-base"
+
+function CleanText($text){
+  if([string]::IsNullOrWhiteSpace($text)){ return "" }
+  $text = [System.Net.WebUtility]::HtmlDecode($text)
+  $text = $text -replace '<script[\s\S]*?</script>', ''
+  $text = $text -replace '<style[\s\S]*?</style>', ''
+  $text = $text -replace '<[^>]+>', ' '
+  $text = $text -replace [char]0x2018, "'"
+  $text = $text -replace [char]0x2019, "'"
+  $text = $text -replace [char]0x201C, '"'
+  $text = $text -replace [char]0x201D, '"'
+  $text = $text -replace [char]0x2013, "-"
+  $text = $text -replace [char]0x2014, "-"
+  $text = $text -replace [char]0x2026, "..."
+  $text = $text -replace '\s+', ' '
+  return $text.Trim()
+}
+
+function Slugify($text){
+  $text = CleanText $text
+  $text = $text.ToLower()
+  $text = $text -replace '&', 'and'
+  $text = $text -replace '[^a-z0-9]+', '-'
+  return $text.Trim('-')
+}
+
+function TitleFromSlug($slug){
+  return (Get-Culture).TextInfo.ToTitleCase(($slug -replace '-', ' '))
+}
+
+$listHtml = (Invoke-WebRequest -Uri $listUrl -UseBasicParsing).Content
+
+$linkMatches = [regex]::Matches($listHtml, '<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', 'IgnoreCase,Singleline')
+
+$remote = @{}
+
+foreach($m in $linkMatches){
+  $href = [System.Net.WebUtility]::HtmlDecode($m.Groups[1].Value)
+  $title = CleanText $m.Groups[2].Value
+
+  if($href -notmatch '/site/8cdfcf80/' -or $href -match '/blog'){
+    continue
+  }
+
+  if($href.StartsWith('/')){
+    $href = $base + $href
+  }
+
+  if($href -notmatch 'preview=true'){
+    if($href -match '\?'){
+      $href = $href + '&preview=true'
+    } else {
+      $href = $href + '?preview=true'
+    }
+  }
+
+  if($title.Length -lt 3){ continue }
+
+  $slug = Slugify ($title -replace '\s+Widget$', '')
+  if(-not $remote.ContainsKey($slug)){
+    $remote[$slug] = @{
+      Title = $title
+      Url = $href
+    }
+  }
+}
+
+$folders = Get-ChildItem $root -Directory
+
+foreach($folder in $folders){
+  $folderSlug = $folder.Name
+  $matchKey = $null
+
+  foreach($key in $remote.Keys){
+    if($folderSlug -eq $key -or $folderSlug -like "$key*" -or $key -like "$folderSlug*"){
+      $matchKey = $key
+      break
+    }
+  }
+
+  $title = TitleFromSlug $folderSlug
+  $sourceUrl = ""
+  $summary = "$title helps add useful functionality, improve the visitor experience, and make your WebAct website easier to use."
+  $body = @()
+  $img = "/webact-redesign/assets/professional-editor.png"
+
+  if($matchKey){
+    $title = $remote[$matchKey].Title
+    $sourceUrl = $remote[$matchKey].Url
+
+    try{
+      $remoteHtml = (Invoke-WebRequest -Uri $sourceUrl -UseBasicParsing).Content
+
+      $h1 = [regex]::Match($remoteHtml, '<h1[^>]*>(.*?)</h1>', 'IgnoreCase,Singleline')
+      if($h1.Success){
+        $foundTitle = CleanText $h1.Groups[1].Value
+        if($foundTitle.Length -gt 2){ $title = $foundTitle }
+      }
+
+      $imgMatch = [regex]::Match($remoteHtml, '<img[^>]+src="([^"]+)"[^>]*>', 'IgnoreCase,Singleline')
+      if($imgMatch.Success){
+        $img = [System.Net.WebUtility]::HtmlDecode($imgMatch.Groups[1].Value)
+        if($img.StartsWith('/')){ $img = $base + $img }
+      }
+
+      $paras = [regex]::Matches($remoteHtml, '<p[^>]*>(.*?)</p>|<li[^>]*>(.*?)</li>', 'IgnoreCase,Singleline')
+      foreach($p in $paras){
+        $txt = CleanText ($p.Groups[1].Value + $p.Groups[2].Value)
+        if($txt.Length -gt 35 -and $txt -notmatch 'By .* •|Share by|Back to top|Copyright|Privacy|Terms'){
+          $body += $txt
+        }
+      }
+
+      if($body.Count -gt 0){ $summary = $body[0] }
+      if($summary.Length -gt 340){
+        $summary = $summary.Substring(0,340)
+        $summary = $summary -replace '\s+\S*$', ''
+        $summary += "..."
+      }
+    } catch {
+      Write-Host "Could not fetch $sourceUrl" -ForegroundColor Yellow
+    }
+  }
+
+  if($body.Count -eq 0){
+    $body = @($summary, "Use this guide to understand how the widget works, when to use it, and how WebAct can help configure it on your website.")
+  }
+
+  $overviewHtml = ($body | Select-Object -First 8 | ForEach-Object { "<p>$([System.Net.WebUtility]::HtmlEncode($_))</p>" }) -join "`r`n"
+
+$html = @"
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VIDEO GRID | WebAct Widget Knowledge Base</title>
-<meta name="description" content="Video Grid Widget helps add useful functionality, improve the visitor experience, and make your WebAct website easier to use.">
+<title>$title | WebAct Widget Knowledge Base</title>
+<meta name="description" content="$([System.Net.WebUtility]::HtmlEncode($summary))">
 <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
@@ -18,19 +154,18 @@ html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!impo
 <section class="widget-guide-hero">
 <div>
 <p class="eyebrow">Widget Knowledge Base</p>
-<h1>VIDEO GRID</h1>
-<p>Video Grid Widget helps add useful functionality, improve the visitor experience, and make your WebAct website easier to use.</p>
+<h1>$title</h1>
+<p>$([System.Net.WebUtility]::HtmlEncode($summary))</p>
 <div class="hero-actions">
 <a class="button primary" href="/webact-redesign/contact/index.html">Get Help With This Widget</a>
 <a class="button secondary" href="/webact-redesign/about/widget-knowledge-base.html">Back to Widget Guides</a>
 </div>
 </div>
-<div class="widget-hero-media"><img src="https://lirp.cdn-website.com/8cdfcf80/dms3rep/multi/opt/webactwidgets-1920w.png" alt="VIDEO GRID"></div>
+<div class="widget-hero-media"><img src="$img" alt="$([System.Net.WebUtility]::HtmlEncode($title))"></div>
 </section>
 <section class="section soft">
 <div class="heading"><p class="eyebrow">Overview</p><h2>What this widget helps you do.</h2><p>Use this guide to understand the widget, how it supports your website, and when it may be useful for your business.</p></div>
-<div class="overview"><p>Video Grid Widget helps add useful functionality, improve the visitor experience, and make your WebAct website easier to use.</p>
-<p>Use this guide to understand how the widget works, when to use it, and how WebAct can help configure it on your website.</p></div>
+<div class="overview">$overviewHtml</div>
 </section>
 <section class="section">
 <div class="heading"><p class="eyebrow">Benefits</p><h2>Why customers use this widget.</h2></div>
@@ -41,7 +176,7 @@ html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!impo
 </div>
 </section>
 <section class="final-cta">
-<h2>Need help with </h2>
+<h2>Need help with $title?</h2>
 <p>WebAct can help you understand this widget, set it up correctly, or recommend the right feature for your website goals.</p>
 <div class="hero-actions">
 <a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
@@ -56,3 +191,11 @@ html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!impo
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 </body>
 </html>
+"@
+
+  Set-Content (Join-Path $folder.FullName "index.html") $html -Encoding UTF8 -NoNewline
+}
+
+git add about/widget-knowledge-base
+git commit -m "Rebuild widget guide pages from WebAct widget source"
+git push origin main

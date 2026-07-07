@@ -1,4 +1,4 @@
-const toggle = document.querySelector(".menu-toggle");
+﻿const toggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".primary-nav");
 const desktopNav = window.matchMedia("(min-width: 861px)");
 const siteHeader = document.querySelector(".site-header");
@@ -556,7 +556,7 @@ function ensureProfessionalStartModal() {
   modal.innerHTML = `
     <div class="editor-modal-backdrop" data-professional-start-close></div>
     <div class="editor-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="professional-start-title">
-      <button class="modal-close" type="button" aria-label="Close" data-professional-start-close>×</button>
+      <button class="modal-close" type="button" aria-label="Close" data-professional-start-close>Ã—</button>
       <div class="modal-startText">
         <p class="eyebrow">WebAct Website Builder</p>
         <h2 id="professional-start-title">Start Building</h2>

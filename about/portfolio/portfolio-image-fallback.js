@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+﻿document.addEventListener('DOMContentLoaded', function () {
   var images = document.querySelectorAll('.portfolio-thumb img, .case-image img');
   images.forEach(function (image) {
     image.addEventListener('error', function () {

@@ -1,4 +1,4 @@
-window.webactPortfolioRowsPart2 = [
+﻿window.webactPortfolioRowsPart2 = [
   ["Deaf Vacation Cruise","Travel","../../Resources/images/deaf-vacation-cruise.png",""],
   ["Deannas Papillons","Pet Services","../../Resources/images/WebactDeannasPapillons-1920w.png",""],
   ["Dental Arts","Dental","../../Resources/images/DentalArts-1920w.png",""],

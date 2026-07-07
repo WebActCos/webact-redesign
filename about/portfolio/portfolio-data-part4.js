@@ -1,4 +1,4 @@
-window.webactPortfolioRowsPart4 = [
+﻿window.webactPortfolioRowsPart4 = [
   ["Pompano Glass","Home Services","../../Resources/images/pompanoGlass-1920w.png",""],
   ["Pork Chop's Truck and Auto","Automotive","../../Resources/images/Pork-Chop-s-Truck-and-Auto-1920w.png",""],
   ["Pride & Swagger","Business","../../Resources/images/WebactPrride-Swagger-1920w.png",""],

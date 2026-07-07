@@ -1,4 +1,4 @@
-/* ===========================================
+﻿/* ===========================================
    WebAct Marketing System
    Shared stylesheet for Marketing hub and Marketing service pages.
    Load after styles.css.
@@ -341,7 +341,7 @@
 .marketing-service-card li::before,
 .marketing-comparison-grid li::before,
 .marketing-price-card li::before{
-  content:"✓";
+  content:"âœ“";
   position:absolute;
   left:0;
   color:#0878b8;
@@ -528,7 +528,7 @@
 
 .marketing-checklist span::before,
 .marketing-checklist li::before{
-  content:"✓";
+  content:"âœ“";
   position:absolute;
   left:16px;
   color:#0878b8;
@@ -637,7 +637,7 @@
 
 .marketing-related-section .marketing-service-card a::after,
 .marketing-service-card a::after{
-  content:" →";
+  content:" â†’";
 }
 
 @media(max-width:1180px){

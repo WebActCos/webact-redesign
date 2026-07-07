@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
 
 const footer = `
 <footer class="wa-global-footer">
@@ -59,11 +59,11 @@ business email, and online marketing solutions.
 
 <a href="https://facebook.com/webactcompany" target="_blank" aria-label="Facebook">f</a>
 
-<a href="https://instagram.com/webactcompany" target="_blank" aria-label="Instagram">◎</a>
+<a href="https://instagram.com/webactcompany" target="_blank" aria-label="Instagram">â—Ž</a>
 
 <a href="https://linkedin.com/company/webact" target="_blank" aria-label="LinkedIn">in</a>
 
-<a href="https://youtube.com/@webact" target="_blank" aria-label="YouTube">▶</a>
+<a href="https://youtube.com/@webact" target="_blank" aria-label="YouTube">â–¶</a>
 
 <a href="https://x.com/web_act" target="_blank" aria-label="X">X</a>
 
@@ -142,7 +142,7 @@ business email, and online marketing solutions.
 <div>
 
 <div class="wa-footer-stars">
-★★★★★
+â˜…â˜…â˜…â˜…â˜…
 </div>
 
 <strong>
@@ -150,7 +150,7 @@ Trusted by Businesses Across the United States
 </strong>
 
 <span>
-Professional Website Design • SEO • Advertising • AI Optimization
+Professional Website Design â€¢ SEO â€¢ Advertising â€¢ AI Optimization
 </span>
 
 </div>
@@ -171,7 +171,7 @@ Professional Website Design • SEO • Advertising • AI Optimization
 
 <div>
 
-© 2026 WebAct
+Â© 2026 WebAct
 
 <br>
 

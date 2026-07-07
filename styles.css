@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --blue: #30aee9;
   --blue-dark: #0878b8;
   --ink: #06111d;
@@ -5179,7 +5179,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .page-card a::after{
-  content:" →";
+  content:" â†’";
 }
 
 /* Dark connected strategy CTA bands */
@@ -5283,7 +5283,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .benefit-grid li::before{
-  content:"✓";
+  content:"âœ“";
   position:absolute;
   left:0;
   top:0;
@@ -5379,7 +5379,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .detail-list span::before{
-  content:"✓";
+  content:"âœ“";
   position:absolute;
   left:16px;
   color:#0878b8;

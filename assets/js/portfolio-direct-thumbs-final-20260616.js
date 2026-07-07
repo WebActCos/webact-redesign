@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (window.__webactPortfolioDirectThumbsFinal20260616) return;
   window.__webactPortfolioDirectThumbsFinal20260616 = true;
 

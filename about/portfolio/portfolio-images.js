@@ -1,4 +1,4 @@
-window.webactPortfolioImageMap = {
+﻿window.webactPortfolioImageMap = {
   "Ace Pet Services": "https://www.webact.com/Resources/images/ace%20pet%20services-1920w.png",
   "Advanced Business Systems": "https://www.webact.com/Resources/images/a-b-s-1920w.png",
   "Aid The Children": "https://www.webact.com/Resources/images/Aid-The-Children-1920w.png",

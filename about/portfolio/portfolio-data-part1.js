@@ -1,4 +1,4 @@
-window.webactPortfolioRowsPart1 = [
+﻿window.webactPortfolioRowsPart1 = [
   ["2go Coconut","Restaurant","../../Resources/images/2goCoconut.png",""],
   ["360 Sales Advantage","Professional Services","../../Resources/images/360 sales advantage-1920w.png",""],
   ["A Breed Apart Papillons","Pet Services","../../Resources/images/a-breed-apart-papillons-1920w.png",""],

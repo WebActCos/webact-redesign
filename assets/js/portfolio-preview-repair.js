@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (window.__webactPortfolioPreviewRepair) return;
   window.__webactPortfolioPreviewRepair = true;
 
