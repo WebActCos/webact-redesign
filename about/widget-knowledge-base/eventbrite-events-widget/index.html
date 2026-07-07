@@ -1,144 +1,53 @@
 ﻿<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eventbrite Events Widget | WebAct Widget Knowledge Base</title>
-  <meta name="description" content="Display Eventbrite events on a website so visitors can discover dates, event details, and registration paths.">
-  <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
-
-  <style>
-    html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
-    body{margin:0}
-    .widget-guide-page{color:#071421;background:#fff;overflow:visible!important}
-    .widget-guide-hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:100px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.85fr);gap:54px;align-items:center}
-    .widget-guide-hero h1{font-size:clamp(42px,6vw,76px);line-height:.98;margin:12px 0 22px;letter-spacing:-.05em;color:#fff}
-    .widget-guide-hero p{color:#d9edf8;font-size:20px;line-height:1.65;max-width:850px}
-    .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
-    .widget-hero-media{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:30px;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.28)}
-    .widget-hero-media img{width:100%;height:430px;object-fit:cover;border-radius:22px;display:block;background:#fff}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
-    .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:210px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important;transition:.2s ease}
-    .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
-    .button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
-    .section{padding:84px min(6vw,72px)}
-    .soft{background:#f4f8fb}
-    .heading{max-width:980px;margin:0 auto 44px;text-align:center}
-    .heading .eyebrow{color:#0c9bd2}
-    .heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}
-    .heading p{font-size:18px;line-height:1.65;color:#4b5b66}
-    .overview{max-width:980px;margin:0 auto;background:#fff;border:1px solid #e0ebf2;border-radius:28px;padding:34px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
-    .overview p{color:#4b5b66;font-size:18px;line-height:1.8}
-    .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1280px;margin:0 auto}
-    .feature-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:28px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
-    .feature-card h3{font-size:23px;margin:0 0 10px;color:#071421}
-    .feature-card p{color:#4b5b66;line-height:1.65;margin:0}
-    .steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:1280px;margin:0 auto}
-    .step{background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:24px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
-    .step strong{display:flex;width:42px;height:42px;border-radius:14px;background:#33abe1;color:#061421;align-items:center;justify-content:center;font-weight:900;margin-bottom:14px}
-    .step h3{font-size:21px;margin:0 0 8px}
-    .step p{color:#4b5b66;line-height:1.6}
-    .faq-list{max-width:980px;margin:0 auto;display:grid;gap:14px}
-    details{background:#fff;border:1px solid #e0ebf2;border-radius:18px;box-shadow:0 12px 30px rgba(7,20,33,.06);overflow:hidden}
-    summary{cursor:pointer;font-weight:900;font-size:18px;padding:20px 22px;list-style:none;display:flex;justify-content:space-between;gap:18px}
-    summary::-webkit-details-marker{display:none}
-    summary:after{content:'+';font-size:26px;color:#0c9bd2;line-height:1}
-    details[open] summary:after{content:'–'}
-    details p{color:#4b5b66;line-height:1.7;margin:0;padding:0 22px 22px}
-    .final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}
-    .final-cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}
-    .final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
-    .final-cta .hero-actions{justify-content:center}
-    @media(max-width:1080px){.widget-guide-hero{grid-template-columns:1fr}.feature-grid,.steps{grid-template-columns:1fr 1fr}.widget-hero-media img{height:auto}}
-    @media(max-width:680px){.widget-guide-hero,.section,.final-cta{padding:56px 20px}.feature-grid,.steps{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EVENTBRITE EVENTS | WebAct Widget Knowledge Base</title>
+<meta name="description" content="Purchase Widget Widget Knowledge Article window.customWidgetsFunctions[&quot;73a6930fbf924df6a52e3a68dc19ec13~41&quot;] = function (element, data, api) { loadmonJS(document,&#39;script&#39;,&#39;momJs&#39;); let EVENTS = []; const { AccessToken, SearchQuery } = data.config; // $(document).ready(function () { dmAPI.runOnReady(`eventbriteEventsWidget`, () =&gt; {...">
+<link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<style>
+html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}body{margin:0}.widget-guide-page{color:#071421;background:#fff}.widget-guide-hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:100px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.85fr);gap:54px;align-items:center}.widget-guide-hero h1{font-size:clamp(42px,6vw,76px);line-height:.98;margin:12px 0 22px;letter-spacing:-.05em;color:#fff}.widget-guide-hero p{color:#d9edf8;font-size:20px;line-height:1.65}.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}.widget-hero-media{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:30px;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.28)}.widget-hero-media img{width:100%;height:430px;object-fit:cover;border-radius:22px;display:block;background:#fff}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:210px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}.button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}.button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}.section{padding:84px min(6vw,72px)}.soft{background:#f4f8fb}.heading{max-width:980px;margin:0 auto 44px;text-align:center}.heading .eyebrow{color:#0c9bd2}.heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}.heading p{font-size:18px;line-height:1.65;color:#4b5b66}.overview{max-width:980px;margin:0 auto;background:#fff;border:1px solid #e0ebf2;border-radius:28px;padding:34px;box-shadow:0 18px 42px rgba(7,20,33,.08)}.overview p{color:#4b5b66;font-size:18px;line-height:1.8}.feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1280px;margin:0 auto}.feature-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:28px;box-shadow:0 18px 42px rgba(7,20,33,.08)}.feature-card h3{font-size:23px;margin:0 0 10px;color:#071421}.feature-card p{color:#4b5b66;line-height:1.65;margin:0}.final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}.final-cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}.final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}.final-cta .hero-actions{justify-content:center}@media(max-width:1080px){.widget-guide-hero{grid-template-columns:1fr}.feature-grid{grid-template-columns:1fr 1fr}.widget-hero-media img{height:auto}}@media(max-width:680px){.widget-guide-hero,.section,.final-cta{padding:56px 20px}.feature-grid{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}}
+</style>
 </head>
-
 <body class="widget-guide-page">
 <div id="webact-header"></div>
-
 <main>
-  <section class="widget-guide-hero">
-    <div>
-      <p class="eyebrow">Widget Knowledge Base</p>
-      <h1>Eventbrite Events Widget</h1>
-      <p>Display Eventbrite events on a website so visitors can discover dates, event details, and registration paths.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="/webact-redesign/contact/index.html">Get Help With This Widget</a>
-        <a class="button secondary" href="/webact-redesign/about/widget-knowledge-base.html">Back to Widget Guides</a>
-      </div>
-    </div>
-    <div class="widget-hero-media">
-      <img src="../../../assets/widgets.svg" alt="Eventbrite Events Widget">
-    </div>
-  </section>
-
-  <section class="section soft">
-    <div class="heading">
-      <p class="eyebrow">Overview</p>
-      <h2>What this widget helps you do.</h2>
-      <p>Use this guide to understand the widget, how it supports your website, and when it may be useful for your business.</p>
-    </div>
-    <div class="overview">
-      <p>Display Eventbrite events on a website so visitors can discover dates, event details, and registration paths.</p>
-<p>Display Eventbrite events on a website so visitors can discover dates, event details, and registration paths.</p>
-<p>Display Eventbrite events on a website so visitors can discover dates, event details, and registration paths.</p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="heading">
-      <p class="eyebrow">Benefits</p>
-      <h2>Why customers use this widget.</h2>
-    </div>
-    <div class="feature-grid">
-      <article class="feature-card"><h3>Improve Visitor Experience</h3><p>Add useful website functionality that helps visitors interact with your business more easily.</p></article>
-      <article class="feature-card"><h3>Works Across Devices</h3><p>Designed to support desktop, tablet, and mobile website experiences.</p></article>
-      <article class="feature-card"><h3>Supports Your Website Goals</h3><p>Use this widget to improve engagement, navigation, content presentation, or customer action.</p></article>
-      <article class="feature-card"><h3>Easy to Understand</h3><p>This guide explains the widget in customer-friendly language without unnecessary technical complexity.</p></article>
-      <article class="feature-card"><h3>Flexible Website Feature</h3><p>Use the widget as part of your website design, service pages, landing pages, or support content.</p></article>
-      <article class="feature-card"><h3>WebAct Support Available</h3><p>If setup or customization is needed, WebAct can help you configure the widget correctly.</p></article>
-    </div>
-  </section>
-
-  <section class="section soft">
-    <div class="heading">
-      <p class="eyebrow">How It Works</p>
-      <h2>Simple setup path.</h2>
-    </div>
-    <div class="steps">
-      <article class="step"><strong>1</strong><h3>Choose the Widget</h3><p>Select the widget or website feature that matches your goal.</p></article>
-      <article class="step"><strong>2</strong><h3>Add Your Content</h3><p>Update the text, images, links, settings, or connected information.</p></article>
-      <article class="step"><strong>3</strong><h3>Style the Design</h3><p>Match the widget to your website branding, layout, and page design.</p></article>
-      <article class="step"><strong>4</strong><h3>Publish Changes</h3><p>Preview the page and publish when the widget is ready for visitors.</p></article>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="heading">
-      <p class="eyebrow">FAQ</p>
-      <h2>Common questions about this widget.</h2>
-    </div>
-    <div class="faq-list">
-      <details open><summary>Who should use </summary><p>Businesses that want to improve their website experience, add more functionality, or make it easier for visitors to interact with important content may benefit from this widget.</p></details>
-      <details><summary>Can WebAct help set this up?</summary><p>Yes. WebAct can help install, configure, customize, or troubleshoot this widget depending on your website and support needs.</p></details>
-      <details><summary>Will this work on mobile?</summary><p>WebAct widget pages are designed with responsive websites in mind, but final display may depend on the widget configuration and page layout.</p></details>
-      <details><summary>Can this widget be customized?</summary><p>Many widgets can be adjusted with content, styling, layout options, or custom support. Contact WebAct if you need custom changes.</p></details>
-    </div>
-  </section>
-
-  <section class="final-cta">
-    <h2>Need help with </h2>
-    <p>WebAct can help you understand this widget, set it up correctly, or recommend the right website feature for your goals.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
-      <a class="button secondary" href="/webact-redesign/about/widget-knowledge-base.html">Back to Widget Guides</a>
-    </div>
-  </section>
+<section class="widget-guide-hero">
+<div>
+<p class="eyebrow">Widget Knowledge Base</p>
+<h1>EVENTBRITE EVENTS</h1>
+<p>Purchase Widget Widget Knowledge Article window.customWidgetsFunctions[&quot;73a6930fbf924df6a52e3a68dc19ec13~41&quot;] = function (element, data, api) { loadmonJS(document,&#39;script&#39;,&#39;momJs&#39;); let EVENTS = []; const { AccessToken, SearchQuery } = data.config; // $(document).ready(function () { dmAPI.runOnReady(`eventbriteEventsWidget`, () =&gt; {...</p>
+<div class="hero-actions">
+<a class="button primary" href="/webact-redesign/contact/index.html">Get Help With This Widget</a>
+<a class="button secondary" href="/webact-redesign/about/widget-knowledge-base.html">Back to Widget Guides</a>
+</div>
+</div>
+<div class="widget-hero-media"><img src="https://lirp.cdn-website.com/8cdfcf80/dms3rep/multi/opt/webactwidgets-1920w.png" alt="EVENTBRITE EVENTS"></div>
+</section>
+<section class="section soft">
+<div class="heading"><p class="eyebrow">Overview</p><h2>What this widget helps you do.</h2><p>Use this guide to understand the widget, how it supports your website, and when it may be useful for your business.</p></div>
+<div class="overview"><p>Purchase Widget Widget Knowledge Article window.customWidgetsFunctions[&quot;73a6930fbf924df6a52e3a68dc19ec13~41&quot;] = function (element, data, api) { loadmonJS(document,&#39;script&#39;,&#39;momJs&#39;); let EVENTS = []; const { AccessToken, SearchQuery } = data.config; // $(document).ready(function () { dmAPI.runOnReady(`eventbriteEventsWidget`, () =&gt; { const orgEndpoint = `https://www.eventbriteapi.com/v3/users/me/organizations/?token=${AccessToken}`; if (!SearchQuery) { $.ajax({ dataType: &#39;JSON&#39;, url: orgEndpoint, type: &#39;GET&#39;, crossDomain: true, }) .done(function (res) { // console.log(&#39;Organization data received&#39;); const orgID = res.organizations[0].id; getEventData( `organizations/${orgID}/events/?expand=venue,ticket_group` ); }) .fail((error) =&gt; console.error(&#39;Error: &#39;, error)) .always(() =&gt; { // console.log(&#39;Completed organization data load&#39;); }); } else { getEventData(`events/search/?expand=venue&amp;q=${SearchQuery}`); } }); function getEventData(url) { let URL = `https://www.eventbriteapi.com/v3/${url}&amp;token=${AccessToken}`; const getEventsJSON = (newurl) =&gt; { let resObj = { has_error: false, continue_token: false, }; $.ajax({ dataType: &#39;json&#39;, url: newurl, type: &#39;GET&#39;, async: false, crossDomain: true, }) .done(function (res) { // console.log(&#39;Eventbrite data received: &#39;, res); if (res.pagination.has_more_items) { res.events.forEach((element) =&gt; EVENTS.push(element)); resObj.continue_token = res.pagination.continuation; } else { res.events.forEach((element) =&gt; EVENTS.push(element)); } }) .fail(function (error) { console.log(error); console.error( &#39;Critical Error: Not able to load Eventbrite data&#39;, error ); resObj.has_error = true; }) .always(function () { console.log(&#39;Completed Eventbrite Load&#39;); }); return resObj; }; let getEventsRes = getEventsJSON(URL); // console.log(getEventsRes) while (getEventsRes.continue_token) { if (getEventsRes.has_error) { break; } let continue_token = getEventsRes.continue_token; let newurl = URL + &#39;&amp;continuation=&#39; + continue_token; getEventsRes = getEventsJSON(newurl); // console.log(getEventsRes) } // console.log(EVENTS); if (!getEventsRes.has_error) { if (data.config.DisplayType === &#39;Calendar&#39;) { $.getScript( &#39;https://cdn.jsdelivr.net/gh/kierancz/Calendario@1.0.0/js/jquery.calendario.min.js&#39;, calendarInit ); $.getScript( &#39;https://cdn.jsdelivr.net/npm/micromodal/dist/micromodal.min.js&#39;, function () { MicroModal.init(); } ); } else { // EVENTS = EVENTS.slice(0, data.config.EventNum); if (data.config.HidePast) { // if(!isPastEvent(event)) html += renderEventCard(event); EVENTS = EVENTS.filter(isFutureEvent); } else if (data.config.HideFuture) { // if(!isFutureEvent(event)) html += renderEventCard(event); EVENTS = EVENTS.filter(isPastEvent); } //console.log(EVENTS.length) EVENTS = EVENTS.slice(0, parseInt(data.config.EventNum) - 1); $(&#39;.event-container&#39;).empty().append(getCardEvents()); makeImgsSameHeight(); } } } function getCardEvents() { let html = &#39;&#39;; // EVENTS.forEach(function(event, index) { // console.log(event); // if(data.config.HidePast) { // if(!isPastEvent(event)) html += renderEventCard(event); // } else if(data.config.HideFuture) { // if(!isFutureEvent(event)) html += renderEventCard(event); // } // else { // html += renderEventCard(event); // } // }); EVENTS.forEach((event, index) =&gt; (html += renderEventCard(event))); return html; } function renderEventCard(event) { // console.log(event); const img = !!event.logo ? event.logo.url : &#39;&#39;; const name = !!event.name.text ? event.name.text : &#39;&#39;; const url = !!event.url ? event.url : &#39;&#39;; const desc = !!event.description ? !!event.description.html ? event.description.html : &#39;&#39; : &#39;&#39;; const venueName = !!event.venue ? !!event.venue.name ? event.venue.name + &#39;, &#39; : &#39;&#39; : &#39;&#39;; const venueCity = !!event.venue ? event.venue.address.city : &#39;&#39;; const venue = !!event.venue ? &#39; &#39; + venueName + venueCity + &#39;</p></div>
+</section>
+<section class="section">
+<div class="heading"><p class="eyebrow">Benefits</p><h2>Why customers use this widget.</h2></div>
+<div class="feature-grid">
+<article class="feature-card"><h3>Improve Visitor Experience</h3><p>Add useful functionality that helps visitors interact with your business more easily.</p></article>
+<article class="feature-card"><h3>Works Across Devices</h3><p>Supports desktop, tablet, and mobile website experiences.</p></article>
+<article class="feature-card"><h3>Flexible Website Feature</h3><p>Use it on service pages, landing pages, support pages, or other key website areas.</p></article>
+</div>
+</section>
+<section class="final-cta">
+<h2>Need help with </h2>
+<p>WebAct can help you understand this widget, set it up correctly, or recommend the right feature for your website goals.</p>
+<div class="hero-actions">
+<a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
+<a class="button secondary" href="/webact-redesign/about/widget-knowledge-base.html">Back to Widget Guides</a>
+</div>
+</section>
 </main>
-
 <div id="webact-footer"></div>
 <script src="/webact-redesign/script.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
