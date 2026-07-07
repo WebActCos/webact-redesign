@@ -67,7 +67,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Advanced Business Systems",
-    "Professional Services",
+    "IT Services",
     "/webact-redesign/Resources/images/a-b-s-1920w.png",
     ""
   ],
@@ -85,7 +85,7 @@ window.webactPortfolioRows = [
   ],
   [
     "All Concrete Works & Landscaping",
-    "Home Services",
+    "Landscaping",
     "/webact-redesign/Resources/images/ALL-CONCRETE-WORKS---LANDSCAPING-1920w.png",
     ""
   ],
@@ -133,7 +133,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Aspire Counseling",
-    "Business",
+    "Counseling",
     "/webact-redesign/Resources/images/AspireCounseling-1920w.png",
     ""
   ],
@@ -163,13 +163,13 @@ window.webactPortfolioRows = [
   ],
   [
     "Barbarians Cave Surf",
-    "Restaurant",
+    "Travel",
     "/webact-redesign/Resources/images/WebactBarbariansCaveSurf-e6d3047a-1920w.png",
     ""
   ],
   [
     "Barner Moving",
-    "Restaurant",
+    "Moving",
     "/webact-redesign/Resources/images/WebactBarnerMoving-1920w.png",
     ""
   ],
@@ -205,7 +205,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Board Game Republic",
-    "Business",
+    "eCommerce",
     "/webact-redesign/Resources/images/Board-Game-Republic-1920w.png",
     ""
   ],
@@ -235,7 +235,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Building Better Transit",
-    "Home Services",
+    "Professional Services",
     "/webact-redesign/Resources/images/Building_Better_Transit-1920w.png",
     ""
   ],
@@ -247,7 +247,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Callahan Hayes",
-    "Business",
+    "Professional Services",
     "/webact-redesign/Resources/images/callahanHayes-1920w.png",
     ""
   ],
@@ -301,7 +301,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Christy Root Designs",
-    "Printing & Graphics",
+    "Construction",
     "/webact-redesign/Resources/images/christyRootDesigns-1920w.png",
     ""
   ],
@@ -325,7 +325,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Colorado Creditor Bar Association",
-    "Restaurant",
+    "Legal",
     "/webact-redesign/Resources/images/COLORADO-CREDITOR-BAR-1920w.png",
     ""
   ],
@@ -355,7 +355,7 @@ window.webactPortfolioRows = [
   ],
   [
     "CT Gasket",
-    "Business",
+    "Automotive",
     "/webact-redesign/Resources/images/ctGasket-1920w.png",
     ""
   ],
@@ -367,7 +367,7 @@ window.webactPortfolioRows = [
   ],
   [
     "D And D Machinery Movers",
-    "Construction",
+    "Moving",
     "/webact-redesign/Resources/images/dAndDMachineryMovers-1920w.png",
     ""
   ],
@@ -409,7 +409,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Denver Issa",
-    "Community",
+    "Non Profit",
     "/webact-redesign/Resources/images/Denver-Issa-1920w.png",
     ""
   ],
@@ -421,7 +421,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Denver Towing",
-    "Home Services",
+    "Towing",
     "/webact-redesign/Resources/images/WebactDenverTowing-1920w.png",
     ""
   ],
@@ -565,7 +565,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Firm Group",
-    "Professional Services",
+    "Legal",
     "/webact-redesign/Resources/images/Firm-Group-1920w.png",
     ""
   ],
@@ -577,13 +577,13 @@ window.webactPortfolioRows = [
   ],
   [
     "Fr Bumper Solutions",
-    "Business",
+    "Automotive",
     "/webact-redesign/Resources/images/Fr-Bumper-Solutions-1920w.png",
     ""
   ],
   [
     "Frameless Shower Door",
-    "Home Services",
+    "Glass Repair",
     "/webact-redesign/Resources/images/WebactFramelessShowerDoor-1920w.png",
     ""
   ],
@@ -625,7 +625,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Glass Act",
-    "Home Services",
+    "Glass Repair",
     "/webact-redesign/Resources/images/glass act 970-1920w.png",
     ""
   ],
@@ -643,7 +643,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Great Escape",
-    "Professional Services",
+    "Counseling",
     "/webact-redesign/Resources/images/great escape-1920w.png",
     ""
   ],
@@ -667,7 +667,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Grin & Barrett Charity Ride",
-    "Restaurant",
+    "Non Profit",
     "/webact-redesign/Resources/images/gb biketours-1920w.png",
     ""
   ],
@@ -745,7 +745,7 @@ window.webactPortfolioRows = [
   ],
   [
     "IDT",
-    "Business",
+    "Technology",
     "/webact-redesign/Resources/images/WebactIDT-1920w.png",
     ""
   ],
@@ -775,7 +775,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Integration Design",
-    "Printing & Graphics",
+    "Design",
     "/webact-redesign/Resources/images/WebactIntergrationDesign-1920w.png",
     ""
   ],
@@ -811,7 +811,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Karma Tour Hawaii",
-    "Business",
+    "Travel",
     "/webact-redesign/Resources/images/WebactKarmaTourHawaii-1920w.png",
     ""
   ],
@@ -823,7 +823,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Kenyon Homecare Consulting",
-    "Healthcare",
+    "Consulting",
     "/webact-redesign/Resources/images/Kenyonn-Homecare-Consulting-1920w.png",
     ""
   ],
@@ -865,7 +865,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Little Caesars Pueblo",
-    "Business",
+    "Restaurant",
     "/webact-redesign/Resources/images/littleCaesars-f8b3a4d9-1920w.png",
     ""
   ],
@@ -877,7 +877,7 @@ window.webactPortfolioRows = [
   ],
   [
     "M Communications",
-    "Professional Services",
+    "Technology",
     "/webact-redesign/Resources/images/WebactMCommunications-1920w.png",
     ""
   ],
@@ -1033,7 +1033,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Okunade",
-    "Business",
+    "Legal",
     "/webact-redesign/Resources/images/WebactOkunade-1920w.png",
     ""
   ],
@@ -1087,7 +1087,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Paw Power Agility Equipment",
-    "Energy",
+    "Pet Services",
     "/webact-redesign/Resources/images/Paw_Power_Agility_Equip-1920w.png",
     ""
   ],
@@ -1129,7 +1129,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Platinum Registration",
-    "Business",
+    "Consulting",
     "/webact-redesign/Resources/images/Platinum-Registration-1920w.png",
     ""
   ],
@@ -1279,7 +1279,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Style Savy Designs",
-    "Printing & Graphics",
+    "Design",
     "/webact-redesign/Resources/images/WebactStyleSavy-1920w.png",
     ""
   ],
@@ -1393,7 +1393,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Turf Magic",
-    "Business",
+    "Landscaping",
     "/webact-redesign/Resources/images/Turf-Magic-1920w.png",
     ""
   ],
@@ -1411,7 +1411,7 @@ window.webactPortfolioRows = [
   ],
   [
     "Vi'TalDerm MD",
-    "Business",
+    "Salon & Beauty",
     "/webact-redesign/Resources/images/vitalDerm-1920w.png",
     ""
   ],
