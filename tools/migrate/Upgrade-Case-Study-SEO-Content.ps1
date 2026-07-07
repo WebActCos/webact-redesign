@@ -1,146 +1,9 @@
-﻿<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio Case Study | WebAct</title>
-  <meta name="description" content="View a WebAct website design case study with project details, industry focus, design goals, and related portfolio examples.">
-  <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+$ErrorActionPreference = "Stop"
 
-  <style>
-    html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
-    body{margin:0}
-    .case-page{background:#fff;color:#071421}
-    .case-hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:100px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.85fr);gap:54px;align-items:center}
-    .case-hero h1{font-size:clamp(42px,6vw,76px);line-height:.98;margin:12px 0 22px;letter-spacing:-.05em;color:#fff}
-    .case-hero p{color:#d9edf8;font-size:20px;line-height:1.65;max-width:850px}
-    .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
-    .case-media{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:30px;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.28)}
-    .case-media img{width:100%;height:430px;object-fit:cover;border-radius:22px;display:block;background:#fff}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
-    .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:210px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}
-    .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
-    .button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
-    .section{padding:84px min(6vw,72px)}
-    .soft{background:#f4f8fb}
-    .heading{max-width:980px;margin:0 auto 44px;text-align:center}
-    .heading .eyebrow{color:#0c9bd2}
-    .heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}
-    .heading p{font-size:18px;line-height:1.65;color:#4b5b66}
-    .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:1180px;margin:0 auto}
-    .stat{background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:26px;text-align:center;box-shadow:0 18px 42px rgba(7,20,33,.08)}
-    .stat strong{display:block;color:#0c9bd2;font-size:34px;line-height:1;margin-bottom:8px}
-    .stat span{font-weight:900;color:#071421}
-    .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1280px;margin:0 auto}
-    .feature-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:28px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
-    .feature-card h3{font-size:23px;margin:0 0 10px;color:#071421}
-    .feature-card p{color:#4b5b66;line-height:1.65;margin:0}
-    .related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1400px;margin:0 auto}
-    .related-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;overflow:hidden;box-shadow:0 18px 42px rgba(7,20,33,.08);text-decoration:none;color:#071421}
-    .related-card img{width:100%;height:220px;object-fit:cover;display:block;background:#dcecf5}
-    .related-copy{padding:22px}
-    .related-copy span{display:inline-block;background:#eaf8fe;color:#0c658c;border:1px solid #bfe8f7;border-radius:999px;padding:8px 12px;font-weight:900;font-size:12px;text-transform:uppercase}
-    .related-copy h3{font-size:22px;line-height:1.15;margin:12px 0 0;color:#071421}
-    .final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}
-    .final-cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}
-    .final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
-    .final-cta .hero-actions{justify-content:center}
-    @media(max-width:1080px){.case-hero{grid-template-columns:1fr}.feature-grid,.related-grid{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}.case-media img{height:auto}}
-    @media(max-width:680px){.case-hero,.section,.final-cta{padding:56px 20px}.feature-grid,.related-grid,.stats{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}}
-  </style>
-</head>
+$pagePath = ".\about\portfolio\case-study.html"
+$page = Get-Content $pagePath -Raw
 
-<body class="case-page">
-<div id="webact-header"></div>
-
-<main>
-  <section class="case-hero">
-    <div>
-      <p class="eyebrow" id="case-category">Portfolio Case Study</p>
-      <h1 id="case-title">Website Design Case Study</h1>
-      <p id="case-summary">Explore this WebAct website design project, including its industry focus, presentation goals, mobile-friendly design, and online growth opportunities.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="/webact-redesign/contact/index.html">Start a Project</a>
-        <a class="button secondary" href="/webact-redesign/about/portfolio.html">Back to Portfolio</a>
-      </div>
-    </div>
-    <div class="case-media">
-      <img id="case-image" src="/webact-redesign/Resources/images/placeholder.png" alt="WebAct portfolio project">
-    </div>
-  </section>
-
-  <section class="section soft">
-    <div class="heading">
-      <p class="eyebrow">Project Snapshot</p>
-      <h2>Built for clarity, trust, and customer action.</h2>
-      <p id="case-overview">This portfolio project represents WebAct's approach to creating websites that help businesses present services, build trust, and guide visitors toward the next step.</p>
-    </div>
-
-    <div class="stats">
-      <article class="stat"><strong>01</strong><span>Industry-Focused Design</span></article>
-      <article class="stat"><strong>02</strong><span>Mobile-Friendly Layout</span></article>
-      <article class="stat"><strong>03</strong><span>Clear Conversion Paths</span></article>
-      <article class="stat"><strong>04</strong><span>SEO-Ready Structure</span></article>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="heading">
-      <p class="eyebrow">Design Focus</p>
-      <h2>What this project was designed to support.</h2>
-    </div>
-
-    <div class="feature-grid">
-      <article class="feature-card">
-        <h3>Professional First Impression</h3>
-        <p id="feature-one">The design helps visitors quickly understand the business, services, and reasons to trust the brand.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Service Clarity</h3>
-        <p id="feature-two">The structure supports clear service presentation so visitors can find what they need faster.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Customer Action</h3>
-        <p id="feature-three">Calls-to-action, navigation, and page flow help guide visitors toward contacting the business or taking the next step.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Responsive Experience</h3>
-        <p>The website presentation is designed to work across desktop, tablet, and mobile devices.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Search Visibility</h3>
-        <p>The project supports stronger online visibility through structured pages, clear content, and relevant industry presentation.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Brand Consistency</h3>
-        <p>The visual direction helps the business look more polished, professional, and consistent online.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="section soft">
-    <div class="heading">
-      <p class="eyebrow">Related Work</p>
-      <h2>More portfolio examples in this category.</h2>
-      <p>Browse similar WebAct projects from the same or related industries.</p>
-    </div>
-    <div class="related-grid" id="related-grid"></div>
-  </section>
-
-  <section class="final-cta">
-    <h2>Want a website like this?</h2>
-    <p>WebAct can help design, redesign, optimize, or market your website with a strategy built around your business goals.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
-      <a class="button secondary" href="/webact-redesign/design/index.html">View Design Services</a>
-    </div>
-  </section>
-</main>
-
-<div id="webact-footer"></div>
-
+$newScript = @'
 <script src="/webact-redesign/assets/js/portfolio-data-all.js"></script>
 <script id="case-study-dynamic-content">
 (function(){
@@ -292,10 +155,17 @@
   }
 })();
 </script>
+'@
 
-<script src="/webact-redesign/script.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
-</body>
-</html>
+$page = [regex]::Replace(
+  $page,
+  '(?s)<script src="/webact-redesign/assets/js/portfolio-data-all\.js"></script>\s*<script>\s*\(function\(\)\{.*?</script>',
+  $newScript,
+  1
+)
+
+Set-Content $pagePath $page -NoNewline -Encoding UTF8
+
+git add about/portfolio/case-study.html tools/migrate/Upgrade-Case-Study-SEO-Content.ps1
+git commit -m "Add unique SEO content to portfolio case studies"
+git push origin main
