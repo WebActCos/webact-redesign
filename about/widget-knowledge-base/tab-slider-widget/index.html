@@ -1,142 +1,148 @@
 ﻿<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tab Slider Widget | WebAct</title>
-    <meta name="description" content="Create a table without having to manage an outside spreadsheet. Individual data cell options include image, textbox, icon, and button.">
-    <link rel="stylesheet" href="../../../styles.css?v=reviews-layout-fix">
-<style id="webact-promodo-header-style">
-.webact-promodo-header{position:sticky;top:0;z-index:9999;background:#fff;border-bottom:1px solid #e5edf5;font-family:Inter,Arial,sans-serif}
-.webact-promodo-topbar{background:#061421;color:#fff;font-weight:800;text-align:center;padding:12px 20px;font-size:14px;line-height:1.35}
-.webact-promodo-topbar a{color:#33aee7;text-decoration:none;margin-left:24px;white-space:nowrap}
-.webact-promodo-inner{max-width:1460px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:22px 28px;background:#fff}
-.webact-promodo-logo{display:inline-flex;align-items:center;flex:0 0 auto;text-decoration:none}
-.webact-promodo-logo img{width:230px;max-width:24vw;height:auto;display:block}
-.webact-promodo-nav{display:flex;align-items:center;gap:4px;flex:1}
-.webact-promodo-nav-list{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;width:100%}
-.webact-promodo-nav-item{position:relative}
-.webact-promodo-nav-link,.webact-promodo-drop-trigger{appearance:none;border:0;background:transparent;color:#071421;text-decoration:none;font-weight:850;font-size:16px;line-height:1.1;padding:14px 12px;border-radius:8px;display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;font-family:inherit}
-.webact-promodo-nav-link:hover,.webact-promodo-drop-trigger:hover{background:#eef8fd;color:#0c9bd2}
-.webact-promodo-chevron{border:solid currentColor;border-width:0 2px 2px 0;display:inline-block;padding:4px;transform:rotate(45deg);margin-top:-5px}
-.webact-promodo-menu{display:none;position:absolute;top:100%;left:0;min-width:310px;background:#fff;border:1px solid #dce8f1;box-shadow:0 24px 50px rgba(2,18,32,.14);padding:16px;border-radius:0 0 14px 14px;grid-template-columns:repeat(2,minmax(145px,1fr));gap:6px}
-.webact-promodo-menu a{color:#071421;text-decoration:none;padding:10px 12px;border-radius:8px;font-weight:700;font-size:14px;line-height:1.25}
-.webact-promodo-menu a:hover{background:#eaf7fc;color:#119fd7}
-.webact-promodo-nav-item:hover .webact-promodo-menu,.webact-promodo-nav-item:focus-within .webact-promodo-menu,.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}
-.webact-promodo-actions{display:flex;align-items:center;gap:14px;flex:0 0 auto}
-.webact-promodo-search{background:transparent;border:0;color:#071421;font-weight:850;font-size:16px;cursor:pointer;padding:12px;border-radius:8px;font-family:inherit}
-.webact-promodo-search:hover{background:#eef8fd;color:#0c9bd2}
-.webact-promodo-cta{background:#33abe1;color:#071421;text-decoration:none;font-weight:900;padding:18px 24px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;box-shadow:0 8px 18px rgba(51,171,225,.28)}
-.webact-promodo-cta:hover{background:#249ad0;color:#071421}
-.webact-promodo-menu-toggle{display:none;border:1px solid #cfe0eb;background:#fff;border-radius:8px;width:46px;height:42px;align-items:center;justify-content:center;gap:5px;flex-direction:column;cursor:pointer}
-.webact-promodo-menu-toggle span{width:22px;height:2px;background:#071421;display:block}
-body.webact-search-open .webact-search-overlay{display:flex}
-.webact-search-overlay{display:none;position:fixed;inset:0;z-index:10000;background:rgba(4,17,29,.62);align-items:flex-start;justify-content:center;padding:120px 20px 20px}
-.webact-search-panel{width:min(760px,100%);background:#fff;border-radius:14px;padding:24px;box-shadow:0 28px 70px rgba(0,0,0,.22)}
-.webact-search-row{display:flex;gap:10px}
-.webact-search-row input{flex:1;border:1px solid #cddce7;border-radius:8px;padding:14px 16px;font-size:16px}
-.webact-search-row button,.webact-search-close{border:0;border-radius:8px;padding:14px 18px;font-weight:850;cursor:pointer;font-family:inherit}
-.webact-search-row button{background:#33abe1;color:#071421}.webact-search-close{background:#f2f6f9;color:#071421}
-@media (max-width:1250px){.webact-promodo-inner{padding:18px 20px;gap:14px}.webact-promodo-logo img{width:190px}.webact-promodo-nav-link,.webact-promodo-drop-trigger{font-size:14px;padding:12px 8px}.webact-promodo-cta{padding:15px 18px}}
-@media (max-width:1060px){.webact-promodo-inner{flex-wrap:wrap}.webact-promodo-menu-toggle{display:flex}.webact-promodo-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e5edf5;padding-top:12px}.webact-promodo-header.webact-nav-open .webact-promodo-nav{display:block}.webact-promodo-nav-list{display:block}.webact-promodo-nav-item{border-bottom:1px solid #edf3f7}.webact-promodo-nav-link,.webact-promodo-drop-trigger{width:100%;justify-content:space-between;padding:15px 2px;font-size:16px}.webact-promodo-menu{position:static;box-shadow:none;border:0;border-radius:0;padding:0 0 12px 12px;grid-template-columns:1fr}.webact-promodo-nav-item .webact-promodo-menu{display:none}.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}.webact-promodo-actions{margin-left:auto}.webact-promodo-search{font-size:0}.webact-promodo-search:before{content:'Search';font-size:15px}.webact-promodo-cta{padding:13px 16px}}
-@media (max-width:640px){.webact-promodo-topbar{font-size:12px}.webact-promodo-topbar a{display:inline-block;margin-left:10px}.webact-promodo-logo img{width:160px;max-width:52vw}.webact-promodo-inner{padding:14px}.webact-promodo-actions{width:100%;justify-content:space-between;order:3}.webact-promodo-cta{flex:1}.webact-search-overlay{padding-top:90px}.webact-search-row{flex-direction:column}}
-</style>
-
-<link rel="stylesheet" href="../../../assets/css/webact-promodo-nav.css">
-<link rel="stylesheet" href="../../../assets/css/webact-footer.css">
-</head>
-  <body>
-<div id="webact-header"></div>
-<main><section class="page-hero">
-  <div>
-    <p class="breadcrumb"><a href="../../../index.html">Home</a> / Widget Knowledge Base</p>
-    <p class="eyebrow">Advanced</p>
-    <h1>Tab Slider Widget</h1>
-    <p class="hero-lede">Create a table without having to manage an outside spreadsheet. Individual data cell options include image, textbox, icon, and button.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="../../../contact/index.html">Start a conversation</a>
-      <a class="button secondary" href="../../../pricing/index.html">View pricing</a>
-    </div>
-  </div>
-  <img src="../../../assets/widgets.svg" alt="Tab Slider Widget visual">
-</section>
-<section class="section website-design-intro widget-kb-article-intro">
-  <div class="service-link-row" aria-label="Widget article navigation">
-    <a href="../../../about/widget-knowledge-base.html">Widget Knowledge Base</a>
-    <a href="../../../addons/widgets.html">Widget Store</a>
-    <a href="../../../pricing/widgets.html">Widget Pricing</a>
-    <a href="../../../contact/index.html">Ask WebAct</a>
-  </div>
-  <div class="website-design-copy">
-    <h2>Tab Slider Widget</h2>
-    <p>Create a table without having to manage an outside spreadsheet. Individual data cell options include image, textbox, icon, and button.</p>
-  </div>
-</section>
-<section class="section widget-kb-article-section">
-  <article class="widget-kb-article-copy">
-    <p class="eyebrow">Advanced Widget</p>
-    <h2>What this widget does</h2>
-    <p>Create a table without having to manage an outside spreadsheet. Individual data cell options include image, textbox, icon, and button.</p>
-    <h3>Common uses</h3>
-    <ul>
-      <li>Add a focused feature to a Duda website without rebuilding the whole page.</li>
-      <li>Improve how visitors interact with calls to action, media, content, or business information.</li>
-      <li>Keep widget setup organized so the feature can be adjusted later by WebAct or the website owner.</li>
-    </ul>
-    <h3>Setup notes</h3>
-    <p>Widget options vary by feature, but most WebAct widgets include content settings, design controls, display options, and support paths for matching the widget to the website's brand and layout.</p>
-  </article>
-</section>
-<section class="section widget-kb-related-section">
-  <div class="section-heading compact">
-    <p class="eyebrow">More Advanced</p>
-    <h2>Related widget articles</h2>
-  </div>
-  <div class="widget-kb-grid">
-    <article class="widget-kb-card"><p class="eyebrow">Advanced</p><h3>Animate Content Widget</h3><p>Allows a CSS animation to be added to any text, icon, or image. Make it animate forever, or set the iterations.</p><a href="../../../about/widget-knowledge-base/animate-content-widget/index.html">Read article</a></article><article class="widget-kb-card"><p class="eyebrow">Advanced</p><h3>Duda API Widget</h3><p>Displays all the default Duda templates with navigation categories and animations. Includes ability to create a white label website and automatically updates when new templates are released. Does not include payment method.</p><a href="../../../about/widget-knowledge-base/duda-api-widget/index.html">Read article</a></article><article class="widget-kb-card"><p class="eyebrow">Advanced</p><h3>Duda Templates Widget</h3><p>Displays all the default Duda templates with navigation categories and animations. Includes preview link to each template and automatically updates when new templates are released.</p><a href="../../../about/widget-knowledge-base/duda-templates-widget/index.html">Read article</a></article>
-  </div>
-</section>
-<section class="section website-solutions-band">
-  <div>
-    <p class="eyebrow">Need Help?</p>
-    <h2>Ask WebAct about using this widget on your website.</h2>
-    <p>WebAct can help install, configure, style, or adjust widgets so they fit the current site design and customer workflow.</p>
-  </div>
-  <a class="button secondary" href="../../../contact/index.html">Contact WebAct</a>
-</section></main>
-    <div id="webact-footer"></div>
-    <script src="../../../script.js?v=reviews-layout-fix"></script>
-<script id="webact-promodo-header-script">
-(function(){
-  document.querySelectorAll('[data-webact-promodo-header]').forEach(function(header){
-    var toggle=header.querySelector('[data-webact-menu-toggle]');
-    if(toggle){toggle.addEventListener('click',function(){var open=header.classList.toggle('webact-nav-open');toggle.setAttribute('aria-expanded',open?'true':'false');});}
-    header.querySelectorAll('[data-webact-dropdown]').forEach(function(btn){
-      btn.addEventListener('click',function(e){
-        if(window.matchMedia('(max-width:1060px)').matches){
-          e.preventDefault();
-          var item=btn.closest('.webact-promodo-nav-item');
-          if(item){item.classList.toggle('webact-open');btn.setAttribute('aria-expanded',item.classList.contains('webact-open')?'true':'false');}
-        }
-      });
-    });
-    var search=header.querySelector('[data-webact-search-open]');
-    var close=header.querySelector('[data-webact-search-close]');
-    if(search){search.addEventListener('click',function(){document.body.classList.add('webact-search-open');var input=header.querySelector('.webact-search-row input');if(input){setTimeout(function(){input.focus();},50);}});}
-    if(close){close.addEventListener('click',function(){document.body.classList.remove('webact-search-open');});}
-  });
-  document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.body.classList.remove('webact-search-open');}});
-})();
-</script>
-
-<script src="../../../assets/js/webact-promodo-nav.js" defer></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tab Slider Widget | WebAct Widget Knowledge Base</title>
+  <meta name="description" content="Create a table without having to manage an outside spreadsheet. Individual data cell options include image, textbox, icon, and button.">
+  <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
 
-  <script src="/webact-redesign/assets/js/routes.js"></script>
-  <script src="/webact-redesign/assets/js/navigation.js"></script>
-  <script src="/webact-redesign/assets/js/includes.js"></script>
+  <style>
+    html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+    body{margin:0}
+    .widget-guide-page{color:#071421;background:#fff;overflow:visible!important}
+    .widget-guide-hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:100px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.85fr);gap:54px;align-items:center}
+    .widget-guide-hero h1{font-size:clamp(42px,6vw,76px);line-height:.98;margin:12px 0 22px;letter-spacing:-.05em;color:#fff}
+    .widget-guide-hero p{color:#d9edf8;font-size:20px;line-height:1.65;max-width:850px}
+    .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
+    .widget-hero-media{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:30px;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.28)}
+    .widget-hero-media img{width:100%;height:430px;object-fit:cover;border-radius:22px;display:block;background:#fff}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+    .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:210px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important;transition:.2s ease}
+    .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
+    .button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
+    .section{padding:84px min(6vw,72px)}
+    .soft{background:#f4f8fb}
+    .heading{max-width:980px;margin:0 auto 44px;text-align:center}
+    .heading .eyebrow{color:#0c9bd2}
+    .heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}
+    .heading p{font-size:18px;line-height:1.65;color:#4b5b66}
+    .overview{max-width:980px;margin:0 auto;background:#fff;border:1px solid #e0ebf2;border-radius:28px;padding:34px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
+    .overview p{color:#4b5b66;font-size:18px;line-height:1.8}
+    .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1280px;margin:0 auto}
+    .feature-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:28px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
+    .feature-card h3{font-size:23px;margin:0 0 10px;color:#071421}
+    .feature-card p{color:#4b5b66;line-height:1.65;margin:0}
+    .steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:1280px;margin:0 auto}
+    .step{background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:24px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
+    .step strong{display:flex;width:42px;height:42px;border-radius:14px;background:#33abe1;color:#061421;align-items:center;justify-content:center;font-weight:900;margin-bottom:14px}
+    .step h3{font-size:21px;margin:0 0 8px}
+    .step p{color:#4b5b66;line-height:1.6}
+    .faq-list{max-width:980px;margin:0 auto;display:grid;gap:14px}
+    details{background:#fff;border:1px solid #e0ebf2;border-radius:18px;box-shadow:0 12px 30px rgba(7,20,33,.06);overflow:hidden}
+    summary{cursor:pointer;font-weight:900;font-size:18px;padding:20px 22px;list-style:none;display:flex;justify-content:space-between;gap:18px}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:'+';font-size:26px;color:#0c9bd2;line-height:1}
+    details[open] summary:after{content:'–'}
+    details p{color:#4b5b66;line-height:1.7;margin:0;padding:0 22px 22px}
+    .final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}
+    .final-cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}
+    .final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
+    .final-cta .hero-actions{justify-content:center}
+    @media(max-width:1080px){.widget-guide-hero{grid-template-columns:1fr}.feature-grid,.steps{grid-template-columns:1fr 1fr}.widget-hero-media img{height:auto}}
+    @media(max-width:680px){.widget-guide-hero,.section,.final-cta{padding:56px 20px}.feature-grid,.steps{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}}
+  </style>
+</head>
+
+<body class="widget-guide-page">
+<div id="webact-header"></div>
+
+<main>
+  <section class="widget-guide-hero">
+    <div>
+      <p class="eyebrow">Widget Knowledge Base</p>
+      <h1>Tab Slider Widget</h1>
+      <p>Create a table without having to manage an outside spreadsheet. Individual data cell options include image, textbox, icon, and button.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="/webact-redesign/contact/index.html">Get Help With This Widget</a>
+        <a class="button secondary" href="/webact-redesign/about/widget-knowledge-base.html">Back to Widget Guides</a>
+      </div>
+    </div>
+    <div class="widget-hero-media">
+      <img src="../../../assets/widgets.svg" alt="Tab Slider Widget">
+    </div>
+  </section>
+
+  <section class="section soft">
+    <div class="heading">
+      <p class="eyebrow">Overview</p>
+      <h2>What this widget helps you do.</h2>
+      <p>Use this guide to understand the widget, how it supports your website, and when it may be useful for your business.</p>
+    </div>
+    <div class="overview">
+      <p>Create a table without having to manage an outside spreadsheet. Individual data cell options include image, textbox, icon, and button.</p>
+<p>Create a table without having to manage an outside spreadsheet. Individual data cell options include image, textbox, icon, and button.</p>
+<p>Create a table without having to manage an outside spreadsheet. Individual data cell options include image, textbox, icon, and button.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="heading">
+      <p class="eyebrow">Benefits</p>
+      <h2>Why customers use this widget.</h2>
+    </div>
+    <div class="feature-grid">
+      <article class="feature-card"><h3>Improve Visitor Experience</h3><p>Add useful website functionality that helps visitors interact with your business more easily.</p></article>
+      <article class="feature-card"><h3>Works Across Devices</h3><p>Designed to support desktop, tablet, and mobile website experiences.</p></article>
+      <article class="feature-card"><h3>Supports Your Website Goals</h3><p>Use this widget to improve engagement, navigation, content presentation, or customer action.</p></article>
+      <article class="feature-card"><h3>Easy to Understand</h3><p>This guide explains the widget in customer-friendly language without unnecessary technical complexity.</p></article>
+      <article class="feature-card"><h3>Flexible Website Feature</h3><p>Use the widget as part of your website design, service pages, landing pages, or support content.</p></article>
+      <article class="feature-card"><h3>WebAct Support Available</h3><p>If setup or customization is needed, WebAct can help you configure the widget correctly.</p></article>
+    </div>
+  </section>
+
+  <section class="section soft">
+    <div class="heading">
+      <p class="eyebrow">How It Works</p>
+      <h2>Simple setup path.</h2>
+    </div>
+    <div class="steps">
+      <article class="step"><strong>1</strong><h3>Choose the Widget</h3><p>Select the widget or website feature that matches your goal.</p></article>
+      <article class="step"><strong>2</strong><h3>Add Your Content</h3><p>Update the text, images, links, settings, or connected information.</p></article>
+      <article class="step"><strong>3</strong><h3>Style the Design</h3><p>Match the widget to your website branding, layout, and page design.</p></article>
+      <article class="step"><strong>4</strong><h3>Publish Changes</h3><p>Preview the page and publish when the widget is ready for visitors.</p></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="heading">
+      <p class="eyebrow">FAQ</p>
+      <h2>Common questions about this widget.</h2>
+    </div>
+    <div class="faq-list">
+      <details open><summary>Who should use </summary><p>Businesses that want to improve their website experience, add more functionality, or make it easier for visitors to interact with important content may benefit from this widget.</p></details>
+      <details><summary>Can WebAct help set this up?</summary><p>Yes. WebAct can help install, configure, customize, or troubleshoot this widget depending on your website and support needs.</p></details>
+      <details><summary>Will this work on mobile?</summary><p>WebAct widget pages are designed with responsive websites in mind, but final display may depend on the widget configuration and page layout.</p></details>
+      <details><summary>Can this widget be customized?</summary><p>Many widgets can be adjusted with content, styling, layout options, or custom support. Contact WebAct if you need custom changes.</p></details>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <h2>Need help with </h2>
+    <p>WebAct can help you understand this widget, set it up correctly, or recommend the right website feature for your goals.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
+      <a class="button secondary" href="/webact-redesign/about/widget-knowledge-base.html">Back to Widget Guides</a>
+    </div>
+  </section>
+</main>
+
+<div id="webact-footer"></div>
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 </body>
 </html>
-
-
-
-
