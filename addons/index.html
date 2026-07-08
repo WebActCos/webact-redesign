@@ -3,342 +3,158 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-
 <title>Website Add-Ons | WebAct</title>
-
-<meta name="description" content="Enhance your website with domain names, professional email, website widgets, and powerful website applications from WebAct.">
-
+<meta name="description" content="Enhance your WebAct website with domain names, professional email, widgets, and Website App Store tools.">
 <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
-
 <style>
-
-.addons-page{
-background:#fff;
-color:#071421;
-}
-
-.addons-hero{
-background:
-radial-gradient(circle at 15% 18%,rgba(51,171,225,.22),transparent 30%),
-linear-gradient(135deg,#061421,#0d2740 52%,#071421);
-padding:90px min(6vw,72px);
-display:grid;
-grid-template-columns:1.1fr .8fr;
-gap:48px;
-align-items:center;
-color:#fff;
-}
-
-.addons-hero h1{
-font-size:clamp(52px,6vw,82px);
-line-height:.95;
-margin:16px 0;
-}
-
-.addons-hero p{
-font-size:20px;
-line-height:1.7;
-color:#d6ebf8;
-}
-
-.hero-form{
-background:#fff;
-color:#071421;
-padding:30px;
-border-radius:26px;
-box-shadow:0 30px 80px rgba(0,0,0,.28);
-}
-
-.hero-form h2{
-margin-top:0;
-}
-
-.hero-form input,
-.hero-form textarea{
-width:100%;
-padding:14px;
-border:1px solid #d8e5ef;
-border-radius:12px;
-margin-bottom:14px;
-font:inherit;
-}
-
-.section{
-padding:90px min(6vw,72px);
-}
-
-.heading{
-text-align:center;
-max-width:900px;
-margin:auto auto 50px;
-}
-
-.heading h2{
-font-size:clamp(36px,4vw,58px);
-}
-
-.addon-grid{
-display:grid;
-grid-template-columns:repeat(2,minmax(0,1fr));
-gap:28px;
-max-width:1300px;
-margin:auto;
-}
-
-.addon-card{
-background:#fff;
-border:1px solid #e0ebf2;
-border-radius:26px;
-padding:34px;
-box-shadow:0 18px 42px rgba(7,20,33,.08);
-transition:.25s;
-text-decoration:none;
-color:#071421;
-}
-
-.addon-card:hover{
-transform:translateY(-5px);
-box-shadow:0 26px 60px rgba(7,20,33,.14);
-border-color:#33abe1;
-}
-
-.addon-card span{
-display:inline-flex;
-width:54px;
-height:54px;
-background:#33abe1;
-border-radius:18px;
-align-items:center;
-justify-content:center;
-font-weight:900;
-margin-bottom:18px;
-}
-
-.addon-card h3{
-font-size:30px;
-margin:0 0 12px;
-}
-
-.addon-card p{
-line-height:1.75;
-color:#55646f;
-margin-bottom:20px;
-}
-
-.addon-card strong{
-color:#1297d1;
-font-weight:900;
-}
-
-.final-cta{
-padding:90px;
-background:linear-gradient(135deg,#0b243a,#071421);
-text-align:center;
-color:#fff;
-}
-
-@media(max-width:900px){
-
-.addons-hero{
-grid-template-columns:1fr;
-}
-
-.addon-grid{
-grid-template-columns:1fr;
-}
-
-}
-
+html,body{height:auto!important;overflow-x:hidden!important}body{margin:0}.addons-page{background:#fff;color:#071421}.addons-hero{background:radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:96px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.08fr) minmax(340px,.72fr);gap:48px;align-items:center}.addons-hero h1{font-size:clamp(46px,6vw,84px);line-height:.95;margin:14px 0 22px;letter-spacing:-.055em;color:#fff}.addons-hero p{font-size:20px;line-height:1.65;color:#d9edf8}.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}.button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}.button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}.addon-help-card{background:rgba(255,255,255,.96);color:#071421;border-radius:28px;padding:30px;box-shadow:0 30px 80px rgba(0,0,0,.28)}.addon-help-card h2{font-size:30px;margin:0 0 12px;color:#071421}.addon-help-card p{color:#4b5b66!important;font-size:17px;line-height:1.6}.hero-form{display:grid;gap:13px;margin-top:18px}.hero-form input,.hero-form textarea,.hero-form select{width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:12px;padding:13px 14px;font:inherit;color:#071421;background:#fff}.section{padding:88px min(6vw,72px)}.soft{background:#f4f8fb}.heading{max-width:980px;margin:0 auto 48px;text-align:center}.heading .eyebrow{color:#0c9bd2}.heading h2{font-size:clamp(34px,4.6vw,62px);line-height:1;margin:10px 0 18px;letter-spacing:-.045em}.heading p{font-size:18px;line-height:1.65;color:#4b5b66}.feature-panel{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:28px;align-items:center;max-width:1320px;margin:0 auto 28px;background:#fff;border:1px solid #e0ebf2;border-radius:32px;padding:34px;box-shadow:0 18px 42px rgba(7,20,33,.08)}.feature-panel:nth-child(even){grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}.feature-panel:nth-child(even) .feature-visual{order:2}.feature-visual{min-height:270px;border-radius:26px;background:linear-gradient(135deg,#eaf8fe,#fff);border:1px solid #dcecf5;display:grid;place-items:center;padding:28px}.feature-icon{width:110px;height:110px;border-radius:30px;background:#33abe1;color:#061421;display:grid;place-items:center;font-size:46px;font-weight:900;box-shadow:0 22px 50px rgba(51,171,225,.25)}.feature-copy .eyebrow{color:#0c9bd2}.feature-copy h3{font-size:clamp(30px,3.4vw,48px);line-height:1;margin:8px 0 16px;letter-spacing:-.04em}.feature-copy p{font-size:18px;line-height:1.75;color:#4b5b66}.mini-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:22px 0}.mini-list span{background:#f4f8fb;border:1px solid #dcecf5;border-radius:14px;padding:12px 14px;font-weight:900;color:#071421}.compare-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:1320px;margin:0 auto}.compare-card{background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:24px;box-shadow:0 16px 34px rgba(7,20,33,.07)}.compare-card h3{font-size:22px;margin:0 0 12px}.compare-card p{line-height:1.6;color:#4b5b66}.buying-guide{max-width:1180px;margin:0 auto;display:grid;gap:18px}.guide-row{display:grid;grid-template-columns:90px 1fr;gap:18px;background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:24px;box-shadow:0 16px 34px rgba(7,20,33,.06)}.guide-row span{width:58px;height:58px;border-radius:18px;background:#33abe1;color:#061421;display:grid;place-items:center;font-weight:900}.guide-row h3{margin:0 0 8px;font-size:24px}.guide-row p{margin:0;color:#4b5b66;line-height:1.65}.faq-grid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:18px}.faq-card{background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:26px;box-shadow:0 16px 34px rgba(7,20,33,.06)}.faq-card h3{font-size:22px;margin:0 0 10px}.faq-card p{color:#4b5b66;line-height:1.65;margin:0}.final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:88px min(6vw,72px)}.final-cta h2{font-size:clamp(34px,5vw,64px);line-height:1;margin:0 0 16px}.final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}.final-cta .hero-actions{justify-content:center}@media(max-width:1080px){.addons-hero,.feature-panel,.feature-panel:nth-child(even){grid-template-columns:1fr}.feature-panel:nth-child(even) .feature-visual{order:0}.compare-grid{grid-template-columns:1fr 1fr}}@media(max-width:700px){.addons-hero,.section,.final-cta{padding:56px 20px}.mini-list,.compare-grid,.faq-grid{grid-template-columns:1fr}.guide-row{grid-template-columns:1fr}.hero-actions .button{width:100%}}
 </style>
-
 </head>
-
 <body class="addons-page">
-
 <div id="webact-header"></div>
 
 <main>
-
 <section class="addons-hero">
+  <div>
+    <p class="eyebrow">WEBACT ADD-ONS</p>
+    <h1>Make your website more complete.</h1>
+    <p>WebAct add-ons help you build the foundation around your website: the right domain name, professional business email, useful website widgets, and Website App Store tools that add more functionality.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#addon-options">Explore Add-Ons</a>
+      <a class="button secondary" href="/webact-redesign/contact/index.html">Talk to WebAct</a>
+    </div>
+  </div>
 
-<div>
-
-<p class="eyebrow">WEBACT ADD-ONS</p>
-
-<h1>Add-ons</h1>
-
-<p>
-
-Extend your website with additional services that help your business look more professional, improve customer experience, and unlock more functionality. Whether you need a domain name, business email, advanced widgets, or powerful website applications, WebAct has the tools to help your website grow with your business.
-
-</p>
-
-<div class="hero-actions">
-
-<a class="button primary" href="#addons">Explore Add-Ons</a>
-
-<a class="button secondary" href="/webact-redesign/contact/index.html">Talk to WebAct</a>
-
-</div>
-
-</div>
-
-<div class="hero-form">
-
-<h2>Need Help Choosing?</h2>
-
-<p>
-
-Tell us about your website and we'll recommend the best add-ons for your business.
-
-</p>
-
-<input placeholder="Full Name">
-
-<input placeholder="Email Address">
-
-<textarea rows="5" placeholder="How can we help?"></textarea>
-
-<a class="button primary" href="/webact-redesign/contact/index.html">
-
-Request Consultation
-
-</a>
-
-</div>
-
+  <aside class="addon-help-card">
+    <h2>Need Help Choosing?</h2>
+    <p>Tell us what you want to improve and WebAct can recommend the best add-ons for your website.</p>
+    <form class="hero-form">
+      <input placeholder="Full Name">
+      <input placeholder="Email Address">
+      <select>
+        <option>Domain Names</option>
+        <option>Professional Email</option>
+        <option>Widgets</option>
+        <option>Website App Store</option>
+      </select>
+      <textarea rows="4" placeholder="What do you want your website to do?"></textarea>
+      <a class="button primary" href="/webact-redesign/contact/index.html">Request Help</a>
+    </form>
+  </aside>
 </section>
 
-<section class="section" id="addons">
+<section class="section soft">
+  <div class="heading">
+    <p class="eyebrow">Website Essentials</p>
+    <h2>Add-ons that support the rest of your online presence.</h2>
+    <p>Your website is only one part of your digital foundation. These add-ons help customers find you, trust you, contact you, and use your website more effectively.</p>
+  </div>
 
-<div class="heading">
+  <div class="compare-grid">
+    <article class="compare-card"><h3>Domain</h3><p>Your website address and brand foundation.</p></article>
+    <article class="compare-card"><h3>Email</h3><p>Professional communication using your domain.</p></article>
+    <article class="compare-card"><h3>Widgets</h3><p>Interactive tools that improve website function.</p></article>
+    <article class="compare-card"><h3>Apps</h3><p>Extra features for bookings, chat, reviews, automation, and more.</p></article>
+  </div>
+</section>
 
-<p class="eyebrow">
+<section class="section" id="addon-options">
+  <div class="heading">
+    <p class="eyebrow">Add-On Options</p>
+    <h2>Choose the right add-on path.</h2>
+    <p>Each add-on category supports a different part of your website and online business setup.</p>
+  </div>
 
-Website Essentials
+  <article class="feature-panel">
+    <div class="feature-visual"><div class="feature-icon">01</div></div>
+    <div class="feature-copy">
+      <p class="eyebrow">Domain Names</p>
+      <h3>Secure the right website address for your business.</h3>
+      <p>WebAct can help with domain registration, transfers, renewals, DNS support, and connecting your domain to your website. A strong domain makes your business easier to remember and helps protect your brand online.</p>
+      <div class="mini-list"><span>Domain Registration</span><span>Domain Transfers</span><span>DNS Support</span><span>Brand Protection</span></div>
+      <a class="button primary" href="/webact-redesign/addons/domain-names.html">View Domain Help</a>
+    </div>
+  </article>
 
-</p>
+  <article class="feature-panel">
+    <div class="feature-visual"><div class="feature-icon">02</div></div>
+    <div class="feature-copy">
+      <p class="eyebrow">Professional Email</p>
+      <h3>Look more professional with branded business email.</h3>
+      <p>Professional email gives your business a more credible appearance with addresses like name@yourdomain.com. WebAct can help connect your domain to business email tools and support a cleaner communication setup.</p>
+      <div class="mini-list"><span>Business Email</span><span>Domain-Based Addresses</span><span>Microsoft 365</span><span>Email Setup Help</span></div>
+      <a class="button primary" href="/webact-redesign/addons/professional-email.html">View Email Options</a>
+    </div>
+  </article>
 
-<h2>
+  <article class="feature-panel">
+    <div class="feature-visual"><div class="feature-icon">03</div></div>
+    <div class="feature-copy">
+      <p class="eyebrow">Widgets</p>
+      <h3>Add useful tools and interactive features to your website.</h3>
+      <p>Widgets help your website do more. Add forms, galleries, sliders, reviews, maps, calendars, popups, buttons, menus, and custom tools that improve the visitor experience and support customer action.</p>
+      <div class="mini-list"><span>Forms</span><span>Reviews</span><span>Galleries</span><span>Custom Features</span></div>
+      <a class="button primary" href="/webact-redesign/addons/widgets.html">Browse Widgets</a>
+    </div>
+  </article>
 
-Everything you need beyond your website.
+  <article class="feature-panel">
+    <div class="feature-visual"><div class="feature-icon">04</div></div>
+    <div class="feature-copy">
+      <p class="eyebrow">Website App Store</p>
+      <h3>Extend your website with powerful website apps.</h3>
+      <p>The Website App Store includes tools for chat, booking, reviews, accessibility, memberships, automation, analytics, marketing, ecommerce, and more. WebAct can help you choose and install the right apps for your goals.</p>
+      <div class="mini-list"><span>Chat</span><span>Bookings</span><span>Reviews</span><span>Automation</span></div>
+      <a class="button primary" href="/webact-redesign/addons/website-app-store.html">Browse App Store</a>
+    </div>
+  </article>
+</section>
 
-</h2>
+<section class="section soft">
+  <div class="heading">
+    <p class="eyebrow">Buying Guide</p>
+    <h2>Which add-ons should you start with?</h2>
+    <p>Use this simple guide to choose what your website needs next.</p>
+  </div>
 
-<p>
+  <div class="buying-guide">
+    <article class="guide-row"><span>1</span><div><h3>Start with your domain.</h3><p>Every business website needs a clear domain name that is easy to remember, easy to share, and connected correctly.</p></div></article>
+    <article class="guide-row"><span>2</span><div><h3>Add professional email.</h3><p>Once your domain is ready, branded email helps your business look more trustworthy and organized.</p></div></article>
+    <article class="guide-row"><span>3</span><div><h3>Improve the website with widgets.</h3><p>Widgets help visitors take action, find information, view media, complete forms, and interact with your website.</p></div></article>
+    <article class="guide-row"><span>4</span><div><h3>Use apps for advanced features.</h3><p>Website apps are best when you need more advanced tools such as booking, chat, reviews, automation, memberships, or ecommerce support.</p></div></article>
+  </div>
+</section>
 
-Choose from WebAct's most popular website enhancements designed to improve your online presence and support your business as it grows.
+<section class="section">
+  <div class="heading">
+    <p class="eyebrow">Questions</p>
+    <h2>Add-ons FAQ</h2>
+  </div>
 
-</p>
-
-</div>
-
-<div class="addon-grid">
-
-<a class="addon-card" href="/webact-redesign/addons/domain-names.html">
-
-<span>01</span>
-
-<h3>Domain Names</h3>
-
-<p>
-
-Register new domains, transfer existing domains, renew registrations, manage DNS, and protect your online brand with professional domain management.
-
-</p>
-
-<strong>Learn More →</strong>
-
-</a>
-
-<a class="addon-card" href="/webact-redesign/addons/professional-email.html">
-
-<span>02</span>
-
-<h3>Professional Email</h3>
-
-<p>
-
-Create branded email addresses using your own domain with Microsoft 365 and business email solutions that build trust with every message.
-
-</p>
-
-<strong>Learn More →</strong>
-
-</a>
-
-<a class="addon-card" href="/webact-redesign/addons/widgets.html">
-
-<span>03</span>
-
-<h3>Widgets</h3>
-
-<p>
-
-Enhance your website with interactive widgets, business tools, lead generation features, image galleries, forms, maps, reviews, and custom functionality.
-
-</p>
-
-<strong>Browse Widgets →</strong>
-
-</a>
-
-<a class="addon-card" href="/webact-redesign/addons/website-app-store.html">
-
-<span>04</span>
-
-<h3>Website App Store</h3>
-
-<p>
-
-Discover premium website applications that add booking, chat, ecommerce, marketing, automation, reviews, memberships, analytics, accessibility, and much more.
-
-</p>
-
-<strong>Browse Apps →</strong>
-
-</a>
-
-</div>
-
+  <div class="faq-grid">
+    <article class="faq-card"><h3>Can WebAct set these up for me?</h3><p>Yes. WebAct can help recommend, configure, and connect add-ons so they work correctly with your website.</p></article>
+    <article class="faq-card"><h3>Do I need all four add-on types?</h3><p>Not always. Most businesses start with a domain and professional email, then add widgets or apps as their website needs grow.</p></article>
+    <article class="faq-card"><h3>Are widgets different from apps?</h3><p>Widgets are usually website features placed directly on pages. Apps are often larger tools that add expanded functionality such as booking, chat, reviews, or automation.</p></article>
+    <article class="faq-card"><h3>Can WebAct recommend the right option?</h3><p>Yes. Tell us what you want your website to do and we can recommend the most useful add-ons for your business.</p></article>
+  </div>
 </section>
 
 <section class="final-cta">
-
-<h2>
-
-Need something custom?
-
-</h2>
-
-<p>
-
-Our team can recommend the right add-ons, install them for you, and customize your website to match your business goals.
-
-</p>
-
-<div class="hero-actions">
-
-<a class="button primary" href="/webact-redesign/contact/index.html">
-
-Contact WebAct
-
-</a>
-
-</div>
-
+  <h2>Ready to improve your website?</h2>
+  <p>WebAct can help you choose, install, and customize the right add-ons for your website and business goals.</p>
+  <div class="hero-actions">
+    <a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
+    <a class="button secondary" href="/webact-redesign/addons/website-app-store.html">Browse Website Apps</a>
+  </div>
 </section>
-
 </main>
 
 <div id="webact-footer"></div>
-
 <script src="/webact-redesign/script.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
-
 </body>
 </html>
