@@ -45,6 +45,14 @@
     .final-cta .hero-actions{justify-content:center}
     @media(max-width:1080px){.widget-kb-hero{grid-template-columns:1fr}.feature-grid{grid-template-columns:1fr 1fr}}
     @media(max-width:680px){.widget-kb-hero,.section,.final-cta{padding:56px 20px}.feature-grid{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}.widget-kb-frame{height:900px}}
+  .hero-help-form{display:grid;gap:13px;margin-top:18px}
+.hero-help-form label{display:grid;gap:7px;font-weight:900;color:#071421}
+.hero-help-form input,.hero-help-form textarea{width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:12px;padding:13px 14px;font:inherit;color:#071421;background:#fff}
+.hero-help-form textarea{resize:vertical}
+.embed-toolbar{display:none!important}
+.embed-wrap:before{content:"Browse the Widget Knowledge Base";display:block;font-size:28px;font-weight:900;color:#071421;padding:18px 18px 6px}
+.embed-wrap:after{content:"If the knowledge base does not load below, open it in a new tab.";display:block;color:#4b5b66;padding:8px 18px 18px;font-size:16px}
+.widget-kb-frame{height:1400px!important}
   </style>
 </head>
 
@@ -55,8 +63,8 @@
   <section class="widget-kb-hero">
     <div>
       <p class="eyebrow">Widget Knowledge Base</p>
-      <h1>Website widget help, setup guides, and support resources.</h1>
-      <p>Browse WebAct widget knowledge base resources for website features, custom widgets, setup help, design tools, and common support topics.</p>
+      <h1>Find answers, discover Website Features, and get more from your WebAct website.</h1>
+      <p>Whether you're looking for help with website widgets, editing features, custom functionality, or design tools, our Widget Knowledge Base makes it easy to find answers and learn how to get more from your website.</p>
       <div class="hero-actions">
         <a class="button primary" href="#widget-kb-embed">Open Knowledge Base</a>
         <a class="button secondary" href="/webact-redesign/contact/index.html">Ask WebAct</a>
@@ -64,30 +72,36 @@
     </div>
 
     <div class="hero-card">
-      <h2>Widget Support Hub</h2>
-      <p>Use this page to review widget documentation, examples, and support information without leaving the redesigned WebAct website.</p>
-    </div>
+  <h2>Need Help With a Website Widget?</h2>
+  <p>Tell us what you're trying to accomplish and our team can recommend the right widget, explain how a feature works, or help you customize your website.</p>
+  <form class="hero-help-form">
+    <label>Full Name<input type="text" placeholder="Your name"></label>
+    <label>Email Address<input type="email" placeholder="you@example.com"></label>
+    <label>What do you need help with?<textarea rows="4" placeholder="Tell us about the widget, feature, or website improvement you need."></textarea></label>
+    <a class="button primary" href="/webact-redesign/contact/index.html">Request Help</a>
+  </form>
+</div>
   </section>
 
   <section class="section soft">
     <div class="heading">
-      <p class="eyebrow">What You Can Find</p>
-      <h2>Support for website widgets and custom features.</h2>
-      <p>These resources help WebAct customers understand available website widgets, how features work, and when to request help from WebAct.</p>
+      <p class="eyebrow">Website Tools and Support</p>
+      <h2>Everything you need to build a better website.</h2>
+      <p>Learn how website widgets work, discover new features, and find ideas for improving your website's appearance, functionality, and customer experience.</p>
     </div>
 
     <div class="feature-grid">
-      <article class="feature-card"><h3>Widget Setup</h3><p>Find guidance for adding, configuring, and understanding website widgets.</p></article>
-      <article class="feature-card"><h3>Website Features</h3><p>Review tools that improve design, functionality, visitor experience, and conversions.</p></article>
-      <article class="feature-card"><h3>WebAct Support</h3><p>Use the knowledge base as a starting point, then contact WebAct for custom help.</p></article>
+      <article class="feature-card"><h3>Website Widgets</h3><p>Learn what each widget does, when to use it, and how it can improve your website.</p></article>
+      <article class="feature-card"><h3>Website Features</h3><p>Explore tools that help increase engagement, improve navigation, generate more leads, and create a better experience for your visitors.</p></article>
+      <article class="feature-card"><h3>Expert Support</h3><p>Need something custom? WebAct can help install, customize, or recommend the right widgets for your business and website goals.</p></article>
     </div>
   </section>
 
   <section class="section" id="widget-kb-embed">
     <div class="heading">
-      <p class="eyebrow">Embedded Knowledge Base</p>
-      <h2>Browse widget help below.</h2>
-      <p>The widget knowledge base is embedded directly into this page so customers can search and review support content in one place.</p>
+      <p class="eyebrow">Website Widget Library</p>
+      <h2>Browse widget guides, website features, and support resources.</h2>
+      <p>Whether you're learning how a widget works, exploring new website features, or looking for setup instructions, our Widget Knowledge Base helps you quickly find the information you need.</p>
     </div>
 
     <div class="embed-wrap">
@@ -96,12 +110,15 @@
         <a href="https://website.webact.com/site/80a375fe/?preview=true" target="_blank" rel="noopener">Open in new tab</a>
       </div>
       <iframe class="widget-kb-frame" src="https://website.webact.com/site/80a375fe/?preview=true" title="WebAct Widget Knowledge Base"></iframe>
+      <div style="text-align:center;padding:24px">
+        <a class="button primary" href="https://website.webact.com/site/80a375fe/?preview=true" target="_blank" rel="noopener">Open Knowledge Base</a>
+      </div>
     </div>
   </section>
 
   <section class="final-cta">
-    <h2>Need help with a website widget?</h2>
-    <p>WebAct can help with widget setup, custom website features, support questions, and website improvement recommendations.</p>
+    <h2>Ready to Improve Your Website?</h2>
+    <p>WebAct can help with Website Widgets, custom Website Features, support questions, and website improvement recommendations.</p>
     <div class="hero-actions">
       <a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
       <a class="button secondary" href="/webact-redesign/about/how-to-videos.html">How-To Videos</a>
