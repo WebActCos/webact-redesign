@@ -1,117 +1,1490 @@
 ﻿<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Industries | WebAct</title>
-    <meta name="description" content="WebAct industry pages and case-study paths.">
-    <link rel="stylesheet" href="../styles.css?v=reviews-layout-fix">
-<style id="webact-promodo-header-style">
-.webact-promodo-header{position:sticky;top:0;z-index:9999;background:#fff;border-bottom:1px solid #e5edf5;font-family:Inter,Arial,sans-serif}
-.webact-promodo-topbar{background:#061421;color:#fff;font-weight:800;text-align:center;padding:12px 20px;font-size:14px;line-height:1.35}
-.webact-promodo-topbar a{color:#33aee7;text-decoration:none;margin-left:24px;white-space:nowrap}
-.webact-promodo-inner{max-width:1460px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:22px 28px;background:#fff}
-.webact-promodo-logo{display:inline-flex;align-items:center;flex:0 0 auto;text-decoration:none}
-.webact-promodo-logo img{width:230px;max-width:24vw;height:auto;display:block}
-.webact-promodo-nav{display:flex;align-items:center;gap:4px;flex:1}
-.webact-promodo-nav-list{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;width:100%}
-.webact-promodo-nav-item{position:relative}
-.webact-promodo-nav-link,.webact-promodo-drop-trigger{appearance:none;border:0;background:transparent;color:#071421;text-decoration:none;font-weight:850;font-size:16px;line-height:1.1;padding:14px 12px;border-radius:8px;display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;font-family:inherit}
-.webact-promodo-nav-link:hover,.webact-promodo-drop-trigger:hover{background:#eef8fd;color:#0c9bd2}
-.webact-promodo-chevron{border:solid currentColor;border-width:0 2px 2px 0;display:inline-block;padding:4px;transform:rotate(45deg);margin-top:-5px}
-.webact-promodo-menu{display:none;position:absolute;top:100%;left:0;min-width:310px;background:#fff;border:1px solid #dce8f1;box-shadow:0 24px 50px rgba(2,18,32,.14);padding:16px;border-radius:0 0 14px 14px;grid-template-columns:repeat(2,minmax(145px,1fr));gap:6px}
-.webact-promodo-menu a{color:#071421;text-decoration:none;padding:10px 12px;border-radius:8px;font-weight:700;font-size:14px;line-height:1.25}
-.webact-promodo-menu a:hover{background:#eaf7fc;color:#119fd7}
-.webact-promodo-nav-item:hover .webact-promodo-menu,.webact-promodo-nav-item:focus-within .webact-promodo-menu,.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}
-.webact-promodo-actions{display:flex;align-items:center;gap:14px;flex:0 0 auto}
-.webact-promodo-search{background:transparent;border:0;color:#071421;font-weight:850;font-size:16px;cursor:pointer;padding:12px;border-radius:8px;font-family:inherit}
-.webact-promodo-search:hover{background:#eef8fd;color:#0c9bd2}
-.webact-promodo-cta{background:#33abe1;color:#071421;text-decoration:none;font-weight:900;padding:18px 24px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;box-shadow:0 8px 18px rgba(51,171,225,.28)}
-.webact-promodo-cta:hover{background:#249ad0;color:#071421}
-.webact-promodo-menu-toggle{display:none;border:1px solid #cfe0eb;background:#fff;border-radius:8px;width:46px;height:42px;align-items:center;justify-content:center;gap:5px;flex-direction:column;cursor:pointer}
-.webact-promodo-menu-toggle span{width:22px;height:2px;background:#071421;display:block}
-body.webact-search-open .webact-search-overlay{display:flex}
-.webact-search-overlay{display:none;position:fixed;inset:0;z-index:10000;background:rgba(4,17,29,.62);align-items:flex-start;justify-content:center;padding:120px 20px 20px}
-.webact-search-panel{width:min(760px,100%);background:#fff;border-radius:14px;padding:24px;box-shadow:0 28px 70px rgba(0,0,0,.22)}
-.webact-search-row{display:flex;gap:10px}
-.webact-search-row input{flex:1;border:1px solid #cddce7;border-radius:8px;padding:14px 16px;font-size:16px}
-.webact-search-row button,.webact-search-close{border:0;border-radius:8px;padding:14px 18px;font-weight:850;cursor:pointer;font-family:inherit}
-.webact-search-row button{background:#33abe1;color:#071421}.webact-search-close{background:#f2f6f9;color:#071421}
-@media (max-width:1250px){.webact-promodo-inner{padding:18px 20px;gap:14px}.webact-promodo-logo img{width:190px}.webact-promodo-nav-link,.webact-promodo-drop-trigger{font-size:14px;padding:12px 8px}.webact-promodo-cta{padding:15px 18px}}
-@media (max-width:1060px){.webact-promodo-inner{flex-wrap:wrap}.webact-promodo-menu-toggle{display:flex}.webact-promodo-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e5edf5;padding-top:12px}.webact-promodo-header.webact-nav-open .webact-promodo-nav{display:block}.webact-promodo-nav-list{display:block}.webact-promodo-nav-item{border-bottom:1px solid #edf3f7}.webact-promodo-nav-link,.webact-promodo-drop-trigger{width:100%;justify-content:space-between;padding:15px 2px;font-size:16px}.webact-promodo-menu{position:static;box-shadow:none;border:0;border-radius:0;padding:0 0 12px 12px;grid-template-columns:1fr}.webact-promodo-nav-item .webact-promodo-menu{display:none}.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}.webact-promodo-actions{margin-left:auto}.webact-promodo-search{font-size:0}.webact-promodo-search:before{content:'Search';font-size:15px}.webact-promodo-cta{padding:13px 16px}}
-@media (max-width:640px){.webact-promodo-topbar{font-size:12px}.webact-promodo-topbar a{display:inline-block;margin-left:10px}.webact-promodo-logo img{width:160px;max-width:52vw}.webact-promodo-inner{padding:14px}.webact-promodo-actions{width:100%;justify-content:space-between;order:3}.webact-promodo-cta{flex:1}.webact-search-overlay{padding-top:90px}.webact-search-row{flex-direction:column}}
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Industries | WebAct</title>
+<meta name="description" content="Explore WebAct website design, SEO, advertising, and marketing services by industry.">
+<link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+
+<style>
+html,body{height:auto!important;overflow-x:hidden!important}
+body{margin:0}
+.industries-page{background:#fff;color:#071421}
+.industries-hero{background:radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:96px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.72fr);gap:54px;align-items:center}
+.industries-hero h1{font-size:clamp(44px,6vw,78px);line-height:.96;margin:14px 0 22px;letter-spacing:-.055em;color:#fff}
+.industries-hero p{font-size:20px;line-height:1.65;color:#d9edf8}
+.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}
+.button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
+.button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
+
+.hero-form-card{width:100%;max-width:520px;justify-self:end;background:rgba(255,255,255,.96);color:#071421;border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.28);overflow:hidden}
+.hero-form-card h2{font-size:28px;margin:0 0 8px;color:#071421}
+.hero-form-card p{color:#4b5b66;font-size:16px;line-height:1.55;margin:0 0 18px}
+.hero-form{display:block;width:100%;margin:0;padding:0;background:transparent;box-shadow:none}
+.hero-form label{display:block;margin-bottom:14px;font-weight:800;font-size:14px;color:#203241}
+.hero-form input,.hero-form select,.hero-form textarea{display:block;width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:12px;padding:13px 14px;font:inherit;background:#fff;color:#071421;margin-top:7px}
+.hero-form textarea{resize:vertical;min-height:92px}
+.hero-form .button{width:100%;margin-top:6px}
+
+.section{padding:88px min(6vw,72px)}
+.soft{background:#f4f8fb}
+.heading{max-width:980px;margin:0 auto 48px;text-align:center}
+.heading .eyebrow{color:#0c9bd2}
+.heading h2{font-size:clamp(34px,4.6vw,62px);line-height:1;margin:10px 0 18px;letter-spacing:-.045em}
+.heading p{font-size:18px;line-height:1.65;color:#4b5b66}
+
+.industry-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1500px;margin:0 auto}
+.industry-card{display:flex;flex-direction:column;background:#fff;border:1px solid #dcecf5;border-radius:28px;overflow:hidden;text-decoration:none;color:#071421;box-shadow:0 18px 42px rgba(7,20,33,.08);transition:.22s ease}
+.industry-card:hover{transform:translateY(-4px);border-color:#33abe1;box-shadow:0 26px 60px rgba(7,20,33,.13)}
+.industry-image{height:230px;background:#eef7fc;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.industry-image img{width:100%;height:100%;object-fit:cover;display:block}
+.industry-card-body{padding:28px;display:flex;flex-direction:column;min-height:290px}
+.industry-label{width:max-content;background:#eaf8fe!important;color:#0c658c!important;border:1px solid #bfe8f7;border-radius:999px;padding:8px 12px!important;font-size:12px!important;font-weight:900!important;text-transform:uppercase;margin:0 0 18px!important}
+.industry-card h3{font-size:30px;line-height:1.08;margin:0 0 14px;color:#071421}
+.industry-card p{color:#4b5b66;line-height:1.65;font-size:17px;margin:0 0 20px}
+.industry-card strong{margin-top:auto;color:#0c9bd2;font-weight:900}
+
+.service-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:1320px;margin:0 auto}
+.service-card{background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:24px;box-shadow:0 16px 34px rgba(7,20,33,.06)}
+.service-card h3{font-size:22px;margin:0 0 10px}
+.service-card p{color:#4b5b66;line-height:1.6;margin:0}
+
+.final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:88px min(6vw,72px)}
+.final-cta h2{font-size:clamp(34px,5vw,64px);line-height:1;margin:0 0 16px}
+.final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
+.final-cta .hero-actions{justify-content:center}
+
+@media(max-width:1080px){.industries-hero{grid-template-columns:1fr}.hero-form-card{max-width:none;justify-self:stretch}.industry-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.industries-hero,.section,.final-cta{padding:56px 20px}.industry-grid,.service-grid{grid-template-columns:1fr}.hero-actions .button{width:100%}}
 </style>
-
-<link rel="stylesheet" href="../assets/css/webact-promodo-nav.css">
-<link rel="stylesheet" href="../assets/css/webact-footer.css">
 </head>
-  <body>
+
+<body class="industries-page">
 <div id="webact-header"></div>
-<main><section class="page-hero">
+
+<main>
+<section class="industries-hero">
   <div>
-    <p class="breadcrumb"><a href="../index.html">Home</a> / Industries</p>
-    <p class="eyebrow">Industry Case Studies</p>
-    <h1>Industries</h1>
-    <p class="hero-lede">Explore 100 industry pages with WebAct help areas, recommended tools, app ideas, pricing paths, and similar portfolio proof.</p>
+    <p class="eyebrow">WebAct Industries</p>
+    <h1>Websites, SEO, and marketing built around your industry.</h1>
+    <p>Every industry has different customers, trust signals, service pages, search behavior, and conversion goals. WebAct builds websites and marketing strategies around how your customers actually choose a business.</p>
     <div class="hero-actions">
-      <a class="button primary" href="/contact/index.html">Start a conversation</a>
-      <a class="button secondary" href="../pricing/index.html">View pricing</a>
+      <a class="button primary" href="#industries">Browse Industries</a>
+      <a class="button secondary" href="/webact-redesign/contact/index.html">Talk to WebAct</a>
     </div>
   </div>
-  <img src="/webact-redesign/assets/hero-devices.png" alt="Industries visual">
+
+  <aside class="hero-form-card">
+    <h2>Need an Industry Website?</h2>
+    <p>Tell us about your business and WebAct can recommend the right website, SEO, and marketing plan.</p>
+    <form class="hero-form">
+      <label>Full Name<input type="text"></label>
+      <label>Email Address<input type="email"></label>
+      <label>Industry
+        <select>
+          <option>Law Firm</option>
+          <option>Restaurant</option>
+          <option>Dentist</option>
+          <option>HVAC</option>
+          <option>Roofing</option>
+          <option>Plumbing</option>
+          <option>Real Estate</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>How can we help?<textarea rows="4"></textarea></label>
+      <a class="button primary" href="/webact-redesign/contact/index.html">Request Help</a>
+    </form>
+  </aside>
 </section>
-<section class="section website-design-intro">
-  <div class="website-design-copy">
-    <p class="eyebrow">Industry Website Design</p>
-    <h2>Every industry needs a different path to trust and conversion.</h2>
-    <p>The first 30 industries are linked in the navigation. The full directory below includes all 100 industry pages with how WebAct can help, tools and apps to consider, similar portfolio work, and pricing next steps.</p>
+
+<section class="section soft">
+  <div class="heading">
+    <p class="eyebrow">Industry Strategy</p>
+    <h2>Your website should match how customers search, compare, and contact you.</h2>
+    <p>From local SEO and service pages to reviews, landing pages, calls to action, and paid advertising, each industry needs a strategy built around customer intent.</p>
+  </div>
+
+  <div class="service-grid">
+    <article class="service-card"><h3>Website Design</h3><p>Professional websites built around credibility, clarity, services, and customer action.</p></article>
+    <article class="service-card"><h3>SEO Structure</h3><p>Industry-specific service pages, keywords, content, and local search planning.</p></article>
+    <article class="service-card"><h3>Advertising Support</h3><p>Landing pages and conversion paths that support paid advertising campaigns.</p></article>
+    <article class="service-card"><h3>Lead Generation</h3><p>Forms, calls, appointments, quote requests, maps, and action-focused layouts.</p></article>
   </div>
 </section>
-<section class="section website-metrics-section">
-  <div><p class="eyebrow">Directory Size</p><h2>100 industry paths for targeted sales conversations.</h2><p>Each page can support industry-specific ads, SEO, landing pages, proposals, and case-study conversations.</p></div>
-  <div class="metric-grid"><article><strong>100</strong><span>Total industry pages</span></article><article><strong>30</strong><span>Industries in navigation</span></article><article><strong>4</strong><span>Pricing paths linked</span></article><article><strong>1</strong><span>Connected WebAct team</span></article></div>
-</section>
-<section class="section industries featured-work-section">
+
+<section class="section" id="industries">
+  <div class="heading">
+    <p class="eyebrow">Browse Industries</p>
+    <h2>Choose your industry.</h2>
+    <p>Explore industry-specific website design, SEO, advertising, and conversion strategies for your business.</p>
+  </div>
+
   <div class="industry-grid">
-    <article><a href="../industries/dental-medical/index.html"><img src="/webact-redesign/assets/industry-dental-medical.png" alt="Dental &amp; Medical website design preview"><h3>Dental &amp; Medical</h3><p>Trust-first websites, appointment paths, reviews, SEO, and local listings.</p></a></article><article><a href="../industries/home-services/index.html"><img src="/webact-redesign/assets/industry-home-services.png" alt="Home Services website design preview"><h3>Home Services</h3><p>Lead funnels for plumbing, electrical, HVAC, restoration, and repair.</p></a></article><article><a href="../industries/restaurants/index.html"><img src="/webact-redesign/assets/industry-restaurants.png" alt="Restaurants website design preview"><h3>Restaurants</h3><p>Menus, ordering paths, local SEO, maps, and promotion-ready landing pages.</p></a></article><article><a href="../industries/locksmiths/index.html"><img src="/webact-redesign/assets/industry-locksmiths.png" alt="Locksmiths website design preview"><h3>Locksmiths</h3><p>Emergency calls, location pages, Local Services Ads, and review growth.</p></a></article><article><a href="../industries/insurance/index.html"><img src="/webact-redesign/assets/industry-insurance.png" alt="Insurance website design preview"><h3>Insurance</h3><p>Quote flows, service pages, renewal campaigns, and local authority building.</p></a></article><article><a href="../industries/builders-contractors/index.html"><img src="/webact-redesign/assets/industry-builders-contractors.png" alt="Builders &amp; Contractors website design preview"><h3>Builders &amp; Contractors</h3><p>Portfolio galleries, request-a-quote forms, project pages, and ads.</p></a></article><article><a href="../industries/home-care/index.html"><img src="/webact-redesign/assets/industry-home-care.png" alt="Home Care website design preview"><h3>Home Care</h3><p>Family-friendly content, service-area pages, trust signals, and calls.</p></a></article><article><a href="../industries/hvac/index.html"><img src="/webact-redesign/assets/industry-hvac.png" alt="HVAC website design preview"><h3>HVAC</h3><p>Seasonal campaigns, repair pages, maintenance plans, and phone leads.</p></a></article><article><a href="../industries/automotive/index.html"><img src="/webact-redesign/assets/industry-automotive.png" alt="Automotive website design preview"><h3>Automotive</h3><p>Service menus, promotions, local search, and conversion-ready ads.</p></a></article><article><a href="../industries/beauty-salons/index.html"><img src="/webact-redesign/assets/industry-beauty-salons.png" alt="Beauty &amp; Salons website design preview"><h3>Beauty &amp; Salons</h3><p>Brand-forward websites, booking prompts, galleries, and social ads.</p></a></article><article><a href="../industries/golf-recreation/index.html"><img src="/webact-redesign/assets/industry-golf-recreation.png" alt="Golf &amp; Recreation website design preview"><h3>Golf &amp; Recreation</h3><p>Membership pages, events, booking paths, and local discovery campaigns.</p></a></article><article><a href="../industries/parking-mobility/index.html"><img src="/webact-redesign/assets/industry-parking-mobility.png" alt="Parking &amp; Mobility website design preview"><h3>Parking &amp; Mobility</h3><p>Product education, integrations, support resources, and enterprise proof.</p></a></article><article><a href="../industries/water-utilities/index.html"><img src="/webact-redesign/assets/industry-water-utilities.png" alt="Water &amp; Utilities website design preview"><h3>Water &amp; Utilities</h3><p>Local service pages, product education, quote requests, and maintenance plans.</p></a></article><article><a href="../industries/moving-storage/index.html"><img src="/webact-redesign/assets/industry-moving-storage.png" alt="Moving &amp; Storage website design preview"><h3>Moving &amp; Storage</h3><p>Quote funnels, service-area content, seasonal ads, and reputation support.</p></a></article><article><a href="../industries/solar-energy/index.html"><img src="/webact-redesign/assets/industry-solar-energy.png" alt="Solar &amp; Energy website design preview"><h3>Solar &amp; Energy</h3><p>Lead capture, education pages, financing content, and local authority.</p></a></article><article><a href="../industries/real-estate/index.html"><img src="/webact-redesign/assets/images/industry-mockups/real-estate.png" alt="Trevey land and commercial real estate website preview"><h3>Real Estate</h3><p>Property showcases, local landing pages, lead forms, and social campaigns.</p></a></article><article><a href="../industries/printing-signage/index.html"><img src="/webact-redesign/assets/industry-printing-signage.png" alt="Printing &amp; Signage website design preview"><h3>Printing &amp; Signage</h3><p>Product catalogs, quote requests, ecommerce pathways, and B2B search.</p></a></article><article><a href="../industries/franchise-multi-location/index.html"><img src="/webact-redesign/assets/industry-franchise-multi-location.png" alt="Franchise &amp; Multi-location website design preview"><h3>Franchise &amp; Multi-location</h3><p>Location pages, brand consistency, reporting, listings, and reviews.</p></a></article><article><a href="../industries/transportation/index.html"><img src="/webact-redesign/assets/industry-transportation.png" alt="Transportation website design preview"><h3>Transportation</h3><p>Service pages, booking prompts, fleet credibility, and regional SEO.</p></a></article><article><a href="../industries/saas-platforms/index.html"><img src="/webact-redesign/assets/industry-saas-platforms.png" alt="SaaS &amp; Platforms website design preview"><h3>SaaS &amp; Platforms</h3><p>Product positioning, conversion pages, integrations, and knowledge bases.</p></a></article><article><a href="../industries/plumbing/index.html"><img src="/webact-redesign/assets/industry-plumbing.png" alt="Plumbing website design preview"><h3>Plumbing</h3><p>Emergency leads, service-area pages, phone-first UX, and search ads.</p></a></article><article><a href="../industries/artists-creators/index.html"><img src="/webact-redesign/assets/industry-artists-creators.png" alt="Artists &amp; Creators website design preview"><h3>Artists &amp; Creators</h3><p>Portfolio storytelling, ecommerce, event promotion, and brand presence.</p></a></article><article><a href="../industries/nonprofits/index.html"><img src="/webact-redesign/assets/industry-nonprofits.png" alt="Nonprofits website design preview"><h3>Nonprofits</h3><p>Donation paths, mission storytelling, volunteer pages, and outreach campaigns.</p></a></article><article><a href="../industries/local-retail/index.html"><img src="/webact-redesign/assets/industry-local-retail.png" alt="Local Retail website design preview"><h3>Local Retail</h3><p>Offers, products, maps, reviews, ads, and repeat-customer campaigns.</p></a></article><article><a href="../industries/specialty-practices/index.html"><img src="/webact-redesign/assets/industry-specialty-practices.png" alt="Specialty Practices website design preview"><h3>Specialty Practices</h3><p>Educational content, credibility, consultation paths, and local search.</p></a></article><article><a href="../industries/electricians/index.html"><img src="/webact-redesign/assets/industry-electricians.png" alt="Electricians website design preview"><h3>Electricians</h3><p>WebAct helps electricians build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/roofing/index.html"><img src="/webact-redesign/assets/images/industry-mockups/roofing.png" alt="RoofReady roofing website preview"><h3>Roofing</h3><p>WebAct helps roofing build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/landscaping/index.html"><img src="/webact-redesign/assets/industry-landscaping.png" alt="Landscaping website design preview"><h3>Landscaping</h3><p>WebAct helps landscaping build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/home-inspections/index.html"><img src="/webact-redesign/assets/industry-home-inspections.png" alt="Home Inspections website design preview"><h3>Home Inspections</h3><p>WebAct helps home inspections build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/gaming/index.html"><img src="/webact-redesign/assets/industry-gaming.png" alt="Gaming website design preview"><h3>Gaming</h3><p>WebAct helps gaming build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/esports/index.html"><img src="/webact-redesign/assets/industry-esports.png" alt="Esports website design preview"><h3>Esports</h3><p>WebAct helps esports build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/pest-control/index.html"><img src="/webact-redesign/assets/industry-pest-control.png" alt="Pest Control website design preview"><h3>Pest Control</h3><p>WebAct helps pest control build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/pet-services/index.html"><img src="/webact-redesign/assets/industry-pet-services.png" alt="Pet Services website design preview"><h3>Pet Services</h3><p>WebAct helps pet services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/dog-adoption/index.html"><img src="/webact-redesign/assets/industry-dog-adoption.png" alt="Dog Adoption website design preview"><h3>Dog Adoption</h3><p>WebAct helps dog adoption build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/equestrian/index.html"><img src="/webact-redesign/assets/industry-equestrian.png" alt="Equestrian website design preview"><h3>Equestrian</h3><p>WebAct helps equestrian build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/community-organizations/index.html"><img src="/webact-redesign/assets/industry-community-organizations.png" alt="Community Organizations website design preview"><h3>Community Organizations</h3><p>WebAct helps community organizations build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/arts-organizations/index.html"><img src="/webact-redesign/assets/industry-arts-organizations.png" alt="Arts Organizations website design preview"><h3>Arts Organizations</h3><p>WebAct helps arts organizations build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/driving-schools/index.html"><img src="/webact-redesign/assets/industry-driving-schools.png" alt="Driving Schools website design preview"><h3>Driving Schools</h3><p>WebAct helps driving schools build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/law-firms/index.html"><img src="/webact-redesign/assets/industry-law-firms.png" alt="Law Firms website design preview"><h3>Law Firms</h3><p>WebAct helps law firms build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/private-investigators/index.html"><img src="/webact-redesign/assets/industry-private-investigators.png" alt="Private Investigators website design preview"><h3>Private Investigators</h3><p>WebAct helps private investigators build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/accounting-firms/index.html"><img src="/webact-redesign/assets/images/industry-mockups/bookkeeping-accounting.png" alt="Mile High bookkeeping and accounting website preview"><h3>Bookkeeping & Accounting</h3><p>WebAct helps accounting firms build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/financial-advisors/index.html"><img src="/webact-redesign/assets/industry-financial-advisors.png" alt="Financial Advisors website design preview"><h3>Financial Advisors</h3><p>WebAct helps financial advisors build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/investor-relations/index.html"><img src="/webact-redesign/assets/industry-investor-relations.png" alt="Investor Relations website design preview"><h3>Investor Relations</h3><p>WebAct helps investor relations build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/collections/index.html"><img src="/webact-redesign/assets/industry-collections.png" alt="Collections website design preview"><h3>Collections</h3><p>WebAct helps collections build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/consultants/index.html"><img src="/webact-redesign/assets/industry-consultants.png" alt="Consultants website design preview"><h3>Consultants</h3><p>WebAct helps consultants build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/marketing-agencies/index.html"><img src="/webact-redesign/assets/industry-marketing-agencies.png" alt="Marketing Agencies website design preview"><h3>Marketing Agencies</h3><p>WebAct helps marketing agencies build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/hair-salons/index.html"><img src="/webact-redesign/assets/industry-hair-salons.png" alt="Hair Salons website design preview"><h3>Hair Salons</h3><p>WebAct helps hair salons build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/tattoo-shops/index.html"><img src="/webact-redesign/assets/industry-tattoo-shops.png" alt="Tattoo Shops website design preview"><h3>Tattoo Shops</h3><p>WebAct helps tattoo shops build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/chiropractors/index.html"><img src="/webact-redesign/assets/industry-chiropractors.png" alt="Chiropractors website design preview"><h3>Chiropractors</h3><p>WebAct helps chiropractors build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/physical-therapy/index.html"><img src="/webact-redesign/assets/industry-physical-therapy.png" alt="Physical Therapy website design preview"><h3>Physical Therapy</h3><p>WebAct helps physical therapy build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/veterinary-clinics/index.html"><img src="/webact-redesign/assets/industry-veterinary-clinics.png" alt="Veterinary Clinics website design preview"><h3>Veterinary Clinics</h3><p>WebAct helps veterinary clinics build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/dentists/index.html"><img src="/webact-redesign/assets/industry-dentists.png" alt="Dentists website design preview"><h3>Dentists</h3><p>WebAct helps dentists build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/med-spas/index.html"><img src="/webact-redesign/assets/industry-med-spas.png" alt="Med Spas website design preview"><h3>Med Spas</h3><p>WebAct helps med spas build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/fitness-gyms/index.html"><img src="/webact-redesign/assets/industry-fitness-gyms.png" alt="Fitness Gyms website design preview"><h3>Fitness Gyms</h3><p>WebAct helps fitness gyms build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/personal-trainers/index.html"><img src="/webact-redesign/assets/industry-personal-trainers.png" alt="Personal Trainers website design preview"><h3>Personal Trainers</h3><p>WebAct helps personal trainers build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/yoga-studios/index.html"><img src="/webact-redesign/assets/industry-yoga-studios.png" alt="Yoga Studios website design preview"><h3>Yoga Studios</h3><p>WebAct helps yoga studios build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/martial-arts-schools/index.html"><img src="/webact-redesign/assets/industry-martial-arts-schools.png" alt="Martial Arts Schools website design preview"><h3>Martial Arts Schools</h3><p>WebAct helps martial arts schools build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/child-care/index.html"><img src="/webact-redesign/assets/industry-child-care.png" alt="Child Care website design preview"><h3>Child Care</h3><p>WebAct helps child care build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/schools-education/index.html"><img src="/webact-redesign/assets/industry-schools-education.png" alt="Schools &amp; Education website design preview"><h3>Schools &amp; Education</h3><p>WebAct helps schools &amp; education build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/tutoring-centers/index.html"><img src="/webact-redesign/assets/industry-tutoring-centers.png" alt="Tutoring Centers website design preview"><h3>Tutoring Centers</h3><p>WebAct helps tutoring centers build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/senior-living/index.html"><img src="/webact-redesign/assets/industry-senior-living.png" alt="Senior Living website design preview"><h3>Senior Living</h3><p>WebAct helps senior living build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/assisted-living/index.html"><img src="/webact-redesign/assets/industry-assisted-living.png" alt="Assisted Living website design preview"><h3>Assisted Living</h3><p>WebAct helps assisted living build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/mental-health-practices/index.html"><img src="/webact-redesign/assets/industry-mental-health-practices.png" alt="Mental Health Practices website design preview"><h3>Mental Health Practices</h3><p>WebAct helps mental health practices build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/urgent-care/index.html"><img src="/webact-redesign/assets/industry-urgent-care.png" alt="Urgent Care website design preview"><h3>Urgent Care</h3><p>WebAct helps urgent care build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/optometrists/index.html"><img src="/webact-redesign/assets/industry-optometrists.png" alt="Optometrists website design preview"><h3>Optometrists</h3><p>WebAct helps optometrists build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/dermatology/index.html"><img src="/webact-redesign/assets/industry-dermatology.png" alt="Dermatology website design preview"><h3>Dermatology</h3><p>WebAct helps dermatology build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/plastic-surgery/index.html"><img src="/webact-redesign/assets/industry-plastic-surgery.png" alt="Plastic Surgery website design preview"><h3>Plastic Surgery</h3><p>WebAct helps plastic surgery build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/restaurants-cafes/index.html"><img src="/webact-redesign/assets/industry-restaurants-cafes.png" alt="Restaurants &amp; Cafes website design preview"><h3>Restaurants &amp; Cafes</h3><p>WebAct helps restaurants &amp; cafes build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/food-trucks/index.html"><img src="/webact-redesign/assets/industry-food-trucks.png" alt="Food Trucks website design preview"><h3>Food Trucks</h3><p>WebAct helps food trucks build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/catering/index.html"><img src="/webact-redesign/assets/industry-catering.png" alt="Catering website design preview"><h3>Catering</h3><p>WebAct helps catering build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/bakeries/index.html"><img src="/webact-redesign/assets/industry-bakeries.png" alt="Bakeries website design preview"><h3>Bakeries</h3><p>WebAct helps bakeries build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/breweries/index.html"><img src="/webact-redesign/assets/industry-breweries.png" alt="Breweries website design preview"><h3>Breweries</h3><p>WebAct helps breweries build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/hotels-hospitality/index.html"><img src="/webact-redesign/assets/industry-hotels-hospitality.png" alt="Hotels &amp; Hospitality website design preview"><h3>Hotels &amp; Hospitality</h3><p>WebAct helps hotels &amp; hospitality build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/event-venues/index.html"><img src="/webact-redesign/assets/industry-event-venues.png" alt="Event Venues website design preview"><h3>Event Venues</h3><p>WebAct helps event venues build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/festivals/index.html"><img src="/webact-redesign/assets/industry-festivals.png" alt="Festivals website design preview"><h3>Festivals</h3><p>WebAct helps festivals build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/wedding-services/index.html"><img src="/webact-redesign/assets/industry-wedding-services.png" alt="Wedding Services website design preview"><h3>Wedding Services</h3><p>WebAct helps wedding services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/photographers/index.html"><img src="/webact-redesign/assets/industry-photographers.png" alt="Photographers website design preview"><h3>Photographers</h3><p>WebAct helps photographers build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/videographers/index.html"><img src="/webact-redesign/assets/industry-videographers.png" alt="Videographers website design preview"><h3>Videographers</h3><p>WebAct helps videographers build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/cleaning-services/index.html"><img src="/webact-redesign/assets/industry-cleaning-services.png" alt="Cleaning Services website design preview"><h3>Cleaning Services</h3><p>WebAct helps cleaning services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/janitorial-services/index.html"><img src="/webact-redesign/assets/industry-janitorial-services.png" alt="Janitorial Services website design preview"><h3>Janitorial Services</h3><p>WebAct helps janitorial services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/restoration-companies/index.html"><img src="/webact-redesign/assets/industry-restoration-companies.png" alt="Restoration Companies website design preview"><h3>Restoration Companies</h3><p>WebAct helps restoration companies build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/fire-water-damage/index.html"><img src="/webact-redesign/assets/industry-fire-water-damage.png" alt="Fire &amp; Water Damage website design preview"><h3>Fire &amp; Water Damage</h3><p>WebAct helps fire &amp; water damage build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/flooring/index.html"><img src="/webact-redesign/assets/industry-flooring.png" alt="Flooring website design preview"><h3>Flooring</h3><p>WebAct helps flooring build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/painting-contractors/index.html"><img src="/webact-redesign/assets/industry-painting-contractors.png" alt="Painting Contractors website design preview"><h3>Painting Contractors</h3><p>WebAct helps painting contractors build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/construction-design/index.html"><img src="/webact-redesign/assets/industry-construction-design.png" alt="Construction Design website design preview"><h3>Construction Design</h3><p>WebAct helps construction design build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/remodeling/index.html"><img src="/webact-redesign/assets/industry-remodeling.png" alt="Remodeling website design preview"><h3>Remodeling</h3><p>WebAct helps remodeling build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/kitchen-bath/index.html"><img src="/webact-redesign/assets/industry-kitchen-bath.png" alt="Kitchen &amp; Bath website design preview"><h3>Kitchen &amp; Bath</h3><p>WebAct helps kitchen &amp; bath build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/garage-door-services/index.html"><img src="/webact-redesign/assets/industry-garage-door-services.png" alt="Garage Door Services website design preview"><h3>Garage Door Services</h3><p>WebAct helps garage door services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/window-door-companies/index.html"><img src="/webact-redesign/assets/industry-window-door-companies.png" alt="Window &amp; Door Companies website design preview"><h3>Window &amp; Door Companies</h3><p>WebAct helps window &amp; door companies build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/glass-companies/index.html"><img src="/webact-redesign/assets/industry-glass-companies.png" alt="Glass Companies website design preview"><h3>Glass Companies</h3><p>WebAct helps glass companies build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/pool-services/index.html"><img src="/webact-redesign/assets/industry-pool-services.png" alt="Pool Services website design preview"><h3>Pool Services</h3><p>WebAct helps pool services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/fencing/index.html"><img src="/webact-redesign/assets/industry-fencing.png" alt="Fencing website design preview"><h3>Fencing</h3><p>WebAct helps fencing build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/tree-services/index.html"><img src="/webact-redesign/assets/industry-tree-services.png" alt="Tree Services website design preview"><h3>Tree Services</h3><p>WebAct helps tree services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/lawn-care/index.html"><img src="/webact-redesign/assets/industry-lawn-care.png" alt="Lawn Care website design preview"><h3>Lawn Care</h3><p>WebAct helps lawn care build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/security-companies/index.html"><img src="/webact-redesign/assets/industry-security-companies.png" alt="Security Companies website design preview"><h3>Security Companies</h3><p>WebAct helps security companies build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/it-services/index.html"><img src="/webact-redesign/assets/industry-it-services.png" alt="IT Services website design preview"><h3>IT Services</h3><p>WebAct helps it services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/managed-service-providers/index.html"><img src="/webact-redesign/assets/industry-managed-service-providers.png" alt="Managed Service Providers website design preview"><h3>Managed Service Providers</h3><p>WebAct helps managed service providers build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/software-companies/index.html"><img src="/webact-redesign/assets/industry-software-companies.png" alt="Software Companies website design preview"><h3>Software Companies</h3><p>WebAct helps software companies build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/manufacturing/index.html"><img src="/webact-redesign/assets/industry-manufacturing.png" alt="Manufacturing website design preview"><h3>Manufacturing</h3><p>WebAct helps manufacturing build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/industrial-services/index.html"><img src="/webact-redesign/assets/industry-industrial-services.png" alt="Industrial Services website design preview"><h3>Industrial Services</h3><p>WebAct helps industrial services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/machinery-movers/index.html"><img src="/webact-redesign/assets/industry-machinery-movers.png" alt="Machinery Movers website design preview"><h3>Machinery Movers</h3><p>WebAct helps machinery movers build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/wholesale-distributors/index.html"><img src="/webact-redesign/assets/industry-wholesale-distributors.png" alt="Wholesale Distributors website design preview"><h3>Wholesale Distributors</h3><p>WebAct helps wholesale distributors build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/logistics/index.html"><img src="/webact-redesign/assets/industry-logistics.png" alt="Logistics website design preview"><h3>Logistics</h3><p>WebAct helps logistics build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/trucking/index.html"><img src="/webact-redesign/assets/industry-trucking.png" alt="Trucking website design preview"><h3>Trucking</h3><p>WebAct helps trucking build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/courier-services/index.html"><img src="/webact-redesign/assets/industry-courier-services.png" alt="Courier Services website design preview"><h3>Courier Services</h3><p>WebAct helps courier services build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/auto-repair/index.html"><img src="/webact-redesign/assets/images/industry-mockups/auto-repair.png" alt="FR Bumper Solutions auto repair and detailing website preview"><h3>Auto Repair</h3><p>WebAct helps auto repair build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/tire-shops/index.html"><img src="/webact-redesign/assets/industry-tire-shops.png" alt="Tire Shops website design preview"><h3>Tire Shops</h3><p>WebAct helps tire shops build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/car-dealerships/index.html"><img src="/webact-redesign/assets/images/industry-mockups/car-dealership.png" alt="Pork Chop&#39;s auto sales website preview"><h3>Car Dealerships</h3><p>WebAct helps car dealerships build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/towing/index.html"><img src="/webact-redesign/assets/industry-towing.png" alt="Towing website design preview"><h3>Towing</h3><p>WebAct helps towing build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/car-washes/index.html"><img src="/webact-redesign/assets/industry-car-washes.png" alt="Car Washes website design preview"><h3>Car Washes</h3><p>WebAct helps car washes build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/car-detailing/index.html"><img src="/webact-redesign/assets/images/industry-mockups/auto-repair.png" alt="FR Bumper Solutions auto repair and detailing website preview"><h3>Auto Repair</h3><p>WebAct helps car detailing build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/motorcycle-dealers/index.html"><img src="/webact-redesign/assets/industry-motorcycle-dealers.png" alt="Motorcycle Dealers website design preview"><h3>Motorcycle Dealers</h3><p>WebAct helps motorcycle dealers build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/recreational-vehicles/index.html"><img src="/webact-redesign/assets/industry-recreational-vehicles.png" alt="Recreational Vehicles website design preview"><h3>Recreational Vehicles</h3><p>WebAct helps recreational vehicles build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/packaging-retail/index.html"><img src="/webact-redesign/assets/industry-packaging-retail.png" alt="Packaging Retail website design preview"><h3>Packaging Retail</h3><p>WebAct helps packaging retail build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/clothing-ecommerce/index.html"><img src="/webact-redesign/assets/industry-clothing-ecommerce.png" alt="Clothing Ecommerce website design preview"><h3>Clothing Ecommerce</h3><p>WebAct helps clothing ecommerce build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/ecommerce-stores/index.html"><img src="/webact-redesign/assets/industry-ecommerce-stores.png" alt="Ecommerce Stores website design preview"><h3>Ecommerce Stores</h3><p>WebAct helps ecommerce stores build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/fashion-boutiques/index.html"><img src="/webact-redesign/assets/industry-fashion-boutiques.png" alt="Fashion Boutiques website design preview"><h3>Fashion Boutiques</h3><p>WebAct helps fashion boutiques build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/sunglasses-eyewear/index.html"><img src="/webact-redesign/assets/images/industry-mockups/sunglasses-eyewear.png" alt="ExtremeGlare sunglasses and eyewear website preview"><h3>Sunglasses & Eyewear</h3><p>WebAct helps sunglasses &amp; eyewear build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/jewelry-stores/index.html"><img src="/webact-redesign/assets/industry-jewelry-stores.png" alt="Jewelry Stores website design preview"><h3>Jewelry Stores</h3><p>WebAct helps jewelry stores build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/furniture-stores/index.html"><img src="/webact-redesign/assets/industry-furniture-stores.png" alt="Furniture Stores website design preview"><h3>Furniture Stores</h3><p>WebAct helps furniture stores build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/home-decor/index.html"><img src="/webact-redesign/assets/industry-home-decor.png" alt="Home Decor website design preview"><h3>Home Decor</h3><p>WebAct helps home decor build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article><article><a href="../industries/interior-designers/index.html"><img src="/webact-redesign/assets/industry-interior-designers.png" alt="Interior Designers website design preview"><h3>Interior Designers</h3><p>WebAct helps interior designers build stronger websites, improve local visibility, run focused advertising, and turn more visitors into calls, forms, appointments, or sales.</p></a></article>
+<a class="industry-card" href="/webact-redesign/industries/../index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/hero-devices.png" alt="Every industry needs a different path to trust and conversion. website design example">
   </div>
-</section></main>
-    <div id="webact-footer"></div>
-    <script src="../script.js?v=reviews-layout-fix"></script>
-<script id="webact-promodo-header-script">
-(function(){
-  document.querySelectorAll('[data-webact-promodo-header]').forEach(function(header){
-    var toggle=header.querySelector('[data-webact-menu-toggle]');
-    if(toggle){toggle.addEventListener('click',function(){var open=header.classList.toggle('webact-nav-open');toggle.setAttribute('aria-expanded',open?'true':'false');});}
-    header.querySelectorAll('[data-webact-dropdown]').forEach(function(btn){
-      btn.addEventListener('click',function(e){
-        if(window.matchMedia('(max-width:1060px)').matches){
-          e.preventDefault();
-          var item=btn.closest('.webact-promodo-nav-item');
-          if(item){item.classList.toggle('webact-open');btn.setAttribute('aria-expanded',item.classList.contains('webact-open')?'true':'false');}
-        }
-      });
-    });
-    var search=header.querySelector('[data-webact-search-open]');
-    var close=header.querySelector('[data-webact-search-close]');
-    if(search){search.addEventListener('click',function(){document.body.classList.add('webact-search-open');var input=header.querySelector('.webact-search-row input');if(input){setTimeout(function(){input.focus();},50);}});}
-    if(close){close.addEventListener('click',function(){document.body.classList.remove('webact-search-open');});}
-  });
-  document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.body.classList.remove('webact-search-open');}});
-})();
-</script>
-
-<script src="/webact-redesign/assets/js/webact-promodo-nav.js" defer></script>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Every industry needs a different path to trust and conversion.</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Every industry needs a different path to trust and conversion. businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/home-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-home-services.png" alt="Home Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Home Services</h3>
+    <p>Lead-focused websites for plumbing, electrical, HVAC, restoration, repair, and service businesses that depend on calls and quote requests.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/restaurants/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-restaurants.png" alt="Restaurants website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Restaurants</h3>
+    <p>Menu-focused websites with ordering paths, location details, local SEO, maps, promotions, and mobile-friendly customer actions.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/locksmiths/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-locksmiths.png" alt="Locksmiths website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Locksmiths</h3>
+    <p>Emergency-service websites built around fast calls, service-area pages, local search visibility, reviews, and urgent customer needs.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/insurance/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-insurance.png" alt="Insurance website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Insurance</h3>
+    <p>Professional websites for quotes, policy information, service pages, renewals, lead capture, and local trust building.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/builders-contractors/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-builders-contractors.png" alt="Builders &amp; Contractors website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Builders &amp; Contractors</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Builders &amp; Contractors businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/home-care/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-home-care.png" alt="Home Care website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Home Care</h3>
+    <p>Trust-first websites for care providers with service-area pages, family-friendly messaging, calls, forms, reviews, and clear next steps.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/hvac/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-hvac.png" alt="HVAC website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>HVAC</h3>
+    <p>Seasonal campaign websites with repair pages, maintenance plans, financing prompts, emergency calls, local SEO, and service-area visibility.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/automotive/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-automotive.png" alt="Automotive website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Automotive</h3>
+    <p>Conversion-focused automotive websites with service menus, promotions, local search, lead forms, and advertising-ready landing pages.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/beauty-salons/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-beauty-salons.png" alt="Beauty &amp; Salons website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Beauty &amp; Salons</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Beauty &amp; Salons businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/golf-recreation/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-golf-recreation.png" alt="Golf &amp; Recreation website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Golf &amp; Recreation</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Golf &amp; Recreation businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/parking-mobility/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-parking-mobility.png" alt="Parking &amp; Mobility website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Parking &amp; Mobility</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Parking &amp; Mobility businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/water-utilities/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-water-utilities.png" alt="Water &amp; Utilities website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Water &amp; Utilities</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Water &amp; Utilities businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/moving-storage/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-moving-storage.png" alt="Moving &amp; Storage website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Moving &amp; Storage</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Moving &amp; Storage businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/solar-energy/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-solar-energy.png" alt="Solar &amp; Energy website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Solar &amp; Energy</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Solar &amp; Energy businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/real-estate/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/images/industry-mockups/real-estate.png" alt="Real Estate website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Real Estate</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Real Estate businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/printing-signage/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-printing-signage.png" alt="Printing &amp; Signage website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Printing &amp; Signage</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Printing &amp; Signage businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/franchise-multi-location/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-franchise-multi-location.png" alt="Franchise &amp; Multi-location website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Franchise &amp; Multi-location</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Franchise &amp; Multi-location businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/transportation/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-transportation.png" alt="Transportation website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Transportation</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Transportation businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/saas-platforms/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-saas-platforms.png" alt="SaaS &amp; Platforms website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>SaaS &amp; Platforms</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose SaaS &amp; Platforms businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/plumbing/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-plumbing.png" alt="Plumbing website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Plumbing</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Plumbing businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/artists-creators/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-artists-creators.png" alt="Artists &amp; Creators website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Artists &amp; Creators</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Artists &amp; Creators businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/nonprofits/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-nonprofits.png" alt="Nonprofits website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Nonprofits</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Nonprofits businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/local-retail/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-local-retail.png" alt="Local Retail website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Local Retail</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Local Retail businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/specialty-practices/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-specialty-practices.png" alt="Specialty Practices website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Specialty Practices</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Specialty Practices businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/electricians/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-electricians.png" alt="Electricians website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Electricians</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Electricians businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/roofing/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/images/industry-mockups/roofing.png" alt="Roofing website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Roofing</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Roofing businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/landscaping/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-landscaping.png" alt="Landscaping website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Landscaping</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Landscaping businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/home-inspections/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-home-inspections.png" alt="Home Inspections website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Home Inspections</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Home Inspections businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/gaming/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-gaming.png" alt="Gaming website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Gaming</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Gaming businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/esports/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-esports.png" alt="Esports website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Esports</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Esports businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/pest-control/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-pest-control.png" alt="Pest Control website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Pest Control</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Pest Control businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/pet-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-pet-services.png" alt="Pet Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Pet Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Pet Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/dog-adoption/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-dog-adoption.png" alt="Dog Adoption website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Dog Adoption</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Dog Adoption businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/equestrian/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-equestrian.png" alt="Equestrian website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Equestrian</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Equestrian businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/community-organizations/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-community-organizations.png" alt="Community Organizations website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Community Organizations</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Community Organizations businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/arts-organizations/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-arts-organizations.png" alt="Arts Organizations website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Arts Organizations</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Arts Organizations businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/driving-schools/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-driving-schools.png" alt="Driving Schools website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Driving Schools</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Driving Schools businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/law-firms/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-law-firms.png" alt="Law Firms website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Law Firms</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Law Firms businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/private-investigators/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-private-investigators.png" alt="Private Investigators website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Private Investigators</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Private Investigators businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/accounting-firms/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/images/industry-mockups/bookkeeping-accounting.png" alt="Bookkeeping & Accounting website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Bookkeeping & Accounting</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Bookkeeping & Accounting businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/financial-advisors/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-financial-advisors.png" alt="Financial Advisors website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Financial Advisors</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Financial Advisors businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/investor-relations/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-investor-relations.png" alt="Investor Relations website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Investor Relations</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Investor Relations businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/collections/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-collections.png" alt="Collections website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Collections</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Collections businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/consultants/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-consultants.png" alt="Consultants website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Consultants</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Consultants businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/marketing-agencies/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-marketing-agencies.png" alt="Marketing Agencies website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Marketing Agencies</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Marketing Agencies businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/hair-salons/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-hair-salons.png" alt="Hair Salons website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Hair Salons</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Hair Salons businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/tattoo-shops/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-tattoo-shops.png" alt="Tattoo Shops website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Tattoo Shops</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Tattoo Shops businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/chiropractors/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-chiropractors.png" alt="Chiropractors website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Chiropractors</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Chiropractors businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/physical-therapy/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-physical-therapy.png" alt="Physical Therapy website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Physical Therapy</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Physical Therapy businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/veterinary-clinics/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-veterinary-clinics.png" alt="Veterinary Clinics website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Veterinary Clinics</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Veterinary Clinics businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/dentists/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-dentists.png" alt="Dentists website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Dentists</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Dentists businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/med-spas/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-med-spas.png" alt="Med Spas website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Med Spas</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Med Spas businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/fitness-gyms/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-fitness-gyms.png" alt="Fitness Gyms website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Fitness Gyms</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Fitness Gyms businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/personal-trainers/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-personal-trainers.png" alt="Personal Trainers website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Personal Trainers</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Personal Trainers businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/yoga-studios/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-yoga-studios.png" alt="Yoga Studios website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Yoga Studios</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Yoga Studios businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/martial-arts-schools/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-martial-arts-schools.png" alt="Martial Arts Schools website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Martial Arts Schools</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Martial Arts Schools businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/child-care/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-child-care.png" alt="Child Care website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Child Care</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Child Care businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/schools-education/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-schools-education.png" alt="Schools &amp; Education website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Schools &amp; Education</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Schools &amp; Education businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/tutoring-centers/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-tutoring-centers.png" alt="Tutoring Centers website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Tutoring Centers</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Tutoring Centers businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/senior-living/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-senior-living.png" alt="Senior Living website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Senior Living</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Senior Living businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/assisted-living/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-assisted-living.png" alt="Assisted Living website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Assisted Living</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Assisted Living businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/mental-health-practices/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-mental-health-practices.png" alt="Mental Health Practices website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Mental Health Practices</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Mental Health Practices businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/urgent-care/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-urgent-care.png" alt="Urgent Care website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Urgent Care</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Urgent Care businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/optometrists/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-optometrists.png" alt="Optometrists website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Optometrists</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Optometrists businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/dermatology/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-dermatology.png" alt="Dermatology website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Dermatology</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Dermatology businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/plastic-surgery/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-plastic-surgery.png" alt="Plastic Surgery website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Plastic Surgery</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Plastic Surgery businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/restaurants-cafes/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-restaurants-cafes.png" alt="Restaurants &amp; Cafes website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Restaurants &amp; Cafes</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Restaurants &amp; Cafes businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/food-trucks/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-food-trucks.png" alt="Food Trucks website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Food Trucks</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Food Trucks businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/catering/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-catering.png" alt="Catering website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Catering</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Catering businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/bakeries/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-bakeries.png" alt="Bakeries website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Bakeries</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Bakeries businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/breweries/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-breweries.png" alt="Breweries website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Breweries</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Breweries businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/hotels-hospitality/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-hotels-hospitality.png" alt="Hotels &amp; Hospitality website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Hotels &amp; Hospitality</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Hotels &amp; Hospitality businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/event-venues/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-event-venues.png" alt="Event Venues website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Event Venues</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Event Venues businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/festivals/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-festivals.png" alt="Festivals website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Festivals</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Festivals businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/wedding-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-wedding-services.png" alt="Wedding Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Wedding Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Wedding Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/photographers/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-photographers.png" alt="Photographers website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Photographers</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Photographers businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/videographers/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-videographers.png" alt="Videographers website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Videographers</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Videographers businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/cleaning-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-cleaning-services.png" alt="Cleaning Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Cleaning Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Cleaning Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/janitorial-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-janitorial-services.png" alt="Janitorial Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Janitorial Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Janitorial Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/restoration-companies/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-restoration-companies.png" alt="Restoration Companies website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Restoration Companies</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Restoration Companies businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/fire-water-damage/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-fire-water-damage.png" alt="Fire &amp; Water Damage website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Fire &amp; Water Damage</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Fire &amp; Water Damage businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/flooring/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-flooring.png" alt="Flooring website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Flooring</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Flooring businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/painting-contractors/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-painting-contractors.png" alt="Painting Contractors website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Painting Contractors</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Painting Contractors businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/construction-design/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-construction-design.png" alt="Construction Design website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Construction Design</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Construction Design businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/remodeling/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-remodeling.png" alt="Remodeling website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Remodeling</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Remodeling businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/kitchen-bath/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-kitchen-bath.png" alt="Kitchen &amp; Bath website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Kitchen &amp; Bath</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Kitchen &amp; Bath businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/garage-door-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-garage-door-services.png" alt="Garage Door Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Garage Door Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Garage Door Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/window-door-companies/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-window-door-companies.png" alt="Window &amp; Door Companies website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Window &amp; Door Companies</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Window &amp; Door Companies businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/glass-companies/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-glass-companies.png" alt="Glass Companies website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Glass Companies</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Glass Companies businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/pool-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-pool-services.png" alt="Pool Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Pool Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Pool Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/fencing/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-fencing.png" alt="Fencing website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Fencing</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Fencing businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/tree-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-tree-services.png" alt="Tree Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Tree Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Tree Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/lawn-care/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-lawn-care.png" alt="Lawn Care website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Lawn Care</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Lawn Care businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/security-companies/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-security-companies.png" alt="Security Companies website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Security Companies</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Security Companies businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/it-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-it-services.png" alt="IT Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>IT Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose IT Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/managed-service-providers/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-managed-service-providers.png" alt="Managed Service Providers website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Managed Service Providers</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Managed Service Providers businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/software-companies/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-software-companies.png" alt="Software Companies website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Software Companies</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Software Companies businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/manufacturing/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-manufacturing.png" alt="Manufacturing website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Manufacturing</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Manufacturing businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/industrial-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-industrial-services.png" alt="Industrial Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Industrial Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Industrial Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/machinery-movers/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-machinery-movers.png" alt="Machinery Movers website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Machinery Movers</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Machinery Movers businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/wholesale-distributors/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-wholesale-distributors.png" alt="Wholesale Distributors website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Wholesale Distributors</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Wholesale Distributors businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/logistics/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-logistics.png" alt="Logistics website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Logistics</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Logistics businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/trucking/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-trucking.png" alt="Trucking website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Trucking</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Trucking businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/courier-services/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-courier-services.png" alt="Courier Services website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Courier Services</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Courier Services businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/auto-repair/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/images/industry-mockups/auto-repair.png" alt="Auto Repair website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Auto Repair</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Auto Repair businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/tire-shops/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-tire-shops.png" alt="Tire Shops website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Tire Shops</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Tire Shops businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/car-dealerships/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/images/industry-mockups/car-dealership.png" alt="Car Dealerships website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Car Dealerships</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Car Dealerships businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/towing/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-towing.png" alt="Towing website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Towing</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Towing businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/car-washes/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-car-washes.png" alt="Car Washes website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Car Washes</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Car Washes businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/car-detailing/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/images/industry-mockups/auto-repair.png" alt="Auto Repair website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Auto Repair</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Auto Repair businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/motorcycle-dealers/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-motorcycle-dealers.png" alt="Motorcycle Dealers website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Motorcycle Dealers</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Motorcycle Dealers businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/recreational-vehicles/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-recreational-vehicles.png" alt="Recreational Vehicles website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Recreational Vehicles</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Recreational Vehicles businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/packaging-retail/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-packaging-retail.png" alt="Packaging Retail website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Packaging Retail</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Packaging Retail businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/clothing-ecommerce/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-clothing-ecommerce.png" alt="Clothing Ecommerce website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Clothing Ecommerce</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Clothing Ecommerce businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/ecommerce-stores/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-ecommerce-stores.png" alt="Ecommerce Stores website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Ecommerce Stores</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Ecommerce Stores businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/fashion-boutiques/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-fashion-boutiques.png" alt="Fashion Boutiques website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Fashion Boutiques</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Fashion Boutiques businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/sunglasses-eyewear/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/images/industry-mockups/sunglasses-eyewear.png" alt="Sunglasses & Eyewear website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Sunglasses & Eyewear</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Sunglasses & Eyewear businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/jewelry-stores/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-jewelry-stores.png" alt="Jewelry Stores website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Jewelry Stores</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Jewelry Stores businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/furniture-stores/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-furniture-stores.png" alt="Furniture Stores website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Furniture Stores</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Furniture Stores businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/home-decor/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-home-decor.png" alt="Home Decor website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Home Decor</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Home Decor businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+<a class="industry-card" href="/webact-redesign/industries/../industries/interior-designers/index.html">
+  <div class="industry-image">
+    <img src="/webact-redesign/assets/industry-interior-designers.png" alt="Interior Designers website design example">
+  </div>
+  <div class="industry-card-body">
+    <p class="industry-label">Industry Website Design</p>
+    <h3>Interior Designers</h3>
+    <p>Industry-focused website design, SEO, advertising, content strategy, and conversion planning built around how customers search and choose Interior Designers businesses.</p>
+    <strong>View Industry →</strong>
+  </div>
+</a>
+  </div>
+</section>
 
-  <script src="/webact-redesign/assets/js/routes.js"></script>
-  <script src="/webact-redesign/assets/js/navigation.js"></script>
-  <script src="/webact-redesign/assets/js/includes.js"></script>
+<section class="final-cta">
+  <h2>Ready to build a stronger industry website?</h2>
+  <p>WebAct can help you create a website, SEO strategy, advertising plan, and content structure built around your industry and your customers.</p>
+  <div class="hero-actions">
+    <a class="button primary" href="/webact-redesign/contact/index.html">Start a Project</a>
+    <a class="button secondary" href="/webact-redesign/about/portfolio.html">View Portfolio</a>
+  </div>
+</section>
+</main>
 
+<div id="webact-footer"></div>
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 </body>
 </html>
-
-
-
-
-
-
