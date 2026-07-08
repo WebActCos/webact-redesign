@@ -205,7 +205,7 @@
 
   document.getElementById("services-title").textContent = "Services connected to the " + c.name + " project.";
   document.getElementById("services-intro").textContent = "These are the types of website, SEO, marketing, and advertising services WebAct can use to support a " + c.industry.toLowerCase() + " website project.";
-  document.getElementById("service-grid").outerHTML = '<div class="services-pill-grid" id="service-grid">' + c.services.map(function(s){return "<span>âœ“ " + s + "</span>";}).join("") + "</div>";
+  document.getElementById("service-grid").outerHTML = '<div class="services-pill-grid" id="service-grid">' + c.services.map(function(s){return "<span>&check; " + s + "</span>";}).join("") + "</div>";
 
   document.getElementById("related-intro").textContent = "Browse additional WebAct portfolio examples related to " + c.industry.toLowerCase() + " websites and similar business categories.";
   const relatedGrid = document.getElementById("related-grid");
