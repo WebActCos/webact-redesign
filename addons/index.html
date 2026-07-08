@@ -74,6 +74,68 @@ border-radius:24px;
 
 </style>
 
+<style id="addons-hero-form-match">
+.addon-help-card{
+  background:rgba(255,255,255,.96)!important;
+  color:#071421!important;
+  border-radius:28px!important;
+  padding:34px!important;
+  box-shadow:0 30px 80px rgba(0,0,0,.28)!important;
+  border:1px solid rgba(255,255,255,.22)!important;
+}
+.addon-help-card h2{
+  font-size:28px!important;
+  line-height:1.1!important;
+  margin:0 0 10px!important;
+  letter-spacing:-.02em!important;
+  color:#071421!important;
+}
+.addon-help-card p{
+  color:#4b5b66!important;
+  line-height:1.55!important;
+  margin:0 0 18px!important;
+  font-size:16px!important;
+}
+.addon-help-card .hero-form{
+  display:grid!important;
+  gap:0!important;
+  margin-top:0!important;
+  background:transparent!important;
+  padding:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.addon-help-card .hero-form label{
+  display:grid!important;
+  gap:7px!important;
+  margin-bottom:12px!important;
+  font-weight:800!important;
+  font-size:14px!important;
+  color:#203241!important;
+}
+.addon-help-card .hero-form input,
+.addon-help-card .hero-form select,
+.addon-help-card .hero-form textarea{
+  width:100%!important;
+  box-sizing:border-box!important;
+  border:1px solid #cddce7!important;
+  border-radius:12px!important;
+  padding:13px 14px!important;
+  font:inherit!important;
+  background:#fff!important;
+  color:#071421!important;
+  min-height:auto!important;
+}
+.addon-help-card .hero-form textarea{
+  resize:vertical!important;
+  min-height:92px!important;
+}
+.addon-help-card .hero-form .button{
+  width:100%!important;
+  margin-top:6px!important;
+  border:0!important;
+}
+</style>
 </head>
 <body class="addons-page">
 <div id="webact-header"></div>
@@ -91,25 +153,27 @@ border-radius:24px;
   </div>
 
   <aside class="addon-help-card">
-    <h2>Need Help Choosing?</h2>
-    <p>Tell us what you want to improve and WebAct can recommend the best add-ons for your website.</p>
-    <form class="hero-form">
-  <label>Full Name<input type="text" placeholder="Your name"></label>
-  <label>Email Address<input type="email" placeholder="you@example.com"></label>
-  <label>Interested In
-    <select>
-      <option>Domain Names</option>
-      <option>Professional Email</option>
-      <option>Widgets</option>
-      <option>Website App Store</option>
-    </select>
-  </label>
-  <label>How can we help?
-    <textarea rows="4" placeholder="Tell us what you want your website to do."></textarea>
-  </label>
-  <a class="button primary" href="/webact-redesign/contact/index.html">Request Help</a>
-</form>
-  </aside>
+  <h2>Need Help First?</h2>
+  <p>Tell us what you want to build and WebAct can point you toward the best website add-on option.</p>
+
+  <form class="hero-form">
+    <label>Full Name<input type="text"></label>
+    <label>Email Address<input type="email"></label>
+    <label>Phone Number<input type="tel"></label>
+    <label>Interested In
+      <select>
+        <option>Domain Names</option>
+        <option>Professional Email</option>
+        <option>Widgets</option>
+        <option>Website App Store</option>
+      </select>
+    </label>
+    <label>How can we help?
+      <textarea rows="4"></textarea>
+    </label>
+    <a class="button primary" href="/webact-redesign/contact/index.html">Request Help</a>
+  </form>
+</aside>
 </section>
 
 <section class="section soft">
