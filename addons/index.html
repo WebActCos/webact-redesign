@@ -1,61 +1,344 @@
 ﻿<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Add-ons | WebAct</title>
-    <meta name="description" content="Domain names, professional email, widgets, and other WebAct extras separated into clear product tabs.">
-    <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Website Add-Ons | WebAct</title>
+
+<meta name="description" content="Enhance your website with domain names, professional email, website widgets, and powerful website applications from WebAct.">
+
+<link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+
+<style>
+
+.addons-page{
+background:#fff;
+color:#071421;
+}
+
+.addons-hero{
+background:
+radial-gradient(circle at 15% 18%,rgba(51,171,225,.22),transparent 30%),
+linear-gradient(135deg,#061421,#0d2740 52%,#071421);
+padding:90px min(6vw,72px);
+display:grid;
+grid-template-columns:1.1fr .8fr;
+gap:48px;
+align-items:center;
+color:#fff;
+}
+
+.addons-hero h1{
+font-size:clamp(52px,6vw,82px);
+line-height:.95;
+margin:16px 0;
+}
+
+.addons-hero p{
+font-size:20px;
+line-height:1.7;
+color:#d6ebf8;
+}
+
+.hero-form{
+background:#fff;
+color:#071421;
+padding:30px;
+border-radius:26px;
+box-shadow:0 30px 80px rgba(0,0,0,.28);
+}
+
+.hero-form h2{
+margin-top:0;
+}
+
+.hero-form input,
+.hero-form textarea{
+width:100%;
+padding:14px;
+border:1px solid #d8e5ef;
+border-radius:12px;
+margin-bottom:14px;
+font:inherit;
+}
+
+.section{
+padding:90px min(6vw,72px);
+}
+
+.heading{
+text-align:center;
+max-width:900px;
+margin:auto auto 50px;
+}
+
+.heading h2{
+font-size:clamp(36px,4vw,58px);
+}
+
+.addon-grid{
+display:grid;
+grid-template-columns:repeat(2,minmax(0,1fr));
+gap:28px;
+max-width:1300px;
+margin:auto;
+}
+
+.addon-card{
+background:#fff;
+border:1px solid #e0ebf2;
+border-radius:26px;
+padding:34px;
+box-shadow:0 18px 42px rgba(7,20,33,.08);
+transition:.25s;
+text-decoration:none;
+color:#071421;
+}
+
+.addon-card:hover{
+transform:translateY(-5px);
+box-shadow:0 26px 60px rgba(7,20,33,.14);
+border-color:#33abe1;
+}
+
+.addon-card span{
+display:inline-flex;
+width:54px;
+height:54px;
+background:#33abe1;
+border-radius:18px;
+align-items:center;
+justify-content:center;
+font-weight:900;
+margin-bottom:18px;
+}
+
+.addon-card h3{
+font-size:30px;
+margin:0 0 12px;
+}
+
+.addon-card p{
+line-height:1.75;
+color:#55646f;
+margin-bottom:20px;
+}
+
+.addon-card strong{
+color:#1297d1;
+font-weight:900;
+}
+
+.final-cta{
+padding:90px;
+background:linear-gradient(135deg,#0b243a,#071421);
+text-align:center;
+color:#fff;
+}
+
+@media(max-width:900px){
+
+.addons-hero{
+grid-template-columns:1fr;
+}
+
+.addon-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
 </head>
-  <body>
+
+<body class="addons-page">
+
 <div id="webact-header"></div>
-<main><section class="page-hero">
-  <div>
-    <p class="breadcrumb"><a href="../index.html">Home</a> / Add-ons</p>
-    <p class="eyebrow">Store + Extras</p>
-    <h1>Add-ons</h1>
-    <p class="hero-lede">Domain names, professional email, widgets, and other WebAct extras separated into clear product tabs.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="/contact/index.html">Start a conversation</a>
-      <a class="button secondary" href="../pricing/index.html">View pricing</a>
-    </div>
-  </div>
-  <img src="/webact-redesign/assets/domain.png" alt="Add-ons visual">
+
+<main>
+
+<section class="addons-hero">
+
+<div>
+
+<p class="eyebrow">WEBACT ADD-ONS</p>
+
+<h1>Add-ons</h1>
+
+<p>
+
+Extend your website with additional services that help your business look more professional, improve customer experience, and unlock more functionality. Whether you need a domain name, business email, advanced widgets, or powerful website applications, WebAct has the tools to help your website grow with your business.
+
+</p>
+
+<div class="hero-actions">
+
+<a class="button primary" href="#addons">Explore Add-Ons</a>
+
+<a class="button secondary" href="/webact-redesign/contact/index.html">Talk to WebAct</a>
+
+</div>
+
+</div>
+
+<div class="hero-form">
+
+<h2>Need Help Choosing?</h2>
+
+<p>
+
+Tell us about your website and we'll recommend the best add-ons for your business.
+
+</p>
+
+<input placeholder="Full Name">
+
+<input placeholder="Email Address">
+
+<textarea rows="5" placeholder="How can we help?"></textarea>
+
+<a class="button primary" href="/webact-redesign/contact/index.html">
+
+Request Consultation
+
+</a>
+
+</div>
+
 </section>
-<section class="section website-design-intro">
-  <div class="service-link-row" aria-label="Add-ons quick links">
-    <a href="../addons/domain-names.html">Domain Names</a><a href="../addons/professional-email.html">Professional Email</a><a href="../addons/widgets.html">Widgets</a><a href="../addons/website-app-store.html">Website App Store</a>
-  </div>
-  <div class="website-design-copy">
-    <p class="eyebrow">Explore Add-ons</p>
-    <h2>Choose the path that matches the work you need done.</h2>
-    <p>Domain names, professional email, widgets, and other WebAct extras separated into clear product tabs. WebAct uses these pages as focused buyer paths, so each service has a clear role, a clear call to action, and support content that can expand over time.</p>
-  </div>
+
+<section class="section" id="addons">
+
+<div class="heading">
+
+<p class="eyebrow">
+
+Website Essentials
+
+</p>
+
+<h2>
+
+Everything you need beyond your website.
+
+</h2>
+
+<p>
+
+Choose from WebAct's most popular website enhancements designed to improve your online presence and support your business as it grows.
+
+</p>
+
+</div>
+
+<div class="addon-grid">
+
+<a class="addon-card" href="/webact-redesign/addons/domain-names.html">
+
+<span>01</span>
+
+<h3>Domain Names</h3>
+
+<p>
+
+Register new domains, transfer existing domains, renew registrations, manage DNS, and protect your online brand with professional domain management.
+
+</p>
+
+<strong>Learn More →</strong>
+
+</a>
+
+<a class="addon-card" href="/webact-redesign/addons/professional-email.html">
+
+<span>02</span>
+
+<h3>Professional Email</h3>
+
+<p>
+
+Create branded email addresses using your own domain with Microsoft 365 and business email solutions that build trust with every message.
+
+</p>
+
+<strong>Learn More →</strong>
+
+</a>
+
+<a class="addon-card" href="/webact-redesign/addons/widgets.html">
+
+<span>03</span>
+
+<h3>Widgets</h3>
+
+<p>
+
+Enhance your website with interactive widgets, business tools, lead generation features, image galleries, forms, maps, reviews, and custom functionality.
+
+</p>
+
+<strong>Browse Widgets →</strong>
+
+</a>
+
+<a class="addon-card" href="/webact-redesign/addons/website-app-store.html">
+
+<span>04</span>
+
+<h3>Website App Store</h3>
+
+<p>
+
+Discover premium website applications that add booking, chat, ecommerce, marketing, automation, reviews, memberships, analytics, accessibility, and much more.
+
+</p>
+
+<strong>Browse Apps →</strong>
+
+</a>
+
+</div>
+
 </section>
-<section class="section website-benefits-section">
-  <div class="section-heading compact">
-    <p class="eyebrow">Pages in this section</p>
-    <h2>Add-ons pages</h2>
-    <p>Each card can become a service page, knowledge page, pricing lane, add-on path, or support resource.</p>
-  </div>
-  <div class="page-card-grid"><article class="page-card"><h3>Domain Names</h3><p>Registration, transfers, renewals, and account support.</p><a href="../addons/domain-names.html">View page</a></article><article class="page-card"><h3>Professional Email</h3><p>Microsoft 365 and branded email tools for business communication.</p><a href="../addons/professional-email.html">View page</a></article><article class="page-card"><h3>Widgets</h3><p>Calendars, buttons, popups, sliders, maps, forms, and custom Duda widgets.</p><a href="../addons/widgets.html">View page</a></article><article class="page-card"><h3>Website App Store</h3><p>Search WebAct website apps, compare plans, and start paid app installs.</p><a href="../addons/website-app-store.html">View page</a></article></div>
+
+<section class="final-cta">
+
+<h2>
+
+Need something custom?
+
+</h2>
+
+<p>
+
+Our team can recommend the right add-ons, install them for you, and customize your website to match your business goals.
+
+</p>
+
+<div class="hero-actions">
+
+<a class="button primary" href="/webact-redesign/contact/index.html">
+
+Contact WebAct
+
+</a>
+
+</div>
+
 </section>
-<section class="section website-solutions-band">
-  <div>
-    <p class="eyebrow">Next Step</p>
-    <h2>Need help choosing the right add-ons path?</h2>
-    <p>WebAct can connect design, advertising, marketing, add-ons, pricing, and support so customers do not have to stitch the project together themselves.</p>
-  </div>
-  <a class="button secondary" href="/contact/index.html">Start a conversation</a>
-</section></main>
-    <div id="webact-footer"></div>
-    <script src="/webact-redesign/script.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+
+</main>
+
+<div id="webact-footer"></div>
+
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
 </body>
 </html>
-
