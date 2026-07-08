@@ -136,6 +136,104 @@ border-radius:24px;
   border:0!important;
 }
 </style>
+<style id="addons-final-form-image-override">
+.addons-hero{
+  grid-template-columns:minmax(0,1.05fr) minmax(360px,.72fr)!important;
+  align-items:center!important;
+}
+
+.addon-help-card{
+  max-width:520px!important;
+  justify-self:end!important;
+  background:rgba(255,255,255,.96)!important;
+  color:#071421!important;
+  border-radius:28px!important;
+  padding:28px!important;
+  box-shadow:0 30px 80px rgba(0,0,0,.28)!important;
+  border:1px solid rgba(255,255,255,.22)!important;
+}
+
+.addon-help-card h2{
+  font-size:28px!important;
+  margin:0 0 8px!important;
+  color:#071421!important;
+  letter-spacing:-.02em!important;
+}
+
+.addon-help-card p{
+  color:#4b5b66!important;
+  font-size:16px!important;
+  line-height:1.55!important;
+  margin:0 0 18px!important;
+}
+
+.addon-help-card .hero-form{
+  display:grid!important;
+  gap:0!important;
+  margin:0!important;
+  padding:0!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  border-radius:0!important;
+  max-width:none!important;
+}
+
+.addon-help-card .hero-form label{
+  display:grid!important;
+  gap:7px!important;
+  margin:0 0 12px!important;
+  font-weight:800!important;
+  font-size:14px!important;
+  color:#203241!important;
+}
+
+.addon-help-card .hero-form input,
+.addon-help-card .hero-form select,
+.addon-help-card .hero-form textarea{
+  width:100%!important;
+  box-sizing:border-box!important;
+  border:1px solid #cddce7!important;
+  border-radius:12px!important;
+  padding:13px 14px!important;
+  font:inherit!important;
+  background:#fff!important;
+  color:#071421!important;
+  min-height:auto!important;
+  margin:0!important;
+}
+
+.addon-help-card .hero-form textarea{
+  min-height:92px!important;
+  resize:vertical!important;
+}
+
+.addon-help-card .hero-form .button{
+  width:100%!important;
+  margin-top:6px!important;
+}
+
+.feature-visual.image{
+  padding:0!important;
+  overflow:hidden!important;
+  background:#fff!important;
+  min-height:360px!important;
+}
+
+.feature-visual.image img{
+  width:100%!important;
+  height:100%!important;
+  min-height:360px!important;
+  object-fit:cover!important;
+  display:block!important;
+  border-radius:26px!important;
+}
+
+@media(max-width:1080px){
+  .addons-hero{grid-template-columns:1fr!important}
+  .addon-help-card{max-width:none!important;justify-self:stretch!important}
+}
+</style>
 </head>
 <body class="addons-page">
 <div id="webact-header"></div>
@@ -198,43 +296,7 @@ border-radius:24px;
     <p>Each add-on category supports a different part of your website and online business setup.</p>
   </div>
 
-  <article class="feature-panel">
-    <div class="feature-visual image"><img src="/webact-redesign/assets/images/addons/domain-names.jpg" alt="Domain name website setup"></div>
-    <div class="feature-copy">
-      <p class="eyebrow">Domain Names</p>
-      <h3>Secure the right website address for your business.</h3>
-      <p>WebAct can help with domain registration, transfers, renewals, DNS support, and connecting your domain to your website. A strong domain makes your business easier to remember and helps protect your brand online.</p>
-      <div class="mini-list"><span>Domain Registration</span><span>Domain Transfers</span><span>DNS Support</span><span>Brand Protection</span></div>
-      <a class="button primary" href="/webact-redesign/addons/domain-names.html">View Domain Help</a>
-    </div>
-  </article>
-
-  <article class="feature-panel">
-    <div class="feature-visual image"><img src="/webact-redesign/assets/images/addons/professional-email.png" alt="Professional email and business dashboard"></div>
-    <div class="feature-copy">
-      <p class="eyebrow">Professional Email</p>
-      <h3>Look more professional with branded business email.</h3>
-      <p>Professional email gives your business a more credible appearance with addresses like name@yourdomain.com. WebAct can help connect your domain to business email tools and support a cleaner communication setup.</p>
-      <div class="mini-list"><span>Business Email</span><span>Domain-Based Addresses</span><span>Microsoft 365</span><span>Email Setup Help</span></div>
-      <a class="button primary" href="/webact-redesign/addons/professional-email.html">View Email Options</a>
-    </div>
-  </article>
-
-  <article class="feature-panel">
-    <div class="feature-visual image"><img src="/webact-redesign/assets/images/addons/widgets.jpg" alt="Website widgets and online tools"></div>
-    <div class="feature-copy">
-      <p class="eyebrow">Widgets</p>
-      <h3>Add useful tools and interactive features to your website.</h3>
-      <p>Widgets help your website do more. Add forms, galleries, sliders, reviews, maps, calendars, popups, buttons, menus, and custom tools that improve the visitor experience and support customer action.</p>
-      <div class="mini-list"><span>Forms</span><span>Reviews</span><span>Galleries</span><span>Custom Features</span></div>
-      <a class="button primary" href="/webact-redesign/addons/widgets.html">Browse Widgets</a>
-    </div>
-  </article>
-
-  <article class="feature-panel">
-    <div class="feature-visual image"><img src="/webact-redesign/assets/images/addons/website-app-store.png" alt="Website app store and WebAct website tools"></div>
-    <div class="feature-copy">
-      <p class="eyebrow">Website App Store</p>
+  <article class="feature-panel"><div class="feature-visual image"><img src="/webact-redesign/assets/studio-desk.png" alt="Website app store tools"></div><div class="feature-copy"><p class="eyebrow">Website App Store</p>
       <h3>Extend your website with powerful website apps.</h3>
       <p>The Website App Store includes tools for chat, booking, reviews, accessibility, memberships, automation, analytics, marketing, ecommerce, and more. WebAct can help you choose and install the right apps for your goals.</p>
       <div class="mini-list"><span>Chat</span><span>Bookings</span><span>Reviews</span><span>Automation</span></div>
