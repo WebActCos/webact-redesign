@@ -1,4 +1,4 @@
-window.webactPortfolioMasterData = [
+﻿window.webactPortfolioMasterData = [
   {
     "name": "2go Coconut",
     "slug": "2go-coconut",

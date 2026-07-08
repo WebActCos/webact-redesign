@@ -1,0 +1,2 @@
+# Industries
+Shared templates.
