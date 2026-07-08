@@ -1,4 +1,10 @@
-﻿window.webactPortfolioContentEngine = (function () {
+$ErrorActionPreference = "Stop"
+
+$contentJsPath = ".\assets\js\portfolio-content.js"
+$casePath = ".\about\portfolio\case-study.html"
+
+$contentJs = @'
+window.webactPortfolioContentEngine = (function () {
   function slugify(text) {
     return String(text || "").toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
   }
@@ -154,3 +160,128 @@
 
   return { slugify, generate };
 })();
+'@
+
+Set-Content $contentJsPath $contentJs -NoNewline -Encoding UTF8
+
+$caseHtml = @'
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Case Study | WebAct</title>
+  <meta name="description" content="View a WebAct website design, SEO, marketing, and advertising case study.">
+  <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+  <style>
+    html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+    body{margin:0}.case-page{background:#fff;color:#071421}
+    .case-hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:100px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.85fr);gap:54px;align-items:center}
+    .case-hero h1{font-size:clamp(42px,6vw,76px);line-height:.98;margin:12px 0 22px;letter-spacing:-.05em;color:#fff}.case-hero p{color:#d9edf8;font-size:20px;line-height:1.65}
+    .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}.case-media{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:30px;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.28)}
+    .case-media img{width:100%;height:430px;object-fit:cover;border-radius:22px;display:block;background:#fff}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:210px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}
+    .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}.button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
+    .case-section{padding:78px min(6vw,72px)}.case-section.alt{background:#f4f8fb}
+    .case-copy{max-width:1100px;margin:0 auto}.case-copy .eyebrow{color:#0c9bd2}.case-copy h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 20px;letter-spacing:-.04em}.case-copy p{font-size:19px;line-height:1.85;color:#4b5b66;margin:0}
+    .service-grid,.related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1300px;margin:32px auto 0}.service-card,.related-card{background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:24px;box-shadow:0 18px 42px rgba(7,20,33,.08);text-decoration:none;color:#071421}.service-card h3,.related-card h3{margin:0;color:#071421;font-size:22px}
+    .related-card img{width:100%;height:210px;object-fit:cover;border-radius:18px;margin-bottom:18px;background:#dcecf5}.related-card span{display:inline-block;margin-bottom:10px;background:#eaf8fe;color:#0c658c;border:1px solid #bfe8f7;border-radius:999px;padding:8px 12px;font-weight:900;font-size:12px;text-transform:uppercase}
+    .final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}.final-cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}.final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}.final-cta .hero-actions{justify-content:center}
+    @media(max-width:1080px){.case-hero{grid-template-columns:1fr}.service-grid,.related-grid{grid-template-columns:1fr 1fr}.case-media img{height:auto}}
+    @media(max-width:680px){.case-hero,.case-section,.final-cta{padding:56px 20px}.service-grid,.related-grid{grid-template-columns:1fr}.hero-actions .button{width:100%}}
+  </style>
+</head>
+<body class="case-page">
+<div id="webact-header"></div>
+<main>
+  <section class="case-hero">
+    <div>
+      <p class="eyebrow" id="case-category">Portfolio Case Study</p>
+      <h1 id="case-title">Website Design Case Study</h1>
+      <p id="case-summary"></p>
+      <div class="hero-actions">
+        <a class="button primary" href="/webact-redesign/contact/index.html">Start a Project</a>
+        <a class="button secondary" href="/webact-redesign/about/portfolio.html">Back to Portfolio</a>
+      </div>
+    </div>
+    <div class="case-media"><img id="case-image" src="/webact-redesign/Resources/images/placeholder.png" alt="WebAct portfolio project"></div>
+  </section>
+  <div id="case-sections"></div>
+  <section class="case-section alt">
+    <div class="case-copy">
+      <p class="eyebrow">Services WebAct Can Provide</p>
+      <h2 id="services-title">Website, SEO, and marketing services.</h2>
+      <p id="services-intro"></p>
+    </div>
+    <div class="service-grid" id="service-grid"></div>
+  </section>
+  <section class="case-section">
+    <div class="case-copy">
+      <p class="eyebrow">Related Portfolio Work</p>
+      <h2>More WebAct website design examples.</h2>
+      <p id="related-intro"></p>
+    </div>
+    <div class="related-grid" id="related-grid"></div>
+  </section>
+  <section class="final-cta">
+    <h2 id="cta-title">Need a website like this?</h2>
+    <p id="cta-text"></p>
+    <div class="hero-actions">
+      <a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
+      <a class="button secondary" href="/webact-redesign/design/index.html">View Design Services</a>
+    </div>
+  </section>
+</main>
+<div id="webact-footer"></div>
+<script src="/webact-redesign/assets/js/portfolio-data-all.js"></script>
+<script src="/webact-redesign/assets/js/portfolio-content.js"></script>
+<script>
+(function(){
+  const rows = window.webactPortfolioRows || [];
+  const engine = window.webactPortfolioContentEngine;
+  if(!rows.length || !engine) return;
+  const slug = new URLSearchParams(location.search).get("project") || "";
+  const row = rows.find(r => engine.slugify(r[0]) === slug) || rows[0];
+  const c = engine.generate(row, rows);
+
+  document.title = c.name + " " + c.industry + " Website Design, SEO and Marketing Case Study | WebAct";
+  document.getElementById("case-category").textContent = c.category;
+  document.getElementById("case-title").textContent = c.title;
+  document.getElementById("case-summary").textContent = c.summary;
+  document.getElementById("case-image").src = c.image;
+  document.getElementById("case-image").alt = c.name + " " + c.industry + " website design";
+
+  const sections = document.getElementById("case-sections");
+  c.sections.forEach(function(s,i){
+    sections.insertAdjacentHTML("beforeend", '<section class="case-section '+(i%2?'alt':'')+'"><div class="case-copy"><p class="eyebrow">'+s.eyebrow+'</p><h2>'+s.title+'</h2><p>'+s.text+'</p></div></section>');
+  });
+
+  document.getElementById("services-title").textContent = "Services connected to the " + c.name + " project.";
+  document.getElementById("services-intro").textContent = "These are the types of website, SEO, marketing, and advertising services WebAct can use to support a " + c.industry.toLowerCase() + " website project.";
+  document.getElementById("service-grid").innerHTML = c.services.map(function(s){return '<article class="service-card"><h3>'+s+'</h3></article>';}).join("");
+
+  document.getElementById("related-intro").textContent = "Browse additional WebAct portfolio examples related to " + c.industry.toLowerCase() + " websites and similar business categories.";
+  const relatedGrid = document.getElementById("related-grid");
+  relatedGrid.innerHTML = c.related.map(function(r){
+    return '<a class="related-card" href="/webact-redesign/about/portfolio/case-study.html?project='+engine.slugify(r[0])+'"><img src="'+r[2]+'" alt="'+r[0]+' website design"><span>'+r[1]+'</span><h3>'+r[0]+'</h3></a>';
+  }).join("") || '<p style="grid-column:1/-1;color:#4b5b66;font-size:18px;text-align:center">More related projects will be added soon.</p>';
+
+  document.getElementById("cta-title").textContent = "Need a " + c.industry.toLowerCase() + " website like " + c.name + "?";
+  document.getElementById("cta-text").textContent = "WebAct can help with website design, SEO, digital advertising, landing pages, branding, local visibility, and ongoing website support for businesses in this industry.";
+})();
+</script>
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+</body>
+</html>
+'@
+
+Set-Content $casePath $caseHtml -NoNewline -Encoding UTF8
+
+git add assets/js/portfolio-content.js about/portfolio/case-study.html tools/migrate/Build-Advanced-Portfolio-Case-Studies.ps1
+git commit -m "Build advanced portfolio case study engine"
+git push origin main
