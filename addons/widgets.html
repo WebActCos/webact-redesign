@@ -8,8 +8,80 @@
     <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
     <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
     <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<style id="widgets-page-redesign-final">
+html,body{height:auto!important;overflow-x:hidden!important}
+.widgets-page{background:#fff;color:#071421}
+.widgets-page main{background:#fff}
+.widgets-page .page-hero,
+.widgets-page .widgets-hero{
+  background:radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421)!important;
+  color:#fff!important;
+  padding:96px min(6vw,72px)!important;
+}
+.widgets-page .page-hero h1,
+.widgets-page .widgets-hero h1{
+  color:#fff!important;
+  font-size:clamp(44px,6vw,78px)!important;
+  line-height:.96!important;
+  letter-spacing:-.055em!important;
+}
+.widgets-page .page-hero p,
+.widgets-page .widgets-hero p{color:#d9edf8!important;font-size:20px!important;line-height:1.65!important}
+.widgets-page .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff!important}
+.widgets-page .section{padding:88px min(6vw,72px)!important}
+.widgets-page .widget-search-panel,
+.widgets-page .search-panel,
+.widgets-page [class*="search"]{
+  background:#f4f8fb!important;
+  border:1px solid #dcecf5!important;
+  border-radius:26px!important;
+  padding:28px!important;
+  box-shadow:0 16px 42px rgba(7,20,33,.06)!important;
+}
+.widgets-page input[type="search"],
+.widgets-page input[type="text"]{
+  border:1px solid #cddce7!important;
+  border-radius:14px!important;
+  padding:15px 18px!important;
+  font:inherit!important;
+  color:#071421!important;
+  background:#fff!important;
+}
+.widgets-page button,
+.widgets-page .filter-button,
+.widgets-page [data-filter]{
+  border-radius:14px!important;
+  font-weight:900!important;
+}
+.widgets-page .widget-card,
+.widgets-page .pricing-card,
+.widgets-page .card,
+.widgets-page article{
+  border:1px solid #e0ebf2!important;
+  border-radius:26px!important;
+  box-shadow:0 18px 42px rgba(7,20,33,.08)!important;
+  background:#fff!important;
+}
+.widgets-page .widget-card:hover,
+.widgets-page .pricing-card:hover,
+.widgets-page .card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 26px 60px rgba(7,20,33,.13)!important;
+}
+.widgets-page a[href*="preview"],
+.widgets-page a.preview-demo,
+.widgets-page a:has-text("Preview Demo"){
+  background:#071421!important;
+  color:#fff!important;
+}
+.widgets-page .button.primary,
+.widgets-page a.button.primary{
+  background:#33abe1!important;
+  color:#061421!important;
+}
+</style>
 </head>
-  <body>
+  <body class="widgets-page">
 <div id="webact-header"></div>
 <main><section class="page-hero">
   <div>
@@ -820,6 +892,45 @@
     <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
     <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
+<script id="widget-preview-link-fix">
+(function(){
+  function slugify(text){
+    return String(text || "")
+      .toLowerCase()
+      .replace(/&/g,"and")
+      .replace(/api/g,"api")
+      .replace(/[^a-z0-9]+/g,"-")
+      .replace(/^-+|-+$/g,"");
+  }
+
+  function cardTitle(card){
+    var h = card.querySelector("h1,h2,h3,h4");
+    return h ? h.textContent.trim() : "";
+  }
+
+  function isPreviewLink(a){
+    return /preview demo|demo|preview/i.test(a.textContent || "");
+  }
+
+  var cards = document.querySelectorAll(".widget-card,.pricing-card,.card,article");
+
+  cards.forEach(function(card){
+    var title = cardTitle(card);
+    if(!title) return;
+
+    var slug = slugify(title);
+    var demoUrl = "https://website.webact.com/site/80a375fe/" + slug + "?preview=true";
+
+    card.querySelectorAll("a").forEach(function(a){
+      if(isPreviewLink(a)){
+        a.href = demoUrl;
+        a.target = "_blank";
+        a.rel = "noopener";
+      }
+    });
+  });
+})();
+</script>
 </body>
 </html>
 
