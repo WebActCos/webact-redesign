@@ -82,6 +82,126 @@ body{margin:0}
   .hero-actions .button{width:100%}
 }
 </style>
+<style id="duda-widget-marketplace-upgrade">
+.duda-marketplace-tools{
+  max-width:1500px;
+  margin:0 auto 36px;
+  background:#f4f8fb;
+  border:1px solid #dcecf5;
+  border-radius:30px;
+  padding:28px;
+  box-shadow:0 18px 42px rgba(7,20,33,.08);
+}
+
+.duda-marketplace-top{
+  display:grid;
+  grid-template-columns:minmax(280px,1fr) auto;
+  gap:24px;
+  align-items:end;
+}
+
+.duda-marketplace-search label{
+  display:block;
+  font-size:20px;
+  font-weight:900;
+  margin-bottom:12px;
+  color:#071421;
+}
+
+.duda-marketplace-search input{
+  width:100%;
+  box-sizing:border-box;
+  border:1px solid #cddce7;
+  border-radius:16px;
+  padding:17px 18px;
+  font:inherit;
+  background:#fff;
+  color:#071421;
+}
+
+.duda-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  justify-content:flex-end;
+}
+
+.duda-tabs button{
+  border:1px solid #dcecf5;
+  background:#fff;
+  color:#071421;
+  border-radius:999px;
+  padding:13px 18px;
+  font-weight:900;
+  cursor:pointer;
+  box-shadow:0 10px 22px rgba(7,20,33,.06);
+}
+
+.duda-tabs button.active{
+  background:#33abe1;
+  color:#061421;
+  border-color:#33abe1;
+}
+
+.duda-marketplace-count{
+  margin-top:18px;
+  color:#4b5b66;
+  font-weight:800;
+}
+
+.widget-grid{
+  align-items:stretch;
+}
+
+.widget-card{
+  position:relative;
+  overflow:hidden;
+}
+
+.widget-card:before{
+  content:"Duda Widget";
+  display:inline-flex;
+  width:max-content;
+  background:#eaf8fe;
+  color:#0c658c;
+  border:1px solid #bfe8f7;
+  border-radius:999px;
+  padding:8px 12px;
+  font-size:12px;
+  font-weight:900;
+  text-transform:uppercase;
+  margin-bottom:8px;
+}
+
+.widget-card[data-category="basic"]:before{content:"Basic Duda Widget"}
+.widget-card[data-category="media"]:before{content:"Media Duda Widget"}
+.widget-card[data-category="business"]:before{content:"Business Duda Widget"}
+.widget-card[data-category="social"]:before{content:"Social Duda Widget"}
+.widget-card[data-category="advance"]:before{content:"Advanced Duda Widget"}
+
+.widget-card.is-hidden{
+  display:none!important;
+}
+
+.widget-empty-state{
+  display:none;
+  max-width:760px;
+  margin:34px auto 0;
+  text-align:center;
+  color:#4b5b66;
+  font-size:18px;
+  line-height:1.6;
+}
+
+.widget-empty-state.show{
+  display:block;
+}
+
+@media(max-width:1080px){
+  .duda-marketplace-top{grid-template-columns:1fr}
+  .duda-tabs{justify-content:flex-start}
+}
+</style>
 </head>
 
 <body class="widgets-page">
@@ -128,22 +248,27 @@ body{margin:0}
 </section>
 
 <section class="section" id="widget-directory">
-  <div class="widget-search-panel">
-    <div>
-      <label for="widgetSearch">Search widgets</label>
+  <div class="duda-marketplace-tools">
+  <div class="duda-marketplace-top">
+    <div class="duda-marketplace-search">
+      <label for="widgetSearch">Search Duda widgets</label>
       <input id="widgetSearch" type="search" placeholder="Search reviews, calendar, Stripe, sliders...">
     </div>
-    <div class="widget-filter-row">
-      <button type="button" class="active" data-filter="all">All</button>
-      <button type="button" data-filter="basic">Basic</button>
-      <button type="button" data-filter="media">Media</button>
-      <button type="button" data-filter="business">Business</button>
-      <button type="button" data-filter="social">Social</button>
-      <button type="button" data-filter="advance">Advance</button>
+
+    <div class="duda-tabs" aria-label="Duda widget categories">
+      <button type="button" class="active" data-widget-tab="all">All</button>
+      <button type="button" data-widget-tab="basic">Basic</button>
+      <button type="button" data-widget-tab="business">Business</button>
+      <button type="button" data-widget-tab="media">Media</button>
+      <button type="button" data-widget-tab="social">Social</button>
+      <button type="button" data-widget-tab="advance">Advanced</button>
     </div>
   </div>
 
-  <div class="widget-grid" id="widgetGrid">
+  <div class="duda-marketplace-count" id="widgetResultCount">Duda widgets shown</div>
+</div>
+
+<div class="widget-grid" id="widgetGrid">
 <article class="widget-card">
         <div class="widget-card-top">
           <p class="eyebrow">Advance</p>
@@ -968,6 +1093,74 @@ body{margin:0}
   });
 
   if(search) search.addEventListener('input', applyFilters);
+})();
+</script>
+<script id="duda-widget-marketplace-filter">
+(function(){
+  const cards = Array.from(document.querySelectorAll(".widget-card"));
+  const search = document.getElementById("widgetSearch");
+  const tabButtons = Array.from(document.querySelectorAll("[data-widget-tab]"));
+  const count = document.getElementById("widgetResultCount");
+  const empty = document.getElementById("widgetEmptyState");
+
+  function getCategory(card){
+    const text = card.textContent.toLowerCase();
+
+    if(text.includes("social") || text.includes("facebook") || text.includes("messenger")) return "social";
+    if(text.includes("gallery") || text.includes("image") || text.includes("video") || text.includes("carousel") || text.includes("slider") || text.includes("flip book")) return "media";
+    if(text.includes("stripe") || text.includes("payment") || text.includes("pricing") || text.includes("store") || text.includes("table") || text.includes("calendar") || text.includes("eventbrite") || text.includes("location")) return "business";
+    if(text.includes("advance") || text.includes("api") || text.includes("ada") || text.includes("mega") || text.includes("elastic") || text.includes("animate") || text.includes("separator") || text.includes("property")) return "advance";
+
+    return "basic";
+  }
+
+  cards.forEach(function(card){
+    card.dataset.category = getCategory(card);
+    const title = card.querySelector("h3");
+    if(title && !card.dataset.title) card.dataset.title = title.textContent.trim();
+  });
+
+  function activeTab(){
+    const active = document.querySelector("[data-widget-tab].active");
+    return active ? active.dataset.widgetTab : "all";
+  }
+
+  function applyFilter(){
+    const query = search ? search.value.toLowerCase().trim() : "";
+    const tab = activeTab();
+    let visible = 0;
+
+    cards.forEach(function(card){
+      const matchesTab = tab === "all" || card.dataset.category === tab;
+      const matchesSearch = !query || card.textContent.toLowerCase().includes(query);
+      const show = matchesTab && matchesSearch;
+
+      card.classList.toggle("is-hidden", !show);
+      if(show) visible++;
+    });
+
+    if(count){
+      count.textContent = visible + " Duda widget" + (visible === 1 ? "" : "s") + " shown";
+    }
+
+    if(empty){
+      empty.classList.toggle("show", visible === 0);
+    }
+  }
+
+  tabButtons.forEach(function(button){
+    button.addEventListener("click", function(){
+      tabButtons.forEach(function(btn){ btn.classList.remove("active"); });
+      button.classList.add("active");
+      applyFilter();
+    });
+  });
+
+  if(search){
+    search.addEventListener("input", applyFilter);
+  }
+
+  applyFilter();
 })();
 </script>
 </body>
