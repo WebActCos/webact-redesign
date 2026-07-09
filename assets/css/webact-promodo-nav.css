@@ -362,3 +362,28 @@
     grid-template-columns:1fr !important;
   }
 }
+/* Industries mega menu: 30 links, 3 rows of 10 */
+.wa-promodo-mega .wa-industries-30-grid{
+  display:grid !important;
+  grid-template-columns:repeat(10,minmax(105px,1fr)) !important;
+  gap:10px !important;
+  max-width:1500px !important;
+}
+
+.wa-promodo-mega .wa-industries-30-grid a{
+  white-space:nowrap !important;
+  text-align:center !important;
+  padding:11px 10px !important;
+}
+
+@media(max-width:1300px){
+  .wa-promodo-mega .wa-industries-30-grid{
+    grid-template-columns:repeat(5,minmax(120px,1fr)) !important;
+  }
+}
+
+@media(max-width:760px){
+  .wa-promodo-mega .wa-industries-30-grid{
+    grid-template-columns:1fr !important;
+  }
+}
