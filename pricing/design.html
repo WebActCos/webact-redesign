@@ -4,23 +4,31 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Website Design Pricing | WebAct</title>
-<meta name="description" content="Website design pricing for new websites, redesigns, blog migration, ecommerce setup, hosting, logo design, branding, and professional design services from WebAct.">
+<meta name="description" content="Website design pricing for new websites, redesigns, blog migration, ecommerce setup, hosting, logo design, branding, and graphic design services from WebAct.">
 <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+
 <style>
 html,body{height:auto!important;overflow-x:hidden!important}
 body{margin:0}
 .design-pricing-page{background:#fff;color:#071421}
-.hero{background:radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:96px min(6vw,72px);text-align:center}
-.hero-inner{max-width:1100px;margin:0 auto}
+.hero{background:radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:96px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.72fr);gap:54px;align-items:center}
+.hero h1{font-size:clamp(44px,6vw,78px);line-height:.96;margin:14px 0 22px;letter-spacing:-.055em;color:#fff}
+.hero p{font-size:20px;line-height:1.65;color:#d9edf8;max-width:900px}
 .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
-.hero h1{font-size:clamp(46px,6vw,86px);line-height:.95;margin:14px 0 22px;color:#fff;letter-spacing:-.055em}
-.hero p{font-size:21px;line-height:1.65;color:#d9edf8;max-width:900px;margin:0 auto}
-.hero-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:28px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
 .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}
 .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
 .button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
+.hero-form-card{width:100%;max-width:520px;justify-self:end;background:rgba(255,255,255,.96);color:#071421;border-radius:28px;padding:34px;box-shadow:0 30px 80px rgba(0,0,0,.28);overflow:hidden}
+.hero-form-card h2{font-size:30px;margin:0 0 8px;color:#071421}
+.hero-form-card p{color:#4b5b66;font-size:16px;line-height:1.55;margin:0 0 18px}
+.hero-form{display:block;width:100%;margin:0;padding:0;background:transparent;box-shadow:none}
+.hero-form label{display:block;margin-bottom:14px;font-weight:900;font-size:14px;color:#203241}
+.hero-form input,.hero-form select,.hero-form textarea{display:block;width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:12px;padding:13px 14px;font:inherit;background:#fff;color:#071421;margin-top:7px}
+.hero-form textarea{resize:vertical;min-height:92px}
+.hero-form .button{width:100%;margin-top:6px}
 .section{padding:88px min(6vw,72px)}
 .soft{background:#f4f8fb}
 .heading{max-width:980px;margin:0 auto 48px;text-align:center}
@@ -60,7 +68,8 @@ body{margin:0}
 .final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:88px min(6vw,72px)}
 .final-cta h2{font-size:clamp(34px,5vw,64px);line-height:1;margin:0 0 16px;color:#fff}
 .final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
-@media(max-width:1120px){.calculator{grid-template-columns:1fr}.calc-summary{position:static}.price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.compare-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.final-cta .hero-actions{justify-content:center}
+@media(max-width:1120px){.hero{grid-template-columns:1fr}.hero-form-card{max-width:none;justify-self:stretch}.calculator{grid-template-columns:1fr}.calc-summary{position:static}.price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.compare-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.hero,.section,.final-cta{padding:56px 20px}.price-grid,.compare-grid{grid-template-columns:1fr}.hero-actions .button{width:100%}.calc-controls,.calc-summary{padding:24px}.total{font-size:44px}}
 </style>
 </head>
@@ -70,15 +79,36 @@ body{margin:0}
 
 <main>
 <section class="hero">
-  <div class="hero-inner">
+  <div>
     <p class="eyebrow">Design Pricing</p>
     <h1>Website design pricing built around your project scope.</h1>
-    <p>Estimate a new website, redesign, blog migration, ecommerce setup, logo package, branding package, and hosting options with WebAct’s design pricing calculator.</p>
+    <p>Estimate a new website, redesign, blog migration, ecommerce setup, hosting, graphic design, logo design, and branding services.</p>
     <div class="hero-actions">
       <a class="button primary" href="#calculator">Estimate Project</a>
       <a class="button secondary" href="/webact-redesign/contact/index.html">Request Quote</a>
     </div>
   </div>
+
+  <aside class="hero-form-card">
+    <h2>Request Design Pricing</h2>
+    <p>Tell us what you need and WebAct can confirm the best pricing path.</p>
+    <form class="hero-form">
+      <label>Full Name<input type="text"></label>
+      <label>Email Address<input type="email"></label>
+      <label>Project Type
+        <select>
+          <option>New Website</option>
+          <option>Website Redesign</option>
+          <option>Ecommerce Website</option>
+          <option>Logo Design</option>
+          <option>Branding</option>
+          <option>Graphic Design</option>
+        </select>
+      </label>
+      <label>Project Details<textarea rows="4"></textarea></label>
+      <a class="button primary" href="/webact-redesign/contact/index.html">Request Quote</a>
+    </form>
+  </aside>
 </section>
 
 <section class="section soft" id="calculator">
@@ -90,30 +120,11 @@ body{margin:0}
 
   <div class="calculator">
     <div class="calc-controls">
-      <div class="calc-row">
-        <label>New Website Pages <output id="newPagesOut">5</output></label>
-        <input id="newPages" type="range" min="0" max="50" value="5">
-      </div>
-      <div class="calc-row">
-        <label>Redesign Pages <output id="redesignPagesOut">0</output></label>
-        <input id="redesignPages" type="range" min="0" max="50" value="0">
-      </div>
-      <div class="calc-row">
-        <label>Blog Posts Migrated <output id="blogPostsOut">0</output></label>
-        <input id="blogPosts" type="range" min="0" max="200" value="0">
-      </div>
-      <div class="calc-row">
-        <label>Ecommerce Products <output id="productsOut">0</output></label>
-        <input id="products" type="range" min="0" max="500" value="0">
-      </div>
-      <div class="calc-row">
-        <label>Logo Packages <output id="logosOut">0</output></label>
-        <input id="logos" type="range" min="0" max="3" value="0">
-      </div>
-      <div class="calc-row">
-        <label>Branding Packages <output id="brandingOut">0</output></label>
-        <input id="branding" type="range" min="0" max="3" value="0">
-      </div>
+      <div class="calc-row"><label>New Website Pages <output id="newPagesOut">5</output></label><input id="newPages" type="range" min="0" max="50" value="5"></div>
+      <div class="calc-row"><label>Redesign Pages <output id="redesignPagesOut">0</output></label><input id="redesignPages" type="range" min="0" max="50" value="0"></div>
+      <div class="calc-row"><label>Blog Posts Migrated <output id="blogPostsOut">0</output></label><input id="blogPosts" type="range" min="0" max="200" value="0"></div>
+      <div class="calc-row"><label>Ecommerce Products <output id="productsOut">0</output></label><input id="products" type="range" min="0" max="500" value="0"></div>
+      <div class="calc-row"><label>Graphic Designs <output id="graphicsOut">0</output></label><input id="graphics" type="range" min="0" max="20" value="0"></div>
     </div>
 
     <aside class="calc-summary">
@@ -130,7 +141,7 @@ body{margin:0}
   <div class="heading">
     <p class="eyebrow">A La Carte Design Pricing</p>
     <h2>Choose the design services your project needs.</h2>
-    <p>WebAct separates design, content, ecommerce, branding, and hosting so you can build the right plan.</p>
+    <p>WebAct separates website design, redesigns, content, ecommerce, branding, graphics, and hosting so you can build the right plan.</p>
   </div>
 
   <div class="price-grid">
@@ -138,21 +149,16 @@ body{margin:0}
     <article class="price-card"><span>Redesign</span><h3>Website Redesign</h3><p class="price">$200/page</p><p>Improve an existing website with a stronger layout, cleaner messaging, better structure, and updated design direction.</p><ul><li>Existing page refresh</li><li>Improved user flow</li><li>Better visual hierarchy</li></ul></article>
     <article class="price-card"><span>Content</span><h3>Blog Migration</h3><p class="price">$20/post</p><p>Move blog content into your new website structure with cleaner formatting and stronger long-term organization.</p><ul><li>Post migration</li><li>Formatting cleanup</li><li>Content organization</li></ul></article>
     <article class="price-card"><span>Ecommerce</span><h3>Product Setup</h3><p class="price">$25/product</p><p>Add ecommerce products with organized product details, images, categories, pricing, and shopping paths.</p><ul><li>Product entry</li><li>Category setup</li><li>Shopping structure</li></ul></article>
-    <article class="price-card"><span>Hosting</span><h3>Business Hosting</h3><p class="price">$100/mo</p><p>Professional and Simple Editor business hosting for standard business websites.</p><ul><li>$900 annual option</li><li>Website hosting</li><li>Editor support</li></ul></article>
-    <article class="price-card"><span>Ecommerce Hosting</span><h3>Professional Ecommerce</h3><p class="price">$200/mo</p><p>Professional Editor ecommerce hosting for online stores and ecommerce websites.</p><ul><li>$1,800 annual option</li><li>Store hosting</li><li>Ecommerce support</li></ul></article>
+    <article class="price-card"><span>Business Hosting</span><h3>Simple & Professional Editor Hosting</h3><p class="price">$100/mo</p><p>Professional and Simple Editor business hosting for standard business websites.</p><ul><li>$900 annual option</li><li>Website hosting</li><li>Editor support</li></ul></article>
+    <article class="price-card"><span>Ecommerce Hosting</span><h3>Professional Editor Ecommerce Hosting</h3><p class="price">$200/mo</p><p>Professional Editor ecommerce hosting for online stores and ecommerce websites.</p><ul><li>$1,800 annual option</li><li>Store hosting</li><li>Ecommerce support</li></ul></article>
     <article class="price-card"><span>Logo</span><h3>Logo Design Package</h3><p class="price">$1,000</p><p>Logo package built to help your business look professional across your website and marketing materials.</p><ul><li>Logo direction</li><li>Brand presentation</li><li>Website-ready files</li></ul></article>
     <article class="price-card"><span>Branding</span><h3>Branding Package</h3><p class="price">$2,500</p><p>Digital and print branding package for a more consistent customer-facing business identity.</p><ul><li>Digital branding</li><li>Print branding</li><li>Visual consistency</li></ul></article>
-    <article class="price-card"><span>Creative</span><h3>Graphic Design</h3><p class="price">Custom</p><p>Graphics for website sections, ads, social content, landing pages, banners, and promotional campaigns.</p><ul><li>Website graphics</li><li>Ad creative</li><li>Campaign visuals</li></ul></article>
+    <article class="price-card"><span>Creative</span><h3>Graphic Design</h3><p class="price">$500/design</p><p>Graphics for website sections, ads, social content, landing pages, banners, and promotional campaigns.</p><ul><li>Website graphics</li><li>Ad creative</li><li>Campaign visuals</li></ul></article>
   </div>
 </section>
 
 <section class="section soft">
-  <div class="heading">
-    <p class="eyebrow">What Is Included</p>
-    <h2>Design pricing should be easy to understand.</h2>
-    <p>Each WebAct design service is built to support a professional website, clear messaging, and stronger customer action.</p>
-  </div>
-
+  <div class="heading"><p class="eyebrow">What Is Included</p><h2>Design pricing should be easy to understand.</h2><p>Each WebAct design service supports a professional website, clear messaging, and stronger customer action.</p></div>
   <div class="compare-grid">
     <article class="compare-card"><h3>Responsive Design</h3><p>Pages are planned for desktop, tablet, and mobile experiences.</p></article>
     <article class="compare-card"><h3>SEO-Ready Structure</h3><p>Headings, content hierarchy, service sections, and internal page flow are built with search visibility in mind.</p></article>
@@ -162,16 +168,12 @@ body{margin:0}
 </section>
 
 <section class="section">
-  <div class="heading">
-    <p class="eyebrow">FAQ</p>
-    <h2>Website design pricing questions.</h2>
-  </div>
-
+  <div class="heading"><p class="eyebrow">FAQ</p><h2>Website design pricing questions.</h2></div>
   <div class="faq-list">
-    <details open><summary>How much does a new website cost?</summary><p>New website design starts at $350 per page. The total depends on the number of pages, content, functionality, ecommerce, add-ons, and timeline.</p></details>
-    <details><summary>How much does a website redesign cost?</summary><p>Website redesign starts at $200 per page. This is useful when the existing website needs a better layout, updated design, improved structure, or stronger calls to action.</p></details>
-    <details><summary>How much does ecommerce setup cost?</summary><p>Ecommerce product setup starts at $25 per product. Hosting for Professional Editor ecommerce websites is $200 per month or $1,800 annually.</p></details>
-    <details><summary>Do you offer hosting?</summary><p>Yes. Professional and Simple Editor business hosting is $100 per month or $900 annually. Professional Editor ecommerce hosting is $200 per month or $1,800 annually.</p></details>
+    <details open><summary>How much does a new website cost?</summary><p>New website design starts at $350 per page. The total depends on page count, content, functionality, ecommerce, add-ons, and timeline.</p></details>
+    <details><summary>How much does a website redesign cost?</summary><p>Website redesign starts at $200 per page. This is useful when an existing website needs better layout, messaging, structure, or calls to action.</p></details>
+    <details><summary>How much does ecommerce setup cost?</summary><p>Ecommerce product setup starts at $25 per product. Professional Editor ecommerce hosting is $200 per month or $1,800 annually.</p></details>
+    <details><summary>Do you offer hosting?</summary><p>Yes. Professional and Simple Editor business hosting is $100 per month or $900 annually.</p></details>
     <details><summary>Do you offer logo and branding packages?</summary><p>Yes. Logo design packages are $1,000. Branding packages are $2,500 and include digital and print branding direction.</p></details>
     <details><summary>Is the calculator a final quote?</summary><p>No. The calculator gives a quick planning estimate. WebAct can provide a confirmed quote after reviewing the exact scope.</p></details>
   </div>
@@ -194,12 +196,11 @@ body{margin:0}
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 <script>
 (function(){
-  const rates = {newPages:350, redesignPages:200, blogPosts:20, products:25, logos:1000, branding:2500};
-  const labels = {newPages:'New pages', redesignPages:'Redesign pages', blogPosts:'Blog posts', products:'Products', logos:'Logo packages', branding:'Branding packages'};
+  const rates = {newPages:350, redesignPages:200, blogPosts:20, products:25, graphics:500};
+  const labels = {newPages:'New pages', redesignPages:'Redesign pages', blogPosts:'Blog posts', products:'Products', graphics:'Graphic designs'};
   const ids = Object.keys(rates);
   const totalEl = document.getElementById('total');
   const breakdown = document.getElementById('breakdown');
-
   function money(n){return '$' + n.toLocaleString();}
   function update(){
     let total = 0;
@@ -217,9 +218,7 @@ body{margin:0}
       }
     });
     totalEl.textContent = money(total);
-    if(total === 0){
-      breakdown.innerHTML = '<div><span>No items selected</span><strong>$0</strong></div>';
-    }
+    if(total === 0){breakdown.innerHTML = '<div><span>No items selected</span><strong>$0</strong></div>';}
   }
   ids.forEach(id => document.getElementById(id).addEventListener('input', update));
   update();
