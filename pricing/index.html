@@ -1,58 +1,158 @@
 ﻿<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pricing | WebAct</title>
-    <meta name="description" content="Pricing grouped into the same lanes buyers use to evaluate WebAct services.">
-    <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pricing | WebAct</title>
+<meta name="description" content="Explore WebAct pricing for website design, marketing, digital advertising, packages, add-ons, widgets, and website support.">
+<link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+
+<style>
+html,body{height:auto!important;overflow-x:hidden!important}
+body{margin:0}
+.pricing-page{background:#fff;color:#071421}
+.pricing-hero{background:radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:96px min(6vw,72px);text-align:center}
+.pricing-hero-inner{max-width:1080px;margin:0 auto}
+.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
+.pricing-hero h1{font-size:clamp(46px,6vw,86px);line-height:.95;margin:14px 0 22px;color:#fff;letter-spacing:-.055em}
+.pricing-hero p{font-size:21px;line-height:1.65;color:#d9edf8;max-width:880px;margin:0 auto}
+.hero-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:28px}
+.button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}
+.button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
+.button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
+.section{padding:88px min(6vw,72px)}
+.soft{background:#f4f8fb}
+.heading{max-width:980px;margin:0 auto 48px;text-align:center}
+.heading .eyebrow{color:#0c9bd2}
+.heading h2{font-size:clamp(34px,4.6vw,62px);line-height:1;margin:10px 0 18px;letter-spacing:-.045em}
+.heading p{font-size:18px;line-height:1.65;color:#4b5b66}
+.price-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;max-width:1500px;margin:0 auto}
+.price-card{display:flex;flex-direction:column;background:#fff;border:1px solid #e0ebf2;border-radius:28px;padding:30px;box-shadow:0 18px 42px rgba(7,20,33,.08);text-decoration:none;color:#071421;transition:.22s ease;min-height:390px}
+.price-card:hover{transform:translateY(-4px);border-color:#33abe1;box-shadow:0 26px 60px rgba(7,20,33,.13)}
+.price-card span{width:max-content;background:#eaf8fe;color:#0c658c;border:1px solid #bfe8f7;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:900;text-transform:uppercase;margin-bottom:20px}
+.price-card h3{font-size:30px;line-height:1.08;margin:0 0 14px;color:#071421}
+.price-card p{color:#4b5b66;line-height:1.65;font-size:17px;margin:0 0 22px}
+.price-card ul{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:10px}
+.price-card li{color:#203241;font-weight:800}
+.price-card li:before{content:"✓ ";color:#0c9bd2;font-weight:900}
+.price-card strong{margin-top:auto;color:#0c9bd2;font-weight:900}
+.plan-band{max-width:1320px;margin:0 auto;background:linear-gradient(135deg,#0b243a,#071421);border-radius:34px;padding:52px;color:#fff;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;box-shadow:0 26px 70px rgba(7,20,33,.18)}
+.plan-band h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:0 0 14px;color:#fff}
+.plan-band p{color:#d4e8f2;font-size:18px;line-height:1.65;margin:0}
+.compare-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1320px;margin:0 auto}
+.compare-card{background:#fff;border:1px solid #e0ebf2;border-radius:28px;padding:28px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
+.compare-card h3{font-size:25px;margin:0 0 12px}
+.compare-card p{color:#4b5b66;line-height:1.65;margin:0}
+.final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:88px min(6vw,72px)}
+.final-cta h2{font-size:clamp(34px,5vw,64px);line-height:1;margin:0 0 16px;color:#fff}
+.final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
+@media(max-width:1180px){.price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.plan-band{grid-template-columns:1fr}.compare-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.pricing-hero,.section,.final-cta{padding:56px 20px}.price-grid,.compare-grid{grid-template-columns:1fr}.hero-actions .button{width:100%}.plan-band{padding:32px}}
+</style>
 </head>
-  <body>
+
+<body class="pricing-page">
 <div id="webact-header"></div>
-<main><section class="page-hero">
-  <div>
-    <p class="breadcrumb"><a href="../index.html">Home</a> / Pricing</p>
-    <p class="eyebrow">Design, Packages, Advertising, and Marketing</p>
-    <h1>Pricing</h1>
-    <p class="hero-lede">Compare WebAct pricing lanes and choose the right path for websites, growth packages, paid campaigns, and visibility services.</p>
+
+<main>
+<section class="pricing-hero">
+  <div class="pricing-hero-inner">
+    <p class="eyebrow">WebAct Pricing</p>
+    <h1>Choose the right pricing path for your website and growth plan.</h1>
+    <p>Explore pricing for website design, SEO, marketing, digital advertising, bundled packages, add-ons, Duda widgets, and ongoing website support.</p>
     <div class="hero-actions">
-      <a class="button primary" href="/contact/index.html">Start a conversation</a>
-      <a class="button secondary" href="../pricing/index.html">View pricing</a>
+      <a class="button primary" href="#pricing-options">View Pricing Options</a>
+      <a class="button secondary" href="/webact-redesign/contact/index.html">Ask WebAct</a>
     </div>
   </div>
-  <img src="/webact-redesign/assets/studio-desk.png" alt="Pricing visual">
 </section>
-<section class="section website-design-intro">
-  <div class="service-link-row">
-    <a href="../pricing/design.html">Design Pricing</a>
-    <a href="../pricing/packages.html">Packages</a>
-    <a href="../pricing/advertising.html">Advertising Pricing</a>
-    <a href="../pricing/marketing.html">Marketing Pricing</a>
-  </div>
-  <div class="website-design-copy">
-    <p class="eyebrow">WebAct Pricing</p>
-    <h2>Start with the scope, then choose the right quote path.</h2>
-    <p>WebAct's public pricing page includes business website hosting at $50 per month and ecommerce website hosting at $100 per month. Design, packages, advertising, and marketing work can be quoted based on page count, campaigns, integrations, products, content, and support needs.</p>
-  </div>
-</section>
-<section class="section website-benefits-section">
-  <div class="section-heading compact"><p class="eyebrow">Common Plans</p><h2>Useful pricing anchors from WebAct.</h2></div>
-  <div class="pricing-grid rich-pricing-grid">
-    <article><h3>Starter Design</h3><strong>Quote</strong><p>Best for a small new website or focused redesign.</p><ul><li>Discovery and page plan</li><li>Responsive website design</li><li>Core service pages</li><li>Launch checklist</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Business Website Hosting</h3><strong>$50/mo</strong><p>Perfect for most businesses.</p><ul><li>Drag and drop editor</li><li>Natively responsive</li><li>Amazon cloud hosting</li><li>Built-in analytics</li><li>Free SSL certificate</li><li>Unlimited pages</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>eCommerce Website Hosting</h3><strong>$100/mo</strong><p>For businesses selling products online.</p><ul><li>All business website features</li><li>Up to 2500 product store</li><li>Store dashboard</li><li>Promotions and coupons</li><li>Shipping and tax setup</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Content Add-ons</h3><strong>From $10</strong><p>For extra content migration and build support.</p><ul><li>Blog posts from $10 each</li><li>Products from $10 each</li><li>Landing page expansion</li><li>Portfolio and service content</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article>
-  </div>
-</section>
-<section class="section website-metrics-section">
-  <div><p class="eyebrow">Quote Factors</p><h2>What changes the final price?</h2><p>Page count, redesign migration, products, blog posts, forms, integrations, ad channels, reporting, and ongoing support all affect scope.</p></div>
-  <div class="metric-grid"><article><strong>$50</strong><span>Business hosting per month</span></article><article><strong>$100</strong><span>eCommerce hosting per month</span></article><article><strong>$10</strong><span>Blog/product setup examples</span></article><article><strong>4</strong><span>Main pricing tabs</span></article></div>
-</section></main>
-    <div id="webact-footer"></div>
-    <script src="/webact-redesign/script.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
+<section class="section soft" id="pricing-options">
+  <div class="heading">
+    <p class="eyebrow">Pricing Categories</p>
+    <h2>Start with the service area that matches your goal.</h2>
+    <p>Each pricing page is organized around a different part of your online presence, from building the website to driving traffic and improving conversions.</p>
+  </div>
+
+  <div class="price-grid">
+    <a class="price-card" href="/webact-redesign/pricing/design.html">
+      <span>Website + Creative</span>
+      <h3>Design Pricing</h3>
+      <p>Website design, redesign, landing pages, logo design, branding, graphics, and creative support.</p>
+      <ul><li>Website builds</li><li>Landing pages</li><li>Branding</li><li>Graphics</li></ul>
+      <strong>View Design Pricing →</strong>
+    </a>
+
+    <a class="price-card" href="/webact-redesign/pricing/marketing.html">
+      <span>SEO + Growth</span>
+      <h3>Marketing Pricing</h3>
+      <p>SEO, local SEO, listings, Google Business Profile, email marketing, content planning, and visibility support.</p>
+      <ul><li>Local SEO</li><li>National SEO</li><li>Listings</li><li>Email marketing</li></ul>
+      <strong>View Marketing Pricing →</strong>
+    </a>
+
+    <a class="price-card" href="/webact-redesign/pricing/advertising.html">
+      <span>Paid Traffic</span>
+      <h3>Advertising Pricing</h3>
+      <p>Google Ads, Microsoft Ads, social media ads, Local Services Ads, landing pages, and campaign support.</p>
+      <ul><li>Search ads</li><li>Social ads</li><li>Landing pages</li><li>Tracking</li></ul>
+      <strong>View Advertising Pricing →</strong>
+    </a>
+
+    <a class="price-card" href="/webact-redesign/pricing/packages.html">
+      <span>Bundles</span>
+      <h3>Packages</h3>
+      <p>Bundled website, SEO, marketing, advertising, support, and growth packages for businesses that want a complete plan.</p>
+      <ul><li>Website packages</li><li>Marketing bundles</li><li>Support plans</li><li>Growth strategy</li></ul>
+      <strong>View Packages →</strong>
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="plan-band">
+    <div>
+      <p class="eyebrow">Need Help Choosing?</p>
+      <h2>Not every business needs the same pricing path.</h2>
+      <p>WebAct can help you compare whether you should start with a website redesign, SEO, paid ads, local listings, branding, widgets, or a full growth package.</p>
+    </div>
+    <a class="button primary" href="/webact-redesign/contact/index.html">Request Pricing Help</a>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="heading">
+    <p class="eyebrow">What Affects Cost</p>
+    <h2>Pricing depends on scope, speed, content, and marketing goals.</h2>
+    <p>WebAct pricing can change based on how much strategy, design, content, technical setup, advertising, and ongoing support your project needs.</p>
+  </div>
+
+  <div class="compare-grid">
+    <article class="compare-card"><h3>Website Scope</h3><p>Number of pages, design complexity, content needs, forms, galleries, products, integrations, and launch support.</p></article>
+    <article class="compare-card"><h3>Marketing Goals</h3><p>Local SEO, national SEO, listings, content, Google Business Profile, reviews, email marketing, and campaign planning.</p></article>
+    <article class="compare-card"><h3>Advertising Support</h3><p>Ad platforms, landing pages, conversion tracking, creative, reporting, targeting, and ongoing campaign management.</p></article>
+    <article class="compare-card"><h3>Add-ons</h3><p>Domains, Microsoft 365 email, Duda widgets, website apps, chat, bookings, reviews, payment tools, and custom features.</p></article>
+    <article class="compare-card"><h3>Industry Needs</h3><p>Some industries need service-area pages, menus, appointment paths, galleries, compliance details, intake forms, or ecommerce tools.</p></article>
+    <article class="compare-card"><h3>Ongoing Support</h3><p>Website updates, SEO maintenance, ad management, content improvements, reporting, troubleshooting, and growth planning.</p></article>
+  </div>
+</section>
+
+<section class="final-cta">
+  <h2>Want help choosing the right WebAct plan?</h2>
+  <p>Tell us your website, industry, budget range, and goal. WebAct can recommend a practical starting point.</p>
+  <div class="hero-actions">
+    <a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
+    <a class="button secondary" href="/webact-redesign/about/portfolio.html">View Portfolio</a>
+  </div>
+</section>
+</main>
+
+<div id="webact-footer"></div>
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 </body>
 </html>
-
