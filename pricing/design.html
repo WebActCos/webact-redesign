@@ -1,227 +1,229 @@
 ﻿<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Design Pricing | WebAct</title>
-    <meta name="description" content="Choose a path for editor setup, website design, landing pages, logo work, graphics, or branding.">
-    <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Website Design Pricing | WebAct</title>
+<meta name="description" content="Website design pricing for new websites, redesigns, blog migration, ecommerce setup, hosting, logo design, branding, and professional design services from WebAct.">
+<link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<style>
+html,body{height:auto!important;overflow-x:hidden!important}
+body{margin:0}
+.design-pricing-page{background:#fff;color:#071421}
+.hero{background:radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:96px min(6vw,72px);text-align:center}
+.hero-inner{max-width:1100px;margin:0 auto}
+.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
+.hero h1{font-size:clamp(46px,6vw,86px);line-height:.95;margin:14px 0 22px;color:#fff;letter-spacing:-.055em}
+.hero p{font-size:21px;line-height:1.65;color:#d9edf8;max-width:900px;margin:0 auto}
+.hero-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:28px}
+.button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}
+.button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
+.button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
+.section{padding:88px min(6vw,72px)}
+.soft{background:#f4f8fb}
+.heading{max-width:980px;margin:0 auto 48px;text-align:center}
+.heading .eyebrow{color:#0c9bd2}
+.heading h2{font-size:clamp(34px,4.6vw,62px);line-height:1;margin:10px 0 18px;letter-spacing:-.045em}
+.heading p{font-size:18px;line-height:1.65;color:#4b5b66}
+.calculator{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 390px;gap:28px;align-items:start}
+.calc-controls{background:#fff;border:1px solid #dcecf5;border-radius:30px;padding:34px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
+.calc-row{padding:22px 0;border-bottom:1px solid #e3edf4}
+.calc-row:last-child{border-bottom:0}
+.calc-row label{display:flex;justify-content:space-between;gap:20px;font-weight:900;color:#071421;margin-bottom:12px}
+.calc-row output{color:#0c9bd2}
+.calc-row input[type=range]{width:100%;accent-color:#33abe1}
+.calc-summary{position:sticky;top:110px;background:linear-gradient(135deg,#0b243a,#071421);color:#fff;border-radius:30px;padding:34px;box-shadow:0 26px 70px rgba(7,20,33,.18)}
+.calc-summary h3{font-size:28px;margin:0 0 12px;color:#fff}
+.calc-summary p{color:#d4e8f2;line-height:1.6;margin:0 0 24px}
+.total{font-size:56px;font-weight:900;letter-spacing:-.05em;color:#73d7ff;margin:0 0 10px}
+.breakdown{display:grid;gap:10px;margin:24px 0}
+.breakdown div{display:flex;justify-content:space-between;gap:12px;border-top:1px solid rgba(255,255,255,.16);padding-top:10px;color:#d9edf8}
+.price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1500px;margin:0 auto}
+.price-card{display:flex;flex-direction:column;background:#fff;border:1px solid #e0ebf2;border-radius:28px;padding:30px;box-shadow:0 18px 42px rgba(7,20,33,.08);min-height:360px}
+.price-card span{width:max-content;background:#eaf8fe;color:#0c658c;border:1px solid #bfe8f7;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:900;text-transform:uppercase;margin-bottom:20px}
+.price-card h3{font-size:28px;line-height:1.08;margin:0 0 12px;color:#071421}
+.price{font-size:38px;font-weight:900;color:#0c9bd2;margin:0 0 16px}
+.price-card p{color:#4b5b66;line-height:1.65;font-size:16px;margin:0 0 20px}
+.price-card ul{list-style:none;padding:0;margin:auto 0 0;display:grid;gap:10px}
+.price-card li{font-weight:800;color:#203241}
+.price-card li:before{content:"✓ ";color:#0c9bd2;font-weight:900}
+.compare-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;max-width:1320px;margin:0 auto}
+.compare-card{background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:24px;box-shadow:0 16px 34px rgba(7,20,33,.06)}
+.compare-card h3{font-size:22px;margin:0 0 10px}
+.compare-card p{color:#4b5b66;line-height:1.6;margin:0}
+.faq-list{max-width:1180px;margin:0 auto;display:grid;gap:16px}
+.faq-list details{background:#fff;border:1px solid #dcecf5;border-radius:18px;padding:22px 26px;box-shadow:0 12px 28px rgba(7,20,33,.06)}
+.faq-list summary{font-size:20px;font-weight:900;cursor:pointer;color:#071421}
+.faq-list p{color:#4b5b66;line-height:1.7;margin:18px 0 0}
+.final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:88px min(6vw,72px)}
+.final-cta h2{font-size:clamp(34px,5vw,64px);line-height:1;margin:0 0 16px;color:#fff}
+.final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
+@media(max-width:1120px){.calculator{grid-template-columns:1fr}.calc-summary{position:static}.price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.compare-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.hero,.section,.final-cta{padding:56px 20px}.price-grid,.compare-grid{grid-template-columns:1fr}.hero-actions .button{width:100%}.calc-controls,.calc-summary{padding:24px}.total{font-size:44px}}
+</style>
 </head>
-  <body>
-<div id="webact-header"></div>
-<main><section class="page-hero">
-  <div>
-    <p class="breadcrumb"><a href="/index.html">Home</a> / Pricing</p>
-    <p class="eyebrow">Design quotes by scope</p>
-    <h1>Design Pricing</h1>
-    <p class="hero-lede">Choose a path for editor setup, website design, landing pages, logo work, graphics, or branding.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="/contact/index.html">Start a conversation</a>
-      <a class="button secondary" href="/pricing/index.html">View pricing</a>
-    </div>
-  </div>
-  <img src="/webact-redesign/assets/studio-desk.png" alt="Design Pricing visual">
-</section>
-<section class="section website-design-intro design-pricing-intro">
-  <div class="service-link-row" aria-label="Design pricing quick links">
-    <a href="#website-pricing">Website Pricing</a>
-    <a href="#pricing-calculators">Pricing Sliders</a>
-    <a href="#hosting-plans">Hosting</a>
-    <a href="/contact/index.html">Request Quote</a>
-  </div>
-  <div class="website-design-copy">
-    <p class="eyebrow">Design Pricing</p>
-    <h2>Website, hosting, logo, banner, blog, and product setup pricing from WebAct.</h2>
-    <p>Use these design pricing anchors to estimate the most common website and creative needs. Final pricing can change based on page complexity, content, ecommerce setup, integrations, and launch support.</p>
-  </div>
-</section>
-<section class="section website-benefits-section" id="website-pricing">
-  <div class="section-heading compact">
-    <p class="eyebrow">Pricing Menu</p>
-    <h2>Design pricing by page, item, or monthly hosting plan.</h2>
-  </div>
-  <div class="pricing-grid rich-pricing-grid design-pricing-grid">
-    <article><h3>Website Redesign</h3><strong>$150/page</strong><p>Refresh an existing website page-by-page when the structure or content already exists.</p><ul><li>Responsive page redesign</li><li>Modernized visual layout</li><li>Content placement and cleanup</li><li>Good fit for improving an older site</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>New Website Design</h3><strong>$300/page</strong><p>Build new website pages from the ground up with layout, structure, and launch-ready design.</p><ul><li>New page structure</li><li>Responsive design</li><li>Calls to action</li><li>Best for new websites or major rebuilds</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Business Website Hosting</h3><strong>$50/mo</strong><p>Hosting for most business websites with the editor and managed website essentials included. Annual plan: $450/year.</p><ul><li>Drag and drop editor</li><li>Natively responsive</li><li>Amazon cloud hosting</li><li>Built-in analytics</li><li>Blog and personalization</li><li>Free 10 product store</li><li>Free SSL certificate</li><li>Automatic updates and backups</li><li>Unlimited bandwidth, file space, and pages</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>eCommerce Website Hosting</h3><strong>$100/mo</strong><p>Hosting for ecommerce businesses. Annual plan: $900/year.</p><ul><li>All business website features</li><li>Up to 2,500 products</li><li>Easy store dashboard</li><li>Promotion and coupon codes</li><li>Custom product options</li><li>Stock control and management</li><li>Use any payment processor</li><li>Shipping and tax calculators</li><li>Social sharing and marketplace options</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Blog Setup</h3><strong>Free or $10/post</strong><p>RSS blog imports may be free; manual blog migration or setup is priced per post.</p><ul><li>Blog post content setup</li><li>Categories, tags, and authors</li><li>Blog feed page setup</li><li>Useful for redesigns or supplied blog content</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Product Setup</h3><strong>$10/product</strong><p>Add ecommerce products with the details needed to support shopping and checkout.</p><ul><li>Product images and descriptions</li><li>SKUs and pricing</li><li>Store categories and subcategories</li><li>Payment, shipping, and tax setup</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Logo Design</h3><strong>$250/logo</strong><p>Create or refresh a professional, modern logo for the business.</p><ul><li>Up to 2 concept revisions</li><li>All image formats</li><li>Website and advertising use</li><li>Brand-ready creative</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Banner Design</h3><strong>$100/banner</strong><p>Create or redesign a graphical banner for advertising purposes.</p><ul><li>Up to 2 concept revisions</li><li>All image formats</li><li>Advertising-ready creative</li><li>Brand-matched design</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article>
-  </div>
-</section>
-<section class="section design-pricing-calculator-section" id="pricing-calculators">
-  <div class="section-heading compact">
-    <p class="eyebrow">Pricing Sliders</p>
-    <h2>Estimate design work by adjusting page counts and setup quantities.</h2>
-    <p>Move the sliders to build a quick estimate for redesign pages, new pages, blog posts, products, logos, and banners.</p>
-  </div>
-  <div class="design-pricing-calculator" data-design-pricing-calculator>
-    <div class="design-slider-list">
-      <label class="design-price-slider" for="design-redesign-pages">
-        <span><strong>Website redesign pages</strong><em>$150 per page</em></span>
-        <input id="design-redesign-pages" type="range" min="1" max="30" value="5" data-design-price-rate="150" data-design-price-unit="pages" data-design-price-output="design-redesign-pages-output">
-        <output id="design-redesign-pages-output">5 pages / $750</output>
-      </label><label class="design-price-slider" for="design-new-pages">
-        <span><strong>New website pages</strong><em>$300 per page</em></span>
-        <input id="design-new-pages" type="range" min="1" max="30" value="5" data-design-price-rate="300" data-design-price-unit="pages" data-design-price-output="design-new-pages-output">
-        <output id="design-new-pages-output">5 pages / $1,500</output>
-      </label><label class="design-price-slider" for="design-blog-posts">
-        <span><strong>Blog posts</strong><em>$10 per post</em></span>
-        <input id="design-blog-posts" type="range" min="0" max="100" value="10" data-design-price-rate="10" data-design-price-unit="posts" data-design-price-output="design-blog-posts-output">
-        <output id="design-blog-posts-output">10 posts / $100</output>
-      </label><label class="design-price-slider" for="design-store-products">
-        <span><strong>Store products</strong><em>$10 per product</em></span>
-        <input id="design-store-products" type="range" min="0" max="250" value="25" data-design-price-rate="10" data-design-price-unit="products" data-design-price-output="design-store-products-output">
-        <output id="design-store-products-output">25 products / $250</output>
-      </label><label class="design-price-slider" for="design-logo-designs">
-        <span><strong>Logo designs</strong><em>$250 each</em></span>
-        <input id="design-logo-designs" type="range" min="0" max="5" value="1" data-design-price-rate="250" data-design-price-unit="logos" data-design-price-output="design-logo-designs-output">
-        <output id="design-logo-designs-output">1 logos / $250</output>
-      </label><label class="design-price-slider" for="design-banner-designs">
-        <span><strong>Banner designs</strong><em>$100 each</em></span>
-        <input id="design-banner-designs" type="range" min="0" max="20" value="4" data-design-price-rate="100" data-design-price-unit="banners" data-design-price-output="design-banner-designs-output">
-        <output id="design-banner-designs-output">4 banners / $400</output>
-      </label>
-    </div>
-    <aside class="design-pricing-summary">
-      <p class="eyebrow">Estimated Total</p>
-      <strong data-design-price-total><body>
-<div id="webact-header"></div>
-<main><section class="page-hero">
-  <div>
-    <p class="breadcrumb"><a href="/index.html">Home</a> / Pricing</p>
-    <p class="eyebrow">Design quotes by scope</p>
-    <h1>Design Pricing</h1>
-    <p class="hero-lede">Choose a path for editor setup, website design, landing pages, logo work, graphics, or branding.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="/contact/index.html">Start a conversation</a>
-      <a class="button secondary" href="/pricing/index.html">View pricing</a>
-    </div>
-  </div>
-  <img src="/webact-redesign/assets/studio-desk.png" alt="Design Pricing visual">
-</section>
-<section class="section website-design-intro design-pricing-intro">
-  <div class="service-link-row" aria-label="Design pricing quick links">
-    <a href="#website-pricing">Website Pricing</a>
-    <a href="#pricing-calculators">Pricing Sliders</a>
-    <a href="#hosting-plans">Hosting</a>
-    <a href="/contact/index.html">Request Quote</a>
-  </div>
-  <div class="website-design-copy">
-    <p class="eyebrow">Design Pricing</p>
-    <h2>Website, hosting, logo, banner, blog, and product setup pricing from WebAct.</h2>
-    <p>Use these design pricing anchors to estimate the most common website and creative needs. Final pricing can change based on page complexity, content, ecommerce setup, integrations, and launch support.</p>
-  </div>
-</section>
-<section class="section website-benefits-section" id="website-pricing">
-  <div class="section-heading compact">
-    <p class="eyebrow">Pricing Menu</p>
-    <h2>Design pricing by page, item, or monthly hosting plan.</h2>
-  </div>
-  <div class="pricing-grid rich-pricing-grid design-pricing-grid">
-    <article><h3>Website Redesign</h3><strong>$150/page</strong><p>Refresh an existing website page-by-page when the structure or content already exists.</p><ul><li>Responsive page redesign</li><li>Modernized visual layout</li><li>Content placement and cleanup</li><li>Good fit for improving an older site</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>New Website Design</h3><strong>$300/page</strong><p>Build new website pages from the ground up with layout, structure, and launch-ready design.</p><ul><li>New page structure</li><li>Responsive design</li><li>Calls to action</li><li>Best for new websites or major rebuilds</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Business Website Hosting</h3><strong>$50/mo</strong><p>Hosting for most business websites with the editor and managed website essentials included. Annual plan: $450/year.</p><ul><li>Drag and drop editor</li><li>Natively responsive</li><li>Amazon cloud hosting</li><li>Built-in analytics</li><li>Blog and personalization</li><li>Free 10 product store</li><li>Free SSL certificate</li><li>Automatic updates and backups</li><li>Unlimited bandwidth, file space, and pages</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>eCommerce Website Hosting</h3><strong>$100/mo</strong><p>Hosting for ecommerce businesses. Annual plan: $900/year.</p><ul><li>All business website features</li><li>Up to 2,500 products</li><li>Easy store dashboard</li><li>Promotion and coupon codes</li><li>Custom product options</li><li>Stock control and management</li><li>Use any payment processor</li><li>Shipping and tax calculators</li><li>Social sharing and marketplace options</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Blog Setup</h3><strong>Free or $10/post</strong><p>RSS blog imports may be free; manual blog migration or setup is priced per post.</p><ul><li>Blog post content setup</li><li>Categories, tags, and authors</li><li>Blog feed page setup</li><li>Useful for redesigns or supplied blog content</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Product Setup</h3><strong>$10/product</strong><p>Add ecommerce products with the details needed to support shopping and checkout.</p><ul><li>Product images and descriptions</li><li>SKUs and pricing</li><li>Store categories and subcategories</li><li>Payment, shipping, and tax setup</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Logo Design</h3><strong>$250/logo</strong><p>Create or refresh a professional, modern logo for the business.</p><ul><li>Up to 2 concept revisions</li><li>All image formats</li><li>Website and advertising use</li><li>Brand-ready creative</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Banner Design</h3><strong>$100/banner</strong><p>Create or redesign a graphical banner for advertising purposes.</p><ul><li>Up to 2 concept revisions</li><li>All image formats</li><li>Advertising-ready creative</li><li>Brand-matched design</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article>
-  </div>
-</section>
-<section class="section design-pricing-calculator-section" id="pricing-calculators">
-  <div class="section-heading compact">
-    <p class="eyebrow">Pricing Sliders</p>
-    <h2>Estimate design work by adjusting page counts and setup quantities.</h2>
-    <p>Move the sliders to build a quick estimate for redesign pages, new pages, blog posts, products, logos, and banners.</p>
-  </div>
-  <div class="design-pricing-calculator" data-design-pricing-calculator>
-    <div class="design-slider-list">
-      <label class="design-price-slider" for="design-redesign-pages">
-        <span><strong>Website redesign pages</strong><em>$150 per page</em></span>
-        <input id="design-redesign-pages" type="range" min="1" max="30" value="5" data-design-price-rate="150" data-design-price-unit="pages" data-design-price-output="design-redesign-pages-output">
-        <output id="design-redesign-pages-output">5 pages / $750</output>
-      </label><label class="design-price-slider" for="design-new-pages">
-        <span><strong>New website pages</strong><em>$300 per page</em></span>
-        <input id="design-new-pages" type="range" min="1" max="30" value="5" data-design-price-rate="300" data-design-price-unit="pages" data-design-price-output="design-new-pages-output">
-        <output id="design-new-pages-output">5 pages / $1,500</output>
-      </label><label class="design-price-slider" for="design-blog-posts">
-        <span><strong>Blog posts</strong><em>$10 per post</em></span>
-        <input id="design-blog-posts" type="range" min="0" max="100" value="10" data-design-price-rate="10" data-design-price-unit="posts" data-design-price-output="design-blog-posts-output">
-        <output id="design-blog-posts-output">10 posts / $100</output>
-      </label><label class="design-price-slider" for="design-store-products">
-        <span><strong>Store products</strong><em>$10 per product</em></span>
-        <input id="design-store-products" type="range" min="0" max="250" value="25" data-design-price-rate="10" data-design-price-unit="products" data-design-price-output="design-store-products-output">
-        <output id="design-store-products-output">25 products / $250</output>
-      </label><label class="design-price-slider" for="design-logo-designs">
-        <span><strong>Logo designs</strong><em>$250 each</em></span>
-        <input id="design-logo-designs" type="range" min="0" max="5" value="1" data-design-price-rate="250" data-design-price-unit="logos" data-design-price-output="design-logo-designs-output">
-        <output id="design-logo-designs-output">1 logos / $250</output>
-      </label><label class="design-price-slider" for="design-banner-designs">
-        <span><strong>Banner designs</strong><em>$100 each</em></span>
-        <input id="design-banner-designs" type="range" min="0" max="20" value="4" data-design-price-rate="100" data-design-price-unit="banners" data-design-price-output="design-banner-designs-output">
-        <output id="design-banner-designs-output">4 banners / $400</output>
-      </label>
-    </div>
-    <aside class="design-pricing-summary">
-      <p class="eyebrow">Estimated Total</p>
-      <strong data-design-price-total>$0</strong>
-      <span>One-time design and setup estimate</span>
-      <p>Hosting is billed separately at $50/mo for business websites or $100/mo for ecommerce websites.</p>
-      <a class="button primary" href="/contact/index.html">Review this estimate</a>
-    </aside>
-  </div>
-</section>
-<section class="section website-metrics-section" id="hosting-plans">
-  <div>
-    <p class="eyebrow">Hosting Plans</p>
-    <h2>Choose the hosting lane after the design work is scoped.</h2>
-    <p>Business website hosting is designed for standard company websites. eCommerce website hosting adds store tools for products, promotions, orders, shipping, and taxes.</p>
-  </div>
-  <div class="metric-grid">
-    <article><strong>$50</strong><span>Business website hosting per month</span></article>
-    <article><strong>$100</strong><span>eCommerce website hosting per month</span></article>
-    <article><strong>$150</strong><span>Website redesign per page</span></article>
-    <article><strong>$300</strong><span>New website design per page</span></article>
-  </div>
-</section>
-<section class="section website-solutions-band">
-  <div>
-    <p class="eyebrow">Pricing Notes</p>
-    <h2>Use the sliders for planning, then confirm the final scope with WebAct.</h2>
-    <p>The calculator gives a quick design estimate. WebAct can confirm exact pricing after reviewing page count, content, products, blog posts, logo needs, banners, integrations, and launch support.</p>
-  </div>
-  <a class="button secondary" href="/contact/index.html">Request pricing help</a>
-</section></main>
-    <div id="webact-footer"></div>
-    <script src="/webact-redesign/script.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
-</body></strong>
-      <span>One-time design and setup estimate</span>
-      <p>Hosting is billed separately at $50/mo for business websites or $100/mo for ecommerce websites.</p>
-      <a class="button primary" href="/contact/index.html">Review this estimate</a>
-    </aside>
-  </div>
-</section>
-<section class="section website-metrics-section" id="hosting-plans">
-  <div>
-    <p class="eyebrow">Hosting Plans</p>
-    <h2>Choose the hosting lane after the design work is scoped.</h2>
-    <p>Business website hosting is designed for standard company websites. eCommerce website hosting adds store tools for products, promotions, orders, shipping, and taxes.</p>
-  </div>
-  <div class="metric-grid">
-    <article><strong>$50</strong><span>Business website hosting per month</span></article>
-    <article><strong>$100</strong><span>eCommerce website hosting per month</span></article>
-    <article><strong>$150</strong><span>Website redesign per page</span></article>
-    <article><strong>$300</strong><span>New website design per page</span></article>
-  </div>
-</section>
-<section class="section website-solutions-band">
-  <div>
-    <p class="eyebrow">Pricing Notes</p>
-    <h2>Use the sliders for planning, then confirm the final scope with WebAct.</h2>
-    <p>The calculator gives a quick design estimate. WebAct can confirm exact pricing after reviewing page count, content, products, blog posts, logo needs, banners, integrations, and launch support.</p>
-  </div>
-  <a class="button secondary" href="/contact/index.html">Request pricing help</a>
-</section></main>
-    <div id="webact-footer"></div>
-    <script src="/webact-redesign/script.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
+<body class="design-pricing-page">
+<div id="webact-header"></div>
+
+<main>
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Design Pricing</p>
+    <h1>Website design pricing built around your project scope.</h1>
+    <p>Estimate a new website, redesign, blog migration, ecommerce setup, logo package, branding package, and hosting options with WebAct’s design pricing calculator.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#calculator">Estimate Project</a>
+      <a class="button secondary" href="/webact-redesign/contact/index.html">Request Quote</a>
+    </div>
+  </div>
+</section>
+
+<section class="section soft" id="calculator">
+  <div class="heading">
+    <p class="eyebrow">Pricing Calculator</p>
+    <h2>Build a quick design estimate.</h2>
+    <p>Use the sliders below to estimate a starting price. Final pricing depends on content, integrations, functionality, timeline, and custom requirements.</p>
+  </div>
+
+  <div class="calculator">
+    <div class="calc-controls">
+      <div class="calc-row">
+        <label>New Website Pages <output id="newPagesOut">5</output></label>
+        <input id="newPages" type="range" min="0" max="50" value="5">
+      </div>
+      <div class="calc-row">
+        <label>Redesign Pages <output id="redesignPagesOut">0</output></label>
+        <input id="redesignPages" type="range" min="0" max="50" value="0">
+      </div>
+      <div class="calc-row">
+        <label>Blog Posts Migrated <output id="blogPostsOut">0</output></label>
+        <input id="blogPosts" type="range" min="0" max="200" value="0">
+      </div>
+      <div class="calc-row">
+        <label>Ecommerce Products <output id="productsOut">0</output></label>
+        <input id="products" type="range" min="0" max="500" value="0">
+      </div>
+      <div class="calc-row">
+        <label>Logo Packages <output id="logosOut">0</output></label>
+        <input id="logos" type="range" min="0" max="3" value="0">
+      </div>
+      <div class="calc-row">
+        <label>Branding Packages <output id="brandingOut">0</output></label>
+        <input id="branding" type="range" min="0" max="3" value="0">
+      </div>
+    </div>
+
+    <aside class="calc-summary">
+      <h3>Estimated Starting Total</h3>
+      <div class="total" id="total">$1,750</div>
+      <p>This is a planning estimate, not a final quote. Contact WebAct for a confirmed proposal.</p>
+      <div class="breakdown" id="breakdown"></div>
+      <a class="button primary" href="/webact-redesign/contact/index.html">Request Final Quote</a>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="heading">
+    <p class="eyebrow">A La Carte Design Pricing</p>
+    <h2>Choose the design services your project needs.</h2>
+    <p>WebAct separates design, content, ecommerce, branding, and hosting so you can build the right plan.</p>
+  </div>
+
+  <div class="price-grid">
+    <article class="price-card"><span>New Website</span><h3>Website Design</h3><p class="price">$350/page</p><p>New website pages designed for professional presentation, mobile usability, SEO structure, and customer action.</p><ul><li>Responsive page design</li><li>Service-focused layout</li><li>CTA placement</li></ul></article>
+    <article class="price-card"><span>Redesign</span><h3>Website Redesign</h3><p class="price">$200/page</p><p>Improve an existing website with a stronger layout, cleaner messaging, better structure, and updated design direction.</p><ul><li>Existing page refresh</li><li>Improved user flow</li><li>Better visual hierarchy</li></ul></article>
+    <article class="price-card"><span>Content</span><h3>Blog Migration</h3><p class="price">$20/post</p><p>Move blog content into your new website structure with cleaner formatting and stronger long-term organization.</p><ul><li>Post migration</li><li>Formatting cleanup</li><li>Content organization</li></ul></article>
+    <article class="price-card"><span>Ecommerce</span><h3>Product Setup</h3><p class="price">$25/product</p><p>Add ecommerce products with organized product details, images, categories, pricing, and shopping paths.</p><ul><li>Product entry</li><li>Category setup</li><li>Shopping structure</li></ul></article>
+    <article class="price-card"><span>Hosting</span><h3>Business Hosting</h3><p class="price">$100/mo</p><p>Professional and Simple Editor business hosting for standard business websites.</p><ul><li>$900 annual option</li><li>Website hosting</li><li>Editor support</li></ul></article>
+    <article class="price-card"><span>Ecommerce Hosting</span><h3>Professional Ecommerce</h3><p class="price">$200/mo</p><p>Professional Editor ecommerce hosting for online stores and ecommerce websites.</p><ul><li>$1,800 annual option</li><li>Store hosting</li><li>Ecommerce support</li></ul></article>
+    <article class="price-card"><span>Logo</span><h3>Logo Design Package</h3><p class="price">$1,000</p><p>Logo package built to help your business look professional across your website and marketing materials.</p><ul><li>Logo direction</li><li>Brand presentation</li><li>Website-ready files</li></ul></article>
+    <article class="price-card"><span>Branding</span><h3>Branding Package</h3><p class="price">$2,500</p><p>Digital and print branding package for a more consistent customer-facing business identity.</p><ul><li>Digital branding</li><li>Print branding</li><li>Visual consistency</li></ul></article>
+    <article class="price-card"><span>Creative</span><h3>Graphic Design</h3><p class="price">Custom</p><p>Graphics for website sections, ads, social content, landing pages, banners, and promotional campaigns.</p><ul><li>Website graphics</li><li>Ad creative</li><li>Campaign visuals</li></ul></article>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="heading">
+    <p class="eyebrow">What Is Included</p>
+    <h2>Design pricing should be easy to understand.</h2>
+    <p>Each WebAct design service is built to support a professional website, clear messaging, and stronger customer action.</p>
+  </div>
+
+  <div class="compare-grid">
+    <article class="compare-card"><h3>Responsive Design</h3><p>Pages are planned for desktop, tablet, and mobile experiences.</p></article>
+    <article class="compare-card"><h3>SEO-Ready Structure</h3><p>Headings, content hierarchy, service sections, and internal page flow are built with search visibility in mind.</p></article>
+    <article class="compare-card"><h3>Conversion Paths</h3><p>Calls, forms, buttons, quotes, appointments, products, and next steps are considered throughout the design.</p></article>
+    <article class="compare-card"><h3>Brand Consistency</h3><p>Design direction supports your logo, colors, messaging, photography, and overall business identity.</p></article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="heading">
+    <p class="eyebrow">FAQ</p>
+    <h2>Website design pricing questions.</h2>
+  </div>
+
+  <div class="faq-list">
+    <details open><summary>How much does a new website cost?</summary><p>New website design starts at $350 per page. The total depends on the number of pages, content, functionality, ecommerce, add-ons, and timeline.</p></details>
+    <details><summary>How much does a website redesign cost?</summary><p>Website redesign starts at $200 per page. This is useful when the existing website needs a better layout, updated design, improved structure, or stronger calls to action.</p></details>
+    <details><summary>How much does ecommerce setup cost?</summary><p>Ecommerce product setup starts at $25 per product. Hosting for Professional Editor ecommerce websites is $200 per month or $1,800 annually.</p></details>
+    <details><summary>Do you offer hosting?</summary><p>Yes. Professional and Simple Editor business hosting is $100 per month or $900 annually. Professional Editor ecommerce hosting is $200 per month or $1,800 annually.</p></details>
+    <details><summary>Do you offer logo and branding packages?</summary><p>Yes. Logo design packages are $1,000. Branding packages are $2,500 and include digital and print branding direction.</p></details>
+    <details><summary>Is the calculator a final quote?</summary><p>No. The calculator gives a quick planning estimate. WebAct can provide a confirmed quote after reviewing the exact scope.</p></details>
+  </div>
+</section>
+
+<section class="final-cta">
+  <h2>Ready to price your website design project?</h2>
+  <p>Send your goals, page count, design needs, and timeline. WebAct can help confirm the right design pricing path.</p>
+  <div class="hero-actions">
+    <a class="button primary" href="/webact-redesign/contact/index.html">Request Quote</a>
+    <a class="button secondary" href="/webact-redesign/pricing/index.html">Back to Pricing</a>
+  </div>
+</section>
+</main>
+
+<div id="webact-footer"></div>
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+<script>
+(function(){
+  const rates = {newPages:350, redesignPages:200, blogPosts:20, products:25, logos:1000, branding:2500};
+  const labels = {newPages:'New pages', redesignPages:'Redesign pages', blogPosts:'Blog posts', products:'Products', logos:'Logo packages', branding:'Branding packages'};
+  const ids = Object.keys(rates);
+  const totalEl = document.getElementById('total');
+  const breakdown = document.getElementById('breakdown');
+
+  function money(n){return '$' + n.toLocaleString();}
+  function update(){
+    let total = 0;
+    breakdown.innerHTML = '';
+    ids.forEach(id => {
+      const el = document.getElementById(id);
+      const value = Number(el.value || 0);
+      document.getElementById(id + 'Out').textContent = value;
+      const subtotal = value * rates[id];
+      total += subtotal;
+      if(value > 0){
+        const row = document.createElement('div');
+        row.innerHTML = '<span>' + labels[id] + '</span><strong>' + money(subtotal) + '</strong>';
+        breakdown.appendChild(row);
+      }
+    });
+    totalEl.textContent = money(total);
+    if(total === 0){
+      breakdown.innerHTML = '<div><span>No items selected</span><strong>$0</strong></div>';
+    }
+  }
+  ids.forEach(id => document.getElementById(id).addEventListener('input', update));
+  update();
+})();
+</script>
 </body>
 </html>
-
