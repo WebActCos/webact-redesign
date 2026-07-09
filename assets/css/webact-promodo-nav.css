@@ -338,3 +338,27 @@
     position:relative;
     top:-30px;   /* Move logo upward */
 }
+/* Industries dropdown: 3 rows of 10 links */
+.wa-industries-30-grid{
+  display:grid !important;
+  grid-template-columns:repeat(10,minmax(120px,1fr)) !important;
+  gap:10px !important;
+  max-width:1500px !important;
+}
+
+.wa-industries-30-grid a{
+  white-space:nowrap !important;
+  text-align:center !important;
+}
+
+@media(max-width:1200px){
+  .wa-industries-30-grid{
+    grid-template-columns:repeat(5,minmax(120px,1fr)) !important;
+  }
+}
+
+@media(max-width:700px){
+  .wa-industries-30-grid{
+    grid-template-columns:1fr !important;
+  }
+}
