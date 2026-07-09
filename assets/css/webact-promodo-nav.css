@@ -547,3 +547,95 @@
     width:100%!important;
   }
 }
+/* Mega menu content cards with descriptions */
+.wa-service-mega-grid{
+  grid-template-columns:repeat(2,minmax(240px,1fr))!important;
+  gap:34px 64px!important;
+}
+
+.wa-service-mega-grid a{
+  display:block!important;
+  text-align:left!important;
+  background:transparent!important;
+  border:0!important;
+  padding:0!important;
+  box-shadow:none!important;
+}
+
+.wa-service-mega-grid a strong{
+  display:block!important;
+  color:#071421!important;
+  font-size:21px!important;
+  line-height:1.25!important;
+  margin-bottom:10px!important;
+}
+
+.wa-service-mega-grid a span{
+  display:block!important;
+  color:#5c6d7b!important;
+  font-size:17px!important;
+  line-height:1.45!important;
+  font-weight:500!important;
+}
+
+.wa-mega-learn-more{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:max-content!important;
+  margin-top:28px!important;
+  padding:14px 24px!important;
+  border-radius:14px!important;
+  background:#fff!important;
+  color:#071421!important;
+  font-weight:900!important;
+  text-decoration:none!important;
+}
+
+.wa-industries-grouped-grid{
+  grid-template-columns:repeat(4,minmax(190px,1fr))!important;
+  gap:34px!important;
+}
+
+.wa-industries-grouped-grid .industry-menu-group{
+  display:flex!important;
+  flex-direction:column!important;
+  gap:10px!important;
+}
+
+.wa-industries-grouped-grid h3{
+  font-size:20px!important;
+  line-height:1.2!important;
+  margin:0 0 10px!important;
+  color:#071421!important;
+}
+
+.wa-industries-grouped-grid a{
+  text-align:left!important;
+  background:transparent!important;
+  border:0!important;
+  padding:0!important;
+  box-shadow:none!important;
+  color:#5c6d7b!important;
+  font-size:16px!important;
+  line-height:1.35!important;
+  font-weight:800!important;
+}
+
+.wa-industries-grouped-grid a:hover,
+.wa-service-mega-grid a:hover strong{
+  color:#0c9bd2!important;
+}
+
+@media(max-width:1100px){
+  .wa-industries-grouped-grid{
+    grid-template-columns:repeat(2,minmax(220px,1fr))!important;
+  }
+}
+
+@media(max-width:760px){
+  .wa-service-mega-grid,
+  .wa-industries-grouped-grid{
+    grid-template-columns:1fr!important;
+  }
+}
