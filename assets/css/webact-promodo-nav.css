@@ -387,3 +387,134 @@
     grid-template-columns:1fr !important;
   }
 }
+/* Promodo-style full-width mega navigation */
+.wa-promodo-header,
+.wa-promodo-nav{
+  overflow:visible!important;
+}
+
+.wa-promodo-item{
+  position:static!important;
+}
+
+.wa-promodo-mega{
+  position:absolute!important;
+  left:0!important;
+  right:0!important;
+  top:100%!important;
+  width:100vw!important;
+  margin-left:calc(50% - 50vw)!important;
+  background:#fff!important;
+  border-top:1px solid rgba(7,20,33,.08)!important;
+  box-shadow:0 28px 70px rgba(7,20,33,.12)!important;
+  padding:44px max(32px,calc((100vw - 1500px)/2))!important;
+  z-index:9999!important;
+}
+
+.wa-promodo-mega-inner{
+  max-width:1500px!important;
+  margin:0 auto!important;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) 420px!important;
+  gap:56px!important;
+  align-items:stretch!important;
+}
+
+.wa-promodo-mega-inner > div:first-child{
+  order:2!important;
+  background:#071421!important;
+  color:#fff!important;
+  border-radius:34px!important;
+  padding:44px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  min-height:320px!important;
+}
+
+.wa-promodo-mega-inner > div:first-child .wa-promodo-mega-kicker{
+  color:#73d7ff!important;
+}
+
+.wa-promodo-mega-inner > div:first-child .wa-promodo-mega-title,
+.wa-promodo-mega-inner > div:first-child .wa-promodo-mega-title a{
+  color:#fff!important;
+}
+
+.wa-promodo-mega-inner > div:first-child .wa-promodo-mega-text{
+  color:#d9edf8!important;
+}
+
+.wa-promodo-mega-grid{
+  order:1!important;
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(220px,1fr))!important;
+  gap:34px 64px!important;
+  align-content:start!important;
+}
+
+.wa-promodo-mega-grid a{
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  padding:0!important;
+  color:#071421!important;
+  text-align:left!important;
+  font-size:20px!important;
+  font-weight:900!important;
+  line-height:1.25!important;
+  white-space:normal!important;
+}
+
+.wa-promodo-mega-grid a:hover{
+  color:#0c9bd2!important;
+  transform:none!important;
+}
+
+/* Industries keeps 30 links as 3 rows of 10 on desktop */
+.wa-promodo-mega .wa-industries-30-grid{
+  grid-template-columns:repeat(10,minmax(105px,1fr))!important;
+  gap:14px!important;
+}
+
+.wa-promodo-mega .wa-industries-30-grid a{
+  text-align:center!important;
+  font-size:15px!important;
+  padding:11px 10px!important;
+  border:1px solid #dcecf5!important;
+  border-radius:14px!important;
+  background:#f7fbfe!important;
+}
+
+@media(max-width:1300px){
+  .wa-promodo-mega-inner{
+    grid-template-columns:1fr!important;
+  }
+
+  .wa-promodo-mega-inner > div:first-child{
+    order:1!important;
+  }
+
+  .wa-promodo-mega-grid{
+    order:2!important;
+    grid-template-columns:repeat(3,minmax(180px,1fr))!important;
+  }
+
+  .wa-promodo-mega .wa-industries-30-grid{
+    grid-template-columns:repeat(5,minmax(120px,1fr))!important;
+  }
+}
+
+@media(max-width:760px){
+  .wa-promodo-mega{
+    position:static!important;
+    width:100%!important;
+    margin-left:0!important;
+    padding:24px!important;
+  }
+
+  .wa-promodo-mega-grid,
+  .wa-promodo-mega .wa-industries-30-grid{
+    grid-template-columns:1fr!important;
+  }
+}
