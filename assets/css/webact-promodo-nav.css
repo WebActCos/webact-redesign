@@ -518,3 +518,32 @@
     grid-template-columns:1fr!important;
   }
 }
+/* Fix mega menu horizontal alignment */
+.wa-promodo-nav{
+  position:relative!important;
+}
+
+.wa-promodo-mega{
+  left:50%!important;
+  right:auto!important;
+  transform:translateX(-50%)!important;
+  width:100vw!important;
+  margin-left:0!important;
+}
+
+.wa-promodo-mega-inner{
+  width:min(1500px,calc(100vw - 64px))!important;
+  margin:0 auto!important;
+}
+
+@media(max-width:760px){
+  .wa-promodo-mega{
+    left:auto!important;
+    transform:none!important;
+    width:100%!important;
+  }
+
+  .wa-promodo-mega-inner{
+    width:100%!important;
+  }
+}
