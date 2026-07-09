@@ -1406,7 +1406,7 @@
   {
     "name": "Aspire Hope For Kids",
     "slug": "aspire-hope-for-kids",
-    "industry": "Non Profit",
+    "industry": "Nonprofit",
     "image": "/webact-redesign/Resources/images/Aspire-Hope-For-Kids-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -1440,10 +1440,10 @@
       "challenge": "The project needed to communicate the value of Aspire Hope For Kids quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
       "result": "The finished website gives Aspire Hope For Kids a stronger online presence and a more polished way to showcase services to potential customers.",
-      "industry": "Non Profit",
-      "category": "Non Profit"
+      "industry": "Nonprofit",
+      "category": "Nonprofit"
     },
-    "category": "Non Profit",
+    "category": "Nonprofit",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -1463,16 +1463,16 @@
       }
     },
     "tags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "categories": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "filterTags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "industries": [
-      "Non Profit"
+      "Nonprofit"
     ]
   },
   {
@@ -1592,7 +1592,7 @@
     }
   },
   {
-    "name": "AY Home Health Care",
+    "name": "AY Home Healthcare",
     "slug": "ay-home-health-care",
     "industry": "Healthcare",
     "image": "/webact-redesign/Resources/images/AY-Home-Health-Care-1920w.png",
@@ -1620,14 +1620,14 @@
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "AY Home Health Care presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
-    "seoTitle": "AY Home Health Care Website Design Case Study | WebAct Healthcare Portfolio",
-    "seoDescription": "AY Home Health Care presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
+    "description": "AY Home Healthcare presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
+    "seoTitle": "AY Home Healthcare Website Design Case Study | WebAct Healthcare Portfolio",
+    "seoDescription": "AY Home Healthcare presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
     "caseStudy": {
-      "overview": "WebAct created a professional website presence for AY Home Health Care, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of AY Home Health Care quickly while guiding visitors toward the next step.",
+      "overview": "WebAct created a professional website presence for AY Home Healthcare, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of AY Home Healthcare quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives AY Home Health Care a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives AY Home Healthcare a stronger online presence and a more polished way to showcase services to potential customers."
     },
     "category": "Healthcare",
     "type": "Healthcare",
@@ -1641,7 +1641,7 @@
       "body": "Showcase your services, story, proof, and conversion paths with a healthcare website built for customers."
     },
     "override": {
-      "hero": "AY Home Health Care presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
+      "hero": "AY Home Healthcare presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
       "cta": {
         "headline": "Grow Your Healthcare Business Online",
         "text": "Showcase your services, story, proof, and conversion paths with a healthcare website built for customers.",
@@ -2566,7 +2566,7 @@
   {
     "name": "Cancer With Courage",
     "slug": "cancer-with-courage",
-    "industry": "Non Profit",
+    "industry": "Nonprofit",
     "image": "/webact-redesign/Resources/images/cancer-with-courage.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -2600,10 +2600,10 @@
       "challenge": "The project needed to communicate the value of Cancer With Courage quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
       "result": "The finished website gives Cancer With Courage a stronger online presence and a more polished way to showcase services to potential customers.",
-      "industry": "Non Profit",
-      "category": "Non Profit"
+      "industry": "Nonprofit",
+      "category": "Nonprofit"
     },
-    "category": "Non Profit",
+    "category": "Nonprofit",
     "type": "Nonprofit",
     "snapshot": {
       "industry": "Nonprofit"
@@ -2623,16 +2623,16 @@
       }
     },
     "tags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "categories": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "filterTags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "industries": [
-      "Non Profit"
+      "Nonprofit"
     ]
   },
   {
@@ -3869,7 +3869,7 @@
   {
     "name": "Dads of Parker",
     "slug": "dads-of-parker",
-    "industry": "Non Profit",
+    "industry": "Nonprofit",
     "image": "/webact-redesign/Resources/images/Dads-of-Parker-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -3903,10 +3903,10 @@
       "challenge": "The project needed to communicate the value of Dads of Parker quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
       "result": "The finished website gives Dads of Parker a stronger online presence and a more polished way to showcase services to potential customers.",
-      "industry": "Non Profit",
-      "category": "Non Profit"
+      "industry": "Nonprofit",
+      "category": "Nonprofit"
     },
-    "category": "Non Profit",
+    "category": "Nonprofit",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -3926,16 +3926,16 @@
       }
     },
     "tags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "categories": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "filterTags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "industries": [
-      "Non Profit"
+      "Nonprofit"
     ]
   },
   {
@@ -10347,7 +10347,7 @@
   {
     "name": "Mrad",
     "slug": "mrad",
-    "industry": "Health Care",
+    "industry": "Healthcare",
     "image": "/webact-redesign/Resources/images/WebactMrad-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -10381,10 +10381,10 @@
       "challenge": "The project needed to communicate the value of Mrad quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
       "result": "The finished website gives Mrad a stronger online presence and a more polished way to showcase services to potential customers.",
-      "industry": "Health Care",
-      "category": "Health Care"
+      "industry": "Healthcare",
+      "category": "Healthcare"
     },
-    "category": "Health Care",
+    "category": "Healthcare",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -10404,16 +10404,16 @@
       }
     },
     "tags": [
-      "Health Care"
+      "Healthcare"
     ],
     "categories": [
-      "Health Care"
+      "Healthcare"
     ],
     "filterTags": [
-      "Health Care"
+      "Healthcare"
     ],
     "industries": [
-      "Health Care"
+      "Healthcare"
     ]
   },
   {
@@ -10910,7 +10910,7 @@
     }
   },
   {
-    "name": "Onestop Home Health Care",
+    "name": "Onestop Home Healthcare",
     "slug": "onestop-home-health-care",
     "industry": "Healthcare",
     "image": "/webact-redesign/Resources/images/ONESTOP-HOME-HEALTH-CARE-1920w.png",
@@ -10938,14 +10938,14 @@
       "Analytics Ready",
       "Secure Hosting"
     ],
-    "description": "Onestop Home Health Care presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
-    "seoTitle": "Onestop Home Health Care Website Design Case Study | WebAct Healthcare Portfolio",
-    "seoDescription": "Onestop Home Health Care presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
+    "description": "Onestop Home Healthcare presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
+    "seoTitle": "Onestop Home Healthcare Website Design Case Study | WebAct Healthcare Portfolio",
+    "seoDescription": "Onestop Home Healthcare presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
     "caseStudy": {
-      "overview": "WebAct created a professional website presence for Onestop Home Health Care, helping the business present its services clearly and build trust with visitors.",
-      "challenge": "The project needed to communicate the value of Onestop Home Health Care quickly while guiding visitors toward the next step.",
+      "overview": "WebAct created a professional website presence for Onestop Home Healthcare, helping the business present its services clearly and build trust with visitors.",
+      "challenge": "The project needed to communicate the value of Onestop Home Healthcare quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
-      "result": "The finished website gives Onestop Home Health Care a stronger online presence and a more polished way to showcase services to potential customers."
+      "result": "The finished website gives Onestop Home Healthcare a stronger online presence and a more polished way to showcase services to potential customers."
     },
     "category": "Healthcare",
     "type": "Healthcare",
@@ -10959,7 +10959,7 @@
       "body": "Showcase your services, story, proof, and conversion paths with a healthcare website built for customers."
     },
     "override": {
-      "hero": "Onestop Home Health Care presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
+      "hero": "Onestop Home Healthcare presents a healthcare website experience centered on trust, service clarity, brand story, and practical next steps for visitors.",
       "cta": {
         "headline": "Grow Your Healthcare Business Online",
         "text": "Showcase your services, story, proof, and conversion paths with a healthcare website built for customers.",
@@ -11578,7 +11578,7 @@
   {
     "name": "Perthes",
     "slug": "perthes",
-    "industry": "Non Profit",
+    "industry": "Nonprofit",
     "image": "/webact-redesign/Resources/images/WebactPerthes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -11612,10 +11612,10 @@
       "challenge": "The project needed to communicate the value of Perthes quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
       "result": "The finished website gives Perthes a stronger online presence and a more polished way to showcase services to potential customers.",
-      "industry": "Non Profit",
-      "category": "Non Profit"
+      "industry": "Nonprofit",
+      "category": "Nonprofit"
     },
-    "category": "Non Profit",
+    "category": "Nonprofit",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -11635,16 +11635,16 @@
       }
     },
     "tags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "categories": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "filterTags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "industries": [
-      "Non Profit"
+      "Nonprofit"
     ]
   },
   {
@@ -11766,7 +11766,7 @@
   {
     "name": "Photophobic Society of America",
     "slug": "photophobic-society-of-america",
-    "industry": "Non Profit",
+    "industry": "Nonprofit",
     "image": "/webact-redesign/Resources/images/photophobicSocietyOfAmerica-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -11800,10 +11800,10 @@
       "challenge": "The project needed to communicate the value of Photophobic Society of America quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
       "result": "The finished website gives Photophobic Society of America a stronger online presence and a more polished way to showcase services to potential customers.",
-      "industry": "Non Profit",
-      "category": "Non Profit"
+      "industry": "Nonprofit",
+      "category": "Nonprofit"
     },
-    "category": "Non Profit",
+    "category": "Nonprofit",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -11823,16 +11823,16 @@
       }
     },
     "tags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "categories": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "filterTags": [
-      "Non Profit"
+      "Nonprofit"
     ],
     "industries": [
-      "Non Profit"
+      "Nonprofit"
     ]
   },
   {
@@ -12707,7 +12707,7 @@
   {
     "name": "Six Corners",
     "slug": "six-corners",
-    "industry": "Health Care",
+    "industry": "Healthcare",
     "image": "/webact-redesign/Resources/images/WebactSixCorners-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
@@ -12741,10 +12741,10 @@
       "challenge": "The project needed to communicate the value of Six Corners quickly while guiding visitors toward the next step.",
       "solution": "WebAct focused on clean design, structured content, mobile-friendly presentation, and clear conversion paths.",
       "result": "The finished website gives Six Corners a stronger online presence and a more polished way to showcase services to potential customers.",
-      "industry": "Health Care",
-      "category": "Health Care"
+      "industry": "Healthcare",
+      "category": "Healthcare"
     },
-    "category": "Health Care",
+    "category": "Healthcare",
     "type": "Business",
     "snapshot": {
       "industry": "Business"
@@ -12764,16 +12764,16 @@
       }
     },
     "tags": [
-      "Health Care"
+      "Healthcare"
     ],
     "categories": [
-      "Health Care"
+      "Healthcare"
     ],
     "filterTags": [
-      "Health Care"
+      "Healthcare"
     ],
     "industries": [
-      "Health Care"
+      "Healthcare"
     ]
   },
   {

@@ -139,7 +139,7 @@
   ],
   [
     "Aspire Hope For Kids",
-    "Non Profit",
+    "Nonprofit",
     "/webact-redesign/Resources/images/Aspire-Hope-For-Kids-1920w.png",
     ""
   ],
@@ -156,7 +156,7 @@
     ""
   ],
   [
-    "AY Home Health Care",
+    "AY Home Healthcare",
     "Healthcare",
     "/webact-redesign/Resources/images/AY-Home-Health-Care-1920w.png",
     ""
@@ -253,7 +253,7 @@
   ],
   [
     "Cancer With Courage",
-    "Non Profit",
+    "Nonprofit",
     "/webact-redesign/Resources/images/cancer-with-courage.png",
     ""
   ],
@@ -373,7 +373,7 @@
   ],
   [
     "Dads of Parker",
-    "Non Profit",
+    "Nonprofit",
     "/webact-redesign/Resources/images/Dads-of-Parker-1920w.png",
     ""
   ],
@@ -409,7 +409,7 @@
   ],
   [
     "Denver Issa",
-    "Non Profit",
+    "Nonprofit",
     "/webact-redesign/Resources/images/Denver-Issa-1920w.png",
     ""
   ],
@@ -667,7 +667,7 @@
   ],
   [
     "Grin & Barrett Charity Ride",
-    "Non Profit",
+    "Nonprofit",
     "/webact-redesign/Resources/images/gb biketours-1920w.png",
     ""
   ],
@@ -985,7 +985,7 @@
   ],
   [
     "Mrad",
-    "Health Care",
+    "Healthcare",
     "/webact-redesign/Resources/images/WebactMrad-1920w.png",
     ""
   ],
@@ -1038,7 +1038,7 @@
     ""
   ],
   [
-    "Onestop Home Health Care",
+    "Onestop Home Healthcare",
     "Healthcare",
     "/webact-redesign/Resources/images/ONESTOP-HOME-HEALTH-CARE-1920w.png",
     ""
@@ -1105,7 +1105,7 @@
   ],
   [
     "Perthes",
-    "Non Profit",
+    "Nonprofit",
     "/webact-redesign/Resources/images/WebactPerthes-1920w.png",
     ""
   ],
@@ -1123,7 +1123,7 @@
   ],
   [
     "Photophobic Society of America",
-    "Non Profit",
+    "Nonprofit",
     "/webact-redesign/Resources/images/photophobicSocietyOfAmerica-1920w.png",
     ""
   ],
@@ -1213,7 +1213,7 @@
   ],
   [
     "Six Corners",
-    "Health Care",
+    "Healthcare",
     "/webact-redesign/Resources/images/WebactSixCorners-1920w.png",
     ""
   ],
