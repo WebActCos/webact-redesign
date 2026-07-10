@@ -1,0 +1,33 @@
+name: WebAct Enterprise Site Audit v3
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  enterprise-audit-v3:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run WebAct Enterprise Site Auditor v3
+        run: node tools/audit/webact-site-auditor-v3.js .
+
+      - name: Upload audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: webact-enterprise-site-audit-v3
+          path: |
+            tools/audit/reports/v3/webact-enterprise-audit-v3.html
+            tools/audit/reports/v3/webact-enterprise-audit-v3.json
+            tools/audit/reports/v3/webact-enterprise-audit-v3.csv

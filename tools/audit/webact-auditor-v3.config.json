@@ -1,0 +1,199 @@
+{
+  "baseUrl": "https://www.webact.com",
+  "includeExtensions": [
+    ".html",
+    ".htm"
+  ],
+  "excludeDirectories": [
+    ".git",
+    "node_modules",
+    "vendor",
+    "dist",
+    "build",
+    "coverage",
+    ".next",
+    ".cache",
+    "tools",
+    "pages",
+    "includes",
+    "assets/includes",
+    "assets/templates",
+    "tools/backups",
+    "tools/performance/node_modules"
+  ],
+  "excludeFiles": [
+    "homepage-baseline.html",
+    "index-before-jotform.html",
+    "index-before-card-sizing.html",
+    "about-portfolio-case-study.before-tag-render-fix.html",
+    "URL-Audit-Report.txt"
+  ],
+  "excludeFilePatterns": [
+    "before-",
+    ".before-",
+    "baseline",
+    "backup",
+    "report.html"
+  ],
+  "excludeProductionPatterns": [
+    "assets/webact-template-"
+  ],
+  "sections": [
+    {
+      "name": "marketing",
+      "patterns": [
+        "^index\\.html$",
+        "^about/(?:index\\.html|about-us\\.html|faq\\.html|login\\.html|portfolio\\.html|how-to-videos\\.html)$",
+        "^contact/",
+        "^design/",
+        "^digital-ads/",
+        "^marketing/",
+        "^pricing/",
+        "^industries/"
+      ],
+      "rules": {
+        "strictSeo": true,
+        "checkOrphans": true,
+        "allowDynamicMarkup": true,
+        "requireCanonical": true,
+        "requireSharedComponents": true
+      }
+    },
+    {
+      "name": "portfolio",
+      "patterns": [
+        "^about/portfolio/"
+      ],
+      "rules": {
+        "strictSeo": true,
+        "checkOrphans": false,
+        "allowDynamicMarkup": true,
+        "allowDynamicQueryRoutes": true,
+        "requireCanonical": true,
+        "requireSharedComponents": true
+      }
+    },
+    {
+      "name": "knowledge-base",
+      "patterns": [
+        "^about/website-knowledge-base/"
+      ],
+      "rules": {
+        "strictSeo": false,
+        "checkOrphans": false,
+        "allowDynamicMarkup": true,
+        "requireCanonical": true,
+        "requireSharedComponents": true
+      }
+    },
+    {
+      "name": "app-store",
+      "patterns": [
+        "^addons/website-app-store/"
+      ],
+      "rules": {
+        "strictSeo": false,
+        "checkOrphans": false,
+        "allowDynamicMarkup": true,
+        "requireCanonical": true,
+        "requireSharedComponents": true
+      }
+    },
+    {
+      "name": "legal",
+      "patterns": [
+        "^privacy(?:-policy)?/",
+        "^privacy\\.html$",
+        "^terms/",
+        "^terms\\.html$"
+      ],
+      "rules": {
+        "strictSeo": false,
+        "checkOrphans": false,
+        "allowDynamicMarkup": true,
+        "requireCanonical": true,
+        "requireSharedComponents": true
+      }
+    }
+  ],
+  "defaultSectionRules": {
+    "strictSeo": false,
+    "checkOrphans": false,
+    "allowDynamicMarkup": true,
+    "requireCanonical": true,
+    "requireSharedComponents": true
+  },
+  "dynamicAttributePatterns": [
+    "data-src",
+    "data-lazy",
+    "data-image",
+    "data-bg",
+    "template",
+    "placeholder"
+  ],
+  "dynamicExpressionPatterns": [
+    "\\+\\s*[A-Za-z_$][\\w$]*(?:\\[[^\\]]+\\])?\\s*\\+",
+    "\\$\\{[^}]+\\}",
+    "esc\\([^)]*\\)",
+    "replace\\([^)]*\\)"
+  ],
+  "dynamicQueryRoutePatterns": [
+    "case-study\\.html\\?project="
+  ],
+  "knownRouteAliases": {
+    "/blog/": "/about/blog.html",
+    "/about/reviews.html": "/about/portfolio.html",
+    "/support/website-knowledge-base.html": "/about/website-knowledge-base.html",
+    "/support/widget-knowledge-base.html": "/about/widget-knowledge-base.html",
+    "/support/how-to-videos.html": "/about/how-to-videos.html"
+  },
+  "sharedComponentSignals": {
+    "header": [
+      "data-shared-header",
+      "site-header",
+      "header-container",
+      "header-placeholder",
+      "shared-header",
+      "/assets/js/includes.js",
+      "/assets/js/shared-components.js"
+    ],
+    "footer": [
+      "data-shared-footer",
+      "site-footer",
+      "footer-container",
+      "footer-placeholder",
+      "shared-footer",
+      "/assets/js/includes.js",
+      "/assets/js/shared-components.js"
+    ]
+  },
+  "severity": {
+    "brokenInternalLink": "critical",
+    "missingAsset": "critical",
+    "emptyHref": "high",
+    "emptySrc": "medium",
+    "missingTitle": "high",
+    "missingDescription": "medium",
+    "missingCanonical": "medium",
+    "duplicateCanonical": "high",
+    "duplicateTitle": "medium",
+    "duplicateDescription": "low",
+    "missingH1": "high",
+    "multipleH1": "medium",
+    "missingViewport": "high",
+    "missingLang": "medium",
+    "invalidJsonLd": "high",
+    "missingAlt": "medium",
+    "missingHeader": "medium",
+    "missingFooter": "medium",
+    "orphanPage": "medium",
+    "oldDevelopmentPath": "critical",
+    "explicitIndexUrl": "high",
+    "missingSitemap": "high",
+    "missingRobots": "medium"
+  },
+  "failOn": [
+    "critical",
+    "high"
+  ]
+}
