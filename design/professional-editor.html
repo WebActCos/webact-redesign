@@ -778,4 +778,287 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <!-- WEBACT ORIGINAL TEMPLATE FORM RESTYLE END -->
+<!-- WEBACT TEMPLATE MODAL LAYOUT FIX START -->
+
+<style id="webact-template-modal-layout-fix-css">
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-modal-heading {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto 36px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-modal-heading h2 {
+    margin: 0 0 12px !important;
+    color: #05080d !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: clamp(28px, 2.6vw, 40px) !important;
+    line-height: 1.18 !important;
+    font-weight: 800 !important;
+    letter-spacing: -.02em !important;
+    text-align: left !important;
+}
+
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-modal-heading p {
+    margin: 0 !important;
+    color: #111820 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+}
+
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-original-heading-hidden,
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-original-description-hidden,
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-subheading {
+    display: none !important;
+}
+
+.modaal-wrapper.webact-template-form-restyled
+.pure-g {
+    grid-template-columns:
+        minmax(430px, 1.05fr)
+        minmax(390px, .95fr) !important;
+    align-items: start !important;
+}
+
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-form-column {
+    order: 1 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+}
+
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-preview-column {
+    order: 2 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 610px !important;
+    padding: 32px !important;
+    overflow: hidden !important;
+}
+
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-preview-column img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 560px !important;
+    height: auto !important;
+    max-height: 610px !important;
+    margin: 0 auto !important;
+    object-fit: contain !important;
+}
+
+.modaal-wrapper.webact-template-form-restyled
+.webact-template-form-column form {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+@media (max-width: 980px) {
+    .modaal-wrapper.webact-template-form-restyled
+    .webact-template-modal-heading {
+        margin-bottom: 28px;
+    }
+
+    .modaal-wrapper.webact-template-form-restyled
+    .webact-template-form-column {
+        order: 2 !important;
+    }
+
+    .modaal-wrapper.webact-template-form-restyled
+    .webact-template-preview-column {
+        order: 1 !important;
+        min-height: 320px !important;
+    }
+}
+
+@media (max-width: 620px) {
+    .modaal-wrapper.webact-template-form-restyled
+    .webact-template-modal-heading h2 {
+        font-size: 28px !important;
+    }
+
+    .modaal-wrapper.webact-template-form-restyled
+    .webact-template-modal-heading p {
+        font-size: 16px !important;
+    }
+}
+</style>
+
+<script id="webact-template-modal-layout-fix-js">
+(function () {
+    "use strict";
+
+    function cleanText(value) {
+        return String(value || "")
+            .replace(/\s+/g, " ")
+            .trim();
+    }
+
+    function fixTemplateModalLayout() {
+        var wrappers = document.querySelectorAll(
+            ".modaal-wrapper.webact-template-form-restyled"
+        );
+
+        wrappers.forEach(function (wrapper) {
+            var container = wrapper.querySelector('[id^="cont-"]');
+
+            if (!container) {
+                container = wrapper.querySelector(
+                    ".modaal-content-container"
+                );
+            }
+
+            if (!container) {
+                return;
+            }
+
+            var grid = container.querySelector(".pure-g");
+            var form = container.querySelector("form");
+            var image = container.querySelector(
+                "img.modal-img, img[class*='template'], img"
+            );
+
+            if (!grid || !form || !image) {
+                return;
+            }
+
+            var formColumn = form.closest(
+                '[class*="pure-u"]'
+            );
+
+            var imageColumn = image.closest(
+                '[class*="pure-u"]'
+            );
+
+            if (!formColumn) {
+                formColumn = form.parentElement;
+            }
+
+            if (!imageColumn) {
+                imageColumn = image.parentElement;
+            }
+
+            if (formColumn) {
+                formColumn.classList.add(
+                    "webact-template-form-column"
+                );
+            }
+
+            if (imageColumn) {
+                imageColumn.classList.add(
+                    "webact-template-preview-column"
+                );
+            }
+
+            var originalHeading = null;
+
+            if (imageColumn) {
+                originalHeading = imageColumn.querySelector(
+                    "h1, h2, h3"
+                );
+            }
+
+            if (!originalHeading) {
+                originalHeading = container.querySelector(
+                    "h1, h2, h3"
+                );
+            }
+
+            var titleText = originalHeading
+                ? cleanText(originalHeading.textContent)
+                : "Start with this website template?";
+
+            if (originalHeading) {
+                originalHeading.classList.add(
+                    "webact-template-original-heading-hidden"
+                );
+
+                var nextElement =
+                    originalHeading.nextElementSibling;
+
+                if (
+                    nextElement &&
+                    nextElement.tagName === "P"
+                ) {
+                    nextElement.classList.add(
+                        "webact-template-original-description-hidden"
+                    );
+                }
+            }
+
+            var heading = container.querySelector(
+                ".webact-template-modal-heading"
+            );
+
+            if (!heading) {
+                heading = document.createElement("div");
+                heading.className =
+                    "webact-template-modal-heading";
+
+                heading.innerHTML =
+                    "<h2></h2>" +
+                    "<p>Enter your info below to create your free account.</p>";
+
+                container.insertBefore(
+                    heading,
+                    grid
+                );
+            }
+
+            var headingTitle = heading.querySelector("h2");
+
+            if (headingTitle) {
+                headingTitle.textContent = titleText;
+            }
+
+            var addedSubheading = container.querySelector(
+                ".webact-template-subheading"
+            );
+
+            if (addedSubheading) {
+                addedSubheading.style.display = "none";
+            }
+        });
+    }
+
+    var observer = new MutationObserver(function () {
+        window.requestAnimationFrame(
+            fixTemplateModalLayout
+        );
+    });
+
+    observer.observe(document.documentElement, {
+        childList: true,
+        subtree: true
+    });
+
+    document.addEventListener("click", function () {
+        window.setTimeout(fixTemplateModalLayout, 100);
+        window.setTimeout(fixTemplateModalLayout, 350);
+        window.setTimeout(fixTemplateModalLayout, 800);
+    });
+
+    if (document.readyState === "loading") {
+        document.addEventListener(
+            "DOMContentLoaded",
+            fixTemplateModalLayout
+        );
+    } else {
+        fixTemplateModalLayout();
+    }
+})();
+</script>
+
+<!-- WEBACT TEMPLATE MODAL LAYOUT FIX END -->
 </body></html>
