@@ -1,0 +1,31 @@
+<a class="button primary" href="#industries">Browse Industries</a>
+
+------------------------------------------------------------
+
+<a class="button secondary" href="/webact-redesign/contact/index.html">Talk to WebAct</a>
+
+------------------------------------------------------------
+
+<aside class="hero-form-card">
+    <h2>Need an Industry Website?</h2>
+    <p>Tell us about your business and WebAct can recommend the right website, SEO, and marketing plan.</p>
+    <form class="hero-form">
+      <label>Full Name<input type="text"></label>
+      <label>Email Address<input type="email"></label>
+      <label>Industry
+        <select>
+          <option>Law Firm</option>
+          <option>Restaurant</option>
+          <option>Dentist</option>
+          <option>HVAC</option>
+          <option>Roofing</option>
+          <option>Plumbing</option>
+          <option>Real Estate</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>How can we help?<textarea rows="4"></textarea></label>
+      <a class="button primary" href="/webact-redesign/contact/index.html">Request Help</a>
+
+------------------------------------------------------------
+

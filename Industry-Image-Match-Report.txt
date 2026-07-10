@@ -1,0 +1,134 @@
+MATCHED EXISTING CARDS
+----------------------
+Home Services -> /webact-redesign/industries/Industry Images/Home Services.png
+Restaurants -> /webact-redesign/industries/Industry Images/Restaurants.png
+Locksmiths -> /webact-redesign/industries/Industry Images/Locksmiths.png
+Insurance -> /webact-redesign/industries/Industry Images/Insurance.png
+Home Care -> /webact-redesign/industries/Industry Images/Home Care.png
+HVAC -> /webact-redesign/industries/Industry Images/HVAC.png
+Automotive -> /webact-redesign/industries/Industry Images/Automotive.png
+Real Estate -> /webact-redesign/industries/Industry Images/Real Estate.png
+Transportation -> /webact-redesign/industries/Industry Images/Transportation.png
+Plumbing -> /webact-redesign/industries/Industry Images/Plumbing.png
+Nonprofits -> /webact-redesign/industries/Industry Images/Nonprofits.png
+Local Retail -> /webact-redesign/industries/Industry Images/Local Retail.png
+Specialty Practices -> /webact-redesign/industries/Industry Images/Specialty Practices.png
+Electricians -> /webact-redesign/industries/Industry Images/Electricians.png
+Roofing -> /webact-redesign/industries/Industry Images/roofing.png
+Landscaping -> /webact-redesign/industries/Industry Images/Landscaping.png
+Home Inspections -> /webact-redesign/industries/Industry Images/Home Inspections.png
+Gaming -> /webact-redesign/industries/Industry Images/Gaming.png
+Esports -> /webact-redesign/industries/Industry Images/Esports.png
+Pest Control -> /webact-redesign/industries/Industry Images/Pest Control.png
+Pet Services -> /webact-redesign/industries/Industry Images/Pet Services.png
+Dog Adoption -> /webact-redesign/industries/Industry Images/Dog Adoption.png
+Equestrian -> /webact-redesign/industries/Industry Images/Equestrian.png
+Community Organizations -> /webact-redesign/industries/Industry Images/Community Organizations.png
+Art Organizations -> /webact-redesign/industries/Industry Images/Arts Organizations.png
+Driving Schools -> /webact-redesign/industries/Industry Images/Driving Schools.png
+Law Firms -> /webact-redesign/industries/Industry Images/Law Firms.png
+Private Investigators -> /webact-redesign/industries/Industry Images/Private Investigators.png
+Financial Advisors -> /webact-redesign/industries/Industry Images/Financial Advisors.png
+Investor Relations -> /webact-redesign/industries/Industry Images/Investor Relations.png
+Collections -> /webact-redesign/industries/Industry Images/Collections.png
+Consultants -> /webact-redesign/industries/Industry Images/Consultants.png
+Marketing Agencies -> /webact-redesign/industries/Industry Images/Marketing Agencies.png
+Hair Salons -> /webact-redesign/industries/Industry Images/Hair Salons.png
+Tattoo Shops -> /webact-redesign/industries/Industry Images/Tattoo Shops.png
+Chiropractors -> /webact-redesign/industries/Industry Images/Chiropractors.png
+Physical Therapy -> /webact-redesign/industries/Industry Images/Physical Therapy.png
+Veterinary Clinics -> /webact-redesign/industries/Industry Images/Veterinary Clinics.png
+Dentists -> /webact-redesign/industries/Industry Images/Dentists.png
+Fitness Gyms -> /webact-redesign/industries/Industry Images/Fitness Gyms.png
+Personal Trainers -> /webact-redesign/industries/Industry Images/Personal Trainers.png
+Yoga Studios -> /webact-redesign/industries/Industry Images/Yoga Studios.png
+Martial Arts Schools -> /webact-redesign/industries/Industry Images/Martial Arts Schools.png
+Child Care -> /webact-redesign/industries/Industry Images/Child Care.png
+Schools &amp; Education -> /webact-redesign/industries/Industry Images/Schools & Education.png
+Tutoring Centers -> /webact-redesign/industries/Industry Images/Tutoring Centers.png
+Senior Living -> /webact-redesign/industries/Industry Images/Senior Living.png
+Assisted Living -> /webact-redesign/industries/Industry Images/Assisted Living.png
+Mental Health -> /webact-redesign/industries/Industry Images/Mental Health Practices.png
+Urgent Care -> /webact-redesign/industries/Industry Images/Urgent Care.png
+Optometrists -> /webact-redesign/industries/Industry Images/Optometrists.png
+Dermatology -> /webact-redesign/industries/Industry Images/Dermatology.png
+Plastic Surgery -> /webact-redesign/industries/Industry Images/Plastic Surgery.png
+Food Trucks -> /webact-redesign/industries/Industry Images/Food Trucks.png
+Catering -> /webact-redesign/industries/Industry Images/Catering.png
+Bakeries -> /webact-redesign/industries/Industry Images/Bakeries.png
+Breweries -> /webact-redesign/industries/Industry Images/Breweries.png
+Event Venues -> /webact-redesign/industries/Industry Images/Event Venues.png
+Festivals -> /webact-redesign/industries/Industry Images/Festivals.png
+Wedding Services -> /webact-redesign/industries/Industry Images/Wedding Services.png
+Photographers -> /webact-redesign/industries/Industry Images/Photographers.png
+Videographers -> /webact-redesign/industries/Industry Images/Videographers.png
+Cleaning Services -> /webact-redesign/industries/Industry Images/Cleaning Services.png
+Janitorial Services -> /webact-redesign/industries/Industry Images/Janitorial Services.png
+Restoration Companies -> /webact-redesign/industries/Industry Images/Restoration Companies.png
+Flooring -> /webact-redesign/industries/Industry Images/Flooring.png
+Painting Contractors -> /webact-redesign/industries/Industry Images/Painting Contractors.png
+Construction Design -> /webact-redesign/industries/Industry Images/Construction Design.png
+Remodeling -> /webact-redesign/industries/Industry Images/Remodeling.png
+Garage Door -> /webact-redesign/industries/Industry Images/Garage Door Services.png
+Glass Companies -> /webact-redesign/industries/Industry Images/Glass Companies.png
+Pool Services -> /webact-redesign/industries/Industry Images/Pool Services.png
+Fencing -> /webact-redesign/industries/Industry Images/Fencing.png
+Tree Services -> /webact-redesign/industries/Industry Images/Tree Services.png
+Lawn Care -> /webact-redesign/industries/Industry Images/Lawn Care.png
+Security Companies -> /webact-redesign/industries/Industry Images/Security Companies.png
+IT Services -> /webact-redesign/industries/Industry Images/IT Services.png
+Managed Service Providers -> /webact-redesign/industries/Industry Images/Managed Service Providers.png
+Software Companies -> /webact-redesign/industries/Industry Images/Software Companies.png
+Manufacturing -> /webact-redesign/industries/Industry Images/Manufacturing.png
+Industrial Services -> /webact-redesign/industries/Industry Images/Industrial Services.png
+Machinery Movers -> /webact-redesign/industries/Industry Images/Machinery Movers.png
+Wholesale Distributors -> /webact-redesign/industries/Industry Images/Wholesale Distributors.png
+Logistics -> /webact-redesign/industries/Industry Images/Logistics.png
+Trucking -> /webact-redesign/industries/Industry Images/Trucking.png
+Courier Services -> /webact-redesign/industries/Industry Images/Courier Services.png
+Tire Shops -> /webact-redesign/industries/Industry Images/Tire Shops.png
+Car Dealerships -> /webact-redesign/industries/Industry Images/car dealerships.png
+Towing -> /webact-redesign/industries/Industry Images/Towing.png
+Car Washes -> /webact-redesign/industries/Industry Images/Car Washes.png
+Auto Repair -> /webact-redesign/industries/Industry Images/auto-repair.png
+Motorcycle Dealers -> /webact-redesign/industries/Industry Images/Motorcycle Dealers.png
+Recreational Vehicles -> /webact-redesign/industries/Industry Images/Recreational Vehicles.png
+Packaging -> /webact-redesign/industries/Industry Images/Packaging Retail.png
+Clothing Store -> /webact-redesign/industries/Industry Images/Clothing Ecommerce.png
+Ecommerce Stores -> /webact-redesign/industries/Industry Images/Ecommerce Stores.png
+Fashion Boutiques -> /webact-redesign/industries/Industry Images/Fashion Boutiques.png
+Jewelry Stores -> /webact-redesign/industries/Industry Images/jewelry Stores.png
+Furniture Stores -> /webact-redesign/industries/Industry Images/Furniture Stores.png
+Home Decor -> /webact-redesign/industries/Industry Images/Home Decor.png
+Interior Designers -> /webact-redesign/industries/Industry Images/Interior Designers.png
+
+NEW CARDS CREATED
+-----------------
+Musician
+Computer Store
+Golf Recreation
+Counseling
+Cruises
+Printing & Signage
+Hotels Hospitality
+Kitchen & Bath
+Sales Agency
+Bookkeeping & Accounting
+Moving & Storage
+Restaurant Cafe
+Parking & Mobility
+Delivery
+SaaS Platforms
+Beauty & Salons
+Apartments
+Window Door Companies
+Shopping Mall
+Builders & Contractors
+Vacation Rentals
+Water utilities
+Implants
+Fire Water Damage
+Solar Energy
+Franchise & Multi-location
+College Planning
+Office Rentals

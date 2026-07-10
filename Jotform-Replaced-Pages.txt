@@ -1,0 +1,10 @@
+.\addons\website-app-store.html
+.\addons\widgets.html
+.\industries\index.html
+.\pricing\advertising.html
+.\pricing\design.html
+.\pricing\enterprise-custom.html
+.\pricing\hosting-support.html
+.\pricing\marketing-before-pricing-update.html
+.\pricing\marketing.html
+.\pricing\packages.html

@@ -72,62 +72,6 @@ body{margin:0}
 @media(max-width:1120px){.hero{grid-template-columns:1fr}.hero-form-card{max-width:none;justify-self:stretch}.calculator{grid-template-columns:1fr}.calc-summary{position:static}.price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.compare-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.hero,.section,.final-cta{padding:56px 20px}.price-grid,.compare-grid{grid-template-columns:1fr}.hero-actions .button{width:100%}.calc-controls,.calc-summary{padding:24px}.total{font-size:44px}}
 </style>
-<style id="webact-jotform-embed-styles">
-.webact-jotform-card{
-  width:100%;
-  max-width:560px;
-  justify-self:end;
-  padding:0!important;
-  box-sizing:border-box;
-  overflow:hidden;
-  border-radius:28px;
-  background:#f7f8fa;
-  color:#071421;
-  box-shadow:0 30px 80px rgba(0,0,0,.22);
-}
-
-.webact-jotform-heading{
-  padding:32px 34px 8px;
-}
-
-.webact-jotform-heading h2{
-  margin:0 0 8px;
-  color:#071421;
-  font-size:30px;
-  line-height:1.1;
-}
-
-.webact-jotform-heading p{
-  margin:0;
-  color:#536674;
-  font-size:16px;
-  line-height:1.55;
-}
-
-.webact-jotform-card iframe{
-  display:block;
-  width:100%;
-  min-height:900px;
-  background:#f7f8fa;
-}
-
-@media(max-width:1180px){
-  .webact-jotform-card{
-    max-width:none;
-    justify-self:stretch;
-  }
-}
-
-@media(max-width:700px){
-  .webact-jotform-heading{
-    padding:26px 22px 6px;
-  }
-
-  .webact-jotform-card iframe{
-    min-height:980px;
-  }
-}
-</style>
 </head>
 
 <body class="design-pricing-page">
@@ -145,22 +89,26 @@ body{margin:0}
     </div>
   </div>
 
-  <aside class="hero-form-card webact-jotform-card">
-  <div class="webact-jotform-heading">
-    <h2>Start a Project</h2>
-    <p>Tell us what you want to improve and we will help point you in the right direction.</p>
-  </div>
-
-  <iframe
-    id="JotFormIFrame-261900782842056"
-    title="Start a Project"
-    src="https://form.jotform.com/261900782842056"
-    frameborder="0"
-    scrolling="no"
-    allow="geolocation; microphone; camera; fullscreen; payment"
-    style="width:100%; min-height:900px; border:0;">
-  </iframe>
-</aside>
+  <aside class="hero-form-card">
+    <h2>Request Design Pricing</h2>
+    <p>Tell us what you need and WebAct can confirm the best pricing path.</p>
+    <form class="hero-form">
+      <label>Full Name<input type="text"></label>
+      <label>Email Address<input type="email"></label>
+      <label>Project Type
+        <select>
+          <option>New Website</option>
+          <option>Website Redesign</option>
+          <option>Ecommerce Website</option>
+          <option>Logo Design</option>
+          <option>Branding</option>
+          <option>Graphic Design</option>
+        </select>
+      </label>
+      <label>Project Details<textarea rows="4"></textarea></label>
+      <a class="button primary" href="/webact-redesign/contact/index.html">Request Quote</a>
+    </form>
+  </aside>
 </section>
 
 <section class="section soft" id="calculator">
@@ -275,13 +223,6 @@ body{margin:0}
   ids.forEach(id => document.getElementById(id).addEventListener('input', update));
   update();
 })();
-</script>
-<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
-<script>
-  window.jotformEmbedHandler(
-    "iframe[id^='JotFormIFrame-']",
-    "https://form.jotform.com/"
-  );
 </script>
 </body>
 </html>

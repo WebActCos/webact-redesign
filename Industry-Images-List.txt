@@ -1,0 +1,136 @@
+
+Name                          FullName                                                                       
+----                          --------                                                                       
+Apartments.png                C:\Projects\webact.com\industries\Industry Images\Apartments.png               
+Arts Organizations.png        C:\Projects\webact.com\industries\Industry Images\Arts Organizations.png       
+Assisted Living.png           C:\Projects\webact.com\industries\Industry Images\Assisted Living.png          
+Auto Repair.png               C:\Projects\webact.com\industries\Industry Images\Auto Repair.png              
+auto-repair.png               C:\Projects\webact.com\industries\Industry Images\auto-repair.png              
+Automotive.png                C:\Projects\webact.com\industries\Industry Images\Automotive.png               
+Bakeries.png                  C:\Projects\webact.com\industries\Industry Images\Bakeries.png                 
+Beauty Salons.png             C:\Projects\webact.com\industries\Industry Images\Beauty Salons.png            
+Bookkeepiing Accounting.png   C:\Projects\webact.com\industries\Industry Images\Bookkeepiing Accounting.png  
+Breweries.png                 C:\Projects\webact.com\industries\Industry Images\Breweries.png                
+Builders-Contractors.png      C:\Projects\webact.com\industries\Industry Images\Builders-Contractors.png     
+car dealerships.png           C:\Projects\webact.com\industries\Industry Images\car dealerships.png          
+Car Washes.png                C:\Projects\webact.com\industries\Industry Images\Car Washes.png               
+Catering.png                  C:\Projects\webact.com\industries\Industry Images\Catering.png                 
+Child Care.png                C:\Projects\webact.com\industries\Industry Images\Child Care.png               
+Chiropractors.png             C:\Projects\webact.com\industries\Industry Images\Chiropractors.png            
+Cleaning Services.png         C:\Projects\webact.com\industries\Industry Images\Cleaning Services.png        
+Clothing Ecommerce.png        C:\Projects\webact.com\industries\Industry Images\Clothing Ecommerce.png       
+Collections.png               C:\Projects\webact.com\industries\Industry Images\Collections.png              
+College Planning.png          C:\Projects\webact.com\industries\Industry Images\College Planning.png         
+Community Organizations.png   C:\Projects\webact.com\industries\Industry Images\Community Organizations.png  
+Computer Store.png            C:\Projects\webact.com\industries\Industry Images\Computer Store.png           
+Construction Design.png       C:\Projects\webact.com\industries\Industry Images\Construction Design.png      
+Consultants.png               C:\Projects\webact.com\industries\Industry Images\Consultants.png              
+Counseling.png                C:\Projects\webact.com\industries\Industry Images\Counseling.png               
+Courier Services.png          C:\Projects\webact.com\industries\Industry Images\Courier Services.png         
+Cruises.png                   C:\Projects\webact.com\industries\Industry Images\Cruises.png                  
+Delivery.png                  C:\Projects\webact.com\industries\Industry Images\Delivery.png                 
+Dentists.png                  C:\Projects\webact.com\industries\Industry Images\Dentists.png                 
+Dermatology.png               C:\Projects\webact.com\industries\Industry Images\Dermatology.png              
+Dog Adoption.png              C:\Projects\webact.com\industries\Industry Images\Dog Adoption.png             
+Driving Schools.png           C:\Projects\webact.com\industries\Industry Images\Driving Schools.png          
+Ecommerce Stores.png          C:\Projects\webact.com\industries\Industry Images\Ecommerce Stores.png         
+Electricians.png              C:\Projects\webact.com\industries\Industry Images\Electricians.png             
+Equestrian.png                C:\Projects\webact.com\industries\Industry Images\Equestrian.png               
+Esports.png                   C:\Projects\webact.com\industries\Industry Images\Esports.png                  
+Event Venues.png              C:\Projects\webact.com\industries\Industry Images\Event Venues.png             
+Fashion Boutiques.png         C:\Projects\webact.com\industries\Industry Images\Fashion Boutiques.png        
+Fencing.png                   C:\Projects\webact.com\industries\Industry Images\Fencing.png                  
+Festivals.png                 C:\Projects\webact.com\industries\Industry Images\Festivals.png                
+Financial Advisors.png        C:\Projects\webact.com\industries\Industry Images\Financial Advisors.png       
+Fire Water Damage.png         C:\Projects\webact.com\industries\Industry Images\Fire Water Damage.png        
+Fitness Gyms.png              C:\Projects\webact.com\industries\Industry Images\Fitness Gyms.png             
+Flooring.png                  C:\Projects\webact.com\industries\Industry Images\Flooring.png                 
+Food Trucks.png               C:\Projects\webact.com\industries\Industry Images\Food Trucks.png              
+Franshise Multi-location.png  C:\Projects\webact.com\industries\Industry Images\Franshise Multi-location.png 
+Furniture Stores.png          C:\Projects\webact.com\industries\Industry Images\Furniture Stores.png         
+Gaming.png                    C:\Projects\webact.com\industries\Industry Images\Gaming.png                   
+Garage Door Services.png      C:\Projects\webact.com\industries\Industry Images\Garage Door Services.png     
+Glass Companies.png           C:\Projects\webact.com\industries\Industry Images\Glass Companies.png          
+Golf Recreation.png           C:\Projects\webact.com\industries\Industry Images\Golf Recreation.png          
+Hair Salons.png               C:\Projects\webact.com\industries\Industry Images\Hair Salons.png              
+Home Care.png                 C:\Projects\webact.com\industries\Industry Images\Home Care.png                
+Home Decor.png                C:\Projects\webact.com\industries\Industry Images\Home Decor.png               
+Home Inspections.png          C:\Projects\webact.com\industries\Industry Images\Home Inspections.png         
+Home Services.png             C:\Projects\webact.com\industries\Industry Images\Home Services.png            
+Hotels Hospitality.png        C:\Projects\webact.com\industries\Industry Images\Hotels Hospitality.png       
+HVAC.png                      C:\Projects\webact.com\industries\Industry Images\HVAC.png                     
+Implants.png                  C:\Projects\webact.com\industries\Industry Images\Implants.png                 
+Industrial Services.png       C:\Projects\webact.com\industries\Industry Images\Industrial Services.png      
+Insurance.png                 C:\Projects\webact.com\industries\Industry Images\Insurance.png                
+Interior Designers.png        C:\Projects\webact.com\industries\Industry Images\Interior Designers.png       
+Investor Relations.png        C:\Projects\webact.com\industries\Industry Images\Investor Relations.png       
+IT Services.png               C:\Projects\webact.com\industries\Industry Images\IT Services.png              
+Janitorial Services.png       C:\Projects\webact.com\industries\Industry Images\Janitorial Services.png      
+jewelry Stores.png            C:\Projects\webact.com\industries\Industry Images\jewelry Stores.png           
+Kitchen Bath.png              C:\Projects\webact.com\industries\Industry Images\Kitchen Bath.png             
+Landscaping.png               C:\Projects\webact.com\industries\Industry Images\Landscaping.png              
+Law Firms.png                 C:\Projects\webact.com\industries\Industry Images\Law Firms.png                
+Lawn Care.png                 C:\Projects\webact.com\industries\Industry Images\Lawn Care.png                
+Local Retail.png              C:\Projects\webact.com\industries\Industry Images\Local Retail.png             
+Locksmiths.png                C:\Projects\webact.com\industries\Industry Images\Locksmiths.png               
+Logistics.png                 C:\Projects\webact.com\industries\Industry Images\Logistics.png                
+Machinery Movers.png          C:\Projects\webact.com\industries\Industry Images\Machinery Movers.png         
+Managed Service Providers.png C:\Projects\webact.com\industries\Industry Images\Managed Service Providers.png
+Manufacturing.png             C:\Projects\webact.com\industries\Industry Images\Manufacturing.png            
+Marketing Agencies.png        C:\Projects\webact.com\industries\Industry Images\Marketing Agencies.png       
+Martial Arts Schools.png      C:\Projects\webact.com\industries\Industry Images\Martial Arts Schools.png     
+Mental Health Practices.png   C:\Projects\webact.com\industries\Industry Images\Mental Health Practices.png  
+Motorcycle Dealers.png        C:\Projects\webact.com\industries\Industry Images\Motorcycle Dealers.png       
+moving storage.png            C:\Projects\webact.com\industries\Industry Images\moving storage.png           
+Musician.png                  C:\Projects\webact.com\industries\Industry Images\Musician.png                 
+Nonprofits.png                C:\Projects\webact.com\industries\Industry Images\Nonprofits.png               
+Office Rentals.png            C:\Projects\webact.com\industries\Industry Images\Office Rentals.png           
+Optometrists.png              C:\Projects\webact.com\industries\Industry Images\Optometrists.png             
+Packaging Retail.png          C:\Projects\webact.com\industries\Industry Images\Packaging Retail.png         
+Painting Contractors.png      C:\Projects\webact.com\industries\Industry Images\Painting Contractors.png     
+Parking Mobility.png          C:\Projects\webact.com\industries\Industry Images\Parking Mobility.png         
+Personal Trainers.png         C:\Projects\webact.com\industries\Industry Images\Personal Trainers.png        
+Pest Control.png              C:\Projects\webact.com\industries\Industry Images\Pest Control.png             
+Pet Services.png              C:\Projects\webact.com\industries\Industry Images\Pet Services.png             
+Photographers.png             C:\Projects\webact.com\industries\Industry Images\Photographers.png            
+Physical Therapy.png          C:\Projects\webact.com\industries\Industry Images\Physical Therapy.png         
+Plastic Surgery.png           C:\Projects\webact.com\industries\Industry Images\Plastic Surgery.png          
+Plumbing.png                  C:\Projects\webact.com\industries\Industry Images\Plumbing.png                 
+Pool Services.png             C:\Projects\webact.com\industries\Industry Images\Pool Services.png            
+Printing Signage.png          C:\Projects\webact.com\industries\Industry Images\Printing Signage.png         
+Private Investigators.png     C:\Projects\webact.com\industries\Industry Images\Private Investigators.png    
+Real Estate.png               C:\Projects\webact.com\industries\Industry Images\Real Estate.png              
+Recreational Vehicles.png     C:\Projects\webact.com\industries\Industry Images\Recreational Vehicles.png    
+Remodeling.png                C:\Projects\webact.com\industries\Industry Images\Remodeling.png               
+Restaurant Cafe.png           C:\Projects\webact.com\industries\Industry Images\Restaurant Cafe.png          
+Restaurants.png               C:\Projects\webact.com\industries\Industry Images\Restaurants.png              
+Restoration Companies.png     C:\Projects\webact.com\industries\Industry Images\Restoration Companies.png    
+roofing.png                   C:\Projects\webact.com\industries\Industry Images\roofing.png                  
+Sales Agency.png              C:\Projects\webact.com\industries\Industry Images\Sales Agency.png             
+Sass Platforms.png            C:\Projects\webact.com\industries\Industry Images\Sass Platforms.png           
+Schools & Education.png       C:\Projects\webact.com\industries\Industry Images\Schools & Education.png      
+Security Companies.png        C:\Projects\webact.com\industries\Industry Images\Security Companies.png       
+Senior Living.png             C:\Projects\webact.com\industries\Industry Images\Senior Living.png            
+Shopping Mall.png             C:\Projects\webact.com\industries\Industry Images\Shopping Mall.png            
+Software Companies.png        C:\Projects\webact.com\industries\Industry Images\Software Companies.png       
+Solar Energy.png              C:\Projects\webact.com\industries\Industry Images\Solar Energy.png             
+Specialty Practices.png       C:\Projects\webact.com\industries\Industry Images\Specialty Practices.png      
+Tattoo Shops.png              C:\Projects\webact.com\industries\Industry Images\Tattoo Shops.png             
+Tire Shops.png                C:\Projects\webact.com\industries\Industry Images\Tire Shops.png               
+Towing.png                    C:\Projects\webact.com\industries\Industry Images\Towing.png                   
+Transportation.png            C:\Projects\webact.com\industries\Industry Images\Transportation.png           
+Tree Services.png             C:\Projects\webact.com\industries\Industry Images\Tree Services.png            
+Trucking.png                  C:\Projects\webact.com\industries\Industry Images\Trucking.png                 
+Tutoring Centers.png          C:\Projects\webact.com\industries\Industry Images\Tutoring Centers.png         
+Urgent Care.png               C:\Projects\webact.com\industries\Industry Images\Urgent Care.png              
+Vacation-Rentals.png          C:\Projects\webact.com\industries\Industry Images\Vacation-Rentals.png         
+Veterinary Clinics.png        C:\Projects\webact.com\industries\Industry Images\Veterinary Clinics.png       
+Videographers.png             C:\Projects\webact.com\industries\Industry Images\Videographers.png            
+water utilities.png           C:\Projects\webact.com\industries\Industry Images\water utilities.png          
+Wedding Services.png          C:\Projects\webact.com\industries\Industry Images\Wedding Services.png         
+Wholesale Distributors.png    C:\Projects\webact.com\industries\Industry Images\Wholesale Distributors.png   
+Window Door Companies.png     C:\Projects\webact.com\industries\Industry Images\Window Door Companies.png    
+Yoga Studios.png              C:\Projects\webact.com\industries\Industry Images\Yoga Studios.png             
+
+
+

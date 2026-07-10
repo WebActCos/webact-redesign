@@ -1,0 +1,381 @@
+warning: in the working copy of 'pricing/packages.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/pricing/packages.html b/pricing/packages.html[m
+[1mindex b18f6b6d..8ac3c47a 100644[m
+[1m--- a/pricing/packages.html[m
+[1m+++ b/pricing/packages.html[m
+[36m@@ -636,167 +636,173 @@[m [mbody{[m
+ [m
+   <div class="package-grid">[m
+ [m
+[31m-    <article class="package-card">[m
+[31m-      <span class="package-badge">Small Business Starter</span>[m
+[31m-      <h3>Start Up</h3>[m
+[32m+[m[32m  <article class="package-card">[m
+[32m+[m[32m    <span class="package-badge">Small Business Starter</span>[m
+[32m+[m[32m    <h3>Start Up</h3>[m
+ [m
+[31m-      <p class="package-description">[m
+[31m-        A package for small businesses with a limited budget that are ready to[m
+[31m-        establish a professional presence online.[m
+[31m-      </p>[m
+[32m+[m[32m    <p class="package-description">[m
+[32m+[m[32m      A package for small businesses with a limited budget that are ready to[m
+[32m+[m[32m      establish a professional presence online.[m
+[32m+[m[32m    </p>[m
+ [m
+[31m-      <p class="package-price">$299</p>[m
+[31m-      <p class="package-cycle">Per month</p>[m
+[31m-      <p class="package-savings">Save $499 with an annual plan</p>[m
+[32m+[m[32m    <p class="package-price">$499</p>[m
+[32m+[m[32m    <p class="package-cycle">Per month</p>[m
+[32m+[m[32m    <p class="package-savings">Save $499 with an annual plan</p>[m
+ [m
+[31m-      <ul>[m
+[31m-        <li>Responsive website with up to 5 pages</li>[m
+[31m-        <li>Up to 3 website update requests per month</li>[m
+[31m-        <li>Local Listings Optimization</li>[m
+[31m-      </ul>[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m      <li>Responsive website with up to 5 pages</li>[m
+[32m+[m[32m      <li>Up to 3 website update requests per month</li>[m
+[32m+[m[32m      <li>Local Listings Optimization</li>[m
+[32m+[m[32m    </ul>[m
+ [m
+[31m-      <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[31m-        Choose Start Up[m
+[31m-      </a>[m
+[31m-    </article>[m
+[32m+[m[32m    <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[32m+[m[32m      Choose Start Up[m
+[32m+[m[32m    </a>[m
+[32m+[m[32m  </article>[m
+ [m
+[31m-    <article class="package-card">[m
+[31m-      <span class="package-badge">Growing Business</span>[m
+[31m-      <h3>Grow</h3>[m
+[32m+[m[32m  <article class="package-card">[m
+[32m+[m[32m    <span class="package-badge">Growing Business</span>[m
+[32m+[m[32m    <h3>Grow</h3>[m
+ [m
+[31m-      <p class="package-description">[m
+[31m-        A package for growing businesses that need a larger website and an[m
+[31m-        initial boost to their search visibility.[m
+[31m-      </p>[m
+[32m+[m[32m    <p class="package-description">[m
+[32m+[m[32m      A package for growing businesses that need a larger website and an[m
+[32m+[m[32m      initial boost to their search visibility.[m
+[32m+[m[32m    </p>[m
+ [m
+[31m-      <p class="package-price">$799</p>[m
+[31m-      <p class="package-cycle">Per month</p>[m
+[31m-      <p class="package-savings">Save $999 with an annual plan</p>[m
+[32m+[m[32m    <p class="package-price">$799</p>[m
+[32m+[m[32m    <p class="package-cycle">Per month</p>[m
+[32m+[m[32m    <p class="package-savings">Save $799 with an annual plan</p>[m
+ [m
+[31m-      <ul>[m
+[31m-        <li>Responsive website with up to 10 pages</li>[m
+[31m-        <li>Up to 6 website update requests per month</li>[m
+[31m-        <li>Local Listings Optimization</li>[m
+[31m-        <li>SEO content creation and management for 2 keywords each month</li>[m
+[31m-      </ul>[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m      <li>Responsive website with up to 10 pages</li>[m
+[32m+[m[32m      <li>Up to 6 website update requests per month</li>[m
+[32m+[m[32m      <li>Local Listings Optimization</li>[m
+[32m+[m[32m      <li>SEO content creation and management for 2 keywords each month</li>[m
+[32m+[m[32m    </ul>[m
+ [m
+[31m-      <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[31m-        Choose Grow[m
+[31m-      </a>[m
+[31m-    </article>[m
+[31m-[m
+[31m-    <article class="package-card featured">[m
+[31m-      <span class="package-badge">Popular Growth Package</span>[m
+[31m-      <h3>Boost</h3>[m
+[32m+[m[32m    <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[32m+[m[32m      Choose Grow[m
+[32m+[m[32m    </a>[m
+[32m+[m[32m  </article>[m
+ [m
+[31m-      <p class="package-description">[m
+[31m-        A package for established businesses that need a stronger website,[m
+[31m-        ongoing SEO, and managed advertising.[m
+[31m-      </p>[m
+[32m+[m[32m  <article class="package-card featured">[m
+[32m+[m[32m    <span class="package-badge">Popular Growth Package</span>[m
+[32m+[m[32m    <h3>Boost</h3>[m
+ [m
+[31m-      <p class="package-price">$999</p>[m
+[31m-      <p class="package-cycle">Per month</p>[m
+[31m-      <p class="package-savings">Save $1,499 with an annual plan</p>[m
+[32m+[m[32m    <p class="package-description">[m
+[32m+[m[32m      A package for established businesses that need a stronger website,[m
+[32m+[m[32m      ongoing SEO, and managed advertising.[m
+[32m+[m[32m    </p>[m
+ [m
+[31m-      <ul>[m
+[31m-        <li>Responsive website with up to 15 pages</li>[m
+[31m-        <li>Up to 10 website update requests per month</li>[m
+[31m-        <li>Local Listings Optimization</li>[m
+[31m-        <li>SEO content creation and management for 3 keywords each month</li>[m
+[31m-        <li>1 managed PPC campaign</li>[m
+[31m-      </ul>[m
+[32m+[m[32m    <p class="package-price">$999</p>[m
+[32m+[m[32m    <p class="package-cycle">Per month</p>[m
+[32m+[m[32m    <p class="package-savings">Save $999 with an annual plan</p>[m
+ [m
+[31m-      <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[31m-        Choose Boost[m
+[31m-      </a>[m
+[31m-    </article>[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m      <li>Responsive website with up to 15 pages</li>[m
+[32m+[m[32m      <li>Up to 10 website update requests per month</li>[m
+[32m+[m[32m      <li>Local Listings Optimization</li>[m
+[32m+[m[32m      <li>SEO content creation and management for 5 keywords each month</li>[m
+[32m+[m[32m      <li>1 managed PPC campaign</li>[m
+[32m+[m[32m    </ul>[m
+ [m
+[31m-    <article class="package-card">[m
+[31m-      <span class="package-badge">Established Business</span>[m
+[31m-      <h3>Expand</h3>[m
+[32m+[m[32m    <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[32m+[m[32m      Choose Boost[m
+[32m+[m[32m    </a>[m
+[32m+[m[32m  </article>[m
+ [m
+[31m-      <p class="package-description">[m
+[31m-        A more concentrated website and marketing package for businesses that[m
+[31m-        want to expand their reach and lead generation.[m
+[31m-      </p>[m
+[32m+[m[32m  <article class="package-card">[m
+[32m+[m[32m    <span class="package-badge">Established Business</span>[m
+[32m+[m[32m    <h3>Expand</h3>[m
+ [m
+[31m-      <p class="package-price">$1,999</p>[m
+[31m-      <p class="package-cycle">Per month</p>[m
+[31m-      <p class="package-savings">Save $2,999 with an annual plan</p>[m
+[32m+[m[32m    <p class="package-description">[m
+[32m+[m[32m      A more concentrated website and marketing package for businesses that[m
+[32m+[m[32m      want to expand their reach and lead generation.[m
+[32m+[m[32m    </p>[m
+ [m
+[31m-      <ul>[m
+[31m-        <li>Responsive website with up to 20 pages</li>[m
+[31m-        <li>Up to 15 website update requests per month</li>[m
+[31m-        <li>Local Listings Optimization</li>[m
+[31m-        <li>SEO content creation and management for 5 keywords each month</li>[m
+[31m-        <li>2 managed PPC campaigns</li>[m
+[31m-        <li>Domain name</li>[m
+[31m-      </ul>[m
+[32m+[m[32m    <p class="package-price">$1,999</p>[m
+[32m+[m[32m    <p class="package-cycle">Per month</p>[m
+[32m+[m[32m    <p class="package-savings">Save $1,499 with an annual plan</p>[m
+ [m
+[31m-      <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[31m-        Choose Expand[m
+[31m-      </a>[m
+[31m-    </article>[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m      <li>Responsive website with up to 25 pages</li>[m
+[32m+[m[32m      <li>Up to 15 website update requests per month</li>[m
+[32m+[m[32m      <li>Local Listings Optimization</li>[m
+[32m+[m[32m      <li>SEO content creation and management for 5 keywords each month</li>[m
+[32m+[m[32m      <li>2 managed PPC campaigns</li>[m
+[32m+[m[32m      <li>Domain name</li>[m
+[32m+[m[32m    </ul>[m
+ [m
+[31m-    <article class="package-card">[m
+[31m-      <span class="package-badge">Advanced Growth</span>[m
+[31m-      <h3>Flourish</h3>[m
+[32m+[m[32m    <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[32m+[m[32m      Choose Expand[m
+[32m+[m[32m    </a>[m
+[32m+[m[32m  </article>[m
+ [m
+[31m-      <p class="package-description">[m
+[31m-        A larger-scale website and marketing package for businesses requiring[m
+[31m-        more content, advertising, support, and infrastructure.[m
+[31m-      </p>[m
+[32m+[m[32m  <article class="package-card">[m
+[32m+[m[32m    <span class="package-badge">Advanced Growth</span>[m
+[32m+[m[32m    <h3>Flourish</h3>[m
+ [m
+[31m-      <p class="package-price">$4,999</p>[m
+[31m-      <p class="package-cycle">Per month</p>[m
+[31m-      <p class="package-savings">Save $7,499 with an annual plan</p>[m
+[32m+[m[32m    <p class="package-description">[m
+[32m+[m[32m      A larger-scale website and marketing package for businesses requiring[m
+[32m+[m[32m      more content, advertising, support, and infrastructure.[m
+[32m+[m[32m    </p>[m
+ [m
+[31m-      <ul>[m
+[31m-        <li>Responsive website with up to 35 pages</li>[m
+[31m-        <li>Up to 25 website update requests per month</li>[m
+[31m-        <li>Local Listings Optimization</li>[m
+[31m-        <li>SEO content creation and management for 10 keywords each month</li>[m
+[31m-        <li>4 managed PPC campaigns</li>[m
+[31m-        <li>Domain name</li>[m
+[31m-        <li>Email addresses</li>[m
+[31m-      </ul>[m
+[32m+[m[32m    <p class="package-price">$3,499</p>[m
+[32m+[m[32m    <p class="package-cycle">Per month</p>[m
+[32m+[m[32m    <p class="package-savings">Save $7,499 with an annual plan</p>[m
+[32m+[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m      <li>Responsive website with up to 35 pages</li>[m
+[32m+[m[32m      <li>Up to 25 website update requests per month</li>[m
+[32m+[m[32m      <li>Local Listings Optimization</li>[m
+[32m+[m[32m      <li>SEO content creation and management for 10 keywords each month</li>[m
+[32m+[m[32m      <li>AEO campaign</li>[m
+[32m+[m[32m      <li>2 managed PPC campaigns</li>[m
+[32m+[m[32m      <li>1 Streaming TV ad campaign</li>[m
+[32m+[m[32m      <li>2 social media ad campaigns</li>[m
+[32m+[m[32m      <li>Domain name</li>[m
+[32m+[m[32m      <li>5 email addresses</li>[m
+[32m+[m[32m      <li>Dedicated account manager</li>[m
+[32m+[m[32m    </ul>[m
+ [m
+[31m-      <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[31m-        Choose Flourish[m
+[31m-      </a>[m
+[31m-    </article>[m
+[32m+[m[32m    <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[32m+[m[32m      Choose Flourish[m
+[32m+[m[32m    </a>[m
+[32m+[m[32m  </article>[m
+ [m
+[31m-    <article class="package-card">[m
+[31m-      <span class="package-badge">Enterprise Package</span>[m
+[31m-      <h3>Ultimate</h3>[m
+[32m+[m[32m  <article class="package-card">[m
+[32m+[m[32m    <span class="package-badge">Enterprise Package</span>[m
+[32m+[m[32m    <h3>Ultimate</h3>[m
+ [m
+[31m-      <p class="package-description">[m
+[31m-        A complete website, SEO, listings, advertising, email, and account[m
+[31m-        management package for enterprise businesses.[m
+[31m-      </p>[m
+[32m+[m[32m    <p class="package-description">[m
+[32m+[m[32m      A complete website, SEO, listings, advertising, email, and account[m
+[32m+[m[32m      management package for enterprise businesses.[m
+[32m+[m[32m    </p>[m
+ [m
+[31m-      <p class="package-price">$14,999</p>[m
+[31m-      <p class="package-cycle">Per month</p>[m
+[31m-      <p class="package-savings">Save $19,999 with an annual plan</p>[m
+[31m-[m
+[31m-      <ul>[m
+[31m-        <li>Responsive website with up to 75 pages</li>[m
+[31m-        <li>Unlimited website update requests per month</li>[m
+[31m-        <li>Local Listings Optimization with reputation management</li>[m
+[31m-        <li>SEO content creation and management for 20 keywords each month</li>[m
+[31m-        <li>8 managed PPC campaigns</li>[m
+[31m-        <li>Managed Yelp advertising campaign</li>[m
+[31m-        <li>Domain name</li>[m
+[31m-        <li>5 business email accounts</li>[m
+[31m-        <li>Dedicated account manager</li>[m
+[31m-      </ul>[m
+[32m+[m[32m    <p class="package-price">$7,499</p>[m
+[32m+[m[32m    <p class="package-cycle">Per month</p>[m
+[32m+[m[32m    <p class="package-savings">Save $19,999 with an annual plan</p>[m
+[32m+[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m      <li>Responsive website with up to 100 pages</li>[m
+[32m+[m[32m      <li>Unlimited website update requests per month</li>[m
+[32m+[m[32m      <li>Local Listings Optimization with Reputation Management</li>[m
+[32m+[m[32m      <li>SEO content creation and management for 20 keywords each month</li>[m
+[32m+[m[32m      <li>AEO campaign</li>[m
+[32m+[m[32m      <li>4 managed PPC campaigns</li>[m
+[32m+[m[32m      <li>4 social media ad campaigns</li>[m
+[32m+[m[32m      <li>2 managed Connected TV advertising campaigns</li>[m
+[32m+[m[32m      <li>Domain name</li>[m
+[32m+[m[32m      <li>5 business email accounts</li>[m
+[32m+[m[32m      <li>Dedicated account manager</li>[m
+[32m+[m[32m    </ul>[m
+ [m
+[31m-      <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[31m-        Choose Ultimate[m
+[31m-      </a>[m
+[31m-    </article>[m
+[32m+[m[32m    <a class="button primary" href="/webact-redesign/contact/index.html">[m
+[32m+[m[32m      Choose Ultimate[m
+[32m+[m[32m    </a>[m
+[32m+[m[32m  </article>[m
+ [m
+[31m-  </div>[m
+[32m+[m[32m</div>[m
+ </section>[m
+ [m
+ <section class="section">[m
+[36m@@ -920,12 +926,12 @@[m [mbody{[m
+       <tbody>[m
+         <tr>[m
+           <td>Monthly Price</td>[m
+[31m-          <td>$299</td>[m
+[32m+[m[32m          <td>$499</td>[m
+           <td>$799</td>[m
+           <td>$999</td>[m
+           <td>$1,999</td>[m
+[31m-          <td>$4,999</td>[m
+[31m-          <td>$14,999</td>[m
+[32m+[m[32m          <td>$3,499</td>[m
+[32m+[m[32m          <td>$7,499</td>[m
+         </tr>[m
+ [m
+         <tr>[m
+[36m@@ -933,9 +939,9 @@[m [mbody{[m
+           <td>Up to 5</td>[m
+           <td>Up to 10</td>[m
+           <td>Up to 15</td>[m
+[31m-          <td>Up to 20</td>[m
+[32m+[m[32m          <td>Up to 25</td>[m
+           <td>Up to 35</td>[m
+[31m-          <td>Up to 75</td>[m
+[32m+[m[32m          <td>Up to 100</td>[m
+         </tr>[m
+ [m
+         <tr>[m
+[36m@@ -989,24 +995,24 @@[m [mbody{[m
+         </tr>[m
+ [m
+         <tr>[m
+[31m-          <td>Business Email</td>[m
+[31m-          <td>—</td>[m
+[31m-          <td>—</td>[m
+[31m-          <td>—</td>[m
+[31m-          <td>—</td>[m
+[31m-          <td>Included</td>[m
+[31m-          <td>5 accounts</td>[m
+[31m-        </tr>[m
+[32m+[m[32m  <td>Business Email</td>[m
+[32m+[m[32m  <td>—</td>[m
+[32m+[m[32m  <td>—</td>[m
+[32m+[m[32m  <td>—</td>[m
+[32m+[m[32m  <td>—</td>[m
+[32m+[m[32m  <td>5 addresses</td>[m
+[32m+[m[32m  <td>5 accounts</td>[m
+[32m+[m[32m</tr>[m
+ [m
+         <tr>[m
+[31m-          <td>Dedicated Account Manager</td>[m
+[31m-          <td>—</td>[m
+[31m-          <td>—</td>[m
+[31m-          <td>—</td>[m
+[31m-          <td>—</td>[m
+[31m-          <td>—</td>[m
+[31m-          <td class="check">✓</td>[m
+[31m-        </tr>[m
+[32m+[m[32m  <td>Dedicated Account Manager</td>[m
+[32m+[m[32m  <td>—</td>[m
+[32m+[m[32m  <td>—</td>[m
+[32m+[m[32m  <td>—</td>[m
+[32m+[m[32m  <td>—</td>[m
+[32m+[m[32m  <td class="check">✓</td>[m
+[32m+[m[32m  <td class="check">✓</td>[m
+[32m+[m[32m</tr>[m
+       </tbody>[m
+     </table>[m
+   </div>[m

@@ -305,62 +305,6 @@ body{margin:0}
 }
 
 </style>
-<style id="webact-jotform-embed-styles">
-.webact-jotform-card{
-  width:100%;
-  max-width:560px;
-  justify-self:end;
-  padding:0!important;
-  box-sizing:border-box;
-  overflow:hidden;
-  border-radius:28px;
-  background:#f7f8fa;
-  color:#071421;
-  box-shadow:0 30px 80px rgba(0,0,0,.22);
-}
-
-.webact-jotform-heading{
-  padding:32px 34px 8px;
-}
-
-.webact-jotform-heading h2{
-  margin:0 0 8px;
-  color:#071421;
-  font-size:30px;
-  line-height:1.1;
-}
-
-.webact-jotform-heading p{
-  margin:0;
-  color:#536674;
-  font-size:16px;
-  line-height:1.55;
-}
-
-.webact-jotform-card iframe{
-  display:block;
-  width:100%;
-  min-height:900px;
-  background:#f7f8fa;
-}
-
-@media(max-width:1180px){
-  .webact-jotform-card{
-    max-width:none;
-    justify-self:stretch;
-  }
-}
-
-@media(max-width:700px){
-  .webact-jotform-heading{
-    padding:26px 22px 6px;
-  }
-
-  .webact-jotform-card iframe{
-    min-height:980px;
-  }
-}
-</style>
 </head>
 
 <body class="widgets-page">
@@ -378,22 +322,24 @@ body{margin:0}
     </div>
   </div>
 
-  <aside class="hero-form-card webact-jotform-card">
-  <div class="webact-jotform-heading">
-    <h2>Start a Project</h2>
-    <p>Tell us what you want to improve and we will help point you in the right direction.</p>
-  </div>
-
-  <iframe
-    id="JotFormIFrame-261900782842056"
-    title="Start a Project"
-    src="https://form.jotform.com/261900782842056"
-    frameborder="0"
-    scrolling="no"
-    allow="geolocation; microphone; camera; fullscreen; payment"
-    style="width:100%; min-height:900px; border:0;">
-  </iframe>
-</aside>
+  <aside class="hero-form-card">
+    <h2>Need Help Choosing Duda Widgets?</h2>
+    <p>Tell us what you want your website to do and WebAct can recommend the right Duda widget.</p>
+    <form class="hero-form">
+      <label>Full Name<input type="text"></label>
+      <label>Email Address<input type="email"></label>
+      <label>Interested In
+        <select>
+          <option>Duda Widgets</option>
+          <option>Custom Widget</option>
+          <option>Widget Installation</option>
+          <option>Widget Support</option>
+        </select>
+      </label>
+      <label>How can we help?<textarea rows="4"></textarea></label>
+      <a class="button primary" href="/webact-redesign/contact/index.html">Request Help</a>
+    </form>
+  </aside>
 </section>
 
 <section class="section soft">
@@ -1319,13 +1265,6 @@ body{margin:0}
 
   applyFilter();
 })();
-</script>
-<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
-<script>
-  window.jotformEmbedHandler(
-    "iframe[id^='JotFormIFrame-']",
-    "https://form.jotform.com/"
-  );
 </script>
 </body>
 </html>

@@ -1,0 +1,165 @@
+TITLE: Simple Editor With Stripe
+PREVIEW: 
+
+TITLE: Full Duda API With Stripe
+PREVIEW: 
+
+TITLE: Full Duda API
+PREVIEW: 
+
+TITLE: Duda API (Preview Only)
+PREVIEW: 
+
+TITLE: Simple Editor With Stripe
+PREVIEW: https://website.webact.com/site/8cdfcf80/simple-editor-with-stripe-widget?preview=true
+
+TITLE: Full Duda API With Stripe
+PREVIEW: https://website.webact.com/site/8cdfcf80/duda-templates?preview=true
+
+TITLE: Full Duda API
+PREVIEW: https://website.webact.com/site/8cdfcf80/duda-templates?preview=true
+
+TITLE: Duda API (Preview Only)
+PREVIEW: https://website.webact.com/site/8cdfcf80/duda-templates?preview=true
+
+TITLE: Stripe Payment
+PREVIEW: https://website.webact.com/site/8cdfcf80/stripe-payment-widget?preview=true
+
+TITLE: Google Reviews
+PREVIEW: https://website.webact.com/site/8cdfcf80/google-reviews-widget?preview=true
+
+TITLE: Bottom/Side Menu
+PREVIEW: https://website.webact.com/site/8cdfcf80/bottom-side-menu-widget?preview=true
+
+TITLE: Age Verification
+PREVIEW: https://website.webact.com/site/8cdfcf80/age-verification-widget?preview=true
+
+TITLE: Popup Carousel
+PREVIEW: https://website.webact.com/site/8cdfcf80/popup-carousel-widget?preview=true
+
+TITLE: Store Finder
+PREVIEW: https://website.webact.com/site/8cdfcf80/store-finder-widget?preview=true
+
+TITLE: ADA Accessibility
+PREVIEW: https://website.webact.com/site/8cdfcf80/ada-accessibility-widget?preview=true
+
+TITLE: 3D Carousel
+PREVIEW: https://website.webact.com/site/8cdfcf80/3d-carousel-widget?preview=true
+
+TITLE: Tab Slider
+PREVIEW: https://website.webact.com/site/8cdfcf80/tab-slider-widget?preview=true
+
+TITLE: Dynamic Page Property Listing
+PREVIEW: https://website.webact.com/site/8cdfcf80/dynamic-page-property-listing-widget?preview=true
+
+TITLE: Back To Top
+PREVIEW: https://website.webact.com/site/8cdfcf80/back-to-top-widget?preview=true
+
+TITLE: Count Up
+PREVIEW: https://website.webact.com/site/8cdfcf80/count-up-widget?preview=true
+
+TITLE: Current Date
+PREVIEW: https://website.webact.com/site/8cdfcf80/current-date-widget?preview=true
+
+TITLE: Sticky Button
+PREVIEW: https://website.webact.com/site/8cdfcf80/sticky-button-widget?preview=true
+
+TITLE: Tabs Layout
+PREVIEW: https://website.webact.com/site/8cdfcf80/tabs-layout-widget?preview=true
+
+TITLE: Typewriter Text
+PREVIEW: https://website.webact.com/site/8cdfcf80/typewriter-text-widget?preview=true
+
+TITLE: Advanced Image Slider
+PREVIEW: https://website.webact.com/site/8cdfcf80/advanced-image-slider-widget?preview=true
+
+TITLE: Carousel Slider
+PREVIEW: https://website.webact.com/site/8cdfcf80/carousel-slider-widget?preview=true
+
+TITLE: Comparison Slider
+PREVIEW: https://website.webact.com/site/8cdfcf80/comparison-slider-widget?preview=true
+
+TITLE: Filter Photo Gallery
+PREVIEW: https://website.webact.com/site/8cdfcf80/filter-photo-gallery-widget?preview=true
+
+TITLE: Flip Book
+PREVIEW: https://website.webact.com/site/8cdfcf80/flip-book-widget?preview=true
+
+TITLE: Hover Image
+PREVIEW: https://website.webact.com/site/8cdfcf80/hover-image-widget?preview=true
+
+TITLE: Image Shapes
+PREVIEW: https://website.webact.com/site/8cdfcf80/image-shapes-widget?preview=true
+
+TITLE: Product Slider
+PREVIEW: https://website.webact.com/site/8cdfcf80/product-slider-widget?preview=true
+
+TITLE: Video Grid
+PREVIEW: https://website.webact.com/site/8cdfcf80/video-grid-widget?preview=true
+
+TITLE: Clock
+PREVIEW: https://website.webact.com/site/8cdfcf80/clock-widget?preview=true
+
+TITLE: Calendar
+PREVIEW: https://website.webact.com/site/8cdfcf80/calendar-widget?preview=true
+
+TITLE: Countdown Clock
+PREVIEW: https://website.webact.com/site/8cdfcf80/countdown-clock-widget?preview=true
+
+TITLE: Click To Text (SMS)
+PREVIEW: https://website.webact.com/site/8cdfcf80/click-to-text-widget?preview=true
+
+TITLE: Dropdown Selector
+PREVIEW: https://website.webact.com/site/8cdfcf80/dropdown-selector-widget?preview=true
+
+TITLE: Price Slider
+PREVIEW: https://website.webact.com/site/8cdfcf80/price-slider-widget?preview=true
+
+TITLE: Pricing Table
+PREVIEW: https://website.webact.com/site/8cdfcf80/pricing-table-widget?preview=true
+
+TITLE: Store Location
+PREVIEW: https://website.webact.com/site/8cdfcf80/store-location-widget?preview=true
+
+TITLE: Table Creator
+PREVIEW: https://website.webact.com/site/8cdfcf80/table-creator-widget?preview=true
+
+TITLE: Testimonial Slider
+PREVIEW: https://website.webact.com/site/8cdfcf80/testimonial-slider-widget?preview=true
+
+TITLE: Collapsible Boxes
+PREVIEW: https://website.webact.com/site/8cdfcf80/collapsible-boxes-widget?preview=true
+
+TITLE: Google Calendar
+PREVIEW: https://website.webact.com/site/8cdfcf80/google-calendar-widget?preview=true
+
+TITLE: Eventbrite Events
+PREVIEW: https://website.webact.com/site/8cdfcf80/eventbrite-events-widget?preview=true
+
+TITLE: Facebook Feed
+PREVIEW: https://website.webact.com/site/8cdfcf80/facebook-feed-widget?preview=true
+
+TITLE: Facebook Messenger
+PREVIEW: https://website.webact.com/site/8cdfcf80/facebook-messenger-widget?preview=true
+
+TITLE: Social Share Buttons
+PREVIEW: https://website.webact.com/site/8cdfcf80/social-share-buttons-widget?preview=true
+
+TITLE: Sticky Social Icons
+PREVIEW: https://website.webact.com/site/8cdfcf80/sticky-social-icons-widget?preview=true
+
+TITLE: Animate Content
+PREVIEW: https://website.webact.com/site/8cdfcf80/animate-content-widget?preview=true
+
+TITLE: Elastic Search
+PREVIEW: https://website.webact.com/site/8cdfcf80/elastic-search-widget?preview=true
+
+TITLE: Mega Menu
+PREVIEW: https://website.webact.com/site/8cdfcf80/mega-menus-widget?preview=true
+
+TITLE: Section Separator
+PREVIEW: https://website.webact.com/site/8cdfcf80/section-separator-widget?preview=true
+
+TITLE: Hero Section
+PREVIEW: https://website.webact.com/site/8cdfcf80/hero-widget?preview=true
+
