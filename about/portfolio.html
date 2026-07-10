@@ -92,6 +92,65 @@
   }
 }
 </style>
+<!-- WEBACT PORTFOLIO JOTFORM HERO START -->
+<style id="webact-portfolio-jotform-hero">
+.portfolio-hero {
+    align-items: center !important;
+}
+
+.portfolio-hero-copy {
+    min-width: 0;
+}
+
+.portfolio-hero-copy h1 {
+    max-width: 760px;
+}
+
+.portfolio-hero-copy > p:not(.eyebrow) {
+    max-width: 760px;
+}
+
+.portfolio-hero-form {
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 28px;
+    background: #f6f7f8;
+    box-shadow: 0 30px 80px rgba(0,0,0,.28);
+}
+
+.portfolio-hero-form .webact-shared-jotform {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 28px;
+    background: #f6f7f8;
+}
+
+.portfolio-hero-form .webact-shared-jotform iframe {
+    display: block;
+    width: 100%;
+    min-height: 940px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #f6f7f8;
+}
+
+@media (max-width: 1100px) {
+    .portfolio-hero-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .portfolio-hero-form .webact-shared-jotform iframe {
+        min-height: 1040px;
+    }
+}
+</style>
+<!-- WEBACT PORTFOLIO JOTFORM HERO END -->
 </head>
 
 <body>
@@ -99,29 +158,50 @@
 
 <main>
   <section class="portfolio-hero">
-    <div>
-      <p class="eyebrow">WebAct Portfolio</p>
-      <h1>Website design portfolio built across hundreds of industries.</h1>
-      <p>Explore WebAct website design work for restaurants, dentists, law firms, ecommerce stores, contractors, healthcare providers, local businesses, and service companies.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="#portfolio-work">View Portfolio</a>
-        <a class="button secondary" href="/webact-redesign/contact/index.html">Start a Project</a>
-      </div>
-      <div class="portfolio-proof">
-        <span>Website Design</span>
-        <span>SEO Ready</span>
-        <span>Industry Examples</span>
-        <span>Case Studies</span>
-      </div>
+    <div class="portfolio-hero-copy">
+        <p class="eyebrow">WebAct Portfolio</p>
+
+        <h1>Top 250 Website Designs</h1>
+
+        <p>
+            Browse WebAct's top website design examples by business name,
+            service type, or industry.
+        </p>
+
+        <div class="hero-actions">
+            <a class="button primary" href="#portfolio-work">
+                View Portfolio
+            </a>
+
+            <a
+                class="button secondary"
+                href="/webact-redesign/contact/index.html">
+                Start a Project
+            </a>
+        </div>
+
+        <div class="portfolio-proof">
+            <span>Website Design</span>
+            <span>SEO Ready</span>
+            <span>Industry Examples</span>
+            <span>Case Studies</span>
+        </div>
     </div>
 
-    <div class="portfolio-panel">
-      <h2>Top 250 Website Designs</h2>
-      <p>Browse WebAct's top website design examples by business name, service type, or industry.</p>
-      <strong id="portfolio-count">0</strong>
-      <p>Website design examples selected from the WebAct portfolio.</p>
+    <div class="portfolio-hero-form">
+        <div class="webact-shared-jotform">
+            <iframe
+                id="JotFormIFrame-261900782842056"
+                title="Start a Project"
+                src="https://form.jotform.com/261900782842056"
+                frameborder="0"
+                scrolling="no"
+                allow="geolocation; microphone; camera; fullscreen; payment"
+                style="width:100%;min-height:940px;border:0;">
+            </iframe>
+        </div>
     </div>
-  </section>
+</section>
 
   <section class="section" id="portfolio-work">
     <div class="heading">
@@ -273,5 +353,17 @@
 })();
 </script>
 
+
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    if (window.jotformEmbedHandler) {
+        window.jotformEmbedHandler(
+            "iframe[id^='JotFormIFrame-']",
+            "https://form.jotform.com/"
+        );
+    }
+});
+</script>
 </body>
 </html>
