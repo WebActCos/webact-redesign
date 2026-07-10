@@ -59,6 +59,31 @@ body{margin:0}
 @media(max-width:1080px){.contact-main{grid-template-columns:1fr}.contact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.contact-hero,.section,.final-cta{padding:56px 20px}.form-row,.contact-grid{grid-template-columns:1fr}.contact-form .button,.hero-actions .button{width:100%}}
 </style>
+<style id="webact-contact-jotform-styles">
+.webact-contact-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:24px;
+  background:#f6f7f8;
+}
+
+.webact-contact-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:980px;
+  border:0;
+  background:#f6f7f8;
+}
+
+@media(max-width:700px){
+  .webact-contact-jotform iframe{
+    min-height:1080px;
+  }
+}
+</style>
 </head>
 
 <body class="contact-page">
@@ -118,38 +143,17 @@ body{margin:0}
       <h2>Schedule a consultation.</h2>
       <p>Tell us what you are looking for and WebAct can recommend the right starting point.</p>
 
-      <form class="contact-form">
-        <div class="form-row">
-          <label>First Name<input type="text" name="first_name"></label>
-          <label>Last Name<input type="text" name="last_name"></label>
-        </div>
-
-        <div class="form-row">
-          <label>Phone<input type="tel" name="phone"></label>
-          <label>Email<input type="email" name="email"></label>
-        </div>
-
-        <label>What are you looking for?
-          <select name="service">
-            <option>Website Design</option>
-            <option>SEO / Local SEO</option>
-            <option>Digital Advertising</option>
-            <option>Google Ads</option>
-            <option>Social Media Advertising</option>
-            <option>Branding</option>
-            <option>Website Add-ons</option>
-            <option>Duda Widgets</option>
-            <option>Website Support</option>
-            <option>Not Sure Yet</option>
-          </select>
-        </label>
-
-        <label>Tell us about your project
-          <textarea name="message"></textarea>
-        </label>
-
-        <a class="button primary" href="mailto:support@webact.com">Submit</a>
-      </form>
+      <div class="webact-contact-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:980px;border:0;">
+  </iframe>
+</div>
     </aside>
   </div>
 </section>
@@ -186,5 +190,16 @@ body{margin:0}
 <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body>
 </html>
