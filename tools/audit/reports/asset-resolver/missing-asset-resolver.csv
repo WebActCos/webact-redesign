@@ -1,6 +1,2 @@
 "Missing Reference","Expected Path","Used By","Best Candidate","Score","Reasons"
 "/assets/industry-hardware-stores.png","assets/industry-hardware-stores.png","industries/hardware-stores/index.html:112","assets/industry-appliance-stores.png","53","shared keywords: industry, stores; same extension; related folder: webact.com, assets"
-"/images/logo-vibe.png","images/logo-vibe.png","about/about-us.html:259 | about/about-us.html:266","assets/logo.png","60","shared keywords: logo; same extension; related folder: projects, webact.com; partial filename match"
-"/images/portfolio/dental-website-design.jpg","images/portfolio/dental-website-design.jpg","about/index.html:114","Resources/images/female-dentist-dental-hygienist-c450b47e-2880w.jpg","35","shared keywords: dental; same extension; related folder: webact.com, images"
-"/images/portfolio/restaurant-website-design.jpg","images/portfolio/restaurant-website-design.jpg","about/index.html:113","assets/case-restaurant.png","30","shared keywords: restaurant; related folder: projects, webact.com"
-"/Resources/images/placeholder.png","Resources/images/placeholder.png","about/portfolio/case-study.html:79","Resources/images/imgPlaceholder1.png","42","same extension; related folder: resources, images; partial filename match"
