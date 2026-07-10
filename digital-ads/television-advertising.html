@@ -57,6 +57,39 @@
     @media(max-width:1080px){.tvads-hero,.tvads-grid,.tvads-comparison{grid-template-columns:1fr}.tvads-process{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:680px){.tvads-hero,.tvads-section,.tvads-cta{padding:56px 20px}.tvads-process{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}.tvads-proof span{width:100%;text-align:center}}
   </style>
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
@@ -70,12 +103,17 @@
       <div class="hero-actions"><a class="button primary" href="/webact-redesign/contact/index.html">Request TV Ads Review</a><a class="button secondary" href="/webact-redesign/pricing/advertising.html">Advertising Pricing</a></div>
       <div class="tvads-proof"><span>Streaming TV</span><span>Connected TV</span><span>OTT Advertising</span><span>Video Campaigns</span></div>
     </div>
-    <form class="tvads-form" aria-label="Request Streaming TV Advertising review">
-      <h2>Request TV Ads Review</h2><p>Tell us about your audience, market, and advertising goals and WebAct will recommend the right video strategy.</p>
-      <label>Full Name<input type="text" name="name" autocomplete="name"></label><label>Email Address<input type="email" name="email" autocomplete="email"></label><label>Phone Number<input type="tel" name="phone" autocomplete="tel"></label>
-      <label>Interested In<select name="interest"><option>Streaming TV Advertising</option><option>Connected TV Advertising</option><option>OTT Advertising</option><option>YouTube Video Ads</option><option>Local Brand Awareness</option><option>Multi-Channel Advertising</option></select></label>
-      <label>How can we help?<textarea name="message" rows="4"></textarea></label><button class="button primary" type="button">Request Advertising Review</button>
-    </form>
+    <div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
   </section>
 
   <section class="tvads-section tvads-soft">
@@ -122,5 +160,16 @@
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body>
 </html>

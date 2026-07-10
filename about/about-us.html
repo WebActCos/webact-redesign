@@ -90,6 +90,39 @@ body{margin:0}.aboutus{color:#071421;background:#fff;overflow:hidden}.hero{backg
     .aboutus .logo-section-copy{font-size:17px}
   }
 </style>
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
@@ -103,12 +136,17 @@ body{margin:0}.aboutus{color:#071421;background:#fff;overflow:hidden}.hero{backg
 <div class="hero-actions"><a class="button primary" href="/webact-redesign/contact/index.html">Start a Conversation</a><a class="button secondary" href="/webact-redesign/about/portfolio.html">View Portfolio</a></div>
 <div class="proof"><span>Founded in 2012</span><span>Denver, Colorado</span><span>Web Design</span><span>Digital Marketing</span></div>
 </div>
-<form class="lead-form" aria-label="Contact WebAct">
-<h2>Talk With WebAct</h2><p>Tell us what you want to improve and our team will help point you in the right direction.</p>
-<label>Full Name<input type="text" name="name"></label><label>Email Address<input type="email" name="email"></label><label>Phone Number<input type="tel" name="phone"></label>
-<label>Interested In<select><option>Website Design</option><option>Marketing</option><option>Digital Advertising</option><option>Local Listings</option><option>Website Support</option><option>General Question</option></select></label>
-<label>How can we help?<textarea rows="4"></textarea></label><button class="button primary" type="button">Request Consultation</button>
-</form>
+<div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
 </section>
 
 <section class="logo-rotator featured-rotator" aria-label="WebAct as seen on logos">
@@ -254,4 +292,15 @@ body{margin:0}.aboutus{color:#071421;background:#fff;overflow:hidden}.hero{backg
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body></html>

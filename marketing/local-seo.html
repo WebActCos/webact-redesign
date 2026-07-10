@@ -57,6 +57,39 @@
     @media(max-width:1080px){.localseo-hero,.localseo-grid,.localseo-comparison{grid-template-columns:1fr}.localseo-process{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:680px){.localseo-hero,.localseo-section,.localseo-cta{padding:56px 20px}.localseo-process{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}.localseo-proof span{width:100%;text-align:center}}
   </style>
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
@@ -70,12 +103,17 @@
       <div class="hero-actions"><a class="button primary" href="/webact-redesign/contact/index.html">Request Local SEO Review</a><a class="button secondary" href="/webact-redesign/pricing/marketing.html">Marketing Pricing</a></div>
       <div class="localseo-proof"><span>Google Maps Visibility</span><span>Google Business Profile</span><span>Local Listings</span><span>Review Signals</span></div>
     </div>
-    <form class="localseo-form" aria-label="Request Local SEO review">
-      <h2>Request Local SEO Review</h2><p>Tell us about your service area and WebAct will recommend the right local visibility plan.</p>
-      <label>Full Name<input type="text" name="name" autocomplete="name"></label><label>Email Address<input type="email" name="email" autocomplete="email"></label><label>Phone Number<input type="tel" name="phone" autocomplete="tel"></label>
-      <label>Interested In<select name="interest"><option>Local SEO</option><option>Google Business Profile</option><option>Local Listings</option><option>Review Strategy</option><option>Location Pages</option><option>Local SEO + Ads</option></select></label>
-      <label>How can we help?<textarea name="message" rows="4"></textarea></label><button class="button primary" type="button">Request Local SEO Review</button>
-    </form>
+    <div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
   </section>
 
   <section class="localseo-section localseo-soft">
@@ -128,5 +166,16 @@
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body>
 </html>

@@ -234,6 +234,39 @@ border-radius:24px;
   .addon-help-card{max-width:none!important;justify-self:stretch!important}
 }
 </style>
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
 <body class="addons-page">
 <div id="webact-header"></div>
@@ -254,23 +287,17 @@ border-radius:24px;
   <h2>Need Help First?</h2>
   <p>Tell us what you want to build and WebAct can point you toward the best website add-on option.</p>
 
-  <form class="hero-form">
-    <label>Full Name<input type="text"></label>
-    <label>Email Address<input type="email"></label>
-    <label>Phone Number<input type="tel"></label>
-    <label>Interested In
-      <select>
-        <option>Domain Names</option>
-        <option>Professional Email</option>
-        <option>Widgets</option>
-        <option>Website App Store</option>
-      </select>
-    </label>
-    <label>How can we help?
-      <textarea rows="4"></textarea>
-    </label>
-    <a class="button primary" href="/webact-redesign/contact/index.html">Request Help</a>
-  </form>
+  <div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
 </aside>
 </section>
 
@@ -385,5 +412,16 @@ border-radius:24px;
 <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body>
 </html>

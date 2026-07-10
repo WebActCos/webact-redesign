@@ -52,13 +52,56 @@ body{margin:0}.graphic{color:#071421;background:#fff}.hero{background:linear-gra
 }
 
 </style>
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
 <main class="graphic">
 <section class="hero">
 <div><p class="eyebrow">Graphic Design Services</p><h1>Creative graphics that strengthen every part of your marketing.</h1><p>WebAct designs graphics for websites, advertising, social media, presentations, print, email marketing, and digital campaigns so your brand looks consistent wherever customers see it.</p><div class="actions"><a class="button primary" href="/webact-redesign/contact/index.html">Start a Design Project</a><a class="button secondary" href="/webact-redesign/pricing/design.html">Design Pricing</a></div></div>
-<form class="form"><h2>Request Graphic Design Review</h2><label>Name<input></label><label>Email<input type="email"></label><label>Phone<input></label><label>Project<select><option>Marketing Graphics</option><option>Social Media</option><option>Website Graphics</option><option>Print Design</option><option>Presentation Design</option></select></label><label>Project Details<textarea rows="4"></textarea></label><button class="button primary" type="button">Request Review</button></form>
+<div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
 </section>
 
 <section class="section soft"><h2 style="text-align:center">Why Professional Graphic Design Matters</h2><div class="grid">
@@ -103,4 +146,15 @@ body{margin:0}.graphic{color:#071421;background:#fff}.hero{background:linear-gra
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body></html>

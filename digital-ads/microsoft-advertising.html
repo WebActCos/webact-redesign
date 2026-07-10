@@ -36,6 +36,39 @@
     .msads-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}.msads-cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}.msads-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.msads-cta .hero-actions{justify-content:center}
     @media(max-width:1080px){.msads-hero,.msads-grid,.msads-comparison{grid-template-columns:1fr}.msads-process{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:680px){.msads-hero,.msads-section,.msads-cta{padding:56px 20px}.msads-process{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}.msads-proof span{width:100%;text-align:center}}
   </style>
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
@@ -48,12 +81,17 @@
       <div class="hero-actions"><a class="button primary" href="/webact-redesign/contact/index.html">Request Microsoft Ads Review</a><a class="button secondary" href="/webact-redesign/pricing/advertising.html">Advertising Pricing</a></div>
       <div class="msads-proof"><span>Bing Search Ads</span><span>Microsoft Audience Network</span><span>Shopping Campaigns</span><span>Landing Page Support</span></div>
     </div>
-    <form class="msads-form" aria-label="Request Microsoft Advertising review">
-      <h2>Request Microsoft Ads Review</h2><p>Tell us about your advertising goals and WebAct will help identify the right search strategy.</p>
-      <label>Full Name<input type="text" name="name" autocomplete="name"></label><label>Email Address<input type="email" name="email" autocomplete="email"></label><label>Phone Number<input type="tel" name="phone" autocomplete="tel"></label>
-      <label>Interested In<select name="interest"><option>Microsoft Search Ads</option><option>Bing Ads</option><option>Microsoft Audience Network</option><option>Shopping Ads</option><option>Google + Microsoft Ads</option><option>Landing Page Support</option></select></label>
-      <label>How can we help?<textarea name="message" rows="4"></textarea></label><button class="button primary" type="button">Request Advertising Review</button>
-    </form>
+    <div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
   </section>
   <section class="msads-section msads-soft">
     <div class="msads-heading"><p class="eyebrow">Why Microsoft Advertising</p><h2>Reach searchers your competitors may be missing.</h2><p>Microsoft Advertising can help businesses expand beyond Google with Bing search traffic, desktop users, professional audiences, shopping opportunities, and additional remarketing placements.</p></div>
@@ -79,5 +117,16 @@
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body>
 </html>

@@ -756,6 +756,39 @@ body.webact-search-open .webact-search-overlay{display:flex}
 <link rel="stylesheet" href="../css/navigation.css">
 <link rel="stylesheet" href="../css/footer.css">
 
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
@@ -793,38 +826,17 @@ body.webact-search-open .webact-search-overlay{display:flex}
             <span class="chip">Sales materials</span>
           </div>
         </div>
-        <form class="quote-card" id="quote-form">
-          <h2>Start a design request</h2>
-          <p>Tell us what you need designed and we will help scope the right creative package.</p>
-          <div class="form-grid">
-            <label>Name
-              <input type="text" name="name" autocomplete="name">
-            </label>
-            <label>Business Name
-              <input type="text" name="business">
-            </label>
-            <label>Email
-              <input type="email" name="email" autocomplete="email">
-            </label>
-            <label>Phone
-              <input type="tel" name="phone" autocomplete="tel">
-            </label>
-            <label>Project Type
-              <select name="project-type">
-                <option>Social media graphics</option>
-                <option>Digital ad creative</option>
-                <option>Print collateral</option>
-                <option>Logo or brand graphics</option>
-                <option>Signage or display graphics</option>
-                <option>Ongoing design support</option>
-              </select>
-            </label>
-            <label>Project Details
-              <textarea name="message"></textarea>
-            </label>
-            <button class="button" type="submit">Get My Quote</button>
-          </div>
-        </form>
+        <div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
       </div>
     </section>
 
@@ -1132,6 +1144,17 @@ body.webact-search-open .webact-search-overlay{display:flex}
   <script src="/webact-redesign/assets/js/routes.js"></script>
   <script src="/webact-redesign/assets/js/navigation.js"></script>
   <script src="/webact-redesign/assets/js/includes.js"></script>
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body>
 </html>
 

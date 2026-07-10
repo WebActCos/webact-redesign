@@ -157,6 +157,39 @@ body{margin:0}
   .blog-proof span{width:100%;text-align:center}
 }
 </style>
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
   <body>
 <div id="webact-header"></div>
@@ -176,23 +209,17 @@ body{margin:0}
       <span>Business Growth</span>
     </div>
   </div>
-  <form class="blog-form" aria-label="Blog help form">
-    <h2>Need Help Applying This?</h2>
-    <p>Tell us what you are trying to improve and WebAct can recommend the right next step.</p>
-    <label>Full Name<input type="text" name="name"></label>
-    <label>Email Address<input type="email" name="email"></label>
-    <label>Topic
-      <select name="topic">
-        <option>Website Design</option>
-        <option>SEO</option>
-        <option>Local Marketing</option>
-        <option>Digital Advertising</option>
-        <option>Website Support</option>
-      </select>
-    </label>
-    <label>Question<textarea rows="5"></textarea></label>
-    <button class="button primary" type="button">Ask WebAct</button>
-  </form>
+  <div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
 </section>
 <section id="blog-posts" class="section website-design-intro">
 
@@ -229,6 +256,17 @@ body{margin:0}
     <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
 
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body>
 </html>
 

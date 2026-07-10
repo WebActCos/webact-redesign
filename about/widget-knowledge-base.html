@@ -54,6 +54,39 @@
 .embed-wrap:after{content:"If the knowledge base does not load below, open it in a new tab.";display:block;color:#4b5b66;padding:8px 18px 18px;font-size:16px}
 .widget-kb-frame{height:1400px!important}
   </style>
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
 
 <body>
@@ -74,12 +107,17 @@
     <div class="hero-card">
   <h2>Need Help With a Website Widget?</h2>
   <p>Tell us what you're trying to accomplish and our team can recommend the right widget, explain how a feature works, or help you customize your website.</p>
-  <form class="hero-help-form">
-    <label>Full Name<input type="text" placeholder="Your name"></label>
-    <label>Email Address<input type="email" placeholder="you@example.com"></label>
-    <label>What do you need help with?<textarea rows="4" placeholder="Tell us about the widget, feature, or website improvement you need."></textarea></label>
-    <a class="button primary" href="/webact-redesign/contact/index.html">Request Help</a>
-  </form>
+  <div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
 </div>
   </section>
 
@@ -133,5 +171,16 @@
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body>
 </html>

@@ -949,6 +949,39 @@ body.webact-search-open .webact-search-overlay{display:flex}
 <link rel="stylesheet" href="../css/navigation.css">
 <link rel="stylesheet" href="../css/footer.css">
 
+<style id="webact-shared-jotform-styles">
+.webact-shared-jotform{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  border-radius:26px;
+  background:#f6f7f8;
+}
+
+.webact-shared-jotform iframe{
+  display:block;
+  width:100%;
+  min-height:940px;
+  border:0;
+  background:#f6f7f8;
+}
+
+.hero-form-card:has(.webact-shared-jotform),
+.hero-form:has(.webact-shared-jotform),
+.hero-card:has(.webact-shared-jotform),
+.form-card:has(.webact-shared-jotform){
+  padding:0!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:700px){
+  .webact-shared-jotform iframe{
+    min-height:1040px;
+  }
+}
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
@@ -1005,32 +1038,17 @@ body.webact-search-open .webact-search-overlay{display:flex}
               </div>
             </div>
           </div>
-          <form class="consult-card" id="brandForm">
-            <h2>Brand Consultation</h2>
-            <p>Tell us what you want your brand to communicate.</p>
-            <div class="field">
-              <label for="name">Name</label>
-              <input id="name" name="name" autocomplete="name">
-            </div>
-            <div class="field">
-              <label for="business">Business Name</label>
-              <input id="business" name="business" autocomplete="organization">
-            </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input id="email" name="email" type="email" autocomplete="email">
-            </div>
-            <div class="field">
-              <label for="need">Branding Need</label>
-              <select id="need" name="need">
-                <option>New brand identity</option>
-                <option>Brand refresh</option>
-                <option>Logo and visual system</option>
-                <option>Messaging and content</option>
-              </select>
-            </div>
-            <button class="btn btn-primary" type="submit" style="width:100%;margin-top:16px;">Request Branding Help</button>
-          </form>
+          <div class="webact-shared-jotform">
+  <iframe
+    id="JotFormIFrame-261900782842056"
+    title="Start a Project"
+    src="https://form.jotform.com/261900782842056"
+    frameborder="0"
+    scrolling="no"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    style="width:100%;min-height:940px;border:0;">
+  </iframe>
+</div>
         </div>
       </div>
     </section>
@@ -1341,6 +1359,17 @@ body.webact-search-open .webact-search-overlay{display:flex}
   <script src="/webact-redesign/assets/js/routes.js"></script>
   <script src="/webact-redesign/assets/js/navigation.js"></script>
   <script src="/webact-redesign/assets/js/includes.js"></script>
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.jotformEmbedHandler) {
+    window.jotformEmbedHandler(
+      "iframe[id^='JotFormIFrame-']",
+      "https://form.jotform.com/"
+    );
+  }
+});
+</script>
 </body>
 </html>
 
