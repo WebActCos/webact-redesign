@@ -1,16 +1,14 @@
-﻿
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Professional Website Editor | Choose a Website Template | WebAct</title>
-<meta name="description" content="Choose a professional WebAct website template, customize your website, import an existing URL when available, publish with hosting, and keep editing from the WebAct dashboard.">
-<link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-<link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-<link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
-<template data-professional-editor-css-migrated="1" data-external-stylesheet="/webact-redesign/assets/css/professional-editor.css">
-<style>
+/*
+ * WebAct Professional Editor
+ * Extracted from design/professional-editor.html
+ * Original inline style blocks preserved in the HTML.
+ */
+
+
+/* =========================================================
+   Original inline style block 1
+   ========================================================= */
+
 body{margin:0}.proeditor{color:#071421;background:#fff;overflow:hidden}.hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:92px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,.72fr);gap:48px;align-items:center}.hero h1{font-size:clamp(42px,6vw,78px);line-height:.96;margin:12px 0 22px;letter-spacing:-.05em}.hero p{color:#d9edf8;font-size:20px;line-height:1.6}.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}.hero .eyebrow{color:#73d7ff}.proof{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 0}.proof span{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);border-radius:999px;padding:10px 14px;font-weight:800}.lead-form{background:rgba(255,255,255,.96);color:#071421;border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.28)}.lead-form h2{font-size:28px;margin:0 0 8px}.lead-form p{color:#4b5b66;font-size:16px;line-height:1.55}.lead-form label{display:grid;gap:7px;margin-bottom:12px;font-weight:800;font-size:14px;color:#203241}.lead-form input,.lead-form select,.lead-form textarea{width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:12px;padding:13px 14px;font:inherit;background:#fff;color:#071421}.lead-form textarea{resize:vertical;min-height:92px}.lead-form .button{width:100%;border:0}.section{padding:84px min(6vw,72px)}.soft{background:#f4f8fb}.dark{background:#071421;color:#fff}.heading{max-width:980px;margin:0 auto 44px;text-align:center}.heading .eyebrow{color:#0c9bd2}.dark .heading .eyebrow{color:#73d7ff}.heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}.heading p{font-size:18px;line-height:1.65;color:#4b5b66}.dark .heading p{color:#d4e8f2}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1300px;margin:0 auto}.card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:28px;color:#071421;box-shadow:0 18px 42px rgba(7,20,33,.08);text-decoration:none}.card h3{font-size:24px;margin:0 0 10px;color:#071421}.card p,.card li{color:#4b5b66;line-height:1.6}.card ul{padding-left:20px}.step-number{width:42px;height:42px;border-radius:12px;background:#071421;color:#33abe1;display:grid;place-items:center;font-weight:900;margin-bottom:18px}.template-section{padding:0;background:#fff}.template-intro{padding:64px min(6vw,72px) 24px;text-align:center}.template-intro .eyebrow{color:#0c9bd2}.template-intro h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:10px auto 14px;letter-spacing:-.04em;max-width:980px}.template-intro p{font-size:18px;line-height:1.6;color:#4b5b66;max-width:920px;margin:0 auto}.template-note{display:inline-flex;margin-top:22px;background:#f4f8fb;border-left:4px solid #33abe1;border-radius:10px;padding:16px 20px;font-weight:900;color:#071421;text-align:left}.detail-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:1000px;margin:0 auto}.comparison{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.comparison article{background:#fff;color:#071421;border-radius:26px;padding:30px;border:1px solid #e0ebf2}.comparison h3{color:#071421}.comparison p,.comparison li{color:#44525d}.faq{max-width:1050px;margin:0 auto;display:grid;gap:14px}.faq details{background:#fff;border:1px solid #e0ebf2;border-radius:18px;padding:20px}.faq summary{font-weight:900;cursor:pointer}.faq p{color:#4b5b66;line-height:1.6}.actions,.comparison-buttons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:42px auto 0}.actions .button,.comparison-buttons .button,.lead-form .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important;transition:.2s ease}.actions .button.primary,.comparison-buttons .button.primary,.lead-form .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}.actions .button.primary:hover,.comparison-buttons .button.primary:hover{background:#58c4ec!important}.actions .button.secondary,.comparison-buttons .button.secondary{background:#061421!important;border:2px solid #061421!important;color:#fff!important}.cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}.cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}.cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.cta .hero-actions{justify-content:center}@media(max-width:1080px){.hero,.grid,.comparison{grid-template-columns:1fr}.detail-list{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:680px){.hero,.section,.cta{padding:56px 20px}.template-intro{padding:52px 20px 20px}.hero-actions .button,.actions .button{width:100%;justify-content:center}.proof span{width:100%;text-align:center}.detail-list{grid-template-columns:1fr}}
 
 /* Professional editor feature checkmarks */
@@ -34,10 +32,14 @@ body{margin:0}.proeditor{color:#071421;background:#fff;overflow:hidden}.hero{bac
     transform-origin: center;
     box-sizing: border-box;
 }
-</style>
-</template>
-<template data-professional-editor-css-migrated="2" data-external-stylesheet="/webact-redesign/assets/css/professional-editor.css">
-<style id="webact-shared-jotform-styles">
+
+
+
+/* =========================================================
+   Original inline style block 2
+   Original attributes: id="webact-shared-jotform-styles"
+   ========================================================= */
+
 .webact-shared-jotform{
   width:100%;
   max-width:100%;
@@ -70,65 +72,13 @@ body{margin:0}.proeditor{color:#071421;background:#fff;overflow:hidden}.hero{bac
   }
 }
 
-</style>
-</template>
-<link rel="stylesheet" href="/webact-redesign/assets/css/professional-editor.css?v=professional-editor-1" data-professional-editor-stylesheet="true">
-</head>
-<body>
-<div id="webact-header"></div>
 
-<main class="proeditor">
-<section class="hero">
-<div>
-<p class="eyebrow">Professional Website Editor</p>
-<h1>Choose a professional template and start building your website.</h1>
-<p>Browse the professional template library, select a design, customize the full website, publish when you are ready, and return to the WebAct dashboard any time. Some templates also support starting from an existing website URL.</p>
-<div class="hero-actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="/webact-redesign/pricing/design.html">Design Pricing</a></div>
-<div class="proof"><span>Professional Templates</span><span>Advanced Editing</span><span>Start with URL</span><span>Publish Later</span></div>
-</div>
-<div class="webact-shared-jotform">
-  <iframe
-    id="JotFormIFrame-261900782842056"
-    title="Start a Project"
-    src="https://form.jotform.com/261900782842056"
-    frameborder="0"
-    scrolling="no"
-    allow="geolocation; microphone; camera; fullscreen; payment"
-    style="width:100%;min-height:940px;border:0;">
-  </iframe>
-</div>
-</section>
 
-<section class="section soft">
-<div class="heading"><p class="eyebrow">How It Works</p><h2>Pick a template, customize the site, publish when ready.</h2><p>The professional editor gives you a stronger starting point with more control over layouts, reusable content sections, pages, images, forms, and website styling.</p></div>
-<div class="grid">
-<article class="card"><div class="step-number">1</div><h3>Pick a Template</h3><p>Start with a professional layout or use a Start with URL option when importing an existing website.</p></article>
-<article class="card"><div class="step-number">2</div><h3>Customize the Site</h3><p>Edit pages, sections, images, styles, forms, and business content with advanced control.</p></article>
-<article class="card"><div class="step-number">3</div><h3>Publish Later</h3><p>When ready, choose hosting and WebAct can help connect your domain.</p></article>
-</div>
-<div class="actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="/webact-redesign/design/simple-editor.html">Simple Editor</a></div>
-</section>
+/* =========================================================
+   Original inline style block 3
+   ========================================================= */
 
-<section class="template-section" id="templates">
-<div class="template-intro">
-<p class="eyebrow">Template Library</p>
-<h2>Choose a template below to get started.</h2>
-<p>Browse the interactive template library below. Select a template to start building, or choose a Start with URL option when available to begin from an existing website address.</p>
-<div class="template-note">The professional drag-and-drop builder works best on a desktop computer or tablet.</div>
-</div>
-
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/modaal/0.3.1/css/modaal.min.css" media="screen">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kierancz/cbp@1.0.8/css/cbp.min.css" media="screen">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kierancz/cbp@1.0.8/css/dudaapi.css" media="screen">
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
-
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/modaal/0.3.1/js/modaal.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kierancz/cbp@1.0.7/js/cbp.js"></script>
-
-<template data-professional-editor-css-migrated="3" data-external-stylesheet="/webact-redesign/assets/css/professional-editor.css">
-<style>
-  .professional-template-embed {
+.professional-template-embed {
     width: 100%;
     background: #fff;
     padding: 0 24px 70px;
@@ -198,204 +148,13 @@ body{margin:0}.proeditor{color:#071421;background:#fff;overflow:hidden}.hero{bac
   @-webkit-keyframes f_fadeG{0%{background-color:#000}100%{background-color:#fff}}
   @-moz-keyframes f_fadeG{0%{background-color:#000}100%{background-color:#fff}}
 
-</style>
-</template>
 
-<div class="professional-template-embed">
-  <div id="loading" style="text-align: center;">
-    <h4 id="loading-text" style="color: #000; margin-top: 3em; font-size: 1.5em !important;">
-      LOADING TEMPLATES...
-    </h4>
-    <div id="floatingCirclesG">
-      <div class="f_circleG" id="frotateG_01"></div>
-      <div class="f_circleG" id="frotateG_02"></div>
-      <div class="f_circleG" id="frotateG_03"></div>
-      <div class="f_circleG" id="frotateG_04"></div>
-      <div class="f_circleG" id="frotateG_05"></div>
-      <div class="f_circleG" id="frotateG_06"></div>
-      <div class="f_circleG" id="frotateG_07"></div>
-      <div class="f_circleG" id="frotateG_08"></div>
-    </div>
-  </div>
-  <div id="include-templates"></div>
-</div>
 
-<script>
-  // GLOBALS
-  var TEMPURL = "https://www.websitebuilderapi.com";
+/* =========================================================
+   Original inline style block 4
+   Original attributes: id="webact-original-template-form-restyle"
+   ========================================================= */
 
-  var data = {
-    "config":{
-      "SiteName": "WebAct",
-      "MainColor": "#119EE7",
-      "MainTextColor": "#FFFFFF",
-      "MainRadius": "0px",
-      "Margin": "20",
-      "Ani": "flipOut",
-      "CaptionAni": "zoom",
-      "LgNum": "3",
-      "MdNum": "2",
-      "SmNum": "1"
-    },
-    "locale":"en"
-  };
-
-  console.log('data: ', data);
-
-  $(document).ajaxStart(function() {
-    $('#loading').show();
-  }).ajaxStop(function() {
-    $('#loading').hide();
-    $('#include-templates').fadeIn('slow');
-  });
-
-  $(document).ready(function() {
-    loadTemplates();
-    sendCustomData();
-  });
-
-  function loadTemplates() {
-    var customTemps = "";
-    data.config.Custom ? customTemps = "-custom" : "";
-    data.config.ShowCustData ? customTemps = "-data" : "";
-    var siteName = data.config.SiteName.replace(/\s+/g, '').toLowerCase();
-    var tempURL = getProxy() + TEMPURL + "/t/" + siteName + "/" + siteName + customTemps + ".html";
-
-    $("#include-templates").load(tempURL, function() {
-      $(".inline").modaal({
-        hide_close: true
-      });
-
-      $("#grid-container").cubeportfolio({
-        layoutMode: "grid",
-        rewindNav: true,
-        scrollByPage: false,
-        defaultFilter: "*",
-        animationType: data.config.Ani,
-        gapHorizontal: +data.config.Margin - 16,
-        gapVertical: +data.config.Margin,
-        gridAdjustment: "responsive",
-        mediaQueries: [{
-          width: 1100,
-          cols: +data.config.LgNum
-        }, {
-          width: 900,
-          cols: +data.config.LgNum
-        }, {
-          width: 500,
-          cols: +data.config.MdNum
-        }, {
-          width: 320,
-          cols: +data.config.SmNum
-        }],
-        caption: data.config.CaptionAni,
-        displayType: "lazyLoading",
-        displayTypeSpeed: 100,
-        filters: "#filters-container"
-      });
-    });
-  }
-
-  function sendCustomData() {
-    console.log("custom photo object: ", data.config.CustomPhotos);
-
-    if(data.config.SendData) {
-      var Url = TEMPURL + "templates.php";
-      var siteName = data.config.SiteName.replace(/\s+/g, '').toLowerCase();
-      $.ajax({
-        data: {
-          tempData: JSON.stringify(data.config.CustomPhotos),
-          siteName: siteName,
-        },
-        url: Url,
-        method: "POST",
-        success: function(msg) {
-          console.log("Message: ", msg);
-        },
-        error: function(xhr, status, error) {
-          console.log("error: ", error);
-        }
-      });
-    }
-  }
-
-  function getProxy() {
-  return '';
-}
-</script>
-
-</section>
-
-<section class="section soft">
-<div class="heading"><p class="eyebrow">Publishing</p><h2>Build first, go live when you are ready.</h2><p>Any work you do is saved automatically. When the site is ready, use the Publish button in the builder to choose hosting and finish the domain connection.</p></div>
-<div class="grid">
-<article class="card"><h3>Hosting Plan</h3><p>Publishing starts by selecting the right WebAct hosting plan for the finished website.</p><a href="/webact-redesign/pricing/design.html">View design pricing</a></article>
-<article class="card"><h3>Domain Connection</h3><p>WebAct can help connect an existing domain or point a new domain to the right servers.</p><a href="/webact-redesign/addons/domain-names.html">View domains</a></article>
-<article class="card"><h3>Dashboard Access</h3><p>Keep editing the website later by logging back into the WebAct dashboard.</p><a href="https://website.webact.com" target="_blank" rel="noreferrer">Open dashboard</a></article>
-</div>
-<div class="actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="/webact-redesign/pricing/design.html">Design Pricing</a></div>
-</section>
-
-<section class="section">
-<div class="heading"><p class="eyebrow">Advanced Editing</p><h2>More control than the simple editor.</h2><p>The professional editor is for businesses that want richer templates, deeper layout control, reusable content sections, and the option to pair internal editing with WebAct's design and support team.</p></div>
-<div class="detail-list">
-<span>Advanced layouts</span>
-<span>Reusable sections</span>
-<span>Import by URL</span>
-<span>Saved dashboard access</span>
-<span>Staging path</span>
-<span>Domain support</span>
-</div>
-<div class="actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="/webact-redesign/design/website-design.html">Professional Design</a></div>
-</section>
-
-<section class="section dark">
-<div class="heading"><p class="eyebrow">Professional Editor vs Simple Editor</p><h2>Choose the builder based on how much control you need.</h2></div>
-<div class="comparison">
-<article><h3>Professional Editor</h3><p>Best for businesses that want more template options, richer page layouts, advanced editing, and the ability to customize more of the website experience.</p><ul><li>Advanced templates</li><li>Layout control</li><li>Import by URL options</li><li>Stronger for growing sites</li></ul><div class="comparison-buttons"><a class="button primary" href="#templates">Choose Template</a><a class="button secondary" href="/webact-redesign/pricing/design.html">Design Pricing</a></div></article>
-<article><h3>Simple Editor</h3><p>Best for owners who want a faster starter flow, simpler editing, and a lightweight way to begin a website before publishing.</p><ul><li>Fast start</li><li>Simple intake flow</li><li>Starter website path</li><li>Easy editing</li></ul><div class="comparison-buttons"><a class="button primary" href="/webact-redesign/design/simple-editor.html">Simple Editor</a><a class="button secondary" href="/webact-redesign/design/index.html">Design Hub</a></div></article>
-</div>
-</section>
-
-<section class="section">
-<div class="heading"><p class="eyebrow">FAQ</p><h2>Professional Website Editor questions businesses ask before starting.</h2></div>
-<div class="faq">
-<details open><summary>What is the Professional Website Editor?</summary><p>It is a more advanced website builder experience with professional templates, deeper customization, saved dashboard access, and a publish path through WebAct hosting.</p></details>
-<details><summary>Can I import an existing website?</summary><p>Some template options support a Start with URL flow, allowing you to enter an existing website address and begin from an imported starting point.</p></details>
-<details><summary>Can I build before publishing?</summary><p>Yes. You can build and customize first. When the website is ready, choose hosting and complete the domain connection.</p></details>
-<details><summary>Should I use the professional editor or hire WebAct for full design?</summary><p>Use the professional editor if you want to control the build yourself. Choose professional website design if you want WebAct to handle strategy, layout, content, SEO structure, and conversion planning.</p></details>
-</div>
-</section>
-
-<section class="cta">
-<h2>Ready to choose a professional website template?</h2>
-<p>Start with a template, customize your site, and publish when you are ready. WebAct can also help if you want strategy, design, hosting, and domain support.</p>
-<div class="hero-actions"><a class="button primary" href="#templates">Choose a Template</a><a class="button secondary" href="tel:8556974336">Call (855) 697-4336</a></div>
-</section>
-</main>
-
-<div id="webact-footer"></div>
-<script src="/webact-redesign/script.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
-
-<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  if (window.jotformEmbedHandler) {
-    window.jotformEmbedHandler(
-      "iframe[id^='JotFormIFrame-']",
-      "https://form.jotform.com/"
-    );
-  }
-});
-</script>
-
-<!-- WEBACT ORIGINAL TEMPLATE FORM RESTYLE START -->
-
-<template data-professional-editor-css-migrated="4" data-external-stylesheet="/webact-redesign/assets/css/professional-editor.css">
-<style id="webact-original-template-form-restyle">
 .modaal-wrapper.webact-template-form-restyled .modaal-container {
     width: min(1420px, 96vw) !important;
     max-width: 1420px !important;
@@ -649,112 +408,14 @@ document.addEventListener("DOMContentLoaded", function () {
         min-height: 220px !important;
     }
 }
-</style>
-</template>
 
-<script id="webact-original-template-form-restyle-script">
-(function () {
-    "use strict";
 
-    function applyOriginalFormRestyle() {
-        var wrappers = document.querySelectorAll(".modaal-wrapper");
 
-        wrappers.forEach(function (wrapper) {
-            var form = wrapper.querySelector("form");
-            var image = wrapper.querySelector(
-                "img.modal-img, img[class*='template'], img"
-            );
+/* =========================================================
+   Original inline style block 5
+   Original attributes: id="webact-template-modal-layout-fix-css"
+   ========================================================= */
 
-            if (!form || !image) {
-                return;
-            }
-
-            wrapper.classList.add("webact-template-form-restyled");
-
-            var container = wrapper.querySelector('[id^="cont-"]');
-
-            if (!container) {
-                container = wrapper.querySelector(
-                    ".modaal-content-container"
-                );
-            }
-
-            if (!container) {
-                return;
-            }
-
-            var heading = container.querySelector("h2");
-
-            if (heading) {
-                var existingSubheading = container.querySelector(
-                    ".webact-template-subheading"
-                );
-
-                if (!existingSubheading) {
-                    var subheading = document.createElement("p");
-                    subheading.className =
-                        "webact-template-subheading";
-                    subheading.textContent =
-                        "Enter your info below to create your free account.";
-
-                    heading.insertAdjacentElement(
-                        "afterend",
-                        subheading
-                    );
-                }
-            }
-
-            var grid = container.querySelector(".pure-g");
-
-            if (!grid) {
-                return;
-            }
-
-            var columns = Array.from(grid.children);
-
-            columns.forEach(function (column) {
-                if (column.contains(image)) {
-                    column.classList.add(
-                        "webact-template-preview-column"
-                    );
-                }
-            });
-        });
-    }
-
-    var observer = new MutationObserver(function () {
-        window.requestAnimationFrame(
-            applyOriginalFormRestyle
-        );
-    });
-
-    observer.observe(document.documentElement, {
-        childList: true,
-        subtree: true
-    });
-
-    document.addEventListener("click", function () {
-        window.setTimeout(applyOriginalFormRestyle, 100);
-        window.setTimeout(applyOriginalFormRestyle, 350);
-        window.setTimeout(applyOriginalFormRestyle, 800);
-    });
-
-    if (document.readyState === "loading") {
-        document.addEventListener(
-            "DOMContentLoaded",
-            applyOriginalFormRestyle
-        );
-    } else {
-        applyOriginalFormRestyle();
-    }
-})();
-</script>
-
-<!-- WEBACT ORIGINAL TEMPLATE FORM RESTYLE END -->
-<!-- WEBACT TEMPLATE MODAL LAYOUT FIX START -->
-
-<template data-professional-editor-css-migrated="5" data-external-stylesheet="/webact-redesign/assets/css/professional-editor.css">
-<style id="webact-template-modal-layout-fix-css">
 .modaal-wrapper.webact-template-form-restyled
 .webact-template-modal-heading {
     width: 100%;
@@ -867,173 +528,4 @@ document.addEventListener("DOMContentLoaded", function () {
         font-size: 16px !important;
     }
 }
-</style>
-</template>
 
-<script id="webact-template-modal-layout-fix-js">
-(function () {
-    "use strict";
-
-    function cleanText(value) {
-        return String(value || "")
-            .replace(/\s+/g, " ")
-            .trim();
-    }
-
-    function fixTemplateModalLayout() {
-        var wrappers = document.querySelectorAll(
-            ".modaal-wrapper.webact-template-form-restyled"
-        );
-
-        wrappers.forEach(function (wrapper) {
-            var container = wrapper.querySelector('[id^="cont-"]');
-
-            if (!container) {
-                container = wrapper.querySelector(
-                    ".modaal-content-container"
-                );
-            }
-
-            if (!container) {
-                return;
-            }
-
-            var grid = container.querySelector(".pure-g");
-            var form = container.querySelector("form");
-            var image = container.querySelector(
-                "img.modal-img, img[class*='template'], img"
-            );
-
-            if (!grid || !form || !image) {
-                return;
-            }
-
-            var formColumn = form.closest(
-                '[class*="pure-u"]'
-            );
-
-            var imageColumn = image.closest(
-                '[class*="pure-u"]'
-            );
-
-            if (!formColumn) {
-                formColumn = form.parentElement;
-            }
-
-            if (!imageColumn) {
-                imageColumn = image.parentElement;
-            }
-
-            if (formColumn) {
-                formColumn.classList.add(
-                    "webact-template-form-column"
-                );
-            }
-
-            if (imageColumn) {
-                imageColumn.classList.add(
-                    "webact-template-preview-column"
-                );
-            }
-
-            var originalHeading = null;
-
-            if (imageColumn) {
-                originalHeading = imageColumn.querySelector(
-                    "h1, h2, h3"
-                );
-            }
-
-            if (!originalHeading) {
-                originalHeading = container.querySelector(
-                    "h1, h2, h3"
-                );
-            }
-
-            var titleText = originalHeading
-                ? cleanText(originalHeading.textContent)
-                : "Start with this website template?";
-
-            if (originalHeading) {
-                originalHeading.classList.add(
-                    "webact-template-original-heading-hidden"
-                );
-
-                var nextElement =
-                    originalHeading.nextElementSibling;
-
-                if (
-                    nextElement &&
-                    nextElement.tagName === "P"
-                ) {
-                    nextElement.classList.add(
-                        "webact-template-original-description-hidden"
-                    );
-                }
-            }
-
-            var heading = container.querySelector(
-                ".webact-template-modal-heading"
-            );
-
-            if (!heading) {
-                heading = document.createElement("div");
-                heading.className =
-                    "webact-template-modal-heading";
-
-                heading.innerHTML =
-                    "<h2></h2>" +
-                    "<p>Enter your info below to create your free account.</p>";
-
-                container.insertBefore(
-                    heading,
-                    grid
-                );
-            }
-
-            var headingTitle = heading.querySelector("h2");
-
-            if (headingTitle) {
-                headingTitle.textContent = titleText;
-            }
-
-            var addedSubheading = container.querySelector(
-                ".webact-template-subheading"
-            );
-
-            if (addedSubheading) {
-                addedSubheading.style.display = "none";
-            }
-        });
-    }
-
-    var observer = new MutationObserver(function () {
-        window.requestAnimationFrame(
-            fixTemplateModalLayout
-        );
-    });
-
-    observer.observe(document.documentElement, {
-        childList: true,
-        subtree: true
-    });
-
-    document.addEventListener("click", function () {
-        window.setTimeout(fixTemplateModalLayout, 100);
-        window.setTimeout(fixTemplateModalLayout, 350);
-        window.setTimeout(fixTemplateModalLayout, 800);
-    });
-
-    if (document.readyState === "loading") {
-        document.addEventListener(
-            "DOMContentLoaded",
-            fixTemplateModalLayout
-        );
-    } else {
-        fixTemplateModalLayout();
-    }
-})();
-</script>
-
-<!-- WEBACT TEMPLATE MODAL LAYOUT FIX END -->
-</body></html>
