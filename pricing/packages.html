@@ -1,99 +1,1136 @@
 ﻿<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Packages | WebAct</title>
-    <meta name="description" content="Packages combine paid advertising management with National SEO, Local SEO, GMB, listings, profile setup, reporting, and email-style follow-up support.">
-    <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Website and Marketing Package Pricing | WebAct</title>
+<meta name="description" content="Compare WebAct website and marketing packages for startups, growing businesses, established companies, and enterprise organizations.">
+
+<link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+
+<style>
+html,body{
+  height:auto!important;
+  overflow-x:hidden!important;
+}
+
+body{
+  margin:0;
+}
+
+.package-pricing-page{
+  background:#fff;
+  color:#071421;
+}
+
+/* HERO */
+
+.package-hero{
+  display:grid;
+  grid-template-columns:minmax(0,1.05fr) minmax(360px,.72fr);
+  gap:54px;
+  align-items:center;
+  padding:96px min(6vw,72px);
+  background:
+    radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),
+    linear-gradient(135deg,#061421,#0d2740 52%,#071421);
+  color:#fff;
+}
+
+.package-hero h1{
+  margin:14px 0 22px;
+  color:#fff;
+  font-size:clamp(44px,6vw,78px);
+  line-height:.96;
+  letter-spacing:-.055em;
+}
+
+.package-hero p{
+  max-width:850px;
+  margin:0;
+  color:#d9edf8;
+  font-size:20px;
+  line-height:1.65;
+}
+
+.eyebrow{
+  color:#73d7ff;
+  font-weight:900;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  margin-top:28px;
+}
+
+.button{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-width:220px!important;
+  min-height:56px!important;
+  padding:14px 24px!important;
+  box-sizing:border-box!important;
+  border-radius:14px!important;
+  font-weight:900!important;
+  text-decoration:none!important;
+}
+
+.button.primary{
+  border:2px solid #33abe1!important;
+  background:#33abe1!important;
+  color:#061421!important;
+}
+
+.button.secondary{
+  border:2px solid #fff!important;
+  background:#fff!important;
+  color:#071421!important;
+}
+
+/* HERO FORM */
+
+.hero-form-card{
+  width:100%;
+  max-width:520px;
+  justify-self:end;
+  padding:34px;
+  box-sizing:border-box;
+  overflow:hidden;
+  border-radius:28px;
+  background:rgba(255,255,255,.97);
+  color:#071421;
+  box-shadow:0 30px 80px rgba(0,0,0,.28);
+}
+
+.hero-form-card h2{
+  margin:0 0 8px;
+  color:#071421;
+  font-size:30px;
+}
+
+.hero-form-card > p{
+  margin:0 0 20px;
+  color:#4b5b66;
+  font-size:16px;
+  line-height:1.55;
+}
+
+.hero-form{
+  display:block;
+  width:100%;
+  margin:0;
+  padding:0;
+  background:transparent;
+  box-shadow:none;
+}
+
+.hero-form label{
+  display:block;
+  margin:0 0 14px;
+  color:#203241;
+  font-size:14px;
+  font-weight:900;
+}
+
+.hero-form input,
+.hero-form select,
+.hero-form textarea{
+  display:block;
+  width:100%;
+  min-width:0;
+  margin-top:7px;
+  padding:13px 14px;
+  box-sizing:border-box;
+  border:1px solid #cddce7;
+  border-radius:12px;
+  background:#fff;
+  color:#071421;
+  font:inherit;
+}
+
+.hero-form textarea{
+  min-height:100px;
+  resize:vertical;
+}
+
+.hero-form .button{
+  width:100%;
+  margin-top:6px;
+}
+
+/* GENERAL */
+
+.section{
+  padding:88px min(6vw,72px);
+}
+
+.soft{
+  background:#f4f8fb;
+}
+
+.heading{
+  max-width:980px;
+  margin:0 auto 48px;
+  text-align:center;
+}
+
+.heading .eyebrow{
+  color:#0c9bd2;
+}
+
+.heading h2{
+  margin:10px 0 18px;
+  color:#071421;
+  font-size:clamp(34px,4.6vw,62px);
+  line-height:1;
+  letter-spacing:-.045em;
+}
+
+.heading p{
+  margin:0;
+  color:#4b5b66;
+  font-size:18px;
+  line-height:1.65;
+}
+
+/* PACKAGE CARDS */
+
+.package-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:26px;
+  max-width:1500px;
+  margin:0 auto;
+}
+
+.package-card{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  min-height:650px;
+  padding:32px;
+  border:1px solid #dcecf5;
+  border-radius:30px;
+  background:#fff;
+  box-shadow:0 18px 44px rgba(7,20,33,.08);
+  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;
+}
+
+.package-card:hover{
+  transform:translateY(-5px);
+  border-color:#33abe1;
+  box-shadow:0 28px 64px rgba(7,20,33,.14);
+}
+
+.package-card.featured{
+  border:2px solid #33abe1;
+  background:linear-gradient(180deg,#fff,#f3fbff);
+}
+
+.package-badge{
+  display:inline-flex;
+  width:max-content;
+  margin-bottom:18px;
+  padding:8px 12px;
+  border:1px solid #bfe8f7;
+  border-radius:999px;
+  background:#eaf8fe;
+  color:#0c658c;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+}
+
+.package-card h3{
+  margin:0 0 10px;
+  color:#071421;
+  font-size:32px;
+  line-height:1.05;
+}
+
+.package-description{
+  min-height:82px;
+  margin:0 0 22px;
+  color:#4b5b66;
+  font-size:16px;
+  line-height:1.6;
+}
+
+.package-price{
+  margin:0;
+  color:#0c9bd2;
+  font-size:48px;
+  font-weight:900;
+  letter-spacing:-.04em;
+  line-height:1;
+}
+
+.package-cycle{
+  margin:8px 0 12px;
+  color:#657580;
+  font-weight:900;
+}
+
+.package-savings{
+  margin:0 0 24px;
+  color:#087d57;
+  font-weight:900;
+}
+
+.package-card ul{
+  display:grid;
+  gap:12px;
+  margin:0 0 28px;
+  padding:24px 0 0;
+  border-top:1px solid #dcecf5;
+  list-style:none;
+}
+
+.package-card li{
+  color:#203241;
+  font-weight:800;
+  line-height:1.45;
+}
+
+.package-card li:before{
+  content:"✓ ";
+  color:#0c9bd2;
+  font-weight:900;
+}
+
+.package-card .button{
+  width:100%;
+  margin-top:auto;
+}
+
+/* PACKAGE GUIDE */
+
+.guide-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:22px;
+  max-width:1320px;
+  margin:0 auto;
+}
+
+.guide-card{
+  padding:28px;
+  border:1px solid #e0ebf2;
+  border-radius:26px;
+  background:#fff;
+  box-shadow:0 16px 36px rgba(7,20,33,.06);
+}
+
+.guide-card span{
+  display:flex;
+  width:52px;
+  height:52px;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:18px;
+  border-radius:15px;
+  background:#33abe1;
+  color:#061421;
+  font-weight:900;
+}
+
+.guide-card h3{
+  margin:0 0 10px;
+  color:#071421;
+  font-size:24px;
+}
+
+.guide-card p{
+  margin:0;
+  color:#4b5b66;
+  line-height:1.65;
+}
+
+/* VALUE BAND */
+
+.value-band{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:32px;
+  align-items:center;
+  max-width:1320px;
+  margin:0 auto;
+  padding:52px;
+  border-radius:34px;
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  box-shadow:0 26px 70px rgba(7,20,33,.18);
+}
+
+.value-band h2{
+  margin:10px 0 14px;
+  color:#fff;
+  font-size:clamp(34px,4.5vw,58px);
+  line-height:1;
+  letter-spacing:-.045em;
+}
+
+.value-band p{
+  max-width:850px;
+  margin:0;
+  color:#d4e8f2;
+  font-size:18px;
+  line-height:1.65;
+}
+
+/* COMPARISON */
+
+.comparison-wrap{
+  max-width:1500px;
+  margin:0 auto;
+  overflow-x:auto;
+  border:1px solid #dcecf5;
+  border-radius:28px;
+  background:#fff;
+  box-shadow:0 18px 44px rgba(7,20,33,.07);
+}
+
+.comparison-table{
+  width:100%;
+  min-width:1050px;
+  border-collapse:collapse;
+}
+
+.comparison-table th,
+.comparison-table td{
+  padding:18px 16px;
+  border-bottom:1px solid #e4edf3;
+  text-align:center;
+}
+
+.comparison-table th{
+  background:#071421;
+  color:#fff;
+  font-size:16px;
+}
+
+.comparison-table th:first-child,
+.comparison-table td:first-child{
+  position:sticky;
+  left:0;
+  min-width:260px;
+  text-align:left;
+  background:#f7fbfe;
+  color:#071421;
+  font-weight:900;
+}
+
+.comparison-table th:first-child{
+  background:#071421;
+  color:#fff;
+}
+
+.comparison-table tr:last-child td{
+  border-bottom:0;
+}
+
+.check{
+  color:#0c9bd2;
+  font-size:22px;
+  font-weight:900;
+}
+
+/* FAQ */
+
+.faq-list{
+  display:grid;
+  gap:16px;
+  max-width:1180px;
+  margin:0 auto;
+}
+
+.faq-list details{
+  padding:22px 26px;
+  border:1px solid #dcecf5;
+  border-radius:18px;
+  background:#fff;
+  box-shadow:0 12px 28px rgba(7,20,33,.06);
+}
+
+.faq-list summary{
+  color:#071421;
+  font-size:20px;
+  font-weight:900;
+  cursor:pointer;
+}
+
+.faq-list p{
+  margin:18px 0 0;
+  color:#4b5b66;
+  line-height:1.7;
+}
+
+/* CTA */
+
+.final-cta{
+  padding:88px min(6vw,72px);
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  text-align:center;
+}
+
+.final-cta h2{
+  margin:0 0 16px;
+  color:#fff;
+  font-size:clamp(34px,5vw,64px);
+  line-height:1;
+}
+
+.final-cta p{
+  max-width:820px;
+  margin:0 auto;
+  color:#d4e8f2;
+  font-size:19px;
+  line-height:1.6;
+}
+
+.final-cta .hero-actions{
+  justify-content:center;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1180px){
+  .package-hero{
+    grid-template-columns:1fr;
+  }
+
+  .hero-form-card{
+    max-width:none;
+    justify-self:stretch;
+  }
+
+  .package-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
+  .guide-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
+  .value-band{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:720px){
+  .package-hero,
+  .section,
+  .final-cta{
+    padding:56px 20px;
+  }
+
+  .package-grid,
+  .guide-grid{
+    grid-template-columns:1fr;
+  }
+
+  .package-card{
+    min-height:0;
+  }
+
+  .hero-form-card,
+  .value-band{
+    padding:26px;
+  }
+
+  .hero-actions .button{
+    width:100%;
+  }
+}
+</style>
 </head>
-  <body>
+
+<body class="package-pricing-page">
+
 <div id="webact-header"></div>
-<main><section class="page-hero">
+
+<main>
+
+<section class="package-hero">
   <div>
-    <p class="breadcrumb"><a href="/index.html">Home</a> / Pricing</p>
-    <p class="eyebrow">Advertising and marketing together</p>
-    <h1>Packages</h1>
-    <p class="hero-lede">Packages combine paid advertising management with National SEO, Local SEO, GMB, listings, profile setup, reporting, and email-style follow-up support.</p>
+    <p class="eyebrow">Package Pricing</p>
+
+    <h1>Website and marketing packages designed to grow with your business.</h1>
+
+    <p>
+      Combine website design, ongoing updates, local listings, SEO content,
+      advertising campaigns, domains, email, and account support into one
+      monthly or annual package.
+    </p>
+
     <div class="hero-actions">
-      <a class="button primary" href="/contact/index.html">Start a conversation</a>
-      <a class="button secondary" href="/pricing/index.html">View pricing</a>
+      <a class="button primary" href="#packages">Compare Packages</a>
+      <a class="button secondary" href="/webact-redesign/contact/index.html">Ask WebAct</a>
     </div>
   </div>
-  <img src="/webact-redesign/assets/digital-ads.jpg" alt="Packages visual">
+
+  <aside class="hero-form-card">
+    <h2>Find the Right Package</h2>
+
+    <p>
+      Tell us about your business and WebAct can recommend the package that best
+      matches your website, SEO, advertising, and support needs.
+    </p>
+
+    <form class="hero-form">
+      <label>
+        Full Name
+        <input type="text" name="name" autocomplete="name">
+      </label>
+
+      <label>
+        Email Address
+        <input type="email" name="email" autocomplete="email">
+      </label>
+
+      <label>
+        Business Stage
+        <select name="business_stage">
+          <option>New or Startup Business</option>
+          <option>Growing Small Business</option>
+          <option>Established Business</option>
+          <option>Multi-Location Business</option>
+          <option>Large or Enterprise Business</option>
+          <option>Not Sure Yet</option>
+        </select>
+      </label>
+
+      <label>
+        What do you need help with?
+        <textarea name="message"></textarea>
+      </label>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Request Package Help
+      </a>
+    </form>
+  </aside>
 </section>
-<section class="section website-design-intro marketing-pricing-intro">
-  <div class="service-link-row" aria-label="Package pricing quick links">
-    <a href="#growth-packages">Packages</a>
-    <a href="#paid-ads-pricing">Paid Ads</a>
-    <a href="#seo-pricing">Local SEO</a>
-    <a href="#listings-pricing">Listings</a>
-    <a href="/contact/index.html">Request Quote</a>
+
+<section class="section soft" id="packages">
+  <div class="heading">
+    <p class="eyebrow">WebAct Packages</p>
+
+    <h2>Choose the package that matches your current growth stage.</h2>
+
+    <p>
+      Package pricing combines multiple services at a discount compared with
+      purchasing each service individually.
+    </p>
   </div>
-  <div class="website-design-copy">
-    <p class="eyebrow">Packages</p>
-    <h2>Advertising and marketing pricing in one place.</h2>
-    <p>Use this page to compare combined WebAct growth packages, then review the individual paid advertising, Local SEO, profile, and listings pricing that can be mixed into the right monthly plan.</p>
+
+  <div class="package-grid">
+
+    <article class="package-card">
+      <span class="package-badge">Small Business Starter</span>
+      <h3>Start Up</h3>
+
+      <p class="package-description">
+        A package for small businesses with a limited budget that are ready to
+        establish a professional presence online.
+      </p>
+
+      <p class="package-price">$299</p>
+      <p class="package-cycle">Per month</p>
+      <p class="package-savings">Save $499 with an annual plan</p>
+
+      <ul>
+        <li>Responsive website with up to 5 pages</li>
+        <li>Up to 3 website update requests per month</li>
+        <li>Local Listings Optimization</li>
+      </ul>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Choose Start Up
+      </a>
+    </article>
+
+    <article class="package-card">
+      <span class="package-badge">Growing Business</span>
+      <h3>Grow</h3>
+
+      <p class="package-description">
+        A package for growing businesses that need a larger website and an
+        initial boost to their search visibility.
+      </p>
+
+      <p class="package-price">$799</p>
+      <p class="package-cycle">Per month</p>
+      <p class="package-savings">Save $999 with an annual plan</p>
+
+      <ul>
+        <li>Responsive website with up to 10 pages</li>
+        <li>Up to 6 website update requests per month</li>
+        <li>Local Listings Optimization</li>
+        <li>SEO content creation and management for 2 keywords each month</li>
+      </ul>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Choose Grow
+      </a>
+    </article>
+
+    <article class="package-card featured">
+      <span class="package-badge">Popular Growth Package</span>
+      <h3>Boost</h3>
+
+      <p class="package-description">
+        A package for established businesses that need a stronger website,
+        ongoing SEO, and managed advertising.
+      </p>
+
+      <p class="package-price">$999</p>
+      <p class="package-cycle">Per month</p>
+      <p class="package-savings">Save $1,499 with an annual plan</p>
+
+      <ul>
+        <li>Responsive website with up to 15 pages</li>
+        <li>Up to 10 website update requests per month</li>
+        <li>Local Listings Optimization</li>
+        <li>SEO content creation and management for 3 keywords each month</li>
+        <li>1 managed PPC campaign</li>
+      </ul>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Choose Boost
+      </a>
+    </article>
+
+    <article class="package-card">
+      <span class="package-badge">Established Business</span>
+      <h3>Expand</h3>
+
+      <p class="package-description">
+        A more concentrated website and marketing package for businesses that
+        want to expand their reach and lead generation.
+      </p>
+
+      <p class="package-price">$1,999</p>
+      <p class="package-cycle">Per month</p>
+      <p class="package-savings">Save $2,999 with an annual plan</p>
+
+      <ul>
+        <li>Responsive website with up to 20 pages</li>
+        <li>Up to 15 website update requests per month</li>
+        <li>Local Listings Optimization</li>
+        <li>SEO content creation and management for 5 keywords each month</li>
+        <li>2 managed PPC campaigns</li>
+        <li>Domain name</li>
+      </ul>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Choose Expand
+      </a>
+    </article>
+
+    <article class="package-card">
+      <span class="package-badge">Advanced Growth</span>
+      <h3>Flourish</h3>
+
+      <p class="package-description">
+        A larger-scale website and marketing package for businesses requiring
+        more content, advertising, support, and infrastructure.
+      </p>
+
+      <p class="package-price">$4,999</p>
+      <p class="package-cycle">Per month</p>
+      <p class="package-savings">Save $7,499 with an annual plan</p>
+
+      <ul>
+        <li>Responsive website with up to 35 pages</li>
+        <li>Up to 25 website update requests per month</li>
+        <li>Local Listings Optimization</li>
+        <li>SEO content creation and management for 10 keywords each month</li>
+        <li>4 managed PPC campaigns</li>
+        <li>Domain name</li>
+        <li>Email addresses</li>
+      </ul>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Choose Flourish
+      </a>
+    </article>
+
+    <article class="package-card">
+      <span class="package-badge">Enterprise Package</span>
+      <h3>Ultimate</h3>
+
+      <p class="package-description">
+        A complete website, SEO, listings, advertising, email, and account
+        management package for enterprise businesses.
+      </p>
+
+      <p class="package-price">$14,999</p>
+      <p class="package-cycle">Per month</p>
+      <p class="package-savings">Save $19,999 with an annual plan</p>
+
+      <ul>
+        <li>Responsive website with up to 75 pages</li>
+        <li>Unlimited website update requests per month</li>
+        <li>Local Listings Optimization with reputation management</li>
+        <li>SEO content creation and management for 20 keywords each month</li>
+        <li>8 managed PPC campaigns</li>
+        <li>Managed Yelp advertising campaign</li>
+        <li>Domain name</li>
+        <li>5 business email accounts</li>
+        <li>Dedicated account manager</li>
+      </ul>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Choose Ultimate
+      </a>
+    </article>
+
   </div>
 </section>
-<section class="section website-benefits-section" id="growth-packages">
-  <div class="section-heading compact">
-    <p class="eyebrow">Combined Packages</p>
-    <h2>Packages that mix paid ads with marketing support.</h2>
-    <p>Package pricing starts with the listed WebAct management costs. Advertising media spend is separate and can be adjusted by campaign goals, geography, and channel.</p>
-  </div>
-  <div class="pricing-grid rich-pricing-grid marketing-pricing-grid">
-    <article><h3>Paid Search Starter</h3><strong>$300/mo/campaign + ad budget</strong><p>Best when the main need is Google, Bing, shopping, display, video, or remarketing campaign management.</p><ul><li>PPC campaign management</li><li>Keyword and offer direction</li><li>Ad channel setup support</li><li>Monthly campaign reporting</li></ul><a class="button primary" href="/contact/index.html">Get package quote</a></article><article><h3>Local Visibility Starter</h3><strong>From $1,500/mo + ad budget</strong><p>Combines one paid campaign with the Local SEO Standard plan for businesses that need calls and organic visibility.</p><ul><li>1 PPC campaign</li><li>Local SEO Standard</li><li>Website health checkup</li><li>Ranking and campaign reports</li></ul><a class="button primary" href="/contact/index.html">Get package quote</a></article><article><h3>Local Growth Package</h3><strong>From $3,200/mo + ad budget</strong><p>Blends paid ads, Local SEO Plus, and managed listings for businesses competing across several service areas.</p><ul><li>1 PPC campaign</li><li>Local SEO Plus</li><li>Managed Listings</li><li>Profile and directory cleanup</li></ul><a class="button primary" href="/contact/index.html">Get package quote</a></article><article><h3>Premium Growth Package</h3><strong>From $6,100/mo + ad budget</strong><p>A larger combined package for competitive markets, multiple locations, heavier content needs, and deeper reporting.</p><ul><li>1 PPC campaign</li><li>Local SEO Premium</li><li>Managed Listings +</li><li>Advanced monthly reporting</li></ul><a class="button primary" href="/contact/index.html">Get package quote</a></article>
-  </div>
-</section>
-<section class="section website-benefits-section" id="paid-ads-pricing">
-  <div class="section-heading compact">
-    <p class="eyebrow">Paid Ads</p>
-    <h2>Advertising items that can be included in a package.</h2>
-  </div>
-  <div class="pricing-grid rich-pricing-grid marketing-pricing-grid three-card-grid">
-    <article><h3>PPC Advertising</h3><strong>$300/campaign + ad budget</strong><p>Campaign management pricing for paid search and shopping campaigns.</p><ul><li>Google Search Advertising</li><li>Google Display Advertising</li><li>Google Remarketing Advertising</li><li>Google Video Advertising</li><li>Google Shopping Advertising</li><li>Bing Search Ads</li><li>Bing Shopping Ads</li><li>Bing Mobile Ads</li></ul><a class="button primary" href="/contact/index.html">Add to package</a></article><article><h3>Google My Business/Bing Places</h3><strong>Setup or management</strong><p>One-time setup and ongoing management options for Google Business Profile and Bing Places.</p><ul><li>Google My Business support</li><li>Bing Places support</li><li>Profile setup</li><li>Ongoing management options</li></ul><a class="button primary" href="/contact/index.html">Add to package</a></article><article><h3>Social Media Page Setup</h3><strong>Setup or management</strong><p>One-time setup and ongoing management options for social media business pages.</p><ul><li>Social media page setup</li><li>Profile information</li><li>Brand consistency</li><li>Ongoing management options</li></ul><a class="button primary" href="/contact/index.html">Add to package</a></article>
-  </div>
-</section>
-<section class="section website-benefits-section" id="seo-pricing">
-  <div class="section-heading compact">
-    <p class="eyebrow">Local SEO</p>
-    <h2>Monthly Local SEO plans that can pair with advertising.</h2>
-  </div>
-  <div class="pricing-grid rich-pricing-grid marketing-pricing-grid three-card-grid">
-    <article><h3>Local SEO Standard</h3><strong>$1,200/mo</strong><p>Perfect for new companies. No contract.</p><ul><li>1 new main keyword</li><li>4 local towns or cities</li><li>4 new articles</li><li>Website health checkup</li><li>Local link building</li><li>50 keyword tracker</li><li>Ranking reports</li></ul><a class="button primary" href="/contact/index.html">Add to package</a></article><article><h3>Local SEO Plus</h3><strong>$2,400/mo</strong><p>Perfect for small companies. No contract.</p><ul><li>2 new main keywords</li><li>5 local towns or cities each</li><li>10 new articles</li><li>Website checkup and audit</li><li>Local link building</li><li>100 keyword tracker</li><li>Ranking reports</li></ul><a class="button primary" href="/contact/index.html">Add to package</a></article><article><h3>Local SEO Premium</h3><strong>$5,000/mo</strong><p>Perfect for any size company. No contract.</p><ul><li>4 new main keywords</li><li>6 local towns or cities each</li><li>24 new articles</li><li>Website checkup and audit</li><li>Local link building</li><li>200 keyword tracker</li><li>Ranking reports</li></ul><a class="button primary" href="/contact/index.html">Add to package</a></article>
+
+<section class="section">
+  <div class="value-band">
+    <div>
+      <p class="eyebrow">Monthly or Annual</p>
+
+      <h2>Save more by choosing an annual package.</h2>
+
+      <p>
+        Every package can be purchased as a recurring monthly plan or an annual
+        plan. Annual packages provide additional savings while keeping website,
+        SEO, listings, advertising, and support services together.
+      </p>
+    </div>
+
+    <a class="button primary" href="/webact-redesign/contact/index.html">
+      Request Annual Pricing
+    </a>
   </div>
 </section>
-<section class="section website-benefits-section" id="listings-pricing">
-  <div class="section-heading compact">
-    <p class="eyebrow">Local Listings</p>
-    <h2>Listings plans priced per month, per location.</h2>
+
+<section class="section soft">
+  <div class="heading">
+    <p class="eyebrow">Package Buying Guide</p>
+
+    <h2>Which WebAct package is the right fit?</h2>
+
+    <p>
+      Start with the size of the website, then consider how much ongoing SEO,
+      advertising, listings, email, and support your business needs.
+    </p>
   </div>
-  <div class="pricing-grid rich-pricing-grid marketing-pricing-grid three-card-grid">
-    <article><h3>DIY Listings</h3><strong>$300/mo/location</strong><p>Perfect for new companies.</p><ul><li>Optimize your own location</li><li>Access to the platform</li><li>Verify your own listings</li><li>Over 100+ listings</li><li>Manage your own reviews</li></ul><a class="button primary" href="/contact/index.html">Add to package</a></article><article><h3>Managed Listings</h3><strong>$500/mo/location</strong><p>Perfect for small companies.</p><ul><li>Optimize your location</li><li>Images and logo</li><li>Products and services</li><li>Verify 100+ featured listings</li><li>Team bios and images</li><li>Featured message</li><li>Monthly reports</li></ul><a class="button primary" href="/contact/index.html">Add to package</a></article><article><h3>Managed Listings +</h3><strong>$800/mo/location</strong><p>Perfect for any company.</p><ul><li>Optimize your location</li><li>Images and logo</li><li>Products and services</li><li>Verify 100+ featured listings</li><li>Team bios and images</li><li>Featured message</li><li>Monthly reports</li><li>Review monitoring and response</li></ul><a class="button primary" href="/contact/index.html">Add to package</a></article>
+
+  <div class="guide-grid">
+
+    <article class="guide-card">
+      <span>01</span>
+      <h3>Start Up or Grow</h3>
+      <p>
+        Best for newer and smaller businesses that primarily need a professional
+        website, website updates, listings, and introductory SEO.
+      </p>
+    </article>
+
+    <article class="guide-card">
+      <span>02</span>
+      <h3>Boost</h3>
+      <p>
+        Best for established small businesses ready to combine a larger website,
+        ongoing SEO content, listings, and one managed advertising campaign.
+      </p>
+    </article>
+
+    <article class="guide-card">
+      <span>03</span>
+      <h3>Expand</h3>
+      <p>
+        Best for businesses that need more pages, more SEO targets, two
+        advertising campaigns, additional website support, and a domain.
+      </p>
+    </article>
+
+    <article class="guide-card">
+      <span>04</span>
+      <h3>Flourish</h3>
+      <p>
+        Best for larger businesses that need substantial website content,
+        frequent updates, multiple PPC campaigns, listings, a domain, and email.
+      </p>
+    </article>
+
+    <article class="guide-card">
+      <span>05</span>
+      <h3>Ultimate</h3>
+      <p>
+        Best for enterprise businesses that need a large website, unlimited
+        updates, reputation support, multiple ad campaigns, email accounts, and
+        a dedicated account manager.
+      </p>
+    </article>
+
+    <article class="guide-card">
+      <span>06</span>
+      <h3>Custom Recommendation</h3>
+      <p>
+        WebAct can help determine whether a package or a combination of a la
+        carte design, SEO, advertising, and add-on services offers the best value.
+      </p>
+    </article>
+
   </div>
 </section>
-<section class="section website-metrics-section">
-  <div>
-    <p class="eyebrow">Package Notes</p>
-    <h2>Build the package around the outcome.</h2>
-    <p>Start with paid ads for immediate demand, add Local SEO for long-term visibility, include listings for local trust, and use profile support so campaign traffic lands on stronger business information.</p>
+
+<section class="section">
+  <div class="heading">
+    <p class="eyebrow">Package Comparison</p>
+
+    <h2>Compare website size, support, SEO, and advertising.</h2>
+
+    <p>
+      Use this chart to quickly compare the main differences between WebAct
+      packages.
+    </p>
   </div>
-  <div class="metric-grid">
-    <article><strong>$300</strong><span>PPC management per campaign</span></article>
-    <article><strong>$1,200</strong><span>Local SEO starts per month</span></article>
-    <article><strong>$300</strong><span>Listings start per month/location</span></article>
-    <article><strong>1</strong><span>Combined packages tab</span></article>
+
+  <div class="comparison-wrap">
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Included Service</th>
+          <th>Start Up</th>
+          <th>Grow</th>
+          <th>Boost</th>
+          <th>Expand</th>
+          <th>Flourish</th>
+          <th>Ultimate</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Monthly Price</td>
+          <td>$299</td>
+          <td>$799</td>
+          <td>$999</td>
+          <td>$1,999</td>
+          <td>$4,999</td>
+          <td>$14,999</td>
+        </tr>
+
+        <tr>
+          <td>Website Pages</td>
+          <td>Up to 5</td>
+          <td>Up to 10</td>
+          <td>Up to 15</td>
+          <td>Up to 20</td>
+          <td>Up to 35</td>
+          <td>Up to 75</td>
+        </tr>
+
+        <tr>
+          <td>Monthly Update Requests</td>
+          <td>3</td>
+          <td>6</td>
+          <td>10</td>
+          <td>15</td>
+          <td>25</td>
+          <td>Unlimited</td>
+        </tr>
+
+        <tr>
+          <td>Local Listings</td>
+          <td class="check">✓</td>
+          <td class="check">✓</td>
+          <td class="check">✓</td>
+          <td class="check">✓</td>
+          <td class="check">✓</td>
+          <td>With reputation management</td>
+        </tr>
+
+        <tr>
+          <td>SEO Keywords Per Month</td>
+          <td>—</td>
+          <td>2</td>
+          <td>3</td>
+          <td>5</td>
+          <td>10</td>
+          <td>20</td>
+        </tr>
+
+        <tr>
+          <td>Managed PPC Campaigns</td>
+          <td>—</td>
+          <td>—</td>
+          <td>1</td>
+          <td>2</td>
+          <td>4</td>
+          <td>8</td>
+        </tr>
+
+        <tr>
+          <td>Domain Name</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="check">✓</td>
+          <td class="check">✓</td>
+          <td class="check">✓</td>
+        </tr>
+
+        <tr>
+          <td>Business Email</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>Included</td>
+          <td>5 accounts</td>
+        </tr>
+
+        <tr>
+          <td>Dedicated Account Manager</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="check">✓</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-</section></main>
-    <div id="webact-footer"></div>
-    <script src="/webact-redesign/script.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+</section>
+
+<section class="section soft">
+  <div class="heading">
+    <p class="eyebrow">Package Pricing FAQ</p>
+
+    <h2>Questions about WebAct package pricing.</h2>
+  </div>
+
+  <div class="faq-list">
+
+    <details open>
+      <summary>Are the packages monthly or annual?</summary>
+      <p>
+        WebAct packages are recurring monthly or annual plans. Annual plans
+        include additional savings compared with paying monthly.
+      </p>
+    </details>
+
+    <details>
+      <summary>Do package prices include the advertising budget?</summary>
+      <p>
+        Managed advertising campaigns are included where listed, but the media
+        budget paid to Google, Microsoft, Yelp, or another advertising platform
+        is separate unless specifically stated in a proposal.
+      </p>
+    </details>
+
+    <details>
+      <summary>What is considered a website update request?</summary>
+      <p>
+        Website update requests generally include approved content, image,
+        layout, link, service, product, or page edits within the scope of the
+        selected package.
+      </p>
+    </details>
+
+    <details>
+      <summary>Can I upgrade packages later?</summary>
+      <p>
+        Yes. A business can begin with a smaller package and move to a larger
+        package as its website, SEO, advertising, listings, and support needs
+        increase.
+      </p>
+    </details>
+
+    <details>
+      <summary>Can I purchase services separately instead?</summary>
+      <p>
+        Yes. WebAct also offers a la carte pricing for website design, hosting,
+        SEO, AEO, local listings, Google Business Profile services, email
+        marketing, advertising, branding, and graphic design.
+      </p>
+    </details>
+
+    <details>
+      <summary>Which package is best for a new business?</summary>
+      <p>
+        Start Up is designed for smaller businesses with limited budgets. Grow
+        adds a larger website and ongoing SEO support for businesses beginning
+        to expand.
+      </p>
+    </details>
+
+    <details>
+      <summary>Which package includes advertising?</summary>
+      <p>
+        Boost includes one managed PPC campaign, Expand includes two, Flourish
+        includes four, and Ultimate includes eight managed PPC campaigns plus a
+        managed Yelp advertising campaign.
+      </p>
+    </details>
+
+    <details>
+      <summary>Which package includes reputation management?</summary>
+      <p>
+        Ultimate includes Local Listings Optimization with reputation
+        management.
+      </p>
+    </details>
+
+    <details>
+      <summary>Does Ultimate include a dedicated account manager?</summary>
+      <p>
+        Yes. The Ultimate package includes a dedicated account manager along
+        with the largest website, SEO, advertising, email, listings, and support
+        allocation.
+      </p>
+    </details>
+
+  </div>
+</section>
+
+<section class="final-cta">
+  <h2>Ready to choose a website and marketing package?</h2>
+
+  <p>
+    Tell WebAct about your business, website size, growth goals, advertising
+    needs, locations, and preferred budget. We can recommend the package that
+    provides the best fit.
+  </p>
+
+  <div class="hero-actions">
+    <a class="button primary" href="/webact-redesign/contact/index.html">
+      Request Package Pricing
+    </a>
+
+    <a class="button secondary" href="/webact-redesign/pricing/index.html">
+      Back to Pricing
+    </a>
+  </div>
+</section>
+
+</main>
+
+<div id="webact-footer"></div>
+
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
 </body>
 </html>
-
