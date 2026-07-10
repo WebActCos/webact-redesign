@@ -5,15 +5,14 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>SEO and Marketing Pricing | WebAct</title>
-<meta name="description" content="Explore WebAct pricing and service options for Local SEO, National SEO, AEO, Google Business Profile optimization, local listings, content marketing, email marketing, and reputation support.">
+<meta name="description" content="WebAct pricing for Local SEO, PPC advertising, AEO, Google Business Profile, Bing Places, local listings, social media setup, content marketing, and reputation support.">
 
 <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
 
 <style>
-html,
-body{
+html,body{
   height:auto!important;
   overflow-x:hidden!important;
 }
@@ -27,26 +26,24 @@ body{
   color:#071421;
 }
 
-/* HERO */
-
 .marketing-hero{
-  background:
-    radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),
-    linear-gradient(135deg,#061421,#0d2740 52%,#071421);
-  color:#fff;
-  padding:96px min(6vw,72px);
   display:grid;
   grid-template-columns:minmax(0,1.05fr) minmax(360px,.72fr);
   gap:54px;
   align-items:center;
+  padding:96px min(6vw,72px);
+  background:
+    radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),
+    linear-gradient(135deg,#061421,#0d2740 52%,#071421);
+  color:#fff;
 }
 
 .marketing-hero h1{
+  margin:14px 0 22px;
+  color:#fff;
   font-size:clamp(44px,6vw,78px);
   line-height:.96;
-  margin:14px 0 22px;
   letter-spacing:-.055em;
-  color:#fff;
 }
 
 .marketing-hero p{
@@ -78,34 +75,31 @@ body{
   min-width:220px!important;
   min-height:56px!important;
   padding:14px 24px!important;
+  box-sizing:border-box!important;
   border-radius:14px!important;
   font-weight:900!important;
   text-decoration:none!important;
-  box-sizing:border-box!important;
 }
 
 .button.primary{
-  background:#33abe1!important;
   border:2px solid #33abe1!important;
+  background:#33abe1!important;
   color:#061421!important;
 }
 
 .button.secondary{
-  background:#fff!important;
   border:2px solid #fff!important;
+  background:#fff!important;
   color:#071421!important;
 }
-
-/* HERO FORM */
 
 .hero-form-card{
   width:100%;
   max-width:520px;
   justify-self:end;
+  padding:34px;
   box-sizing:border-box;
   overflow:hidden;
-  padding:34px;
-  border:1px solid rgba(255,255,255,.22);
   border-radius:28px;
   background:rgba(255,255,255,.97);
   color:#071421;
@@ -147,7 +141,6 @@ body{
 .hero-form textarea{
   display:block;
   width:100%;
-  max-width:100%;
   min-width:0;
   margin-top:7px;
   padding:13px 14px;
@@ -168,8 +161,6 @@ body{
   width:100%;
   margin-top:6px;
 }
-
-/* GENERAL */
 
 .section{
   padding:88px min(6vw,72px);
@@ -204,220 +195,159 @@ body{
   line-height:1.65;
 }
 
-/* PRICING CARDS */
+/* Large pricing feature section */
 
-.pricing-grid{
+.pricing-feature{
   display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:24px;
+  grid-template-columns:minmax(350px,.88fr) minmax(0,1.12fr);
+  gap:52px;
+  align-items:stretch;
   max-width:1500px;
   margin:0 auto;
 }
 
-.pricing-card{
+.pricing-intro{
   display:flex;
   flex-direction:column;
-  min-height:430px;
-  padding:30px;
-  border:1px solid #e0ebf2;
-  border-radius:28px;
-  background:#fff;
-  box-shadow:0 18px 42px rgba(7,20,33,.08);
-  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;
-}
-
-.pricing-card:hover{
-  transform:translateY(-4px);
-  border-color:#33abe1;
-  box-shadow:0 26px 60px rgba(7,20,33,.13);
-}
-
-.pricing-label{
-  display:inline-flex;
-  width:max-content;
-  margin-bottom:20px;
-  padding:8px 12px;
-  border:1px solid #bfe8f7;
-  border-radius:999px;
-  background:#eaf8fe;
-  color:#0c658c;
-  font-size:12px;
-  font-weight:900;
-  text-transform:uppercase;
-}
-
-.pricing-card h3{
-  margin:0 0 12px;
-  color:#071421;
-  font-size:28px;
-  line-height:1.08;
-}
-
-.price{
-  margin:0 0 16px;
-  color:#0c9bd2;
-  font-size:34px;
-  font-weight:900;
-  line-height:1.1;
-}
-
-.pricing-card > p:not(.price){
-  margin:0 0 20px;
-  color:#4b5b66;
-  font-size:16px;
-  line-height:1.65;
-}
-
-.pricing-card ul{
-  display:grid;
-  gap:10px;
-  margin:auto 0 24px;
-  padding:0;
-  list-style:none;
-}
-
-.pricing-card li{
-  color:#203241;
-  font-weight:800;
-  line-height:1.45;
-}
-
-.pricing-card li:before{
-  content:"✓ ";
-  color:#0c9bd2;
-  font-weight:900;
-}
-
-.pricing-card .card-link{
-  display:inline-flex;
-  align-items:center;
-  margin-top:auto;
-  color:#0c9bd2;
-  font-weight:900;
-  text-decoration:none;
-}
-
-/* AEO FEATURE */
-
-.aeo-feature{
-  display:grid;
-  grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);
-  gap:48px;
-  max-width:1380px;
-  margin:0 auto;
-  align-items:center;
-}
-
-.aeo-panel{
-  padding:44px;
-  border-radius:32px;
+  justify-content:center;
+  min-height:480px;
+  padding:48px;
+  border-radius:34px;
   background:linear-gradient(135deg,#0b243a,#071421);
   color:#fff;
   box-shadow:0 26px 70px rgba(7,20,33,.18);
 }
 
-.aeo-panel h2{
-  margin:12px 0 18px;
+.pricing-intro h2{
+  margin:14px 0 20px;
   color:#fff;
-  font-size:clamp(36px,4.5vw,62px);
+  font-size:clamp(38px,4.8vw,68px);
   line-height:1;
-  letter-spacing:-.045em;
+  letter-spacing:-.05em;
 }
 
-.aeo-panel p{
+.pricing-intro p{
   margin:0;
   color:#d4e8f2;
   font-size:18px;
   line-height:1.7;
 }
 
-.aeo-panel .button{
+.pricing-intro .button{
+  width:max-content;
   margin-top:28px;
 }
 
-.aeo-details{
+.tier-grid{
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:18px;
-}
-
-.aeo-detail{
-  padding:24px;
-  border:1px solid #dcecf5;
-  border-radius:24px;
-  background:#fff;
-  box-shadow:0 14px 34px rgba(7,20,33,.06);
-}
-
-.aeo-detail span{
-  display:flex;
-  width:48px;
-  height:48px;
-  align-items:center;
-  justify-content:center;
-  margin-bottom:16px;
-  border-radius:14px;
-  background:#33abe1;
-  color:#061421;
-  font-weight:900;
-}
-
-.aeo-detail h3{
-  margin:0 0 10px;
-  color:#071421;
-  font-size:21px;
-}
-
-.aeo-detail p{
-  margin:0;
-  color:#4b5b66;
-  line-height:1.6;
-}
-
-/* PROCESS */
-
-.process-grid{
-  display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
   gap:20px;
-  max-width:1320px;
-  margin:0 auto;
 }
 
-.process-card{
-  padding:26px;
-  border:1px solid #e0ebf2;
-  border-radius:24px;
-  background:#fff;
-  box-shadow:0 16px 34px rgba(7,20,33,.06);
+.tier-grid.three{
+  grid-template-columns:repeat(3,minmax(0,1fr));
 }
 
-.process-card span{
+.tier-card{
   display:flex;
-  width:50px;
-  height:50px;
+  flex-direction:column;
+  min-height:300px;
+  padding:28px;
+  border:1px solid #dcecf5;
+  border-radius:26px;
+  background:#fff;
+  box-shadow:0 16px 38px rgba(7,20,33,.07);
+}
+
+.tier-number{
+  display:flex;
+  width:54px;
+  height:54px;
   align-items:center;
   justify-content:center;
-  margin-bottom:18px;
-  border-radius:16px;
+  margin-bottom:20px;
+  border-radius:15px;
   background:#33abe1;
   color:#061421;
   font-weight:900;
 }
 
-.process-card h3{
+.tier-card h3{
   margin:0 0 10px;
   color:#071421;
-  font-size:22px;
+  font-size:25px;
+  line-height:1.15;
 }
 
-.process-card p{
+.tier-price{
+  margin:0 0 8px;
+  color:#0c9bd2;
+  font-size:34px;
+  font-weight:900;
+  line-height:1.1;
+}
+
+.tier-cycle{
+  margin:0 0 18px;
+  color:#657580;
+  font-weight:800;
+}
+
+.tier-card > p:not(.tier-price):not(.tier-cycle){
+  margin:0 0 18px;
+  color:#4b5b66;
+  line-height:1.65;
+}
+
+.tier-card ul{
+  display:grid;
+  gap:9px;
+  margin:auto 0 0;
+  padding:0;
+  list-style:none;
+}
+
+.tier-card li{
+  color:#203241;
+  font-weight:800;
+  line-height:1.4;
+}
+
+.tier-card li:before{
+  content:"✓ ";
+  color:#0c9bd2;
+  font-weight:900;
+}
+
+/* PPC channel grid */
+
+.channel-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+}
+
+.channel-card{
+  padding:22px;
+  border:1px solid #dcecf5;
+  border-radius:22px;
+  background:#fff;
+  box-shadow:0 12px 30px rgba(7,20,33,.06);
+}
+
+.channel-card h3{
+  margin:0 0 8px;
+  color:#071421;
+  font-size:20px;
+}
+
+.channel-card p{
   margin:0;
   color:#4b5b66;
-  line-height:1.6;
+  line-height:1.55;
 }
 
-/* COMPARISON */
+/* Included and FAQ */
 
 .included-grid{
   display:grid;
@@ -447,8 +377,6 @@ body{
   line-height:1.6;
 }
 
-/* FAQ */
-
 .faq-list{
   display:grid;
   gap:16px;
@@ -477,8 +405,6 @@ body{
   line-height:1.7;
 }
 
-/* CTA */
-
 .final-cta{
   padding:88px min(6vw,72px);
   background:linear-gradient(135deg,#0b243a,#071421);
@@ -505,10 +431,9 @@ body{
   justify-content:center;
 }
 
-/* RESPONSIVE */
-
-@media(max-width:1120px){
-  .marketing-hero{
+@media(max-width:1180px){
+  .marketing-hero,
+  .pricing-feature{
     grid-template-columns:1fr;
   }
 
@@ -517,47 +442,47 @@ body{
     justify-self:stretch;
   }
 
-  .pricing-grid{
+  .pricing-intro{
+    min-height:0;
+  }
+
+  .tier-grid.three{
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
 
-  .aeo-feature{
-    grid-template-columns:1fr;
-  }
-
-  .process-grid,
   .included-grid{
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
 }
 
-@media(max-width:700px){
+@media(max-width:720px){
   .marketing-hero,
   .section,
   .final-cta{
     padding:56px 20px;
   }
 
-  .pricing-grid,
-  .process-grid,
-  .included-grid,
-  .aeo-details{
+  .tier-grid,
+  .tier-grid.three,
+  .channel-grid,
+  .included-grid{
     grid-template-columns:1fr;
+  }
+
+  .pricing-intro,
+  .hero-form-card{
+    padding:26px;
   }
 
   .hero-actions .button{
     width:100%;
-  }
-
-  .hero-form-card,
-  .aeo-panel{
-    padding:26px;
   }
 }
 </style>
 </head>
 
 <body class="marketing-pricing-page">
+
 <div id="webact-header"></div>
 
 <main>
@@ -566,17 +491,17 @@ body{
   <div>
     <p class="eyebrow">Marketing Pricing</p>
 
-    <h1>SEO and marketing plans built around visibility, leads, and growth.</h1>
+    <h1>Transparent pricing for SEO, advertising, listings, and online growth.</h1>
 
     <p>
-      Explore WebAct service options for Local SEO, National SEO, Answer Engine
-      Optimization, Google Business Profile management, local listings, content,
-      email marketing, and reputation support.
+      Compare WebAct pricing for Local SEO, PPC advertising, listings management,
+      AEO, business profile support, content, social media setup, and ongoing
+      marketing services.
     </p>
 
     <div class="hero-actions">
-      <a class="button primary" href="#marketing-services">View Marketing Services</a>
-      <a class="button secondary" href="/webact-redesign/contact/index.html">Request Pricing</a>
+      <a class="button primary" href="#local-seo-pricing">View Pricing</a>
+      <a class="button secondary" href="/webact-redesign/contact/index.html">Request a Quote</a>
     </div>
   </div>
 
@@ -585,7 +510,7 @@ body{
 
     <p>
       Tell us what you want to improve and WebAct can recommend the right
-      marketing plan.
+      marketing service or monthly plan.
     </p>
 
     <form class="hero-form">
@@ -600,22 +525,21 @@ body{
       </label>
 
       <label>
-        Marketing Service
+        Interested In
         <select name="service">
           <option>Local SEO</option>
-          <option>National SEO</option>
+          <option>PPC Advertising</option>
           <option>AEO</option>
           <option>Google Business Profile</option>
+          <option>Bing Places</option>
           <option>Local Listings</option>
-          <option>Content Marketing</option>
-          <option>Email Marketing</option>
-          <option>Reputation Management</option>
+          <option>Social Media Setup</option>
           <option>Complete Marketing Plan</option>
         </select>
       </label>
 
       <label>
-        What are your marketing goals?
+        What are your goals?
         <textarea name="message"></textarea>
       </label>
 
@@ -626,216 +550,215 @@ body{
   </aside>
 </section>
 
-<section class="section soft" id="marketing-services">
-  <div class="heading">
-    <p class="eyebrow">Marketing Service Options</p>
+<section class="section soft" id="local-seo-pricing">
+  <div class="pricing-feature">
 
-    <h2>Choose the marketing services that match your growth goals.</h2>
+    <div class="pricing-intro">
+      <p class="eyebrow">Local SEO Pricing</p>
 
-    <p>
-      WebAct can build a focused marketing plan or combine multiple services into
-      an ongoing strategy connected to your website, landing pages, advertising,
-      local visibility, and customer journey.
-    </p>
-  </div>
+      <h2>Build local search visibility month after month.</h2>
 
-  <div class="pricing-grid">
-
-    <article class="pricing-card">
-      <span class="pricing-label">Local Visibility</span>
-      <h3>Local SEO</h3>
-      <p class="price">Custom Monthly Plan</p>
       <p>
-        Improve visibility for nearby searches, service-area keywords, map
-        results, and customers looking for local businesses.
+        WebAct Local SEO plans combine keyword growth, city targeting, articles,
+        website health reviews, local link building, keyword tracking, and
+        ranking reports. Every plan is month-to-month with no contract.
       </p>
-      <ul>
-        <li>Local keyword strategy</li>
-        <li>Location and service pages</li>
-        <li>Google Business Profile support</li>
-        <li>Local content planning</li>
-        <li>Review and trust signals</li>
-      </ul>
-      <a class="card-link" href="/webact-redesign/marketing/local-seo.html">
-        View Local SEO
-      </a>
-    </article>
 
-    <article class="pricing-card">
-      <span class="pricing-label">Broader Search Reach</span>
-      <h3>National SEO</h3>
-      <p class="price">Custom Monthly Plan</p>
-      <p>
-        Build organic search visibility across larger markets with stronger
-        service pages, content depth, authority, and technical structure.
-      </p>
-      <ul>
-        <li>National keyword research</li>
-        <li>Service and topic pages</li>
-        <li>Internal linking strategy</li>
-        <li>Content planning</li>
-        <li>Technical SEO review</li>
-      </ul>
-      <a class="card-link" href="/webact-redesign/marketing/national-seo.html">
-        View National SEO
+      <a class="button primary" href="/webact-redesign/marketing/local-seo.html">
+        Learn More About Local SEO
       </a>
-    </article>
+    </div>
 
-    <article class="pricing-card">
-      <span class="pricing-label">AI Search Visibility</span>
-      <h3>Answer Engine Optimization</h3>
-      <p class="price">Custom AEO Plan</p>
-      <p>
-        Structure your website so search engines and AI-powered answer platforms
-        can better understand, summarize, and reference your business.
-      </p>
-      <ul>
-        <li>Question-focused content</li>
-        <li>Entity and service clarity</li>
-        <li>Structured FAQ content</li>
-        <li>Answer-ready page sections</li>
-        <li>AI search content planning</li>
-      </ul>
-      <a class="card-link" href="/webact-redesign/marketing/aeo.html">
-        View AEO
-      </a>
-    </article>
+    <div class="tier-grid three">
 
-    <article class="pricing-card">
-      <span class="pricing-label">Google Maps</span>
-      <h3>Google Business Profile</h3>
-      <p class="price">Custom Location Plan</p>
-      <p>
-        Improve the accuracy, presentation, activity, and visibility of your
-        Google Business Profile.
-      </p>
-      <ul>
-        <li>Profile optimization</li>
-        <li>Categories and services</li>
-        <li>Business information review</li>
-        <li>Post and update planning</li>
-        <li>Location visibility support</li>
-      </ul>
-      <a class="card-link" href="/webact-redesign/marketing/gmb.html">
-        View Google Business Profile
-      </a>
-    </article>
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>Local SEO Standard</h3>
+        <p class="tier-price">$1,200</p>
+        <p class="tier-cycle">Per month · No contract</p>
+        <p>Designed for new companies beginning to build local search visibility.</p>
+        <ul>
+          <li>1 new main keyword each month</li>
+          <li>4 local towns or cities</li>
+          <li>4 new articles each month</li>
+          <li>Website health checkup</li>
+          <li>Local link building</li>
+          <li>50-keyword tracker</li>
+          <li>Ranking reports</li>
+        </ul>
+      </article>
 
-    <article class="pricing-card">
-      <span class="pricing-label">Directory Accuracy</span>
-      <h3>Local Listings</h3>
-      <p class="price">Custom Location Plan</p>
-      <p>
-        Keep your business name, address, phone number, website, and operating
-        information consistent across major directories.
-      </p>
-      <ul>
-        <li>Listing distribution</li>
-        <li>Business information consistency</li>
-        <li>Duplicate review</li>
-        <li>Directory visibility</li>
-        <li>Location data support</li>
-      </ul>
-      <a class="card-link" href="/webact-redesign/marketing/local-listings.html">
-        View Local Listings
-      </a>
-    </article>
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>Local SEO Plus</h3>
+        <p class="tier-price">$2,400</p>
+        <p class="tier-cycle">Per month · No contract</p>
+        <p>Designed for small companies targeting more services and local markets.</p>
+        <ul>
+          <li>2 new main keywords each month</li>
+          <li>5 local towns or cities per keyword</li>
+          <li>10 new articles each month</li>
+          <li>Website checkup and audit</li>
+          <li>Local link building</li>
+          <li>100-keyword tracker</li>
+          <li>Ranking reports</li>
+        </ul>
+      </article>
 
-    <article class="pricing-card">
-      <span class="pricing-label">Search Content</span>
-      <h3>Content Marketing</h3>
-      <p class="price">Custom Content Plan</p>
-      <p>
-        Build useful service pages, location content, articles, FAQs, and landing
-        page copy around what customers are actively searching for.
-      </p>
-      <ul>
-        <li>Service page content</li>
-        <li>Blog and article planning</li>
-        <li>FAQ content</li>
-        <li>Location-focused copy</li>
-        <li>Conversion-focused messaging</li>
-      </ul>
-      <a class="card-link" href="/webact-redesign/contact/index.html">
-        Request Content Pricing
-      </a>
-    </article>
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>Local SEO Premium</h3>
+        <p class="tier-price">$5,000</p>
+        <p class="tier-cycle">Per month · No contract</p>
+        <p>Designed for companies requiring broader keyword and market coverage.</p>
+        <ul>
+          <li>4 new main keywords each month</li>
+          <li>6 local towns or cities per keyword</li>
+          <li>24 new articles each month</li>
+          <li>Website checkup and audit</li>
+          <li>Local link building</li>
+          <li>200-keyword tracker</li>
+          <li>Ranking reports</li>
+        </ul>
+      </article>
 
-    <article class="pricing-card">
-      <span class="pricing-label">Customer Follow-Up</span>
-      <h3>Email Marketing</h3>
-      <p class="price">Custom Campaign Plan</p>
-      <p>
-        Stay connected with leads, existing customers, past buyers, and contacts
-        through planned email communication.
-      </p>
-      <ul>
-        <li>Email campaign planning</li>
-        <li>Customer follow-up</li>
-        <li>Promotional messages</li>
-        <li>Newsletter content</li>
-        <li>Landing page coordination</li>
-      </ul>
-      <a class="card-link" href="/webact-redesign/marketing/email-marketing.html">
-        View Email Marketing
-      </a>
-    </article>
-
-    <article class="pricing-card">
-      <span class="pricing-label">Trust and Reviews</span>
-      <h3>Reputation Support</h3>
-      <p class="price">Custom Monthly Plan</p>
-      <p>
-        Improve how your business presents reviews, trust signals, customer
-        feedback, and credibility across the website and local platforms.
-      </p>
-      <ul>
-        <li>Review strategy</li>
-        <li>Website review presentation</li>
-        <li>Reputation signals</li>
-        <li>Customer feedback paths</li>
-        <li>Trust-focused content</li>
-      </ul>
-      <a class="card-link" href="/webact-redesign/contact/index.html">
-        Request Reputation Pricing
-      </a>
-    </article>
-
-    <article class="pricing-card">
-      <span class="pricing-label">Complete Strategy</span>
-      <h3>Ongoing Marketing Support</h3>
-      <p class="price">Custom Monthly Plan</p>
-      <p>
-        Combine SEO, content, listings, email, website updates, conversion
-        improvements, and reporting into one coordinated marketing plan.
-      </p>
-      <ul>
-        <li>Monthly marketing priorities</li>
-        <li>Website content updates</li>
-        <li>SEO and visibility support</li>
-        <li>Campaign coordination</li>
-        <li>Performance review</li>
-      </ul>
-      <a class="card-link" href="/webact-redesign/contact/index.html">
-        Request a Marketing Plan
-      </a>
-    </article>
-
+    </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="aeo-feature">
-    <div class="aeo-panel">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
+      <p class="eyebrow">PPC Advertising Pricing</p>
+
+      <h2>Launch paid advertising campaigns with clear management pricing.</h2>
+
+      <p>
+        WebAct PPC campaign management is priced per campaign, plus the advertising
+        budget paid to the ad platform. Campaigns can include Google and Microsoft
+        search, display, remarketing, video, shopping, and mobile advertising.
+      </p>
+
+      <a class="button primary" href="/webact-redesign/pricing/advertising.html">
+        View Advertising Pricing
+      </a>
+    </div>
+
+    <div>
+      <article class="tier-card" style="margin-bottom:20px">
+        <span class="tier-number">01</span>
+        <h3>PPC Campaign Management</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your advertising budget</p>
+        <p>
+          Campaign setup and management pricing is separate from the amount spent
+          directly with Google, Microsoft, or another advertising platform.
+        </p>
+      </article>
+
+      <div class="channel-grid">
+        <article class="channel-card"><h3>Google Search Advertising</h3><p>Reach customers actively searching for your services or products.</p></article>
+        <article class="channel-card"><h3>Google Display Advertising</h3><p>Build visibility across websites and digital placements.</p></article>
+        <article class="channel-card"><h3>Google Remarketing</h3><p>Reconnect with people who previously visited your website.</p></article>
+        <article class="channel-card"><h3>Google Video Advertising</h3><p>Promote your business with video campaigns and YouTube placements.</p></article>
+        <article class="channel-card"><h3>Google Shopping Advertising</h3><p>Promote ecommerce products through product-focused search placements.</p></article>
+        <article class="channel-card"><h3>Microsoft Search Ads</h3><p>Reach customers searching through Bing and Microsoft networks.</p></article>
+        <article class="channel-card"><h3>Microsoft Shopping Ads</h3><p>Promote product listings through Microsoft shopping placements.</p></article>
+        <article class="channel-card"><h3>Microsoft Mobile Ads</h3><p>Reach customers searching and browsing on mobile devices.</p></article>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
+      <p class="eyebrow">Local Listings Pricing</p>
+
+      <h2>Keep your business information accurate across more than 100 listings.</h2>
+
+      <p>
+        Choose self-managed access or let WebAct optimize, verify, enhance, and
+        monitor your business listings. Pricing is monthly and applies to each
+        business location.
+      </p>
+
+      <a class="button primary" href="/webact-redesign/marketing/local-listings.html">
+        Learn More About Listings
+      </a>
+    </div>
+
+    <div class="tier-grid three">
+
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>DIY Listings</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per month · Per location</p>
+        <p>Designed for businesses that want access and prefer to manage their own listings.</p>
+        <ul>
+          <li>Optimize your own location</li>
+          <li>Access to the listings platform</li>
+          <li>Verify your own listings</li>
+          <li>More than 100 listings</li>
+          <li>Manage your own reviews</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>Managed Listings</h3>
+        <p class="tier-price">$500</p>
+        <p class="tier-cycle">Per month · Per location</p>
+        <p>Designed for small companies that want WebAct to manage optimization.</p>
+        <ul>
+          <li>Location optimization</li>
+          <li>Images and logo</li>
+          <li>Products and services</li>
+          <li>Verification of 100+ featured listings</li>
+          <li>Team bios and images</li>
+          <li>Featured message</li>
+          <li>Monthly reports</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>Managed Listings Plus</h3>
+        <p class="tier-price">$800</p>
+        <p class="tier-cycle">Per month · Per location</p>
+        <p>Designed for companies that also need review monitoring and response support.</p>
+        <ul>
+          <li>Location optimization</li>
+          <li>Images and logo</li>
+          <li>Products and services</li>
+          <li>Verification of 100+ featured listings</li>
+          <li>Team bios and images</li>
+          <li>Featured message</li>
+          <li>Monthly reports</li>
+          <li>Review monitoring and response</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
       <p class="eyebrow">Answer Engine Optimization</p>
 
       <h2>Prepare your website for AI-powered search and answer platforms.</h2>
 
       <p>
-        AEO helps organize your services, expertise, business information, FAQs,
-        and industry content in ways that are easier for search engines and AI
-        systems to understand. WebAct can connect AEO to traditional SEO instead
-        of treating it as a separate marketing channel.
+        AEO pricing depends on the size of the website, number of services,
+        industry complexity, content depth, existing SEO structure, and the number
+        of pages requiring answer-focused optimization.
       </p>
 
       <a class="button primary" href="/webact-redesign/marketing/aeo.html">
@@ -843,265 +766,290 @@ body{
       </a>
     </div>
 
-    <div class="aeo-details">
-      <article class="aeo-detail">
-        <span>01</span>
-        <h3>Question-Based Content</h3>
+    <div class="tier-grid">
+
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>AEO Foundation</h3>
+        <p class="tier-price">Custom Pricing</p>
+        <p class="tier-cycle">One-time or monthly scope</p>
+        <ul>
+          <li>Question-based content review</li>
+          <li>Business entity clarification</li>
+          <li>Service and expertise summaries</li>
+          <li>FAQ content structure</li>
+          <li>Answer-ready page sections</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>Ongoing AEO and SEO</h3>
+        <p class="tier-price">Custom Monthly Plan</p>
+        <p class="tier-cycle">Based on website and market scope</p>
+        <ul>
+          <li>Ongoing question research</li>
+          <li>New answer-focused content</li>
+          <li>SEO and AEO alignment</li>
+          <li>Industry and service expansion</li>
+          <li>Content clarity improvements</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>Structured Answers</h3>
         <p>
-          Build pages around the questions customers ask before choosing a
-          service, product, or provider.
+          Organize headings, summaries, services, supporting details, and FAQs
+          into sections that are easier for search engines and AI systems to
+          understand.
         </p>
       </article>
 
-      <article class="aeo-detail">
-        <span>02</span>
+      <article class="tier-card">
+        <span class="tier-number">04</span>
         <h3>Clear Business Entities</h3>
         <p>
           Clarify who the business is, what it offers, where it operates, and why
-          it is relevant.
+          it should be considered relevant and trustworthy.
         </p>
       </article>
 
-      <article class="aeo-detail">
-        <span>03</span>
-        <h3>Structured Answers</h3>
-        <p>
-          Organize headings, summaries, FAQs, services, and supporting details
-          into easy-to-understand sections.
-        </p>
+    </div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
+      <p class="eyebrow">Business Profiles</p>
+
+      <h2>Improve Google Business Profile and Bing Places visibility.</h2>
+
+      <p>
+        WebAct offers one-time setup and ongoing management options for business
+        profiles. Pricing depends on the number of locations, current profile
+        condition, verification requirements, content needs, and management scope.
+      </p>
+
+      <a class="button primary" href="/webact-redesign/marketing/gmb.html">
+        View Business Profile Services
+      </a>
+    </div>
+
+    <div class="tier-grid">
+
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>Google Business Profile</h3>
+        <p class="tier-price">Custom Pricing</p>
+        <p class="tier-cycle">One-time setup or ongoing management</p>
+        <ul>
+          <li>Business information review</li>
+          <li>Category and service setup</li>
+          <li>Profile optimization</li>
+          <li>Images and business details</li>
+          <li>Ongoing profile management options</li>
+        </ul>
       </article>
 
-      <article class="aeo-detail">
-        <span>04</span>
-        <h3>SEO and AEO Alignment</h3>
-        <p>
-          Support traditional search rankings while improving how content may be
-          interpreted by modern answer systems.
-        </p>
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>Bing Places</h3>
+        <p class="tier-price">Custom Pricing</p>
+        <p class="tier-cycle">One-time setup or ongoing management</p>
+        <ul>
+          <li>Business information setup</li>
+          <li>Location details</li>
+          <li>Profile optimization</li>
+          <li>Verification support</li>
+          <li>Ongoing management options</li>
+        </ul>
       </article>
+
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>Multi-Location Management</h3>
+        <p class="tier-price">Custom Location Plan</p>
+        <p class="tier-cycle">Based on number of locations</p>
+        <ul>
+          <li>Location-specific profile work</li>
+          <li>Consistent business information</li>
+          <li>Service and category alignment</li>
+          <li>Local visibility coordination</li>
+          <li>Reporting options</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">04</span>
+        <h3>Profile and Listings Bundle</h3>
+        <p class="tier-price">Custom Package</p>
+        <p class="tier-cycle">Profile plus listings support</p>
+        <ul>
+          <li>Google profile support</li>
+          <li>Bing Places support</li>
+          <li>Local listings management</li>
+          <li>Review signal coordination</li>
+          <li>Local SEO alignment</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
+      <p class="eyebrow">Social Media Setup</p>
+
+      <h2>Create professional social media business pages.</h2>
+
+      <p>
+        Social media setup pricing depends on the platforms selected, whether
+        existing pages need cleanup, the amount of profile content required, and
+        whether ongoing posting or management is included.
+      </p>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Request Social Media Pricing
+      </a>
+    </div>
+
+    <div class="tier-grid">
+
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>Social Page Setup</h3>
+        <p class="tier-price">Custom Pricing</p>
+        <ul>
+          <li>Business profile setup</li>
+          <li>Logo and cover image placement</li>
+          <li>Business descriptions</li>
+          <li>Contact and website information</li>
+          <li>Platform-specific profile details</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>Existing Page Optimization</h3>
+        <p class="tier-price">Custom Pricing</p>
+        <ul>
+          <li>Profile review</li>
+          <li>Business information cleanup</li>
+          <li>Brand consistency</li>
+          <li>Link and contact corrections</li>
+          <li>Content recommendations</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>Social Content Support</h3>
+        <p class="tier-price">Custom Monthly Plan</p>
+        <ul>
+          <li>Post planning</li>
+          <li>Promotional content</li>
+          <li>Website and campaign coordination</li>
+          <li>Graphic design support</li>
+          <li>Ongoing content options</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">04</span>
+        <h3>Social Advertising</h3>
+        <p class="tier-price">Custom Campaign Plan</p>
+        <ul>
+          <li>Audience targeting</li>
+          <li>Campaign creative</li>
+          <li>Landing page coordination</li>
+          <li>Lead or traffic campaigns</li>
+          <li>Performance review</li>
+        </ul>
+      </article>
+
     </div>
   </div>
 </section>
 
 <section class="section soft">
   <div class="heading">
-    <p class="eyebrow">How Pricing Is Built</p>
-
-    <h2>Your marketing plan should reflect your market and goals.</h2>
-
+    <p class="eyebrow">Marketing Support</p>
+    <h2>Connect every marketing service to your website and customer journey.</h2>
     <p>
-      Marketing cost depends on the number of locations, competition, current
-      website condition, target services, content needs, campaign scope, and how
-      quickly the business wants to grow.
+      WebAct can combine individual services into a broader plan based on your
+      website, locations, audience, competition, and growth goals.
     </p>
   </div>
 
-  <div class="process-grid">
-    <article class="process-card">
-      <span>01</span>
-      <h3>Review</h3>
-      <p>
-        WebAct reviews your website, search presence, local visibility,
-        competitors, content, and current marketing.
-      </p>
-    </article>
-
-    <article class="process-card">
-      <span>02</span>
-      <h3>Prioritize</h3>
-      <p>
-        We identify which services are most likely to create useful progress
-        based on your goals and budget.
-      </p>
-    </article>
-
-    <article class="process-card">
-      <span>03</span>
-      <h3>Build the Plan</h3>
-      <p>
-        Your marketing scope may include SEO, AEO, content, listings, email,
-        reputation, and website improvements.
-      </p>
-    </article>
-
-    <article class="process-card">
-      <span>04</span>
-      <h3>Improve</h3>
-      <p>
-        Ongoing work is adjusted around visibility, leads, content gaps,
-        customer behavior, and changing priorities.
-      </p>
-    </article>
+  <div class="included-grid">
+    <article class="included-card"><h3>Website Health</h3><p>Review technical issues, page structure, content gaps, mobile usability, and conversion paths.</p></article>
+    <article class="included-card"><h3>Keyword Strategy</h3><p>Focus work around relevant searches, services, locations, industries, and buyer questions.</p></article>
+    <article class="included-card"><h3>Content Development</h3><p>Create service pages, articles, FAQs, location pages, landing pages, and answer-focused content.</p></article>
+    <article class="included-card"><h3>Local Visibility</h3><p>Support business profiles, local listings, reviews, maps, service areas, and location signals.</p></article>
+    <article class="included-card"><h3>Paid Advertising</h3><p>Coordinate search, display, remarketing, video, shopping, Microsoft, and social campaigns.</p></article>
+    <article class="included-card"><h3>AEO</h3><p>Improve how search engines and AI platforms understand your services, expertise, and answers.</p></article>
+    <article class="included-card"><h3>Reputation Signals</h3><p>Improve review visibility, trust content, profile quality, and customer confidence.</p></article>
+    <article class="included-card"><h3>Reporting</h3><p>Track rankings, campaign activity, listings progress, visibility, and ongoing priorities.</p></article>
   </div>
 </section>
 
 <section class="section">
   <div class="heading">
-    <p class="eyebrow">What Marketing Can Include</p>
-
-    <h2>Connect your website, search visibility, content, and customer journey.</h2>
-
-    <p>
-      WebAct marketing services can work independently or together as part of a
-      broader growth strategy.
-    </p>
-  </div>
-
-  <div class="included-grid">
-    <article class="included-card">
-      <h3>Keyword Strategy</h3>
-      <p>
-        Focus page topics and marketing work around relevant customer searches,
-        services, locations, and buyer questions.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Website Improvements</h3>
-      <p>
-        Update service pages, calls to action, content organization, internal
-        links, and conversion paths.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Local Visibility</h3>
-      <p>
-        Support Google Business Profile, local listings, reviews, maps, and
-        service-area search visibility.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Content Planning</h3>
-      <p>
-        Plan service pages, location pages, FAQs, articles, landing pages, and
-        customer-focused educational content.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>AEO Structure</h3>
-      <p>
-        Create clearer answers, entities, page summaries, FAQs, and topical
-        relationships for modern search experiences.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Reputation Signals</h3>
-      <p>
-        Improve the presentation of reviews, credentials, experience,
-        testimonials, and customer proof.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Email Follow-Up</h3>
-      <p>
-        Support newsletters, promotions, customer communication, lead nurturing,
-        and repeat business.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Reporting and Priorities</h3>
-      <p>
-        Review progress and determine which website and marketing actions should
-        happen next.
-      </p>
-    </article>
-  </div>
-</section>
-
-<section class="section soft">
-  <div class="heading">
     <p class="eyebrow">Marketing Pricing FAQ</p>
-
-    <h2>Questions about SEO, AEO, and marketing plans.</h2>
+    <h2>Questions about SEO, listings, PPC, and AEO pricing.</h2>
   </div>
 
   <div class="faq-list">
     <details open>
-      <summary>How much does SEO cost?</summary>
-      <p>
-        SEO pricing depends on competition, target services, locations, website
-        condition, content needs, and whether the campaign is local or national.
-        WebAct provides pricing after reviewing the scope.
-      </p>
+      <summary>Are Local SEO plans under contract?</summary>
+      <p>No. The Local SEO Standard, Plus, and Premium plans are monthly plans with no contract.</p>
     </details>
 
     <details>
-      <summary>What is the difference between Local SEO and National SEO?</summary>
-      <p>
-        Local SEO focuses on nearby customers, local searches, maps, service
-        areas, and business profiles. National SEO targets broader markets,
-        topics, services, and non-location-specific searches.
-      </p>
+      <summary>Is the advertising budget included in the $300 PPC price?</summary>
+      <p>No. The $300 price is per campaign. Your advertising budget is paid separately to Google, Microsoft, or the selected advertising platform.</p>
     </details>
 
     <details>
-      <summary>What is AEO?</summary>
-      <p>
-        Answer Engine Optimization organizes content so search engines and
-        AI-powered answer systems can more clearly understand the business,
-        services, expertise, and answers provided by the website.
-      </p>
+      <summary>Are listings prices charged per location?</summary>
+      <p>Yes. DIY Listings, Managed Listings, and Managed Listings Plus pricing is monthly and applies to each business location.</p>
     </details>
 
     <details>
-      <summary>Is AEO included with SEO?</summary>
-      <p>
-        AEO can be included as part of a broader SEO strategy or provided as a
-        focused service. The right approach depends on the website, industry,
-        content, and search goals.
-      </p>
+      <summary>What is included in Local SEO Standard?</summary>
+      <p>Local SEO Standard includes one new main keyword, four local towns or cities, four new articles, a website health checkup, local link building, a 50-keyword tracker, and ranking reports each month.</p>
     </details>
 
     <details>
-      <summary>How long does SEO take?</summary>
-      <p>
-        SEO is generally an ongoing process. Timing depends on competition,
-        website authority, technical condition, content quality, location,
-        industry, and how consistently improvements are made.
-      </p>
+      <summary>What is included in Managed Listings Plus?</summary>
+      <p>Managed Listings Plus includes location optimization, images and logo, products and services, verification of more than 100 featured listings, team bios and images, a featured message, monthly reports, and review monitoring and response.</p>
     </details>
 
     <details>
-      <summary>Are digital ads included in marketing pricing?</summary>
-      <p>
-        Digital advertising is priced separately unless it is included in a
-        custom package. WebAct can coordinate SEO, marketing, ads, landing pages,
-        and website improvements as one strategy.
-      </p>
+      <summary>How much does AEO cost?</summary>
+      <p>AEO is custom priced because the scope depends on the number of pages, services, questions, locations, existing content, and whether work is one-time or ongoing.</p>
     </details>
 
     <details>
-      <summary>Can WebAct manage multiple business locations?</summary>
-      <p>
-        Yes. WebAct can support multiple locations with location pages, Google
-        Business Profile work, listings, local SEO, reviews, and market-specific
-        content.
-      </p>
-    </details>
-
-    <details>
-      <summary>Can I choose only one marketing service?</summary>
-      <p>
-        Yes. A business can begin with one service, such as Local SEO, AEO,
-        listings, or email marketing, and expand the plan later.
-      </p>
+      <summary>Can SEO, AEO, listings, and PPC be combined?</summary>
+      <p>Yes. WebAct can create a custom plan combining search optimization, answer engine optimization, business profiles, listings, content, advertising, landing pages, and reporting.</p>
     </details>
   </div>
 </section>
 
 <section class="final-cta">
-  <h2>Ready to build the right marketing plan?</h2>
+  <h2>Ready to choose the right marketing plan?</h2>
 
   <p>
-    Tell WebAct about your website, locations, target services, current
-    visibility, and business goals. We can recommend a practical combination of
-    SEO, AEO, content, listings, email, and reputation support.
+    Tell WebAct about your website, locations, target services, current visibility,
+    and advertising goals. We can recommend the right combination of SEO, AEO,
+    listings, profiles, PPC, and ongoing marketing support.
   </p>
 
   <div class="hero-actions">
