@@ -87,6 +87,86 @@
   }
 }
 </style>
+<!-- WEBACT WIDGET KB FLUSH EMBED START -->
+<style id="webact-widget-kb-flush-embed">
+/* Keep the existing Jotform, but remove the surrounding copy and spacing. */
+.widget-kb-hero .hero-card {
+    padding: 0 !important;
+    overflow: hidden !important;
+    background: #f6f7f8 !important;
+}
+
+.widget-kb-hero .hero-card > h2,
+.widget-kb-hero .hero-card > p {
+    display: none !important;
+}
+
+.widget-kb-hero .webact-shared-jotform {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 28px !important;
+    overflow: hidden !important;
+}
+
+.widget-kb-hero .webact-shared-jotform iframe {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+/* Remove all card styling and generated wording around the KB embed. */
+#widget-kb-embed {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#widget-kb-embed .embed-wrap {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: #fff !important;
+    overflow: hidden !important;
+}
+
+#widget-kb-embed .embed-wrap::before,
+#widget-kb-embed .embed-wrap::after,
+#widget-kb-embed .embed-toolbar {
+    display: none !important;
+    content: none !important;
+}
+
+#widget-kb-embed .widget-kb-frame {
+    display: block !important;
+    width: 100% !important;
+    height: 3600px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    overflow: hidden !important;
+    background: #fff !important;
+}
+
+@media (max-width: 900px) {
+    #widget-kb-embed .widget-kb-frame {
+        height: 4200px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    #widget-kb-embed .widget-kb-frame {
+        height: 5000px !important;
+    }
+}
+</style>
+<!-- WEBACT WIDGET KB FLUSH EMBED END -->
 </head>
 
 <body>
@@ -105,8 +185,6 @@
     </div>
 
     <div class="hero-card">
-  <h2>Need Help With a Website Widget?</h2>
-  <p>Tell us what you're trying to accomplish and our team can recommend the right widget, explain how a feature works, or help you customize your website.</p>
   <div class="webact-shared-jotform">
   <iframe
     id="JotFormIFrame-261900782842056"
@@ -147,10 +225,7 @@
         <strong>WebAct Widget Knowledge Base</strong>
         <a href="https://website.webact.com/site/80a375fe/?preview=true" target="_blank" rel="noopener">Open in new tab</a>
       </div>
-      <iframe class="widget-kb-frame" src="https://website.webact.com/site/80a375fe/?preview=true" title="WebAct Widget Knowledge Base"></iframe>
-      <div style="text-align:center;padding:24px">
-        <a class="button primary" href="https://website.webact.com/site/80a375fe/?preview=true" target="_blank" rel="noopener">Open Knowledge Base</a>
-      </div>
+      <iframe class="widget-kb-frame" src="https://website.webact.com/site/80a375fe/?preview=true" title="WebAct Widget Knowledge Base" scrolling="no"></iframe>
     </div>
   </section>
 
