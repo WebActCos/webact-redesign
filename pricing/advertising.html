@@ -5,15 +5,14 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>Digital Advertising Pricing | WebAct</title>
-<meta name="description" content="WebAct digital advertising pricing for Google Search Ads, Microsoft Ads, display advertising, remarketing, shopping ads, video advertising, social media advertising, and Local Services Ads.">
+<meta name="description" content="WebAct advertising pricing for Google Ads, Local Services Ads, Microsoft Advertising, Amazon Ads, social media advertising, and streaming TV campaigns. Every campaign is $300 plus your advertising budget.">
 
 <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
 
 <style>
-html,
-body{
+html,body{
   height:auto!important;
   overflow-x:hidden!important;
 }
@@ -26,8 +25,6 @@ body{
   background:#fff;
   color:#071421;
 }
-
-/* HERO */
 
 .advertising-hero{
   display:grid;
@@ -95,8 +92,6 @@ body{
   background:#fff!important;
   color:#071421!important;
 }
-
-/* HERO FORM */
 
 .hero-form-card{
   width:100%;
@@ -167,8 +162,6 @@ body{
   margin-top:6px;
 }
 
-/* GENERAL */
-
 .section{
   padding:88px min(6vw,72px);
 }
@@ -201,8 +194,6 @@ body{
   font-size:18px;
   line-height:1.65;
 }
-
-/* PRICING FEATURE */
 
 .pricing-feature{
   display:grid;
@@ -254,7 +245,7 @@ body{
 .tier-card{
   display:flex;
   flex-direction:column;
-  min-height:340px;
+  min-height:350px;
   padding:28px;
   border:1px solid #dcecf5;
   border-radius:26px;
@@ -322,38 +313,7 @@ body{
   font-weight:900;
 }
 
-/* INCLUDED */
-
-.included-grid{
-  display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
-  gap:20px;
-  max-width:1320px;
-  margin:0 auto;
-}
-
-.included-card{
-  padding:24px;
-  border:1px solid #e0ebf2;
-  border-radius:24px;
-  background:#fff;
-  box-shadow:0 16px 34px rgba(7,20,33,.06);
-}
-
-.included-card h3{
-  margin:0 0 10px;
-  color:#071421;
-  font-size:22px;
-}
-
-.included-card p{
-  margin:0;
-  color:#4b5b66;
-  line-height:1.6;
-}
-
-/* PROCESS */
-
+.included-grid,
 .process-grid{
   display:grid;
   grid-template-columns:repeat(4,minmax(0,1fr));
@@ -362,12 +322,27 @@ body{
   margin:0 auto;
 }
 
+.included-card,
 .process-card{
-  padding:26px;
+  padding:24px;
   border:1px solid #e0ebf2;
   border-radius:24px;
   background:#fff;
   box-shadow:0 16px 34px rgba(7,20,33,.06);
+}
+
+.included-card h3,
+.process-card h3{
+  margin:0 0 10px;
+  color:#071421;
+  font-size:22px;
+}
+
+.included-card p,
+.process-card p{
+  margin:0;
+  color:#4b5b66;
+  line-height:1.6;
 }
 
 .process-card span{
@@ -382,20 +357,6 @@ body{
   color:#061421;
   font-weight:900;
 }
-
-.process-card h3{
-  margin:0 0 10px;
-  color:#071421;
-  font-size:22px;
-}
-
-.process-card p{
-  margin:0;
-  color:#4b5b66;
-  line-height:1.6;
-}
-
-/* FAQ */
 
 .faq-list{
   display:grid;
@@ -425,8 +386,6 @@ body{
   line-height:1.7;
 }
 
-/* CTA */
-
 .final-cta{
   padding:88px min(6vw,72px);
   background:linear-gradient(135deg,#0b243a,#071421);
@@ -452,8 +411,6 @@ body{
 .final-cta .hero-actions{
   justify-content:center;
 }
-
-/* RESPONSIVE */
 
 @media(max-width:1180px){
   .advertising-hero,
@@ -511,17 +468,16 @@ body{
   <div>
     <p class="eyebrow">Advertising Pricing</p>
 
-    <h1>Professional digital advertising management with simple campaign pricing.</h1>
+    <h1>Simple pricing across search, shopping, social, Amazon, and streaming TV.</h1>
 
     <p>
       Every WebAct advertising campaign is managed for $300 per campaign,
-      plus the advertising budget you pay directly to the selected platform.
-      Choose search, display, remarketing, shopping, video, social, or local
-      advertising based on your goals.
+      plus the advertising budget paid to the selected platform. Choose one
+      campaign or combine several channels into a coordinated advertising plan.
     </p>
 
     <div class="hero-actions">
-      <a class="button primary" href="#campaign-pricing">View Campaign Pricing</a>
+      <a class="button primary" href="#google-pricing">View Campaign Pricing</a>
       <a class="button secondary" href="/webact-redesign/contact/index.html">Request Advertising Help</a>
     </div>
   </div>
@@ -546,16 +502,14 @@ body{
       </label>
 
       <label>
-        Advertising Service
+        Advertising Platform
         <select name="service">
-          <option>Google Search Ads</option>
-          <option>Microsoft Search Ads</option>
-          <option>Display Advertising</option>
-          <option>Remarketing</option>
-          <option>Shopping Ads</option>
-          <option>Video Advertising</option>
-          <option>Social Media Advertising</option>
+          <option>Google Advertising</option>
           <option>Local Services Ads</option>
+          <option>Microsoft Advertising</option>
+          <option>Amazon Advertising</option>
+          <option>Social Media Advertising</option>
+          <option>Streaming TV Advertising</option>
           <option>Multiple Campaigns</option>
         </select>
       </label>
@@ -572,22 +526,24 @@ body{
   </aside>
 </section>
 
-<section class="section soft" id="campaign-pricing">
+<section class="section soft" id="google-pricing">
   <div class="pricing-feature">
 
     <div class="pricing-intro">
-      <p class="eyebrow">Campaign Management Pricing</p>
+      <p class="eyebrow">Google and Local Services Ads</p>
 
-      <h2>One straightforward price for every advertising campaign.</h2>
+      <h2>Reach customers across Google Search, Shopping, YouTube, and local lead results.</h2>
 
       <p>
-        WebAct charges $300 to manage each individual advertising campaign.
-        Your advertising budget is separate and is paid directly to Google,
-        Microsoft, Meta, LinkedIn, YouTube, or the selected advertising platform.
+        Google campaigns can target high-intent searches, ecommerce shoppers,
+        website visitors, video audiences, app users, and customers looking for
+        eligible local service providers. Google supports multiple campaign
+        formats across Search, Display, Shopping, Video, and other Google
+        inventory. :contentReference[oaicite:0]{index=0}
       </p>
 
       <a class="button primary" href="/webact-redesign/contact/index.html">
-        Start an Advertising Campaign
+        Start a Google Campaign
       </a>
     </div>
 
@@ -598,150 +554,625 @@ body{
         <h3>Google Search Ads</h3>
         <p class="tier-price">$300</p>
         <p class="tier-cycle">Per campaign + your ad budget</p>
-        <p>
-          Reach customers actively searching for your products, services,
-          company, or location.
-        </p>
+        <p>Reach customers actively searching for your products, services, company, or location.</p>
         <ul>
-          <li>Keyword-focused campaign</li>
-          <li>Ad group organization</li>
+          <li>Keyword targeting</li>
           <li>Search ad copy</li>
           <li>Negative keyword planning</li>
           <li>Location and device targeting</li>
-          <li>Conversion-focused setup</li>
+          <li>Conversion-focused campaign setup</li>
         </ul>
       </article>
 
       <article class="tier-card">
         <span class="tier-number">02</span>
-        <h3>Microsoft Search Ads</h3>
+        <h3>Google Display Ads</h3>
         <p class="tier-price">$300</p>
         <p class="tier-cycle">Per campaign + your ad budget</p>
-        <p>
-          Reach customers using Bing, Microsoft Search, and connected search
-          advertising networks.
-        </p>
+        <p>Build awareness across websites, apps, and Google Display placements.</p>
         <ul>
-          <li>Keyword-focused campaign</li>
-          <li>Search ad copy</li>
-          <li>Audience and location targeting</li>
-          <li>Device targeting</li>
-          <li>Negative keywords</li>
-          <li>Conversion-focused setup</li>
+          <li>Audience targeting</li>
+          <li>Placement planning</li>
+          <li>Geographic targeting</li>
+          <li>Visual campaign setup</li>
+          <li>Traffic or awareness goals</li>
         </ul>
       </article>
 
       <article class="tier-card">
         <span class="tier-number">03</span>
-        <h3>Display Advertising</h3>
+        <h3>Google Remarketing</h3>
         <p class="tier-price">$300</p>
         <p class="tier-cycle">Per campaign + your ad budget</p>
-        <p>
-          Build brand visibility across websites, apps, and digital placements
-          using visual advertising.
-        </p>
+        <p>Reconnect with visitors who previously viewed your website, services, or products.</p>
         <ul>
-          <li>Audience targeting</li>
-          <li>Placement planning</li>
-          <li>Geographic targeting</li>
-          <li>Display ad setup</li>
-          <li>Website traffic goals</li>
-          <li>Campaign organization</li>
+          <li>Visitor audience setup</li>
+          <li>Remarketing messaging</li>
+          <li>Audience exclusions</li>
+          <li>Display or video placements</li>
+          <li>Conversion-focused offers</li>
         </ul>
       </article>
 
       <article class="tier-card">
         <span class="tier-number">04</span>
-        <h3>Remarketing</h3>
+        <h3>Google Shopping Ads</h3>
         <p class="tier-price">$300</p>
         <p class="tier-cycle">Per campaign + your ad budget</p>
-        <p>
-          Reconnect with people who previously visited your website or interacted
-          with your business.
-        </p>
+        <p>Promote ecommerce products using product images, pricing, and store information.</p>
         <ul>
-          <li>Visitor audience setup</li>
-          <li>Remarketing campaign creation</li>
-          <li>Offer and message planning</li>
-          <li>Display or social placements</li>
-          <li>Conversion-focused messaging</li>
-          <li>Audience exclusions</li>
+          <li>Shopping campaign setup</li>
+          <li>Product group organization</li>
+          <li>Merchant feed coordination</li>
+          <li>Product targeting</li>
+          <li>Purchase-focused structure</li>
         </ul>
       </article>
 
       <article class="tier-card">
         <span class="tier-number">05</span>
-        <h3>Shopping Ads</h3>
+        <h3>YouTube Video Ads</h3>
         <p class="tier-price">$300</p>
         <p class="tier-cycle">Per campaign + your ad budget</p>
-        <p>
-          Promote ecommerce products with product images, pricing, store
-          information, and shopping-focused advertising.
-        </p>
-        <ul>
-          <li>Product campaign setup</li>
-          <li>Product group organization</li>
-          <li>Shopping audience targeting</li>
-          <li>Merchant feed coordination</li>
-          <li>Product visibility planning</li>
-          <li>Conversion-focused setup</li>
-        </ul>
-      </article>
-
-      <article class="tier-card">
-        <span class="tier-number">06</span>
-        <h3>Video Advertising</h3>
-        <p class="tier-price">$300</p>
-        <p class="tier-cycle">Per campaign + your ad budget</p>
-        <p>
-          Promote your business with YouTube and video campaigns designed for
-          awareness, website traffic, or customer action.
-        </p>
+        <p>Promote your business using YouTube video campaigns and video placements.</p>
         <ul>
           <li>Video campaign setup</li>
           <li>Audience targeting</li>
           <li>Location targeting</li>
           <li>Placement planning</li>
           <li>Call-to-action setup</li>
-          <li>Campaign organization</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">06</span>
+        <h3>Google Performance Max</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Coordinate advertising across multiple eligible Google properties from one campaign.</p>
+        <ul>
+          <li>Goal-focused setup</li>
+          <li>Audience signals</li>
+          <li>Creative asset coordination</li>
+          <li>Location targeting</li>
+          <li>Conversion planning</li>
         </ul>
       </article>
 
       <article class="tier-card">
         <span class="tier-number">07</span>
-        <h3>Social Media Advertising</h3>
+        <h3>Google App Campaigns</h3>
         <p class="tier-price">$300</p>
         <p class="tier-cycle">Per campaign + your ad budget</p>
-        <p>
-          Reach targeted audiences through Facebook, Instagram, LinkedIn, and
-          other social platforms.
-        </p>
+        <p>Promote mobile app installs, engagement, registrations, or in-app actions.</p>
+        <ul>
+          <li>App campaign setup</li>
+          <li>Install or action goals</li>
+          <li>Audience planning</li>
+          <li>Creative coordination</li>
+          <li>Conversion setup</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">08</span>
+        <h3>Google Local Services Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Generate local calls and leads for eligible service-based businesses.</p>
+        <ul>
+          <li>Service and location planning</li>
+          <li>Profile and verification coordination</li>
+          <li>Lead-focused setup</li>
+          <li>Local market alignment</li>
+          <li>Budget structure</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
+      <p class="eyebrow">Microsoft Advertising</p>
+
+      <h2>Reach customers across Microsoft Search, shopping, native, and audience placements.</h2>
+
+      <p>
+        Microsoft Advertising can extend campaign reach beyond Google and
+        connect with customers using Microsoft search and advertising
+        properties.
+      </p>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Start a Microsoft Campaign
+      </a>
+    </div>
+
+    <div class="tier-grid">
+
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>Microsoft Search Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach customers actively searching through Bing and Microsoft search properties.</p>
+        <ul>
+          <li>Keyword targeting</li>
+          <li>Search ad copy</li>
+          <li>Negative keyword planning</li>
+          <li>Location and device targeting</li>
+          <li>Conversion setup</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>Microsoft Shopping Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Promote ecommerce products with product images, prices, and shopping-focused placements.</p>
+        <ul>
+          <li>Product campaign setup</li>
+          <li>Merchant feed coordination</li>
+          <li>Product group structure</li>
+          <li>Shopping targeting</li>
+          <li>Purchase-focused setup</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>Microsoft Audience Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach selected audiences through native and visual Microsoft advertising placements.</p>
         <ul>
           <li>Audience targeting</li>
+          <li>Native ad setup</li>
+          <li>Image and copy coordination</li>
+          <li>Location targeting</li>
+          <li>Traffic or lead goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">04</span>
+        <h3>Microsoft Multimedia Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Use larger visual search ads to highlight products, services, offers, and brand messaging.</p>
+        <ul>
+          <li>Visual asset coordination</li>
+          <li>Search targeting</li>
+          <li>Headline and copy setup</li>
+          <li>Location targeting</li>
+          <li>Conversion alignment</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
+      <p class="eyebrow">Amazon Advertising</p>
+
+      <h2>Promote products and brands across Amazon shopping and media properties.</h2>
+
+      <p>
+        Amazon Ads offers sponsored product and brand formats, display
+        advertising, programmatic buying through Amazon DSP, and streaming TV
+        inventory across Amazon-owned and partner properties. :contentReference[oaicite:1]{index=1}
+      </p>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Start an Amazon Campaign
+      </a>
+    </div>
+
+    <div class="tier-grid">
+
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>Amazon Sponsored Products</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Promote individual Amazon product listings to shoppers searching and browsing.</p>
+        <ul>
+          <li>Product campaign setup</li>
+          <li>Keyword or product targeting</li>
+          <li>Bid structure</li>
+          <li>Product grouping</li>
+          <li>Sales-focused setup</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>Amazon Sponsored Brands</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Promote your brand, product collection, store, or featured offerings.</p>
+        <ul>
+          <li>Brand campaign setup</li>
+          <li>Product collection planning</li>
+          <li>Headline coordination</li>
+          <li>Store or landing destination</li>
+          <li>Brand visibility goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>Amazon Sponsored Display</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach relevant shoppers on and beyond Amazon using display advertising.</p>
+        <ul>
+          <li>Audience or product targeting</li>
+          <li>Display campaign setup</li>
+          <li>Product selection</li>
+          <li>Remarketing options</li>
+          <li>Sales or awareness goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">04</span>
+        <h3>Amazon DSP</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Use programmatic advertising to reach audiences across Amazon and eligible third-party inventory.</p>
+        <ul>
+          <li>Audience strategy</li>
+          <li>Programmatic campaign setup</li>
+          <li>Display or video inventory</li>
+          <li>Remarketing or prospecting</li>
+          <li>Conversion or awareness goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">05</span>
+        <h3>Amazon Streaming TV Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach streaming viewers across eligible Amazon video and connected-TV inventory.</p>
+        <ul>
+          <li>Streaming campaign setup</li>
+          <li>Audience targeting</li>
+          <li>Video creative coordination</li>
+          <li>Geographic targeting</li>
+          <li>Brand or performance goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">06</span>
+        <h3>Amazon Video Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Use video creative to introduce products, demonstrate features, or build brand awareness.</p>
+        <ul>
+          <li>Video campaign setup</li>
+          <li>Audience selection</li>
+          <li>Product or brand alignment</li>
+          <li>Placement planning</li>
           <li>Campaign objective setup</li>
-          <li>Ad copy and message planning</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
+      <p class="eyebrow">Social Media Advertising</p>
+
+      <h2>Reach targeted audiences across major social and community platforms.</h2>
+
+      <p>
+        Social advertising can support awareness, website traffic, leads,
+        ecommerce sales, recruiting, event promotion, app installs, and customer
+        engagement. The platforms below represent the major social networks
+        commonly used for paid campaigns.
+      </p>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Start a Social Campaign
+      </a>
+    </div>
+
+    <div class="tier-grid">
+
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>Facebook Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach local, national, interest-based, and customer audiences across Facebook.</p>
+        <ul>
+          <li>Audience targeting</li>
+          <li>Lead, traffic, or sales objective</li>
+          <li>Copy and creative coordination</li>
+          <li>Location targeting</li>
+          <li>Landing page alignment</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>Instagram Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Promote visual content through Instagram feeds, Stories, Reels, and eligible placements.</p>
+        <ul>
+          <li>Visual campaign setup</li>
+          <li>Audience targeting</li>
+          <li>Stories and Reels planning</li>
+          <li>Lead or sales goals</li>
           <li>Creative coordination</li>
-          <li>Lead or traffic campaign setup</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>LinkedIn Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach professionals by job role, company, industry, seniority, skills, and business interests.</p>
+        <ul>
+          <li>Professional audience targeting</li>
+          <li>Lead-generation setup</li>
+          <li>Sponsored content</li>
+          <li>Company and industry targeting</li>
+          <li>B2B landing page alignment</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">04</span>
+        <h3>TikTok Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach video-first audiences through TikTok feeds and campaign placements.</p>
+        <ul>
+          <li>Video campaign setup</li>
+          <li>Audience targeting</li>
+          <li>Creative coordination</li>
+          <li>Traffic, lead, or sales goals</li>
+          <li>Landing page alignment</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">05</span>
+        <h3>Pinterest Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Promote products, services, ideas, and visual inspiration to planning-oriented audiences.</p>
+        <ul>
+          <li>Promoted Pin setup</li>
+          <li>Interest and keyword targeting</li>
+          <li>Shopping or traffic goals</li>
+          <li>Creative coordination</li>
+          <li>Landing page alignment</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">06</span>
+        <h3>Snapchat Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach mobile and video audiences using Snapchat advertising placements.</p>
+        <ul>
+          <li>Mobile campaign setup</li>
+          <li>Audience targeting</li>
+          <li>Video creative coordination</li>
+          <li>Location or interest targeting</li>
+          <li>Traffic or conversion goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">07</span>
+        <h3>Reddit Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach interest-based communities and discussion audiences across Reddit.</p>
+        <ul>
+          <li>Community and interest targeting</li>
+          <li>Campaign objective setup</li>
+          <li>Copy and creative coordination</li>
+          <li>Traffic or conversion goals</li>
           <li>Landing page alignment</li>
         </ul>
       </article>
 
       <article class="tier-card">
         <span class="tier-number">08</span>
-        <h3>Local Services Ads</h3>
+        <h3>X Advertising</h3>
         <p class="tier-price">$300</p>
         <p class="tier-cycle">Per campaign + your ad budget</p>
-        <p>
-          Reach local customers looking for eligible home, professional, and
-          service-based businesses.
-        </p>
+        <p>Promote messages, offers, events, content, and brand activity across X.</p>
         <ul>
-          <li>Service and location planning</li>
-          <li>Campaign setup support</li>
-          <li>Business information review</li>
-          <li>Lead-focused targeting</li>
-          <li>Local market alignment</li>
-          <li>Website and profile coordination</li>
+          <li>Audience targeting</li>
+          <li>Post promotion</li>
+          <li>Traffic or engagement goals</li>
+          <li>Location targeting</li>
+          <li>Campaign messaging</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">09</span>
+        <h3>Nextdoor Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach neighborhood audiences for local services, retail, events, and community-based offers.</p>
+        <ul>
+          <li>Neighborhood targeting</li>
+          <li>Local campaign setup</li>
+          <li>Offer and message planning</li>
+          <li>Lead or traffic goals</li>
+          <li>Local landing page alignment</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
+      <p class="eyebrow">Streaming TV Advertising</p>
+
+      <h2>Place video campaigns across connected TV and streaming environments.</h2>
+
+      <p>
+        Streaming TV campaigns can reach viewers through connected televisions,
+        streaming devices, ad-supported video services, and programmatic video
+        inventory. Availability, targeting, minimum media budgets, and inventory
+        vary by platform and publisher.
+      </p>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Start a Streaming TV Campaign
+      </a>
+    </div>
+
+    <div class="tier-grid">
+
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>Amazon Streaming TV</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach eligible audiences across Amazon streaming and connected-TV inventory.</p>
+        <ul>
+          <li>Audience targeting</li>
+          <li>Streaming campaign setup</li>
+          <li>Video creative coordination</li>
+          <li>Geographic targeting</li>
+          <li>Brand or performance objective</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>YouTube TV and Connected TV</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach video audiences through YouTube and eligible connected-TV viewing environments.</p>
+        <ul>
+          <li>Video campaign setup</li>
+          <li>Audience and location targeting</li>
+          <li>Connected-TV placement planning</li>
+          <li>Creative coordination</li>
+          <li>Awareness or conversion goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>Roku Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach streaming households through eligible Roku advertising inventory.</p>
+        <ul>
+          <li>Streaming audience targeting</li>
+          <li>Campaign setup</li>
+          <li>Geographic targeting</li>
+          <li>Video asset coordination</li>
+          <li>Brand awareness goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">04</span>
+        <h3>Hulu and Disney Streaming</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Plan campaigns for eligible ad-supported streaming inventory and audiences.</p>
+        <ul>
+          <li>Audience planning</li>
+          <li>Streaming campaign setup</li>
+          <li>Video creative coordination</li>
+          <li>Location targeting</li>
+          <li>Awareness or response goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">05</span>
+        <h3>Peacock Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach eligible streaming audiences through Peacock advertising inventory.</p>
+        <ul>
+          <li>Audience selection</li>
+          <li>Campaign setup</li>
+          <li>Video creative coordination</li>
+          <li>Geographic targeting</li>
+          <li>Brand or response goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">06</span>
+        <h3>Paramount+ Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Promote your business through eligible Paramount streaming advertising inventory.</p>
+        <ul>
+          <li>Audience planning</li>
+          <li>Streaming campaign setup</li>
+          <li>Video asset coordination</li>
+          <li>Location targeting</li>
+          <li>Campaign objective planning</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">07</span>
+        <h3>Tubi Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Reach ad-supported streaming audiences through eligible Tubi campaign inventory.</p>
+        <ul>
+          <li>Audience targeting</li>
+          <li>Campaign setup</li>
+          <li>Video creative coordination</li>
+          <li>Geographic targeting</li>
+          <li>Awareness goals</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">08</span>
+        <h3>Programmatic Connected TV</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>Purchase eligible connected-TV and streaming inventory across multiple publishers through a programmatic platform.</p>
+        <ul>
+          <li>Audience strategy</li>
+          <li>Programmatic campaign setup</li>
+          <li>Publisher inventory planning</li>
+          <li>Video asset coordination</li>
+          <li>Reach and frequency goals</li>
         </ul>
       </article>
 
@@ -753,80 +1184,24 @@ body{
   <div class="heading">
     <p class="eyebrow">What the $300 Campaign Fee Covers</p>
 
-    <h2>Campaign planning, setup, and professional management.</h2>
+    <h2>Campaign planning, setup, targeting, and professional management.</h2>
 
     <p>
-      The campaign management fee is separate from your advertising budget and
-      applies to each individual advertising campaign.
+      The $300 management fee applies to each separately configured campaign.
+      The media or advertising budget is paid separately to the selected
+      advertising platform.
     </p>
   </div>
 
   <div class="included-grid">
-
-    <article class="included-card">
-      <h3>Campaign Strategy</h3>
-      <p>
-        Identify the campaign objective, audience, service, product, geographic
-        market, offer, and customer action.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Platform Setup</h3>
-      <p>
-        Build the campaign inside the selected advertising platform using the
-        correct campaign type and settings.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Targeting</h3>
-      <p>
-        Configure keywords, audiences, locations, devices, placements, interests,
-        or customer characteristics.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Ad Messaging</h3>
-      <p>
-        Develop campaign messaging, offers, calls to action, headlines, and
-        descriptions suited to the platform.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Landing Page Alignment</h3>
-      <p>
-        Connect advertisements to the most relevant website page, service page,
-        product page, or landing page.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Budget Structure</h3>
-      <p>
-        Organize the campaign around the advertising budget and the customer
-        actions most important to your business.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Conversion Focus</h3>
-      <p>
-        Plan calls, forms, purchases, appointments, quote requests, downloads, or
-        other campaign actions.
-      </p>
-    </article>
-
-    <article class="included-card">
-      <h3>Campaign Review</h3>
-      <p>
-        Review campaign structure, targeting, messaging, landing pages, and
-        performance priorities.
-      </p>
-    </article>
-
+    <article class="included-card"><h3>Campaign Strategy</h3><p>Define the platform, objective, service, product, offer, audience, geographic market, and customer action.</p></article>
+    <article class="included-card"><h3>Platform Setup</h3><p>Build the campaign using the selected platform and the appropriate campaign type.</p></article>
+    <article class="included-card"><h3>Targeting</h3><p>Configure keywords, audiences, locations, devices, placements, interests, or customer attributes.</p></article>
+    <article class="included-card"><h3>Ad Messaging</h3><p>Develop headlines, descriptions, offers, calls to action, and platform-appropriate campaign messaging.</p></article>
+    <article class="included-card"><h3>Creative Coordination</h3><p>Coordinate images, graphics, product assets, video, logos, and other campaign creative requirements.</p></article>
+    <article class="included-card"><h3>Landing Page Alignment</h3><p>Connect advertisements to a relevant page, product, service, form, booking path, or landing page.</p></article>
+    <article class="included-card"><h3>Budget Structure</h3><p>Organize the campaign around the selected media budget and the actions most valuable to the business.</p></article>
+    <article class="included-card"><h3>Campaign Review</h3><p>Review targeting, structure, messaging, destinations, and campaign priorities.</p></article>
   </div>
 </section>
 
@@ -834,61 +1209,26 @@ body{
   <div class="heading">
     <p class="eyebrow">How Advertising Pricing Works</p>
 
-    <h2>Your campaign fee and advertising budget are separate.</h2>
+    <h2>Your management fee and platform advertising budget are separate.</h2>
 
     <p>
-      The $300 campaign fee covers WebAct campaign management. The advertising
-      budget determines how much is spent directly through the advertising
-      platform.
+      A campaign is a separately organized advertising initiative with its own
+      platform, targeting, objective, settings, and budget.
     </p>
   </div>
 
   <div class="process-grid">
-
-    <article class="process-card">
-      <span>01</span>
-      <h3>Choose a Campaign</h3>
-      <p>
-        Select the advertising platform and campaign type that best matches your
-        goals.
-      </p>
-    </article>
-
-    <article class="process-card">
-      <span>02</span>
-      <h3>Set an Ad Budget</h3>
-      <p>
-        Choose the amount paid directly to Google, Microsoft, Meta, LinkedIn,
-        YouTube, or another platform.
-      </p>
-    </article>
-
-    <article class="process-card">
-      <span>03</span>
-      <h3>WebAct Builds It</h3>
-      <p>
-        WebAct organizes the targeting, campaign structure, messaging, and
-        destination pages.
-      </p>
-    </article>
-
-    <article class="process-card">
-      <span>04</span>
-      <h3>Launch and Review</h3>
-      <p>
-        The campaign launches and can be reviewed based on traffic, leads,
-        purchases, calls, or other business goals.
-      </p>
-    </article>
-
+    <article class="process-card"><span>01</span><h3>Choose a Platform</h3><p>Select Google, Microsoft, Amazon, a social network, or a streaming TV channel.</p></article>
+    <article class="process-card"><span>02</span><h3>Choose a Campaign</h3><p>Select the campaign type, objective, audience, offer, service, product, or location.</p></article>
+    <article class="process-card"><span>03</span><h3>Set the Ad Budget</h3><p>Choose the media budget paid directly to the selected advertising platform.</p></article>
+    <article class="process-card"><span>04</span><h3>WebAct Builds It</h3><p>WebAct configures the campaign, targeting, messaging, assets, and destination pages.</p></article>
   </div>
 </section>
 
 <section class="section">
   <div class="heading">
     <p class="eyebrow">Advertising Pricing FAQ</p>
-
-    <h2>Questions about campaign pricing and advertising budgets.</h2>
+    <h2>Questions about platforms, campaigns, and advertising budgets.</h2>
   </div>
 
   <div class="faq-list">
@@ -896,8 +1236,17 @@ body{
     <details open>
       <summary>How much does WebAct charge for an advertising campaign?</summary>
       <p>
-        WebAct charges $300 per advertising campaign, plus the advertising
-        budget paid directly to the selected platform.
+        WebAct charges $300 per campaign, plus the advertising budget paid to
+        the selected platform.
+      </p>
+    </details>
+
+    <details>
+      <summary>Does every advertising platform have the same WebAct campaign fee?</summary>
+      <p>
+        Yes. Google, Local Services Ads, Microsoft, Amazon, social media, and
+        streaming TV campaigns are each $300 per campaign plus the applicable
+        advertising budget.
       </p>
     </details>
 
@@ -905,61 +1254,60 @@ body{
       <summary>Is the advertising budget included in the $300 fee?</summary>
       <p>
         No. The $300 fee covers campaign management. Your advertising budget is
-        separate and is paid to Google, Microsoft, Meta, LinkedIn, YouTube, or
-        another selected platform.
+        separate and is paid to the selected advertising platform.
       </p>
     </details>
 
     <details>
       <summary>What counts as one campaign?</summary>
       <p>
-        A campaign is a separately organized advertising initiative with its own
-        platform, objective, targeting, budget, and settings. Multiple campaign
-        types are priced separately.
+        A campaign is a separately configured advertising initiative with its
+        own platform, objective, targeting, settings, and budget.
       </p>
     </details>
 
     <details>
-      <summary>Does every campaign type cost the same?</summary>
+      <summary>Can WebAct manage Amazon Advertising?</summary>
       <p>
-        Yes. Google Search Ads, Microsoft Ads, display, remarketing, shopping,
-        video, social media, and Local Services Ads are each $300 per campaign,
-        plus your advertising budget.
+        Yes. Amazon campaign options can include Sponsored Products, Sponsored
+        Brands, Sponsored Display, Amazon DSP, video, and streaming TV
+        advertising.
       </p>
     </details>
 
     <details>
-      <summary>How much should I spend on the advertising budget?</summary>
+      <summary>Which social media platforms can WebAct advertise on?</summary>
       <p>
-        The appropriate budget depends on the platform, market, competition,
-        location, service value, audience size, and campaign goals. WebAct can
-        help recommend a practical starting budget.
+        Campaign options can include Facebook, Instagram, LinkedIn, TikTok,
+        Pinterest, Snapchat, Reddit, X, and Nextdoor, depending on platform
+        availability and the campaign objective.
       </p>
     </details>
 
     <details>
-      <summary>Are landing pages included?</summary>
+      <summary>Which streaming TV platforms are included?</summary>
       <p>
-        Campaign setup can connect to an existing website page. New custom
-        landing-page design or development may require separate design pricing.
+        Streaming TV options may include Amazon Streaming TV, YouTube connected
+        TV, Roku, Hulu and Disney inventory, Peacock, Paramount+, Tubi, and
+        programmatic connected-TV inventory. Availability and minimum media
+        budgets may vary.
       </p>
     </details>
 
     <details>
-      <summary>Can I run more than one campaign?</summary>
+      <summary>Are landing pages and video production included?</summary>
       <p>
-        Yes. You can run multiple campaigns across different services, products,
-        locations, audiences, or advertising platforms. Each campaign is priced
-        at $300 plus its advertising budget.
+        Campaign setup can use existing approved assets and website pages.
+        Custom landing pages, advanced graphic design, or video production may
+        require separate design pricing.
       </p>
     </details>
 
     <details>
-      <summary>Can advertising be combined with SEO and marketing?</summary>
+      <summary>Can I run several campaigns at the same time?</summary>
       <p>
-        Yes. WebAct can coordinate digital advertising with SEO, AEO, local
-        listings, email marketing, website design, landing pages, and conversion
-        improvements.
+        Yes. Each separately configured campaign is priced at $300 plus its
+        advertising budget.
       </p>
     </details>
 
@@ -967,12 +1315,12 @@ body{
 </section>
 
 <section class="final-cta">
-  <h2>Ready to start an advertising campaign?</h2>
+  <h2>Ready to choose your advertising channels?</h2>
 
   <p>
     Tell WebAct what you want to promote, who you want to reach, and your
-    preferred advertising budget. We can recommend the right platform and
-    campaign type.
+    preferred advertising budget. We can recommend the right Google, Microsoft,
+    Amazon, social media, or streaming TV campaigns.
   </p>
 
   <div class="hero-actions">
