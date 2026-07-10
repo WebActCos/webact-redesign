@@ -1,59 +1,999 @@
 ﻿<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Advertising Pricing | WebAct</title>
-    <meta name="description" content="Advertising pricing depends on channel mix, geography, spend, creative needs, and reporting cadence.">
-    <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-    <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Digital Advertising Pricing | WebAct</title>
+<meta name="description" content="WebAct digital advertising pricing for Google Search Ads, Microsoft Ads, display advertising, remarketing, shopping ads, video advertising, social media advertising, and Local Services Ads.">
+
+<link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+<link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+
+<style>
+html,
+body{
+  height:auto!important;
+  overflow-x:hidden!important;
+}
+
+body{
+  margin:0;
+}
+
+.advertising-pricing-page{
+  background:#fff;
+  color:#071421;
+}
+
+/* HERO */
+
+.advertising-hero{
+  display:grid;
+  grid-template-columns:minmax(0,1.05fr) minmax(360px,.72fr);
+  gap:54px;
+  align-items:center;
+  padding:96px min(6vw,72px);
+  background:
+    radial-gradient(circle at 14% 18%,rgba(51,171,225,.24),transparent 30%),
+    linear-gradient(135deg,#061421,#0d2740 52%,#071421);
+  color:#fff;
+}
+
+.advertising-hero h1{
+  margin:14px 0 22px;
+  color:#fff;
+  font-size:clamp(44px,6vw,78px);
+  line-height:.96;
+  letter-spacing:-.055em;
+}
+
+.advertising-hero p{
+  max-width:850px;
+  margin:0;
+  color:#d9edf8;
+  font-size:20px;
+  line-height:1.65;
+}
+
+.eyebrow{
+  color:#73d7ff;
+  font-weight:900;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  margin-top:28px;
+}
+
+.button{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-width:220px!important;
+  min-height:56px!important;
+  padding:14px 24px!important;
+  box-sizing:border-box!important;
+  border-radius:14px!important;
+  font-weight:900!important;
+  text-decoration:none!important;
+}
+
+.button.primary{
+  border:2px solid #33abe1!important;
+  background:#33abe1!important;
+  color:#061421!important;
+}
+
+.button.secondary{
+  border:2px solid #fff!important;
+  background:#fff!important;
+  color:#071421!important;
+}
+
+/* HERO FORM */
+
+.hero-form-card{
+  width:100%;
+  max-width:520px;
+  justify-self:end;
+  padding:34px;
+  box-sizing:border-box;
+  overflow:hidden;
+  border-radius:28px;
+  background:rgba(255,255,255,.97);
+  color:#071421;
+  box-shadow:0 30px 80px rgba(0,0,0,.28);
+}
+
+.hero-form-card h2{
+  margin:0 0 8px;
+  color:#071421;
+  font-size:30px;
+}
+
+.hero-form-card > p{
+  margin:0 0 20px;
+  color:#4b5b66;
+  font-size:16px;
+  line-height:1.55;
+}
+
+.hero-form{
+  display:block;
+  width:100%;
+  margin:0;
+  padding:0;
+  background:transparent;
+  box-shadow:none;
+}
+
+.hero-form label{
+  display:block;
+  margin:0 0 14px;
+  color:#203241;
+  font-size:14px;
+  font-weight:900;
+}
+
+.hero-form input,
+.hero-form select,
+.hero-form textarea{
+  display:block;
+  width:100%;
+  min-width:0;
+  margin-top:7px;
+  padding:13px 14px;
+  box-sizing:border-box;
+  border:1px solid #cddce7;
+  border-radius:12px;
+  background:#fff;
+  color:#071421;
+  font:inherit;
+}
+
+.hero-form textarea{
+  min-height:100px;
+  resize:vertical;
+}
+
+.hero-form .button{
+  width:100%;
+  margin-top:6px;
+}
+
+/* GENERAL */
+
+.section{
+  padding:88px min(6vw,72px);
+}
+
+.soft{
+  background:#f4f8fb;
+}
+
+.heading{
+  max-width:980px;
+  margin:0 auto 48px;
+  text-align:center;
+}
+
+.heading .eyebrow{
+  color:#0c9bd2;
+}
+
+.heading h2{
+  margin:10px 0 18px;
+  color:#071421;
+  font-size:clamp(34px,4.6vw,62px);
+  line-height:1;
+  letter-spacing:-.045em;
+}
+
+.heading p{
+  margin:0;
+  color:#4b5b66;
+  font-size:18px;
+  line-height:1.65;
+}
+
+/* PRICING FEATURE */
+
+.pricing-feature{
+  display:grid;
+  grid-template-columns:minmax(350px,.88fr) minmax(0,1.12fr);
+  gap:52px;
+  align-items:stretch;
+  max-width:1500px;
+  margin:0 auto;
+}
+
+.pricing-intro{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  min-height:480px;
+  padding:48px;
+  border-radius:34px;
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  box-shadow:0 26px 70px rgba(7,20,33,.18);
+}
+
+.pricing-intro h2{
+  margin:14px 0 20px;
+  color:#fff;
+  font-size:clamp(38px,4.8vw,68px);
+  line-height:1;
+  letter-spacing:-.05em;
+}
+
+.pricing-intro p{
+  margin:0;
+  color:#d4e8f2;
+  font-size:18px;
+  line-height:1.7;
+}
+
+.pricing-intro .button{
+  width:max-content;
+  margin-top:28px;
+}
+
+.tier-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px;
+}
+
+.tier-card{
+  display:flex;
+  flex-direction:column;
+  min-height:340px;
+  padding:28px;
+  border:1px solid #dcecf5;
+  border-radius:26px;
+  background:#fff;
+  box-shadow:0 16px 38px rgba(7,20,33,.07);
+}
+
+.tier-number{
+  display:flex;
+  width:54px;
+  height:54px;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:20px;
+  border-radius:15px;
+  background:#33abe1;
+  color:#061421;
+  font-weight:900;
+}
+
+.tier-card h3{
+  margin:0 0 10px;
+  color:#071421;
+  font-size:25px;
+  line-height:1.15;
+}
+
+.tier-price{
+  margin:0 0 8px;
+  color:#0c9bd2;
+  font-size:34px;
+  font-weight:900;
+  line-height:1.1;
+}
+
+.tier-cycle{
+  margin:0 0 18px;
+  color:#657580;
+  font-weight:800;
+}
+
+.tier-card > p:not(.tier-price):not(.tier-cycle){
+  margin:0 0 18px;
+  color:#4b5b66;
+  line-height:1.65;
+}
+
+.tier-card ul{
+  display:grid;
+  gap:9px;
+  margin:auto 0 0;
+  padding:0;
+  list-style:none;
+}
+
+.tier-card li{
+  color:#203241;
+  font-weight:800;
+  line-height:1.4;
+}
+
+.tier-card li:before{
+  content:"✓ ";
+  color:#0c9bd2;
+  font-weight:900;
+}
+
+/* INCLUDED */
+
+.included-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:20px;
+  max-width:1320px;
+  margin:0 auto;
+}
+
+.included-card{
+  padding:24px;
+  border:1px solid #e0ebf2;
+  border-radius:24px;
+  background:#fff;
+  box-shadow:0 16px 34px rgba(7,20,33,.06);
+}
+
+.included-card h3{
+  margin:0 0 10px;
+  color:#071421;
+  font-size:22px;
+}
+
+.included-card p{
+  margin:0;
+  color:#4b5b66;
+  line-height:1.6;
+}
+
+/* PROCESS */
+
+.process-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:20px;
+  max-width:1320px;
+  margin:0 auto;
+}
+
+.process-card{
+  padding:26px;
+  border:1px solid #e0ebf2;
+  border-radius:24px;
+  background:#fff;
+  box-shadow:0 16px 34px rgba(7,20,33,.06);
+}
+
+.process-card span{
+  display:flex;
+  width:50px;
+  height:50px;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:18px;
+  border-radius:16px;
+  background:#33abe1;
+  color:#061421;
+  font-weight:900;
+}
+
+.process-card h3{
+  margin:0 0 10px;
+  color:#071421;
+  font-size:22px;
+}
+
+.process-card p{
+  margin:0;
+  color:#4b5b66;
+  line-height:1.6;
+}
+
+/* FAQ */
+
+.faq-list{
+  display:grid;
+  gap:16px;
+  max-width:1180px;
+  margin:0 auto;
+}
+
+.faq-list details{
+  padding:22px 26px;
+  border:1px solid #dcecf5;
+  border-radius:18px;
+  background:#fff;
+  box-shadow:0 12px 28px rgba(7,20,33,.06);
+}
+
+.faq-list summary{
+  color:#071421;
+  font-size:20px;
+  font-weight:900;
+  cursor:pointer;
+}
+
+.faq-list p{
+  margin:18px 0 0;
+  color:#4b5b66;
+  line-height:1.7;
+}
+
+/* CTA */
+
+.final-cta{
+  padding:88px min(6vw,72px);
+  background:linear-gradient(135deg,#0b243a,#071421);
+  color:#fff;
+  text-align:center;
+}
+
+.final-cta h2{
+  margin:0 0 16px;
+  color:#fff;
+  font-size:clamp(34px,5vw,64px);
+  line-height:1;
+}
+
+.final-cta p{
+  max-width:820px;
+  margin:0 auto;
+  color:#d4e8f2;
+  font-size:19px;
+  line-height:1.6;
+}
+
+.final-cta .hero-actions{
+  justify-content:center;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1180px){
+  .advertising-hero,
+  .pricing-feature{
+    grid-template-columns:1fr;
+  }
+
+  .hero-form-card{
+    max-width:none;
+    justify-self:stretch;
+  }
+
+  .pricing-intro{
+    min-height:0;
+  }
+
+  .included-grid,
+  .process-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media(max-width:720px){
+  .advertising-hero,
+  .section,
+  .final-cta{
+    padding:56px 20px;
+  }
+
+  .tier-grid,
+  .included-grid,
+  .process-grid{
+    grid-template-columns:1fr;
+  }
+
+  .pricing-intro,
+  .hero-form-card{
+    padding:26px;
+  }
+
+  .hero-actions .button{
+    width:100%;
+  }
+}
+</style>
 </head>
-  <body>
+
+<body class="advertising-pricing-page">
+
 <div id="webact-header"></div>
-<main><section class="page-hero">
+
+<main>
+
+<section class="advertising-hero">
   <div>
-    <p class="breadcrumb"><a href="/index.html">Home</a> / Pricing</p>
-    <p class="eyebrow">Campaign budgets by channel</p>
-    <h1>Advertising Pricing</h1>
-    <p class="hero-lede">Advertising pricing depends on channel mix, geography, spend, creative needs, and reporting cadence.</p>
+    <p class="eyebrow">Advertising Pricing</p>
+
+    <h1>Professional digital advertising management with simple campaign pricing.</h1>
+
+    <p>
+      Every WebAct advertising campaign is managed for $300 per campaign,
+      plus the advertising budget you pay directly to the selected platform.
+      Choose search, display, remarketing, shopping, video, social, or local
+      advertising based on your goals.
+    </p>
+
     <div class="hero-actions">
-      <a class="button primary" href="/contact/index.html">Start a conversation</a>
-      <a class="button secondary" href="/pricing/index.html">View pricing</a>
+      <a class="button primary" href="#campaign-pricing">View Campaign Pricing</a>
+      <a class="button secondary" href="/webact-redesign/contact/index.html">Request Advertising Help</a>
     </div>
   </div>
-  <img src="/webact-redesign/assets/digital-ads.jpg" alt="Advertising Pricing visual">
+
+  <aside class="hero-form-card">
+    <h2>Request Advertising Pricing</h2>
+
+    <p>
+      Tell us what you want to promote and WebAct can recommend the right
+      campaign type, platform, and advertising budget.
+    </p>
+
+    <form class="hero-form">
+      <label>
+        Full Name
+        <input type="text" name="name" autocomplete="name">
+      </label>
+
+      <label>
+        Email Address
+        <input type="email" name="email" autocomplete="email">
+      </label>
+
+      <label>
+        Advertising Service
+        <select name="service">
+          <option>Google Search Ads</option>
+          <option>Microsoft Search Ads</option>
+          <option>Display Advertising</option>
+          <option>Remarketing</option>
+          <option>Shopping Ads</option>
+          <option>Video Advertising</option>
+          <option>Social Media Advertising</option>
+          <option>Local Services Ads</option>
+          <option>Multiple Campaigns</option>
+        </select>
+      </label>
+
+      <label>
+        What do you want to advertise?
+        <textarea name="message"></textarea>
+      </label>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Request Advertising Pricing
+      </a>
+    </form>
+  </aside>
 </section>
-<section class="section website-design-intro">
-  <div class="website-design-copy">
-    <p class="eyebrow">WebAct Pricing</p>
-    <h2>Advertising Pricing with clear scope and next steps.</h2>
-    <p>Advertising pricing depends on channel mix, geography, spend, creative needs, and reporting cadence. WebAct's public pricing notes include website hosting at $50 per month for most business websites and $100 per month for ecommerce websites, plus add-ons such as blog migration or product setup when needed.</p>
+
+<section class="section soft" id="campaign-pricing">
+  <div class="pricing-feature">
+
+    <div class="pricing-intro">
+      <p class="eyebrow">Campaign Management Pricing</p>
+
+      <h2>One straightforward price for every advertising campaign.</h2>
+
+      <p>
+        WebAct charges $300 to manage each individual advertising campaign.
+        Your advertising budget is separate and is paid directly to Google,
+        Microsoft, Meta, LinkedIn, YouTube, or the selected advertising platform.
+      </p>
+
+      <a class="button primary" href="/webact-redesign/contact/index.html">
+        Start an Advertising Campaign
+      </a>
+    </div>
+
+    <div class="tier-grid">
+
+      <article class="tier-card">
+        <span class="tier-number">01</span>
+        <h3>Google Search Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>
+          Reach customers actively searching for your products, services,
+          company, or location.
+        </p>
+        <ul>
+          <li>Keyword-focused campaign</li>
+          <li>Ad group organization</li>
+          <li>Search ad copy</li>
+          <li>Negative keyword planning</li>
+          <li>Location and device targeting</li>
+          <li>Conversion-focused setup</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">02</span>
+        <h3>Microsoft Search Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>
+          Reach customers using Bing, Microsoft Search, and connected search
+          advertising networks.
+        </p>
+        <ul>
+          <li>Keyword-focused campaign</li>
+          <li>Search ad copy</li>
+          <li>Audience and location targeting</li>
+          <li>Device targeting</li>
+          <li>Negative keywords</li>
+          <li>Conversion-focused setup</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">03</span>
+        <h3>Display Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>
+          Build brand visibility across websites, apps, and digital placements
+          using visual advertising.
+        </p>
+        <ul>
+          <li>Audience targeting</li>
+          <li>Placement planning</li>
+          <li>Geographic targeting</li>
+          <li>Display ad setup</li>
+          <li>Website traffic goals</li>
+          <li>Campaign organization</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">04</span>
+        <h3>Remarketing</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>
+          Reconnect with people who previously visited your website or interacted
+          with your business.
+        </p>
+        <ul>
+          <li>Visitor audience setup</li>
+          <li>Remarketing campaign creation</li>
+          <li>Offer and message planning</li>
+          <li>Display or social placements</li>
+          <li>Conversion-focused messaging</li>
+          <li>Audience exclusions</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">05</span>
+        <h3>Shopping Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>
+          Promote ecommerce products with product images, pricing, store
+          information, and shopping-focused advertising.
+        </p>
+        <ul>
+          <li>Product campaign setup</li>
+          <li>Product group organization</li>
+          <li>Shopping audience targeting</li>
+          <li>Merchant feed coordination</li>
+          <li>Product visibility planning</li>
+          <li>Conversion-focused setup</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">06</span>
+        <h3>Video Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>
+          Promote your business with YouTube and video campaigns designed for
+          awareness, website traffic, or customer action.
+        </p>
+        <ul>
+          <li>Video campaign setup</li>
+          <li>Audience targeting</li>
+          <li>Location targeting</li>
+          <li>Placement planning</li>
+          <li>Call-to-action setup</li>
+          <li>Campaign organization</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">07</span>
+        <h3>Social Media Advertising</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>
+          Reach targeted audiences through Facebook, Instagram, LinkedIn, and
+          other social platforms.
+        </p>
+        <ul>
+          <li>Audience targeting</li>
+          <li>Campaign objective setup</li>
+          <li>Ad copy and message planning</li>
+          <li>Creative coordination</li>
+          <li>Lead or traffic campaign setup</li>
+          <li>Landing page alignment</li>
+        </ul>
+      </article>
+
+      <article class="tier-card">
+        <span class="tier-number">08</span>
+        <h3>Local Services Ads</h3>
+        <p class="tier-price">$300</p>
+        <p class="tier-cycle">Per campaign + your ad budget</p>
+        <p>
+          Reach local customers looking for eligible home, professional, and
+          service-based businesses.
+        </p>
+        <ul>
+          <li>Service and location planning</li>
+          <li>Campaign setup support</li>
+          <li>Business information review</li>
+          <li>Lead-focused targeting</li>
+          <li>Local market alignment</li>
+          <li>Website and profile coordination</li>
+        </ul>
+      </article>
+
+    </div>
   </div>
 </section>
-<section class="section website-benefits-section">
-  <div class="section-heading compact">
-    <p class="eyebrow">Pricing Lanes</p>
-    <h2>Plan the scope before the quote.</h2>
+
+<section class="section">
+  <div class="heading">
+    <p class="eyebrow">What the $300 Campaign Fee Covers</p>
+
+    <h2>Campaign planning, setup, and professional management.</h2>
+
+    <p>
+      The campaign management fee is separate from your advertising budget and
+      applies to each individual advertising campaign.
+    </p>
   </div>
-  <div class="pricing-grid rich-pricing-grid">
-    <article><h3>Starter Design</h3><strong>Quote</strong><p>Best for a small new website or focused redesign.</p><ul><li>Discovery and page plan</li><li>Responsive website design</li><li>Core service pages</li><li>Launch checklist</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Business Website Hosting</h3><strong>$50/mo</strong><p>Perfect for most businesses.</p><ul><li>Drag and drop editor</li><li>Natively responsive</li><li>Amazon cloud hosting</li><li>Built-in analytics</li><li>Free SSL certificate</li><li>Unlimited pages</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>eCommerce Website Hosting</h3><strong>$100/mo</strong><p>For businesses selling products online.</p><ul><li>All business website features</li><li>Up to 2500 product store</li><li>Store dashboard</li><li>Promotions and coupons</li><li>Shipping and tax setup</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article><article><h3>Content Add-ons</h3><strong>From $10</strong><p>For extra content migration and build support.</p><ul><li>Blog posts from $10 each</li><li>Products from $10 each</li><li>Landing page expansion</li><li>Portfolio and service content</li></ul><a class="button primary" href="/contact/index.html">Get a quote</a></article>
+
+  <div class="included-grid">
+
+    <article class="included-card">
+      <h3>Campaign Strategy</h3>
+      <p>
+        Identify the campaign objective, audience, service, product, geographic
+        market, offer, and customer action.
+      </p>
+    </article>
+
+    <article class="included-card">
+      <h3>Platform Setup</h3>
+      <p>
+        Build the campaign inside the selected advertising platform using the
+        correct campaign type and settings.
+      </p>
+    </article>
+
+    <article class="included-card">
+      <h3>Targeting</h3>
+      <p>
+        Configure keywords, audiences, locations, devices, placements, interests,
+        or customer characteristics.
+      </p>
+    </article>
+
+    <article class="included-card">
+      <h3>Ad Messaging</h3>
+      <p>
+        Develop campaign messaging, offers, calls to action, headlines, and
+        descriptions suited to the platform.
+      </p>
+    </article>
+
+    <article class="included-card">
+      <h3>Landing Page Alignment</h3>
+      <p>
+        Connect advertisements to the most relevant website page, service page,
+        product page, or landing page.
+      </p>
+    </article>
+
+    <article class="included-card">
+      <h3>Budget Structure</h3>
+      <p>
+        Organize the campaign around the advertising budget and the customer
+        actions most important to your business.
+      </p>
+    </article>
+
+    <article class="included-card">
+      <h3>Conversion Focus</h3>
+      <p>
+        Plan calls, forms, purchases, appointments, quote requests, downloads, or
+        other campaign actions.
+      </p>
+    </article>
+
+    <article class="included-card">
+      <h3>Campaign Review</h3>
+      <p>
+        Review campaign structure, targeting, messaging, landing pages, and
+        performance priorities.
+      </p>
+    </article>
+
   </div>
 </section>
-<section class="section website-solutions-band">
-  <div>
-    <p class="eyebrow">Pricing Notes</p>
-    <h2>Design pricing depends on page count, content, products, integrations, and support.</h2>
-    <p>Use this page to steer visitors toward the right quote path while still showing concrete WebAct hosting and add-on examples.</p>
+
+<section class="section soft">
+  <div class="heading">
+    <p class="eyebrow">How Advertising Pricing Works</p>
+
+    <h2>Your campaign fee and advertising budget are separate.</h2>
+
+    <p>
+      The $300 campaign fee covers WebAct campaign management. The advertising
+      budget determines how much is spent directly through the advertising
+      platform.
+    </p>
   </div>
-  <a class="button secondary" href="/contact/index.html">Request pricing help</a>
-</section></main>
-    <div id="webact-footer"></div>
-    <script src="/webact-redesign/script.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-    <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+
+  <div class="process-grid">
+
+    <article class="process-card">
+      <span>01</span>
+      <h3>Choose a Campaign</h3>
+      <p>
+        Select the advertising platform and campaign type that best matches your
+        goals.
+      </p>
+    </article>
+
+    <article class="process-card">
+      <span>02</span>
+      <h3>Set an Ad Budget</h3>
+      <p>
+        Choose the amount paid directly to Google, Microsoft, Meta, LinkedIn,
+        YouTube, or another platform.
+      </p>
+    </article>
+
+    <article class="process-card">
+      <span>03</span>
+      <h3>WebAct Builds It</h3>
+      <p>
+        WebAct organizes the targeting, campaign structure, messaging, and
+        destination pages.
+      </p>
+    </article>
+
+    <article class="process-card">
+      <span>04</span>
+      <h3>Launch and Review</h3>
+      <p>
+        The campaign launches and can be reviewed based on traffic, leads,
+        purchases, calls, or other business goals.
+      </p>
+    </article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="heading">
+    <p class="eyebrow">Advertising Pricing FAQ</p>
+
+    <h2>Questions about campaign pricing and advertising budgets.</h2>
+  </div>
+
+  <div class="faq-list">
+
+    <details open>
+      <summary>How much does WebAct charge for an advertising campaign?</summary>
+      <p>
+        WebAct charges $300 per advertising campaign, plus the advertising
+        budget paid directly to the selected platform.
+      </p>
+    </details>
+
+    <details>
+      <summary>Is the advertising budget included in the $300 fee?</summary>
+      <p>
+        No. The $300 fee covers campaign management. Your advertising budget is
+        separate and is paid to Google, Microsoft, Meta, LinkedIn, YouTube, or
+        another selected platform.
+      </p>
+    </details>
+
+    <details>
+      <summary>What counts as one campaign?</summary>
+      <p>
+        A campaign is a separately organized advertising initiative with its own
+        platform, objective, targeting, budget, and settings. Multiple campaign
+        types are priced separately.
+      </p>
+    </details>
+
+    <details>
+      <summary>Does every campaign type cost the same?</summary>
+      <p>
+        Yes. Google Search Ads, Microsoft Ads, display, remarketing, shopping,
+        video, social media, and Local Services Ads are each $300 per campaign,
+        plus your advertising budget.
+      </p>
+    </details>
+
+    <details>
+      <summary>How much should I spend on the advertising budget?</summary>
+      <p>
+        The appropriate budget depends on the platform, market, competition,
+        location, service value, audience size, and campaign goals. WebAct can
+        help recommend a practical starting budget.
+      </p>
+    </details>
+
+    <details>
+      <summary>Are landing pages included?</summary>
+      <p>
+        Campaign setup can connect to an existing website page. New custom
+        landing-page design or development may require separate design pricing.
+      </p>
+    </details>
+
+    <details>
+      <summary>Can I run more than one campaign?</summary>
+      <p>
+        Yes. You can run multiple campaigns across different services, products,
+        locations, audiences, or advertising platforms. Each campaign is priced
+        at $300 plus its advertising budget.
+      </p>
+    </details>
+
+    <details>
+      <summary>Can advertising be combined with SEO and marketing?</summary>
+      <p>
+        Yes. WebAct can coordinate digital advertising with SEO, AEO, local
+        listings, email marketing, website design, landing pages, and conversion
+        improvements.
+      </p>
+    </details>
+
+  </div>
+</section>
+
+<section class="final-cta">
+  <h2>Ready to start an advertising campaign?</h2>
+
+  <p>
+    Tell WebAct what you want to promote, who you want to reach, and your
+    preferred advertising budget. We can recommend the right platform and
+    campaign type.
+  </p>
+
+  <div class="hero-actions">
+    <a class="button primary" href="/webact-redesign/contact/index.html">
+      Request Advertising Pricing
+    </a>
+
+    <a class="button secondary" href="/webact-redesign/pricing/index.html">
+      Back to Pricing
+    </a>
+  </div>
+</section>
+
+</main>
+
+<div id="webact-footer"></div>
+
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
 </body>
 </html>
-
