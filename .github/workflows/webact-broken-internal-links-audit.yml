@@ -1,0 +1,31 @@
+name: WebAct Broken Internal Links Audit
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  broken-link-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run broken internal links audit
+        run: node tools/audit/webact-broken-internal-links-auditor.js .
+
+      - name: Upload broken-link reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: webact-broken-internal-links-report
+          path: |
+            tools/audit/reports/broken-links/broken-internal-links.html
+            tools/audit/reports/broken-links/broken-internal-links.json
+            tools/audit/reports/broken-links/broken-internal-links.csv
