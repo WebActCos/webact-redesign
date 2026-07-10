@@ -1,0 +1,41 @@
+warning: in the working copy of 'industries/index.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/industries/index.html b/industries/index.html[m
+[1mindex 155f967d..5dfc0628 100644[m
+[1m--- a/industries/index.html[m
+[1m+++ b/industries/index.html[m
+[36m@@ -57,7 +57,7 @@[m [mbody{margin:0}[m
+     width:100%;[m
+     height:100%;[m
+     object-fit:contain;[m
+[31m-    object-position:center bottom;[m
+[32m+[m[32m    object-position:center;[m
+     display:block;[m
+ }[m
+ .industry-card-body{padding:28px;display:flex;flex-direction:column;min-height:290px}[m
+[36m@@ -159,7 +159,7 @@[m [mbody{margin:0}[m
+ .industries-page .industry-image img{[m
+   width:100%!important;[m
+   height:100%!important;[m
+[31m-  object-fit:cover!important;[m
+[32m+[m[32m  object-fit:contain!important;[m
+   object-position:center!important;[m
+   display:block!important;[m
+ }[m
+[36m@@ -198,7 +198,7 @@[m [mbody{margin:0}[m
+ .industries-page .industry-image img{[m
+   width:100%!important;[m
+   height:100%!important;[m
+[31m-  object-fit:cover!important;[m
+[32m+[m[32m  object-fit:contain!important;[m
+   object-position:center!important;[m
+   display:block!important;[m
+ }[m
+[36m@@ -224,7 +224,7 @@[m [mbody{margin:0}[m
+   height:100%!important;[m
+   max-width:none!important;[m
+   max-height:none!important;[m
+[31m-  object-fit:cover!important;[m
+[32m+[m[32m  object-fit:contain!important;[m
+   object-position:center!important;[m
+   display:block!important;[m
+ }[m
