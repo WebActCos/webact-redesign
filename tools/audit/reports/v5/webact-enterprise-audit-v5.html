@@ -1,0 +1,277 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WebAct Enterprise Auditor v5</title>
+<style>
+:root{--navy:#071b33;--blue:#1377ff;--bg:#f4f7fb;--line:#dbe5ef;--text:#17283d;--muted:#66788e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}
+header{background:linear-gradient(135deg,#071b33,#0e5aa6);color:#fff;padding:42px 24px}.wrap{max-width:1500px;margin:auto}
+h1{font-size:clamp(34px,5vw,62px);margin:8px 0}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-weight:800;font-size:12px;opacity:.8}
+.cards{display:grid;grid-template-columns:repeat(7,minmax(130px,1fr));gap:14px;margin:-24px auto 28px;padding:0 24px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 10px 26px rgba(15,40,75,.08)}
+.number{font-size:30px;font-weight:900}.label{font-size:13px;color:var(--muted)}
+main{padding:0 24px 50px}.panel{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.controls{display:flex;gap:12px;flex-wrap:wrap;padding:18px;border-bottom:1px solid var(--line)}
+input,select{padding:11px 12px;border:1px solid var(--line);border-radius:10px;font:inherit;min-width:200px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{position:sticky;top:0;background:#f8fbff}.badge{padding:4px 9px;border-radius:999px;font-size:11px;font-weight:900;text-transform:uppercase}
+.badge.critical{background:#fde8e8;color:#a80000}.badge.high{background:#fff0e0;color:#a64b00}.badge.medium{background:#fff8d7;color:#7c6500}.badge.low{background:#eaf4ff;color:#165c94}.badge.info{background:#edf0f4;color:#4c5b6b}
+.value{margin-top:6px;color:var(--muted);word-break:break-all}.rec{margin-top:7px;color:#255b36;font-weight:600}
+.area-grid{padding:0 24px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.area-grid .card{box-shadow:none}
+details{margin-top:8px}summary{cursor:pointer;font-weight:700}li{margin:4px 0}
+@media(max-width:1000px){.cards{grid-template-columns:repeat(2,1fr)}table{display:block;overflow:auto}}
+</style></head><body>
+<header><div class="wrap"><div class="eyebrow">Final Auditor Before Issue Remediation</div><h1>Enterprise Site Auditor v5</h1>
+<p>Project-aware, route-aware, collection-aware audit generated 2026-07-10T12:44:03.342Z. Repeated template findings are condensed into actionable groups.</p></div></header>
+<section class="cards wrap">
+<div class="card"><div class="number">786</div><div class="label">Production pages</div></div>
+<div class="card"><div class="number">15413</div><div class="label">References checked</div></div>
+<div class="card"><div class="number">29</div><div class="label">Actionable groups</div></div>
+<div class="card"><div class="number">10</div><div class="label">Critical</div></div>
+<div class="card"><div class="number">2</div><div class="label">High</div></div>
+<div class="card"><div class="number">15</div><div class="label">Medium</div></div>
+<div class="card"><div class="number">2</div><div class="label">Low + info</div></div>
+</section>
+<section class="area-grid wrap"><div class="card"><div class="number">49</div><div class="label">website pages</div></div><div class="card"><div class="number">55</div><div class="label">blog pages</div></div><div class="card"><div class="number">260</div><div class="label">portfolio pages</div></div><div class="card"><div class="number">207</div><div class="label">knowledge-base pages</div></div><div class="card"><div class="number">62</div><div class="label">app-store pages</div></div><div class="card"><div class="number">152</div><div class="label">industries pages</div></div><div class="card"><div class="number">1</div><div class="label">other pages</div></div></section>
+<main class="wrap"><div class="panel"><div class="controls">
+<input id="search" type="search" placeholder="Search findings">
+<select id="priority"><option value="">All priorities</option><option>critical</option><option>high</option><option>medium</option><option>low</option><option>info</option></select>
+<select id="area"><option value="">All areas</option><option>app-store</option><option>blog</option><option>global</option><option>industries</option><option>knowledge-base</option><option>portfolio</option><option>website</option></select>
+<select id="category"><option value="">All categories</option><option>Assets</option><option>Canonical</option><option>Layout</option><option>Links</option><option>Performance</option><option>Robots</option><option>SEO</option><option>Template</option></select>
+</div><table><thead><tr><th>Priority</th><th>Area</th><th>Category</th><th>Representative file</th><th>Line</th><th>Finding and action</th></tr></thead><tbody id="results">
+<tr data-priority="critical" data-area="industries" data-category="Assets">
+<td><span class="badge critical">critical</span></td>
+<td>industries</td><td>Assets</td>
+<td><code>industries/hardware-stores/index.html</code></td><td>112</td>
+<td><strong>Missing internal asset.</strong>
+<div class="value">/assets/industry-hardware-stores.png</div>
+
+<div class="rec">Restore the asset or update the reference.</div></td></tr>
+<tr data-priority="critical" data-area="portfolio" data-category="Assets">
+<td><span class="badge critical">critical</span></td>
+<td>portfolio</td><td>Assets</td>
+<td><code>about/portfolio/case-study.html</code></td><td>79</td>
+<td><strong>Missing internal asset.</strong>
+<div class="value">/Resources/images/placeholder.png</div>
+
+<div class="rec">Restore the asset or update the reference.</div></td></tr>
+<tr data-priority="critical" data-area="website" data-category="Assets">
+<td><span class="badge critical">critical</span></td>
+<td>website</td><td>Assets</td>
+<td><code>about/about-us.html</code></td><td>259</td>
+<td><strong>Missing internal asset.</strong>
+<div class="value">/images/logo-vibe.png</div>
+
+<div class="rec">Restore the asset or update the reference.</div></td></tr>
+<tr data-priority="critical" data-area="website" data-category="Assets">
+<td><span class="badge critical">critical</span></td>
+<td>website</td><td>Assets</td>
+<td><code>about/about-us.html</code></td><td>266</td>
+<td><strong>Missing internal asset.</strong>
+<div class="value">/images/logo-vibe.png</div>
+
+<div class="rec">Restore the asset or update the reference.</div></td></tr>
+<tr data-priority="critical" data-area="website" data-category="Assets">
+<td><span class="badge critical">critical</span></td>
+<td>website</td><td>Assets</td>
+<td><code>about/index.html</code></td><td>113</td>
+<td><strong>Missing internal asset.</strong>
+<div class="value">/images/portfolio/restaurant-website-design.jpg</div>
+
+<div class="rec">Restore the asset or update the reference.</div></td></tr>
+<tr data-priority="critical" data-area="website" data-category="Assets">
+<td><span class="badge critical">critical</span></td>
+<td>website</td><td>Assets</td>
+<td><code>about/index.html</code></td><td>114</td>
+<td><strong>Missing internal asset.</strong>
+<div class="value">/images/portfolio/dental-website-design.jpg</div>
+
+<div class="rec">Restore the asset or update the reference.</div></td></tr>
+<tr data-priority="critical" data-area="website" data-category="Assets">
+<td><span class="badge critical">critical</span></td>
+<td>website</td><td>Assets</td>
+<td><code>about/index.html</code></td><td>115</td>
+<td><strong>Missing internal asset.</strong>
+<div class="value">/images/portfolio/2go-coconut-oil-website.png</div>
+
+<div class="rec">Restore the asset or update the reference.</div></td></tr>
+<tr data-priority="critical" data-area="website" data-category="Links">
+<td><span class="badge critical">critical</span></td>
+<td>website</td><td>Links</td>
+<td><code>about/index.html</code></td><td>90</td>
+<td><strong>Broken internal link.</strong>
+<div class="value">/blog/</div>
+
+<div class="rec">Update or remove the link.</div></td></tr>
+<tr data-priority="critical" data-area="website" data-category="Links">
+<td><span class="badge critical">critical</span></td>
+<td>website</td><td>Links</td>
+<td><code>about/index.html</code></td><td>127</td>
+<td><strong>Broken internal link.</strong>
+<div class="value">/about/reviews.html</div>
+
+<div class="rec">Update or remove the link.</div></td></tr>
+<tr data-priority="critical" data-area="website" data-category="Links">
+<td><span class="badge critical">critical</span></td>
+<td>website</td><td>Links</td>
+<td><code>index.html</code></td><td>334</td>
+<td><strong>Broken internal link.</strong>
+<div class="value">/about/portfolio/2go-coconut-oil/</div>
+
+<div class="rec">Update or remove the link.</div></td></tr>
+<tr data-priority="high" data-area="industries" data-category="Template">
+<td><span class="badge high">high</span></td>
+<td>industries</td><td>Template</td>
+<td><code>industries/accounting-firms/index.html</code></td><td>1</td>
+<td><strong>22 pages still use an unreplaced industries template title.</strong>
+<div class="value">Parking &amp; Mobility Website Design | WebAct</div>
+
+<div class="rec">Fix the industries generator/template once.</div></td></tr>
+<tr data-priority="high" data-area="portfolio" data-category="Template">
+<td><span class="badge high">high</span></td>
+<td>portfolio</td><td>Template</td>
+<td><code>about/portfolio/360-sales-advantage/index.html</code></td><td>1</td>
+<td><strong>224 pages still use an unreplaced portfolio template title.</strong>
+<div class="value">Parking &amp; Mobility Case Study | WebAct</div>
+
+<div class="rec">Fix the portfolio generator/template once.</div></td></tr>
+<tr data-priority="medium" data-area="app-store" data-category="Canonical">
+<td><span class="badge medium">medium</span></td>
+<td>app-store</td><td>Canonical</td>
+<td><code>addons/website-app-store/abandoned-cart-recovery-by-monto/index.html</code></td><td>1</td>
+<td><strong>62 related findings: Missing canonical URL.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>addons/website-app-store/abandoned-cart-recovery-by-monto/index.html</code></li><li><code>addons/website-app-store/accessibility-by-audioeye/index.html</code></li><li><code>addons/website-app-store/accessibility-by-userway/index.html</code></li><li><code>addons/website-app-store/affiliates-by-monto/index.html</code></li><li><code>addons/website-app-store/age-verification-age-gate-18/index.html</code></li><li><code>addons/website-app-store/agentz-ai/index.html</code></li><li><code>addons/website-app-store/all-in-one-widget-suite/index.html</code></li><li><code>addons/website-app-store/amp-faster-websites/index.html</code></li></ul></details>
+<div class="rec">Add a self-referencing canonical URL.</div></td></tr>
+<tr data-priority="medium" data-area="app-store" data-category="Layout">
+<td><span class="badge medium">medium</span></td>
+<td>app-store</td><td>Layout</td>
+<td><code>addons/website-app-store/abandoned-cart-recovery-by-monto/index.html</code></td><td>1</td>
+<td><strong>62 related findings: Shared footer signal not detected.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>addons/website-app-store/abandoned-cart-recovery-by-monto/index.html</code></li><li><code>addons/website-app-store/accessibility-by-audioeye/index.html</code></li><li><code>addons/website-app-store/accessibility-by-userway/index.html</code></li><li><code>addons/website-app-store/affiliates-by-monto/index.html</code></li><li><code>addons/website-app-store/age-verification-age-gate-18/index.html</code></li><li><code>addons/website-app-store/agentz-ai/index.html</code></li><li><code>addons/website-app-store/all-in-one-widget-suite/index.html</code></li><li><code>addons/website-app-store/amp-faster-websites/index.html</code></li></ul></details>
+<div class="rec">Confirm the collection template loads the shared footer.</div></td></tr>
+<tr data-priority="medium" data-area="app-store" data-category="SEO">
+<td><span class="badge medium">medium</span></td>
+<td>app-store</td><td>SEO</td>
+<td><code>addons/website-app-store/owwlish-online-courses/index.html</code></td><td>1</td>
+<td><strong>Multiple H1 elements found (3).</strong>
+
+
+<div class="rec">Keep one primary H1.</div></td></tr>
+<tr data-priority="medium" data-area="blog" data-category="Canonical">
+<td><span class="badge medium">medium</span></td>
+<td>blog</td><td>Canonical</td>
+<td><code>about/blog/3-tasks-that-help-build-your-digital-marketing-portfolio/index.html</code></td><td>1</td>
+<td><strong>55 related findings: Missing canonical URL.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>about/blog/3-tasks-that-help-build-your-digital-marketing-portfolio/index.html</code></li><li><code>about/blog/4-things-that-will-increase-the-load-times-of-your-website/index.html</code></li><li><code>about/blog/5-saas-companies-your-business-should-know-about/index.html</code></li><li><code>about/blog/5-tips-for-making-your-business-virtual/index.html</code></li><li><code>about/blog/5-ways-your-business-data-is-at-risk/index.html</code></li><li><code>about/blog/5-ways-your-web-design-impacts-your-seo/index.html</code></li><li><code>about/blog/a-video-review-by-laura-belgrave/index.html</code></li><li><code>about/blog/advertising-methods-that-can-be-powerful-drivers-of-success/index.html</code></li></ul></details>
+<div class="rec">Add a self-referencing canonical URL.</div></td></tr>
+<tr data-priority="medium" data-area="blog" data-category="Layout">
+<td><span class="badge medium">medium</span></td>
+<td>blog</td><td>Layout</td>
+<td><code>about/blog/3-tasks-that-help-build-your-digital-marketing-portfolio/index.html</code></td><td>1</td>
+<td><strong>55 related findings: Shared footer signal not detected.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>about/blog/3-tasks-that-help-build-your-digital-marketing-portfolio/index.html</code></li><li><code>about/blog/4-things-that-will-increase-the-load-times-of-your-website/index.html</code></li><li><code>about/blog/5-saas-companies-your-business-should-know-about/index.html</code></li><li><code>about/blog/5-tips-for-making-your-business-virtual/index.html</code></li><li><code>about/blog/5-ways-your-business-data-is-at-risk/index.html</code></li><li><code>about/blog/5-ways-your-web-design-impacts-your-seo/index.html</code></li><li><code>about/blog/a-video-review-by-laura-belgrave/index.html</code></li><li><code>about/blog/advertising-methods-that-can-be-powerful-drivers-of-success/index.html</code></li></ul></details>
+<div class="rec">Confirm the collection template loads the shared footer.</div></td></tr>
+<tr data-priority="medium" data-area="blog" data-category="SEO">
+<td><span class="badge medium">medium</span></td>
+<td>blog</td><td>SEO</td>
+<td><code>about/blog/google-adwords-vs-facebook-ads/index.html</code></td><td>1</td>
+<td><strong>Multiple H1 elements found (4).</strong>
+
+
+<div class="rec">Keep one primary H1.</div></td></tr>
+<tr data-priority="medium" data-area="global" data-category="Robots">
+<td><span class="badge medium">medium</span></td>
+<td>global</td><td>Robots</td>
+<td><code>robots.txt</code></td><td>1</td>
+<td><strong>robots.txt is missing.</strong>
+
+
+<div class="rec">Create robots.txt and reference the sitemap.</div></td></tr>
+<tr data-priority="medium" data-area="industries" data-category="Canonical">
+<td><span class="badge medium">medium</span></td>
+<td>industries</td><td>Canonical</td>
+<td><code>industries/accounting-firms/index.html</code></td><td>1</td>
+<td><strong>152 related findings: Missing canonical URL.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>industries/accounting-firms/index.html</code></li><li><code>industries/apartments/index.html</code></li><li><code>industries/appliance-stores/index.html</code></li><li><code>industries/art-organizations/index.html</code></li><li><code>industries/artists-creators/index.html</code></li><li><code>industries/arts-organizations/index.html</code></li><li><code>industries/assisted-living/index.html</code></li><li><code>industries/auto-repair/index.html</code></li></ul></details>
+<div class="rec">Add a self-referencing canonical URL.</div></td></tr>
+<tr data-priority="medium" data-area="industries" data-category="Layout">
+<td><span class="badge medium">medium</span></td>
+<td>industries</td><td>Layout</td>
+<td><code>industries/accounting-firms/index.html</code></td><td>1</td>
+<td><strong>152 related findings: Shared footer signal not detected.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>industries/accounting-firms/index.html</code></li><li><code>industries/apartments/index.html</code></li><li><code>industries/appliance-stores/index.html</code></li><li><code>industries/art-organizations/index.html</code></li><li><code>industries/artists-creators/index.html</code></li><li><code>industries/arts-organizations/index.html</code></li><li><code>industries/assisted-living/index.html</code></li><li><code>industries/auto-repair/index.html</code></li></ul></details>
+<div class="rec">Confirm the collection template loads the shared footer.</div></td></tr>
+<tr data-priority="medium" data-area="knowledge-base" data-category="Canonical">
+<td><span class="badge medium">medium</span></td>
+<td>knowledge-base</td><td>Canonical</td>
+<td><code>about/website-knowledge-base/dashboard-and-account/overview/account-dashboard/index.html</code></td><td>1</td>
+<td><strong>207 related findings: Missing canonical URL.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>about/website-knowledge-base/dashboard-and-account/overview/account-dashboard/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/account-settings/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/export-site-list-to-csv/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/save-views-of-site-list/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/site-dashboard/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/site-dashboard-site-audit/index.html</code></li><li><code>about/website-knowledge-base/native-ecommerce/bookings/bookings-overview/index.html</code></li><li><code>about/website-knowledge-base/native-ecommerce/bookings/manage-bookings/index.html</code></li></ul></details>
+<div class="rec">Add a self-referencing canonical URL.</div></td></tr>
+<tr data-priority="medium" data-area="knowledge-base" data-category="Layout">
+<td><span class="badge medium">medium</span></td>
+<td>knowledge-base</td><td>Layout</td>
+<td><code>about/website-knowledge-base/dashboard-and-account/overview/account-dashboard/index.html</code></td><td>1</td>
+<td><strong>207 related findings: Shared footer signal not detected.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>about/website-knowledge-base/dashboard-and-account/overview/account-dashboard/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/account-settings/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/export-site-list-to-csv/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/save-views-of-site-list/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/site-dashboard/index.html</code></li><li><code>about/website-knowledge-base/dashboard-and-account/overview/site-dashboard-site-audit/index.html</code></li><li><code>about/website-knowledge-base/native-ecommerce/bookings/bookings-overview/index.html</code></li><li><code>about/website-knowledge-base/native-ecommerce/bookings/manage-bookings/index.html</code></li></ul></details>
+<div class="rec">Confirm the collection template loads the shared footer.</div></td></tr>
+<tr data-priority="medium" data-area="portfolio" data-category="Canonical">
+<td><span class="badge medium">medium</span></td>
+<td>portfolio</td><td>Canonical</td>
+<td><code>about/portfolio/360-sales-advantage/index.html</code></td><td>1</td>
+<td><strong>225 related findings: Missing canonical URL.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>about/portfolio/360-sales-advantage/index.html</code></li><li><code>about/portfolio/a-breed-apart-papillons/index.html</code></li><li><code>about/portfolio/a-california-driving-school/index.html</code></li><li><code>about/portfolio/a-pup-s-valley/index.html</code></li><li><code>about/portfolio/abdul-electric/index.html</code></li><li><code>about/portfolio/absolute-home-care/index.html</code></li><li><code>about/portfolio/absolute-pest-control-services/index.html</code></li><li><code>about/portfolio/ace-pet-services/index.html</code></li></ul></details>
+<div class="rec">Add a self-referencing canonical URL.</div></td></tr>
+<tr data-priority="medium" data-area="portfolio" data-category="Layout">
+<td><span class="badge medium">medium</span></td>
+<td>portfolio</td><td>Layout</td>
+<td><code>about/portfolio/360-sales-advantage/index.html</code></td><td>1</td>
+<td><strong>232 related findings: Shared footer signal not detected.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>about/portfolio/360-sales-advantage/index.html</code></li><li><code>about/portfolio/a-breed-apart-papillons/index.html</code></li><li><code>about/portfolio/a-california-driving-school/index.html</code></li><li><code>about/portfolio/a-dog-s-day-out/index.html</code></li><li><code>about/portfolio/a-pup-s-valley/index.html</code></li><li><code>about/portfolio/abdul-electric/index.html</code></li><li><code>about/portfolio/absolute-home-care/index.html</code></li><li><code>about/portfolio/absolute-pest-control-services/index.html</code></li></ul></details>
+<div class="rec">Confirm the collection template loads the shared footer.</div></td></tr>
+<tr data-priority="medium" data-area="website" data-category="Canonical">
+<td><span class="badge medium">medium</span></td>
+<td>website</td><td>Canonical</td>
+<td><code>about/about-us.html</code></td><td>1</td>
+<td><strong>49 related findings: Missing canonical URL.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>about/about-us.html</code></li><li><code>about/blog.html</code></li><li><code>about/faq.html</code></li><li><code>about/how-to-videos.html</code></li><li><code>about/index.html</code></li><li><code>about/login.html</code></li><li><code>about/portfolio.html</code></li><li><code>about/website-knowledge-base.html</code></li></ul></details>
+<div class="rec">Add a self-referencing canonical URL.</div></td></tr>
+<tr data-priority="medium" data-area="website" data-category="Layout">
+<td><span class="badge medium">medium</span></td>
+<td>website</td><td>Layout</td>
+<td><code>about/about-us.html</code></td><td>1</td>
+<td><strong>49 related findings: Shared footer signal not detected.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>about/about-us.html</code></li><li><code>about/blog.html</code></li><li><code>about/faq.html</code></li><li><code>about/how-to-videos.html</code></li><li><code>about/index.html</code></li><li><code>about/login.html</code></li><li><code>about/portfolio.html</code></li><li><code>about/website-knowledge-base.html</code></li></ul></details>
+<div class="rec">Confirm the collection template loads the shared footer.</div></td></tr>
+<tr data-priority="info" data-area="industries" data-category="Performance">
+<td><span class="badge info">info</span></td>
+<td>industries</td><td>Performance</td>
+<td><code>industries/accounting-firms/index.html</code></td><td>70</td>
+<td><strong>324 related findings: Image lacks explicit width and/or height.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>industries/accounting-firms/index.html</code></li><li><code>industries/apartments/index.html</code></li><li><code>industries/appliance-stores/index.html</code></li><li><code>industries/art-organizations/index.html</code></li><li><code>industries/artists-creators/index.html</code></li><li><code>industries/arts-organizations/index.html</code></li><li><code>industries/assisted-living/index.html</code></li><li><code>industries/auto-repair/index.html</code></li></ul></details>
+<div class="rec">Add intrinsic dimensions to reduce layout shift.</div></td></tr>
+<tr data-priority="info" data-area="website" data-category="Performance">
+<td><span class="badge info">info</span></td>
+<td>website</td><td>Performance</td>
+<td><code>about/about-us.html</code></td><td>159</td>
+<td><strong>141 related findings: Image lacks explicit width and/or height.</strong>
+
+<details><summary>Sample files</summary><ul><li><code>about/about-us.html</code></li><li><code>about/blog.html</code></li><li><code>about/index.html</code></li><li><code>about/login.html</code></li><li><code>about/portfolio.html</code></li><li><code>addons/index.html</code></li><li><code>addons/professional-email.html</code></li><li><code>design/simple-editor.html</code></li></ul></details>
+<div class="rec">Add intrinsic dimensions to reduce layout shift.</div></td></tr></tbody></table>
+</div></main>
+<script>
+const s=document.getElementById("search"),p=document.getElementById("priority"),a=document.getElementById("area"),c=document.getElementById("category");
+function filter(){const q=(s.value||"").toLowerCase();document.querySelectorAll("#results tr").forEach(r=>{r.hidden=!((!q||r.textContent.toLowerCase().includes(q))&&(!p.value||r.dataset.priority===p.value)&&(!a.value||r.dataset.area===a.value)&&(!c.value||r.dataset.category===c.value));});}
+[s,p,a,c].forEach(x=>x&&x.addEventListener("input",filter));
+</script></body></html>
