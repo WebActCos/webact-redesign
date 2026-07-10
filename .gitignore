@@ -21,3 +21,14 @@ header-*-issues.csv
 # Local audit files
 *audit*.csv
 *issues.csv
+# Performance Tools
+tools/performance/node_modules/
+tools/performance/package-lock.json
+# Temporary backups
+tools/backups/
+# Temporary reports
+performance-optimization-report.json
+*before-jotform*.html
+*before-card-sizing*.html
+*-Debug.txt
+*-Report.txt
