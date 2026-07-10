@@ -94,7 +94,7 @@
   function generate(row, allRows) {
     const name = row[0] || "Portfolio Project";
     const industry = row[1] || "Business";
-    const image = row[2] || "/webact-redesign/Resources/images/placeholder.png";
+    const image = row[2] || "/Resources/images/placeholder.png";
     const seed = hashText(name + industry);
     const plan = getIndustry(industry);
     const services = pick(plan.services, seed, 6);

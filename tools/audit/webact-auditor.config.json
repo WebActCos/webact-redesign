@@ -1,0 +1,97 @@
+{
+  "siteRoot": ".",
+  "baseUrl": "https://www.webact.com",
+  "includeExtensions": [
+    ".html",
+    ".htm"
+  ],
+  "excludeDirectories": [
+    ".git",
+    "node_modules",
+    "vendor",
+    "dist",
+    "build",
+    "coverage",
+    ".next",
+    ".cache",
+    "tools",
+    "pages",
+    "includes",
+    "assets/includes",
+    "assets/templates",
+    "tools/backups",
+    "tools/performance/node_modules"
+  ],
+  "excludeFiles": [
+    "homepage-baseline.html",
+    "index-before-jotform.html",
+    "index-before-card-sizing.html",
+    "about-portfolio-case-study.before-tag-render-fix.html",
+    "URL-Audit-Report.txt"
+  ],
+  "excludeFilePatterns": [
+    "before-",
+    ".before-",
+    "baseline",
+    "backup",
+    "report.html"
+  ],
+  "allowDynamicEmptyAttributes": true,
+  "dynamicAttributePatterns": [
+    "data-src",
+    "data-lazy",
+    "data-image",
+    "data-bg",
+    "template",
+    "placeholder"
+  ],
+  "sharedComponentSignals": {
+    "header": [
+      "data-shared-header",
+      "site-header",
+      "header-container",
+      "header-placeholder",
+      "shared-header",
+      "/assets/js/includes.js",
+      "/assets/js/shared-components.js"
+    ],
+    "footer": [
+      "data-shared-footer",
+      "site-footer",
+      "footer-container",
+      "footer-placeholder",
+      "shared-footer",
+      "/assets/js/includes.js",
+      "/assets/js/shared-components.js"
+    ]
+  },
+  "severity": {
+    "brokenInternalLink": "critical",
+    "missingAsset": "critical",
+    "emptyHref": "high",
+    "emptySrc": "medium",
+    "missingTitle": "high",
+    "missingDescription": "medium",
+    "missingCanonical": "medium",
+    "duplicateCanonical": "high",
+    "duplicateTitle": "medium",
+    "duplicateDescription": "low",
+    "missingH1": "high",
+    "multipleH1": "medium",
+    "missingViewport": "high",
+    "missingLang": "medium",
+    "invalidJsonLd": "high",
+    "missingAlt": "medium",
+    "missingHeader": "medium",
+    "missingFooter": "medium",
+    "orphanPage": "medium",
+    "oldDevelopmentPath": "critical",
+    "explicitIndexUrl": "high",
+    "missingSitemap": "high",
+    "missingRobots": "medium"
+  },
+  "failOn": [
+    "critical",
+    "high"
+  ]
+}

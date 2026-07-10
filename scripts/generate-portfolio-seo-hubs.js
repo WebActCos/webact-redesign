@@ -476,21 +476,21 @@ function hubPage(definition, projects) {
 <body class="portfolio-page">
 <header class="wa-promodo-header" data-wa-nav>
   <nav class="wa-promodo-nav" aria-label="Main navigation">
-    <a class="wa-promodo-logo" href="../../../index.html" aria-label="WebAct home">
+    <a class="wa-promodo-logo" href="../../../" aria-label="WebAct home">
       <img src="../../../assets/images/webact-logo.png" alt="WebAct">
     </a>
 
     <ul class="wa-promodo-menu" data-wa-menu>
-      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../design/website-design/index.html">Website Design</a></li>
-      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../digital-ads/index.html">Digital Ads</a></li>
-      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../marketing/index.html">Marketing</a></li>
-      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../industries/index.html">Industries</a></li>
-      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../pricing/index.html">Pricing</a></li>
-      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../contact/index.html">Contact Us</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../design/website-design/">Website Design</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../digital-ads/">Digital Ads</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../marketing/">Marketing</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../industries/">Industries</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../pricing/">Pricing</a></li>
+      <li class="wa-promodo-item"><a class="wa-promodo-direct" href="../../../contact/">Contact Us</a></li>
     </ul>
 
     <div class="wa-promodo-actions">
-      <a class="wa-promodo-cta" href="../../../contact/index.html">Get Started</a>
+      <a class="wa-promodo-cta" href="../../../contact/">Get Started</a>
       <button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle>
         <span></span>
       </button>
@@ -507,7 +507,7 @@ function hubPage(definition, projects) {
 
       <div class="hero-actions">
         <a class="explorer-btn" href="../">Back to Portfolio</a>
-        <a class="explorer-btn explorer-btn-secondary" href="../../../contact/index.html">${escapeHtml(definition.cta)}</a>
+        <a class="explorer-btn explorer-btn-secondary" href="../../../contact/">${escapeHtml(definition.cta)}</a>
       </div>
     </div>
 
@@ -556,11 +556,11 @@ function hubPage(definition, projects) {
   <img src="../../../assets/logo.png" alt="WebAct">
   <p>Website design, advertising, marketing, widgets, domains, and email for small and medium-sized businesses.</p>
   <div class="footer-links">
-    <a href="../../../design/index.html">Design</a>
-    <a href="../../../digital-ads/index.html">Digital Ads</a>
-    <a href="../../../marketing/index.html">Marketing</a>
-    <a href="../../../pricing/index.html">Pricing</a>
-    <a href="../../../addons/index.html">Add-ons</a>
+    <a href="../../../design/">Design</a>
+    <a href="../../../digital-ads/">Digital Ads</a>
+    <a href="../../../marketing/">Marketing</a>
+    <a href="../../../pricing/">Pricing</a>
+    <a href="../../../addons/">Add-ons</a>
   </div>
 </footer>
 

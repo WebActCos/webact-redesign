@@ -1,0 +1,31 @@
+name: WebAct Enterprise Site Audit
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  site-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run WebAct Enterprise Site Auditor
+        run: node tools/audit/webact-site-auditor.js .
+
+      - name: Upload audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: webact-enterprise-site-audit
+          path: |
+            tools/audit/reports/enterprise-site-audit.html
+            tools/audit/reports/enterprise-site-audit.json

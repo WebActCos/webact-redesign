@@ -4,7 +4,7 @@
   function getBasePath() {
     var path = window.location.pathname;
 
-    if (path.indexOf("/webact-redesign/") === 0) {
+    if (path.indexOf("/") === 0) {
       return "/webact-redesign";
     }
 

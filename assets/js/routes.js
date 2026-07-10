@@ -1,12 +1,12 @@
 ﻿window.WebActRoutes = {
   routes: {
     home: "/",
-    contact: "/contact/index.html",
+    contact: "/contact/",
     portfolio: "/about/portfolio.html",
-    pricing: "/pricing/index.html",
-    industries: "/industries/index.html",
-    privacy: "/privacy-policy/index.html",
-    terms: "/terms/index.html",
+    pricing: "/pricing/",
+    industries: "/industries/",
+    privacy: "/privacy-policy/",
+    terms: "/terms/",
     sitemap: "/sitemap.xml"
   },
 
@@ -15,7 +15,7 @@
   },
 
   currentPath: function () {
-    return window.location.pathname.replace(/\/$/, "/index.html");
+    return window.location.pathname.replace(/\/$/, "/");
   },
 
   section: function () {

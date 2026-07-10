@@ -275,15 +275,15 @@ function addJsonLd(p){
   const data={"@context":"https://schema.org","@type":"CreativeWork","name":p.name+" Website Design Case Study","headline":p.seoTitle,"description":p.description,"image":absoluteImage(p.image),"url":"https://www.webact.com/about/portfolio/case-study.html?project="+p.slug,"creator":{"@type":"Organization","name":"WebAct","url":"https://www.webact.com/"},"about":{"@type":"Thing","name":p.industry+" Website Design"},"genre":"Website Design Portfolio","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.webact.com/"},{"@type":"ListItem","position":2,"name":"Portfolio","item":"https://www.webact.com/about/portfolio/"},{"@type":"ListItem","position":3,"name":p.name,"item":"https://www.webact.com/about/portfolio/case-study.html?project="+p.slug}]}};
   const script=document.createElement('script');script.type='application/ld+json';script.id='case-jsonld';script.textContent=JSON.stringify(data);document.head.appendChild(script);
 }
-function renderNotFound(){root.innerHTML='<section class="not-found"><h1>Case study not found</h1><p>We could not find that portfolio project. Return to the portfolio to browse all WebAct website design case studies.</p><p><a class="btn btn-primary" href="./index.html">Back to Portfolio</a></p></section>';}
+function renderNotFound(){root.innerHTML='<section class="not-found"><h1>Case study not found</h1><p>We could not find that portfolio project. Return to the portfolio to browse all WebAct website design case studies.</p><p><a class="btn btn-primary" href="./">Back to Portfolio</a></p></section>';}
 function render(){
   if(!projects.length){renderNotFound();return;}
   const p=projects[index], prev=projects[(index-1+projects.length)%projects.length], next=projects[(index+1)%projects.length];
   const related=relatedCards(p), sections=makeSections(p,index), cta=p.override.cta?[p.override.cta.headline,p.override.cta.text,p.override.cta.button]:industryCTA(p.industry);
   updateHead(p);addJsonLd(p);
   root.innerHTML=
-    '<nav class="breadcrumbs"><a href="../index.html">Home</a> / <a href="./index.html">Top 250 Website Designs</a> / <span>'+esc(p.name)+'</span></nav>'+
-    '<section class="case-hero"><div class="case-hero-inner"><div><p class="eyebrow">'+esc(p.industry)+' Website Design Case Study</p><h1>'+esc(p.name)+'</h1><p>'+esc(p.override.hero||p.description)+'</p><div class="hero-actions"><a class="btn btn-primary" href="/contact/index.html">'+esc(cta[2])+'</a><a class="btn btn-secondary" href="./index.html">Back to Top 250 Designs</a></div></div><aside class="stats-panel"><h2>Project Snapshot</h2><div class="stat-list"><div class="stat"><span>Industry</span><strong>'+esc(p.industry)+'</strong></div><div class="stat"><span>Services</span><strong>'+esc((p.services||[]).slice(0,4).join(', '))+'</strong></div><div class="stat"><span>Collection</span><strong>Top 250 Website Designs</strong></div></div></aside></div></section>'+
+    '<nav class="breadcrumbs"><a href="../">Home</a> / <a href="./">Top 250 Website Designs</a> / <span>'+esc(p.name)+'</span></nav>'+
+    '<section class="case-hero"><div class="case-hero-inner"><div><p class="eyebrow">'+esc(p.industry)+' Website Design Case Study</p><h1>'+esc(p.name)+'</h1><p>'+esc(p.override.hero||p.description)+'</p><div class="hero-actions"><a class="btn btn-primary" href="/contact/">'+esc(cta[2])+'</a><a class="btn btn-secondary" href="./">Back to Top 250 Designs</a></div></div><aside class="stats-panel"><h2>Project Snapshot</h2><div class="stat-list"><div class="stat"><span>Industry</span><strong>'+esc(p.industry)+'</strong></div><div class="stat"><span>Services</span><strong>'+esc((p.services||[]).slice(0,4).join(', '))+'</strong></div><div class="stat"><span>Collection</span><strong>Top 250 Website Designs</strong></div></div></aside></div></section>'+
     '<main class="case-main"><div class="device-tools"><button type="button" id="open-lightbox">View Full Screenshot</button></div><div class="browser-showcase" id="device-preview"><div class="browser-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="browser-url">'+esc(p.name)+' website design preview</span></div><div class="hero-image"><img id="main-shot" src="'+esc(p.image)+'" alt="'+esc(p.name)+' website design screenshot"></div></div>'+
     '<div class="case-grid"><section><article class="section-card"><h2>Business Overview</h2><p>'+esc(sections.overview)+'</p></article>'+
     '<article class="section-card"><h2>Website Goals</h2><p>'+esc(sections.goals)+'</p><div class="split-blocks"><div class="mini-block"><strong>Visitor Experience</strong><p>'+esc(sections.experience)+'</p></div><div class="mini-block"><strong>Design Highlights</strong><p>'+esc(sections.highlights)+'</p></div><div class="mini-block"><strong>Results & Benefits</strong><p>'+esc(sections.benefits)+'</p></div></div></article>'+
@@ -291,10 +291,10 @@ function render(){
     '<article class="section-card"><h2>Services Used</h2><p>This project combines strategy, content, and website design tailored to the needs of a '+esc(p.industry)+' organization.</p><div class="service-grid">'+cardList(p.services,'service-card')+'</div></article>'+
     '<article class="section-card"><h2>Website Features</h2><p>Features were selected to make the experience easier to use, more credible, and more focused on customer action.</p><div class="feature-grid">'+cardList(p.features,'feature-card')+'</div></article>'+
     '<article class="section-card"><h2>Technology Stack</h2><p>The project is structured for performance, responsive presentation, discoverability, and long-term maintainability.</p><div class="tech-grid">'+cardList(p.technologies,'tech-card')+'</div></article></section>'+
-    '<aside class="sidebar"><div class="sidebar-card"><h3>'+esc(cta[0])+'</h3><p>'+esc(cta[1])+'</p><a class="btn" href="/contact/index.html">'+esc(cta[2])+'</a><div class="detail-list"><div class="detail"><span>Company</span><strong>'+esc(p.name)+'</strong></div><div class="detail"><span>Industry</span><strong>'+esc(p.industry)+'</strong></div><div class="detail"><span>Portfolio Type</span><strong>Website Design Case Study</strong></div></div></div></aside></div>'+
+    '<aside class="sidebar"><div class="sidebar-card"><h3>'+esc(cta[0])+'</h3><p>'+esc(cta[1])+'</p><a class="btn" href="/contact/">'+esc(cta[2])+'</a><div class="detail-list"><div class="detail"><span>Company</span><strong>'+esc(p.name)+'</strong></div><div class="detail"><span>Industry</span><strong>'+esc(p.industry)+'</strong></div><div class="detail"><span>Portfolio Type</span><strong>Website Design Case Study</strong></div></div></div></aside></div>'+
     '<section class="related"><h2>Related Website Designs</h2><div class="related-grid">'+(related||'<p>No related projects found yet.</p>')+'</div></section>'+
-    '<nav class="case-nav"><a href="./case-study.html?project='+esc(prev.slug)+'">? '+esc(prev.name)+'</a><a href="./index.html">Back to Portfolio</a><a href="./case-study.html?project='+esc(next.slug)+'">'+esc(next.name)+' ?’</a></nav>'+
-    '<section class="cta-band"><div><h2>'+esc(cta[0])+'</h2><p>'+esc(cta[1])+'</p></div><a class="btn" href="/contact/index.html">'+esc(cta[2])+'</a></section></main>';
+    '<nav class="case-nav"><a href="./case-study.html?project='+esc(prev.slug)+'">? '+esc(prev.name)+'</a><a href="./">Back to Portfolio</a><a href="./case-study.html?project='+esc(next.slug)+'">'+esc(next.name)+' ?’</a></nav>'+
+    '<section class="cta-band"><div><h2>'+esc(cta[0])+'</h2><p>'+esc(cta[1])+'</p></div><a class="btn" href="/contact/">'+esc(cta[2])+'</a></section></main>';
   wireInteractions(prev,next);
 }
 function wireInteractions(prev,next){
@@ -313,7 +313,7 @@ function wireInteractions(prev,next){
 render();
 })();
 </script>
-<script src="/webact-redesign/assets/js/webact-promodo-nav.js" defer></script>
+<script src="/assets/js/webact-promodo-nav.js" defer></script>
 <script>
 document.addEventListener("DOMContentLoaded", function(){
   setTimeout(function(){
@@ -343,9 +343,9 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 </script>
 <script src="../js/script.js"></script>
-  <script src="/webact-redesign/assets/js/routes.js"></script>
-  <script src="/webact-redesign/assets/js/navigation.js"></script>
-  <script src="/webact-redesign/assets/js/includes.js"></script>
+  <script src="/assets/js/routes.js"></script>
+  <script src="/assets/js/navigation.js"></script>
+  <script src="/assets/js/includes.js"></script>
 </body>
 </html>
 

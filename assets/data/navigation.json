@@ -70,14 +70,14 @@
       "title": "Industries",
       "description": "Industry-specific website design, advertising, marketing, apps, and case-study examples.",
       "links": [
-        { "title": "All Industries", "url": "/industries/index.html" },
-        { "title": "Jewelry Stores", "url": "/industries/jewelry-stores/index.html" },
-        { "title": "HVAC", "url": "/industries/hvac/index.html" },
-        { "title": "Roofing", "url": "/industries/roofing/index.html" },
-        { "title": "Plumbing", "url": "/industries/plumbing/index.html" },
-        { "title": "Real Estate", "url": "/industries/real-estate/index.html" },
-        { "title": "Nonprofits", "url": "/industries/nonprofits/index.html" },
-        { "title": "Home Care", "url": "/industries/home-care/index.html" }
+        { "title": "All Industries", "url": "/industries/" },
+        { "title": "Jewelry Stores", "url": "/industries/jewelry-stores/" },
+        { "title": "HVAC", "url": "/industries/hvac/" },
+        { "title": "Roofing", "url": "/industries/roofing/" },
+        { "title": "Plumbing", "url": "/industries/plumbing/" },
+        { "title": "Real Estate", "url": "/industries/real-estate/" },
+        { "title": "Nonprofits", "url": "/industries/nonprofits/" },
+        { "title": "Home Care", "url": "/industries/home-care/" }
       ]
     },
     {
