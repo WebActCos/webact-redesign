@@ -1,2 +1,1 @@
 "Missing Reference","Expected Path","Used By","Best Candidate","Score","Reasons"
-"/assets/industry-hardware-stores.png","assets/industry-hardware-stores.png","industries/hardware-stores/index.html:112","assets/industry-appliance-stores.png","53","shared keywords: industry, stores; same extension; related folder: webact.com, assets"
