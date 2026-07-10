@@ -32,3 +32,12 @@ performance-optimization-report.json
 *before-card-sizing*.html
 *-Debug.txt
 *-Report.txt
+# Local performance-tool dependencies
+# Generated performance reports
+# Local backup files and folders
+contact/index-before-jotform.html
+industries/index-before-card-sizing.html
+# Editor and temporary files
+*.swp
+*.tmp
+# Temporary debug and report files
