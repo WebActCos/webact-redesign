@@ -113,8 +113,17 @@ function scoreCandidate(missingPath, candidatePath) {
 }
 
 function resolveTarget(sourceFile, reference) {
-  const clean = reference.split(/[?#]/)[0];
-  if (!clean || /^(?:https?:|data:|blob:|\/\/)/i.test(clean)) return null;
+  let clean = reference.split(/[?#]/)[0];
+
+  if (!clean || /^(?:https?:|data:|blob:|\/\/)/i.test(clean)) {
+    return null;
+  }
+
+  try {
+    clean = decodeURIComponent(clean);
+  } catch {
+    // Keep the original value when URL decoding fails.
+  }
 
   return clean.startsWith("/")
     ? path.join(ROOT, clean.replace(/^\/+/, ""))

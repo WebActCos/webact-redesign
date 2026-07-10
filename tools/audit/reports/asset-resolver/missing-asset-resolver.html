@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WebAct Missing Asset Resolver</title>
+<style>
+:root{--navy:#071b33;--blue:#1478ff;--bg:#f4f7fb;--card:#fff;--line:#dce6f1;--text:#17283d;--muted:#65778c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}
+header{background:linear-gradient(135deg,#071b33,#0e5aa6);color:#fff;padding:42px 24px}
+.wrap{max-width:1300px;margin:auto}
+h1{font-size:clamp(34px,5vw,58px);margin:8px 0}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:-24px auto 28px;padding:0 24px}
+.card,.finding{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}
+.card{box-shadow:0 10px 26px rgba(15,40,75,.08)}
+.number{font-size:30px;font-weight:900}
+.label{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+main{padding:0 24px 50px}
+.finding{margin-bottom:18px}
+.finding-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}
+.count{background:#eaf4ff;color:#0b5da8;border-radius:999px;padding:7px 12px;font-weight:800;white-space:nowrap}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:11px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#f8fbff}
+code{word-break:break-all}
+summary{cursor:pointer;font-weight:700}
+@media(max-width:800px){.summary{grid-template-columns:1fr}.finding-head{display:block}.count{display:inline-block;margin-top:8px}table{display:block;overflow:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="label" style="color:#c9e1ff">WebAct Development Tools</div><h1>Missing Asset Resolver</h1><p>Scans production HTML, finds missing images, and ranks the best existing repository candidates without changing website files.</p></div></header>
+<section class="summary wrap">
+<div class="card"><div class="number">801</div><div class="label">HTML files checked</div></div>
+<div class="card"><div class="number">3289</div><div class="label">Images indexed</div></div>
+<div class="card"><div class="number">5</div><div class="label">Missing assets</div></div>
+</section>
+<main class="wrap">
+      <section class="finding">
+        <div class="finding-head">
+          <div>
+            <div class="label">Missing asset</div>
+            <h2><code>/assets/industry-hardware-stores.png</code></h2>
+            <p>Expected at <code>assets/industry-hardware-stores.png</code></p>
+          </div>
+          <span class="count">1 use</span>
+        </div>
+
+        <details>
+          <summary>Pages using this asset</summary>
+          <ul><li><code>industries/hardware-stores/index.html:112</code></li></ul>
+        </details>
+
+        <h3>Best repository candidates</h3>
+        <table>
+          <thead><tr><th>Candidate</th><th>Score</th><th>Why it matched</th></tr></thead>
+          <tbody>
+        <tr>
+          <td><code>assets/industry-appliance-stores.png</code></td>
+          <td>53</td>
+          <td>shared keywords: industry, stores, same extension, related folder: webact.com, assets</td>
+        </tr>
+        <tr>
+          <td><code>assets/industry-ecommerce-stores.png</code></td>
+          <td>53</td>
+          <td>shared keywords: industry, stores, same extension, related folder: webact.com, assets</td>
+        </tr>
+        <tr>
+          <td><code>assets/industry-furniture-stores.png</code></td>
+          <td>53</td>
+          <td>shared keywords: industry, stores, same extension, related folder: webact.com, assets</td>
+        </tr>
+        <tr>
+          <td><code>assets/industry-jewelry-stores.png</code></td>
+          <td>53</td>
+          <td>shared keywords: industry, stores, same extension, related folder: webact.com, assets</td>
+        </tr>
+        <tr>
+          <td><code>images/industry-appliance-stores.png</code></td>
+          <td>53</td>
+          <td>shared keywords: industry, stores, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>images/industry-ecommerce-stores.png</code></td>
+          <td>53</td>
+          <td>shared keywords: industry, stores, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>images/industry-furniture-stores.png</code></td>
+          <td>53</td>
+          <td>shared keywords: industry, stores, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>images/industry-jewelry-stores.png</code></td>
+          <td>53</td>
+          <td>shared keywords: industry, stores, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/industry-accounting-firms.png</code></td>
+          <td>35</td>
+          <td>shared keywords: industry, same extension, related folder: webact.com, assets</td>
+        </tr>
+        <tr>
+          <td><code>assets/industry-artists-creators.png</code></td>
+          <td>35</td>
+          <td>shared keywords: industry, same extension, related folder: webact.com, assets</td>
+        </tr></tbody>
+        </table>
+      </section>
+      <section class="finding">
+        <div class="finding-head">
+          <div>
+            <div class="label">Missing asset</div>
+            <h2><code>/images/logo-vibe.png</code></h2>
+            <p>Expected at <code>images/logo-vibe.png</code></p>
+          </div>
+          <span class="count">2 uses</span>
+        </div>
+
+        <details>
+          <summary>Pages using this asset</summary>
+          <ul><li><code>about/about-us.html:259</code></li><li><code>about/about-us.html:266</code></li></ul>
+        </details>
+
+        <h3>Best repository candidates</h3>
+        <table>
+          <thead><tr><th>Candidate</th><th>Score</th><th>Why it matched</th></tr></thead>
+          <tbody>
+        <tr>
+          <td><code>assets/logo.png</code></td>
+          <td>60</td>
+          <td>shared keywords: logo, same extension, related folder: projects, webact.com, partial filename match</td>
+        </tr>
+        <tr>
+          <td><code>images/logo.png</code></td>
+          <td>60</td>
+          <td>shared keywords: logo, same extension, related folder: webact.com, images, partial filename match</td>
+        </tr>
+        <tr>
+          <td><code>assets/images/webact-logo.png</code></td>
+          <td>35</td>
+          <td>shared keywords: logo, same extension, related folder: webact.com, images</td>
+        </tr>
+        <tr>
+          <td><code>assets/logo-amazon-ads.png</code></td>
+          <td>35</td>
+          <td>shared keywords: logo, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/logo-duda.png</code></td>
+          <td>35</td>
+          <td>shared keywords: logo, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/logo-entrepreneur.png</code></td>
+          <td>35</td>
+          <td>shared keywords: logo, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/logo-forbes.png</code></td>
+          <td>35</td>
+          <td>shared keywords: logo, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/logo-google-partner.png</code></td>
+          <td>35</td>
+          <td>shared keywords: logo, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/logo-microsoft-partner.png</code></td>
+          <td>35</td>
+          <td>shared keywords: logo, same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/logo-original.png</code></td>
+          <td>35</td>
+          <td>shared keywords: logo, same extension, related folder: projects, webact.com</td>
+        </tr></tbody>
+        </table>
+      </section>
+      <section class="finding">
+        <div class="finding-head">
+          <div>
+            <div class="label">Missing asset</div>
+            <h2><code>/images/portfolio/dental-website-design.jpg</code></h2>
+            <p>Expected at <code>images/portfolio/dental-website-design.jpg</code></p>
+          </div>
+          <span class="count">1 use</span>
+        </div>
+
+        <details>
+          <summary>Pages using this asset</summary>
+          <ul><li><code>about/index.html:114</code></li></ul>
+        </details>
+
+        <h3>Best repository candidates</h3>
+        <table>
+          <thead><tr><th>Candidate</th><th>Score</th><th>Why it matched</th></tr></thead>
+          <tbody>
+        <tr>
+          <td><code>Resources/images/female-dentist-dental-hygienist-c450b47e-2880w.jpg</code></td>
+          <td>35</td>
+          <td>shared keywords: dental, same extension, related folder: webact.com, images</td>
+        </tr>
+        <tr>
+          <td><code>Resources/images/female-dentist-dental-hygienist-c450b47e-640w.jpg</code></td>
+          <td>35</td>
+          <td>shared keywords: dental, same extension, related folder: webact.com, images</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-dental-1440.avif</code></td>
+          <td>30</td>
+          <td>shared keywords: dental, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-dental-1440.webp</code></td>
+          <td>30</td>
+          <td>shared keywords: dental, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-dental-1920.avif</code></td>
+          <td>30</td>
+          <td>shared keywords: dental, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-dental-1920.webp</code></td>
+          <td>30</td>
+          <td>shared keywords: dental, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-dental-320.avif</code></td>
+          <td>30</td>
+          <td>shared keywords: dental, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-dental-320.webp</code></td>
+          <td>30</td>
+          <td>shared keywords: dental, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-dental-640.avif</code></td>
+          <td>30</td>
+          <td>shared keywords: dental, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-dental-640.webp</code></td>
+          <td>30</td>
+          <td>shared keywords: dental, related folder: projects, webact.com</td>
+        </tr></tbody>
+        </table>
+      </section>
+      <section class="finding">
+        <div class="finding-head">
+          <div>
+            <div class="label">Missing asset</div>
+            <h2><code>/images/portfolio/restaurant-website-design.jpg</code></h2>
+            <p>Expected at <code>images/portfolio/restaurant-website-design.jpg</code></p>
+          </div>
+          <span class="count">1 use</span>
+        </div>
+
+        <details>
+          <summary>Pages using this asset</summary>
+          <ul><li><code>about/index.html:113</code></li></ul>
+        </details>
+
+        <h3>Best repository candidates</h3>
+        <table>
+          <thead><tr><th>Candidate</th><th>Score</th><th>Why it matched</th></tr></thead>
+          <tbody>
+        <tr>
+          <td><code>assets/case-restaurant.png</code></td>
+          <td>30</td>
+          <td>shared keywords: restaurant, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/industry-construction-design.png</code></td>
+          <td>30</td>
+          <td>shared keywords: design, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>images/case-restaurant.png</code></td>
+          <td>30</td>
+          <td>shared keywords: restaurant, related folder: webact.com, images</td>
+        </tr>
+        <tr>
+          <td><code>images/industry-construction-design.png</code></td>
+          <td>30</td>
+          <td>shared keywords: design, related folder: webact.com, images</td>
+        </tr>
+        <tr>
+          <td><code>industries/Industry Images/Construction Design.png</code></td>
+          <td>30</td>
+          <td>shared keywords: design, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>industries/Industry Images/Restaurant Cafe.png</code></td>
+          <td>30</td>
+          <td>shared keywords: restaurant, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>Resources/images/a-computer-tablet-and-cell-phone-are-displaying-a-website-for-a-restaurant-called-serving-delicious-indian-cuisine-preview.png</code></td>
+          <td>30</td>
+          <td>shared keywords: restaurant, related folder: webact.com, images</td>
+        </tr>
+        <tr>
+          <td><code>Resources/images/a-computer-tablet-and-cell-phone-are-displaying-a-website-for-denver-s-first-fine-dinner-indian-restaurant-preview.png</code></td>
+          <td>30</td>
+          <td>shared keywords: restaurant, related folder: webact.com, images</td>
+        </tr>
+        <tr>
+          <td><code>Resources/images/a-computer-tablet-and-phone-are-displaying-a-website-for-a-sushi-restaurant-preview.png</code></td>
+          <td>30</td>
+          <td>shared keywords: restaurant, related folder: webact.com, images</td>
+        </tr>
+        <tr>
+          <td><code>Resources/images/co_denver_web-design_2019_transparent-1920w.png</code></td>
+          <td>30</td>
+          <td>shared keywords: design, related folder: webact.com, images</td>
+        </tr></tbody>
+        </table>
+      </section>
+      <section class="finding">
+        <div class="finding-head">
+          <div>
+            <div class="label">Missing asset</div>
+            <h2><code>/Resources/images/placeholder.png</code></h2>
+            <p>Expected at <code>Resources/images/placeholder.png</code></p>
+          </div>
+          <span class="count">1 use</span>
+        </div>
+
+        <details>
+          <summary>Pages using this asset</summary>
+          <ul><li><code>about/portfolio/case-study.html:79</code></li></ul>
+        </details>
+
+        <h3>Best repository candidates</h3>
+        <table>
+          <thead><tr><th>Candidate</th><th>Score</th><th>Why it matched</th></tr></thead>
+          <tbody>
+        <tr>
+          <td><code>Resources/images/imgPlaceholder1.png</code></td>
+          <td>42</td>
+          <td>same extension, related folder: resources, images, partial filename match</td>
+        </tr>
+        <tr>
+          <td><code>Resources/images/imgPlaceholder2.png</code></td>
+          <td>42</td>
+          <td>same extension, related folder: resources, images, partial filename match</td>
+        </tr>
+        <tr>
+          <td><code>Resources/images/imgPlaceholder3.png</code></td>
+          <td>42</td>
+          <td>same extension, related folder: resources, images, partial filename match</td>
+        </tr>
+        <tr>
+          <td><code>about/portfolio/2go-coconut-oil-website.png</code></td>
+          <td>17</td>
+          <td>same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-accounting.png</code></td>
+          <td>17</td>
+          <td>same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-appliance.png</code></td>
+          <td>17</td>
+          <td>same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-artist.png</code></td>
+          <td>17</td>
+          <td>same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-auto.png</code></td>
+          <td>17</td>
+          <td>same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-bakery.png</code></td>
+          <td>17</td>
+          <td>same extension, related folder: projects, webact.com</td>
+        </tr>
+        <tr>
+          <td><code>assets/case-brewery.png</code></td>
+          <td>17</td>
+          <td>same extension, related folder: projects, webact.com</td>
+        </tr></tbody>
+        </table>
+      </section></main>
+</body>
+</html>
