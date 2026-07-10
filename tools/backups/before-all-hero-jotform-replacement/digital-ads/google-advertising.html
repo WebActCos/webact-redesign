@@ -1,0 +1,202 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Advertising Agency | Google Ads Management | WebAct</title>
+  <meta name="description" content="WebAct manages Google Ads campaigns for search, Performance Max, Shopping, Display, YouTube, remarketing, landing pages, conversion tracking, and ongoing optimization.">
+  <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
+  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
+  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+
+  <style>
+    .wa-google-page{color:#071421;background:#fff;overflow:hidden}
+    .wa-google-hero{background:radial-gradient(circle at 15% 20%,rgba(51,171,225,.24),transparent 32%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:92px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,.72fr);gap:48px;align-items:center}
+    .wa-google-hero .eyebrow,.wa-google-section .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
+    .wa-google-hero h1{font-size:clamp(42px,6vw,82px);line-height:.95;margin:14px 0 22px;letter-spacing:-.055em;max-width:900px}
+    .wa-google-hero p{color:#d9edf8;font-size:20px;line-height:1.6;max-width:780px}
+    .wa-google-proof{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+    .wa-google-proof span{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);border-radius:999px;padding:10px 14px;font-weight:800;color:#fff}
+    .wa-google-form{background:rgba(255,255,255,.96);color:#071421;border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.22)}
+    .wa-google-form h2{font-size:28px;margin:0 0 8px;letter-spacing:-.02em}
+    .wa-google-form p{color:#4b5b66;line-height:1.55;margin:0 0 18px;font-size:16px}
+    .wa-google-form label{display:grid;gap:7px;margin-bottom:12px;font-weight:800;font-size:14px;color:#203241}
+    .wa-google-form input,.wa-google-form select,.wa-google-form textarea{width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:12px;padding:13px 14px;font:inherit;background:#fff;color:#071421}
+    .wa-google-form textarea{resize:vertical;min-height:92px}
+    .wa-google-form .button{width:100%;margin-top:6px;border:0;cursor:pointer}
+    .wa-google-section{padding:84px min(6vw,72px)}
+    .wa-google-section.soft{background:#f4f8fb}
+    .wa-google-section.dark{background:#071421;color:#fff}
+    .wa-google-heading{max-width:920px;margin:0 auto 44px;text-align:center}
+    .wa-google-heading .eyebrow{color:#0c9bd2}
+    .wa-google-section.dark .wa-google-heading .eyebrow{color:#73d7ff}
+    .wa-google-heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}
+    .wa-google-heading p{font-size:18px;line-height:1.65;color:#4b5b66}
+    .wa-google-section.dark .wa-google-heading p{color:#d4e8f2}
+    .wa-google-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1300px;margin:0 auto}
+    .wa-google-card{background:#fff;color:#071421;border:1px solid #e0ebf2;border-radius:26px;padding:28px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
+    .wa-google-card h3{font-size:24px;margin:0 0 10px}
+    .wa-google-card p{color:#4b5b66;line-height:1.62;margin:0}
+    .wa-google-split{display:grid;grid-template-columns:.95fr 1.05fr;gap:40px;align-items:center;max-width:1300px;margin:0 auto}
+    .wa-google-panel{background:#fff;color:#071421;border-radius:28px;padding:34px;box-shadow:0 24px 60px rgba(0,0,0,.16)}
+    .wa-google-panel h2{font-size:clamp(32px,4vw,54px);line-height:1;margin:0 0 18px;letter-spacing:-.04em}
+    .wa-google-panel p{font-size:18px;line-height:1.65;color:#40505a}
+    .wa-google-flow{display:grid;gap:14px}
+    .wa-google-flow article{display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:start;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:22px;padding:20px}
+    .wa-google-flow span{width:48px;height:48px;border-radius:16px;background:#33abe1;color:#071421;display:grid;place-items:center;font-weight:900}
+    .wa-google-flow h3{margin:0 0 6px;font-size:20px}
+    .wa-google-flow p{margin:0;color:#d4e8f2;line-height:1.55}
+    .wa-google-process{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;max-width:1320px;margin:0 auto;counter-reset:step}
+    .wa-google-process article{background:#fff;color:#071421;border-radius:22px;padding:22px;border:1px solid #e0ebf2;box-shadow:0 14px 34px rgba(7,20,33,.06)}
+    .wa-google-process article:before{counter-increment:step;content:counter(step);width:42px;height:42px;border-radius:14px;background:#071421;color:#fff;display:grid;place-items:center;font-weight:900;margin-bottom:16px}
+    .wa-google-process h3{margin:0 0 8px;font-size:20px}
+    .wa-google-process p{margin:0;color:#4b5b66;line-height:1.55}
+    .wa-google-cta{padding:86px min(6vw,72px);background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center}
+    .wa-google-cta h2{font-size:clamp(34px,5vw,64px);line-height:1;margin:0 auto 18px;letter-spacing:-.045em;max-width:900px}
+    .wa-google-cta p{max-width:760px;margin:0 auto;color:#d4e8f2;font-size:19px;line-height:1.65}
+    .wa-google-cta .hero-actions{justify-content:center}
+    .wa-google-faq{max-width:1100px;margin:0 auto;display:grid;gap:14px}
+    .wa-google-faq details{background:#fff;border:1px solid #e0ebf2;border-radius:18px;padding:20px;box-shadow:0 12px 26px rgba(7,20,33,.05)}
+    .wa-google-faq summary{cursor:pointer;font-weight:900;font-size:18px}
+    .wa-google-faq p{color:#4b5b66;line-height:1.65}
+    @media(max-width:1080px){.wa-google-hero,.wa-google-split{grid-template-columns:1fr}.wa-google-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.wa-google-process{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:680px){.wa-google-hero,.wa-google-section,.wa-google-cta{padding:56px 20px}.wa-google-grid,.wa-google-process{grid-template-columns:1fr}.wa-google-flow article{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}}
+  </style>
+</head>
+<body>
+<div id="webact-header"></div>
+
+<main class="wa-google-page">
+  <section class="wa-google-hero">
+    <div>
+      <p class="eyebrow">Google Ads Management</p>
+      <h1>Google Advertising that turns search intent into real leads and sales.</h1>
+      <p>WebAct manages Google Ads campaigns for businesses that need more than clicks. We connect keyword strategy, campaign structure, landing pages, conversion tracking, reporting, and ongoing optimization so your advertising has a stronger chance to produce qualified opportunities.</p>
+      <div class="wa-google-proof" aria-label="Google advertising strengths">
+        <span>Search Ads</span><span>Performance Max</span><span>Display & Remarketing</span><span>YouTube Ads</span><span>Landing Pages</span>
+      </div>
+      <div class="hero-actions">
+        <a class="button primary" href="/webact-redesign/contact/index.html">Request Google Ads Review</a>
+        <a class="button secondary" href="/webact-redesign/digital-ads/index.html">Digital Advertising Hub</a>
+      </div>
+    </div>
+
+    <form class="wa-google-form" aria-label="Request a Google Ads review">
+      <h2>Request Google Ads Review</h2>
+      <p>Tell us what you want your campaigns to accomplish and WebAct will recommend the right next step.</p>
+      <label>Full Name<input type="text" name="name" autocomplete="name"></label>
+      <label>Email Address<input type="email" name="email" autocomplete="email"></label>
+      <label>Phone Number<input type="tel" name="phone" autocomplete="tel"></label>
+      <label>Interested In
+        <select name="interest">
+          <option>Google Search Ads</option>
+          <option>Performance Max</option>
+          <option>Shopping Ads</option>
+          <option>Display / Remarketing</option>
+          <option>YouTube Advertising</option>
+          <option>Landing Pages & Tracking</option>
+        </select>
+      </label>
+      <label>How can we help?<textarea name="message" rows="4"></textarea></label>
+      <button class="button primary" type="button">Request Google Ads Review</button>
+    </form>
+  </section>
+
+  <section class="wa-google-section soft">
+    <div class="wa-google-heading">
+      <p class="eyebrow">What WebAct Manages</p>
+      <h2>Google Ads campaigns built around your website, offer, and customer journey.</h2>
+      <p>Google Ads can reach people at the exact moment they are searching, comparing, watching, shopping, or returning to your brand. WebAct helps build the right campaign mix and supports it with stronger landing pages, calls-to-action, and tracking.</p>
+    </div>
+    <div class="wa-google-grid">
+      <article class="wa-google-card"><h3>Search Campaigns</h3><p>Capture demand from people actively searching for your services, products, locations, and solutions.</p></article>
+      <article class="wa-google-card"><h3>Performance Max</h3><p>Reach customers across Search, Maps, YouTube, Display, Discover, Gmail, and Shopping from one goal-focused campaign type.</p></article>
+      <article class="wa-google-card"><h3>Shopping Ads</h3><p>Promote products with optimized feeds, product groups, bidding structure, and conversion-focused ecommerce landing paths.</p></article>
+      <article class="wa-google-card"><h3>Display & Remarketing</h3><p>Reconnect with visitors, build awareness, and support offers after someone has already interacted with your brand.</p></article>
+      <article class="wa-google-card"><h3>YouTube Advertising</h3><p>Use video to build brand awareness, explain your offer, and reach targeted audiences across YouTube inventory.</p></article>
+      <article class="wa-google-card"><h3>Landing Pages & Tracking</h3><p>Improve campaign performance with conversion-focused pages, lead forms, phone tracking, analytics, and reporting visibility.</p></article>
+    </div>
+  </section>
+
+  <section class="wa-google-section dark">
+    <div class="wa-google-split">
+      <div class="wa-google-panel">
+        <p class="eyebrow">Why WebAct</p>
+        <h2>Clicks are only valuable when the page and tracking are ready.</h2>
+        <p>Many campaigns fail because the traffic is sent to weak pages, vague offers, slow layouts, or forms that do not clearly support the next step. WebAct connects Google Ads with website design, landing pages, SEO, local visibility, and conversion strategy.</p>
+        <p>That means your campaign is not managed in isolation. We look at the full path from search term to ad to landing page to lead quality.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="/webact-redesign/contact/index.html">Talk With WebAct</a>
+          <a class="button secondary" href="/webact-redesign/pricing/advertising.html">View Advertising Pricing</a>
+        </div>
+      </div>
+      <div class="wa-google-flow">
+        <article><span>01</span><div><h3>Keyword and audience intent</h3><p>We organize campaigns around what people are trying to solve, compare, buy, or schedule.</p></div></article>
+        <article><span>02</span><div><h3>Landing page alignment</h3><p>We connect ads to pages that clearly match the offer and make the next step obvious.</p></div></article>
+        <article><span>03</span><div><h3>Conversion tracking</h3><p>We help track calls, forms, appointments, ecommerce actions, and other campaign goals.</p></div></article>
+        <article><span>04</span><div><h3>Ongoing optimization</h3><p>We improve search terms, budgets, creative, bids, targeting, assets, and page performance over time.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="wa-google-section">
+    <div class="wa-google-heading">
+      <p class="eyebrow">Google Ads Process</p>
+      <h2>A structured process for launching and improving campaigns.</h2>
+      <p>Every campaign needs a clear starting point, a clean launch, and continuous improvement. WebAct follows a process that keeps the campaign connected to your business goals.</p>
+    </div>
+    <div class="wa-google-process">
+      <article><h3>Discover</h3><p>Goals, budget, customers, locations, competitors, website, and current advertising history.</p></article>
+      <article><h3>Research</h3><p>Keyword intent, audiences, search demand, negative keywords, platform opportunities, and landing pages.</p></article>
+      <article><h3>Build</h3><p>Campaign structure, ad groups, ads, extensions, audiences, tracking, and conversion paths.</p></article>
+      <article><h3>Launch</h3><p>Quality checks, budget controls, tracking review, campaign activation, and early performance monitoring.</p></article>
+      <article><h3>Optimize</h3><p>Search terms, bids, budgets, ads, assets, targeting, landing pages, and lead quality.</p></article>
+      <article><h3>Scale</h3><p>Increase investment where performance supports it and expand into additional Google campaign types.</p></article>
+    </div>
+  </section>
+
+  <section class="wa-google-section soft">
+    <div class="wa-google-heading">
+      <p class="eyebrow">Industries</p>
+      <h2>Google Ads for local service, professional service, ecommerce, and appointment-based businesses.</h2>
+      <p>WebAct can support campaigns for restaurants, dentists, law firms, roofers, HVAC companies, plumbers, medical providers, nonprofits, real estate professionals, home services, retail stores, and ecommerce businesses.</p>
+    </div>
+    <div class="wa-google-grid">
+      <article class="wa-google-card"><h3>Lead Generation</h3><p>Campaigns focused on calls, forms, quote requests, booked appointments, and qualified local leads.</p></article>
+      <article class="wa-google-card"><h3>Local Business Growth</h3><p>Campaigns built around service areas, local search intent, Google Business visibility, and high-value customer actions.</p></article>
+      <article class="wa-google-card"><h3>Sales & Ecommerce</h3><p>Campaigns that support product visibility, shopping behavior, product education, and online purchases.</p></article>
+    </div>
+  </section>
+
+  <section class="wa-google-section">
+    <div class="wa-google-heading">
+      <p class="eyebrow">FAQ</p>
+      <h2>Google Ads questions businesses ask before getting started.</h2>
+    </div>
+    <div class="wa-google-faq">
+      <details open><summary>How much should my business spend on Google Ads?</summary><p>Budget depends on your industry, location, competition, goals, and how quickly you want data. WebAct can review your market and recommend a starting budget that makes sense for testing and growth.</p></details>
+      <details><summary>Can WebAct manage an existing Google Ads account?</summary><p>Yes. WebAct can review existing campaigns, search terms, budgets, conversion tracking, landing pages, and account structure to identify what should be improved first.</p></details>
+      <details><summary>Do I need landing pages?</summary><p>Often, yes. Google Ads usually performs better when the landing page closely matches the ad, keyword, and visitor intent. WebAct can help improve existing pages or build new campaign landing pages.</p></details>
+      <details><summary>How long does it take to see results?</summary><p>Some campaigns produce early activity quickly, but meaningful optimization takes data. The first phase is usually focused on clean launch, tracking, search term review, budget control, and performance improvements.</p></details>
+      <details><summary>Does WebAct help with conversion tracking?</summary><p>Yes. Tracking is one of the most important parts of campaign management. WebAct can help track forms, calls, appointment actions, ecommerce activity, and other important conversion events.</p></details>
+    </div>
+  </section>
+
+  <section class="wa-google-cta">
+    <h2>Ready to improve your Google Ads performance?</h2>
+    <p>Whether you are launching your first campaign or improving an existing account, WebAct can help connect your ads, website, landing pages, and tracking into a smarter growth plan.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="/webact-redesign/contact/index.html">Request Google Ads Review</a>
+      <a class="button secondary" href="tel:8556974336">Call (855) 697-4336</a>
+    </div>
+  </section>
+</main>
+
+<div id="webact-footer"></div>
+<script src="/webact-redesign/script.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+
+</body>
+</html>

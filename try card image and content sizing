@@ -1,0 +1,111 @@
+warning: in the working copy of 'industries/index.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/industries/index.html b/industries/index.html[m
+[1mindex e5cb0ce1..c3825231 100644[m
+[1m--- a/industries/index.html[m
+[1m+++ b/industries/index.html[m
+[36m@@ -41,8 +41,25 @@[m [mbody{margin:0}[m
+ .industry-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1500px;margin:0 auto}[m
+ .industry-card{display:flex;flex-direction:column;background:#fff;border:1px solid #dcecf5;border-radius:28px;overflow:hidden;text-decoration:none;color:#071421;box-shadow:0 18px 42px rgba(7,20,33,.08);transition:.22s ease}[m
+ .industry-card:hover{transform:translateY(-4px);border-color:#33abe1;box-shadow:0 26px 60px rgba(7,20,33,.13)}[m
+[31m-.industry-image{height:230px;background:#eef7fc;display:flex;align-items:center;justify-content:center;overflow:hidden}[m
+[31m-.industry-image img{width:100%;height:100%;object-fit:cover;display:block}[m
+[32m+[m[32m.industry-image{[m
+[32m+[m[32m    height:340px;[m
+[32m+[m[32m    display:flex;[m
+[32m+[m[32m    align-items:flex-end;[m
+[32m+[m[32m    justify-content:center;[m
+[32m+[m[32m    overflow:hidden;[m
+[32m+[m[32m    background:#eef7fd;[m
+[32m+[m[32m    border-radius:26px 26px 0 0;[m
+[32m+[m[32m    padding:24px;[m
+[32m+[m[32m    box-sizing:border-box;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.industry-image img{[m
+[32m+[m[32m    width:100%;[m
+[32m+[m[32m    height:100%;[m
+[32m+[m[32m    object-fit:contain;[m
+[32m+[m[32m    object-position:center bottom;[m
+[32m+[m[32m    display:block;[m
+[32m+[m[32m}[m
+ .industry-card-body{padding:28px;display:flex;flex-direction:column;min-height:290px}[m
+ .industry-label{width:max-content;background:#eaf8fe!important;color:#0c658c!important;border:1px solid #bfe8f7;border-radius:999px;padding:8px 12px!important;font-size:12px!important;font-weight:900!important;text-transform:uppercase;margin:0 0 18px!important}[m
+ .industry-card h3{font-size:30px;line-height:1.08;margin:0 0 14px;color:#071421}[m
+[36m@@ -275,6 +292,77 @@[m [mbody{margin:0}[m
+     min-height:980px;[m
+   }[m
+ }[m
+[32m+[m
+[32m+[m[32m/* Consistent Industry Card Sizing */[m
+[32m+[m[32m.industry-card{[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m  flex-direction:column;[m
+[32m+[m[32m  height:100%;[m
+[32m+[m[32m  overflow:hidden;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.industry-image{[m
+[32m+[m[32m  height:340px;[m
+[32m+[m[32m  min-height:340px;[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m  align-items:center;[m
+[32m+[m[32m  justify-content:center;[m
+[32m+[m[32m  overflow:hidden;[m
+[32m+[m[32m  padding:24px;[m
+[32m+[m[32m  box-sizing:border-box;[m
+[32m+[m[32m  background:#eef7fd;[m
+[32m+[m[32m  border-radius:26px 26px 0 0;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.industry-image img{[m
+[32m+[m[32m  display:block;[m
+[32m+[m[32m  width:100%;[m
+[32m+[m[32m  height:100%;[m
+[32m+[m[32m  max-width:100%;[m
+[32m+[m[32m  object-fit:contain;[m
+[32m+[m[32m  object-position:center;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.industry-card-body{[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m  flex-direction:column;[m
+[32m+[m[32m  flex:1;[m
+[32m+[m[32m  height:100%;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.industry-card-body h3{[m
+[32m+[m[32m  min-height:2.3em;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.industry-card-body > p:not(.industry-label){[m
+[32m+[m[32m  flex-grow:0;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.industry-card-body a,[m
+[32m+[m[32m.industry-card-body .case-study-link,[m
+[32m+[m[32m.industry-card-body .industry-link{[m
+[32m+[m[32m  margin-top:auto;[m
+[32m+[m[32m  align-self:flex-start;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m@media(max-width:900px){[m
+[32m+[m[32m  .industry-image{[m
+[32m+[m[32m    height:300px;[m
+[32m+[m[32m    min-height:300px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m@media(max-width:600px){[m
+[32m+[m[32m  .industry-image{[m
+[32m+[m[32m    height:250px;[m
+[32m+[m[32m    min-height:250px;[m
+[32m+[m[32m    padding:16px;[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m  .industry-card-body h3{[m
+[32m+[m[32m    min-height:0;[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+ </style>[m
+ </head>[m
+ [m

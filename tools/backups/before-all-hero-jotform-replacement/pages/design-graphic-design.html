@@ -1,0 +1,1164 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Graphic Design Services | WebAct</title>
+  <meta name="description" content="WebAct graphic design services for ads, social media, print collateral, sales materials, signage, email graphics, and brand-consistent marketing creative.">
+  <style>
+    :root {
+      --blue: #159bd7;
+      --blue-dark: #087eb6;
+      --ink: #081522;
+      --muted: #627386;
+      --line: #d8e4ed;
+      --soft: #eef8fc;
+      --paper: #ffffff;
+      --dark: #06111c;
+      --shadow: 0 24px 70px rgba(8, 21, 34, .14);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: #fff;
+      line-height: 1.55;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, .96);
+      border-bottom: 1px solid rgba(216, 228, 237, .9);
+      box-shadow: 0 8px 24px rgba(8, 21, 34, .06);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav-wrap {
+      width: min(1180px, calc(100% - 36px));
+      margin: 0 auto;
+      min-height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      font-size: 31px;
+      font-weight: 900;
+      letter-spacing: 0;
+      color: #000;
+      white-space: nowrap;
+    }
+
+    .brand span {
+      color: var(--blue);
+    }
+
+    .mobile-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      cursor: pointer;
+      font-size: 24px;
+      line-height: 1;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .nav-item {
+      position: relative;
+    }
+
+    .nav-link,
+    .nav-item > button {
+      min-height: 44px;
+      padding: 0 11px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 0;
+      background: transparent;
+      color: #172331;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .nav-link:hover,
+    .nav-item > button:hover,
+    .nav-item:focus-within > button {
+      color: var(--blue-dark);
+    }
+
+    .dropdown {
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 0;
+      width: 260px;
+      padding: 10px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(8px);
+      transition: opacity .18s ease, transform .18s ease, visibility .18s ease;
+    }
+
+    .nav-item:hover .dropdown,
+    .nav-item:focus-within .dropdown {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .dropdown a {
+      display: block;
+      padding: 10px 12px;
+      border-radius: 6px;
+      color: #27384a;
+      font-weight: 750;
+    }
+
+    .dropdown a:hover,
+    .dropdown a[aria-current="page"] {
+      background: var(--soft);
+      color: var(--blue-dark);
+    }
+
+    .nav-cta {
+      margin-left: 8px;
+      padding: 12px 18px;
+      border-radius: 8px;
+      background: var(--blue);
+      color: #fff;
+      font-weight: 900;
+      box-shadow: 0 12px 28px rgba(21, 155, 215, .24);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(6, 17, 28, .95), rgba(8, 31, 48, .88)),
+        radial-gradient(circle at 82% 12%, rgba(21, 155, 215, .42), transparent 32%);
+      color: #fff;
+    }
+
+    .hero-inner {
+      width: min(1180px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 88px 0 64px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(360px, .72fr);
+      gap: 42px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      color: #91dbff;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      max-width: 760px;
+      font-size: clamp(42px, 6vw, 76px);
+      font-weight: 900;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 22px 0 0;
+      color: #d6e5ef;
+      font-size: 18px;
+    }
+
+    .hero-actions {
+      margin-top: 34px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 22px;
+      border-radius: 8px;
+      border: 2px solid transparent;
+      background: var(--blue);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .02em;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background: var(--blue-dark);
+    }
+
+    .button.secondary {
+      background: transparent;
+      border-color: rgba(255, 255, 255, .48);
+      color: #fff;
+    }
+
+    .button.secondary:hover {
+      background: rgba(255, 255, 255, .1);
+    }
+
+    .button.dark {
+      background: var(--ink);
+    }
+
+    .chip-grid {
+      margin-top: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .chip {
+      padding: 8px 12px;
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .08);
+      color: #eaf7fd;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .quote-card {
+      padding: 28px;
+      border: 1px solid rgba(255, 255, 255, .2);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .96);
+      color: var(--ink);
+      box-shadow: var(--shadow);
+    }
+
+    .quote-card h2 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .quote-card p {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .form-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 900;
+      color: #233548;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      margin-top: 6px;
+      padding: 13px 12px;
+      border: 1px solid #cbd9e4;
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      font-size: 15px;
+    }
+
+    textarea {
+      min-height: 112px;
+      resize: vertical;
+    }
+
+    .section {
+      padding: 76px 0;
+    }
+
+    .section.soft {
+      background: var(--soft);
+    }
+
+    .section.dark {
+      background: var(--dark);
+      color: #fff;
+    }
+
+    .container {
+      width: min(1180px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, .8fr) minmax(260px, .42fr);
+      gap: 34px;
+      align-items: end;
+      margin-bottom: 34px;
+    }
+
+    .section-head h2 {
+      font-size: clamp(32px, 4vw, 52px);
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .dark .section-head p {
+      color: #c7d6e0;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid.three {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid.four {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .card {
+      padding: 25px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 16px 36px rgba(8, 21, 34, .07);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 21px;
+    }
+
+    .card p,
+    .card li {
+      color: var(--muted);
+    }
+
+    .card p {
+      margin: 0;
+    }
+
+    .icon {
+      width: 42px;
+      height: 42px;
+      margin-bottom: 18px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      background: var(--soft);
+      color: var(--blue);
+      font-weight: 900;
+      font-size: 18px;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: minmax(0, .82fr) minmax(320px, .58fr);
+      gap: 36px;
+      align-items: center;
+    }
+
+    .feature-panel {
+      padding: 34px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .feature-panel h2 {
+      font-size: clamp(32px, 4vw, 48px);
+      margin-bottom: 18px;
+    }
+
+    .feature-panel p {
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .link-list {
+      margin-top: 24px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .link-list a {
+      padding: 13px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      color: var(--blue-dark);
+      font-weight: 900;
+      background: #fff;
+    }
+
+    .visual-board {
+      min-height: 460px;
+      padding: 28px;
+      border-radius: 8px;
+      background:
+        linear-gradient(140deg, rgba(21, 155, 215, .96), rgba(8, 21, 34, .94)),
+        radial-gradient(circle at 70% 30%, rgba(255, 255, 255, .35), transparent 28%);
+      color: #fff;
+      display: grid;
+      align-content: center;
+      gap: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .mock-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .mock-piece {
+      min-height: 128px;
+      border-radius: 8px;
+      padding: 18px;
+      background: rgba(255, 255, 255, .16);
+      border: 1px solid rgba(255, 255, 255, .24);
+      display: grid;
+      align-content: end;
+      font-weight: 900;
+    }
+
+    .mock-piece.tall {
+      min-height: 212px;
+    }
+
+    .plans .card {
+      display: grid;
+      align-content: start;
+      gap: 16px;
+    }
+
+    .price {
+      font-size: 38px;
+      line-height: 1;
+      font-weight: 900;
+      color: var(--blue-dark);
+    }
+
+    .price span {
+      font-size: 14px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 19px;
+    }
+
+    .process {
+      counter-reset: step;
+    }
+
+    .process .card {
+      position: relative;
+      padding-top: 62px;
+    }
+
+    .process .card:before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      top: 22px;
+      left: 24px;
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      background: var(--blue);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+    }
+
+    .faq {
+      display: grid;
+      gap: 12px;
+    }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    summary {
+      padding: 18px 20px;
+      cursor: pointer;
+      font-weight: 900;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details p {
+      margin: 0;
+      padding: 0 20px 20px;
+      color: var(--muted);
+    }
+
+    .cta-band {
+      padding: 46px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--blue), #0b6f9f);
+      color: #fff;
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(280px, .5fr);
+      gap: 28px;
+      align-items: center;
+    }
+
+    .cta-band h2 {
+      font-size: clamp(30px, 4vw, 48px);
+    }
+
+    .cta-band p {
+      color: #e7f8ff;
+      font-size: 17px;
+    }
+
+    .contact-form {
+      padding: 28px;
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    footer {
+      padding: 44px 0;
+      background: #02070b;
+      color: #c8d7e0;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
+      align-items: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-weight: 800;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    @media (max-width: 1040px) {
+      .mobile-toggle {
+        display: inline-grid;
+        place-items: center;
+      }
+
+      .main-nav {
+        position: absolute;
+        top: 78px;
+        left: 0;
+        right: 0;
+        display: none;
+        padding: 12px 18px 22px;
+        background: #fff;
+        border-bottom: 1px solid var(--line);
+        box-shadow: var(--shadow);
+        max-height: calc(100vh - 78px);
+        overflow: auto;
+      }
+
+      .main-nav.is-open {
+        display: block;
+      }
+
+      .nav-item,
+      .nav-link,
+      .nav-item > button,
+      .nav-cta {
+        width: 100%;
+      }
+
+      .nav-link,
+      .nav-item > button {
+        justify-content: space-between;
+        padding: 12px 0;
+      }
+
+      .dropdown {
+        position: static;
+        width: 100%;
+        display: none;
+        visibility: visible;
+        opacity: 1;
+        transform: none;
+        box-shadow: none;
+        border-radius: 8px;
+        margin: 0 0 8px;
+      }
+
+      .nav-item.is-open .dropdown {
+        display: block;
+      }
+
+      .nav-cta {
+        margin: 10px 0 0;
+      }
+
+      .hero-inner,
+      .section-head,
+      .split,
+      .cta-band,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .grid.four,
+      .grid.three {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 680px) {
+      .nav-wrap,
+      .container,
+      .hero-inner {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .hero-inner {
+        padding: 62px 0 48px;
+        grid-template-columns: 1fr;
+      }
+
+      .quote-card,
+      .feature-panel,
+      .cta-band,
+      .contact-form {
+        padding: 22px;
+      }
+
+      .grid.four,
+      .grid.three,
+      .mock-row {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 56px 0;
+      }
+    }
+  </style>
+<style id="webact-promodo-header-style">
+.webact-promodo-header{position:sticky;top:0;z-index:9999;background:#fff;border-bottom:1px solid #e5edf5;font-family:Inter,Arial,sans-serif}
+.webact-promodo-topbar{background:#061421;color:#fff;font-weight:800;text-align:center;padding:12px 20px;font-size:14px;line-height:1.35}
+.webact-promodo-topbar a{color:#33aee7;text-decoration:none;margin-left:24px;white-space:nowrap}
+.webact-promodo-inner{max-width:1460px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:22px 28px;background:#fff}
+.webact-promodo-logo{display:inline-flex;align-items:center;flex:0 0 auto;text-decoration:none}
+.webact-promodo-logo img{width:230px;max-width:24vw;height:auto;display:block}
+.webact-promodo-nav{display:flex;align-items:center;gap:4px;flex:1}
+.webact-promodo-nav-list{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;width:100%}
+.webact-promodo-nav-item{position:relative}
+.webact-promodo-nav-link,.webact-promodo-drop-trigger{appearance:none;border:0;background:transparent;color:#071421;text-decoration:none;font-weight:850;font-size:16px;line-height:1.1;padding:14px 12px;border-radius:8px;display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;font-family:inherit}
+.webact-promodo-nav-link:hover,.webact-promodo-drop-trigger:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-chevron{border:solid currentColor;border-width:0 2px 2px 0;display:inline-block;padding:4px;transform:rotate(45deg);margin-top:-5px}
+.webact-promodo-menu{display:none;position:absolute;top:100%;left:0;min-width:310px;background:#fff;border:1px solid #dce8f1;box-shadow:0 24px 50px rgba(2,18,32,.14);padding:16px;border-radius:0 0 14px 14px;grid-template-columns:repeat(2,minmax(145px,1fr));gap:6px}
+.webact-promodo-menu a{color:#071421;text-decoration:none;padding:10px 12px;border-radius:8px;font-weight:700;font-size:14px;line-height:1.25}
+.webact-promodo-menu a:hover{background:#eaf7fc;color:#119fd7}
+.webact-promodo-nav-item:hover .webact-promodo-menu,.webact-promodo-nav-item:focus-within .webact-promodo-menu,.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}
+.webact-promodo-actions{display:flex;align-items:center;gap:14px;flex:0 0 auto}
+.webact-promodo-search{background:transparent;border:0;color:#071421;font-weight:850;font-size:16px;cursor:pointer;padding:12px;border-radius:8px;font-family:inherit}
+.webact-promodo-search:hover{background:#eef8fd;color:#0c9bd2}
+.webact-promodo-cta{background:#33abe1;color:#071421;text-decoration:none;font-weight:900;padding:18px 24px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;box-shadow:0 8px 18px rgba(51,171,225,.28)}
+.webact-promodo-cta:hover{background:#249ad0;color:#071421}
+.webact-promodo-menu-toggle{display:none;border:1px solid #cfe0eb;background:#fff;border-radius:8px;width:46px;height:42px;align-items:center;justify-content:center;gap:5px;flex-direction:column;cursor:pointer}
+.webact-promodo-menu-toggle span{width:22px;height:2px;background:#071421;display:block}
+body.webact-search-open .webact-search-overlay{display:flex}
+.webact-search-overlay{display:none;position:fixed;inset:0;z-index:10000;background:rgba(4,17,29,.62);align-items:flex-start;justify-content:center;padding:120px 20px 20px}
+.webact-search-panel{width:min(760px,100%);background:#fff;border-radius:14px;padding:24px;box-shadow:0 28px 70px rgba(0,0,0,.22)}
+.webact-search-row{display:flex;gap:10px}
+.webact-search-row input{flex:1;border:1px solid #cddce7;border-radius:8px;padding:14px 16px;font-size:16px}
+.webact-search-row button,.webact-search-close{border:0;border-radius:8px;padding:14px 18px;font-weight:850;cursor:pointer;font-family:inherit}
+.webact-search-row button{background:#33abe1;color:#071421}.webact-search-close{background:#f2f6f9;color:#071421}
+@media (max-width:1250px){.webact-promodo-inner{padding:18px 20px;gap:14px}.webact-promodo-logo img{width:190px}.webact-promodo-nav-link,.webact-promodo-drop-trigger{font-size:14px;padding:12px 8px}.webact-promodo-cta{padding:15px 18px}}
+@media (max-width:1060px){.webact-promodo-inner{flex-wrap:wrap}.webact-promodo-menu-toggle{display:flex}.webact-promodo-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e5edf5;padding-top:12px}.webact-promodo-header.webact-nav-open .webact-promodo-nav{display:block}.webact-promodo-nav-list{display:block}.webact-promodo-nav-item{border-bottom:1px solid #edf3f7}.webact-promodo-nav-link,.webact-promodo-drop-trigger{width:100%;justify-content:space-between;padding:15px 2px;font-size:16px}.webact-promodo-menu{position:static;box-shadow:none;border:0;border-radius:0;padding:0 0 12px 12px;grid-template-columns:1fr}.webact-promodo-nav-item .webact-promodo-menu{display:none}.webact-promodo-nav-item.webact-open .webact-promodo-menu{display:grid}.webact-promodo-actions{margin-left:auto}.webact-promodo-search{font-size:0}.webact-promodo-search:before{content:'Search';font-size:15px}.webact-promodo-cta{padding:13px 16px}}
+@media (max-width:640px){.webact-promodo-topbar{font-size:12px}.webact-promodo-topbar a{display:inline-block;margin-left:10px}.webact-promodo-logo img{width:160px;max-width:52vw}.webact-promodo-inner{padding:14px}.webact-promodo-actions{width:100%;justify-content:space-between;order:3}.webact-promodo-cta{flex:1}.webact-search-overlay{padding-top:90px}.webact-search-row{flex-direction:column}}
+</style>
+    
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/navigation.css">
+<link rel="stylesheet" href="../css/footer.css">
+
+</head>
+<body>
+<div id="webact-header"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">Graphic Design Services</p>
+          <h1>Graphic design that keeps your brand sharp everywhere.</h1>
+          <p>WebAct creates print, digital, social, and advertising graphics that match your website, campaigns, and business goals. From one-time creative projects to ongoing design support, our team keeps your visuals consistent across every channel.</p>
+          <div class="hero-actions">
+            <a class="button" href="#quote-form">Request a Design Quote</a>
+            <a class="button secondary" href="#graphic-services">See Design Services</a>
+          </div>
+          <div class="chip-grid" aria-label="Graphic design deliverables">
+            <span class="chip">Ad creative</span>
+            <span class="chip">Social graphics</span>
+            <span class="chip">Brochures</span>
+            <span class="chip">Flyers</span>
+            <span class="chip">Menus</span>
+            <span class="chip">Banners</span>
+            <span class="chip">Email graphics</span>
+            <span class="chip">Sales materials</span>
+          </div>
+        </div>
+        <form class="quote-card" id="quote-form">
+          <h2>Start a design request</h2>
+          <p>Tell us what you need designed and we will help scope the right creative package.</p>
+          <div class="form-grid">
+            <label>Name
+              <input type="text" name="name" autocomplete="name">
+            </label>
+            <label>Business Name
+              <input type="text" name="business">
+            </label>
+            <label>Email
+              <input type="email" name="email" autocomplete="email">
+            </label>
+            <label>Phone
+              <input type="tel" name="phone" autocomplete="tel">
+            </label>
+            <label>Project Type
+              <select name="project-type">
+                <option>Social media graphics</option>
+                <option>Digital ad creative</option>
+                <option>Print collateral</option>
+                <option>Logo or brand graphics</option>
+                <option>Signage or display graphics</option>
+                <option>Ongoing design support</option>
+              </select>
+            </label>
+            <label>Project Details
+              <textarea name="message"></textarea>
+            </label>
+            <button class="button" type="submit">Get My Quote</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="graphic-services">
+      <div class="container">
+        <div class="section-head">
+          <h2>Graphic design services for every customer touchpoint.</h2>
+          <p>Design should make your business easier to recognize, easier to trust, and easier to choose. WebAct builds creative that supports the full path from first impression to sale.</p>
+        </div>
+        <div class="grid four">
+          <article class="card">
+            <div class="icon">01</div>
+            <h3>Brand and Campaign Graphics</h3>
+            <p>Creative direction, campaign visuals, launch graphics, promotional layouts, and brand-consistent assets for seasonal pushes.</p>
+          </article>
+          <article class="card">
+            <div class="icon">02</div>
+            <h3>Social Media Graphics</h3>
+            <p>Post templates, profile graphics, story creative, reels covers, carousel layouts, and platform-ready graphics for ongoing marketing.</p>
+          </article>
+          <article class="card">
+            <div class="icon">03</div>
+            <h3>Digital Ad Creative</h3>
+            <p>Display ads, Google creative, social ad graphics, retargeting banners, and campaign variations built for testing and performance.</p>
+          </article>
+          <article class="card">
+            <div class="icon">04</div>
+            <h3>Print Collateral</h3>
+            <p>Flyers, brochures, menus, rack cards, postcards, sell sheets, mailers, and print-ready files your vendor can use cleanly.</p>
+          </article>
+          <article class="card">
+            <div class="icon">05</div>
+            <h3>Sales Materials</h3>
+            <p>Proposal graphics, pitch decks, product sheets, service guides, pricing sheets, and handouts that help your team sell clearly.</p>
+          </article>
+          <article class="card">
+            <div class="icon">06</div>
+            <h3>Signage and Displays</h3>
+            <p>Storefront graphics, banners, event signage, trade show graphics, decals, window graphics, and local promotional displays.</p>
+          </article>
+          <article class="card">
+            <div class="icon">07</div>
+            <h3>Website Graphics</h3>
+            <p>Hero visuals, page graphics, icon sets, landing page creative, section artwork, and assets that keep your site polished.</p>
+          </article>
+          <article class="card">
+            <div class="icon">08</div>
+            <h3>Email Creative</h3>
+            <p>Newsletter headers, promotion graphics, announcement banners, product visuals, and campaign images for email marketing.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container split">
+        <div class="feature-panel">
+          <p class="eyebrow">Why WebAct</p>
+          <h2>One design team connected to your website, ads, and marketing.</h2>
+          <p>Graphic design works best when it is connected to the rest of your online presence. WebAct can design the asset, place it on the site, build the ad campaign, prepare the email, and keep every piece aligned with your brand.</p>
+          <div class="link-list">
+            <a href="design-website-design.html">Website design that matches your graphics</a>
+            <a href="digital-ads.html">Digital ads with coordinated creative</a>
+            <a href="marketing.html">Marketing support for launch and follow-up</a>
+          </div>
+        </div>
+        <div class="visual-board" aria-label="Graphic design examples">
+          <div class="mock-row">
+            <div class="mock-piece tall">Campaign creative</div>
+            <div class="mock-piece">Social graphics</div>
+          </div>
+          <div class="mock-row">
+            <div class="mock-piece">Print collateral</div>
+            <div class="mock-piece tall">Ad creative</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Project-based and ongoing design support.</h2>
+          <p>Start with a single piece of creative or keep WebAct available for recurring design requests across your sales and marketing calendar.</p>
+        </div>
+        <div class="grid four plans">
+          <article class="card">
+            <h3>Starter Creative</h3>
+            <div class="price">$199<span>+</span></div>
+            <ul>
+              <li>One focused design request</li>
+              <li>Digital or print-ready file</li>
+              <li>Basic brand matching</li>
+            </ul>
+            <a class="button dark" href="#quote-form">Start</a>
+          </article>
+          <article class="card">
+            <h3>Business Collateral</h3>
+            <div class="price">$499<span>+</span></div>
+            <ul>
+              <li>Multi-page flyer, brochure, or sales piece</li>
+              <li>Print and web file preparation</li>
+              <li>Layout and revision support</li>
+            </ul>
+            <a class="button dark" href="#quote-form">Start</a>
+          </article>
+          <article class="card">
+            <h3>Campaign Creative</h3>
+            <div class="price">$899<span>+</span></div>
+            <ul>
+              <li>Coordinated creative set</li>
+              <li>Ad and social variations</li>
+              <li>Launch-ready asset package</li>
+            </ul>
+            <a class="button dark" href="#quote-form">Start</a>
+          </article>
+          <article class="card">
+            <h3>Monthly Design Support</h3>
+            <div class="price">Custom</div>
+            <ul>
+              <li>Recurring creative requests</li>
+              <li>Priority production queue</li>
+              <li>Consistent brand management</li>
+            </ul>
+            <a class="button dark" href="contact.html">Contact</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our graphic design process.</h2>
+          <p>Simple, organized, and built to keep projects moving without losing the creative details that matter.</p>
+        </div>
+        <div class="grid five process" style="grid-template-columns: repeat(5, minmax(0, 1fr));">
+          <article class="card">
+            <h3>Scope the Goal</h3>
+            <p>We define the audience, use case, format, deadline, and message before design begins.</p>
+          </article>
+          <article class="card">
+            <h3>Gather Assets</h3>
+            <p>We collect logos, brand colors, photos, copy, examples, and any print or platform specs.</p>
+          </article>
+          <article class="card">
+            <h3>Design Concepts</h3>
+            <p>We create clean design directions that fit your brand and business objective.</p>
+          </article>
+          <article class="card">
+            <h3>Refine and Prepare</h3>
+            <p>We revise, proof, and prepare final files for print, web, social, email, or ads.</p>
+          </article>
+          <article class="card">
+            <h3>Launch Support</h3>
+            <p>We help place the creative where it belongs and keep future requests consistent.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Frequently asked questions.</h2>
+          <p>Answers for businesses that need professional graphic design without adding another disconnected vendor.</p>
+        </div>
+        <div class="faq">
+          <details open>
+            <summary>What types of graphic design can WebAct create?</summary>
+            <p>WebAct can create digital ad graphics, social media creative, flyers, brochures, menus, sales sheets, signage, banners, email graphics, presentation visuals, website graphics, and campaign asset packages.</p>
+          </details>
+          <details>
+            <summary>Can WebAct match our current logo and website?</summary>
+            <p>Yes. We can use your current logo, colors, fonts, photos, and website style so new graphics feel like part of the same brand.</p>
+          </details>
+          <details>
+            <summary>Do you create graphics for digital advertising?</summary>
+            <p>Yes. We create ad creative for display, social, search support assets, retargeting, and campaigns that need multiple sizes or message variations.</p>
+          </details>
+          <details>
+            <summary>Can you prepare files for printing?</summary>
+            <p>Yes. We can prepare print-ready PDF files and coordinate standard bleed, trim, and resolution requirements when your printer provides specs.</p>
+          </details>
+          <details>
+            <summary>Can we request ongoing monthly design help?</summary>
+            <p>Yes. WebAct can support ongoing design needs for businesses that regularly need promotions, social content, email graphics, ad creative, and updated sales materials.</p>
+          </details>
+          <details>
+            <summary>Can you redesign old flyers or sales sheets?</summary>
+            <p>Yes. If your materials feel dated or inconsistent, we can rebuild them into a cleaner, more professional format while keeping the core message.</p>
+          </details>
+          <details>
+            <summary>Can you help if we do not have brand guidelines yet?</summary>
+            <p>Yes. We can create a practical design direction using your logo and business goals, then document simple rules for future consistency.</p>
+          </details>
+          <details>
+            <summary>How quickly can a design project start?</summary>
+            <p>Most projects can begin once we have the project details, copy, brand assets, and deadline. Rush timing depends on scope and asset readiness.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <p class="eyebrow">Ready to Design</p>
+            <h2>Tell us what you need designed.</h2>
+            <p>Send the project details and WebAct will help turn the idea into polished, usable creative for your website, advertising, print, email, or sales team.</p>
+          </div>
+          <form class="contact-form">
+            <div class="form-grid">
+              <label>Name
+                <input type="text" name="contact-name">
+              </label>
+              <label>Email
+                <input type="email" name="contact-email">
+              </label>
+              <label>What do you need designed?
+                <textarea name="contact-message"></textarea>
+              </label>
+              <button class="button" type="submit">Send Request</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="webact-footer"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const mobileToggle = document.querySelector('.mobile-toggle');
+    const mainNav = document.querySelector('.main-nav');
+    const navButtons = document.querySelectorAll('.nav-item > button');
+
+    mobileToggle.addEventListener('click', () => {
+      const isOpen = mainNav.classList.toggle('is-open');
+      mobileToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    navButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        if (window.matchMedia('(max-width: 1040px)').matches) {
+          button.parentElement.classList.toggle('is-open');
+        }
+      });
+    });
+
+    document.querySelectorAll('form').forEach((form) => {
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        window.location.href = 'contact.html';
+      });
+    });
+  </script>
+<script id="webact-promodo-header-script">
+(function(){
+  document.querySelectorAll('[data-webact-promodo-header]').forEach(function(header){
+    var toggle=header.querySelector('[data-webact-menu-toggle]');
+    if(toggle){toggle.addEventListener('click',function(){var open=header.classList.toggle('webact-nav-open');toggle.setAttribute('aria-expanded',open?'true':'false');});}
+    header.querySelectorAll('[data-webact-dropdown]').forEach(function(btn){
+      btn.addEventListener('click',function(e){
+        if(window.matchMedia('(max-width:1060px)').matches){
+          e.preventDefault();
+          var item=btn.closest('.webact-promodo-nav-item');
+          if(item){item.classList.toggle('webact-open');btn.setAttribute('aria-expanded',item.classList.contains('webact-open')?'true':'false');}
+        }
+      });
+    });
+    var search=header.querySelector('[data-webact-search-open]');
+    var close=header.querySelector('[data-webact-search-close]');
+    if(search){search.addEventListener('click',function(){document.body.classList.add('webact-search-open');var input=header.querySelector('.webact-search-row input');if(input){setTimeout(function(){input.focus();},50);}});}
+    if(close){close.addEventListener('click',function(){document.body.classList.remove('webact-search-open');});}
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.body.classList.remove('webact-search-open');}});
+})();
+</script>
+
+<script src="../js/webact-promodo-nav.js" defer></script>
+
+<script src="../js/script.js"></script>
+
+
+  <script src="/webact-redesign/assets/js/routes.js"></script>
+  <script src="/webact-redesign/assets/js/navigation.js"></script>
+  <script src="/webact-redesign/assets/js/includes.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
