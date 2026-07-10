@@ -1,0 +1,199 @@
+{
+  "version": 5,
+  "baseUrl": "https://www.webact.com",
+  "failOn": [
+    "critical",
+    "high"
+  ],
+  "aggregateThreshold": 4,
+  "sampleLimit": 8,
+  "excludeDirectories": [
+    ".git",
+    "node_modules",
+    "vendor",
+    "dist",
+    "build",
+    "coverage",
+    ".next",
+    ".cache",
+    "tools",
+    "pages",
+    "includes",
+    "assets/includes",
+    "assets/templates",
+    "tools/backups"
+  ],
+  "excludeFilePatterns": [
+    "before-",
+    ".before-",
+    "baseline",
+    "backup",
+    "homepage-baseline",
+    "report.html",
+    "index-before-"
+  ],
+  "routeAliases": {
+    "/blog/": "/about/blog/",
+    "/support/website-knowledge-base.html": "/about/website-knowledge-base.html",
+    "/support/widget-knowledge-base.html": "/about/widget-knowledge-base.html",
+    "/support/how-to-videos.html": "/about/how-to-videos.html",
+    "/about/reviews.html": "/about/reviews/",
+    "/home/": "/"
+  },
+  "siteAreas": [
+    {
+      "name": "website",
+      "patterns": [
+        "^index\\.html$",
+        "^about/(?!portfolio/|website-knowledge-base/|blog/).*",
+        "^contact/",
+        "^design/",
+        "^digital-ads/",
+        "^marketing/",
+        "^pricing/",
+        "^addons/(?!website-app-store/).*",
+        "^(privacy|terms)(?:/|\\.html)"
+      ],
+      "checks": {
+        "links": true,
+        "assets": true,
+        "seo": true,
+        "canonical": true,
+        "headings": true,
+        "layout": true,
+        "imageDimensions": true
+      }
+    },
+    {
+      "name": "industries",
+      "patterns": [
+        "^industries/"
+      ],
+      "checks": {
+        "links": true,
+        "assets": true,
+        "seo": true,
+        "canonical": true,
+        "headings": true,
+        "layout": true,
+        "imageDimensions": true
+      }
+    },
+    {
+      "name": "portfolio",
+      "patterns": [
+        "^about/portfolio/"
+      ],
+      "checks": {
+        "links": true,
+        "assets": true,
+        "seo": true,
+        "canonical": true,
+        "headings": true,
+        "layout": true,
+        "imageDimensions": false
+      }
+    },
+    {
+      "name": "knowledge-base",
+      "patterns": [
+        "^about/website-knowledge-base/"
+      ],
+      "checks": {
+        "links": true,
+        "assets": true,
+        "seo": false,
+        "canonical": true,
+        "headings": true,
+        "layout": true,
+        "imageDimensions": false
+      }
+    },
+    {
+      "name": "app-store",
+      "patterns": [
+        "^addons/website-app-store/"
+      ],
+      "checks": {
+        "links": true,
+        "assets": true,
+        "seo": false,
+        "canonical": true,
+        "headings": true,
+        "layout": true,
+        "imageDimensions": false
+      }
+    },
+    {
+      "name": "blog",
+      "patterns": [
+        "^about/blog(?:\\.html|/)"
+      ],
+      "checks": {
+        "links": true,
+        "assets": true,
+        "seo": true,
+        "canonical": true,
+        "headings": true,
+        "layout": true,
+        "imageDimensions": false
+      }
+    }
+  ],
+  "dynamicRoutePatterns": [
+    "case-study\\.html\\?project=",
+    "\\?project=",
+    "\\$\\{[^}]+\\}",
+    "\\+\\s*[A-Za-z_$][\\w$]*(?:\\[[^\\]]+\\])?\\s*\\+"
+  ],
+  "sharedSignals": {
+    "header": [
+      "<header",
+      "site-header",
+      "shared-header",
+      "header-placeholder",
+      "data-shared-header",
+      "header.js",
+      "navigation.js",
+      "nav-container",
+      "main-navigation",
+      "primary-navigation"
+    ],
+    "footer": [
+      "<footer",
+      "site-footer",
+      "shared-footer",
+      "footer-placeholder",
+      "data-shared-footer",
+      "footer.js",
+      "footer-container"
+    ]
+  },
+  "templateMarkers": {
+    "industries": [
+      "Parking & Mobility Website Design | WebAct",
+      "Parking &amp; Mobility Website Design | WebAct"
+    ],
+    "portfolio": [
+      "Parking & Mobility Case Study | WebAct",
+      "Parking &amp; Mobility Case Study | WebAct"
+    ]
+  },
+  "severity": {
+    "brokenInternalLink": "critical",
+    "missingAsset": "critical",
+    "missingCanonical": "medium",
+    "missingTitle": "high",
+    "missingDescription": "medium",
+    "missingH1": "high",
+    "multipleH1": "medium",
+    "missingHeader": "medium",
+    "missingFooter": "medium",
+    "duplicateTitle": "medium",
+    "duplicateDescription": "low",
+    "templateNotReplaced": "high",
+    "imageDimensions": "info",
+    "missingRobots": "medium",
+    "missingSitemap": "high"
+  }
+}
