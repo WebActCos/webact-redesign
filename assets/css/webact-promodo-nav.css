@@ -639,3 +639,13 @@
     grid-template-columns:1fr!important;
   }
 }
+
+/* WEBACT INDUSTRIES SUBMENU COLOR START */
+.wa-industries-grouped-grid a {
+    color: #071421 !important;
+}
+
+.wa-industries-grouped-grid a:hover {
+    color: #0c9bd2 !important;
+}
+/* WEBACT INDUSTRIES SUBMENU COLOR END */
