@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Publish Your Website | WebAct</title>
+
+  <meta
+    name="description"
+    content="Publish and manage your WebAct website with a Business website plan for $100 per month or an eCommerce website plan for $200 per month."
+  >
+
+  <link
+    rel="stylesheet"
+    href="/webact-redesign/styles.css?v=publish-1"
+  >
+
+  <link
+    rel="stylesheet"
+    href="/webact-redesign/assets/css/webact-promodo-nav.css?v=publish-1"
+  >
+
+  <link
+    rel="stylesheet"
+    href="/webact-redesign/assets/css/webact-footer.css?v=publish-1"
+  >
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      background: #ffffff;
+      color: #071421;
+      font-family: Inter, Arial, sans-serif;
+    }
+
+    .publish-page * {
+      box-sizing: border-box;
+    }
+
+    .publish-hero {
+      position: relative;
+      min-height: 610px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(340px, .75fr);
+      align-items: center;
+      gap: clamp(40px, 6vw, 88px);
+      padding: clamp(76px, 9vw, 130px) min(7vw, 104px);
+      overflow: hidden;
+      color: #ffffff;
+      background:
+        radial-gradient(
+          circle at 13% 18%,
+          rgba(51, 171, 225, .30),
+          transparent 31%
+        ),
+        radial-gradient(
+          circle at 88% 75%,
+          rgba(51, 171, 225, .16),
+          transparent 31%
+        ),
+        linear-gradient(
+          135deg,
+          #061421 0%,
+          #0d2942 54%,
+          #071421 100%
+        );
+    }
+
+    .publish-hero::after {
+      content: "";
+      position: absolute;
+      right: -180px;
+      bottom: -280px;
+      width: 640px;
+      height: 640px;
+      border: 1px solid rgba(255, 255, 255, .08);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 85px rgba(255, 255, 255, .025),
+        0 0 0 170px rgba(255, 255, 255, .018);
+      pointer-events: none;
+    }
+
+    .publish-hero > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .publish-eyebrow {
+      margin: 0 0 18px;
+      color: #73d7ff;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .publish-hero h1 {
+      max-width: 900px;
+      margin: 0 0 24px;
+      color: #ffffff;
+      font-size: clamp(52px, 7vw, 94px);
+      line-height: .94;
+      letter-spacing: -.06em;
+    }
+
+    .publish-hero-copy {
+      max-width: 830px;
+    }
+
+    .publish-hero-copy > p:not(.publish-eyebrow) {
+      max-width: 760px;
+      margin: 0;
+      color: #d6eaf4;
+      font-size: clamp(19px, 2vw, 24px);
+      line-height: 1.62;
+    }
+
+    .publish-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .publish-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 58px;
+      padding: 15px 26px;
+      border-radius: 14px;
+      font-weight: 900;
+      text-align: center;
+      text-decoration: none;
+      transition:
+        transform .18s ease,
+        box-shadow .18s ease,
+        background .18s ease;
+    }
+
+    .publish-button:hover {
+      transform: translateY(-2px);
+    }
+
+    .publish-button-primary {
+      border: 2px solid #33abe1;
+      background: #33abe1;
+      color: #061421;
+      box-shadow: 0 15px 32px rgba(51, 171, 225, .25);
+    }
+
+    .publish-button-primary:hover {
+      background: #25a0d7;
+      color: #061421;
+      box-shadow: 0 19px 40px rgba(51, 171, 225, .34);
+    }
+
+    .publish-button-secondary {
+      border: 2px solid rgba(255, 255, 255, .78);
+      background: rgba(255, 255, 255, .10);
+      color: #ffffff;
+    }
+
+    .publish-button-secondary:hover {
+      background: #ffffff;
+      color: #071421;
+    }
+
+    .publish-summary-card {
+      padding: clamp(28px, 4vw, 42px);
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: 32px;
+      background:
+        linear-gradient(
+          145deg,
+          rgba(255, 255, 255, .16),
+          rgba(255, 255, 255, .06)
+        );
+      box-shadow: 0 38px 90px rgba(0, 0, 0, .32);
+      backdrop-filter: blur(14px);
+    }
+
+    .publish-summary-card h2 {
+      margin: 0 0 24px;
+      color: #ffffff;
+      font-size: 30px;
+      letter-spacing: -.03em;
+    }
+
+    .publish-summary-list {
+      display: grid;
+      gap: 14px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .publish-summary-list li {
+      position: relative;
+      padding: 16px 18px 16px 50px;
+      border: 1px solid rgba(255, 255, 255, .13);
+      border-radius: 17px;
+      background: rgba(255, 255, 255, .08);
+      color: #e1f1f8;
+      font-weight: 750;
+      line-height: 1.45;
+    }
+
+    .publish-summary-list li::before {
+      content: "✓";
+      position: absolute;
+      top: 14px;
+      left: 18px;
+      color: #73d7ff;
+      font-size: 21px;
+      font-weight: 950;
+    }
+
+    .publish-section {
+      padding: clamp(72px, 8vw, 116px) min(7vw, 104px);
+    }
+
+    .publish-section-soft {
+      background: #f4f8fb;
+    }
+
+    .publish-heading {
+      max-width: 900px;
+      margin: 0 auto 52px;
+      text-align: center;
+    }
+
+    .publish-heading .publish-eyebrow {
+      color: #0c9bd2;
+    }
+
+    .publish-heading h2 {
+      margin: 0 0 18px;
+      color: #071421;
+      font-size: clamp(39px, 5vw, 68px);
+      line-height: 1;
+      letter-spacing: -.05em;
+    }
+
+    .publish-heading > p:not(.publish-eyebrow) {
+      margin: 0;
+      color: #536674;
+      font-size: 18px;
+      line-height: 1.72;
+    }
+
+    .publish-plan-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: stretch;
+      gap: 28px;
+      max-width: 1220px;
+      margin: 0 auto;
+    }
+
+    .publish-plan {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      padding: clamp(30px, 4vw, 44px);
+      overflow: hidden;
+      border: 1px solid #d7e6ef;
+      border-radius: 32px;
+      background: #ffffff;
+      box-shadow: 0 26px 70px rgba(7, 20, 33, .10);
+    }
+
+    .publish-plan::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 7px;
+      background: linear-gradient(90deg, #33abe1, #77dcff);
+    }
+
+    .publish-plan-featured {
+      border-color: #8bdcff;
+      box-shadow: 0 30px 78px rgba(12, 155, 210, .16);
+    }
+
+    .publish-plan-label {
+      width: max-content;
+      margin: 0 0 22px;
+      padding: 8px 13px;
+      border-radius: 999px;
+      background: #e7f7fd;
+      color: #087da9;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .publish-plan h3 {
+      margin: 0 0 12px;
+      color: #071421;
+      font-size: clamp(34px, 4vw, 50px);
+      line-height: 1;
+      letter-spacing: -.045em;
+    }
+
+    .publish-price {
+      display: flex;
+      align-items: flex-end;
+      gap: 8px;
+      margin: 16px 0 24px;
+    }
+
+    .publish-price strong {
+      color: #071421;
+      font-size: clamp(58px, 7vw, 84px);
+      line-height: .9;
+      letter-spacing: -.065em;
+    }
+
+    .publish-price span {
+      padding-bottom: 8px;
+      color: #657985;
+      font-size: 17px;
+      font-weight: 800;
+    }
+
+    .publish-plan-description {
+      margin: 0 0 26px;
+      color: #536674;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .publish-feature-list {
+      display: grid;
+      gap: 0;
+      margin: 0 0 34px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .publish-feature-list li {
+      position: relative;
+      padding: 13px 0 13px 32px;
+      border-bottom: 1px solid #edf2f5;
+      color: #425765;
+      line-height: 1.5;
+    }
+
+    .publish-feature-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 3px;
+      color: #0c9bd2;
+      font-weight: 950;
+    }
+
+    .publish-plan .publish-button {
+      width: 100%;
+      margin-top: auto;
+    }
+
+    .publish-checkout-note {
+      margin: 14px 0 0;
+      color: #71838e;
+      font-size: 13px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    .publish-process-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+      max-width: 1220px;
+      margin: 0 auto;
+      counter-reset: publish-step;
+    }
+
+    .publish-process-card {
+      padding: 32px;
+      border: 1px solid #dce8f0;
+      border-radius: 27px;
+      background: #ffffff;
+      box-shadow: 0 18px 44px rgba(7, 20, 33, .07);
+    }
+
+    .publish-process-card::before {
+      counter-increment: publish-step;
+      content: counter(publish-step);
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      margin-bottom: 24px;
+      border-radius: 15px;
+      background: #071421;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .publish-process-card h3 {
+      margin: 0 0 12px;
+      color: #071421;
+      font-size: 24px;
+    }
+
+    .publish-process-card p {
+      margin: 0;
+      color: #536674;
+      line-height: 1.7;
+    }
+
+    .publish-faq {
+      max-width: 1050px;
+      margin: 0 auto;
+      display: grid;
+      gap: 16px;
+    }
+
+    .publish-faq details {
+      padding: 22px 24px;
+      border: 1px solid #dce8f0;
+      border-radius: 18px;
+      background: #ffffff;
+      box-shadow: 0 12px 32px rgba(7, 20, 33, .05);
+    }
+
+    .publish-faq summary {
+      cursor: pointer;
+      color: #071421;
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .publish-faq p {
+      margin: 16px 0 0;
+      color: #536674;
+      line-height: 1.7;
+    }
+
+    .publish-final-cta {
+      padding: clamp(76px, 8vw, 112px) min(7vw, 104px);
+      color: #ffffff;
+      text-align: center;
+      background:
+        radial-gradient(
+          circle at 12% 18%,
+          rgba(51, 171, 225, .23),
+          transparent 30%
+        ),
+        linear-gradient(
+          135deg,
+          #0b2943,
+          #061421
+        );
+    }
+
+    .publish-final-cta h2 {
+      max-width: 900px;
+      margin: 0 auto 18px;
+      color: #ffffff;
+      font-size: clamp(40px, 5vw, 68px);
+      line-height: 1;
+      letter-spacing: -.05em;
+    }
+
+    .publish-final-cta p {
+      max-width: 760px;
+      margin: 0 auto;
+      color: #d3e8f2;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .publish-final-cta .publish-hero-actions {
+      justify-content: center;
+    }
+
+    @media (max-width: 980px) {
+      .publish-hero {
+        grid-template-columns: 1fr;
+      }
+
+      .publish-summary-card {
+        max-width: 720px;
+      }
+
+      .publish-plan-grid,
+      .publish-process-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .publish-hero,
+      .publish-section,
+      .publish-final-cta {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .publish-hero {
+        min-height: auto;
+        padding-top: 66px;
+        padding-bottom: 66px;
+      }
+
+      .publish-hero h1 {
+        font-size: clamp(48px, 14vw, 72px);
+      }
+
+      .publish-hero-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .publish-button {
+        width: 100%;
+      }
+
+      .publish-plan {
+        padding: 30px 23px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="webact-header"></div>
+
+  <main class="publish-page">
+    <section class="publish-hero">
+      <div class="publish-hero-copy">
+        <p class="publish-eyebrow">WebAct Website Publishing</p>
+
+        <h1>Publish your website and bring your business online.</h1>
+
+        <p>
+          Choose the publishing plan that matches your website. WebAct
+          provides a professional monthly website publishing option for
+          business websites and online stores.
+        </p>
+
+        <div class="publish-hero-actions">
+          <a
+            class="publish-button publish-button-primary"
+            href="#publish-plans"
+          >
+            View Publishing Plans
+          </a>
+
+          <a
+            class="publish-button publish-button-secondary"
+            href="/webact-redesign/contact/index.html"
+          >
+            Contact WebAct
+          </a>
+        </div>
+      </div>
+
+      <aside class="publish-summary-card">
+        <h2>Your publishing plan includes</h2>
+
+        <ul class="publish-summary-list">
+          <li>Professional website publishing and hosting</li>
+          <li>Secure SSL connection for your website</li>
+          <li>Responsive website delivery across devices</li>
+          <li>Reliable website infrastructure and support</li>
+          <li>Simple monthly recurring billing through Stripe</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section
+      class="publish-section publish-section-soft"
+      id="publish-plans"
+    >
+      <div class="publish-heading">
+        <p class="publish-eyebrow">Website Publishing Plans</p>
+
+        <h2>Choose the right plan for your website.</h2>
+
+        <p>
+          Select Business Publishing for a standard business website or
+          eCommerce Publishing when your website includes an online store,
+          products, and customer checkout.
+        </p>
+      </div>
+
+      <div class="publish-plan-grid">
+        <article class="publish-plan">
+          <p class="publish-plan-label">Business Website</p>
+
+          <h3>Business Publishing</h3>
+
+          <div class="publish-price">
+            <strong>$100</strong>
+            <span>per month</span>
+          </div>
+
+          <p class="publish-plan-description">
+            Professional monthly publishing for service businesses,
+            organizations, local companies, and standard informational
+            websites.
+          </p>
+
+          <ul class="publish-feature-list">
+            <li>Business website publishing</li>
+            <li>Secure website hosting</li>
+            <li>SSL website security</li>
+            <li>Responsive mobile delivery</li>
+            <li>Domain connection support</li>
+            <li>Website infrastructure management</li>
+            <li>Monthly recurring subscription</li>
+          </ul>
+
+          <a
+            class="publish-button publish-button-primary"
+            href="https://buy.stripe.com/8x28wOgyi0Kd8Yc4PAdwc2X"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Publish Business Website
+          </a>
+
+          <p class="publish-checkout-note">
+            Secure $100 monthly subscription checkout powered by Stripe.
+          </p>
+        </article>
+
+        <article class="publish-plan publish-plan-featured">
+          <p class="publish-plan-label">Online Store</p>
+
+          <h3>eCommerce Publishing</h3>
+
+          <div class="publish-price">
+            <strong>$200</strong>
+            <span>per month</span>
+          </div>
+
+          <p class="publish-plan-description">
+            Monthly publishing for eCommerce websites that include
+            products, shopping features, online transactions, and customer
+            checkout.
+          </p>
+
+          <ul class="publish-feature-list">
+            <li>eCommerce website publishing</li>
+            <li>Online store infrastructure</li>
+            <li>Secure website hosting</li>
+            <li>SSL website security</li>
+            <li>Product and store functionality</li>
+            <li>Responsive mobile shopping experience</li>
+            <li>Monthly recurring subscription</li>
+          </ul>
+
+          <a
+            class="publish-button publish-button-primary"
+            href="https://buy.stripe.com/aFabJ04PAboRcao1Dodwc2Y"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Publish eCommerce Website
+          </a>
+
+          <p class="publish-checkout-note">
+            Secure $200 monthly subscription checkout powered by Stripe.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="publish-section">
+      <div class="publish-heading">
+        <p class="publish-eyebrow">How Publishing Works</p>
+
+        <h2>A simple path to getting your website live.</h2>
+
+        <p>
+          Choose your plan, complete the secure monthly subscription, and
+          work with WebAct to connect and publish your website.
+        </p>
+      </div>
+
+      <div class="publish-process-grid">
+        <article class="publish-process-card">
+          <h3>Select your plan</h3>
+
+          <p>
+            Choose Business Publishing for a standard website or eCommerce
+            Publishing for an online store.
+          </p>
+        </article>
+
+        <article class="publish-process-card">
+          <h3>Complete checkout</h3>
+
+          <p>
+            Use the secure Stripe checkout page to begin your recurring
+            monthly publishing subscription.
+          </p>
+        </article>
+
+        <article class="publish-process-card">
+          <h3>Publish your website</h3>
+
+          <p>
+            WebAct helps prepare the website, connect the domain, and make
+            the finished website available to visitors.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="publish-section publish-section-soft">
+      <div class="publish-heading">
+        <p class="publish-eyebrow">Publishing Questions</p>
+
+        <h2>Frequently asked questions.</h2>
+      </div>
+
+      <div class="publish-faq">
+        <details>
+          <summary>Is this a monthly subscription?</summary>
+
+          <p>
+            Yes. Business Publishing is $100 per month and eCommerce
+            Publishing is $200 per month. Checkout and recurring billing
+            are securely processed through Stripe.
+          </p>
+        </details>
+
+        <details>
+          <summary>Which plan should I choose?</summary>
+
+          <p>
+            Choose Business Publishing for a standard informational or
+            service website. Choose eCommerce Publishing when the website
+            includes products, shopping, or online checkout.
+          </p>
+        </details>
+
+        <details>
+          <summary>Does the plan include a domain name?</summary>
+
+          <p>
+            Domain registration may be separate. WebAct can help connect
+            an existing domain or assist with domain registration and
+            configuration.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can WebAct help me publish the website?</summary>
+
+          <p>
+            Yes. WebAct can help review the website, connect the domain,
+            configure publishing requirements, and prepare the site to go
+            live.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section class="publish-final-cta">
+      <h2>Ready to publish your website?</h2>
+
+      <p>
+        Select the website publishing plan that fits your business and
+        complete your secure monthly subscription.
+      </p>
+
+      <div class="publish-hero-actions">
+        <a
+          class="publish-button publish-button-primary"
+          href="#publish-plans"
+        >
+          Choose Your Plan
+        </a>
+
+        <a
+          class="publish-button publish-button-secondary"
+          href="/webact-redesign/contact/index.html"
+        >
+          Ask WebAct a Question
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <div id="webact-footer"></div>
+
+  <script src="/webact-redesign/assets/js/routes.js"></script>
+  <script src="/webact-redesign/assets/js/navigation.js"></script>
+  <script src="/webact-redesign/assets/js/includes.js"></script>
+</body>
+</html>
