@@ -4,11 +4,18 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>WebAct Portfolio Explorer | Website Design Case Studies by Industry</title>
 <meta name="description" content="Explore WebAct website design portfolio projects by company, industry, services, features, and technology.">
-<link rel="canonical" href="https://www.webact.com/about/portfolio/">
+<link rel="canonical" href="https://co.webact.com/about/portfolio/a-dog-s-day-out/">
 <link rel="stylesheet" href="/styles.css?v=reviews-layout-fix">
-<link rel="stylesheet" href="./portfolio-premium.css?v=explorer-v2">
+<link rel="stylesheet" href="/about/portfolio/portfolio-premium.css?v=explorer-v2">
 <link rel="stylesheet" href="../../../assets/css/webact-promodo-nav.css">
 <link rel="stylesheet" href="../../../assets/css/webact-footer.css">
+  <meta property="og:title" content="WebAct Portfolio Explorer | Website Design Case Studies by Industry">
+  <meta property="og:description" content="Explore WebAct website design portfolio projects by company, industry, services, features, and technology.">
+  <meta property="og:url" content="https://co.webact.com/about/portfolio/a-dog-s-day-out/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WebAct Portfolio Explorer | Website Design Case Studies by Industry">
+  <meta name="twitter:description" content="Explore WebAct website design portfolio projects by company, industry, services, features, and technology.">
 </head>
 <body>
 <div id="webact-header"></div>
@@ -21,7 +28,7 @@
       <p>Explore WebAct website design projects by industry, service, feature, and technology. Every card opens into a premium case study powered by local screenshots and master portfolio data.</p>
       <div class="hero-actions">
         <a class="explorer-btn" href="#portfolio-grid">Explore Projects</a>
-        <a class="explorer-btn explorer-btn-secondary" href="./industry/">Browse Industries</a>
+        <a class="explorer-btn explorer-btn-secondary" href="/about/portfolio/industry/">Browse Industries</a>
       </div>
     </div>
     <div class="hero-panel explorer-panel">
@@ -53,10 +60,10 @@
       <input class="search" id="portfolio-search" type="search" placeholder="Search company, industry, service, lawyer, dentist, restaurant..." aria-label="Search portfolio projects">
     </div>
     <div class="advanced-filters">
-      <select id="industry-select"><option value="">All Industries</option></select>
-      <select id="service-select"><option value="">All Services</option></select>
-      <select id="feature-select"><option value="">All Features</option></select>
-      <select id="technology-select"><option value="">All Technologies</option></select>
+      <select id="industry-select" aria-label="Filter portfolio by industry"><option value="">All Industries</option></select>
+      <select id="service-select" aria-label="Filter portfolio by service"><option value="">All Services</option></select>
+      <select id="feature-select" aria-label="Filter portfolio by feature"><option value="">All Features</option></select>
+      <select id="technology-select" aria-label="Filter portfolio by technology"><option value="">All Technologies</option></select>
       <button id="clear-filters" type="button">Clear Filters</button>
     </div>
     <div class="filters" id="portfolio-filters"></div>
@@ -69,9 +76,9 @@
 <div id="webact-footer"></div>
 
 <script src="/script.js?v=reviews-layout-fix"></script>
-<script src="./portfolio-data.js?v=old-fallback"></script>
-<script src="./portfolio-data-all.js?v=full-231-rows-explorer-v2"></script>
-<script src="./portfolio-master-data.js?v=master-data-explorer-v2"></script>
+<script src="/about/portfolio/portfolio-data.js?v=old-fallback"></script>
+<script src="/about/portfolio/portfolio-data-all.js?v=full-231-rows-explorer-v2"></script>
+<script src="/about/portfolio/portfolio-master-data.js?v=master-data-explorer-v2"></script>
 
 <script>
 (function(){
@@ -97,12 +104,12 @@ function populate(select,items){select.innerHTML+=items.map(item=>'<option value
 populate(industrySelect,industries);populate(serviceSelect,services);populate(featureSelect,features);populate(technologySelect,technologies);
 
 const featuredProjects=[...projects.filter(p=>['Restaurant','Legal','Dental','Home Services','Healthcare','Pet Services'].includes(p.industry)).slice(0,3),...projects.slice(0,3)].slice(0,3);
-featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Featured Work</p><h2>Selected WebAct Case Studies</h2></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
+featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Featured Work</p><h2>Selected WebAct Case Studies</h2></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="WebAct Portfolio Explorer | Website Design Case Studies by Industry"+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
 filters.innerHTML=['all',...industries].map((i,n)=>'<button class="filter-button '+(n?'':'is-active')+'" data-filter="'+esc(i)+'" type="button">'+(i==='all'?'All':esc(i))+'</button>').join('');
 
 function renderChips(type){const map={industry:industries,service:services,feature:features,technology:technologies};chipPanel.innerHTML=(map[type]||[]).slice(0,40).map(item=>'<button class="explorer-chip" data-value="'+esc(item)+'" type="button">'+esc(item)+'</button>').join('')}
 function searchableText(p){return [p.name,p.industry,(p.services||[]).join(' '),(p.features||[]).join(' '),(p.technologies||[]).join(' '),p.desc].join(' ').toLowerCase()}
-function cardHtml(p,index){const tags=(p.services||[]).slice(0,3).map(t=>'<em>'+esc(t)+'</em>').join('');const img=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';return '<article class="portfolio-card reveal-card" style="--delay:'+(index%12)*45+'ms" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'" data-services="'+esc((p.services||[]).join('|'))+'" data-features="'+esc((p.features||[]).join('|'))+'" data-technologies="'+esc((p.technologies||[]).join('|'))+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="service-tags">'+tags+'</div><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>'}
+function cardHtml(p,index){const tags=(p.services||[]).slice(0,3).map(t=>'<em>'+esc(t)+'</em>').join('');const img=p.img?'<img src="'+esc(p.img)+'" alt="WebAct Portfolio Explorer | Website Design Case Studies by Industry"+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';return '<article class="portfolio-card reveal-card" style="--delay:'+(index%12)*45+'ms" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'" data-services="'+esc((p.services||[]).join('|'))+'" data-features="'+esc((p.features||[]).join('|'))+'" data-technologies="'+esc((p.technologies||[]).join('|'))+'"><a href="./case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="service-tags">'+tags+'</div><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>'}
 grid.innerHTML=projects.map(cardHtml).join('');
 
 function has(pipe,value){return !value||String(pipe||'').split('|').includes(value)}

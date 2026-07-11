@@ -62,6 +62,14 @@
   .case-overview-grid,.strategy-grid,.seo-grid,.marketing-grid,.results-grid{grid-template-columns:1fr}
 }
 </style>
+  <link rel="canonical" href="https://co.webact.com/about/portfolio/case-study">
+  <meta property="og:title" content="Portfolio Case Study | WebAct">
+  <meta property="og:description" content="View a WebAct website design, SEO, marketing, and advertising case study.">
+  <meta property="og:url" content="https://co.webact.com/about/portfolio/case-study">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio Case Study | WebAct">
+  <meta name="twitter:description" content="View a WebAct website design, SEO, marketing, and advertising case study.">
 </head>
 <body>
 <div id="webact-header"></div>
@@ -210,7 +218,7 @@
   document.getElementById("related-intro").textContent = "Browse additional WebAct portfolio examples related to " + c.industry.toLowerCase() + " websites and similar business categories.";
   const relatedGrid = document.getElementById("related-grid");
   relatedGrid.innerHTML = c.related.map(function(r){
-    return '<a class="related-card" href="/about/portfolio/case-study.html?project='+engine.slugify(r[0])+'"><img src="'+r[2]+'" alt="'+r[0]+' website design"><span>'+r[1]+'</span><h3>'+r[0]+'</h3></a>';
+    return '<a class="related-card" href="/about/portfolio/case-study.html?project='+engine.slugify(r[0])+'"><img src="'+r[2]+'" alt="Portfolio Case Study"+r[0]+' website design"><span>'+r[1]+'</span><h3>'+r[0]+'</h3></a>';
   }).join("") || '<p style="grid-column:1/-1;color:#4b5b66;font-size:18px;text-align:center">More related projects will be added soon.</p>';
 
   document.getElementById("cta-title").textContent = "Need a " + c.industry.toLowerCase() + " website like " + c.name + "?";
