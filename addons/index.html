@@ -267,6 +267,25 @@ border-radius:24px;
   }
 }
 </style>
+
+<style id="webact-addons-form-heading-removal">
+.addon-help-card {
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+.addon-help-card .webact-shared-jotform {
+    margin: 0 !important;
+    border-radius: 28px !important;
+}
+
+.addon-help-card .webact-shared-jotform iframe {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+</style>
 </head>
 <body class="addons-page">
 <div id="webact-header"></div>
@@ -284,10 +303,7 @@ border-radius:24px;
   </div>
 
   <aside class="addon-help-card">
-  <h2>Need Help First?</h2>
-  <p>Tell us what you want to build and WebAct can point you toward the best website add-on option.</p>
-
-  <div class="webact-shared-jotform">
+<div class="webact-shared-jotform">
   <iframe
     id="JotFormIFrame-261900782842056"
     title="Start a Project"
