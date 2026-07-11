@@ -146,10 +146,7 @@ body{margin:0}
   </div>
 
   <aside class="hero-form-card webact-jotform-card">
-  <div class="webact-jotform-heading">
-    <h2>Start a Project</h2>
-    <p>Tell us what you want to improve and we will help point you in the right direction.</p>
-  </div>
+  
 
   <iframe
     id="JotFormIFrame-261900782842056"
@@ -176,7 +173,7 @@ body{margin:0}
       <div class="calc-row"><label>Redesign Pages <output id="redesignPagesOut">0</output></label><input id="redesignPages" type="range" min="0" max="50" value="0"></div>
       <div class="calc-row"><label>Blog Posts Migrated <output id="blogPostsOut">0</output></label><input id="blogPosts" type="range" min="0" max="200" value="0"></div>
       <div class="calc-row"><label>Ecommerce Products <output id="productsOut">0</output></label><input id="products" type="range" min="0" max="500" value="0"></div>
-      <div class="calc-row"><label>Graphic Designs <output id="graphicsOut">0</output></label><input id="graphics" type="range" min="0" max="20" value="0"></div>
+      
     </div>
 
     <aside class="calc-summary">
@@ -248,8 +245,8 @@ body{margin:0}
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 <script>
 (function(){
-  const rates = {newPages:350, redesignPages:200, blogPosts:20, products:25, graphics:500};
-  const labels = {newPages:'New pages', redesignPages:'Redesign pages', blogPosts:'Blog posts', products:'Products', graphics:'Graphic designs'};
+  const rates = {newPages:350, redesignPages:200, blogPosts:20, products:25};
+  const labels = {newPages:'New pages', redesignPages:'Redesign pages', blogPosts:'Blog posts', products:'Products'};
   const ids = Object.keys(rates);
   const totalEl = document.getElementById('total');
   const breakdown = document.getElementById('breakdown');
