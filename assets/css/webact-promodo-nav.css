@@ -649,3 +649,81 @@
     color: #0c9bd2 !important;
 }
 /* WEBACT INDUSTRIES SUBMENU COLOR END */
+
+/* WEBACT MOBILE MENU FIX START */
+@media (max-width:1060px) {
+
+    /*
+       navigation.js adds wa-menu-open to the header.
+       This selector makes that JavaScript state display the menu.
+    */
+    .wa-promodo-header.wa-menu-open .wa-promodo-menu {
+        display: block !important;
+    }
+
+    .wa-promodo-header.wa-menu-open {
+        overflow: visible !important;
+    }
+
+    .wa-promodo-header.wa-menu-open .wa-promodo-nav {
+        align-items: center !important;
+    }
+
+    .wa-promodo-header.wa-menu-open .wa-promodo-menu {
+        position: relative !important;
+        z-index: 10001 !important;
+        flex-basis: 100% !important;
+        width: 100% !important;
+        max-height: calc(100vh - 88px) !important;
+        margin: 10px 0 0 !important;
+        padding: 12px 0 24px !important;
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+        background: #ffffff !important;
+        border-top: 1px solid #e5edf5 !important;
+    }
+
+    .wa-promodo-header.wa-menu-open .wa-promodo-item {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .wa-promodo-header.wa-menu-open .wa-promodo-link,
+    .wa-promodo-header.wa-menu-open .wa-promodo-direct {
+        display: flex !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Change the hamburger into an X while open. */
+    .wa-promodo-header.wa-menu-open .wa-promodo-toggle span {
+        background: transparent !important;
+    }
+
+    .wa-promodo-header.wa-menu-open .wa-promodo-toggle span::before {
+        top: 0 !important;
+        transform: rotate(45deg) !important;
+    }
+
+    .wa-promodo-header.wa-menu-open .wa-promodo-toggle span::after {
+        top: 0 !important;
+        transform: rotate(-45deg) !important;
+    }
+
+    .wa-promodo-toggle span,
+    .wa-promodo-toggle span::before,
+    .wa-promodo-toggle span::after {
+        transition:
+            transform .2s ease,
+            top .2s ease,
+            background .2s ease !important;
+    }
+}
+
+/* Keep the mobile menu hidden when the hamburger is closed. */
+@media (max-width:1060px) {
+    .wa-promodo-header:not(.wa-menu-open) .wa-promodo-menu {
+        display: none !important;
+    }
+}
+/* WEBACT MOBILE MENU FIX END */
