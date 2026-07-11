@@ -118,125 +118,9 @@ body{margin:0}
   align-self:flex-start!important;
 }
 </style>
-<style id="industry-image-search-fix">
-.industry-search-panel{
-  max-width:1400px;
-  margin:0 auto 36px;
-  background:#fff;
-  border:1px solid #dcecf5;
-  border-radius:28px;
-  padding:28px;
-  box-shadow:0 16px 42px rgba(7,20,33,.06);
-}
 
-.industry-search-panel label{
-  display:block;
-  font-size:22px;
-  font-weight:900;
-  margin-bottom:14px;
-  color:#071421;
-}
 
-.industry-search-panel input{
-  width:100%;
-  box-sizing:border-box;
-  border:1px solid #cddce7;
-  border-radius:14px;
-  padding:16px 18px;
-  font:inherit;
-  background:#fff;
-  color:#071421;
-}
 
-.industries-page .industry-image{
-  height:260px!important;
-  min-height:260px!important;
-  max-height:260px!important;
-  overflow:hidden!important;
-  background:#eef7fc!important;
-}
-
-.industries-page .industry-image img{
-  width:100%!important;
-  height:100%!important;
-  object-fit:cover!important;
-  object-position:center!important;
-  display:block!important;
-}
-
-.industries-page .industry-card{
-  overflow:hidden!important;
-}
-
-.industries-page .industry-card-body{
-  display:flex!important;
-  flex-direction:column!important;
-  flex:1!important;
-}
-
-.industries-page .industry-card strong{
-  margin-top:auto!important;
-  align-self:flex-start!important;
-}
-
-@media(max-width:700px){
-  .industries-page .industry-image{
-    height:220px!important;
-    min-height:220px!important;
-    max-height:220px!important;
-  }
-}
-</style>
-<style id="industry-card-image-size-final">
-.industries-page .industry-image{
-  height:260px!important;
-  min-height:260px!important;
-  max-height:260px!important;
-  overflow:hidden!important;
-  background:#eef7fc!important;
-}
-.industries-page .industry-image img{
-  width:100%!important;
-  height:100%!important;
-  object-fit:cover!important;
-  object-position:center!important;
-  display:block!important;
-}
-</style>
-<style id="industry-card-image-uniform-final">
-.industries-page .industry-card{
-  overflow:hidden!important;
-}
-
-.industries-page .industry-image{
-  height:260px!important;
-  min-height:260px!important;
-  max-height:260px!important;
-  width:100%!important;
-  display:block!important;
-  overflow:hidden!important;
-  background:#eef7fc!important;
-  position:relative!important;
-}
-
-.industries-page .industry-image img{
-  width:100%!important;
-  height:100%!important;
-  max-width:none!important;
-  max-height:none!important;
-  object-fit:cover!important;
-  object-position:center!important;
-  display:block!important;
-}
-
-@media(max-width:700px){
-  .industries-page .industry-image{
-    height:220px!important;
-    min-height:220px!important;
-    max-height:220px!important;
-  }
-}
-</style>
 <style id="webact-jotform-embed-styles">
 .webact-jotform-card{
   width:100%;
@@ -365,6 +249,86 @@ body{margin:0}
   }
 }
 </style>
+
+<style id="webact-industries-uniform-images">
+/* Keep the connected form while removing space previously used by its heading. */
+.industries-page .webact-jotform-card {
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+.industries-page .webact-jotform-card iframe {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+/* Give every industry card the same fixed image area. */
+.industries-page .industry-card {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    overflow: hidden !important;
+}
+
+.industries-page .industry-image {
+    width: 100% !important;
+    height: 340px !important;
+    min-height: 340px !important;
+    max-height: 340px !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    padding: 24px !important;
+    background: #eef7fd !important;
+    border-radius: 26px 26px 0 0 !important;
+}
+
+/* Preserve complete device mockups without cropping. */
+.industries-page .industry-image img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain !important;
+    object-position: center !important;
+}
+
+.industries-page .industry-card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 1 !important;
+}
+
+.industries-page .industry-card-body strong,
+.industries-page .industry-card-body a,
+.industries-page .industry-card-body .case-study-link,
+.industries-page .industry-card-body .industry-link {
+    margin-top: auto !important;
+    align-self: flex-start !important;
+}
+
+@media (max-width: 900px) {
+    .industries-page .industry-image {
+        height: 300px !important;
+        min-height: 300px !important;
+        max-height: 300px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .industries-page .industry-image {
+        height: 250px !important;
+        min-height: 250px !important;
+        max-height: 250px !important;
+        padding: 16px !important;
+    }
+}
+</style>
 </head>
 
 <body class="industries-page">
@@ -383,10 +347,7 @@ body{margin:0}
   </div>
 
   <aside class="hero-form-card webact-jotform-card">
-  <div class="webact-jotform-heading">
-    <h2>Start a Project</h2>
-    <p>Tell us what you want to improve and we will help point you in the right direction.</p>
-  </div>
+  
 
   <iframe
     id="JotFormIFrame-261900782842056"
