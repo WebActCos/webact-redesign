@@ -361,6 +361,79 @@ body{margin:0}
   }
 }
 </style>
+
+<style id="webact-widgets-filter-fix">
+/* Remove the empty space left by the deleted form heading. */
+.widgets-page .webact-jotform-card {
+    padding: 0 !important;
+}
+
+.widgets-page .webact-jotform-card iframe {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+
+/* Keep search, category tags, and count aligned. */
+.widgets-page .duda-marketplace-tools {
+    display: grid;
+    gap: 18px;
+}
+
+.widgets-page .duda-marketplace-top {
+    align-items: end;
+}
+
+.widgets-page .duda-marketplace-search {
+    min-width: 0;
+}
+
+.widgets-page .duda-marketplace-search input {
+    min-height: 58px;
+}
+
+.widgets-page .duda-tabs {
+    align-items: center;
+}
+
+.widgets-page .duda-tabs button {
+    min-height: 54px;
+    padding: 13px 24px;
+    white-space: nowrap;
+}
+
+.widgets-page .duda-marketplace-count {
+    margin: 0;
+}
+
+.widgets-page .widget-card.is-hidden,
+.widgets-page .widget-card[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 1080px) {
+    .widgets-page .duda-marketplace-top {
+        grid-template-columns: 1fr;
+        align-items: stretch;
+    }
+
+    .widgets-page .duda-tabs {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 700px) {
+    .widgets-page .duda-tabs {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .widgets-page .duda-tabs button {
+        width: 100%;
+    }
+}
+</style>
 </head>
 
 <body class="widgets-page">
@@ -379,10 +452,7 @@ body{margin:0}
   </div>
 
   <aside class="hero-form-card webact-jotform-card">
-  <div class="webact-jotform-heading">
-    <h2>Start a Project</h2>
-    <p>Tell us what you want to improve and we will help point you in the right direction.</p>
-  </div>
+  
 
   <iframe
     id="JotFormIFrame-261900782842056"
@@ -1213,111 +1283,172 @@ body{margin:0}
 <script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
 
-<script>
-(function(){
-  const search = document.getElementById('widgetSearch');
-  const buttons = document.querySelectorAll('[data-filter]');
-  const cards = Array.from(document.querySelectorAll('.widget-card'));
 
-  function getCategory(card){
-    const text = card.textContent.toLowerCase();
-    if(text.includes('media')) return 'media';
-    if(text.includes('business')) return 'business';
-    if(text.includes('social')) return 'social';
-    if(text.includes('advance')) return 'advance';
-    return 'basic';
-  }
-
-  function applyFilters(){
-    const q = (search.value || '').toLowerCase();
-    const active = document.querySelector('[data-filter].active')?.dataset.filter || 'all';
-
-    cards.forEach(card => {
-      const text = card.textContent.toLowerCase();
-      const cat = getCategory(card);
-      const matchesSearch = !q || text.includes(q);
-      const matchesFilter = active === 'all' || cat === active;
-      card.style.display = matchesSearch && matchesFilter ? '' : 'none';
-    });
-  }
-
-  buttons.forEach(btn => {
-    btn.addEventListener('click', function(){
-      buttons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      applyFilters();
-    });
-  });
-
-  if(search) search.addEventListener('input', applyFilters);
-})();
-</script>
 <script id="duda-widget-marketplace-filter">
-(function(){
-  const cards = Array.from(document.querySelectorAll(".widget-card"));
-  const search = document.getElementById("widgetSearch");
-  const tabButtons = Array.from(document.querySelectorAll("[data-widget-tab]"));
-  const count = document.getElementById("widgetResultCount");
-  const empty = document.getElementById("widgetEmptyState");
+(function () {
+    const search = document.getElementById("widgetSearch");
+    const buttons = Array.from(
+        document.querySelectorAll("[data-widget-tab]")
+    );
+    const cards = Array.from(
+        document.querySelectorAll("#widgetGrid .widget-card")
+    );
+    const count = document.getElementById("widgetResultCount");
+    const empty = document.getElementById("widgetEmptyState");
 
-  function getCategory(card){
-    const text = card.textContent.toLowerCase();
+    function normalizeCategory(value) {
+        const category = (value || "")
+            .toLowerCase()
+            .trim();
 
-    if(text.includes("social") || text.includes("facebook") || text.includes("messenger")) return "social";
-    if(text.includes("gallery") || text.includes("image") || text.includes("video") || text.includes("carousel") || text.includes("slider") || text.includes("flip book")) return "media";
-    if(text.includes("stripe") || text.includes("payment") || text.includes("pricing") || text.includes("store") || text.includes("table") || text.includes("calendar") || text.includes("eventbrite") || text.includes("location")) return "business";
-    if(text.includes("advance") || text.includes("api") || text.includes("ada") || text.includes("mega") || text.includes("elastic") || text.includes("animate") || text.includes("separator") || text.includes("property")) return "advance";
+        if (category === "advance" || category === "advanced") {
+            return "advance";
+        }
 
-    return "basic";
-  }
+        if (
+            category === "basic" ||
+            category === "business" ||
+            category === "media" ||
+            category === "social"
+        ) {
+            return category;
+        }
 
-  cards.forEach(function(card){
-    card.dataset.category = getCategory(card);
-    const title = card.querySelector("h3");
-    if(title && !card.dataset.title) card.dataset.title = title.textContent.trim();
-  });
-
-  function activeTab(){
-    const active = document.querySelector("[data-widget-tab].active");
-    return active ? active.dataset.widgetTab : "all";
-  }
-
-  function applyFilter(){
-    const query = search ? search.value.toLowerCase().trim() : "";
-    const tab = activeTab();
-    let visible = 0;
-
-    cards.forEach(function(card){
-      const matchesTab = tab === "all" || card.dataset.category === tab;
-      const matchesSearch = !query || card.textContent.toLowerCase().includes(query);
-      const show = matchesTab && matchesSearch;
-
-      card.classList.toggle("is-hidden", !show);
-      if(show) visible++;
-    });
-
-    if(count){
-      count.textContent = visible + " Duda widget" + (visible === 1 ? "" : "s") + " shown";
+        return "basic";
     }
 
-    if(empty){
-      empty.classList.toggle("show", visible === 0);
+    function getCardCategory(card) {
+        if (card.dataset.category) {
+            return normalizeCategory(card.dataset.category);
+        }
+
+        const categoryLabel = card.querySelector(
+            ".widget-card-top .eyebrow"
+        );
+
+        const category = normalizeCategory(
+            categoryLabel
+                ? categoryLabel.textContent
+                : "basic"
+        );
+
+        card.dataset.category = category;
+
+        return category;
     }
-  }
 
-  tabButtons.forEach(function(button){
-    button.addEventListener("click", function(){
-      tabButtons.forEach(function(btn){ btn.classList.remove("active"); });
-      button.classList.add("active");
-      applyFilter();
+    function getActiveCategory() {
+        const active = buttons.find(function (button) {
+            return button.classList.contains("active");
+        });
+
+        return active
+            ? normalizeCategory(active.dataset.widgetTab)
+            : "all";
+    }
+
+    function applyFilters() {
+        const query = search
+            ? search.value.toLowerCase().trim()
+            : "";
+
+        const selectedCategory = getActiveCategory();
+        let visibleCount = 0;
+
+        cards.forEach(function (card) {
+            const cardCategory = getCardCategory(card);
+            const searchableText = card.textContent
+                .toLowerCase()
+                .replace(/\s+/g, " ")
+                .trim();
+
+            const categoryMatches =
+                selectedCategory === "all" ||
+                cardCategory === selectedCategory;
+
+            const searchMatches =
+                !query ||
+                searchableText.includes(query);
+
+            const shouldShow =
+                categoryMatches &&
+                searchMatches;
+
+            card.classList.toggle(
+                "is-hidden",
+                !shouldShow
+            );
+
+            card.hidden = !shouldShow;
+
+            if (shouldShow) {
+                visibleCount++;
+            }
+        });
+
+        if (count) {
+            count.textContent =
+                visibleCount +
+                " Duda widget" +
+                (visibleCount === 1 ? "" : "s") +
+                " shown";
+        }
+
+        if (empty) {
+            empty.classList.toggle(
+                "show",
+                visibleCount === 0
+            );
+        }
+    }
+
+    buttons.forEach(function (button) {
+        button.addEventListener(
+            "click",
+            function () {
+                buttons.forEach(function (item) {
+                    item.classList.remove("active");
+                    item.setAttribute(
+                        "aria-pressed",
+                        "false"
+                    );
+                });
+
+                button.classList.add("active");
+                button.setAttribute(
+                    "aria-pressed",
+                    "true"
+                );
+
+                applyFilters();
+            }
+        );
+
+        button.setAttribute(
+            "aria-pressed",
+            button.classList.contains("active")
+                ? "true"
+                : "false"
+        );
     });
-  });
 
-  if(search){
-    search.addEventListener("input", applyFilter);
-  }
+    if (search) {
+        search.addEventListener(
+            "input",
+            applyFilters
+        );
 
-  applyFilter();
+        search.addEventListener(
+            "search",
+            applyFilters
+        );
+    }
+
+    cards.forEach(function (card) {
+        getCardCategory(card);
+    });
+
+    applyFilters();
 })();
 </script>
 <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
