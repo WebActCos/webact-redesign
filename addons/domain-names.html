@@ -8,86 +8,10 @@
 <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
 <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
-<style>
-html,body{height:auto!important;overflow-x:hidden!important}
-body{margin:0}
-.domain-page{background:#fff;color:#071421}
-.domain-hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.22),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:96px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.82fr);gap:54px;align-items:center}
-.domain-hero .eyebrow,.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
-.domain-hero h1{font-size:clamp(44px,6vw,78px);line-height:.96;margin:14px 0 22px;letter-spacing:-.055em;color:#fff}
-.domain-hero p{font-size:20px;line-height:1.65;color:#d9edf8;max-width:880px}
-.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
-.button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}
-.button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
-.button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
 
-.domain-hero-search{background:rgba(255,255,255,.96);color:#071421;border-radius:30px;padding:30px;box-shadow:0 30px 80px rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.22)}
-.domain-hero-search h2,.domain-hero-search h3{font-size:28px!important;margin:0 0 16px!important;color:#071421!important}
-.domain-hero-search input{width:100%!important;box-sizing:border-box!important;border:1px solid #cddce7!important;border-radius:14px!important;padding:16px 18px!important;font:inherit!important;color:#071421!important;background:#fff!important;margin:0 0 14px!important}
-.domain-hero-search button,.domain-hero-search .button,.domain-hero-search input[type=submit]{width:100%!important;min-height:56px!important;border-radius:14px!important;background:#33abe1!important;color:#061421!important;font-weight:900!important;border:0!important;cursor:pointer!important}
-.domain-hero-search a{font-weight:900;text-decoration:none;color:#071421}
-.domain-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
-.domain-actions a{border:1px solid #dcecf5;border-radius:14px;padding:14px;text-align:center;background:#fff}
-
-.section{padding:88px min(6vw,72px)}
-.soft{background:#f4f8fb}
-.heading{max-width:980px;margin:0 auto 48px;text-align:center}
-.heading .eyebrow{color:#0c9bd2}
-.heading h2{font-size:clamp(34px,4.6vw,62px);line-height:1;margin:10px 0 18px;letter-spacing:-.045em}
-.heading p{font-size:18px;line-height:1.65;color:#4b5b66}
-.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1320px;margin:0 auto}
-.info-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:28px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
-.info-card span{display:flex;width:50px;height:50px;border-radius:16px;background:#33abe1;color:#061421;align-items:center;justify-content:center;font-weight:900;margin-bottom:18px}
-.info-card h3{font-size:24px;margin:0 0 12px;color:#071421}
-.info-card p{line-height:1.7;color:#4b5b66;margin:0}
-.process{max-width:1180px;margin:0 auto;display:grid;gap:18px}
-.process-row{display:grid;grid-template-columns:80px 1fr;gap:18px;background:#fff;border:1px solid #e0ebf2;border-radius:24px;padding:24px;box-shadow:0 16px 34px rgba(7,20,33,.06)}
-.process-row span{width:56px;height:56px;border-radius:18px;background:#33abe1;color:#061421;display:grid;place-items:center;font-weight:900}
-.process-row h3{font-size:24px;margin:0 0 8px}
-.process-row p{margin:0;color:#4b5b66;line-height:1.65}
-.final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:88px min(6vw,72px)}
-.final-cta h2{font-size:clamp(34px,5vw,64px);line-height:1;margin:0 0 16px}
-.final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
-.final-cta .hero-actions{justify-content:center}
-@media(max-width:1080px){.domain-hero{grid-template-columns:1fr}.card-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:700px){.domain-hero,.section,.final-cta{padding:56px 20px}.card-grid{grid-template-columns:1fr}.process-row{grid-template-columns:1fr}.hero-actions .button{width:100%}.domain-actions{grid-template-columns:1fr}}
-</style>
-<style id="webact-shared-jotform-styles">
-.webact-shared-jotform{
-  width:100%;
-  max-width:100%;
-  margin:0;
-  padding:0;
-  overflow:hidden;
-  border-radius:26px;
-  background:#f6f7f8;
-}
-
-.webact-shared-jotform iframe{
-  display:block;
-  width:100%;
-  min-height:940px;
-  border:0;
-  background:#f6f7f8;
-}
-
-.hero-form-card:has(.webact-shared-jotform),
-.hero-form:has(.webact-shared-jotform),
-.hero-card:has(.webact-shared-jotform),
-.form-card:has(.webact-shared-jotform){
-  padding:0!important;
-  overflow:hidden!important;
-}
-
-@media(max-width:700px){
-  .webact-shared-jotform iframe{
-    min-height:1040px;
-  }
-}
-</style>
 </head>
 <body class="domain-page">
-<div id="webact-header"></div>
+
 
 <main>
 <section class="domain-hero">
@@ -103,17 +27,7 @@ body{margin:0}
 
   <div class="domain-hero-search" id="domain-search">
     <div class="domain-search-card">
-    <div class="webact-shared-jotform">
-  <iframe
-    id="JotFormIFrame-261900782842056"
-    title="Start a Project"
-    src="https://form.jotform.com/261900782842056"
-    frameborder="0"
-    scrolling="no"
-    allow="geolocation; microphone; camera; fullscreen; payment"
-    style="width:100%;min-height:940px;border:0;">
-  </iframe>
-</div>
+    
     <div class="store-domain-actions">
       <a href="https://store.webact.com/products/domain-registration" target="_blank" rel="noreferrer">Domain Registration</a>
       <a href="https://store.webact.com/products/domain-transfer" target="_blank" rel="noreferrer">Domain Transfer</a>
@@ -175,21 +89,5 @@ body{margin:0}
 </section>
 </main>
 
-<div id="webact-footer"></div>
-<script src="/webact-redesign/script.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
-<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  if (window.jotformEmbedHandler) {
-    window.jotformEmbedHandler(
-      "iframe[id^='JotFormIFrame-']",
-      "https://form.jotform.com/"
-    );
-  }
-});
-</script>
 </body>
 </html>
