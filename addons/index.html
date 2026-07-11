@@ -286,6 +286,70 @@ border-radius:24px;
     border: 0 !important;
 }
 </style>
+
+<style id="addons-jotform-width-final">
+/* Give the embedded Jotform the same usable width as other WebAct forms. */
+.addons-page .addons-hero {
+    grid-template-columns:
+        minmax(0, 0.9fr)
+        minmax(620px, 0.9fr) !important;
+    gap: clamp(36px, 5vw, 72px) !important;
+}
+
+.addons-page .addon-help-card {
+    width: 100% !important;
+    max-width: 720px !important;
+    min-width: 0 !important;
+    justify-self: end !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+}
+
+.addons-page .addon-help-card .webact-shared-jotform {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.addons-page .addon-help-card .webact-shared-jotform iframe {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+    box-sizing: border-box !important;
+}
+
+@media (max-width: 1250px) {
+    .addons-page .addons-hero {
+        grid-template-columns: 1fr !important;
+    }
+
+    .addons-page .addon-help-card {
+        width: 100% !important;
+        max-width: 760px !important;
+        justify-self: center !important;
+    }
+}
+
+@media (max-width: 760px) {
+    .addons-page .addon-help-card {
+        max-width: 100% !important;
+        border-radius: 22px !important;
+    }
+
+    .addons-page .addon-help-card .webact-shared-jotform,
+    .addons-page .addon-help-card .webact-shared-jotform iframe {
+        border-radius: 22px !important;
+    }
+}
+</style>
 </head>
 <body class="addons-page">
 <div id="webact-header"></div>
