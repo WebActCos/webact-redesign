@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   "use strict";
 
   function getBasePath() {
@@ -27,7 +27,7 @@
     var target = document.getElementById(targetId);
     if (!target) return Promise.resolve();
 
-    return fetch(getBasePath() + filePath, { cache: "no-cache" })
+    return fetch(filePath, { cache: "no-cache" })
       .then(function (response) {
         if (!response.ok) {
           throw new Error("Failed to load " + filePath + " (" + response.status + ")");
@@ -59,3 +59,4 @@
     initializeIncludes();
   }
 })();
+
