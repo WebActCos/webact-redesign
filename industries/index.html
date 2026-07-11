@@ -442,6 +442,54 @@ body{margin:0}
   }
 }
 </style>
+<style id="industry-image-normalization">
+.industries-page .industry-image {
+  position: relative !important;
+  width: 100% !important;
+  height: 340px !important;
+  min-height: 340px !important;
+  max-height: 340px !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  background: #eef7fd !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.industries-page .industry-image img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  transform-origin: center center !important;
+  transition: transform .2s ease !important;
+}
+
+.industries-page .industry-card[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  .industries-page .industry-image {
+    height: 300px !important;
+    min-height: 300px !important;
+    max-height: 300px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .industries-page .industry-image {
+    height: 250px !important;
+    min-height: 250px !important;
+    max-height: 250px !important;
+  }
+}
+</style>
 </head>
 
 <body class="industries-page">
@@ -2000,6 +2048,146 @@ body{margin:0}
     "iframe[id^='JotFormIFrame-']",
     "https://form.jotform.com/"
   );
+</script>
+<script id="industry-image-normalization-script">
+(function () {
+  "use strict";
+
+  function colorDifference(a, b) {
+    return (
+      Math.abs(a[0] - b[0]) +
+      Math.abs(a[1] - b[1]) +
+      Math.abs(a[2] - b[2]) +
+      Math.abs(a[3] - b[3])
+    );
+  }
+
+  function normalizeImage(img) {
+    if (!img.naturalWidth || !img.naturalHeight) {
+      return;
+    }
+
+    var sampleWidth = Math.min(500, img.naturalWidth);
+    var sampleHeight = Math.max(
+      1,
+      Math.round(img.naturalHeight * (sampleWidth / img.naturalWidth))
+    );
+
+    var canvas = document.createElement("canvas");
+    canvas.width = sampleWidth;
+    canvas.height = sampleHeight;
+
+    var context = canvas.getContext("2d", {
+      willReadFrequently: true
+    });
+
+    if (!context) {
+      return;
+    }
+
+    try {
+      context.drawImage(img, 0, 0, sampleWidth, sampleHeight);
+
+      var pixels = context.getImageData(
+        0,
+        0,
+        sampleWidth,
+        sampleHeight
+      ).data;
+
+      function pixelAt(x, y) {
+        var offset = (y * sampleWidth + x) * 4;
+
+        return [
+          pixels[offset],
+          pixels[offset + 1],
+          pixels[offset + 2],
+          pixels[offset + 3]
+        ];
+      }
+
+      var cornerColors = [
+        pixelAt(0, 0),
+        pixelAt(sampleWidth - 1, 0),
+        pixelAt(0, sampleHeight - 1),
+        pixelAt(sampleWidth - 1, sampleHeight - 1)
+      ];
+
+      var left = sampleWidth;
+      var right = 0;
+      var top = sampleHeight;
+      var bottom = 0;
+      var tolerance = 85;
+
+      for (var y = 0; y < sampleHeight; y += 2) {
+        for (var x = 0; x < sampleWidth; x += 2) {
+          var pixel = pixelAt(x, y);
+
+          var isBackground = cornerColors.some(function (corner) {
+            return colorDifference(pixel, corner) < tolerance;
+          });
+
+          if (!isBackground && pixel[3] > 30) {
+            left = Math.min(left, x);
+            right = Math.max(right, x);
+            top = Math.min(top, y);
+            bottom = Math.max(bottom, y);
+          }
+        }
+      }
+
+      if (right <= left || bottom <= top) {
+        return;
+      }
+
+      var visibleWidthRatio = (right - left) / sampleWidth;
+      var visibleHeightRatio = (bottom - top) / sampleHeight;
+
+      /*
+       * Aim for the visible mockup to occupy roughly the same portion
+       * of every card without allowing extreme enlargement.
+       */
+      var widthScale = 0.82 / visibleWidthRatio;
+      var heightScale = 0.82 / visibleHeightRatio;
+      var scale = Math.min(widthScale, heightScale);
+
+      scale = Math.max(1, Math.min(scale, 1.65));
+
+      img.style.transform = "scale(" + scale.toFixed(3) + ")";
+    } catch (error) {
+      console.warn(
+        "Unable to normalize industry image:",
+        img.src,
+        error
+      );
+    }
+  }
+
+  function initializeIndustryImages() {
+    var images = document.querySelectorAll(
+      "#industries .industry-image img"
+    );
+
+    images.forEach(function (img) {
+      if (img.complete) {
+        normalizeImage(img);
+      } else {
+        img.addEventListener("load", function () {
+          normalizeImage(img);
+        }, { once: true });
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      initializeIndustryImages
+    );
+  } else {
+    initializeIndustryImages();
+  }
+})();
 </script>
 </body>
 </html>
