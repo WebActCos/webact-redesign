@@ -85,6 +85,80 @@ body{margin:0}
   }
 }
 </style>
+
+<style id="webact-domain-search-form-styles">
+.webact-store-domain-form {
+    display: grid;
+    gap: 16px;
+    margin: 0 0 26px;
+}
+
+.webact-store-domain-form label {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    color: #071421;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.domain-hero-search .webact-store-domain-form input[name="domainToCheck"] {
+    width: 100% !important;
+    min-height: 58px !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 16px 18px !important;
+    border: 1px solid #cddce7 !important;
+    border-radius: 14px !important;
+    background: #fff !important;
+    color: #071421 !important;
+    font: inherit !important;
+}
+
+.domain-hero-search .webact-store-domain-form button {
+    width: 100% !important;
+    min-height: 58px !important;
+    margin: 0 !important;
+}
+
+.store-domain-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 24px;
+}
+
+.store-domain-actions a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 58px;
+    box-sizing: border-box;
+    padding: 14px 18px;
+    border: 1px solid #cddce7;
+    border-radius: 14px;
+    background: #fff;
+    color: #071421;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.domain-search-card > .hero-actions {
+    margin-top: 24px;
+}
+
+.domain-search-card > .hero-actions .button {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+    .store-domain-actions {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
 </head>
 <body class="domain-page">
 <div id="webact-header"></div>
@@ -103,13 +177,50 @@ body{margin:0}
 
   <div class="domain-hero-search" id="domain-search">
     <div class="domain-search-card">
-    
+    <form class="webact-store-domain-form" method="GET" action="https://store.webact.com/products/domain-registration/find" target="_blank">
+        <input type="hidden" name="plid" value="512572">
+
+        <label>
+            Search WebAct Domain Registration
+            <input
+                name="domainToCheck"
+                type="text"
+                placeholder="Enter your desired domain."
+                aria-label="Enter your desired domain"
+                required>
+        </label>
+
+        <button class="button primary" type="submit">
+            Search domain
+        </button>
+    </form>
+
     <div class="store-domain-actions">
-      <a href="https://store.webact.com/products/domain-registration" target="_blank" rel="noreferrer">Domain Registration</a>
-      <a href="https://store.webact.com/products/domain-transfer" target="_blank" rel="noreferrer">Domain Transfer</a>
+        <a
+            href="https://store.webact.com/products/domain-registration"
+            target="_blank"
+            rel="noreferrer">
+            Domain Registration
+        </a>
+
+        <a
+            href="https://store.webact.com/products/domain-transfer"
+            target="_blank"
+            rel="noreferrer">
+            Domain Transfer
+        </a>
     </div>
-    <div class="hero-actions"><a class="button secondary" href="https://sso.secureserver.net/login?realm=idp&plid=512572&app=dcc&path=%2fdefault.aspx%3fci%3d1812" target="_blank" rel="noreferrer">Domain manager</a></div>
-  </div>
+
+    <div class="hero-actions">
+        <a
+            class="button secondary"
+            href="https://sso.secureserver.net/login?realm=idp&plid=512572&app=dcc&path=%2fdefault.aspx%3fci%3d1812"
+            target="_blank"
+            rel="noreferrer">
+            Domain manager
+        </a>
+    </div>
+</div>
   </div>
 </section>
 
