@@ -151,6 +151,66 @@
 }
 </style>
 <!-- WEBACT PORTFOLIO JOTFORM HERO END -->
+<style id="portfolio-full-image-fix">
+/* Show complete portfolio screenshots without cropping */
+.portfolio-page .portfolio-image,
+body .portfolio-image {
+  width: 100% !important;
+  height: 320px !important;
+  min-height: 320px !important;
+  max-height: 320px !important;
+  padding: 18px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  background: #eef7fc !important;
+}
+
+.portfolio-page .portfolio-image img,
+body .portfolio-image img,
+.portfolio-page .portfolio-card img,
+body .portfolio-card img,
+.portfolio-page .portfolio-grid img,
+body .portfolio-grid img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+}
+
+/* Keep the cards equal height */
+.portfolio-page .portfolio-card,
+body .portfolio-card {
+  height: 100% !important;
+}
+
+.portfolio-page .portfolio-card > a,
+body .portfolio-card > a {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.portfolio-page .portfolio-content,
+body .portfolio-content {
+  flex: 1 1 auto !important;
+}
+
+@media (max-width: 700px) {
+  .portfolio-page .portfolio-image,
+  body .portfolio-image {
+    height: 250px !important;
+    min-height: 250px !important;
+    max-height: 250px !important;
+    padding: 12px !important;
+  }
+}
+</style>
 </head>
 
 <body>
