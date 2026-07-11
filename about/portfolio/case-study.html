@@ -1,13 +1,13 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio Case Study | WebAct</title>
   <meta name="description" content="View a WebAct website design, SEO, marketing, and advertising case study.">
-  <link rel="stylesheet" href="/webact-redesign/styles.css?v=main-layout-1">
-  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-promodo-nav.css?v=main-layout-1">
-  <link rel="stylesheet" href="/webact-redesign/assets/css/webact-footer.css?v=main-layout-1">
+  <link rel="stylesheet" href="/styles.css?v=main-layout-1">
+  <link rel="stylesheet" href="/assets/css/webact-promodo-nav.css?v=main-layout-1">
+  <link rel="stylesheet" href="/assets/css/webact-footer.css?v=main-layout-1">
   <style>
     html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
     body{margin:0}.case-page{background:#fff;color:#071421}
@@ -72,11 +72,11 @@
       <h1 id="case-title">Website Design Case Study</h1>
       <p id="case-summary"></p>
       <div class="hero-actions">
-        <a class="button primary" href="/webact-redesign/contact/index.html">Start a Project</a>
-        <a class="button secondary" href="/webact-redesign/about/portfolio.html">Back to Portfolio</a>
+        <a class="button primary" href="/contact/index.html">Start a Project</a>
+        <a class="button secondary" href="/about/portfolio.html">Back to Portfolio</a>
       </div>
     </div>
-    <div class="case-media"><img id="case-image" src="/webact-redesign/Resources/images/placeholder.png" alt="WebAct portfolio project"></div>
+    <div class="case-media"><img id="case-image" src="/Resources/images/placeholder.png" alt="WebAct portfolio project"></div>
   </section>
   <div id="case-sections"></div>
   <section class="case-section alt">
@@ -99,14 +99,14 @@
     <h2 id="cta-title">Need a website like this?</h2>
     <p id="cta-text"></p>
     <div class="hero-actions">
-      <a class="button primary" href="/webact-redesign/contact/index.html">Contact WebAct</a>
-      <a class="button secondary" href="/webact-redesign/design/index.html">View Design Services</a>
+      <a class="button primary" href="/contact/index.html">Contact WebAct</a>
+      <a class="button secondary" href="/design/index.html">View Design Services</a>
     </div>
   </section>
 </main>
 <div id="webact-footer"></div>
-<script src="/webact-redesign/assets/js/portfolio-data-all.js"></script>
-<script src="/webact-redesign/assets/js/portfolio-content.js"></script>
+<script src="/assets/js/portfolio-data-all.js"></script>
+<script src="/assets/js/portfolio-content.js"></script>
 <script>
 (function(){
   const rows = window.webactPortfolioRows || [];
@@ -210,17 +210,17 @@
   document.getElementById("related-intro").textContent = "Browse additional WebAct portfolio examples related to " + c.industry.toLowerCase() + " websites and similar business categories.";
   const relatedGrid = document.getElementById("related-grid");
   relatedGrid.innerHTML = c.related.map(function(r){
-    return '<a class="related-card" href="/webact-redesign/about/portfolio/case-study.html?project='+engine.slugify(r[0])+'"><img src="'+r[2]+'" alt="'+r[0]+' website design"><span>'+r[1]+'</span><h3>'+r[0]+'</h3></a>';
+    return '<a class="related-card" href="/about/portfolio/case-study.html?project='+engine.slugify(r[0])+'"><img src="'+r[2]+'" alt="'+r[0]+' website design"><span>'+r[1]+'</span><h3>'+r[0]+'</h3></a>';
   }).join("") || '<p style="grid-column:1/-1;color:#4b5b66;font-size:18px;text-align:center">More related projects will be added soon.</p>';
 
   document.getElementById("cta-title").textContent = "Need a " + c.industry.toLowerCase() + " website like " + c.name + "?";
   document.getElementById("cta-text").textContent = "WebAct can help with website design, SEO, digital advertising, landing pages, branding, local visibility, and ongoing website support for businesses in this industry.";
 })();
 </script>
-<script src="/webact-redesign/script.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/routes.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/navigation.js?v=main-layout-1"></script>
-<script src="/webact-redesign/assets/js/includes.js?v=main-layout-1"></script>
+<script src="/script.js?v=main-layout-1"></script>
+<script src="/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/assets/js/includes.js?v=main-layout-1"></script>
 
 </body>
 </html>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://webactcos.github.io/webact-redesign/index.html</loc></url>
-  <url><loc>https://webactcos.github.io/webact-redesign/design/website-design.html</loc></url>
-  <url><loc>https://webactcos.github.io/webact-redesign/marketing/seo.html</loc></url>
-  <url><loc>https://webactcos.github.io/webact-redesign/digital-ads/google-advertising.html</loc></url>
-  <url><loc>https://webactcos.github.io/webact-redesign/about/portfolio.html</loc></url>
-  <url><loc>https://webactcos.github.io/webact-redesign/contact/index.html</loc></url>
+  <url><loc>https://webactcos.github.io/index.html</loc></url>
+  <url><loc>https://webactcos.github.io/design/website-design.html</loc></url>
+  <url><loc>https://webactcos.github.io/marketing/seo.html</loc></url>
+  <url><loc>https://webactcos.github.io/digital-ads/google-advertising.html</loc></url>
+  <url><loc>https://webactcos.github.io/about/portfolio.html</loc></url>
+  <url><loc>https://webactcos.github.io/contact/index.html</loc></url>
 </urlset>

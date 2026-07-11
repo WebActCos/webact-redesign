@@ -1,9 +1,9 @@
-﻿window.webactPortfolioMasterData = [
+window.webactPortfolioMasterData = [
   {
     "name": "2go Coconut",
     "slug": "2go-coconut",
     "industry": "Ecommerce",
-    "image": "/webact-redesign/Resources/images/2goCoconut.png",
+    "image": "/Resources/images/2goCoconut.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -61,7 +61,7 @@
     "name": "360 Sales Advantage",
     "slug": "360-sales-advantage",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/360 sales advantage-1920w.png",
+    "image": "/Resources/images/360 sales advantage-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -119,7 +119,7 @@
     "name": "A Breed Apart Papillons",
     "slug": "a-breed-apart-papillons",
     "industry": "Pet Services",
-    "image": "/webact-redesign/Resources/images/a-breed-apart-papillons-1920w.png",
+    "image": "/Resources/images/a-breed-apart-papillons-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -177,7 +177,7 @@
     "name": "A CALIFORNIA Driving School",
     "slug": "a-california-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/A-CALIFORNIA-Driving-School-1920w.png",
+    "image": "/Resources/images/A-CALIFORNIA-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -235,7 +235,7 @@
     "name": "A Dog's Day Out",
     "slug": "a-dog-s-day-out",
     "industry": "Pet Services",
-    "image": "/webact-redesign/Resources/images/WebactADogsDayOut-1920w.png",
+    "image": "/Resources/images/WebactADogsDayOut-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -293,7 +293,7 @@
     "name": "A Pup's Valley",
     "slug": "a-pup-s-valley",
     "industry": "Pet Services",
-    "image": "/webact-redesign/Resources/images/WebactAPupsValley-1920w.png",
+    "image": "/Resources/images/WebactAPupsValley-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -351,7 +351,7 @@
     "name": "Abdul Electric",
     "slug": "abdul-electric",
     "industry": "Electrical",
-    "image": "/webact-redesign/Resources/images/WebactAbdulElectric-1920w.png",
+    "image": "/Resources/images/WebactAbdulElectric-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -409,7 +409,7 @@
     "name": "Absolute Home Care",
     "slug": "absolute-home-care",
     "industry": "Home Care",
-    "image": "/webact-redesign/Resources/images/absoluteHomeCare-1920w.png",
+    "image": "/Resources/images/absoluteHomeCare-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -467,7 +467,7 @@
     "name": "Absolute Pest Control Services",
     "slug": "absolute-pest-control-services",
     "industry": "Pest Control",
-    "image": "/webact-redesign/Resources/images/absolutePestControlServices-1920w.png",
+    "image": "/Resources/images/absolutePestControlServices-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -525,7 +525,7 @@
     "name": "Ace Pet Services",
     "slug": "ace-pet-services",
     "industry": "Pet Services",
-    "image": "/webact-redesign/Resources/images/ace pet services-1920w.png",
+    "image": "/Resources/images/ace pet services-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -583,7 +583,7 @@
     "name": "Aces Driving School",
     "slug": "aces-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/ACES-DRIVING-SCHOOL-1920w.png",
+    "image": "/Resources/images/ACES-DRIVING-SCHOOL-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -641,7 +641,7 @@
     "name": "Advanced Business Systems",
     "slug": "advanced-business-systems",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/a-b-s-1920w.png",
+    "image": "/Resources/images/a-b-s-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -699,7 +699,7 @@
     "name": "Aid The Children",
     "slug": "aid-the-children",
     "industry": "Nonprofit",
-    "image": "/webact-redesign/Resources/images/Aid-The-Children-1920w.png",
+    "image": "/Resources/images/Aid-The-Children-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -757,7 +757,7 @@
     "name": "Air Techs HVAC",
     "slug": "air-techs-hvac",
     "industry": "HVAC",
-    "image": "/webact-redesign/Resources/images/airTechsHvac-1920w.png",
+    "image": "/Resources/images/airTechsHvac-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -815,7 +815,7 @@
     "name": "All Concrete Works & Landscaping",
     "slug": "all-concrete-works-and-landscaping",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/ALL-CONCRETE-WORKS---LANDSCAPING-1920w.png",
+    "image": "/Resources/images/ALL-CONCRETE-WORKS---LANDSCAPING-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -873,7 +873,7 @@
     "name": "All Go Transportation",
     "slug": "all-go-transportation",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/AllGoTransport-1920w.png",
+    "image": "/Resources/images/AllGoTransport-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -931,7 +931,7 @@
     "name": "All-Star Pizza",
     "slug": "all-star-pizza",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/allStarPizza-1920w.png",
+    "image": "/Resources/images/allStarPizza-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -989,7 +989,7 @@
     "name": "Alta Partners",
     "slug": "alta-partners",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/Alta_Partners-1920w.png",
+    "image": "/Resources/images/Alta_Partners-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1047,7 +1047,7 @@
     "name": "American Sewer",
     "slug": "american-sewer",
     "industry": "Plumbing",
-    "image": "/webact-redesign/Resources/images/WebactAmericanSewer-1920w.png",
+    "image": "/Resources/images/WebactAmericanSewer-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1105,7 +1105,7 @@
     "name": "Andree Hudson Art",
     "slug": "andree-hudson-art",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Andree_Hudson_Art-1920w.png",
+    "image": "/Resources/images/Andree_Hudson_Art-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1163,7 +1163,7 @@
     "name": "Apex Denver Locksmith",
     "slug": "apex-denver-locksmith",
     "industry": "Locksmith",
-    "image": "/webact-redesign/Resources/images/Apex_Denver_Locksmith-1920w.png",
+    "image": "/Resources/images/Apex_Denver_Locksmith-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1221,7 +1221,7 @@
     "name": "Ariana Waterfall",
     "slug": "ariana-waterfall",
     "industry": "Water Treatment",
-    "image": "/webact-redesign/Resources/images/arianaWaterfall-9f2a1f5e-1920w.png",
+    "image": "/Resources/images/arianaWaterfall-9f2a1f5e-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1279,7 +1279,7 @@
     "name": "Aspire Counseling",
     "slug": "aspire-counseling",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/AspireCounseling-1920w.png",
+    "image": "/Resources/images/AspireCounseling-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1337,7 +1337,7 @@
     "name": "Aspire Hope For Kids",
     "slug": "aspire-hope-for-kids",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Aspire-Hope-For-Kids-1920w.png",
+    "image": "/Resources/images/Aspire-Hope-For-Kids-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1395,7 +1395,7 @@
     "name": "Atlee Care",
     "slug": "atlee-care",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/Atlee-Care-1920w.png",
+    "image": "/Resources/images/Atlee-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1453,7 +1453,7 @@
     "name": "Axel Medical Transportation",
     "slug": "axel-medical-transportation",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/WebactAxelMedicalTransport-1920w.png",
+    "image": "/Resources/images/WebactAxelMedicalTransport-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1511,7 +1511,7 @@
     "name": "AY Home Health Care",
     "slug": "ay-home-health-care",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/AY-Home-Health-Care-1920w.png",
+    "image": "/Resources/images/AY-Home-Health-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1569,7 +1569,7 @@
     "name": "Barbarians Cave Surf",
     "slug": "barbarians-cave-surf",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/WebactBarbariansCaveSurf-e6d3047a-1920w.png",
+    "image": "/Resources/images/WebactBarbariansCaveSurf-e6d3047a-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1627,7 +1627,7 @@
     "name": "Barner Moving",
     "slug": "barner-moving",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/WebactBarnerMoving-1920w.png",
+    "image": "/Resources/images/WebactBarnerMoving-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1685,7 +1685,7 @@
     "name": "Bayou Solar",
     "slug": "bayou-solar",
     "industry": "Energy",
-    "image": "/webact-redesign/Resources/images/Bayou-Solar-1920w.png",
+    "image": "/Resources/images/Bayou-Solar-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1743,7 +1743,7 @@
     "name": "Beltway Home Inspections",
     "slug": "beltway-home-inspections",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/Beltway-Home-Inspections-1920w.png",
+    "image": "/Resources/images/Beltway-Home-Inspections-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1801,7 +1801,7 @@
     "name": "Benefits Matter",
     "slug": "benefits-matter",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/benefitsMatter-1920w.png",
+    "image": "/Resources/images/benefitsMatter-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1859,7 +1859,7 @@
     "name": "Benton Dental",
     "slug": "benton-dental",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/benton-dental.png",
+    "image": "/Resources/images/benton-dental.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1917,7 +1917,7 @@
     "name": "BlackBridge Defense",
     "slug": "blackbridge-defense",
     "industry": "Security",
-    "image": "/webact-redesign/Resources/images/Blackridge-Defense.png",
+    "image": "/Resources/images/Blackridge-Defense.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -1975,7 +1975,7 @@
     "name": "Board Game Republic",
     "slug": "board-game-republic",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Board-Game-Republic-1920w.png",
+    "image": "/Resources/images/Board-Game-Republic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2033,7 +2033,7 @@
     "name": "Brick House Salon",
     "slug": "brick-house-salon",
     "industry": "Salon & Beauty",
-    "image": "/webact-redesign/Resources/images/brickHouseSalon-1920w.png",
+    "image": "/Resources/images/brickHouseSalon-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2091,7 +2091,7 @@
     "name": "Bruno Jambor",
     "slug": "bruno-jambor",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Bruno_Jambor-1920w.png",
+    "image": "/Resources/images/Bruno_Jambor-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2149,7 +2149,7 @@
     "name": "Budget Control Services",
     "slug": "budget-control-services",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/bcs collect-1920w.png",
+    "image": "/Resources/images/bcs collect-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2207,7 +2207,7 @@
     "name": "Building Better Breath",
     "slug": "building-better-breath",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/building-better-Breath.png",
+    "image": "/Resources/images/building-better-Breath.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2265,7 +2265,7 @@
     "name": "Building Better Transit",
     "slug": "building-better-transit",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/Building_Better_Transit-1920w.png",
+    "image": "/Resources/images/Building_Better_Transit-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2323,7 +2323,7 @@
     "name": "By The Beach",
     "slug": "by-the-beach",
     "industry": "Travel",
-    "image": "/webact-redesign/Resources/images/by-the-beach.png",
+    "image": "/Resources/images/by-the-beach.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2381,7 +2381,7 @@
     "name": "Callahan Hayes",
     "slug": "callahan-hayes",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/callahanHayes-1920w.png",
+    "image": "/Resources/images/callahanHayes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2439,7 +2439,7 @@
     "name": "Cancer With Courage",
     "slug": "cancer-with-courage",
     "industry": "Nonprofit",
-    "image": "/webact-redesign/Resources/images/cancer-with-courage.png",
+    "image": "/Resources/images/cancer-with-courage.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2497,7 +2497,7 @@
     "name": "Carie's Posing Suits",
     "slug": "carie-s-posing-suits",
     "industry": "Salon & Beauty",
-    "image": "/webact-redesign/Resources/images/cariesPosingSuits-1920w.png",
+    "image": "/Resources/images/cariesPosingSuits-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2555,7 +2555,7 @@
     "name": "Carlock Plumbing",
     "slug": "carlock-plumbing",
     "industry": "Plumbing",
-    "image": "/webact-redesign/Resources/images/Carlock_Plumbing.png",
+    "image": "/Resources/images/Carlock_Plumbing.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2613,7 +2613,7 @@
     "name": "Carwash Coupons",
     "slug": "carwash-coupons",
     "industry": "Automotive",
-    "image": "/webact-redesign/Resources/images/carwash-coupons.png",
+    "image": "/Resources/images/carwash-coupons.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2671,7 +2671,7 @@
     "name": "Cass And Company Salon",
     "slug": "cass-and-company-salon",
     "industry": "Salon & Beauty",
-    "image": "/webact-redesign/Resources/images/cassAndCompany-1920w.png",
+    "image": "/Resources/images/cassAndCompany-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2729,7 +2729,7 @@
     "name": "Castle Rock",
     "slug": "castle-rock",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Castle-Rock-1920w.png",
+    "image": "/Resources/images/Castle-Rock-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2787,7 +2787,7 @@
     "name": "Cell Block",
     "slug": "cell-block",
     "industry": "Locksmith",
-    "image": "/webact-redesign/Resources/images/cellBlock.png",
+    "image": "/Resources/images/cellBlock.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2845,7 +2845,7 @@
     "name": "Century Tire Inc.",
     "slug": "century-tire-inc",
     "industry": "Automotive",
-    "image": "/webact-redesign/Resources/images/Century_Tire_inc-1920w.png",
+    "image": "/Resources/images/Century_Tire_inc-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2903,7 +2903,7 @@
     "name": "Christy Root Designs",
     "slug": "christy-root-designs",
     "industry": "Printing & Graphics",
-    "image": "/webact-redesign/Resources/images/christyRootDesigns-1920w.png",
+    "image": "/Resources/images/christyRootDesigns-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -2961,7 +2961,7 @@
     "name": "Chutney Indian Cuisine",
     "slug": "chutney-indian-cuisine",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/ChutneyIndianCusine-1920w.png",
+    "image": "/Resources/images/ChutneyIndianCusine-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3019,7 +3019,7 @@
     "name": "Coastal Homes",
     "slug": "coastal-homes",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/coastalHomes-1920w.png",
+    "image": "/Resources/images/coastalHomes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3077,7 +3077,7 @@
     "name": "College Planning Coach",
     "slug": "college-planning-coach",
     "industry": "Education",
-    "image": "/webact-redesign/Resources/images/WebactCollegePlanningCoach-1920w.png",
+    "image": "/Resources/images/WebactCollegePlanningCoach-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3135,7 +3135,7 @@
     "name": "Colorado Creditor Bar Association",
     "slug": "colorado-creditor-bar-association",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/COLORADO-CREDITOR-BAR-1920w.png",
+    "image": "/Resources/images/COLORADO-CREDITOR-BAR-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3193,7 +3193,7 @@
     "name": "CoWest Durango",
     "slug": "cowest-durango",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/coWestDurango-1920w.png",
+    "image": "/Resources/images/coWestDurango-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3251,7 +3251,7 @@
     "name": "CoWest Insurance Group",
     "slug": "cowest-insurance-group",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/coWestInsuranceGroup-1920w.png",
+    "image": "/Resources/images/coWestInsuranceGroup-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3309,7 +3309,7 @@
     "name": "Cowest Insurance Service",
     "slug": "cowest-insurance-service",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/CowestInsurance-Service-1920w.png",
+    "image": "/Resources/images/CowestInsurance-Service-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3367,7 +3367,7 @@
     "name": "Crest Pest Control",
     "slug": "crest-pest-control",
     "industry": "Pest Control",
-    "image": "/webact-redesign/Resources/images/Crest-Pest-Control-1920w.png",
+    "image": "/Resources/images/Crest-Pest-Control-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3425,7 +3425,7 @@
     "name": "CT Gasket",
     "slug": "ct-gasket",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/ctGasket-1920w.png",
+    "image": "/Resources/images/ctGasket-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3483,7 +3483,7 @@
     "name": "Curved Glass Creations",
     "slug": "curved-glass-creations",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/curvedGlassCreations-1920w.png",
+    "image": "/Resources/images/curvedGlassCreations-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3541,7 +3541,7 @@
     "name": "D And D Machinery Movers",
     "slug": "d-and-d-machinery-movers",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/dAndDMachineryMovers-1920w.png",
+    "image": "/Resources/images/dAndDMachineryMovers-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3599,7 +3599,7 @@
     "name": "Dads of Parker",
     "slug": "dads-of-parker",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Dads-of-Parker-1920w.png",
+    "image": "/Resources/images/Dads-of-Parker-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3657,7 +3657,7 @@
     "name": "Deaf Vacation Cruise",
     "slug": "deaf-vacation-cruise",
     "industry": "Travel",
-    "image": "/webact-redesign/Resources/images/deaf-vacation-cruise.png",
+    "image": "/Resources/images/deaf-vacation-cruise.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3715,7 +3715,7 @@
     "name": "Deannas Papillons",
     "slug": "deannas-papillons",
     "industry": "Pet Services",
-    "image": "/webact-redesign/Resources/images/WebactDeannasPapillons-1920w.png",
+    "image": "/Resources/images/WebactDeannasPapillons-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3773,7 +3773,7 @@
     "name": "Dental Arts",
     "slug": "dental-arts",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/DentalArts-1920w.png",
+    "image": "/Resources/images/DentalArts-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3831,7 +3831,7 @@
     "name": "Dental Sleep Medicine",
     "slug": "dental-sleep-medicine",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/dentalSleepMedicine-1920w.png",
+    "image": "/Resources/images/dentalSleepMedicine-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3889,7 +3889,7 @@
     "name": "Dental Sleep Medicine & Cranio Facial Pain",
     "slug": "dental-sleep-medicine-and-cranio-facial-pain",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/Dental-Sleep-Medicine---Cranio-Facial-Pain-1920w.png",
+    "image": "/Resources/images/Dental-Sleep-Medicine---Cranio-Facial-Pain-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -3947,7 +3947,7 @@
     "name": "Denver Issa",
     "slug": "denver-issa",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Denver-Issa-1920w.png",
+    "image": "/Resources/images/Denver-Issa-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4005,7 +4005,7 @@
     "name": "Denver Sign Factory",
     "slug": "denver-sign-factory",
     "industry": "Printing & Graphics",
-    "image": "/webact-redesign/Resources/images/denverSignFactory-1920w.png",
+    "image": "/Resources/images/denverSignFactory-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4063,7 +4063,7 @@
     "name": "Denver Towing",
     "slug": "denver-towing",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/WebactDenverTowing-1920w.png",
+    "image": "/Resources/images/WebactDenverTowing-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4121,7 +4121,7 @@
     "name": "Denver's Best Heating",
     "slug": "denver-s-best-heating",
     "industry": "HVAC",
-    "image": "/webact-redesign/Resources/images/WebactDenversBestHeating-1920w.png",
+    "image": "/Resources/images/WebactDenversBestHeating-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4179,7 +4179,7 @@
     "name": "Desert Empire",
     "slug": "desert-empire",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/DesertEmpire-1920w.png",
+    "image": "/Resources/images/DesertEmpire-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4237,7 +4237,7 @@
     "name": "Dig For Energy",
     "slug": "dig-for-energy",
     "industry": "Energy",
-    "image": "/webact-redesign/Resources/images/dig-for-energy.png",
+    "image": "/Resources/images/dig-for-energy.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4295,7 +4295,7 @@
     "name": "Dominion Craftsman Services",
     "slug": "dominion-craftsman-services",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Dominion-Craftsman-Services-1920w.png",
+    "image": "/Resources/images/Dominion-Craftsman-Services-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4353,7 +4353,7 @@
     "name": "Driving Instructor Classes",
     "slug": "driving-instructor-classes",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/Driving-Instructor-Classes-1920w.png",
+    "image": "/Resources/images/Driving-Instructor-Classes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4411,7 +4411,7 @@
     "name": "DSS By Kat",
     "slug": "dss-by-kat",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/dssByKat-1920w.png",
+    "image": "/Resources/images/dssByKat-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4469,7 +4469,7 @@
     "name": "DWW",
     "slug": "dww",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/DWW-1920w.png",
+    "image": "/Resources/images/DWW-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4527,7 +4527,7 @@
     "name": "E-Sports Foundation",
     "slug": "e-sports-foundation",
     "industry": "Nonprofit",
-    "image": "/webact-redesign/Resources/images/ESportsFoundation-1920w.png",
+    "image": "/Resources/images/ESportsFoundation-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4585,7 +4585,7 @@
     "name": "Ebony Equines",
     "slug": "ebony-equines",
     "industry": "Pet Services",
-    "image": "/webact-redesign/Resources/images/Ebony-Equines-1920w.png",
+    "image": "/Resources/images/Ebony-Equines-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4643,7 +4643,7 @@
     "name": "Ed Prevost",
     "slug": "ed-prevost",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/edProvost-1920w.png",
+    "image": "/Resources/images/edProvost-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4701,7 +4701,7 @@
     "name": "Edmotnton Heritage Festival",
     "slug": "edmotnton-heritage-festival",
     "industry": "Nonprofit",
-    "image": "/webact-redesign/Resources/images/WebactEdmonton-1920w.png",
+    "image": "/Resources/images/WebactEdmonton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4759,7 +4759,7 @@
     "name": "Einstein Plumbing",
     "slug": "einstein-plumbing",
     "industry": "Plumbing",
-    "image": "/webact-redesign/Resources/images/WebactEinstein-1920w.png",
+    "image": "/Resources/images/WebactEinstein-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4817,7 +4817,7 @@
     "name": "Emergency Locksmith Denver",
     "slug": "emergency-locksmith-denver",
     "industry": "Locksmith",
-    "image": "/webact-redesign/Resources/images/Emergency_Locksmith_Denver-1920w.png",
+    "image": "/Resources/images/Emergency_Locksmith_Denver-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4875,7 +4875,7 @@
     "name": "Empathy Care",
     "slug": "empathy-care",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/Empathy-Care-1920w.png",
+    "image": "/Resources/images/Empathy-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4933,7 +4933,7 @@
     "name": "Energy Performance Service",
     "slug": "energy-performance-service",
     "industry": "Energy",
-    "image": "/webact-redesign/Resources/images/epshvac(EnergyPerformanceService)-1920w.png",
+    "image": "/Resources/images/epshvac(EnergyPerformanceService)-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -4991,7 +4991,7 @@
     "name": "Epic ivy",
     "slug": "epic-ivy",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Epic-Ivy-1920w.png",
+    "image": "/Resources/images/Epic-Ivy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5049,7 +5049,7 @@
     "name": "Epleyer",
     "slug": "epleyer",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Epleyer-1920w.png",
+    "image": "/Resources/images/Epleyer-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5107,7 +5107,7 @@
     "name": "Esports Epleyer",
     "slug": "esports-epleyer",
     "industry": "Technology",
-    "image": "/webact-redesign/Resources/images/Esports-Epleyer-1920w.png",
+    "image": "/Resources/images/Esports-Epleyer-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5165,7 +5165,7 @@
     "name": "Evans Legal Group",
     "slug": "evans-legal-group",
     "industry": "Legal",
-    "image": "/webact-redesign/Resources/images/Evans-Legal-Group-1920w.png",
+    "image": "/Resources/images/Evans-Legal-Group-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5223,7 +5223,7 @@
     "name": "Express Shipping Room Supply",
     "slug": "express-shipping-room-supply",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Express-Shipping-Room-Supply-1920w.png",
+    "image": "/Resources/images/Express-Shipping-Room-Supply-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5281,7 +5281,7 @@
     "name": "Extreme Autoworks",
     "slug": "extreme-autoworks",
     "industry": "Automotive",
-    "image": "/webact-redesign/Resources/images/WebactExtremeAutowors-1920w.png",
+    "image": "/Resources/images/WebactExtremeAutowors-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5339,7 +5339,7 @@
     "name": "Finding The Fantastic",
     "slug": "finding-the-fantastic",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactFindingTheFantastic-1920w.png",
+    "image": "/Resources/images/WebactFindingTheFantastic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5397,7 +5397,7 @@
     "name": "Fine Arts Movement",
     "slug": "fine-arts-movement",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactFAM-5c1828d3-1920w.png",
+    "image": "/Resources/images/WebactFAM-5c1828d3-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5455,7 +5455,7 @@
     "name": "Firm Group",
     "slug": "firm-group",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/Firm-Group-1920w.png",
+    "image": "/Resources/images/Firm-Group-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5513,7 +5513,7 @@
     "name": "Fit Republic",
     "slug": "fit-republic",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactFitRepublic-1920w.png",
+    "image": "/Resources/images/WebactFitRepublic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5571,7 +5571,7 @@
     "name": "Fr Bumper Solutions",
     "slug": "fr-bumper-solutions",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Fr-Bumper-Solutions-1920w.png",
+    "image": "/Resources/images/Fr-Bumper-Solutions-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5629,7 +5629,7 @@
     "name": "Frameless Shower Door",
     "slug": "frameless-shower-door",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/WebactFramelessShowerDoor-1920w.png",
+    "image": "/Resources/images/WebactFramelessShowerDoor-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5687,7 +5687,7 @@
     "name": "Front Range Dentures",
     "slug": "front-range-dentures",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/WebactFrontRangeDentures-1920w.png",
+    "image": "/Resources/images/WebactFrontRangeDentures-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5745,7 +5745,7 @@
     "name": "Future Grasp",
     "slug": "future-grasp",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Future-Grasp-1920w.png",
+    "image": "/Resources/images/Future-Grasp-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5803,7 +5803,7 @@
     "name": "G & G Driving School",
     "slug": "g-and-g-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/G---G-Driving-School-1920w.png",
+    "image": "/Resources/images/G---G-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5861,7 +5861,7 @@
     "name": "Gangle Law Firm",
     "slug": "gangle-law-firm",
     "industry": "Legal",
-    "image": "/webact-redesign/Resources/images/gangleLawFirm-1920w.png",
+    "image": "/Resources/images/gangleLawFirm-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5919,7 +5919,7 @@
     "name": "Genius Coaching",
     "slug": "genius-coaching",
     "industry": "Education",
-    "image": "/webact-redesign/Resources/images/GeniusCoaching-1920w.png",
+    "image": "/Resources/images/GeniusCoaching-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -5977,7 +5977,7 @@
     "name": "Ghost Town Fitness",
     "slug": "ghost-town-fitness",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/ghostTownFitness-1920w.png",
+    "image": "/Resources/images/ghostTownFitness-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6035,7 +6035,7 @@
     "name": "Glass Act",
     "slug": "glass-act",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/glass act 970-1920w.png",
+    "image": "/Resources/images/glass act 970-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6093,7 +6093,7 @@
     "name": "Good Water",
     "slug": "good-water",
     "industry": "Water Treatment",
-    "image": "/webact-redesign/Resources/images/goodWater-1920w.png",
+    "image": "/Resources/images/goodWater-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6151,7 +6151,7 @@
     "name": "Granite State Labradoodles",
     "slug": "granite-state-labradoodles",
     "industry": "Pet Services",
-    "image": "/webact-redesign/Resources/images/granite state labradoodles-1920w.png",
+    "image": "/Resources/images/granite state labradoodles-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6209,7 +6209,7 @@
     "name": "Great Escape",
     "slug": "great-escape",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/great escape-1920w.png",
+    "image": "/Resources/images/great escape-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6267,7 +6267,7 @@
     "name": "Great West Real Estate",
     "slug": "great-west-real-estate",
     "industry": "Real Estate",
-    "image": "/webact-redesign/Resources/images/great-west-real-estate.png",
+    "image": "/Resources/images/great-west-real-estate.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6325,7 +6325,7 @@
     "name": "Great West Restoration Colorado",
     "slug": "great-west-restoration-colorado",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/Great-West-Restoration-Colorado-be744ebf-1920w.png",
+    "image": "/Resources/images/Great-West-Restoration-Colorado-be744ebf-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6383,7 +6383,7 @@
     "name": "Great West Restoration Colorado Agent",
     "slug": "great-west-restoration-colorado-agent",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/Great-West-Restoration-Colorado-Agent-1920w.png",
+    "image": "/Resources/images/Great-West-Restoration-Colorado-Agent-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6441,7 +6441,7 @@
     "name": "Grin & Barrett Charity Ride",
     "slug": "grin-and-barrett-charity-ride",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/gb biketours-1920w.png",
+    "image": "/Resources/images/gb biketours-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6499,7 +6499,7 @@
     "name": "Has Tag Lab",
     "slug": "has-tag-lab",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Has-Tag-Lab-1920w.png",
+    "image": "/Resources/images/Has-Tag-Lab-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6557,7 +6557,7 @@
     "name": "Haveli Indian Cuisine",
     "slug": "haveli-indian-cuisine",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/havelillittleton-1920w.png",
+    "image": "/Resources/images/havelillittleton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6615,7 +6615,7 @@
     "name": "Hebert Investigations",
     "slug": "hebert-investigations",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Hebert_Investigations-1920w.png",
+    "image": "/Resources/images/Hebert_Investigations-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6673,7 +6673,7 @@
     "name": "Heritage Roofing",
     "slug": "heritage-roofing",
     "industry": "Roofing",
-    "image": "/webact-redesign/Resources/images/WebactHeritage-1920w.png",
+    "image": "/Resources/images/WebactHeritage-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6731,7 +6731,7 @@
     "name": "Hi Dessert Egg",
     "slug": "hi-dessert-egg",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Hi-Dessert-Egg-1920w.png",
+    "image": "/Resources/images/Hi-Dessert-Egg-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6789,7 +6789,7 @@
     "name": "Home Pro Chesapeake",
     "slug": "home-pro-chesapeake",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/homeProChesapeake-1920w.png",
+    "image": "/Resources/images/homeProChesapeake-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6847,7 +6847,7 @@
     "name": "Homeland Driving School Cavco Enterprises, Inc",
     "slug": "homeland-driving-school-cavco-enterprises-inc",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/Homeland-Driving-School-Cavco-Enterprises--Inc-1920w.png",
+    "image": "/Resources/images/Homeland-Driving-School-Cavco-Enterprises--Inc-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6905,7 +6905,7 @@
     "name": "HouseSketch",
     "slug": "housesketch",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/HouseSketch-1920w.png",
+    "image": "/Resources/images/HouseSketch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -6963,7 +6963,7 @@
     "name": "Houston Energy Systems",
     "slug": "houston-energy-systems",
     "industry": "Energy",
-    "image": "/webact-redesign/Resources/images/HoustonEnergySystems-1920w.png",
+    "image": "/Resources/images/HoustonEnergySystems-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7021,7 +7021,7 @@
     "name": "Humbold Couty Fair",
     "slug": "humbold-couty-fair",
     "industry": "Nonprofit",
-    "image": "/webact-redesign/Resources/images/WebactHumboltCountyFair-1920w.png",
+    "image": "/Resources/images/WebactHumboltCountyFair-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7079,7 +7079,7 @@
     "name": "Hydro Dynamics",
     "slug": "hydro-dynamics",
     "industry": "Water Treatment",
-    "image": "/webact-redesign/Resources/images/Hydro-Dynamics-1920w.png",
+    "image": "/Resources/images/Hydro-Dynamics-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7137,7 +7137,7 @@
     "name": "I 5 Driving School",
     "slug": "i-5-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/I-5-Driving-School-1920w.png",
+    "image": "/Resources/images/I-5-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7195,7 +7195,7 @@
     "name": "IDT",
     "slug": "idt",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactIDT-1920w.png",
+    "image": "/Resources/images/WebactIDT-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7253,7 +7253,7 @@
     "name": "Implant Excellence",
     "slug": "implant-excellence",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/WebactImplantExcellence-1920w.png",
+    "image": "/Resources/images/WebactImplantExcellence-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7311,7 +7311,7 @@
     "name": "Inland Valley Driving School",
     "slug": "inland-valley-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/InlandValleyDrivingSchool-1920w.png",
+    "image": "/Resources/images/InlandValleyDrivingSchool-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7369,7 +7369,7 @@
     "name": "Inquiz Inspections",
     "slug": "inquiz-inspections",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/Inquiz-Inspections-1920w.png",
+    "image": "/Resources/images/Inquiz-Inspections-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7427,7 +7427,7 @@
     "name": "Insightifi",
     "slug": "insightifi",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/insightifi-1920w.png",
+    "image": "/Resources/images/insightifi-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7485,7 +7485,7 @@
     "name": "Integration Design",
     "slug": "integration-design",
     "industry": "Printing & Graphics",
-    "image": "/webact-redesign/Resources/images/WebactIntergrationDesign-1920w.png",
+    "image": "/Resources/images/WebactIntergrationDesign-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7543,7 +7543,7 @@
     "name": "Ironside Capital",
     "slug": "ironside-capital",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/IRONSIDE-CAPITAL-2aab2bce-1920w.png",
+    "image": "/Resources/images/IRONSIDE-CAPITAL-2aab2bce-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7601,7 +7601,7 @@
     "name": "Island Cool Creams",
     "slug": "island-cool-creams",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/island+cool+creams.png",
+    "image": "/Resources/images/island+cool+creams.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7659,7 +7659,7 @@
     "name": "Island Slider Guy",
     "slug": "island-slider-guy",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Island_Slider_Guy-1920w.png",
+    "image": "/Resources/images/Island_Slider_Guy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7717,7 +7717,7 @@
     "name": "Jack Lewis",
     "slug": "jack-lewis",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Jack-Lewis-1920w.png",
+    "image": "/Resources/images/Jack-Lewis-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7775,7 +7775,7 @@
     "name": "JK Hatcher Homes",
     "slug": "jk-hatcher-homes",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/JK_Hactcher_Homes-1920w.png",
+    "image": "/Resources/images/JK_Hactcher_Homes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7833,7 +7833,7 @@
     "name": "Karma Tour Hawaii",
     "slug": "karma-tour-hawaii",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactKarmaTourHawaii-1920w.png",
+    "image": "/Resources/images/WebactKarmaTourHawaii-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7891,7 +7891,7 @@
     "name": "Kasco HVAC",
     "slug": "kasco-hvac",
     "industry": "HVAC",
-    "image": "/webact-redesign/Resources/images/Kasco-Hvac-1920w.png",
+    "image": "/Resources/images/Kasco-Hvac-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -7949,7 +7949,7 @@
     "name": "Kenyon Homecare Consulting",
     "slug": "kenyon-homecare-consulting",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/Kenyonn-Homecare-Consulting-1920w.png",
+    "image": "/Resources/images/Kenyonn-Homecare-Consulting-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8007,7 +8007,7 @@
     "name": "Kinetico Denver",
     "slug": "kinetico-denver",
     "industry": "Water Treatment",
-    "image": "/webact-redesign/Resources/images/kinetico-1920w.png",
+    "image": "/Resources/images/kinetico-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8065,7 +8065,7 @@
     "name": "Kramarz Law",
     "slug": "kramarz-law",
     "industry": "Legal",
-    "image": "/webact-redesign/Resources/images/Kramarz-Law-1920w.png",
+    "image": "/Resources/images/Kramarz-Law-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8123,7 +8123,7 @@
     "name": "Lake Elsinore Driving School",
     "slug": "lake-elsinore-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/Lake-Elsinore-Driving-School-1920w.png",
+    "image": "/Resources/images/Lake-Elsinore-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8181,7 +8181,7 @@
     "name": "Liberty Lake Smile Source",
     "slug": "liberty-lake-smile-source",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/LibertyLake-1920w.png",
+    "image": "/Resources/images/LibertyLake-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8239,7 +8239,7 @@
     "name": "Light Of Mine",
     "slug": "light-of-mine",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/lightOfMine-1920w.png",
+    "image": "/Resources/images/lightOfMine-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8297,7 +8297,7 @@
     "name": "Linda Wang",
     "slug": "linda-wang",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Linda_Wang-658457a6-1920w.png",
+    "image": "/Resources/images/Linda_Wang-658457a6-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8355,7 +8355,7 @@
     "name": "Little Caesars Pueblo",
     "slug": "little-caesars-pueblo",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/littleCaesars-f8b3a4d9-1920w.png",
+    "image": "/Resources/images/littleCaesars-f8b3a4d9-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8413,7 +8413,7 @@
     "name": "Lower Lake Ranch",
     "slug": "lower-lake-ranch",
     "industry": "Real Estate",
-    "image": "/webact-redesign/Resources/images/WebactLowerLakeRanch-1920w.png",
+    "image": "/Resources/images/WebactLowerLakeRanch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8471,7 +8471,7 @@
     "name": "M Communications",
     "slug": "m-communications",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/WebactMCommunications-1920w.png",
+    "image": "/Resources/images/WebactMCommunications-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8529,7 +8529,7 @@
     "name": "Manor House Apartments",
     "slug": "manor-house-apartments",
     "industry": "Real Estate",
-    "image": "/webact-redesign/Resources/images/MANOR-HOUSE-APARTMENTS-1920w.png",
+    "image": "/Resources/images/MANOR-HOUSE-APARTMENTS-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8587,7 +8587,7 @@
     "name": "Marcoa",
     "slug": "marcoa",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/marcoa.png",
+    "image": "/Resources/images/marcoa.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8645,7 +8645,7 @@
     "name": "Master Craft",
     "slug": "master-craft",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Master-Craft-1920w.png",
+    "image": "/Resources/images/Master-Craft-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8703,7 +8703,7 @@
     "name": "MDT Transit",
     "slug": "mdt-transit",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/MDT-Transit-1920w.png",
+    "image": "/Resources/images/MDT-Transit-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8761,7 +8761,7 @@
     "name": "Meadow Hills",
     "slug": "meadow-hills",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Meadow_Hills-1920w.png",
+    "image": "/Resources/images/Meadow_Hills-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8819,7 +8819,7 @@
     "name": "Meditouch",
     "slug": "meditouch",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Meditouch-1920w.png",
+    "image": "/Resources/images/Meditouch-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8877,7 +8877,7 @@
     "name": "Mehak Denver",
     "slug": "mehak-denver",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/Mehak-Denver-1920w.png",
+    "image": "/Resources/images/Mehak-Denver-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8935,7 +8935,7 @@
     "name": "Mehak India's Aroma",
     "slug": "mehak-india-s-aroma",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/mehak-1920w.png",
+    "image": "/Resources/images/mehak-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -8993,7 +8993,7 @@
     "name": "Menifee Driving School",
     "slug": "menifee-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/Menifee-Driving-School-1920w.png",
+    "image": "/Resources/images/Menifee-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9051,7 +9051,7 @@
     "name": "Midwest Appliance and HVAC",
     "slug": "midwest-appliance-and-hvac",
     "industry": "HVAC",
-    "image": "/webact-redesign/Resources/images/MIDWEST-APPLIANCE-AND-HVAC-1920w.png",
+    "image": "/Resources/images/MIDWEST-APPLIANCE-AND-HVAC-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9109,7 +9109,7 @@
     "name": "Mile High Books",
     "slug": "mile-high-books",
     "industry": "Retail",
-    "image": "/webact-redesign/Resources/images/Mile_High_Books-1920w.png",
+    "image": "/Resources/images/Mile_High_Books-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9167,7 +9167,7 @@
     "name": "Mindful Minds Psychiatry",
     "slug": "mindful-minds-psychiatry",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/MINDFUL-MINDS-PSYCHIATRY-1920w.png",
+    "image": "/Resources/images/MINDFUL-MINDS-PSYCHIATRY-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9225,7 +9225,7 @@
     "name": "Mississippi Valley Fair",
     "slug": "mississippi-valley-fair",
     "industry": "Nonprofit",
-    "image": "/webact-redesign/Resources/images/WebactMVFair-1920w.png",
+    "image": "/Resources/images/WebactMVFair-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9283,7 +9283,7 @@
     "name": "Miyazaki Dental",
     "slug": "miyazaki-dental",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/MiyasakiDental-1920w.png",
+    "image": "/Resources/images/MiyasakiDental-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9341,7 +9341,7 @@
     "name": "Molly Mulligan",
     "slug": "molly-mulligan",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Molly-Mulligan-1920w.png",
+    "image": "/Resources/images/Molly-Mulligan-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9399,7 +9399,7 @@
     "name": "Mountain Peak Law Group LLC",
     "slug": "mountain-peak-law-group-llc",
     "industry": "Legal",
-    "image": "/webact-redesign/Resources/images/Mountain-Peak-Law-Group-LLC-1920w.png",
+    "image": "/Resources/images/Mountain-Peak-Law-Group-LLC-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9457,7 +9457,7 @@
     "name": "Mountain West Law Group",
     "slug": "mountain-west-law-group",
     "industry": "Legal",
-    "image": "/webact-redesign/Resources/images/mountain west law group-1920w.png",
+    "image": "/Resources/images/mountain west law group-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9515,7 +9515,7 @@
     "name": "Mrad",
     "slug": "mrad",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactMrad-1920w.png",
+    "image": "/Resources/images/WebactMrad-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9573,7 +9573,7 @@
     "name": "Murrieta Driving School",
     "slug": "murrieta-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/Murrieta-Driving-School-1920w.png",
+    "image": "/Resources/images/Murrieta-Driving-School-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9631,7 +9631,7 @@
     "name": "Net 2 Phone",
     "slug": "net-2-phone",
     "industry": "Technology",
-    "image": "/webact-redesign/Resources/images/net-2-phone.png",
+    "image": "/Resources/images/net-2-phone.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9689,7 +9689,7 @@
     "name": "New Era Dental",
     "slug": "new-era-dental",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/new-era-dental.png",
+    "image": "/Resources/images/new-era-dental.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9747,7 +9747,7 @@
     "name": "Niagra Designs",
     "slug": "niagra-designs",
     "industry": "Printing & Graphics",
-    "image": "/webact-redesign/Resources/images/WebactNiagraDesigns-1920w.png",
+    "image": "/Resources/images/WebactNiagraDesigns-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9805,7 +9805,7 @@
     "name": "Nirvana Indian Cuisine",
     "slug": "nirvana-indian-cuisine",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/Nirvana-1920w.png",
+    "image": "/Resources/images/Nirvana-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9863,7 +9863,7 @@
     "name": "NOLA Water",
     "slug": "nola-water",
     "industry": "Water Treatment",
-    "image": "/webact-redesign/Resources/images/nolaWater-1920w.png",
+    "image": "/Resources/images/nolaWater-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9921,7 +9921,7 @@
     "name": "Obairagency",
     "slug": "obairagency",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/Obairagency-1920w.png",
+    "image": "/Resources/images/Obairagency-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -9979,7 +9979,7 @@
     "name": "Okunade",
     "slug": "okunade",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactOkunade-1920w.png",
+    "image": "/Resources/images/WebactOkunade-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10037,7 +10037,7 @@
     "name": "Onestop Home Health Care",
     "slug": "onestop-home-health-care",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/ONESTOP-HOME-HEALTH-CARE-1920w.png",
+    "image": "/Resources/images/ONESTOP-HOME-HEALTH-CARE-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10095,7 +10095,7 @@
     "name": "Optimal Homecare",
     "slug": "optimal-homecare",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/WebactOptimal-1920w.png",
+    "image": "/Resources/images/WebactOptimal-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10153,7 +10153,7 @@
     "name": "Optimal Hospice",
     "slug": "optimal-hospice",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/Optimal-Hospice-1920w.png",
+    "image": "/Resources/images/Optimal-Hospice-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10211,7 +10211,7 @@
     "name": "Palm Bay Power Equipment",
     "slug": "palm-bay-power-equipment",
     "industry": "Energy",
-    "image": "/webact-redesign/Resources/images/palm bay power-1920w.png",
+    "image": "/Resources/images/palm bay power-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10269,7 +10269,7 @@
     "name": "Pantera Homes",
     "slug": "pantera-homes",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/panteraHomes-1920w.png",
+    "image": "/Resources/images/panteraHomes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10327,7 +10327,7 @@
     "name": "Parking Payment, Validation & Reservations",
     "slug": "parking-payment-validation-and-reservations",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Parking-Payment--Validation---Reservations.-1920w.png",
+    "image": "/Resources/images/Parking-Payment--Validation---Reservations.-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10385,7 +10385,7 @@
     "name": "ParkingBoxx",
     "slug": "parkingboxx",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/ParkingBoxx-1920w.png",
+    "image": "/Resources/images/ParkingBoxx-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10443,7 +10443,7 @@
     "name": "Partner Forces",
     "slug": "partner-forces",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactPartnerForces-1920w.png",
+    "image": "/Resources/images/WebactPartnerForces-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10501,7 +10501,7 @@
     "name": "Paw Power Agility Equipment",
     "slug": "paw-power-agility-equipment",
     "industry": "Energy",
-    "image": "/webact-redesign/Resources/images/Paw_Power_Agility_Equip-1920w.png",
+    "image": "/Resources/images/Paw_Power_Agility_Equip-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10559,7 +10559,7 @@
     "name": "Peace Of Mind Pest Services",
     "slug": "peace-of-mind-pest-services",
     "industry": "Pest Control",
-    "image": "/webact-redesign/Resources/images/Pest-Of-Mind-Pest-Services-1920w.png",
+    "image": "/Resources/images/Pest-Of-Mind-Pest-Services-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10617,7 +10617,7 @@
     "name": "Peakview Dental",
     "slug": "peakview-dental",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/Peakview-1920w.png",
+    "image": "/Resources/images/Peakview-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10675,7 +10675,7 @@
     "name": "Perthes",
     "slug": "perthes",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactPerthes-1920w.png",
+    "image": "/Resources/images/WebactPerthes-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10733,7 +10733,7 @@
     "name": "Pest Magic",
     "slug": "pest-magic",
     "industry": "Pest Control",
-    "image": "/webact-redesign/Resources/images/Pest-Magic-1920w.png",
+    "image": "/Resources/images/Pest-Magic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10791,7 +10791,7 @@
     "name": "Phase Contracting",
     "slug": "phase-contracting",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/WebactPhaseContracting-1920w.png",
+    "image": "/Resources/images/WebactPhaseContracting-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10849,7 +10849,7 @@
     "name": "Photophobic Society of America",
     "slug": "photophobic-society-of-america",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/photophobicSocietyOfAmerica-1920w.png",
+    "image": "/Resources/images/photophobicSocietyOfAmerica-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10907,7 +10907,7 @@
     "name": "Platinum Registration",
     "slug": "platinum-registration",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Platinum-Registration-1920w.png",
+    "image": "/Resources/images/Platinum-Registration-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -10965,7 +10965,7 @@
     "name": "Pompano Glass",
     "slug": "pompano-glass",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/pompanoGlass-1920w.png",
+    "image": "/Resources/images/pompanoGlass-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11023,7 +11023,7 @@
     "name": "Pork Chop's Truck and Auto",
     "slug": "pork-chop-s-truck-and-auto",
     "industry": "Automotive",
-    "image": "/webact-redesign/Resources/images/Pork-Chop-s-Truck-and-Auto-1920w.png",
+    "image": "/Resources/images/Pork-Chop-s-Truck-and-Auto-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11081,7 +11081,7 @@
     "name": "Pride & Swagger",
     "slug": "pride-and-swagger",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactPrride-Swagger-1920w.png",
+    "image": "/Resources/images/WebactPrride-Swagger-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11139,7 +11139,7 @@
     "name": "Prime Life Benefits",
     "slug": "prime-life-benefits",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/prime life benefits-1920w.png",
+    "image": "/Resources/images/prime life benefits-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11197,7 +11197,7 @@
     "name": "Prosthoodontic Dentures",
     "slug": "prosthoodontic-dentures",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/WebactProsthodontic-1920w.png",
+    "image": "/Resources/images/WebactProsthodontic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11255,7 +11255,7 @@
     "name": "Redline Construction",
     "slug": "redline-construction",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/WebactRedlineConstruction-1920w.png",
+    "image": "/Resources/images/WebactRedlineConstruction-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11313,7 +11313,7 @@
     "name": "Roof Ready",
     "slug": "roof-ready",
     "industry": "Roofing",
-    "image": "/webact-redesign/Resources/images/Roof-Ready-1920w.png",
+    "image": "/Resources/images/Roof-Ready-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11371,7 +11371,7 @@
     "name": "Roots & Brew",
     "slug": "roots-and-brew",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/WebactRoots-Brew-1920w.png",
+    "image": "/Resources/images/WebactRoots-Brew-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11429,7 +11429,7 @@
     "name": "Rostron Dental",
     "slug": "rostron-dental",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/WebactRostronDental-1920w.png",
+    "image": "/Resources/images/WebactRostronDental-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11487,7 +11487,7 @@
     "name": "Sage Restaurant",
     "slug": "sage-restaurant",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/Sage_Restaurant-1920w.png",
+    "image": "/Resources/images/Sage_Restaurant-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11545,7 +11545,7 @@
     "name": "Salinas Valley Fair",
     "slug": "salinas-valley-fair",
     "industry": "Nonprofit",
-    "image": "/webact-redesign/Resources/images/WebactSalinasCalley-1920w.png",
+    "image": "/Resources/images/WebactSalinasCalley-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11603,7 +11603,7 @@
     "name": "Signal Driving & Traffic Schools",
     "slug": "signal-driving-and-traffic-schools",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/SignalSchool-1920w.png",
+    "image": "/Resources/images/SignalSchool-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11661,7 +11661,7 @@
     "name": "Simply Cupcakes Pasadena",
     "slug": "simply-cupcakes-pasadena",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/simply-cupcakes-pasadena.png",
+    "image": "/Resources/images/simply-cupcakes-pasadena.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11719,7 +11719,7 @@
     "name": "Six Corners",
     "slug": "six-corners",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactSixCorners-1920w.png",
+    "image": "/Resources/images/WebactSixCorners-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11777,7 +11777,7 @@
     "name": "Skin Care Essentials",
     "slug": "skin-care-essentials",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/SkinCare-1920w.png",
+    "image": "/Resources/images/SkinCare-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11835,7 +11835,7 @@
     "name": "Smart Cell Phone Parts",
     "slug": "smart-cell-phone-parts",
     "industry": "Technology",
-    "image": "/webact-redesign/Resources/images/SmartCellPhoneParts-1920w.png",
+    "image": "/Resources/images/SmartCellPhoneParts-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11893,7 +11893,7 @@
     "name": "Smart Wireless Parts",
     "slug": "smart-wireless-parts",
     "industry": "Technology",
-    "image": "/webact-redesign/Resources/images/Smart-Wireless-Parts-1920w.png",
+    "image": "/Resources/images/Smart-Wireless-Parts-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -11951,7 +11951,7 @@
     "name": "Sniper Security",
     "slug": "sniper-security",
     "industry": "Security",
-    "image": "/webact-redesign/Resources/images/sniper-security.png",
+    "image": "/Resources/images/sniper-security.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12009,7 +12009,7 @@
     "name": "Southhall Investments",
     "slug": "southhall-investments",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactSouthhallInvestments-1920w.png",
+    "image": "/Resources/images/WebactSouthhallInvestments-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12067,7 +12067,7 @@
     "name": "Speak Clear Communications",
     "slug": "speak-clear-communications",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/speakClearCommunications-1920w.png",
+    "image": "/Resources/images/speakClearCommunications-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12125,7 +12125,7 @@
     "name": "Spector Law",
     "slug": "spector-law",
     "industry": "Legal",
-    "image": "/webact-redesign/Resources/images/spectorLaw-1920w.png",
+    "image": "/Resources/images/spectorLaw-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12183,7 +12183,7 @@
     "name": "Spring Fresh",
     "slug": "spring-fresh",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Spring-Fresh-1920w.png",
+    "image": "/Resources/images/Spring-Fresh-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12241,7 +12241,7 @@
     "name": "Stanleyview Home Care",
     "slug": "stanleyview-home-care",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/Stanleyview-Home-Care-1920w.png",
+    "image": "/Resources/images/Stanleyview-Home-Care-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12299,7 +12299,7 @@
     "name": "Stephanie Ascari",
     "slug": "stephanie-ascari",
     "industry": "Automotive",
-    "image": "/webact-redesign/Resources/images/Stephanie-Ascari-1920w.png",
+    "image": "/Resources/images/Stephanie-Ascari-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12357,7 +12357,7 @@
     "name": "Style Savy Designs",
     "slug": "style-savy-designs",
     "industry": "Printing & Graphics",
-    "image": "/webact-redesign/Resources/images/WebactStyleSavy-1920w.png",
+    "image": "/Resources/images/WebactStyleSavy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12415,7 +12415,7 @@
     "name": "Sukoon",
     "slug": "sukoon",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Sukoon-1920w.png",
+    "image": "/Resources/images/Sukoon-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12473,7 +12473,7 @@
     "name": "Summit Graphics",
     "slug": "summit-graphics",
     "industry": "Printing & Graphics",
-    "image": "/webact-redesign/Resources/images/summit graphics-1920w.png",
+    "image": "/Resources/images/summit graphics-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12531,7 +12531,7 @@
     "name": "Sunday Driving School",
     "slug": "sunday-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/WebactSundayDrivingSchool-1920w.png",
+    "image": "/Resources/images/WebactSundayDrivingSchool-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12589,7 +12589,7 @@
     "name": "Superior Showers",
     "slug": "superior-showers",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/superior showers-1920w.png",
+    "image": "/Resources/images/superior showers-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12647,7 +12647,7 @@
     "name": "Sushi & Co",
     "slug": "sushi-and-co",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/Sushi---Co-1920w.png",
+    "image": "/Resources/images/Sushi---Co-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12705,7 +12705,7 @@
     "name": "Tadka Indian Cuisine",
     "slug": "tadka-indian-cuisine",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/tadka boulder-1920w.png",
+    "image": "/Resources/images/tadka boulder-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12763,7 +12763,7 @@
     "name": "Tala Wellness",
     "slug": "tala-wellness",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/TalaWellness-1920w.png",
+    "image": "/Resources/images/TalaWellness-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12821,7 +12821,7 @@
     "name": "Temecula Driving School",
     "slug": "temecula-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/WebactTemecula DrivingSchool-1920w.png",
+    "image": "/Resources/images/WebactTemecula DrivingSchool-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12879,7 +12879,7 @@
     "name": "The Chambers Of Tucson Mall",
     "slug": "the-chambers-of-tucson-mall",
     "industry": "Retail",
-    "image": "/webact-redesign/Resources/images/the-chambers-of-tucson-mall.png",
+    "image": "/Resources/images/the-chambers-of-tucson-mall.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12937,7 +12937,7 @@
     "name": "The Executive Center",
     "slug": "the-executive-center",
     "industry": "Professional Services",
-    "image": "/webact-redesign/Resources/images/TheExecutiveCenter-1920w.png",
+    "image": "/Resources/images/TheExecutiveCenter-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -12995,7 +12995,7 @@
     "name": "The Point",
     "slug": "the-point",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactThePoint-1920w.png",
+    "image": "/Resources/images/WebactThePoint-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13053,7 +13053,7 @@
     "name": "The Smilist",
     "slug": "the-smilist",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactSmilist-1920w.png",
+    "image": "/Resources/images/WebactSmilist-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13111,7 +13111,7 @@
     "name": "Thompson Water Media",
     "slug": "thompson-water-media",
     "industry": "Water Treatment",
-    "image": "/webact-redesign/Resources/images/Thompson-Wate-Media-1920w.png",
+    "image": "/Resources/images/Thompson-Wate-Media-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13169,7 +13169,7 @@
     "name": "Tipping Hat",
     "slug": "tipping-hat",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/tipping hat-1920w.png",
+    "image": "/Resources/images/tipping hat-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13227,7 +13227,7 @@
     "name": "Total Wellness Group",
     "slug": "total-wellness-group",
     "industry": "Healthcare",
-    "image": "/webact-redesign/Resources/images/TotalWellnessGroup-1920w.png",
+    "image": "/Resources/images/TotalWellnessGroup-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13285,7 +13285,7 @@
     "name": "Treasure Valley Driving School",
     "slug": "treasure-valley-driving-school",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/WebactTreasureValley-1920w.png",
+    "image": "/Resources/images/WebactTreasureValley-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13343,7 +13343,7 @@
     "name": "Trevey",
     "slug": "trevey",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/trevey-1920w.png",
+    "image": "/Resources/images/trevey-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13401,7 +13401,7 @@
     "name": "Tropical Remodel Solutions",
     "slug": "tropical-remodel-solutions",
     "industry": "Home Services",
-    "image": "/webact-redesign/Resources/images/Tropical_Remodel_Solutions-1920w.png",
+    "image": "/Resources/images/Tropical_Remodel_Solutions-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13459,7 +13459,7 @@
     "name": "Turf Magic",
     "slug": "turf-magic",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Turf-Magic-1920w.png",
+    "image": "/Resources/images/Turf-Magic-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13517,7 +13517,7 @@
     "name": "US Green",
     "slug": "us-green",
     "industry": "Energy",
-    "image": "/webact-redesign/Resources/images/us green energy-1920w.png",
+    "image": "/Resources/images/us green energy-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13575,7 +13575,7 @@
     "name": "Vacation Rentals",
     "slug": "vacation-rentals",
     "industry": "Travel",
-    "image": "/webact-redesign/Resources/images/Vacation-Rentals-1920w.png",
+    "image": "/Resources/images/Vacation-Rentals-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13633,7 +13633,7 @@
     "name": "Vi'TalDerm MD",
     "slug": "vi-talderm-md",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/vitalDerm-1920w.png",
+    "image": "/Resources/images/vitalDerm-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13691,7 +13691,7 @@
     "name": "Vip Driving Schools",
     "slug": "vip-driving-schools",
     "industry": "Driving School",
-    "image": "/webact-redesign/Resources/images/Vip-Driving-Schools-1920w.png",
+    "image": "/Resources/images/Vip-Driving-Schools-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13749,7 +13749,7 @@
     "name": "Wake Heating and Air",
     "slug": "wake-heating-and-air",
     "industry": "HVAC",
-    "image": "/webact-redesign/Resources/images/Wake-Heating-and-Air-1920w.png",
+    "image": "/Resources/images/Wake-Heating-and-Air-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13807,7 +13807,7 @@
     "name": "Washington Dental",
     "slug": "washington-dental",
     "industry": "Dental",
-    "image": "/webact-redesign/Resources/images/WashingtonDental-1920w.png",
+    "image": "/Resources/images/WashingtonDental-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13865,7 +13865,7 @@
     "name": "Way Cool Gaming",
     "slug": "way-cool-gaming",
     "industry": "Technology",
-    "image": "/webact-redesign/Resources/images/Way-Cool-Gaming-1920w.png",
+    "image": "/Resources/images/Way-Cool-Gaming-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13923,7 +13923,7 @@
     "name": "Winston C Throgmorton",
     "slug": "winston-c-throgmorton",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactWinstonCThrogmorton-1920w.png",
+    "image": "/Resources/images/WebactWinstonCThrogmorton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -13981,7 +13981,7 @@
     "name": "Your College Planning Coach",
     "slug": "your-college-planning-coach",
     "industry": "Education",
-    "image": "/webact-redesign/Resources/images/You-College-Planning-Coach-1920w.png",
+    "image": "/Resources/images/You-College-Planning-Coach-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -14039,7 +14039,7 @@
     "name": "Yuma Airshow",
     "slug": "yuma-airshow",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/WebactYumaAirshow-1920w.png",
+    "image": "/Resources/images/WebactYumaAirshow-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -14097,7 +14097,7 @@
     "name": "Z-XG",
     "slug": "z-xg",
     "industry": "Business",
-    "image": "/webact-redesign/Resources/images/Z-XG-1920w.png",
+    "image": "/Resources/images/Z-XG-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -14155,7 +14155,7 @@
     "name": "Zaika Broomfield",
     "slug": "zaika-broomfield",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/zaikaBroomfield-1920w.png",
+    "image": "/Resources/images/zaikaBroomfield-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -14213,7 +14213,7 @@
     "name": "Zaika Castle Rock",
     "slug": "zaika-castle-rock",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/zaikaCastleRock-1920w.png",
+    "image": "/Resources/images/zaikaCastleRock-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -14271,7 +14271,7 @@
     "name": "Zaika Colorado Springs",
     "slug": "zaika-colorado-springs",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/zaika co springs-1920w.png",
+    "image": "/Resources/images/zaika co springs-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -14329,7 +14329,7 @@
     "name": "Zaika Express",
     "slug": "zaika-express",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/zaikaExpress-1920w.png",
+    "image": "/Resources/images/zaikaExpress-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -14387,7 +14387,7 @@
     "name": "Zaika Indian Cuisine",
     "slug": "zaika-indian-cuisine",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/ZaikaIndianCuisine-1920w.png",
+    "image": "/Resources/images/ZaikaIndianCuisine-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [
@@ -14445,7 +14445,7 @@
     "name": "Zaika Littleton",
     "slug": "zaika-littleton",
     "industry": "Restaurant",
-    "image": "/webact-redesign/Resources/images/zaikaLittleton-1920w.png",
+    "image": "/Resources/images/zaikaLittleton-1920w.png",
     "previewUrl": "",
     "liveUrl": "",
     "services": [

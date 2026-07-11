@@ -1,6 +1,6 @@
-﻿(function () {
+(function () {
   function basePath() {
-    return window.location.pathname.indexOf("/webact-redesign/") === 0 ? "/webact-redesign" : "";
+    return window.location.pathname.indexOf("/") === 0 ? "/" : "";
   }
 
   function loadHeader() {

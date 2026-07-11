@@ -1,5 +1,4 @@
-﻿
-# Local backups
+﻿# Local backups
 backup-before-*
 *-backup-*
 *.bak

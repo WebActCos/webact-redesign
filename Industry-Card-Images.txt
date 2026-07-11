@@ -1,100 +1,100 @@
 TITLE: Software Companies
-IMAGE: /webact-redesign/assets/industry-software-companies.png
-LINK: /webact-redesign/industries/../industries/software-companies/index.html
+IMAGE: /assets/industry-software-companies.png
+LINK: /industries/../industries/software-companies/index.html
 
 TITLE: Manufacturing
-IMAGE: /webact-redesign/assets/industry-manufacturing.png
-LINK: /webact-redesign/industries/../industries/manufacturing/index.html
+IMAGE: /assets/industry-manufacturing.png
+LINK: /industries/../industries/manufacturing/index.html
 
 TITLE: Industrial Services
-IMAGE: /webact-redesign/assets/industry-industrial-services.png
-LINK: /webact-redesign/industries/../industries/industrial-services/index.html
+IMAGE: /assets/industry-industrial-services.png
+LINK: /industries/../industries/industrial-services/index.html
 
 TITLE: Machinery Movers
-IMAGE: /webact-redesign/assets/industry-machinery-movers.png
-LINK: /webact-redesign/industries/../industries/machinery-movers/index.html
+IMAGE: /assets/industry-machinery-movers.png
+LINK: /industries/../industries/machinery-movers/index.html
 
 TITLE: Wholesale Distributors
-IMAGE: /webact-redesign/assets/industry-wholesale-distributors.png
-LINK: /webact-redesign/industries/../industries/wholesale-distributors/index.html
+IMAGE: /assets/industry-wholesale-distributors.png
+LINK: /industries/../industries/wholesale-distributors/index.html
 
 TITLE: Logistics
-IMAGE: /webact-redesign/assets/industry-logistics.png
-LINK: /webact-redesign/industries/../industries/logistics/index.html
+IMAGE: /assets/industry-logistics.png
+LINK: /industries/../industries/logistics/index.html
 
 TITLE: Trucking
-IMAGE: /webact-redesign/assets/industry-trucking.png
-LINK: /webact-redesign/industries/../industries/trucking/index.html
+IMAGE: /assets/industry-trucking.png
+LINK: /industries/../industries/trucking/index.html
 
 TITLE: Courier Services
-IMAGE: /webact-redesign/assets/industry-courier-services.png
-LINK: /webact-redesign/industries/../industries/courier-services/index.html
+IMAGE: /assets/industry-courier-services.png
+LINK: /industries/../industries/courier-services/index.html
 
 TITLE: Auto Repair
-IMAGE: /webact-redesign/assets/images/industry-mockups/auto-repair.png
-LINK: /webact-redesign/industries/../industries/auto-repair/index.html
+IMAGE: /assets/images/industry-mockups/auto-repair.png
+LINK: /industries/../industries/auto-repair/index.html
 
 TITLE: Tire Shops
-IMAGE: /webact-redesign/assets/industry-tire-shops.png
-LINK: /webact-redesign/industries/../industries/tire-shops/index.html
+IMAGE: /assets/industry-tire-shops.png
+LINK: /industries/../industries/tire-shops/index.html
 
 TITLE: Car Dealerships
-IMAGE: /webact-redesign/assets/images/industry-mockups/car-dealership.png
-LINK: /webact-redesign/industries/../industries/car-dealerships/index.html
+IMAGE: /assets/images/industry-mockups/car-dealership.png
+LINK: /industries/../industries/car-dealerships/index.html
 
 TITLE: Towing
-IMAGE: /webact-redesign/assets/industry-towing.png
-LINK: /webact-redesign/industries/../industries/towing/index.html
+IMAGE: /assets/industry-towing.png
+LINK: /industries/../industries/towing/index.html
 
 TITLE: Car Washes
-IMAGE: /webact-redesign/assets/industry-car-washes.png
-LINK: /webact-redesign/industries/../industries/car-washes/index.html
+IMAGE: /assets/industry-car-washes.png
+LINK: /industries/../industries/car-washes/index.html
 
 TITLE: Auto Repair
-IMAGE: /webact-redesign/assets/images/industry-mockups/auto-repair.png
-LINK: /webact-redesign/industries/../industries/car-detailing/index.html
+IMAGE: /assets/images/industry-mockups/auto-repair.png
+LINK: /industries/../industries/car-detailing/index.html
 
 TITLE: Motorcycle Dealers
-IMAGE: /webact-redesign/assets/industry-motorcycle-dealers.png
-LINK: /webact-redesign/industries/../industries/motorcycle-dealers/index.html
+IMAGE: /assets/industry-motorcycle-dealers.png
+LINK: /industries/../industries/motorcycle-dealers/index.html
 
 TITLE: Recreational Vehicles
-IMAGE: /webact-redesign/assets/industry-recreational-vehicles.png
-LINK: /webact-redesign/industries/../industries/recreational-vehicles/index.html
+IMAGE: /assets/industry-recreational-vehicles.png
+LINK: /industries/../industries/recreational-vehicles/index.html
 
 TITLE: Packaging Retail
-IMAGE: /webact-redesign/assets/industry-packaging-retail.png
-LINK: /webact-redesign/industries/../industries/packaging-retail/index.html
+IMAGE: /assets/industry-packaging-retail.png
+LINK: /industries/../industries/packaging-retail/index.html
 
 TITLE: Clothing Ecommerce
-IMAGE: /webact-redesign/assets/industry-clothing-ecommerce.png
-LINK: /webact-redesign/industries/../industries/clothing-ecommerce/index.html
+IMAGE: /assets/industry-clothing-ecommerce.png
+LINK: /industries/../industries/clothing-ecommerce/index.html
 
 TITLE: Ecommerce Stores
-IMAGE: /webact-redesign/assets/industry-ecommerce-stores.png
-LINK: /webact-redesign/industries/../industries/ecommerce-stores/index.html
+IMAGE: /assets/industry-ecommerce-stores.png
+LINK: /industries/../industries/ecommerce-stores/index.html
 
 TITLE: Fashion Boutiques
-IMAGE: /webact-redesign/assets/industry-fashion-boutiques.png
-LINK: /webact-redesign/industries/../industries/fashion-boutiques/index.html
+IMAGE: /assets/industry-fashion-boutiques.png
+LINK: /industries/../industries/fashion-boutiques/index.html
 
 TITLE: Sunglasses & Eyewear
-IMAGE: /webact-redesign/assets/images/industry-mockups/sunglasses-eyewear.png
-LINK: /webact-redesign/industries/../industries/sunglasses-eyewear/index.html
+IMAGE: /assets/images/industry-mockups/sunglasses-eyewear.png
+LINK: /industries/../industries/sunglasses-eyewear/index.html
 
 TITLE: Jewelry Stores
-IMAGE: /webact-redesign/assets/industry-jewelry-stores.png
-LINK: /webact-redesign/industries/../industries/jewelry-stores/index.html
+IMAGE: /assets/industry-jewelry-stores.png
+LINK: /industries/../industries/jewelry-stores/index.html
 
 TITLE: Furniture Stores
-IMAGE: /webact-redesign/assets/industry-furniture-stores.png
-LINK: /webact-redesign/industries/../industries/furniture-stores/index.html
+IMAGE: /assets/industry-furniture-stores.png
+LINK: /industries/../industries/furniture-stores/index.html
 
 TITLE: Home Decor
-IMAGE: /webact-redesign/assets/industry-home-decor.png
-LINK: /webact-redesign/industries/../industries/home-decor/index.html
+IMAGE: /assets/industry-home-decor.png
+LINK: /industries/../industries/home-decor/index.html
 
 TITLE: Interior Designers
-IMAGE: /webact-redesign/assets/industry-interior-designers.png
-LINK: /webact-redesign/industries/../industries/interior-designers/index.html
+IMAGE: /assets/industry-interior-designers.png
+LINK: /industries/../industries/interior-designers/index.html
 
