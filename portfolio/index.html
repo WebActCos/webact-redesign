@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WebAct Portfolio | Website Design &amp; Digital Marketing Work | WebAct</title>
+  <meta name="description" content="Learn about WebAct Portfolio | Website Design &amp; Digital Marketing Work from WebAct, including website design, SEO, AEO, digital marketing, advertising, and...">
+  <link rel="stylesheet" href="/styles.css?v=main-layout-1">
+  <link rel="stylesheet" href="/assets/css/webact-promodo-nav.css?v=main-layout-1">
+  <link rel="stylesheet" href="/assets/css/webact-footer.css?v=main-layout-1">
+
+  <style>
+    html,body{height:auto!important;overflow-x:hidden!important;overflow-y:auto!important}
+    body{margin:0}
+    .portfolio-page{background:#fff;color:#071421}
+    .portfolio-hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:92px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,.72fr);gap:48px;align-items:center}
+    .portfolio-hero h1{font-size:clamp(42px,6vw,78px);line-height:.96;margin:12px 0 22px;letter-spacing:-.05em;color:#fff}
+    .portfolio-hero p{color:#d9edf8;font-size:20px;line-height:1.6}
+    .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
+    .portfolio-proof{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 0}
+    .portfolio-proof span{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);border-radius:999px;padding:10px 14px;font-weight:800}
+    .portfolio-panel{background:rgba(255,255,255,.96);color:#071421;border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.28)}
+    .portfolio-panel h2{font-size:28px;margin:0 0 8px;color:#071421}
+    .portfolio-panel p{color:#4b5b66!important;font-size:16px;line-height:1.55}
+    .portfolio-panel strong{display:block;font-size:46px;line-height:1;color:#0c9bd2;margin:20px 0 4px}
+    .section{padding:84px min(6vw,72px)}
+    .soft{background:#f4f8fb}
+    .heading{max-width:980px;margin:0 auto 44px;text-align:center}
+    .heading .eyebrow{color:#0c9bd2}
+    .heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}
+    .heading p{font-size:18px;line-height:1.65;color:#4b5b66}
+    .portfolio-search-panel{max-width:1180px;margin:0 auto 28px;background:#fff;border:1px solid #e0ebf2;border-radius:28px;padding:28px;box-shadow:0 18px 42px rgba(7,20,33,.08)}
+    .portfolio-search-panel label{display:block;font-weight:900;font-size:22px;margin-bottom:12px}
+    .portfolio-search-panel input{width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:16px;padding:17px 18px;font:inherit;background:#fff;color:#071421}
+    .portfolio-filters{display:flex;flex-wrap:nowrap;gap:10px;justify-content:flex-start;margin:0 auto 36px;max-width:1500px;overflow-x:auto;overflow-y:hidden;padding:6px 4px 18px;scrollbar-width:thin}
+    .portfolio-filters button{border:1px solid #dcecf5;background:#fff;color:#071421;border-radius:999px;padding:11px 20px;font-weight:900;cursor:pointer;box-shadow:0 10px 24px rgba(7,20,33,.06);white-space:nowrap;flex:0 0 auto}
+    .portfolio-filters button.active,.portfolio-filters button:hover{background:#33abe1;border-color:#33abe1;color:#061421}
+    .portfolio-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1500px;margin:0 auto}
+    .portfolio-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;overflow:hidden;box-shadow:0 18px 42px rgba(7,20,33,.08);display:flex;flex-direction:column;min-height:100%;transition:.2s ease}
+    .portfolio-card:hover{transform:translateY(-3px);box-shadow:0 26px 60px rgba(7,20,33,.13);border-color:#33abe1}
+    .portfolio-card a{text-decoration:none;color:#071421}
+    .portfolio-image{height:255px;background:#dcecf5;overflow:hidden}
+    .portfolio-image img{width:100%;height:100%;object-fit:cover;display:block}
+    .portfolio-content{padding:24px;display:flex;flex-direction:column;gap:10px;flex:1}
+    .portfolio-content span{align-self:flex-start;background:#eaf8fe;color:#0c658c;border:1px solid #bfe8f7;border-radius:999px;padding:8px 12px;font-weight:900;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+    .portfolio-content h3{font-size:24px;line-height:1.12;margin:0;color:#071421}
+    .portfolio-content p{color:#4b5b66;line-height:1.65;margin:0;flex:1}
+    .portfolio-content strong{color:#0c9bd2;font-weight:900;margin-top:8px}
+    .portfolio-empty{display:none;text-align:center;color:#4b5b66;font-size:18px;margin-top:30px}
+    .final-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}
+    .final-cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}
+    .final-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+    .final-cta .hero-actions{justify-content:center}
+    .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important;transition:.2s ease;cursor:pointer}
+    .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
+    .button.secondary{background:#fff!important;border:2px solid #fff!important;color:#071421!important}
+    @media(max-width:1100px){.portfolio-hero{grid-template-columns:1fr}.portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:680px){.portfolio-hero,.section,.final-cta{padding:56px 20px}.portfolio-grid{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}.portfolio-proof span{width:100%;text-align:center}}
+  </style>
+<style id="portfolio-card-image-size-fix">
+.portfolio-card img,
+.portfolio-card-image img,
+.portfolio-grid img,
+.case-study-card img,
+.project-card img{
+  width:100%!important;
+  height:320px!important;
+  object-fit:cover!important;
+  object-position:center!important;
+  display:block!important;
+}
+
+.portfolio-card-image,
+.case-study-card-image,
+.project-card-image{
+  height:320px!important;
+  overflow:hidden!important;
+  background:#eef7fc!important;
+}
+
+@media(max-width:700px){
+  .portfolio-card img,
+  .portfolio-card-image img,
+  .portfolio-grid img,
+  .case-study-card img,
+  .project-card img,
+  .portfolio-card-image,
+  .case-study-card-image,
+  .project-card-image{
+    height:240px!important;
+  }
+}
+</style>
+<!-- WEBACT PORTFOLIO JOTFORM HERO START -->
+<style id="webact-portfolio-jotform-hero">
+.portfolio-hero {
+    align-items: center !important;
+}
+
+.portfolio-hero-copy {
+    min-width: 0;
+}
+
+.portfolio-hero-copy h1 {
+    max-width: 760px;
+}
+
+.portfolio-hero-copy > p:not(.eyebrow) {
+    max-width: 760px;
+}
+
+.portfolio-hero-form {
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 28px;
+    background: #f6f7f8;
+    box-shadow: 0 30px 80px rgba(0,0,0,.28);
+}
+
+.portfolio-hero-form .webact-shared-jotform {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 28px;
+    background: #f6f7f8;
+}
+
+.portfolio-hero-form .webact-shared-jotform iframe {
+    display: block;
+    width: 100%;
+    min-height: 940px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #f6f7f8;
+}
+
+@media (max-width: 1100px) {
+    .portfolio-hero-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .portfolio-hero-form .webact-shared-jotform iframe {
+        min-height: 1040px;
+    }
+}
+</style>
+<!-- WEBACT PORTFOLIO JOTFORM HERO END -->
+<style id="portfolio-full-image-fix">
+/* Show complete portfolio screenshots without cropping */
+.portfolio-page .portfolio-image,
+body .portfolio-image {
+  width: 100% !important;
+  height: 320px !important;
+  min-height: 320px !important;
+  max-height: 320px !important;
+  padding: 18px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  background: #eef7fc !important;
+}
+
+.portfolio-page .portfolio-image img,
+body .portfolio-image img,
+.portfolio-page .portfolio-card img,
+body .portfolio-card img,
+.portfolio-page .portfolio-grid img,
+body .portfolio-grid img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+}
+
+/* Keep the cards equal height */
+.portfolio-page .portfolio-card,
+body .portfolio-card {
+  height: 100% !important;
+}
+
+.portfolio-page .portfolio-card > a,
+body .portfolio-card > a {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.portfolio-page .portfolio-content,
+body .portfolio-content {
+  flex: 1 1 auto !important;
+}
+
+@media (max-width: 700px) {
+  .portfolio-page .portfolio-image,
+  body .portfolio-image {
+    height: 250px !important;
+    min-height: 250px !important;
+    max-height: 250px !important;
+    padding: 12px !important;
+  }
+}
+</style>
+  <link rel="canonical" href="https://www.webact.com/portfolio">
+  <meta property="og:title" content="WebAct Portfolio | Website Design &amp; Digital Marketing Work | WebAct">
+  <meta property="og:description" content="Learn about WebAct Portfolio | Website Design &amp; Digital Marketing Work from WebAct, including website design, SEO, AEO, digital marketing, advertising, and...">
+  <meta property="og:url" content="https://www.webact.com/portfolio">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WebAct Portfolio | Website Design &amp; Digital Marketing Work | WebAct">
+  <meta name="twitter:description" content="Learn about WebAct Portfolio | Website Design &amp; Digital Marketing Work from WebAct, including website design, SEO, AEO, digital marketing, advertising, and...">
+
+<!-- WebAct legacy URL compatibility page. Exact URL: https://www.webact.com/portfolio -->
+</head>
+
+<body>
+<div id="webact-header"></div>
+
+<main>
+  <section class="portfolio-hero">
+    <div class="portfolio-hero-copy">
+        <p class="eyebrow">WebAct Portfolio</p>
+
+        <h1>Top 250 Website Designs</h1>
+
+        <p>
+            Browse WebAct's top website design examples by business name,
+            service type, or industry.
+        </p>
+
+        <div class="hero-actions">
+            <a class="button primary" href="#portfolio-work">
+                View Portfolio
+            </a>
+
+            <a
+                class="button secondary"
+                href="/contact/index.html">
+                Start a Project
+            </a>
+        </div>
+
+        <div class="portfolio-proof">
+            <span>Website Design</span>
+            <span>SEO Ready</span>
+            <span>Industry Examples</span>
+            <span>Case Studies</span>
+        </div>
+    </div>
+
+    <div class="portfolio-hero-form">
+        <div class="webact-shared-jotform">
+            <iframe
+                id="JotFormIFrame-261900782842056"
+                title="Start a Project"
+                src="https://form.jotform.com/261900782842056"
+                frameborder="0"
+                scrolling="no"
+                allow="geolocation; microphone; camera; fullscreen; payment"
+                style="width:100%;min-height:940px;border:0;">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+  <section class="section" id="portfolio-work">
+    <div class="heading">
+      <p class="eyebrow">Portfolio Search</p>
+      <h2>Search our top 250 website designs.</h2>
+      <p>Search by company, industry, or business type. Use the horizontal filter bar to quickly browse examples by category.</p>
+    </div>
+
+    <div class="portfolio-search-panel">
+      <label for="portfolio-search">Search portfolio</label>
+      <input id="portfolio-search" type="search" placeholder="Search restaurant, dental, roofing, legal, ecommerce, healthcare...">
+    </div>
+
+    <div class="portfolio-filters" id="portfolio-filters"></div>
+    <div class="portfolio-grid" id="portfolio-grid"></div>
+    <p class="portfolio-empty" id="portfolio-empty">No matching portfolio projects found.</p>
+  </section>
+
+  <section class="final-cta">
+    <h2>Ready to build a stronger website?</h2>
+    <p>WebAct can help with website design, SEO, advertising, landing pages, local marketing, and ongoing website support.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="/contact/index.html">Contact WebAct</a>
+      <a class="button secondary" href="/design/index.html">View Design Services</a>
+    </div>
+  </section>
+</main>
+
+<div id="webact-footer"></div>
+
+<script src="/assets/js/portfolio-data-all.js"></script>
+<script>
+(function(){
+  const rows = window.webactPortfolioRows || [];
+  const grid = document.getElementById('portfolio-grid');
+  const filters = document.getElementById('portfolio-filters');
+  const search = document.getElementById('portfolio-search');
+  const empty = document.getElementById('portfolio-empty');
+  const count = document.getElementById('portfolio-count');
+  let active = 'All';
+
+  function slugify(text){
+    return String(text || '')
+      .toLowerCase()
+      .replace(/&/g,'and')
+      .replace(/[^a-z0-9]+/g,'-')
+      .replace(/^-+|-+$/g,'');
+  }
+
+  function description(name, category){
+    return 'Explore this ' + category.toLowerCase() + ' website design example from the WebAct portfolio, focused on clear presentation, mobile-friendly layouts, and stronger online presence.';
+  }
+
+  function card(row){
+    const name = row[0] || 'Portfolio Project';
+    const category = row[1] || 'Business';
+    const image = row[2] || '/Resources/images/placeholder.png';
+    const url = row[3] || ('/about/portfolio/case-study.html?project=' + slugify(name));
+
+    const article = document.createElement('article');
+    article.className = 'portfolio-card';
+    article.dataset.category = category;
+    article.dataset.search = (name + ' ' + category).toLowerCase();
+
+    article.innerHTML =
+      '<a href="' + url + '">' +
+        '<div class="portfolio-image"><img loading="lazy" src="' + image + '" alt="WebAct Portfolio | Website Design &amp; Digital Marketing Work" + name.replace(/"/g,'&quot;') + '"></div>' +
+        '<div class="portfolio-content">' +
+          '<span>' + category + '</span>' +
+          '<h3>' + name + '</h3>' +
+          '<p>' + description(name, category) + '</p>' +
+          '<strong>View Case Study</strong>' +
+        '</div>' +
+      '</a>';
+
+    return article;
+  }
+
+  function renderFilters(){
+    const cats = Array.from(new Set(rows.map(r => r[1] || 'Business'))).sort();
+    filters.innerHTML = '';
+    ['All'].concat(cats).forEach(cat => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = cat;
+      btn.className = cat === active ? 'active' : '';
+      btn.addEventListener('click', function(){
+        active = cat;
+        renderFilters();
+        apply();
+      });
+      filters.appendChild(btn);
+    });
+  }
+
+  function renderCards(){
+    grid.innerHTML = '';
+    rows.forEach(row => grid.appendChild(card(row)));
+    if(count) count.textContent = rows.length.toLocaleString();
+  }
+
+  function apply(){
+    const q = (search.value || '').trim().toLowerCase();
+    let shown = 0;
+
+    Array.from(grid.children).forEach(card => {
+      const matchText = !q || card.dataset.search.includes(q);
+      const matchCat = active === 'All' || card.dataset.category === active;
+      const show = matchText && matchCat;
+      card.style.display = show ? '' : 'none';
+      if(show) shown++;
+    });
+
+    empty.style.display = shown ? 'none' : 'block';
+  }
+
+  renderCards();
+  renderFilters();
+  apply();
+
+  search.addEventListener('input', apply);
+})();
+</script>
+
+<script src="/script.js?v=main-layout-1"></script>
+<script src="/assets/js/routes.js?v=main-layout-1"></script>
+<script src="/assets/js/navigation.js?v=main-layout-1"></script>
+<script src="/assets/js/includes.js?v=main-layout-1"></script>
+<script id="portfolio-override-merge">
+(function(){
+  function getData(){
+    return window.webactPortfolioMasterData || window.portfolioData || window.webactPortfolioData || [];
+  }
+
+  const data = getData();
+  const overrides = window.webactPortfolioOverrides || {};
+
+  if (!Array.isArray(data)) return;
+
+  Object.keys(overrides).forEach(function(company){
+    const override = overrides[company];
+
+    const item = data.find(function(p){
+      return p.name === company || p.company === company || p.title === company;
+    });
+
+    if (item) Object.assign(item, override);
+  });
+})();
+</script>
+
+
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    if (window.jotformEmbedHandler) {
+        window.jotformEmbedHandler(
+            "iframe[id^='JotFormIFrame-']",
+            "https://form.jotform.com/"
+        );
+    }
+});
+</script>
+</body>
+</html>
