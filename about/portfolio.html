@@ -334,18 +334,44 @@ body .portfolio-content {
     article.dataset.category = category;
     article.dataset.search = (name + ' ' + category).toLowerCase();
 
-    article.innerHTML =
-      '<a href="' + url + '">' +
-        '<div class="portfolio-image"><img loading="lazy" src="' + image + '" alt="WebAct Portfolio | Website Design &amp; Digital Marketing Work" + name.replace(/"/g,'&quot;') + '"></div>' +
-        '<div class="portfolio-content">' +
-          '<span>' + category + '</span>' +
-          '<h3>' + name + '</h3>' +
-          '<p>' + description(name, category) + '</p>' +
-          '<strong>View Case Study</strong>' +
-        '</div>' +
-      '</a>';
+    const link = document.createElement('a');
+link.href = url;
 
-    return article;
+const imageWrap = document.createElement('div');
+imageWrap.className = 'portfolio-image';
+
+const img = document.createElement('img');
+img.loading = 'lazy';
+img.src = image;
+img.alt = name + ' ' + category + ' website design by WebAct';
+
+imageWrap.appendChild(img);
+
+const contentWrap = document.createElement('div');
+contentWrap.className = 'portfolio-content';
+
+const badge = document.createElement('span');
+badge.textContent = category;
+
+const heading = document.createElement('h3');
+heading.textContent = name;
+
+const paragraph = document.createElement('p');
+paragraph.textContent = description(name, category);
+
+const callToAction = document.createElement('strong');
+callToAction.textContent = 'View Case Study';
+
+contentWrap.appendChild(badge);
+contentWrap.appendChild(heading);
+contentWrap.appendChild(paragraph);
+contentWrap.appendChild(callToAction);
+
+link.appendChild(imageWrap);
+link.appendChild(contentWrap);
+article.appendChild(link);
+
+return article;
   }
 
   function renderFilters(){
