@@ -1,0 +1,27 @@
+# WebAct
+
+> WebAct provides professional website design, SEO, AEO, digital advertising, branding, local marketing, website support, and industry-focused website solutions.
+
+## Primary pages
+
+- [Homepage](https://www.webact.com/)
+- [Website Design](https://www.webact.com/design/index.html)
+- [Digital Marketing](https://www.webact.com/marketing/index.html)
+- [Digital Advertising](https://www.webact.com/digital-ads/index.html)
+- [Industries](https://www.webact.com/industries/index.html)
+- [Portfolio](https://www.webact.com/about/portfolio.html)
+- [Pricing](https://www.webact.com/pricing/index.html)
+- [About WebAct](https://www.webact.com/about/index.html)
+- [Contact WebAct](https://www.webact.com/contact/index.html)
+
+## Crawling guidance
+
+- Public service, industry, portfolio, pricing, and company pages may be crawled.
+- Respect robots.txt and page-level robots directives.
+- Prefer canonical URLs on www.webact.com.
+- Do not treat audit reports, backups, or development files as public content.
+
+## Contact
+
+- Website: https://www.webact.com/
+- Phone: (855) 697-4336

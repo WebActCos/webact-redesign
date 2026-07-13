@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --blue: #30aee9;
   --blue-dark: #0878b8;
   --ink: #06111d;
@@ -5522,3 +5522,60 @@ body:not(.wa-homepage) .button.secondary:hover,
     width:100%;
   }
 }
+/* WEBACT ACCESSIBILITY FIX START */
+
+/* Screen-reader-only text for icon-only controls and links. */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Darker blue provides stronger text contrast on white backgrounds. */
+a,
+.eyebrow,
+.portfolio-card-v2 span,
+.service-card-v2 span:last-child {
+  text-decoration-thickness: .08em;
+  text-underline-offset: .16em;
+}
+
+.wa-section-soft a:not(.button),
+.portfolio-card-v2 a,
+.portfolio-card-v2 span,
+.service-card-v2 span:last-child,
+.wa-heading-v2 .eyebrow {
+  color: #006f9f;
+}
+
+/* Reserve shared include space to reduce layout movement. */
+#webact-header {
+  min-height: 88px;
+}
+
+#webact-footer {
+  min-height: 360px;
+}
+
+img,
+iframe {
+  max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  #webact-header {
+    min-height: 72px;
+  }
+
+  #webact-footer {
+    min-height: 520px;
+  }
+}
+
+/* WEBACT ACCESSIBILITY FIX END */
