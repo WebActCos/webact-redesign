@@ -1,6 +1,47 @@
 (function () {
   "use strict";
 
+  var GTM_CONTAINER_ID = "GTM-K7M67ZZ7";
+
+  function installGoogleTagManager() {
+    if (!document.getElementById("webact-gtm-script")) {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js"
+      });
+
+      var firstScript = document.getElementsByTagName("script")[0];
+      var gtmScript = document.createElement("script");
+      gtmScript.id = "webact-gtm-script";
+      gtmScript.async = true;
+      gtmScript.src =
+        "https://www.googletagmanager.com/gtm.js?id=" +
+        encodeURIComponent(GTM_CONTAINER_ID);
+
+      if (firstScript && firstScript.parentNode) {
+        firstScript.parentNode.insertBefore(gtmScript, firstScript);
+      } else {
+        document.head.appendChild(gtmScript);
+      }
+    }
+
+    if (!document.getElementById("webact-gtm-noscript")) {
+      var noScript = document.createElement("noscript");
+      noScript.id = "webact-gtm-noscript";
+      noScript.innerHTML =
+        '<iframe src="https://www.googletagmanager.com/ns.html?id=' +
+        GTM_CONTAINER_ID +
+        '" height="0" width="0" style="display:none;visibility:hidden"></iframe>';
+
+      if (document.body.firstChild) {
+        document.body.insertBefore(noScript, document.body.firstChild);
+      } else {
+        document.body.appendChild(noScript);
+      }
+    }
+  }
+
   function loadInclude(targetId, filePath) {
     var target = document.getElementById(targetId);
 
@@ -27,6 +68,8 @@
   }
 
   function initializeIncludes() {
+    installGoogleTagManager();
+
     Promise.all([
       loadInclude("webact-header", "/includes/header.html"),
       loadInclude("webact-footer", "/includes/footer.html")
