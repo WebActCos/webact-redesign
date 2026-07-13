@@ -2,6 +2,37 @@
   "use strict";
 
   var GTM_CONTAINER_ID = "GTM-K7M67ZZ7";
+  var FAVICON_PATH = "/images/logo-original.png";
+
+  function installFavicon() {
+    var faviconLinks = [
+      { rel: "icon", type: "image/png", sizes: "32x32" },
+      { rel: "shortcut icon", type: "image/png" },
+      { rel: "apple-touch-icon", sizes: "180x180" }
+    ];
+
+    faviconLinks.forEach(function (config) {
+      var selector = 'link[rel="' + config.rel + '"][data-webact-favicon="true"]';
+      var link = document.head.querySelector(selector);
+
+      if (!link) {
+        link = document.createElement("link");
+        link.rel = config.rel;
+        link.setAttribute("data-webact-favicon", "true");
+        document.head.appendChild(link);
+      }
+
+      link.href = FAVICON_PATH;
+
+      if (config.type) {
+        link.type = config.type;
+      }
+
+      if (config.sizes) {
+        link.sizes = config.sizes;
+      }
+    });
+  }
 
   function installGoogleTagManager() {
     if (!document.getElementById("webact-gtm-script")) {
@@ -68,6 +99,7 @@
   }
 
   function initializeIncludes() {
+    installFavicon();
     installGoogleTagManager();
 
     Promise.all([
