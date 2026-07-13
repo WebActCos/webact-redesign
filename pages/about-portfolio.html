@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Top 250 Website Designs | WebAct Portfolio</title>
-<meta name="description" content="Explore WebAct top 250 website designs and portfolio case studies by company, industry, services, features, and technology.">
-<link rel="canonical" href="https://www.webact.com/about/portfolio/">
+<title>Top 250 Website Designs | WebAct</title>
+<meta name="description" content="Learn about Top 250 Website Designs from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
+<link rel="canonical" href="https://www.webact.com/pages/about-portfolio.html">
 <style>
 .portfolio-toolbar-refined{align-items:flex-start}
 .portfolio-search-stack{display:flex;flex-direction:column;gap:12px;align-items:flex-end;min-width:min(100%,460px)}
@@ -18,6 +18,14 @@
 <link rel="stylesheet" href="../css/navigation.css">
 <link rel="stylesheet" href="../css/footer.css">
 <link rel="stylesheet" href="../css/portfolio-premium.css">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Top 250 Website Designs | WebAct">
+  <meta property="og:description" content="Learn about Top 250 Website Designs from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
+  <meta property="og:url" content="https://www.webact.com/pages/about-portfolio.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Top 250 Website Designs | WebAct">
+  <meta name="twitter:description" content="Learn about Top 250 Website Designs from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
 </head>
 <body class="portfolio-page">
 <div id="webact-header"></div>
@@ -174,11 +182,11 @@ function randomSample(items,count){
 }
 const featuredPool=projects.filter(p=>p.featured);
 const featuredProjects=randomSample(featuredPool.length>=3?featuredPool:projects,3);
-featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Selected Work</p></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="about-portfolio-case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
+featured.innerHTML='<div class="featured-heading"><p class="eyebrow">Selected Work</p></div><div class="featured-grid">'+featuredProjects.map(p=>'<a class="featured-card" href="about-portfolio-case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.img)+'" alt="Top 250 Website Designs by WebAct'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p></div></a>').join('')+'</div>';
 
 function searchableText(p){return [p.name,p.industry,(p.services||[]).join(' '),(p.features||[]).join(' '),(p.technologies||[]).join(' '),p.desc].join(' ').toLowerCase();}
 function cardHtml(p,index){
-  const img=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';
+  const img=p.img?'<img src="'+esc(p.img)+'" alt="Top 250 Website Designs by WebAct'+esc(p.name)+' website design screenshot" loading="lazy">':'<span class="portfolio-fallback">'+esc(p.name)+'</span>';
   return '<article class="portfolio-card is-visible" data-title="'+esc(searchableText(p))+'" data-industry="'+esc(p.industry)+'"><a href="about-portfolio-case-study.html?project='+esc(p.slug)+'"><div class="portfolio-browser"><div class="browser-bar"><i class="browser-dot"></i><i class="browser-dot"></i><i class="browser-dot"></i><span class="browser-url">webact portfolio</span></div><div class="portfolio-thumb">'+img+'</div></div><div class="portfolio-card-body"><div class="portfolio-meta"><span>'+esc(p.industry)+'</span></div><h3>'+esc(p.name)+'</h3><p>'+esc(p.desc)+'</p><div class="portfolio-actions"><strong>View Case Study</strong></div></div></a></article>';
 }
 grid.innerHTML=projects.map(cardHtml).join('');

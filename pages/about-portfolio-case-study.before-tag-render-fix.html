@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WebAct Portfolio Case Study</title>
-<meta name="description" content="Explore this WebAct website design case study with project overview, services, industry details, and related portfolio work.">
-<link rel="canonical" href="https://www.webact.com/about/portfolio/case-study.html">
-<meta property="og:type" content="article">
-<meta property="og:title" content="WebAct Portfolio Case Study">
-<meta property="og:description" content="Explore this WebAct website design case study from WebAct.">
-<meta property="og:url" content="https://www.webact.com/about/portfolio/case-study.html">
+<title>Case study not found | WebAct</title>
+<meta name="description" content="Learn about Case study not found from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
+<link rel="canonical" href="https://www.webact.com/pages/about-portfolio-case-study.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Case study not found | WebAct">
+<meta property="og:description" content="Learn about Case study not found from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
+<meta property="og:url" content="https://www.webact.com/pages/about-portfolio-case-study.html">
 <meta property="og:image" content="https://www.webact.com/assets/images/webact-logo.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="WebAct Portfolio Case Study">
-<meta name="twitter:description" content="Explore this WebAct website design case study from WebAct.">
+<meta name="twitter:title" content="Case study not found | WebAct">
+<meta name="twitter:description" content="Learn about Case study not found from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
 <meta name="twitter:image" content="https://www.webact.com/assets/images/webact-logo.png">
 <link rel="stylesheet" href="../styles.css?v=reviews-layout-fix">
 <style>
@@ -43,6 +43,7 @@
 <link rel="stylesheet" href="../css/navigation.css">
 <link rel="stylesheet" href="../css/footer.css">
 <link rel="stylesheet" href="../css/portfolio-premium.css">
+  <meta name="robots" content="noindex,follow">
 </head>
 <body>
 <div id="webact-header"></div>
@@ -59,7 +60,7 @@
 
 
 <div id="case-root"></div>
-<div class="lightbox" id="image-lightbox"><button type="button" id="lightbox-close">Close</button><img id="lightbox-image" src="" alt=""></div>
+<div class="lightbox" id="image-lightbox"><button type="button" id="lightbox-close">Close</button><img id="lightbox-image" src="" alt="Case study not found by WebAct" loading="eager"></div>
 <div id="webact-footer"></div>
 
 
@@ -198,7 +199,7 @@ function score(a,b){
 function relatedCards(project){
   return projects.filter(p=>p.name!==project.name).map(p=>({project:p,score:score(project,p)})).sort((a,b)=>b.score-a.score).slice(0,3).map(item=>{
     const p=item.project;
-    return '<a class="related-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.image)+'" alt="'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3></div></a>';
+    return '<a class="related-card" href="./case-study.html?project='+esc(p.slug)+'"><img src="'+esc(p.image)+'" alt="Case study not found by WebAct'+esc(p.name)+' website design screenshot" loading="lazy"><div><span>'+esc(p.industry)+'</span><h3>'+esc(p.name)+'</h3></div></a>';
   }).join('');
 }
 function updateHead(p){
@@ -229,8 +230,8 @@ function render(){
   updateHead(p);addJsonLd(p);
   root.innerHTML=
     '<nav class="breadcrumbs"><a href="../index.html">Home</a> / <a href="/index.html">Top 250 Website Designs</a> / <span>'+esc(p.name)+'</span></nav>'+
-    '<section class="case-hero"><div class="case-hero-inner"><div><p class="eyebrow">'+esc(p.industry)+' Website Design Case Study</p><h1>'+esc(p.name)+'</h1><p>'+esc(p.override.hero||p.description)+'</p><div class="hero-actions"><a class="btn btn-primary" href="/contact/index.html">'+esc(cta[2])+'</a><a class="btn btn-secondary" href="/index.html">Back to Top 250 Designs</a></div></div><aside class="stats-panel"><h2>Project Snapshot</h2><div class="stat-list"><div class="stat"><span>Industry</span><strong>'+esc(p.industry)+'</strong></div><div class="stat"><span>Services</span><strong>'+esc((p.services||[]).slice(0,4).join(', '))+'</strong></div><div class="stat"><span>Collection</span><strong>Top 250 Website Designs</strong></div></div></aside></div></section>'+
-    '<main class="case-main"><div class="device-tools"><button type="button" id="open-lightbox">View Full Screenshot</button></div><div class="browser-showcase" id="device-preview"><div class="browser-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="browser-url">'+esc(p.name)+' website design preview</span></div><div class="hero-image"><img id="main-shot" src="'+esc(p.image)+'" alt="'+esc(p.name)+' website design screenshot"></div></div>'+
+    '<section class="case-hero"><div class="case-hero-inner"><div><p class="eyebrow">'+esc(p.industry)+' Website Design Case Study</p><h2>'+esc(p.name)+'</h2><p>'+esc(p.override.hero||p.description)+'</p><div class="hero-actions"><a class="btn btn-primary" href="/contact/index.html">'+esc(cta[2])+'</a><a class="btn btn-secondary" href="/index.html">Back to Top 250 Designs</a></div></div><aside class="stats-panel"><h2>Project Snapshot</h2><div class="stat-list"><div class="stat"><span>Industry</span><strong>'+esc(p.industry)+'</strong></div><div class="stat"><span>Services</span><strong>'+esc((p.services||[]).slice(0,4).join(', '))+'</strong></div><div class="stat"><span>Collection</span><strong>Top 250 Website Designs</strong></div></div></aside></div></section>'+
+    '<main class="case-main"><div class="device-tools"><button type="button" id="open-lightbox">View Full Screenshot</button></div><div class="browser-showcase" id="device-preview"><div class="browser-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="browser-url">'+esc(p.name)+' website design preview</span></div><div class="hero-image"><img id="main-shot" src="'+esc(p.image)+'" alt="Case study not found by WebAct'+esc(p.name)+' website design screenshot" loading="lazy"></div></div>'+
     '<div class="case-grid"><section><article class="section-card"><h2>Business Overview</h2><p>'+esc(sections.overview)+'</p></article>'+
     '<article class="section-card"><h2>Website Goals</h2><p>'+esc(sections.goals)+'</p><div class="split-blocks"><div class="mini-block"><strong>Visitor Experience</strong><p>'+esc(sections.experience)+'</p></div><div class="mini-block"><strong>Design Highlights</strong><p>'+esc(sections.highlights)+'</p></div><div class="mini-block"><strong>Results & Benefits</strong><p>'+esc(sections.benefits)+'</p></div></div></article>'+
     '<article class="section-card"><h2>Industry Challenges</h2><p>'+esc(sections.challenges)+'</p><div class="split-blocks"><div class="mini-block"><strong>Why This Design Works</strong><p>'+esc(sections.why)+'</p></div><div class="mini-block"><strong>CTA Strategy</strong><p>'+esc(cta[1])+'</p></div><div class="mini-block"><strong>Growth Support</strong><p>Internal links, SEO-friendly structure, and clean content help this page support broader marketing goals.</p></div></div></article>'+

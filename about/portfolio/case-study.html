@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio Case Study | WebAct</title>
-  <meta name="description" content="View a WebAct website design, SEO, marketing, and advertising case study.">
+  <title>Website Design Case Study | WebAct</title>
+  <meta name="description" content="Learn about Website Design Case Study from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
   <link rel="stylesheet" href="/styles.css?v=main-layout-1">
   <link rel="stylesheet" href="/assets/css/webact-promodo-nav.css?v=main-layout-1">
   <link rel="stylesheet" href="/assets/css/webact-footer.css?v=main-layout-1">
@@ -62,14 +62,15 @@
   .case-overview-grid,.strategy-grid,.seo-grid,.marketing-grid,.results-grid{grid-template-columns:1fr}
 }
 </style>
-  <link rel="canonical" href="https://co.webact.com/about/portfolio/case-study">
-  <meta property="og:title" content="Portfolio Case Study | WebAct">
-  <meta property="og:description" content="View a WebAct website design, SEO, marketing, and advertising case study.">
-  <meta property="og:url" content="https://co.webact.com/about/portfolio/case-study">
+  <link rel="canonical" href="https://www.webact.com/about/portfolio/case-study.html">
+  <meta property="og:title" content="Website Design Case Study | WebAct">
+  <meta property="og:description" content="Learn about Website Design Case Study from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
+  <meta property="og:url" content="https://www.webact.com/about/portfolio/case-study.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Portfolio Case Study | WebAct">
-  <meta name="twitter:description" content="View a WebAct website design, SEO, marketing, and advertising case study.">
+  <meta name="twitter:title" content="Website Design Case Study | WebAct">
+  <meta name="twitter:description" content="Learn about Website Design Case Study from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
+  <meta name="robots" content="index,follow">
 </head>
 <body>
 <div id="webact-header"></div>
@@ -84,7 +85,7 @@
         <a class="button secondary" href="/about/portfolio.html">Back to Portfolio</a>
       </div>
     </div>
-    <div class="case-media"><img id="case-image" src="/Resources/images/placeholder.png" alt="WebAct portfolio project"></div>
+    <div class="case-media"><img id="case-image" src="/Resources/images/placeholder.png" alt="WebAct portfolio project" loading="eager" width="2000" height="2000"></div>
   </section>
   <div id="case-sections"></div>
   <section class="case-section alt">
@@ -218,7 +219,7 @@
   document.getElementById("related-intro").textContent = "Browse additional WebAct portfolio examples related to " + c.industry.toLowerCase() + " websites and similar business categories.";
   const relatedGrid = document.getElementById("related-grid");
   relatedGrid.innerHTML = c.related.map(function(r){
-    return '<a class="related-card" href="/about/portfolio/case-study.html?project='+engine.slugify(r[0])+'"><img src="'+r[2]+'" alt="Portfolio Case Study"+r[0]+' website design"><span>'+r[1]+'</span><h3>'+r[0]+'</h3></a>';
+    return '<a class="related-card" href="/about/portfolio/case-study.html?project='+engine.slugify(r[0])+'"><img src="'+r[2]+'" alt="Portfolio Case Study"+r[0]+' website design" loading="lazy"><span>'+r[1]+'</span><h3>'+r[0]+'</h3></a>';
   }).join("") || '<p style="grid-column:1/-1;color:#4b5b66;font-size:18px;text-align:center">More related projects will be added soon.</p>';
 
   document.getElementById("cta-title").textContent = "Need a " + c.industry.toLowerCase() + " website like " + c.name + "?";
