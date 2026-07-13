@@ -4,10 +4,10 @@
       <img src="/images/logo-original.png" alt="WebAct" class="webact-logo" loading="eager" width="2000" height="2000">
     </a>
 
-    <ul class="wa-promodo-menu" data-wa-menu>
+    <ul class="wa-promodo-menu" id="wa-primary-menu" data-wa-menu>
       <li class="wa-promodo-item">
-        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-design">Design</button>
-        <div class="wa-promodo-mega" id="wa-mega-design">
+        <button class="wa-promodo-link" id="wa-menu-design-button" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="wa-mega-design">Design</button>
+        <div class="wa-promodo-mega" id="wa-mega-design" role="region" aria-labelledby="wa-menu-design-button" aria-hidden="true" inert>
           <div class="wa-promodo-mega-inner">
             <div>
               <p class="wa-promodo-mega-kicker">WebAct Design</p>
@@ -28,8 +28,8 @@
       </li>
 
       <li class="wa-promodo-item">
-        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-digital-ads">Digital Advertising</button>
-        <div class="wa-promodo-mega" id="wa-mega-digital-ads">
+        <button class="wa-promodo-link" id="wa-menu-digital-ads-button" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="wa-mega-digital-ads">Digital Advertising</button>
+        <div class="wa-promodo-mega" id="wa-mega-digital-ads" role="region" aria-labelledby="wa-menu-digital-ads-button" aria-hidden="true" inert>
           <div class="wa-promodo-mega-inner">
             <div>
               <p class="wa-promodo-mega-kicker">WebAct Digital Advertising</p>
@@ -50,8 +50,8 @@
       </li>
 
       <li class="wa-promodo-item">
-        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-marketing">Marketing</button>
-        <div class="wa-promodo-mega" id="wa-mega-marketing">
+        <button class="wa-promodo-link" id="wa-menu-marketing-button" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="wa-mega-marketing">Marketing</button>
+        <div class="wa-promodo-mega" id="wa-mega-marketing" role="region" aria-labelledby="wa-menu-marketing-button" aria-hidden="true" inert>
           <div class="wa-promodo-mega-inner">
             <div>
               <p class="wa-promodo-mega-kicker">WebAct Marketing</p>
@@ -72,8 +72,8 @@
       </li>
 
       <li class="wa-promodo-item">
-        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-about">About</button>
-        <div class="wa-promodo-mega" id="wa-mega-about">
+        <button class="wa-promodo-link" id="wa-menu-about-button" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="wa-mega-about">About</button>
+        <div class="wa-promodo-mega" id="wa-mega-about" role="region" aria-labelledby="wa-menu-about-button" aria-hidden="true" inert>
           <div class="wa-promodo-mega-inner">
             <div>
               <p class="wa-promodo-mega-kicker">WebAct About</p>
@@ -96,8 +96,8 @@
       </li>
 
       <li class="wa-promodo-item">
-        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-pricing">Pricing</button>
-        <div class="wa-promodo-mega" id="wa-mega-pricing">
+        <button class="wa-promodo-link" id="wa-menu-pricing-button" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="wa-mega-pricing">Pricing</button>
+        <div class="wa-promodo-mega" id="wa-mega-pricing" role="region" aria-labelledby="wa-menu-pricing-button" aria-hidden="true" inert>
   <div class="wa-promodo-mega-inner">
 
     <div>
@@ -155,8 +155,8 @@
       </li>
 
       <li class="wa-promodo-item">
-        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-industries">Industries</button>
-        <div class="wa-promodo-mega" id="wa-mega-industries">
+        <button class="wa-promodo-link" id="wa-menu-industries-button" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="wa-mega-industries">Industries</button>
+        <div class="wa-promodo-mega" id="wa-mega-industries" role="region" aria-labelledby="wa-menu-industries-button" aria-hidden="true" inert>
           <div class="wa-promodo-mega-inner">
             <div>
               <p class="wa-promodo-mega-kicker">WebAct Industries</p>
@@ -226,8 +226,8 @@
       </li>
 
             <li class="wa-promodo-item">
-        <button class="wa-promodo-link" type="button" aria-expanded="false" aria-controls="wa-mega-addons">Add-ons</button>
-        <div class="wa-promodo-mega" id="wa-mega-addons">
+        <button class="wa-promodo-link" id="wa-menu-addons-button" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="wa-mega-addons">Add-ons</button>
+        <div class="wa-promodo-mega" id="wa-mega-addons" role="region" aria-labelledby="wa-menu-addons-button" aria-hidden="true" inert>
           <div class="wa-promodo-mega-inner">
             <div>
               <p class="wa-promodo-mega-kicker">WebAct Add-ons</p>
@@ -253,7 +253,7 @@
 
     <div class="wa-promodo-actions">
       <a class="wa-promodo-cta" href="/contact/index.html">Get Started</a>
-      <button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-wa-menu-toggle>
+      <button class="wa-promodo-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="wa-primary-menu" data-wa-menu-toggle>
         <span></span>
       </button>
     </div>

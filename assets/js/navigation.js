@@ -1,10 +1,29 @@
-﻿(function () {
+(function () {
   "use strict";
 
   function getHeader() {
     return document.querySelector("[data-wa-nav]");
   }
 
+
+  function setMegaPanelState(button, isOpen) {
+    if (!button) return;
+
+    var panelId = button.getAttribute("aria-controls");
+    var panel = panelId ? document.getElementById(panelId) : null;
+
+    button.setAttribute("aria-expanded", isOpen ? "true" : "false");
+
+    if (!panel) return;
+
+    panel.setAttribute("aria-hidden", isOpen ? "false" : "true");
+
+    if (isOpen) {
+      panel.removeAttribute("inert");
+    } else {
+      panel.setAttribute("inert", "");
+    }
+  }
   function closeAllMegaMenus(header) {
     if (!header) return;
 
@@ -67,7 +86,7 @@
 
     if (!wasOpen) {
       item.classList.add("wa-open");
-      button.setAttribute("aria-expanded", "true");
+      setMegaPanelState(button, true);
     }
   }
 
@@ -90,6 +109,10 @@
     if (!header) return;
 
     setActiveNavigation(header);
+
+    header.querySelectorAll(".wa-promodo-link[aria-controls]").forEach(function (button) {
+      setMegaPanelState(button, false);
+    });
   }
 
   /*

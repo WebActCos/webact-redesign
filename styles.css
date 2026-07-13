@@ -5179,7 +5179,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .page-card a::after{
-  content:" â†’";
+  content:" Ã¢â€ â€™";
 }
 
 /* Dark connected strategy CTA bands */
@@ -5283,7 +5283,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .benefit-grid li::before{
-  content:"âœ“";
+  content:"Ã¢Å“â€œ";
   position:absolute;
   left:0;
   top:0;
@@ -5379,7 +5379,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .detail-list span::before{
-  content:"âœ“";
+  content:"Ã¢Å“â€œ";
   position:absolute;
   left:16px;
   color:#0878b8;
@@ -5579,3 +5579,47 @@ iframe {
 }
 
 /* WEBACT ACCESSIBILITY FIX END */
+/* WEBACT AGENT ACCESSIBILITY START */
+
+/* Reserve the exact shared-layout regions before fetched includes arrive. */
+#webact-header {
+  display: block;
+  min-height: 96px;
+  contain: layout;
+}
+
+#webact-footer {
+  display: block;
+  min-height: 360px;
+  contain: layout;
+}
+
+/* Hidden menu panels must not remain in the accessibility or tab trees. */
+.wa-promodo-mega[aria-hidden="true"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.wa-promodo-item.wa-open > .wa-promodo-mega[aria-hidden="false"] {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Ensure keyboard focus is always visible. */
+.wa-promodo-nav a:focus-visible,
+.wa-promodo-nav button:focus-visible {
+  outline: 3px solid #0b78a8;
+  outline-offset: 3px;
+}
+
+@media (max-width: 1060px) {
+  #webact-header {
+    min-height: 76px;
+  }
+
+  #webact-footer {
+    min-height: 520px;
+  }
+}
+
+/* WEBACT AGENT ACCESSIBILITY END */
