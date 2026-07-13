@@ -1,6 +1,12 @@
 (function () {
   "use strict";
 
+  if (window.__webActNavigationLoaded) {
+    return;
+  }
+
+  window.__webActNavigationLoaded = true;
+
   function getHeader() {
     return document.querySelector("[data-wa-nav]");
   }
@@ -31,8 +37,8 @@
       item.classList.remove("wa-open");
     });
 
-    header.querySelectorAll(".wa-promodo-link[aria-expanded]").forEach(function (button) {
-      button.setAttribute("aria-expanded", "false");
+    header.querySelectorAll(".wa-promodo-link[aria-controls]").forEach(function (button) {
+      setMegaPanelState(button, false);
     });
   }
 

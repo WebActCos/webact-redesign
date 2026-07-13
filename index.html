@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -220,7 +220,7 @@
           </div>
           <div class="hero-actions">
             <a class="button primary" href="/contact/index.html">Get Free Consultation</a>
-            <a class="button secondary" href="/industries/index.html">View Our Portfolio</a>
+            <a class="button secondary" href="/about/portfolio.html">View Our Portfolio</a>
           </div>
         </div>
 
@@ -298,8 +298,8 @@
           <h2>Website examples across restaurants, healthcare, law, home services, retail, and more.</h2>
           <p>Explore real WebAct portfolio examples built to support calls, appointments, orders, quote requests, local visibility, and better customer experiences.</p>
           <div class="hero-actions" style="justify-content:center">
-            <a class="button primary" href="/industries/index.html">View Full Portfolio</a>
-            <a class="button secondary" href="/about/portfolio/industry/index.html">Browse by Industry</a>
+            <a class="button primary" href="/about/portfolio.html">View Full Portfolio</a>
+            <a class="button secondary" href="/industries/index.html">Browse by Industry</a>
           </div>
         </div>
 
@@ -395,10 +395,50 @@
     </main>
 
     <div id="webact-footer"></div>
-    <script defer src="/script.js?v=main-layout-1"></script>
-    <script defer src="/assets/js/routes.js?v=main-layout-1"></script>
-    <script defer src="/assets/js/navigation.js?v=main-layout-1"></script>
-    <script defer src="/assets/js/includes.js?v=header-links-2"></script>
+    <script src="/script.js?v=main-layout-1"></script>
+    <script src="/assets/js/routes.js?v=main-layout-1"></script>
+    <script src="/assets/js/navigation.js?v=main-layout-1"></script>
+    <script src="/assets/js/includes.js?v=header-links-2"></script>
+<!-- WEBACT HOME NAV FALLBACK START -->
+<script id="webact-home-nav-fallback">
+(function () {
+  "use strict";
+
+  var headerHost = document.getElementById("webact-header");
+
+  if (!headerHost) {
+    return;
+  }
+
+  function initializeHeaderNavigation() {
+    if (
+      window.WebActNavigation &&
+      typeof window.WebActNavigation.init === "function"
+    ) {
+      window.WebActNavigation.init();
+    }
+  }
+
+  var observer = new MutationObserver(function () {
+    if (!headerHost.querySelector("[data-wa-nav]")) {
+      return;
+    }
+
+    observer.disconnect();
+    initializeHeaderNavigation();
+  });
+
+  observer.observe(headerHost, {
+    childList: true,
+    subtree: true
+  });
+
+  if (headerHost.querySelector("[data-wa-nav]")) {
+    observer.disconnect();
+    initializeHeaderNavigation();
+  }
+})();
+</script>
+<!-- WEBACT HOME NAV FALLBACK END -->
 </body>
 </html>
-
