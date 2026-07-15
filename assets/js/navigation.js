@@ -2,17 +2,21 @@
   "use strict";
 
   if (window.__webActNavigationLoaded) {
+    if (window.WebActNavigation && typeof window.WebActNavigation.init === "function") {
+      window.WebActNavigation.init();
+    }
     return;
   }
 
   window.__webActNavigationLoaded = true;
 
-  function getHeader() {
-    return document.querySelector("[data-wa-nav]");
+  var MOBILE_BREAKPOINT = 1060;
+
+  function headers() {
+    return Array.prototype.slice.call(document.querySelectorAll("[data-wa-nav]"));
   }
 
-
-  function setMegaPanelState(button, isOpen) {
+  function setPanelState(button, isOpen) {
     if (!button) return;
 
     var panelId = button.getAttribute("aria-controls");
@@ -30,34 +34,21 @@
       panel.setAttribute("inert", "");
     }
   }
-  function closeAllMegaMenus(header) {
+
+  function closeAllSubmenus(header, exceptItem) {
     if (!header) return;
 
     header.querySelectorAll(".wa-promodo-item").forEach(function (item) {
-      item.classList.remove("wa-open");
-    });
+      if (exceptItem && item === exceptItem) return;
 
-    header.querySelectorAll(".wa-promodo-link[aria-controls]").forEach(function (button) {
-      setMegaPanelState(button, false);
+      item.classList.remove("wa-open", "is-open");
+
+      var button = item.querySelector(".wa-promodo-link[aria-controls]");
+      setPanelState(button, false);
     });
   }
 
-  function closeMobileMenu(header) {
-    if (!header) return;
-
-    header.classList.remove("wa-menu-open");
-    header.classList.remove("wa-nav-open");
-    header.classList.remove("wa-open");
-
-    var toggle = header.querySelector("[data-wa-menu-toggle]");
-
-    if (toggle) {
-      toggle.setAttribute("aria-expanded", "false");
-      toggle.setAttribute("aria-label", "Open navigation");
-    }
-  }
-
-  function toggleMobileMenu(header) {
+  function setMobileMenu(header, isOpen) {
     if (!header) return;
 
     var toggle = header.querySelector("[data-wa-menu-toggle]");
@@ -65,133 +56,140 @@
 
     if (!toggle || !menu) return;
 
-    var willOpen = !header.classList.contains("wa-menu-open");
+    header.classList.toggle("wa-menu-open", isOpen);
+    header.classList.toggle("wa-nav-open", isOpen);
+    header.classList.toggle("wa-open", isOpen);
+    document.body.classList.toggle("wa-mobile-navigation-open", isOpen);
 
-    closeAllMegaMenus(header);
+    toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    toggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
 
-    header.classList.toggle("wa-menu-open", willOpen);
-    header.classList.toggle("wa-nav-open", willOpen);
+    menu.setAttribute("aria-hidden", isOpen ? "false" : "true");
 
-    toggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
-    toggle.setAttribute(
-      "aria-label",
-      willOpen ? "Close navigation" : "Open navigation"
-    );
-  }
-
-  function toggleMegaMenu(button, header) {
-    if (!button || !header) return;
-
-    var item = button.closest(".wa-promodo-item");
-
-    if (!item) return;
-
-    var wasOpen = item.classList.contains("wa-open");
-
-    closeAllMegaMenus(header);
-
-    if (!wasOpen) {
-      item.classList.add("wa-open");
-      setMegaPanelState(button, true);
+    if (!isOpen) {
+      closeAllSubmenus(header);
     }
   }
 
-  function setActiveNavigation(header) {
-    if (!header || !window.WebActRoutes) return;
-
-    var section = window.WebActRoutes.section();
-
-    header.querySelectorAll("[data-wa-section]").forEach(function (item) {
-      item.classList.toggle(
-        "wa-active",
-        item.getAttribute("data-wa-section") === section
-      );
-    });
+  function toggleMobileMenu(header) {
+    if (!header) return;
+    setMobileMenu(header, !header.classList.contains("wa-menu-open"));
   }
 
-  function initializeCurrentHeader() {
-    var header = getHeader();
+  function toggleSubmenu(button, header) {
+    if (!button || !header) return;
 
+    var item = button.closest(".wa-promodo-item");
+    if (!item) return;
+
+    var willOpen = !item.classList.contains("wa-open");
+
+    closeAllSubmenus(header, item);
+
+    item.classList.toggle("wa-open", willOpen);
+    item.classList.toggle("is-open", willOpen);
+    setPanelState(button, willOpen);
+  }
+
+  function initializeHeader(header) {
     if (!header) return;
 
-    setActiveNavigation(header);
+    var toggle = header.querySelector("[data-wa-menu-toggle]");
+    var menu = header.querySelector("[data-wa-menu]");
+
+    if (toggle && menu) {
+      toggle.setAttribute("aria-controls", menu.id || "wa-primary-menu");
+      toggle.setAttribute("aria-expanded", header.classList.contains("wa-menu-open") ? "true" : "false");
+      toggle.setAttribute("aria-label", header.classList.contains("wa-menu-open") ? "Close navigation" : "Open navigation");
+    }
 
     header.querySelectorAll(".wa-promodo-link[aria-controls]").forEach(function (button) {
-      setMegaPanelState(button, false);
+      var item = button.closest(".wa-promodo-item");
+      setPanelState(button, !!(item && item.classList.contains("wa-open")));
     });
+
+    header.setAttribute("data-wa-navigation-ready", "true");
   }
 
-  /*
-     Delegated click handling works even when includes.js inserts the
-     shared header after navigation.js has already loaded.
-  */
+  function initializeAll() {
+    headers().forEach(initializeHeader);
+  }
+
   document.addEventListener("click", function (event) {
     var menuToggle = event.target.closest("[data-wa-menu-toggle]");
 
     if (menuToggle) {
       event.preventDefault();
       event.stopPropagation();
-
       toggleMobileMenu(menuToggle.closest("[data-wa-nav]"));
       return;
     }
 
-    var megaButton = event.target.closest(
-      ".wa-promodo-link[aria-controls]"
-    );
+    var submenuButton = event.target.closest(".wa-promodo-link[aria-controls]");
 
-    if (megaButton) {
+    if (submenuButton) {
       event.preventDefault();
       event.stopPropagation();
-
-      toggleMegaMenu(
-        megaButton,
-        megaButton.closest("[data-wa-nav]")
-      );
-
+      toggleSubmenu(submenuButton, submenuButton.closest("[data-wa-nav]"));
       return;
     }
 
-    var header = getHeader();
-
-    if (header && !header.contains(event.target)) {
-      closeAllMegaMenus(header);
-      closeMobileMenu(header);
-    }
+    headers().forEach(function (header) {
+      if (!header.contains(event.target)) {
+        closeAllSubmenus(header);
+        setMobileMenu(header, false);
+      }
+    });
   });
 
   document.addEventListener("keydown", function (event) {
     if (event.key !== "Escape") return;
 
-    var header = getHeader();
-
-    closeAllMegaMenus(header);
-    closeMobileMenu(header);
+    headers().forEach(function (header) {
+      closeAllSubmenus(header);
+      setMobileMenu(header, false);
+    });
   });
 
   window.addEventListener("resize", function () {
-    if (window.innerWidth > 1060) {
-      var header = getHeader();
-
-      closeAllMegaMenus(header);
-      closeMobileMenu(header);
+    if (window.innerWidth > MOBILE_BREAKPOINT) {
+      headers().forEach(function (header) {
+        setMobileMenu(header, false);
+      });
     }
   });
 
-  /*
-     Keep compatibility with includes.js, which calls
-     WebActNavigation.init() after inserting the shared header.
-  */
+  var observer = new MutationObserver(function (mutations) {
+    var shouldInitialize = mutations.some(function (mutation) {
+      return Array.prototype.some.call(mutation.addedNodes || [], function (node) {
+        return node.nodeType === 1 &&
+          (node.matches && node.matches("[data-wa-nav]") ||
+           node.querySelector && node.querySelector("[data-wa-nav]"));
+      });
+    });
+
+    if (shouldInitialize) {
+      initializeAll();
+    }
+  });
+
   window.WebActNavigation = {
-    init: initializeCurrentHeader
+    init: initializeAll,
+    close: function () {
+      headers().forEach(function (header) {
+        closeAllSubmenus(header);
+        setMobileMenu(header, false);
+      });
+    }
   };
 
   if (document.readyState === "loading") {
-    document.addEventListener(
-      "DOMContentLoaded",
-      initializeCurrentHeader
-    );
+    document.addEventListener("DOMContentLoaded", function () {
+      initializeAll();
+      observer.observe(document.documentElement, { childList: true, subtree: true });
+    });
   } else {
-    initializeCurrentHeader();
+    initializeAll();
+    observer.observe(document.documentElement, { childList: true, subtree: true });
   }
 })();
