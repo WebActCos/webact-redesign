@@ -221,3 +221,64 @@ Redirect 301 /pages/marketing-seo/ https://www.webact.com/marketing/seo.html/
 Redirect 301 /pages/pricing-marketing/ https://www.webact.com/marketing-pricing/
 Redirect 301 /pages/pricing-widgets/ https://www.webact.com/pricing/widgets.html/
 # WEBACT PAGES LEGACY REDIRECTS END
+
+# WEBACT LEGACY BLOG REDIRECTS START
+# Legacy imported blog URLs redirect to current /about/blog/ articles.
+Redirect 301 /pages/about-blog-3-tasks-that-help-build-your-digital-marketing-portfolio/ https://www.webact.com/about/blog/3-tasks-that-help-build-your-digital-marketing-portfolio/
+Redirect 301 /pages/about-blog-4-things-that-will-increase-the-load-times-of-your-website/ https://www.webact.com/about/blog/4-things-that-will-increase-the-load-times-of-your-website/
+Redirect 301 /pages/about-blog-5-saas-companies-your-business-should-know-about/ https://www.webact.com/about/blog/5-saas-companies-your-business-should-know-about/
+Redirect 301 /pages/about-blog-5-tips-for-making-your-business-virtual/ https://www.webact.com/about/blog/5-tips-for-making-your-business-virtual/
+Redirect 301 /pages/about-blog-5-ways-your-business-data-is-at-risk/ https://www.webact.com/about/blog/5-ways-your-business-data-is-at-risk/
+Redirect 301 /pages/about-blog-5-ways-your-web-design-impacts-your-seo/ https://www.webact.com/about/blog/5-ways-your-web-design-impacts-your-seo/
+Redirect 301 /pages/about-blog-a-video-review-by-laura-belgrave/ https://www.webact.com/about/blog/a-video-review-by-laura-belgrave/
+Redirect 301 /pages/about-blog-advertising-methods-that-can-be-powerful-drivers-of-success/ https://www.webact.com/about/blog/advertising-methods-that-can-be-powerful-drivers-of-success/
+Redirect 301 /pages/about-blog-common-misunderstandings-businesses-have-about-marketing/ https://www.webact.com/about/blog/common-misunderstandings-businesses-have-about-marketing/
+Redirect 301 /pages/about-blog-common-threats-you-need-to-protect-your-website-against/ https://www.webact.com/about/blog/common-threats-you-need-to-protect-your-website-against/
+Redirect 301 /pages/about-blog-creative-outdoor-advertising-methods-you-shouldn-t-miss-out-on/ https://www.webact.com/about/blog/creative-outdoor-advertising-methods-you-shouldn-t-miss-out-on/
+Redirect 301 /pages/about-blog-domain-names-101/ https://www.webact.com/about/blog/domain-names-101/
+Redirect 301 /pages/about-blog-features-that-will-help-you-market-your-restaurant-business/ https://www.webact.com/about/blog/features-that-will-help-you-market-your-restaurant-business/
+Redirect 301 /pages/about-blog-find-your-perfect-match-best-ai-software-for-small-businesses/ https://www.webact.com/about/blog/find-your-perfect-match-best-ai-software-for-small-businesses/
+Redirect 301 /pages/about-blog-gain-exposure-for-your-business-with-mapquest-business-listing/ https://www.webact.com/about/blog/gain-exposure-for-your-business-with-mapquest-business-listing/
+Redirect 301 /pages/about-blog-google-adwords-vs-facebook-ads/ https://www.webact.com/about/blog/google-adwords-vs-facebook-ads/
+Redirect 301 /pages/about-blog-how-aged-domains-rank-within-search-engines/ https://www.webact.com/about/blog/how-aged-domains-rank-within-search-engines/
+Redirect 301 /pages/about-blog-how-customer-service-touches-every-aspect-of-your-business/ https://www.webact.com/about/blog/how-customer-service-touches-every-aspect-of-your-business/
+Redirect 301 /pages/about-blog-how-effective-is-live-chat-on-your-website/ https://www.webact.com/about/blog/how-effective-is-live-chat-on-your-website/
+Redirect 301 /pages/about-blog-how-information-technology-can-assist-with-online-business-success/ https://www.webact.com/about/blog/how-information-technology-can-assist-with-online-business-success/
+Redirect 301 /pages/about-blog-how-local-businesses-can-get-the-word-out-about-their-brands/ https://www.webact.com/about/blog/how-local-businesses-can-get-the-word-out-about-their-brands/
+Redirect 301 /pages/about-blog-how-small-businesses-can-protect-themselves-from-fraud/ https://www.webact.com/about/blog/how-small-businesses-can-protect-themselves-from-fraud/
+Redirect 301 /pages/about-blog-how-to-achieve-a-greater-roi-on-your-marketing-campaign/ https://www.webact.com/about/blog/how-to-achieve-a-greater-roi-on-your-marketing-campaign/
+Redirect 301 /pages/about-blog-how-to-become-a-better-problem-solver-in-your-business/ https://www.webact.com/about/blog/how-to-become-a-better-problem-solver-in-your-business/
+Redirect 301 /pages/about-blog-how-to-build-a-solid-reputation-through-your-marketing-strategy/ https://www.webact.com/about/blog/how-to-build-a-solid-reputation-through-your-marketing-strategy/
+Redirect 301 /pages/about-blog-how-to-connect-with-your-customers-and-form-lasting-relationships/ https://www.webact.com/about/blog/how-to-connect-with-your-customers-and-form-lasting-relationships/
+Redirect 301 /pages/about-blog-how-to-earn-the-trust-of-your-customers/ https://www.webact.com/about/blog/how-to-earn-the-trust-of-your-customers/
+Redirect 301 /pages/about-blog-how-to-get-a-higher-roi-on-your-advertising/ https://www.webact.com/about/blog/how-to-get-a-higher-roi-on-your-advertising/
+Redirect 301 /pages/about-blog-how-to-get-the-exposure-you-need-for-your-website/ https://www.webact.com/about/blog/how-to-get-the-exposure-you-need-for-your-website/
+Redirect 301 /pages/about-blog-how-to-make-content-your-customers-will-be-excited-to-read/ https://www.webact.com/about/blog/how-to-make-content-your-customers-will-be-excited-to-read/
+Redirect 301 /pages/about-blog-how-to-market-your-restaurant-on-social-media/ https://www.webact.com/about/blog/how-to-market-your-restaurant-on-social-media/
+Redirect 301 /pages/about-blog-how-to-turn-your-law-practice-into-a-household-name-locally/ https://www.webact.com/about/blog/how-to-turn-your-law-practice-into-a-household-name-locally/
+Redirect 301 /pages/about-blog-how-to-turn-your-leads-into-reliable-customers/ https://www.webact.com/about/blog/how-to-turn-your-leads-into-reliable-customers/
+Redirect 301 /pages/about-blog-how-your-company-can-dominate-a-keyword-on-google/ https://www.webact.com/about/blog/how-your-company-can-dominate-a-keyword-on-google/
+Redirect 301 /pages/about-blog-i-have-a-business-website-now-what/ https://www.webact.com/about/blog/i-have-a-business-website-now-what/
+Redirect 301 /pages/about-blog-is-wordpress-really-the-best-for-your-business/ https://www.webact.com/about/blog/is-wordpress-really-the-best-for-your-business/
+Redirect 301 /pages/about-blog-local-seo-best-practices-for-2019-12-things-you-must-know/ https://www.webact.com/about/blog/local-seo-best-practices-for-2019-12-things-you-must-know/
+Redirect 301 /pages/about-blog-marketing-channels-you-can-t-ignore/ https://www.webact.com/about/blog/marketing-channels-you-can-t-ignore/
+Redirect 301 /pages/about-blog-marketing-strategies-you-should-be-using-more/ https://www.webact.com/about/blog/marketing-strategies-you-should-be-using-more/
+Redirect 301 /pages/about-blog-online-video-platforms-every-business-should-be-using/ https://www.webact.com/about/blog/online-video-platforms-every-business-should-be-using/
+Redirect 301 /pages/about-blog-personalize-your-website-and-increase-your-business-with-insite/ https://www.webact.com/about/blog/personalize-your-website-and-increase-your-business-with-insite/
+Redirect 301 /pages/about-blog-responsive-websites-success/ https://www.webact.com/about/blog/responsive-websites-success/
+Redirect 301 /pages/about-blog-signs-that-your-business-is-stuck-in-the-past/ https://www.webact.com/about/blog/signs-that-your-business-is-stuck-in-the-past/
+Redirect 301 /pages/about-blog-the-battle-of-the-ads-google-vs-bing/ https://www.webact.com/about/blog/the-battle-of-the-ads-google-vs-bing/
+Redirect 301 /pages/about-blog-the-importance-of-social-media-for-your-business/ https://www.webact.com/about/blog/the-importance-of-social-media-for-your-business/
+Redirect 301 /pages/about-blog-tips-for-encouraging-people-to-return-to-your-website/ https://www.webact.com/about/blog/tips-for-encouraging-people-to-return-to-your-website/
+Redirect 301 /pages/about-blog-website-features-you-can-t-be-without/ https://www.webact.com/about/blog/website-features-you-can-t-be-without/
+Redirect 301 /pages/about-blog-website-personalization-and-why-is-it-so-important/ https://www.webact.com/about/blog/website-personalization-and-why-is-it-so-important/
+Redirect 301 /pages/about-blog-what-customers-value-most-in-a-business/ https://www.webact.com/about/blog/what-customers-value-most-in-a-business/
+Redirect 301 /pages/about-blog-what-is-seo-and-why-does-it-matter/ https://www.webact.com/about/blog/what-is-seo-and-why-does-it-matter/
+Redirect 301 /pages/about-blog-what-to-know-before-you-partner-with-another-business-to-offer-deals/ https://www.webact.com/about/blog/what-to-know-before-you-partner-with-another-business-to-offer-deals/
+Redirect 301 /pages/about-blog-what-types-of-outdoor-advertising-should-you-be-using/ https://www.webact.com/about/blog/what-types-of-outdoor-advertising-should-you-be-using/
+Redirect 301 /pages/about-blog-what-you-need-to-keep-in-mind-when-building-a-new-website/ https://www.webact.com/about/blog/what-you-need-to-keep-in-mind-when-building-a-new-website/
+Redirect 301 /pages/about-blog-why-email-marketing-is-still-important/ https://www.webact.com/about/blog/why-email-marketing-is-still-important/
+Redirect 301 /pages/about-blog-why-java-is-the-language-to-learn-for-digital-marketers/ https://www.webact.com/about/blog/why-java-is-the-language-to-learn-for-digital-marketers/
+Redirect 301 /pages/about-blog-why-you-need-to-be-an-expert-in-digital-marketing/ https://www.webact.com/about/blog/why-you-need-to-be-an-expert-in-digital-marketing/
+Redirect 301 /pages/about-blog/ https://www.webact.com/about/blog/
+# WEBACT LEGACY BLOG REDIRECTS END
