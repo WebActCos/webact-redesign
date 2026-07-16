@@ -71,6 +71,24 @@
   <meta name="twitter:title" content="Website Design Case Study | WebAct">
   <meta name="twitter:description" content="Explore Website Design Case Study from WebAct. Get professional website design, SEO, AEO, digital advertising, marketing strategy, and conversion support.">
   <meta name="robots" content="index,follow">
+<style id="webact-case-study-image-fix">
+.case-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef7fc;
+}
+
+.case-media img,
+#case-image {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 680px !important;
+  object-fit: contain !important;
+  object-position: center top !important;
+  background: #eef7fc !important;
+}
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
@@ -114,116 +132,150 @@
   </section>
 </main>
 <div id="webact-footer"></div>
-<script src="/assets/js/portfolio-data-all.js"></script>
-<script src="/assets/js/portfolio-content.js"></script>
-<script>
-(function(){
-  const rows = window.webactPortfolioRows || [];
-  const engine = window.webactPortfolioContentEngine;
-  if(!rows.length || !engine) return;
+<script src="/assets/js/portfolio-data-all.js?v=case-study-20260716-111438"></script>
+<script src="/assets/js/portfolio-content.js?v=case-study-20260716-111438"></script>
+<script id="webact-case-study-renderer">
+(function () {
+  "use strict";
 
-  const slug = new URLSearchParams(location.search).get("project") || "";
-  const row = rows.find(r => engine.slugify(r[0]) === slug) || rows[0];
-  const c = engine.generate(row, rows);
+  var rows = Array.isArray(window.webactPortfolioRows)
+    ? window.webactPortfolioRows
+    : [];
+  var engine = window.webactPortfolioContentEngine;
+  var slug = new URLSearchParams(window.location.search).get("project") || "";
 
-  document.title = c.name + " " + c.industry + " Website Design, SEO and Marketing Case Study | WebAct";
+  if (!rows.length || !engine) {
+    console.error("Case-study data or content engine did not load.");
+    return;
+  }
+
+  var row = rows.find(function (candidate) {
+    return engine.slugify(candidate[0]) === slug;
+  });
+
+  if (!row) {
+    document.getElementById("case-title").textContent =
+      "Portfolio project not found";
+    document.getElementById("case-summary").textContent =
+      "Return to the portfolio and choose an available case study.";
+    document.getElementById("case-image").style.display = "none";
+    return;
+  }
+
+  var c = engine.generate(row, rows);
+  var canonical =
+    "https://www.webact.com/about/portfolio/case-study.html?project=" +
+    encodeURIComponent(c.slug);
+
+  document.title = c.title + " | WebAct";
   document.getElementById("case-category").textContent = c.category;
   document.getElementById("case-title").textContent = c.title;
   document.getElementById("case-summary").textContent = c.summary;
   document.getElementById("case-image").src = c.image;
-  document.getElementById("case-image").alt = c.name + " " + c.industry + " website design";
+  document.getElementById("case-image").alt =
+    c.name + " website design case study";
 
-  const sections = document.getElementById("case-sections");
-  sections.innerHTML = `
-    <section class="case-section alt">
-      <div class="case-overview-grid">
-        <div class="case-copy">
-          <p class="eyebrow">Project Overview</p>
-          <h2>A stronger digital presence for ${c.name}.</h2>
-          <p>${c.sections[0].text}</p>
-          <br>
-          <p>${c.sections[1].text}</p>
-        </div>
-        <aside class="case-summary-card">
-          <h3>Project Snapshot</h3>
-          <dl>
-            <div><dt>Industry</dt><dd>${c.industry}</dd></div>
-            <div><dt>Primary Focus</dt><dd>Website Design, SEO, Marketing</dd></div>
-            <div><dt>Website Goal</dt><dd>Trust, Leads, Visibility</dd></div>
-            <div><dt>Experience</dt><dd>Desktop, Tablet, Mobile</dd></div>
-          </dl>
-        </aside>
-      </div>
-    </section>
+  var canonicalTag = document.querySelector('link[rel="canonical"]');
+  if (canonicalTag) canonicalTag.href = canonical;
 
-    <section class="case-section">
-      <div class="case-copy">
-        <p class="eyebrow">Website Strategy</p>
-        <h2>Designed to help ${c.industry.toLowerCase()} customers choose with confidence.</h2>
-        <p>${c.sections[2].text}</p>
-      </div>
-      <div class="strategy-grid">
-        <article class="strategy-card"><span>01</span><h3>Website Planning</h3><p>The site structure helps visitors quickly understand the business, review key services, and move toward the next step.</p></article>
-        <article class="strategy-card"><span>02</span><h3>User Experience</h3><p>Navigation, spacing, headings, and page flow are designed to make the website easier to use across devices.</p></article>
-        <article class="strategy-card"><span>03</span><h3>Content Strategy</h3><p>Industry-specific language helps explain what the business offers and why customers should take action.</p></article>
-        <article class="strategy-card"><span>04</span><h3>Responsive Design</h3><p>The design supports desktop, tablet, and mobile visitors so the brand looks professional everywhere.</p></article>
-        <article class="strategy-card"><span>05</span><h3>Lead Generation</h3><p>Calls, forms, service sections, and conversion paths help turn interested visitors into real opportunities.</p></article>
-        <article class="strategy-card"><span>06</span><h3>Brand Trust</h3><p>The visual direction helps ${c.name} look more credible, polished, and ready to compete online.</p></article>
-      </div>
-    </section>
+  var ogTitle = document.querySelector('meta[property="og:title"]');
+  var ogDescription = document.querySelector('meta[property="og:description"]');
+  var ogUrl = document.querySelector('meta[property="og:url"]');
 
-    <section class="case-section dark-strategy">
-      <div class="case-copy">
-        <p class="eyebrow">SEO Strategy</p>
-        <h2>Built for search visibility and long-term growth.</h2>
-        <p>${c.sections[3].text}</p>
-      </div>
-      <div class="seo-grid">
-        <article class="seo-card"><h3>Local SEO</h3><p>Location and service relevance help support search visibility for customers looking for ${c.industry.toLowerCase()} services nearby.</p></article>
-        <article class="seo-card"><h3>Content Optimization</h3><p>Clear page structure, headings, and industry-focused content help search engines better understand the website.</p></article>
-        <article class="seo-card"><h3>Search Intent</h3><p>The content is written around what customers need to know before they call, book, buy, or request information.</p></article>
-      </div>
-    </section>
+  if (ogTitle) ogTitle.content = c.title + " | WebAct";
+  if (ogDescription) ogDescription.content = c.summary;
+  if (ogUrl) ogUrl.content = canonical;
 
-    <section class="case-section alt">
-      <div class="case-copy">
-        <p class="eyebrow">Marketing and Advertising</p>
-        <h2>Connecting the website to real growth services.</h2>
-        <p>${c.sections[4].text}</p>
-      </div>
-      <div class="marketing-grid">
-        <article class="marketing-card"><h3>Google Ads</h3><p>Paid search campaigns can help drive targeted visitors to high-intent pages when customers are actively looking for services.</p></article>
-        <article class="marketing-card"><h3>Landing Pages</h3><p>Dedicated landing pages help match ads, offers, services, and locations to focused conversion paths.</p></article>
-        <article class="marketing-card"><h3>Local Visibility</h3><p>Listings, reviews, search visibility, and consistent messaging help strengthen trust before a visitor contacts the business.</p></article>
-      </div>
-    </section>
+  var sections = document.getElementById("case-sections");
+  sections.innerHTML =
+    '<section class="case-section alt">' +
+      '<div class="case-overview-grid">' +
+        '<div class="case-copy">' +
+          '<p class="eyebrow">Project Overview</p>' +
+          '<h2>A clearer digital presence for ' + c.name + '.</h2>' +
+          '<p>' + c.overview + '</p>' +
+          '<br><p>' + c.industryStrategy + '</p>' +
+        '</div>' +
+        '<aside class="case-summary-card">' +
+          '<h3>Project Snapshot</h3>' +
+          '<dl>' +
+            '<div><dt>Business</dt><dd>' + c.name + '</dd></div>' +
+            '<div><dt>Industry</dt><dd>' + c.industry + '</dd></div>' +
+            '<div><dt>Primary Focus</dt><dd>Website Design and Digital Presence</dd></div>' +
+            '<div><dt>Experience</dt><dd>Desktop, Tablet, and Mobile</dd></div>' +
+          '</dl>' +
+        '</aside>' +
+      '</div>' +
+    '</section>' +
+    '<section class="case-section">' +
+      '<div class="case-copy">' +
+        '<p class="eyebrow">Website Strategy</p>' +
+        '<h2>Designed around clarity, trust, and customer action.</h2>' +
+        '<p>' + c.designStrategy + '</p>' +
+      '</div>' +
+    '</section>' +
+    '<section class="case-section dark-strategy">' +
+      '<div class="case-copy">' +
+        '<p class="eyebrow">SEO Strategy</p>' +
+        '<h2>Search-friendly structure for long-term visibility.</h2>' +
+        '<p>' + c.seoStrategy + '</p>' +
+      '</div>' +
+    '</section>' +
+    '<section class="case-section">' +
+      '<div class="case-copy">' +
+        '<p class="eyebrow">Marketing Support</p>' +
+        '<h2>Services that complement this website.</h2>' +
+        '<p>' + c.marketingStrategy + '</p>' +
+      '</div>' +
+      '<div class="services-pill-grid">' +
+        c.services.map(function (service) {
+          return '<span>' + service + '</span>';
+        }).join("") +
+      '</div>' +
+    '</section>' +
+    '<section class="case-section alt">' +
+      '<div class="results-grid">' +
+        '<article class="result-card"><h3>Mobile Experience</h3><p>' + c.mobileStrategy + '</p></article>' +
+        '<article class="result-card"><h3>Content Clarity</h3><p>' + c.industryStrategy + '</p></article>' +
+        '<article class="result-card"><h3>Results Focus</h3><p>' + c.resultsFocus + '</p></article>' +
+      '</div>' +
+    '</section>';
 
-    <section class="case-section">
-      <div class="case-copy">
-        <p class="eyebrow">Results Focus</p>
-        <h2>Built to improve trust, usability, and customer action.</h2>
-        <p>${c.sections[6].text}</p>
-      </div>
-      <div class="results-grid">
-        <article class="result-card"><h3>Better First Impression</h3><p>A polished website helps the business look more established and trustworthy online.</p></article>
-        <article class="result-card"><h3>Clearer Service Presentation</h3><p>Organized content helps visitors understand services faster and with less confusion.</p></article>
-        <article class="result-card"><h3>Stronger Lead Opportunities</h3><p>Conversion-focused page flow helps visitors take the next step when they are ready.</p></article>
-      </div>
-    </section>
-  `;
+  var serviceGrid = document.getElementById("service-grid");
+  serviceGrid.innerHTML = c.services
+    .slice(0, 6)
+    .map(function (service) {
+      return '<article class="service-card"><h3>' + service + '</h3></article>';
+    })
+    .join("");
 
-  document.getElementById("services-title").textContent = "Services connected to the " + c.name + " project.";
-  document.getElementById("services-intro").textContent = "These are the types of website, SEO, marketing, and advertising services WebAct can use to support a " + c.industry.toLowerCase() + " website project.";
-  document.getElementById("service-grid").outerHTML = '<div class="services-pill-grid" id="service-grid">' + c.services.map(function(s){return "<span>&check; " + s + "</span>";}).join("") + "</div>";
+  document.getElementById("services-title").textContent =
+    "Services that support " + c.name + ".";
+  document.getElementById("services-intro").textContent =
+    "A coordinated mix of design, search, content, and marketing services can strengthen this type of project.";
 
-  document.getElementById("related-intro").textContent = "Browse additional WebAct portfolio examples related to " + c.industry.toLowerCase() + " websites and similar business categories.";
-  const relatedGrid = document.getElementById("related-grid");
-  relatedGrid.innerHTML = c.related.map(function(r){
-    return '<a class="related-card" href="/about/portfolio/case-study.html?project='+engine.slugify(r[0])+'"><img src="'+r[2]+'" alt="Portfolio Case Study"+r[0]+' website design" loading="lazy" decoding="async"><span>'+r[1]+'</span><h3>'+r[0]+'</h3></a>';
-  }).join("") || '<p style="grid-column:1/-1;color:#4b5b66;font-size:18px;text-align:center">More related projects will be added soon.</p>';
+  var relatedGrid = document.getElementById("related-grid");
+  relatedGrid.innerHTML = c.related
+    .map(function (related) {
+      var relatedSlug = engine.slugify(related[0]);
+      return (
+        '<a class="related-card" href="/about/portfolio/case-study.html?project=' +
+        relatedSlug +
+        '">' +
+          '<img src="' + related[2] + '" alt="' + related[0] + ' website design" loading="lazy">' +
+          '<span>' + related[1] + '</span>' +
+          '<h3>' + related[0] + '</h3>' +
+        '</a>'
+      );
+    })
+    .join("");
 
-  document.getElementById("cta-title").textContent = "Need a " + c.industry.toLowerCase() + " website like " + c.name + "?";
-  document.getElementById("cta-text").textContent = "WebAct can help with website design, SEO, digital advertising, landing pages, branding, local visibility, and ongoing website support for businesses in this industry.";
+  document.getElementById("related-intro").textContent =
+    "Explore more WebAct projects in the " + c.industry + " category.";
+  document.getElementById("cta-title").textContent =
+    "Need a website like " + c.name + "?";
+  document.getElementById("cta-text").textContent =
+    "WebAct can help create a professional, mobile-friendly website with clear content, search structure, and stronger customer paths.";
 })();
 </script>
 <script src="/script.js?v=main-layout-1"></script>
