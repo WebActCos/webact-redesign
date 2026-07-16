@@ -97,104 +97,7 @@
         console.error("WebAct include loading error:", error);
       });
   }
-  /* WEBACT HOMEPAGE DIRECT NAVIGATION START */
-  function initializeHomepageDirectNavigation() {
-    if (!document.body.classList.contains("wa-home-v2")) return;
-
-    var header = document.querySelector("#webact-header [data-wa-nav]");
-    if (!header || header.dataset.homeDirectNav === "true") return;
-    header.dataset.homeDirectNav = "true";
-
-    var breakpoint = 1060;
-    var toggle = header.querySelector("[data-wa-menu-toggle]");
-
-    function panelFor(button) {
-      var id = button && button.getAttribute("aria-controls");
-      return id ? document.getElementById(id) : null;
-    }
-
-    function closeItem(item) {
-      if (!item) return;
-      item.classList.remove("wa-home-direct-open");
-      var button = item.querySelector(".wa-promodo-link[aria-controls]");
-      var panel = panelFor(button);
-      if (button) button.setAttribute("aria-expanded","false");
-      if (panel) {
-        panel.setAttribute("aria-hidden","true");
-        panel.setAttribute("inert","");
-        panel.removeAttribute("style");
-      }
-    }
-
-    function closeAll(except) {
-      header.querySelectorAll(".wa-promodo-item").forEach(function (item) {
-        if (item !== except) closeItem(item);
-      });
-    }
-
-    header.querySelectorAll(".wa-promodo-link[aria-controls]").forEach(function (button) {
-      button.addEventListener("click",function (event) {
-        event.preventDefault();
-        event.stopPropagation();
-
-        var item = button.closest(".wa-promodo-item");
-        var panel = panelFor(button);
-        if (!item || !panel) return;
-
-        if (item.classList.contains("wa-home-direct-open")) {
-          closeItem(item);
-          return;
-        }
-
-        closeAll(item);
-        item.classList.add("wa-home-direct-open");
-        button.setAttribute("aria-expanded","true");
-        panel.setAttribute("aria-hidden","false");
-        panel.removeAttribute("inert");
-
-        if (window.innerWidth > breakpoint) {
-          var rect = header.getBoundingClientRect();
-          panel.style.cssText =
-            "display:block!important;visibility:visible!important;opacity:1!important;" +
-            "pointer-events:auto!important;position:fixed!important;left:0!important;right:auto!important;" +
-            "top:" + Math.round(rect.bottom) + "px!important;width:100vw!important;max-width:100vw!important;" +
-            "margin:0!important;transform:none!important;z-index:2147483001!important;";
-        }
-      });
-    });
-
-    if (toggle) {
-      toggle.addEventListener("click",function (event) {
-        event.preventDefault();
-        event.stopPropagation();
-        var open = !header.classList.contains("wa-home-direct-mobile-open");
-        closeAll();
-        header.classList.toggle("wa-home-direct-mobile-open",open);
-        document.body.classList.toggle("wa-home-direct-scroll-lock",open);
-        toggle.setAttribute("aria-expanded",open?"true":"false");
-      });
-    }
-
-    document.addEventListener("click",function (event) {
-      if (!header.contains(event.target)) {
-        closeAll();
-        header.classList.remove("wa-home-direct-mobile-open");
-        document.body.classList.remove("wa-home-direct-scroll-lock");
-      }
-    });
-
-    document.addEventListener("keydown",function (event) {
-      if (event.key === "Escape") {
-        closeAll();
-        header.classList.remove("wa-home-direct-mobile-open");
-        document.body.classList.remove("wa-home-direct-scroll-lock");
-      }
-    });
-  }
-  /* WEBACT HOMEPAGE DIRECT NAVIGATION END */
-
-
-  function initializeIncludes() {
+function initializeIncludes() {
     installFavicon();
     installGoogleTagManager();
 
@@ -202,8 +105,7 @@
       loadInclude("webact-header", "/includes/header.html"),
       loadInclude("webact-footer", "/includes/footer.html")
     ]).then(function () {
-      initializeHomepageDirectNavigation();
-      if (
+if (
         window.WebActNavigation &&
         typeof window.WebActNavigation.init === "function"
       ) {
