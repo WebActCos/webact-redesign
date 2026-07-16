@@ -301,97 +301,165 @@ body .portfolio-content {
 
 <div id="webact-footer"></div>
 
-<script src="/assets/js/portfolio-data-all.js"></script>
-<script>
-(function(){
-  const rows = window.webactPortfolioRows || [];
-  const grid = document.getElementById('portfolio-grid');
-  const filters = document.getElementById('portfolio-filters');
-  const search = document.getElementById('portfolio-search');
-  const empty = document.getElementById('portfolio-empty');
-  const count = document.getElementById('portfolio-count');
-  let active = 'All';
+<script src="/assets/js/portfolio-data-all.js?v=portfolio-renderer-20260716-105201"></script>
+<script id="webact-portfolio-renderer">
+(function () {
+  "use strict";
 
-  function slugify(text){
-    return String(text || '')
+  var rows = Array.isArray(window.webactPortfolioRows)
+    ? window.webactPortfolioRows
+    : [];
+
+  var grid = document.getElementById("portfolio-grid");
+  var filters = document.getElementById("portfolio-filters");
+  var search = document.getElementById("portfolio-search");
+  var empty = document.getElementById("portfolio-empty");
+  var count = document.getElementById("portfolio-count");
+  var active = "All";
+
+  if (!grid || !filters || !search || !empty) {
+    console.error("Portfolio renderer could not find required page elements.");
+    return;
+  }
+
+  function slugify(text) {
+    return String(text || "")
       .toLowerCase()
-      .replace(/&/g,'and')
-      .replace(/[^a-z0-9]+/g,'-')
-      .replace(/^-+|-+$/g,'');
+      .replace(/&/g, "and")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
   }
 
-  function description(name, category){
-    return 'Explore this ' + category.toLowerCase() + ' website design example from the WebAct portfolio, focused on clear presentation, mobile-friendly layouts, and stronger online presence.';
+  function description(name, category) {
+    return (
+      "Explore this " +
+      String(category || "business").toLowerCase() +
+      " website design example from the WebAct portfolio, focused on clear presentation, mobile-friendly layouts, and stronger online presence."
+    );
   }
 
-  function card(row){
-    const name = row[0] || 'Portfolio Project';
-    const category = row[1] || 'Business';
-    const image = row[2] || '/Resources/images/placeholder.png';
-    const url = row[3] || ('/about/portfolio/case-study.html?project=' + slugify(name));
+  function createTextElement(tagName, text) {
+    var element = document.createElement(tagName);
+    element.textContent = text;
+    return element;
+  }
 
-    const article = document.createElement('article');
-    article.className = 'portfolio-card';
+  function card(row) {
+    var name = row[0] || "Portfolio Project";
+    var category = row[1] || "Business";
+    var image = row[2] || "/Resources/images/placeholder.png";
+    var url =
+      row[3] ||
+      "/about/portfolio/case-study.html?project=" + slugify(name);
+
+    var article = document.createElement("article");
+    article.className = "portfolio-card";
     article.dataset.category = category;
-    article.dataset.search = (name + ' ' + category).toLowerCase();
+    article.dataset.search = (name + " " + category).toLowerCase();
 
-    article.innerHTML =
-      '<a href="' + url + '">' +
-        '<div class="portfolio-image"><img loading="lazy" src="' + image + '" alt="WebAct Portfolio | Website Design &amp; Digital Marketing Work" + name.replace(/"/g,'&quot;') + '" decoding="async"></div>' +
-        '<div class="portfolio-content">' +
-          '<span>' + category + '</span>' +
-          '<h3>' + name + '</h3>' +
-          '<p>' + description(name, category) + '</p>' +
-          '<strong>View Case Study</strong>' +
-        '</div>' +
-      '</a>';
+    var link = document.createElement("a");
+    link.href = url;
+
+    var imageWrap = document.createElement("div");
+    imageWrap.className = "portfolio-image";
+
+    var img = document.createElement("img");
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.src = image;
+    img.alt = name + " website design by WebAct";
+
+    imageWrap.appendChild(img);
+
+    var content = document.createElement("div");
+    content.className = "portfolio-content";
+    content.appendChild(createTextElement("span", category));
+    content.appendChild(createTextElement("h3", name));
+    content.appendChild(createTextElement("p", description(name, category)));
+    content.appendChild(createTextElement("strong", "View Case Study"));
+
+    link.appendChild(imageWrap);
+    link.appendChild(content);
+    article.appendChild(link);
 
     return article;
   }
 
-  function renderFilters(){
-    const cats = Array.from(new Set(rows.map(r => r[1] || 'Business'))).sort();
-    filters.innerHTML = '';
-    ['All'].concat(cats).forEach(cat => {
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.textContent = cat;
-      btn.className = cat === active ? 'active' : '';
-      btn.addEventListener('click', function(){
-        active = cat;
+  function renderFilters() {
+    var categories = Array.from(
+      new Set(
+        rows.map(function (row) {
+          return row[1] || "Business";
+        })
+      )
+    ).sort();
+
+    filters.innerHTML = "";
+
+    ["All"].concat(categories).forEach(function (category) {
+      var button = document.createElement("button");
+      button.type = "button";
+      button.textContent = category;
+      button.className = category === active ? "active" : "";
+
+      button.addEventListener("click", function () {
+        active = category;
         renderFilters();
         apply();
       });
-      filters.appendChild(btn);
+
+      filters.appendChild(button);
     });
   }
 
-  function renderCards(){
-    grid.innerHTML = '';
-    rows.forEach(row => grid.appendChild(card(row)));
-    if(count) count.textContent = rows.length.toLocaleString();
-  }
+  function renderCards() {
+    grid.innerHTML = "";
 
-  function apply(){
-    const q = (search.value || '').trim().toLowerCase();
-    let shown = 0;
-
-    Array.from(grid.children).forEach(card => {
-      const matchText = !q || card.dataset.search.includes(q);
-      const matchCat = active === 'All' || card.dataset.category === active;
-      const show = matchText && matchCat;
-      card.style.display = show ? '' : 'none';
-      if(show) shown++;
+    rows.forEach(function (row) {
+      grid.appendChild(card(row));
     });
 
-    empty.style.display = shown ? 'none' : 'block';
+    if (count) {
+      count.textContent = rows.length.toLocaleString();
+    }
+  }
+
+  function apply() {
+    var query = (search.value || "").trim().toLowerCase();
+    var shown = 0;
+
+    Array.from(grid.children).forEach(function (portfolioCard) {
+      var matchesText =
+        !query || portfolioCard.dataset.search.indexOf(query) !== -1;
+      var matchesCategory =
+        active === "All" ||
+        portfolioCard.dataset.category === active;
+      var visible = matchesText && matchesCategory;
+
+      portfolioCard.style.display = visible ? "" : "none";
+
+      if (visible) {
+        shown += 1;
+      }
+    });
+
+    empty.style.display = shown ? "none" : "block";
+  }
+
+  if (!rows.length) {
+    console.error(
+      "Portfolio data did not load. Check /assets/js/portfolio-data-all.js."
+    );
+    empty.textContent = "Portfolio projects could not be loaded.";
+    empty.style.display = "block";
+    return;
   }
 
   renderCards();
   renderFilters();
   apply();
 
-  search.addEventListener('input', apply);
+  search.addEventListener("input", apply);
 })();
 </script>
 
