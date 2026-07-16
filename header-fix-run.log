@@ -1,6 +1,0 @@
-WriteError: 
-Line |
- 432 |          $home = $prefix + 'index.html'
-     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Cannot overwrite variable HOME because it is read-only or constant.
-
