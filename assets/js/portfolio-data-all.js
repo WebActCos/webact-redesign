@@ -2,1503 +2,1501 @@ window.webactPortfolioRows = [
   [
     "2go Coconut",
     "Ecommerce",
-    "/Resources/images/portfolio-normalized/2go-coconut.png",
+    "/Resources/images/2goCoconut.png",
     ""
   ],
   [
     "360 Sales Advantage",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/360-sales-advantage.png",
+    "/Resources/images/360 sales advantage-1920w.png",
     ""
   ],
   [
     "A Breed Apart Papillons",
     "Pet Services",
-    "/Resources/images/portfolio-normalized/a-breed-apart-papillons.png",
+    "/Resources/images/a-breed-apart-papillons-1920w.png",
     ""
   ],
   [
     "A CALIFORNIA Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/a-california-driving-school.png",
+    "/Resources/images/A-CALIFORNIA-Driving-School-1920w.png",
     ""
   ],
   [
     "A Dog's Day Out",
     "Pet Services",
-    "/Resources/images/portfolio-normalized/a-dog-s-day-out.png",
+    "/Resources/images/WebactADogsDayOut-1920w.png",
     ""
   ],
   [
     "A Pup's Valley",
     "Pet Services",
-    "/Resources/images/portfolio-normalized/a-pup-s-valley.png",
+    "/Resources/images/WebactAPupsValley-1920w.png",
     ""
   ],
   [
     "Abdul Electric",
     "Electrical",
-    "/Resources/images/portfolio-normalized/abdul-electric.png",
+    "/Resources/images/WebactAbdulElectric-1920w.png",
     ""
   ],
   [
     "Absolute Home Care",
     "Home Care",
-    "/Resources/images/portfolio-normalized/absolute-home-care.png",
+    "/Resources/images/absoluteHomeCare-1920w.png",
     ""
   ],
   [
     "Absolute Pest Control Services",
     "Pest Control",
-    "/Resources/images/portfolio-normalized/absolute-pest-control-services.png",
+    "/Resources/images/absolutePestControlServices-1920w.png",
     ""
   ],
   [
     "Ace Pet Services",
     "Pet Services",
-    "/Resources/images/portfolio-normalized/ace-pet-services.png",
+    "/Resources/images/ace pet services-1920w.png",
     ""
   ],
   [
     "Aces Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/aces-driving-school.png",
+    "/Resources/images/ACES-DRIVING-SCHOOL-1920w.png",
     ""
   ],
   [
     "Advanced Business Systems",
     "IT Services",
-    "/Resources/images/portfolio-normalized/advanced-business-systems.png",
+    "/Resources/images/a-b-s-1920w.png",
     ""
   ],
   [
     "Aid The Children",
     "Nonprofit",
-    "/Resources/images/portfolio-normalized/aid-the-children.png",
+    "/Resources/images/Aid-The-Children-1920w.png",
     ""
   ],
   [
     "Air Techs HVAC",
     "HVAC",
-    "/Resources/images/portfolio-normalized/air-techs-hvac.png",
+    "/Resources/images/airTechsHvac-1920w.png",
     ""
   ],
   [
     "All Concrete Works & Landscaping",
     "Landscaping",
-    "/Resources/images/portfolio-normalized/all-concrete-works-and-landscaping.png",
+    "/Resources/images/ALL-CONCRETE-WORKS---LANDSCAPING-1920w.png",
     ""
   ],
   [
     "All Go Transportation",
     "Transportation",
-    "/Resources/images/portfolio-normalized/all-go-transportation.png",
+    "/Resources/images/AllGoTransport-1920w.png",
     ""
   ],
   [
     "All-Star Pizza",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/all-star-pizza.png",
+    "/Resources/images/allStarPizza-1920w.png",
     ""
   ],
   [
     "Alta Partners",
     "Investors",
-    "/Resources/images/portfolio-normalized/alta-partners.png",
+    "/Resources/images/Alta_Partners-1920w.png",
     ""
   ],
   [
     "American Sewer",
     "Plumbing",
-    "/Resources/images/portfolio-normalized/american-sewer.png",
+    "/Resources/images/WebactAmericanSewer-1920w.png",
     ""
   ],
   [
     "Andree Hudson Art",
     "Artist",
-    "/Resources/images/portfolio-normalized/andree-hudson-art.png",
+    "/Resources/images/Andree_Hudson_Art-1920w.png",
     ""
   ],
   [
     "Apex Denver Locksmith",
     "Locksmith",
-    "/Resources/images/portfolio-normalized/apex-denver-locksmith.png",
+    "/Resources/images/Apex_Denver_Locksmith-1920w.png",
     ""
   ],
   [
     "Ariana Waterfall",
     "Wedding",
-    "/Resources/images/portfolio-normalized/ariana-waterfall.png",
+    "/Resources/images/arianaWaterfall-9f2a1f5e-1920w.png",
     ""
   ],
   [
     "Aspire Counseling",
     "Counseling",
-    "/Resources/images/portfolio-normalized/aspire-counseling.png",
+    "/Resources/images/AspireCounseling-1920w.png",
     ""
   ],
   [
     "Aspire Hope For Kids",
     "Nonprofit",
-    "/Resources/images/portfolio-normalized/aspire-hope-for-kids.png",
+    "/Resources/images/Aspire-Hope-For-Kids-1920w.png",
     ""
   ],
   [
     "Atlee Care",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/atlee-care.png",
+    "/Resources/images/Atlee-Care-1920w.png",
     ""
   ],
   [
     "Axel Medical Transportation",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/axel-medical-transportation.png",
+    "/Resources/images/WebactAxelMedicalTransport-1920w.png",
     ""
   ],
   [
     "AY Home Healthcare",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/ay-home-healthcare.png",
+    "/Resources/images/AY-Home-Health-Care-1920w.png",
     ""
   ],
   [
     "Barbarians Cave Surf",
     "Travel",
-    "/Resources/images/portfolio-normalized/barbarians-cave-surf.png",
+    "/Resources/images/WebactBarbariansCaveSurf-e6d3047a-1920w.png",
     ""
   ],
   [
     "Barner Moving",
     "Moving",
-    "/Resources/images/portfolio-normalized/barner-moving.png",
+    "/Resources/images/WebactBarnerMoving-1920w.png",
     ""
   ],
   [
     "Bayou Solar",
     "Energy",
-    "/Resources/images/portfolio-normalized/bayou-solar.png",
+    "/Resources/images/Bayou-Solar-1920w.png",
     ""
   ],
   [
     "Beltway Home Inspections",
     "Home Services",
-    "/Resources/images/portfolio-normalized/beltway-home-inspections.png",
+    "/Resources/images/Beltway-Home-Inspections-1920w.png",
     ""
   ],
   [
     "Benefits Matter",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/benefits-matter.png",
+    "/Resources/images/benefitsMatter-1920w.png",
     ""
   ],
   [
     "Benton Dental",
     "Dentist",
-    "/Resources/images/portfolio-normalized/benton-dental.png",
+    "/Resources/images/benton-dental.png",
     ""
   ],
   [
     "BlackBridge Defense",
     "Security",
-    "/Resources/images/portfolio-normalized/blackbridge-defense.png",
+    "/Resources/images/Blackridge-Defense.png",
     ""
   ],
   [
     "Board Game Republic",
     "eCommerce",
-    "/Resources/images/portfolio-normalized/board-game-republic.png",
+    "/Resources/images/Board-Game-Republic-1920w.png",
     ""
   ],
   [
     "Brick House Salon",
     "Salon & Beauty",
-    "/Resources/images/portfolio-normalized/brick-house-salon.png",
+    "/Resources/images/brickHouseSalon-1920w.png",
     ""
   ],
   [
     "Bruno Jambor",
     "Business",
-    "/Resources/images/portfolio-normalized/bruno-jambor.png",
+    "/Resources/images/Bruno_Jambor-1920w.png",
     ""
   ],
   [
     "Budget Control Services",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/budget-control-services.png",
+    "/Resources/images/bcs collect-1920w.png",
     ""
   ],
   [
     "Building Better Breath",
     "Retail",
-    "/Resources/images/portfolio-normalized/building-better-breath.png",
+    "/Resources/images/building-better-Breath.png",
     ""
   ],
   [
     "Building Better Transit",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/building-better-transit.png",
+    "/Resources/images/Building_Better_Transit-1920w.png",
     ""
   ],
   [
     "By The Beach",
     "Travel",
-    "/Resources/images/portfolio-normalized/by-the-beach.png",
+    "/Resources/images/by-the-beach.png",
     ""
   ],
   [
     "Callahan Hayes",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/callahan-hayes.png",
+    "/Resources/images/callahanHayes-1920w.png",
     ""
   ],
   [
     "Cancer With Courage",
     "Nonprofit",
-    "/Resources/images/portfolio-normalized/cancer-with-courage.png",
+    "/Resources/images/cancer-with-courage.png",
     ""
   ],
   [
     "Carie's Posing Suits",
     "Ecommerce",
-    "/Resources/images/portfolio-normalized/carie-s-posing-suits.png",
+    "/Resources/images/cariesPosingSuits-1920w.png",
     ""
   ],
   [
     "Carlock Plumbing",
     "Plumbing",
-    "/Resources/images/portfolio-normalized/carlock-plumbing.png",
+    "/Resources/images/Carlock_Plumbing.png",
     ""
   ],
   [
     "Carwash Coupons",
     "Automotive",
-    "/Resources/images/portfolio-normalized/carwash-coupons.png",
+    "/Resources/images/carwash-coupons.png",
     ""
   ],
   [
     "Cass And Company Salon",
     "Salon & Beauty",
-    "/Resources/images/portfolio-normalized/cass-and-company-salon.png",
+    "/Resources/images/cassAndCompany-1920w.png",
     ""
   ],
   [
     "Castle Rock Tattoo",
     "Tattoo Shop",
-    "/Resources/images/portfolio-normalized/castle-rock-tattoo.png",
+    "/Resources/images/Castle-Rock-1920w.png",
     ""
   ],
   [
     "Cell Block",
     "Phone Repair",
-    "/Resources/images/portfolio-normalized/cell-block.png",
+    "/Resources/images/cellBlock.png",
     ""
   ],
   [
     "Century Tire Inc.",
     "Automotive",
-    "/Resources/images/portfolio-normalized/century-tire-inc.png",
+    "/Resources/images/Century_Tire_inc-1920w.png",
     ""
   ],
   [
     "Christy Root Designs",
     "Construction",
-    "/Resources/images/portfolio-normalized/christy-root-designs.png",
+    "/Resources/images/christyRootDesigns-1920w.png",
     ""
   ],
   [
     "Chutney Indian Cuisine",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/chutney-indian-cuisine.png",
+    "/Resources/images/ChutneyIndianCusine-1920w.png",
     ""
   ],
   [
     "Coastal Homes",
     "Interior Design",
-    "/Resources/images/portfolio-normalized/coastal-homes.png",
+    "/Resources/images/coastalHomes-1920w.png",
     ""
   ],
   [
     "College Planning Coach",
     "Education",
-    "/Resources/images/portfolio-normalized/college-planning-coach.png",
+    "/Resources/images/WebactCollegePlanningCoach-1920w.png",
     ""
   ],
   [
     "Colorado Creditor Bar Association",
     "Legal",
-    "/Resources/images/portfolio-normalized/colorado-creditor-bar-association.png",
+    "/Resources/images/COLORADO-CREDITOR-BAR-1920w.png",
     ""
   ],
   [
     "CoWest Durango",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/cowest-durango.png",
+    "/Resources/images/coWestDurango-1920w.png",
     ""
   ],
   [
     "CoWest Insurance Group",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/cowest-insurance-group.png",
+    "/Resources/images/coWestInsuranceGroup-1920w.png",
     ""
   ],
   [
     "Cowest Insurance Service",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/cowest-insurance-service.png",
+    "/Resources/images/CowestInsurance-Service-1920w.png",
     ""
   ],
   [
     "Crest Pest Control",
     "Pest Control",
-    "/Resources/images/portfolio-normalized/crest-pest-control.png",
+    "/Resources/images/Crest-Pest-Control-1920w.png",
     ""
   ],
   [
     "CT Gasket",
     "Automotive",
-    "/Resources/images/portfolio-normalized/ct-gasket.png",
+    "/Resources/images/ctGasket-1920w.png",
     ""
   ],
   [
     "Curved Glass Creations",
     "Glass Repair",
-    "/Resources/images/portfolio-normalized/curved-glass-creations.png",
+    "/Resources/images/curvedGlassCreations-1920w.png",
     ""
   ],
   [
     "D And D Machinery Movers",
     "Moving",
-    "/Resources/images/portfolio-normalized/d-and-d-machinery-movers.png",
+    "/Resources/images/dAndDMachineryMovers-1920w.png",
     ""
   ],
   [
     "Dads of Parker",
     "Nonprofit",
-    "/Resources/images/portfolio-normalized/dads-of-parker.png",
+    "/Resources/images/Dads-of-Parker-1920w.png",
     ""
   ],
   [
     "Deaf Vacation Cruise",
     "Travel",
-    "/Resources/images/portfolio-normalized/deaf-vacation-cruise.png",
+    "/Resources/images/deaf-vacation-cruise.png",
     ""
   ],
   [
     "Deannas Papillons",
     "Pet Services",
-    "/Resources/images/portfolio-normalized/deannas-papillons.png",
+    "/Resources/images/WebactDeannasPapillons-1920w.png",
     ""
   ],
   [
     "Dental Arts",
     "Dental",
-    "/Resources/images/portfolio-normalized/dental-arts.png",
+    "/Resources/images/DentalArts-1920w.png",
     ""
   ],
   [
     "Dental Sleep Medicine",
     "Dental",
-    "/Resources/images/portfolio-normalized/dental-sleep-medicine.png",
+    "/Resources/images/dentalSleepMedicine-1920w.png",
     ""
   ],
   [
     "Dental Sleep Medicine & Cranio Facial Pain",
     "Dental",
-    "/Resources/images/portfolio-normalized/dental-sleep-medicine-and-cranio-facial-pain.png",
+    "/Resources/images/Dental-Sleep-Medicine---Cranio-Facial-Pain-1920w.png",
     ""
   ],
   [
     "Denver Issa",
     "Nonprofit",
-    "/Resources/images/portfolio-normalized/denver-issa.png",
+    "/Resources/images/Denver-Issa-1920w.png",
     ""
   ],
   [
     "Denver Sign Factory",
     "Printing & Graphics",
-    "/Resources/images/portfolio-normalized/denver-sign-factory.png",
+    "/Resources/images/denverSignFactory-1920w.png",
     ""
   ],
   [
     "Denver Towing",
     "Towing",
-    "/Resources/images/portfolio-normalized/denver-towing.png",
+    "/Resources/images/WebactDenverTowing-1920w.png",
     ""
   ],
   [
     "Denver's Best Heating",
     "HVAC",
-    "/Resources/images/portfolio-normalized/denver-s-best-heating.png",
+    "/Resources/images/WebactDenversBestHeating-1920w.png",
     ""
   ],
   [
     "Desert Empire",
     "Fair",
-    "/Resources/images/portfolio-normalized/desert-empire.png",
+    "/Resources/images/DesertEmpire-1920w.png",
     ""
   ],
   [
     "Dig For Energy",
     "Energy",
-    "/Resources/images/portfolio-normalized/dig-for-energy.png",
+    "/Resources/images/dig-for-energy.png",
     ""
   ],
   [
     "Dominion Craftsman Services",
     "Construction",
-    "/Resources/images/portfolio-normalized/dominion-craftsman-services.png",
+    "/Resources/images/Dominion-Craftsman-Services-1920w.png",
     ""
   ],
   [
     "Driving Instructor Classes",
     "Driving School",
-    "/Resources/images/portfolio-normalized/driving-instructor-classes.png",
+    "/Resources/images/Driving-Instructor-Classes-1920w.png",
     ""
   ],
   [
     "DSS By Kat",
     "Pet Services",
-    "/Resources/images/portfolio-normalized/dss-by-kat.png",
+    "/Resources/images/dssByKat-1920w.png",
     ""
   ],
   [
     "DWW",
     "Energy",
-    "/Resources/images/portfolio-normalized/dww.png",
+    "/Resources/images/DWW-1920w.png",
     ""
   ],
   [
     "E-Sports Foundation",
     "Nonprofit",
-    "/Resources/images/portfolio-normalized/e-sports-foundation.png",
+    "/Resources/images/ESportsFoundation-1920w.png",
     ""
   ],
   [
     "Ebony Equines",
     "Pet Services",
-    "/Resources/images/portfolio-normalized/ebony-equines.png",
+    "/Resources/images/Ebony-Equines-1920w.png",
     ""
   ],
   [
     "Ed Prevost",
     "Investigation",
-    "/Resources/images/portfolio-normalized/ed-prevost.png",
+    "/Resources/images/edProvost-1920w.png",
     ""
   ],
   [
     "Edmotnton Heritage Festival",
     "Fair",
-    "/Resources/images/portfolio-normalized/edmotnton-heritage-festival.png",
+    "/Resources/images/WebactEdmonton-1920w.png",
     ""
   ],
   [
     "Einstein Plumbing",
     "Plumbing",
-    "/Resources/images/portfolio-normalized/einstein-plumbing.png",
+    "/Resources/images/WebactEinstein-1920w.png",
     ""
   ],
   [
     "Emergency Locksmith Denver",
     "Locksmith",
-    "/Resources/images/portfolio-normalized/emergency-locksmith-denver.png",
+    "/Resources/images/Emergency_Locksmith_Denver-1920w.png",
     ""
   ],
   [
     "Empathy Care",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/empathy-care.png",
+    "/Resources/images/Empathy-Care-1920w.png",
     ""
   ],
   [
     "Energy Performance Service",
     "Energy",
-    "/Resources/images/portfolio-normalized/energy-performance-service.png",
+    "/Resources/images/epshvac(EnergyPerformanceService)-1920w.png",
     ""
   ],
   [
     "Epic ivy",
     "Business",
-    "/Resources/images/portfolio-normalized/epic-ivy.png",
+    "/Resources/images/Epic-Ivy-1920w.png",
     ""
   ],
   [
     "Epleyer",
     "Technology",
-    "/Resources/images/portfolio-normalized/epleyer.png",
+    "/Resources/images/Epleyer-1920w.png",
     ""
   ],
   [
     "Esports Epleyer",
     "Technology",
-    "/Resources/images/portfolio-normalized/esports-epleyer.png",
+    "/Resources/images/Esports-Epleyer-1920w.png",
     ""
   ],
   [
     "Evans Legal Group",
     "Legal",
-    "/Resources/images/portfolio-normalized/evans-legal-group.png",
+    "/Resources/images/Evans-Legal-Group-1920w.png",
     ""
   ],
   [
     "Express Shipping Room Supply",
     "Ecommerce",
-    "/Resources/images/portfolio-normalized/express-shipping-room-supply.png",
+    "/Resources/images/Express-Shipping-Room-Supply-1920w.png",
     ""
   ],
   [
     "Extreme Autoworks",
     "Automotive",
-    "/Resources/images/portfolio-normalized/extreme-autoworks.png",
+    "/Resources/images/WebactExtremeAutowors-1920w.png",
     ""
   ],
   [
     "Finding The Fantastic",
     "Artist",
-    "/Resources/images/portfolio-normalized/finding-the-fantastic.png",
+    "/Resources/images/WebactFindingTheFantastic-1920w.png",
     ""
   ],
   [
     "Fine Arts Movement",
     "Artist",
-    "/Resources/images/portfolio-normalized/fine-arts-movement.png",
+    "/Resources/images/WebactFAM-5c1828d3-1920w.png",
     ""
   ],
   [
     "Firm Group",
     "Legal",
-    "/Resources/images/portfolio-normalized/firm-group.png",
+    "/Resources/images/Firm-Group-1920w.png",
     ""
   ],
   [
     "Fit Republic",
     "Fitness",
-    "/Resources/images/portfolio-normalized/fit-republic.png",
+    "/Resources/images/WebactFitRepublic-1920w.png",
     ""
   ],
   [
     "Fr Bumper Solutions",
     "Automotive",
-    "/Resources/images/portfolio-normalized/fr-bumper-solutions.png",
+    "/Resources/images/Fr-Bumper-Solutions-1920w.png",
     ""
   ],
   [
     "Frameless Shower Door",
     "Glass Repair",
-    "/Resources/images/portfolio-normalized/frameless-shower-door.png",
+    "/Resources/images/WebactFramelessShowerDoor-1920w.png",
     ""
   ],
   [
     "Front Range Dentures",
     "Dental",
-    "/Resources/images/portfolio-normalized/front-range-dentures.png",
+    "/Resources/images/WebactFrontRangeDentures-1920w.png",
     ""
   ],
   [
     "Future Grasp",
     "Business",
-    "/Resources/images/portfolio-normalized/future-grasp.png",
+    "/Resources/images/Future-Grasp-1920w.png",
     ""
   ],
   [
     "G & G Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/g-and-g-driving-school.png",
+    "/Resources/images/G---G-Driving-School-1920w.png",
     ""
   ],
   [
     "Gangle Law Firm",
     "Legal",
-    "/Resources/images/portfolio-normalized/gangle-law-firm.png",
+    "/Resources/images/gangleLawFirm-1920w.png",
     ""
   ],
   [
     "Genius Coaching",
     "Education",
-    "/Resources/images/portfolio-normalized/genius-coaching.png",
+    "/Resources/images/GeniusCoaching-1920w.png",
     ""
   ],
   [
     "Ghost Town Fitness",
     "Fitness",
-    "/Resources/images/portfolio-normalized/ghost-town-fitness.png",
+    "/Resources/images/ghostTownFitness-1920w.png",
     ""
   ],
   [
     "Glass Act",
     "Glass Repair",
-    "/Resources/images/portfolio-normalized/glass-act.png",
+    "/Resources/images/glass act 970-1920w.png",
     ""
   ],
   [
     "Good Water",
     "Water Treatment",
-    "/Resources/images/portfolio-normalized/good-water.png",
+    "/Resources/images/goodWater-1920w.png",
     ""
   ],
   [
     "Granite State Labradoodles",
     "Pet Services",
-    "/Resources/images/portfolio-normalized/granite-state-labradoodles.png",
+    "/Resources/images/granite state labradoodles-1920w.png",
     ""
   ],
   [
     "Great Escape",
     "Counseling",
-    "/Resources/images/portfolio-normalized/great-escape.png",
+    "/Resources/images/great escape-1920w.png",
     ""
   ],
   [
     "Great West Real Estate",
     "Real Estate",
-    "/Resources/images/portfolio-normalized/great-west-real-estate.png",
+    "/Resources/images/great-west-real-estate.png",
     ""
   ],
   [
     "Great West Restoration Colorado",
     "Home Services",
-    "/Resources/images/portfolio-normalized/great-west-restoration-colorado.png",
+    "/Resources/images/Great-West-Restoration-Colorado-be744ebf-1920w.png",
     ""
   ],
   [
     "Great West Restoration Colorado Agent",
     "Home Services",
-    "/Resources/images/portfolio-normalized/great-west-restoration-colorado-agent.png",
+    "/Resources/images/Great-West-Restoration-Colorado-Agent-1920w.png",
     ""
   ],
   [
     "Grin & Barrett Charity Ride",
     "Nonprofit",
-    "/Resources/images/portfolio-normalized/grin-and-barrett-charity-ride.png",
+    "/Resources/images/gb biketours-1920w.png",
     ""
   ],
   [
     "Has Tag Lab",
     "Ecommerce",
-    "/Resources/images/portfolio-normalized/has-tag-lab.png",
+    "/Resources/images/Has-Tag-Lab-1920w.png",
     ""
   ],
   [
     "Haveli Indian Cuisine",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/haveli-indian-cuisine.png",
+    "/Resources/images/havelillittleton-1920w.png",
     ""
   ],
   [
     "Hebert Investigations",
     "Investigation",
-    "/Resources/images/portfolio-normalized/hebert-investigations.png",
+    "/Resources/images/Hebert_Investigations-1920w.png",
     ""
   ],
   [
     "Heritage Roofing",
     "Roofing",
-    "/Resources/images/portfolio-normalized/heritage-roofing.png",
+    "/Resources/images/WebactHeritage-1920w.png",
     ""
   ],
   [
     "Hi Dessert Egg",
     "Retail",
-    "/Resources/images/portfolio-normalized/hi-dessert-egg.png",
+    "/Resources/images/Hi-Dessert-Egg-1920w.png",
     ""
   ],
   [
     "Home Pro Chesapeake",
     "Home Inspection",
-    "/Resources/images/portfolio-normalized/home-pro-chesapeake.png",
+    "/Resources/images/homeProChesapeake-1920w.png",
     ""
   ],
   [
     "Homeland Driving School Cavco Enterprises, Inc",
     "Driving School",
-    "/Resources/images/portfolio-normalized/homeland-driving-school-cavco-enterprises-inc.png",
+    "/Resources/images/Homeland-Driving-School-Cavco-Enterprises--Inc-1920w.png",
     ""
   ],
   [
     "HouseSketch",
     "Design",
-    "/Resources/images/portfolio-normalized/housesketch.png",
+    "/Resources/images/HouseSketch-1920w.png",
     ""
   ],
   [
     "Houston Energy Systems",
     "Energy",
-    "/Resources/images/portfolio-normalized/houston-energy-systems.png",
+    "/Resources/images/HoustonEnergySystems-1920w.png",
     ""
   ],
   [
     "Humbold Couty Fair",
     "Fair",
-    "/Resources/images/portfolio-normalized/humbold-couty-fair.png",
+    "/Resources/images/WebactHumboltCountyFair-1920w.png",
     ""
   ],
   [
     "Hydro Dynamics",
     "Water Treatment",
-    "/Resources/images/portfolio-normalized/hydro-dynamics.png",
+    "/Resources/images/Hydro-Dynamics-1920w.png",
     ""
   ],
   [
     "I 5 Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/i-5-driving-school.png",
+    "/Resources/images/I-5-Driving-School-1920w.png",
     ""
   ],
   [
     "IDT",
     "Technology",
-    "/Resources/images/portfolio-normalized/idt.png",
+    "/Resources/images/WebactIDT-1920w.png",
     ""
   ],
   [
     "Implant Excellence",
     "Dental",
-    "/Resources/images/portfolio-normalized/implant-excellence.png",
+    "/Resources/images/WebactImplantExcellence-1920w.png",
     ""
   ],
   [
     "Inland Valley Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/inland-valley-driving-school.png",
+    "/Resources/images/InlandValleyDrivingSchool-1920w.png",
     ""
   ],
   [
     "Inquiz Inspections",
     "Home Inspection",
-    "/Resources/images/portfolio-normalized/inquiz-inspections.png",
+    "/Resources/images/Inquiz-Inspections-1920w.png",
     ""
   ],
   [
     "Insightifi",
     "Technology",
-    "/Resources/images/portfolio-normalized/insightifi.png",
+    "/Resources/images/insightifi-1920w.png",
     ""
   ],
   [
     "Integration Design",
     "Design",
-    "/Resources/images/portfolio-normalized/integration-design.png",
+    "/Resources/images/WebactIntergrationDesign-1920w.png",
     ""
   ],
   [
     "Ironside Capital",
     "Investors",
-    "/Resources/images/portfolio-normalized/ironside-capital.png",
+    "/Resources/images/IRONSIDE-CAPITAL-2aab2bce-1920w.png",
     ""
   ],
   [
     "Island Cool Creams",
     "Retail",
-    "/Resources/images/portfolio-normalized/island-cool-creams.png",
+    "/Resources/images/island+cool+creams.png",
     ""
   ],
   [
     "Island Slider Guy",
     "Glass Repair",
-    "/Resources/images/portfolio-normalized/island-slider-guy.png",
+    "/Resources/images/Island_Slider_Guy-1920w.png",
     ""
   ],
   [
     "Jack Lewis",
     "Portfolio",
-    "/Resources/images/portfolio-normalized/jack-lewis.png",
+    "/Resources/images/Jack-Lewis-1920w.png",
     ""
   ],
   [
     "JK Hatcher Homes",
     "Construction",
-    "/Resources/images/portfolio-normalized/jk-hatcher-homes.png",
+    "/Resources/images/JK_Hactcher_Homes-1920w.png",
     ""
   ],
   [
     "Karma Tour Hawaii",
     "Travel",
-    "/Resources/images/portfolio-normalized/karma-tour-hawaii.png",
+    "/Resources/images/WebactKarmaTourHawaii-1920w.png",
     ""
   ],
   [
     "Kasco HVAC",
     "HVAC",
-    "/Resources/images/portfolio-normalized/kasco-hvac.png",
+    "/Resources/images/Kasco-Hvac-1920w.png",
     ""
   ],
   [
     "Kenyon Homecare Consulting",
     "Consulting",
-    "/Resources/images/portfolio-normalized/kenyon-homecare-consulting.png",
+    "/Resources/images/Kenyonn-Homecare-Consulting-1920w.png",
     ""
   ],
   [
     "Kinetico Denver",
     "Water Treatment",
-    "/Resources/images/portfolio-normalized/kinetico-denver.png",
+    "/Resources/images/kinetico-1920w.png",
     ""
   ],
   [
     "Kramarz Law",
     "Legal",
-    "/Resources/images/portfolio-normalized/kramarz-law.png",
+    "/Resources/images/Kramarz-Law-1920w.png",
     ""
   ],
   [
     "Lake Elsinore Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/lake-elsinore-driving-school.png",
+    "/Resources/images/Lake-Elsinore-Driving-School-1920w.png",
     ""
   ],
   [
     "Liberty Lake Smile Source",
     "Dental",
-    "/Resources/images/portfolio-normalized/liberty-lake-smile-source.png",
+    "/Resources/images/LibertyLake-1920w.png",
     ""
   ],
   [
     "Light Of Mine",
     "Business",
-    "/Resources/images/portfolio-normalized/light-of-mine.png",
+    "/Resources/images/lightOfMine-1920w.png",
     ""
   ],
   [
     "Linda Wang",
     "Business",
-    "/Resources/images/portfolio-normalized/linda-wang.png",
+    "/Resources/images/Linda_Wang-658457a6-1920w.png",
     ""
   ],
   [
     "Little Caesars Pueblo",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/little-caesars-pueblo.png",
+    "/Resources/images/littleCaesars-f8b3a4d9-1920w.png",
     ""
   ],
   [
     "Lower Lake Ranch",
     "Travel",
-    "/Resources/images/portfolio-normalized/lower-lake-ranch.png",
+    "/Resources/images/WebactLowerLakeRanch-1920w.png",
     ""
   ],
   [
     "M Communications",
     "Technology",
-    "/Resources/images/portfolio-normalized/m-communications.png",
+    "/Resources/images/WebactMCommunications-1920w.png",
     ""
   ],
   [
     "Manor House Apartments",
     "Real Estate",
-    "/Resources/images/portfolio-normalized/manor-house-apartments.png",
+    "/Resources/images/MANOR-HOUSE-APARTMENTS-1920w.png",
     ""
   ],
   [
     "Marcoa",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/marcoa.png",
+    "/Resources/images/marcoa.png",
     ""
   ],
   [
     "Master Craft",
     "Roofing",
-    "/Resources/images/portfolio-normalized/master-craft.png",
+    "/Resources/images/Master-Craft-1920w.png",
     ""
   ],
   [
     "MDT Transit",
     "Transportation",
-    "/Resources/images/portfolio-normalized/mdt-transit.png",
+    "/Resources/images/MDT-Transit-1920w.png",
     ""
   ],
   [
     "Meadow Hills",
     "Golf",
-    "/Resources/images/portfolio-normalized/meadow-hills.png",
+    "/Resources/images/Meadow_Hills-1920w.png",
     ""
   ],
   [
     "Meditouch",
     "Ecommerce",
-    "/Resources/images/portfolio-normalized/meditouch.png",
+    "/Resources/images/Meditouch-1920w.png",
     ""
   ],
   [
     "Mehak Denver",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/mehak-denver.png",
+    "/Resources/images/Mehak-Denver-1920w.png",
     ""
   ],
   [
     "Mehak India's Aroma",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/mehak-india-s-aroma.png",
+    "/Resources/images/mehak-1920w.png",
     ""
   ],
   [
     "Menifee Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/menifee-driving-school.png",
+    "/Resources/images/Menifee-Driving-School-1920w.png",
     ""
   ],
   [
     "Midwest Appliance and HVAC",
     "HVAC",
-    "/Resources/images/portfolio-normalized/midwest-appliance-and-hvac.png",
+    "/Resources/images/MIDWEST-APPLIANCE-AND-HVAC-1920w.png",
     ""
   ],
   [
     "Mile High Books",
     "Bookkeeping",
-    "/Resources/images/portfolio-normalized/mile-high-books.png",
+    "/Resources/images/Mile_High_Books-1920w.png",
     ""
   ],
   [
     "Mindful Minds Psychiatry",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/mindful-minds-psychiatry.png",
+    "/Resources/images/MINDFUL-MINDS-PSYCHIATRY-1920w.png",
     ""
   ],
   [
     "Mississippi Valley Fair",
     "Fair",
-    "/Resources/images/portfolio-normalized/mississippi-valley-fair.png",
+    "/Resources/images/WebactMVFair-1920w.png",
     ""
   ],
   [
     "Miyazaki Dental",
     "Dental",
-    "/Resources/images/portfolio-normalized/miyazaki-dental.png",
+    "/Resources/images/MiyasakiDental-1920w.png",
     ""
   ],
   [
     "Molly Mulligan",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/molly-mulligan.png",
+    "/Resources/images/Molly-Mulligan-1920w.png",
     ""
   ],
   [
     "Mountain Peak Law Group LLC",
     "Legal",
-    "/Resources/images/portfolio-normalized/mountain-peak-law-group-llc.png",
+    "/Resources/images/Mountain-Peak-Law-Group-LLC-1920w.png",
     ""
   ],
   [
     "Mountain West Law Group",
     "Legal",
-    "/Resources/images/portfolio-normalized/mountain-west-law-group.png",
+    "/Resources/images/mountain west law group-1920w.png",
     ""
   ],
   [
     "Mrad",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/mrad.png",
+    "/Resources/images/WebactMrad-1920w.png",
     ""
   ],
   [
     "Murrieta Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/murrieta-driving-school.png",
+    "/Resources/images/Murrieta-Driving-School-1920w.png",
     ""
   ],
   [
     "Net 2 Phone",
     "Technology",
-    "/Resources/images/portfolio-normalized/net-2-phone.png",
+    "/Resources/images/net-2-phone.png",
     ""
   ],
   [
     "New Era Dental",
     "Dentist",
-    "/Resources/images/portfolio-normalized/new-era-dental.png",
+    "/Resources/images/new-era-dental.png",
     ""
   ],
   [
     "Niagra Designs",
     "Printing & Graphics",
-    "/Resources/images/portfolio-normalized/niagra-designs.png",
+    "/Resources/images/WebactNiagraDesigns-1920w.png",
     ""
   ],
   [
     "Nirvana Indian Cuisine",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/nirvana-indian-cuisine.png",
+    "/Resources/images/Nirvana-1920w.png",
     ""
   ],
   [
     "NOLA Water",
     "Water Treatment",
-    "/Resources/images/portfolio-normalized/nola-water.png",
+    "/Resources/images/nolaWater-1920w.png",
     ""
   ],
   [
     "Obairagency",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/obairagency.png",
+    "/Resources/images/Obairagency-1920w.png",
     ""
   ],
   [
     "Okunade",
     "Legal",
-    "/Resources/images/portfolio-normalized/okunade.png",
+    "/Resources/images/WebactOkunade-1920w.png",
     ""
   ],
   [
     "Onestop Home Healthcare",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/onestop-home-healthcare.png",
+    "/Resources/images/ONESTOP-HOME-HEALTH-CARE-1920w.png",
     ""
   ],
   [
     "Optimal Homecare",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/optimal-homecare.png",
+    "/Resources/images/WebactOptimal-1920w.png",
     ""
   ],
   [
     "Optimal Hospice",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/optimal-hospice.png",
+    "/Resources/images/Optimal-Hospice-1920w.png",
     ""
   ],
   [
     "Palm Bay Power Equipment",
     "Ecommerce",
-    "/Resources/images/portfolio-normalized/palm-bay-power-equipment.png",
+    "/Resources/images/palm bay power-1920w.png",
     ""
   ],
   [
     "Pantera Homes",
     "Construction",
-    "/Resources/images/portfolio-normalized/pantera-homes.png",
+    "/Resources/images/panteraHomes-1920w.png",
     ""
   ],
   [
     "Parking Payment, Validation & Reservations",
     "Business",
-    "/Resources/images/portfolio-normalized/parking-payment-validation-and-reservations.png",
+    "/Resources/images/Parking-Payment--Validation---Reservations.-1920w.png",
     ""
   ],
   [
     "ParkingBoxx",
     "Business",
-    "/Resources/images/portfolio-normalized/parkingboxx.png",
+    "/Resources/images/ParkingBoxx-1920w.png",
     ""
   ],
   [
     "Partner Forces",
     "Business",
-    "/Resources/images/portfolio-normalized/partner-forces.png",
+    "/Resources/images/WebactPartnerForces-1920w.png",
     ""
   ],
   [
     "Paw Power Agility Equipment",
     "Pet Services",
-    "/Resources/images/portfolio-normalized/paw-power-agility-equipment.png",
+    "/Resources/images/Paw_Power_Agility_Equip-1920w.png",
     ""
   ],
   [
     "Peace Of Mind Pest Services",
     "Pest Control",
-    "/Resources/images/portfolio-normalized/peace-of-mind-pest-services.png",
+    "/Resources/images/Pest-Of-Mind-Pest-Services-1920w.png",
     ""
   ],
   [
     "Peakview Dental",
     "Dental",
-    "/Resources/images/portfolio-normalized/peakview-dental.png",
+    "/Resources/images/Peakview-1920w.png",
     ""
   ],
   [
     "Perthes",
     "Nonprofit",
-    "/Resources/images/portfolio-normalized/perthes.png",
+    "/Resources/images/WebactPerthes-1920w.png",
     ""
   ],
   [
     "Pest Magic",
     "Pest Control",
-    "/Resources/images/portfolio-normalized/pest-magic.png",
+    "/Resources/images/Pest-Magic-1920w.png",
     ""
   ],
   [
     "Phase Contracting",
     "Home Services",
-    "/Resources/images/portfolio-normalized/phase-contracting.png",
+    "/Resources/images/WebactPhaseContracting-1920w.png",
     ""
   ],
   [
     "Photophobic Society of America",
     "Nonprofit",
-    "/Resources/images/portfolio-normalized/photophobic-society-of-america.png",
+    "/Resources/images/photophobicSocietyOfAmerica-1920w.png",
     ""
   ],
   [
     "Platinum Registration",
     "Consulting",
-    "/Resources/images/portfolio-normalized/platinum-registration.png",
+    "/Resources/images/Platinum-Registration-1920w.png",
     ""
   ],
   [
     "Pompano Glass",
     "Glass Repair",
-    "/Resources/images/portfolio-normalized/pompano-glass.png",
+    "/Resources/images/pompanoGlass-1920w.png",
     ""
   ],
   [
     "Pork Chop's Truck and Auto",
     "Automotive",
-    "/Resources/images/portfolio-normalized/pork-chop-s-truck-and-auto.png",
+    "/Resources/images/Pork-Chop-s-Truck-and-Auto-1920w.png",
     ""
   ],
   [
     "Pride & Swagger",
     "Business",
-    "/Resources/images/portfolio-normalized/pride-and-swagger.png",
+    "/Resources/images/WebactPrride-Swagger-1920w.png",
     ""
   ],
   [
     "Prime Life Benefits",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/prime-life-benefits.png",
+    "/Resources/images/prime life benefits-1920w.png",
     ""
   ],
   [
     "Prosthoodontic Dentures",
     "Dental",
-    "/Resources/images/portfolio-normalized/prosthoodontic-dentures.png",
+    "/Resources/images/WebactProsthodontic-1920w.png",
     ""
   ],
   [
     "Redline Construction",
     "Construction",
-    "/Resources/images/portfolio-normalized/redline-construction.png",
+    "/Resources/images/WebactRedlineConstruction-1920w.png",
     ""
   ],
   [
     "Roof Ready",
     "Roofing",
-    "/Resources/images/portfolio-normalized/roof-ready.png",
+    "/Resources/images/Roof-Ready-1920w.png",
     ""
   ],
   [
     "Roots & Brew",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/roots-and-brew.png",
+    "/Resources/images/WebactRoots-Brew-1920w.png",
     ""
   ],
   [
     "Rostron Dental",
     "Dental",
-    "/Resources/images/portfolio-normalized/rostron-dental.png",
+    "/Resources/images/WebactRostronDental-1920w.png",
     ""
   ],
   [
     "Sage Restaurant",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/sage-restaurant.png",
+    "/Resources/images/Sage_Restaurant-1920w.png",
     ""
   ],
   [
     "Salinas Valley Fair",
     "Fair",
-    "/Resources/images/portfolio-normalized/salinas-valley-fair.png",
+    "/Resources/images/WebactSalinasCalley-1920w.png",
     ""
   ],
   [
     "Signal Driving & Traffic Schools",
     "Driving School",
-    "/Resources/images/portfolio-normalized/signal-driving-and-traffic-schools.png",
+    "/Resources/images/SignalSchool-1920w.png",
     ""
   ],
   [
     "Simply Cupcakes Pasadena",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/simply-cupcakes-pasadena.png",
+    "/Resources/images/simply-cupcakes-pasadena.png",
     ""
   ],
   [
     "Six Corners",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/six-corners.png",
+    "/Resources/images/WebactSixCorners-1920w.png",
     ""
   ],
   [
     "Skin Care Essentials",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/skin-care-essentials.png",
+    "/Resources/images/SkinCare-1920w.png",
     ""
   ],
   [
     "Smart Cell Phone Parts",
     "Technology",
-    "/Resources/images/portfolio-normalized/smart-cell-phone-parts.png",
+    "/Resources/images/SmartCellPhoneParts-1920w.png",
     ""
   ],
   [
     "Smart Wireless Parts",
     "Technology",
-    "/Resources/images/portfolio-normalized/smart-wireless-parts.png",
+    "/Resources/images/Smart-Wireless-Parts-1920w.png",
     ""
   ],
   [
     "Sniper Security",
     "Security",
-    "/Resources/images/portfolio-normalized/sniper-security.png",
+    "/Resources/images/sniper-security.png",
     ""
   ],
   [
     "Southhall Investments",
     "Investors",
-    "/Resources/images/portfolio-normalized/southhall-investments.png",
+    "/Resources/images/WebactSouthhallInvestments-1920w.png",
     ""
   ],
   [
     "Speak Clear Communications",
     "Professional Services",
-    "/Resources/images/portfolio-normalized/speak-clear-communications.png",
+    "/Resources/images/speakClearCommunications-1920w.png",
     ""
   ],
   [
     "Spector Law",
     "Legal",
-    "/Resources/images/portfolio-normalized/spector-law.png",
+    "/Resources/images/spectorLaw-1920w.png",
     ""
   ],
   [
     "Spring Fresh",
     "Business",
-    "/Resources/images/portfolio-normalized/spring-fresh.png",
+    "/Resources/images/Spring-Fresh-1920w.png",
     ""
   ],
   [
     "Stanleyview Home Care",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/stanleyview-home-care.png",
+    "/Resources/images/Stanleyview-Home-Care-1920w.png",
     ""
   ],
   [
     "Stephanie Ascari",
     "Photography",
-    "/Resources/images/portfolio-normalized/stephanie-ascari.png",
+    "/Resources/images/Stephanie-Ascari-1920w.png",
     ""
   ],
   [
     "Style Savy Designs",
     "Design",
-    "/Resources/images/portfolio-normalized/style-savy-designs.png",
+    "/Resources/images/WebactStyleSavy-1920w.png",
     ""
   ],
   [
     "Sukoon",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/sukoon.png",
+    "/Resources/images/Sukoon-1920w.png",
     ""
   ],
   [
     "Summit Graphics",
     "Printing & Graphics",
-    "/Resources/images/portfolio-normalized/summit-graphics.png",
+    "/Resources/images/summit graphics-1920w.png",
     ""
   ],
   [
     "Sunday Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/sunday-driving-school.png",
+    "/Resources/images/WebactSundayDrivingSchool-1920w.png",
     ""
   ],
   [
     "Superior Showers",
     "Glass Repair",
-    "/Resources/images/portfolio-normalized/superior-showers.png",
+    "/Resources/images/superior showers-1920w.png",
     ""
   ],
   [
     "Sushi & Co",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/sushi-and-co.png",
+    "/Resources/images/Sushi---Co-1920w.png",
     ""
   ],
   [
     "Tadka Indian Cuisine",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/tadka-indian-cuisine.png",
+    "/Resources/images/tadka boulder-1920w.png",
     ""
   ],
   [
     "Tala Wellness",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/tala-wellness.png",
+    "/Resources/images/TalaWellness-1920w.png",
     ""
   ],
   [
     "Temecula Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/temecula-driving-school.png",
+    "/Resources/images/WebactTemecula DrivingSchool-1920w.png",
     ""
   ],
   [
     "The Chambers Of Tucson Mall",
     "Retail",
-    "/Resources/images/portfolio-normalized/the-chambers-of-tucson-mall.png",
+    "/Resources/images/the-chambers-of-tucson-mall.png",
     ""
   ],
   [
     "The Executive Center",
     "Real Estate",
-    "/Resources/images/portfolio-normalized/the-executive-center.png",
+    "/Resources/images/TheExecutiveCenter-1920w.png",
     ""
   ],
   [
     "The Point",
     "Construction",
-    "/Resources/images/portfolio-normalized/the-point.png",
+    "/Resources/images/WebactThePoint-1920w.png",
     ""
   ],
   [
     "The Smilist",
     "Dentist",
-    "/Resources/images/portfolio-normalized/the-smilist.png",
+    "/Resources/images/WebactSmilist-1920w.png",
     ""
   ],
   [
     "Thompson Water Media",
     "Water Treatment",
-    "/Resources/images/portfolio-normalized/thompson-water-media.png",
+    "/Resources/images/Thompson-Wate-Media-1920w.png",
     ""
   ],
   [
     "Tipping Hat",
     "Plumbing",
-    "/Resources/images/portfolio-normalized/tipping-hat.png",
+    "/Resources/images/tipping hat-1920w.png",
     ""
   ],
   [
     "Total Wellness Group",
     "Healthcare",
-    "/Resources/images/portfolio-normalized/total-wellness-group.png",
+    "/Resources/images/TotalWellnessGroup-1920w.png",
     ""
   ],
   [
     "Treasure Valley Driving School",
     "Driving School",
-    "/Resources/images/portfolio-normalized/treasure-valley-driving-school.png",
+    "/Resources/images/WebactTreasureValley-1920w.png",
     ""
   ],
   [
     "Trevey",
     "Real Estate",
-    "/Resources/images/portfolio-normalized/trevey.png",
+    "/Resources/images/trevey-1920w.png",
     ""
   ],
   [
     "Tropical Remodel Solutions",
     "Construction",
-    "/Resources/images/portfolio-normalized/tropical-remodel-solutions.png",
+    "/Resources/images/Tropical_Remodel_Solutions-1920w.png",
     ""
   ],
   [
     "Turf Magic",
     "Landscaping",
-    "/Resources/images/portfolio-normalized/turf-magic.png",
+    "/Resources/images/Turf-Magic-1920w.png",
     ""
   ],
   [
     "US Green",
     "Energy",
-    "/Resources/images/portfolio-normalized/us-green.png",
+    "/Resources/images/us green energy-1920w.png",
     ""
   ],
   [
     "Vacation Rentals",
     "Travel",
-    "/Resources/images/portfolio-normalized/vacation-rentals.png",
+    "/Resources/images/Vacation-Rentals-1920w.png",
     ""
   ],
   [
     "Vi'TalDerm MD",
     "Salon & Beauty",
-    "/Resources/images/portfolio-normalized/vi-talderm-md.png",
+    "/Resources/images/vitalDerm-1920w.png",
     ""
   ],
   [
     "Vip Driving Schools",
     "Driving School",
-    "/Resources/images/portfolio-normalized/vip-driving-schools.png",
+    "/Resources/images/Vip-Driving-Schools-1920w.png",
     ""
   ],
   [
     "Wake Heating and Air",
     "HVAC",
-    "/Resources/images/portfolio-normalized/wake-heating-and-air.png",
+    "/Resources/images/Wake-Heating-and-Air-1920w.png",
     ""
   ],
   [
     "Washington Dental",
     "Dental",
-    "/Resources/images/portfolio-normalized/washington-dental.png",
+    "/Resources/images/WashingtonDental-1920w.png",
     ""
   ],
   [
     "Way Cool Gaming",
     "Technology",
-    "/Resources/images/portfolio-normalized/way-cool-gaming.png",
+    "/Resources/images/Way-Cool-Gaming-1920w.png",
     ""
   ],
   [
     "Winston C Throgmorton",
     "Legal",
-    "/Resources/images/portfolio-normalized/winston-c-throgmorton.png",
+    "/Resources/images/WebactWinstonCThrogmorton-1920w.png",
     ""
   ],
   [
     "Your College Planning Coach",
     "Education",
-    "/Resources/images/portfolio-normalized/your-college-planning-coach.png",
+    "/Resources/images/You-College-Planning-Coach-1920w.png",
     ""
   ],
   [
     "Yuma Airshow",
     "Fair",
-    "/Resources/images/portfolio-normalized/yuma-airshow.png",
+    "/Resources/images/WebactYumaAirshow-1920w.png",
     ""
   ],
   [
     "Z-XG",
     "Ecommerce",
-    "/Resources/images/portfolio-normalized/z-xg.png",
+    "/Resources/images/Z-XG-1920w.png",
     ""
   ],
   [
     "Zaika Broomfield",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/zaika-broomfield.png",
+    "/Resources/images/zaikaBroomfield-1920w.png",
     ""
   ],
   [
     "Zaika Castle Rock",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/zaika-castle-rock.png",
+    "/Resources/images/zaikaCastleRock-1920w.png",
     ""
   ],
   [
     "Zaika Colorado Springs",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/zaika-colorado-springs.png",
+    "/Resources/images/zaika co springs-1920w.png",
     ""
   ],
   [
     "Zaika Express",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/zaika-express.png",
+    "/Resources/images/zaikaExpress-1920w.png",
     ""
   ],
   [
     "Zaika Indian Cuisine",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/zaika-indian-cuisine.png",
+    "/Resources/images/ZaikaIndianCuisine-1920w.png",
     ""
   ],
   [
     "Zaika Littleton",
     "Restaurant",
-    "/Resources/images/portfolio-normalized/zaika-littleton.png",
+    "/Resources/images/zaikaLittleton-1920w.png",
     ""
   ]
 ];
-
-// deployment refresh 2026-07-12

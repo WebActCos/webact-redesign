@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Top 250 Website Designs | WebAct</title>
-  <meta name="description" content="Learn about Top 250 Website Designs from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
+  <meta name="description" content="Explore Top 250 Website Designs from WebAct. Get professional website design, SEO, AEO, digital advertising, marketing strategy, and conversion support.">
   <link rel="stylesheet" href="/styles.css?v=main-layout-1">
   <link rel="stylesheet" href="/assets/css/webact-promodo-nav.css?v=main-layout-1">
   <link rel="stylesheet" href="/assets/css/webact-footer.css?v=main-layout-1">
@@ -211,22 +211,15 @@ body .portfolio-content {
   }
 }
 </style>
-  <link rel="canonical" href="https://www.webact.com/about/portfolio/">
+  <link rel="canonical" href="https://www.webact.com/about/portfolio.html">
   <meta property="og:title" content="Top 250 Website Designs | WebAct">
-  <meta property="og:description" content="Learn about Top 250 Website Designs from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
-  <meta property="og:url" content="https://www.webact.com/about/portfolio/">
+  <meta property="og:description" content="Explore Top 250 Website Designs from WebAct. Get professional website design, SEO, AEO, digital advertising, marketing strategy, and conversion support.">
+  <meta property="og:url" content="https://www.webact.com/about/portfolio.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Top 250 Website Designs | WebAct">
-  <meta name="twitter:description" content="Learn about Top 250 Website Designs from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.">
+  <meta name="twitter:description" content="Explore Top 250 Website Designs from WebAct. Get professional website design, SEO, AEO, digital advertising, marketing strategy, and conversion support.">
   <meta name="robots" content="index,follow">
-
-<!-- WEBACT SITEWIDE SCHEMA START -->
-<script type="application/ld+json" data-webact-sitewide-schema="true">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.webact.com/#organization","name":"WebAct","url":"https://www.webact.com/","logo":{"@type":"ImageObject","@id":"https://www.webact.com/#logo","url":"https://www.webact.com/images/logo-original.png","contentUrl":"https://www.webact.com/images/logo-original.png","caption":"WebAct"},"telephone":"+1-855-697-4336","contactPoint":[{"@type":"ContactPoint","telephone":"+1-855-697-4336","contactType":"sales","areaServed":"US","availableLanguage":["English"]}]},{"@type":"WebSite","@id":"https://www.webact.com/#website","url":"https://www.webact.com/","name":"WebAct","publisher":{"@id":"https://www.webact.com/#organization"},"inLanguage":"en-US"},{"@type":"CollectionPage","@id":"https://www.webact.com/about/portfolio.html/#webpage","url":"https://www.webact.com/about/portfolio.html","name":"Top 250 Website Designs | WebAct","headline":"Top 250 Website Designs","description":"Learn about Top 250 Website Designs from WebAct, including website design, SEO, AEO, digital advertising, strategy, and online growth support.","isPartOf":{"@id":"https://www.webact.com/#website"},"about":{"@id":"https://www.webact.com/#organization"},"publisher":{"@id":"https://www.webact.com/#organization"},"breadcrumb":{"@id":"https://www.webact.com/about/portfolio.html/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://www.webact.com/about/portfolio.html/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.webact.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.webact.com/about/"},{"@type":"ListItem","position":3,"name":"Top 250 Website Designs","item":"https://www.webact.com/about/portfolio.html/"}]}]}</script>
-<!-- WEBACT SITEWIDE SCHEMA END -->
-<!-- WEBACT TEMPLATE SCHEMA START -->
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "AboutPage", "name": "Top 250 Website Designs", "url": "https://www.webact.com/about/portfolio/", "isPartOf": {"@type": "WebSite", "name": "WebAct", "url": "https://www.webact.com"}}</script>
-<!-- WEBACT TEMPLATE SCHEMA END -->
 </head>
 
 <body>
@@ -342,44 +335,18 @@ body .portfolio-content {
     article.dataset.category = category;
     article.dataset.search = (name + ' ' + category).toLowerCase();
 
-    const link = document.createElement('a');
-link.href = url;
+    article.innerHTML =
+      '<a href="' + url + '">' +
+        '<div class="portfolio-image"><img loading="lazy" src="' + image + '" alt="WebAct Portfolio | Website Design &amp; Digital Marketing Work" + name.replace(/"/g,'&quot;') + '" decoding="async"></div>' +
+        '<div class="portfolio-content">' +
+          '<span>' + category + '</span>' +
+          '<h3>' + name + '</h3>' +
+          '<p>' + description(name, category) + '</p>' +
+          '<strong>View Case Study</strong>' +
+        '</div>' +
+      '</a>';
 
-const imageWrap = document.createElement('div');
-imageWrap.className = 'portfolio-image';
-
-const img = document.createElement('img');
-img.loading = 'lazy';
-img.src = image;
-img.alt = name + ' ' + category + ' website design by WebAct';
-
-imageWrap.appendChild(img);
-
-const contentWrap = document.createElement('div');
-contentWrap.className = 'portfolio-content';
-
-const badge = document.createElement('span');
-badge.textContent = category;
-
-const heading = document.createElement('h3');
-heading.textContent = name;
-
-const paragraph = document.createElement('p');
-paragraph.textContent = description(name, category);
-
-const callToAction = document.createElement('strong');
-callToAction.textContent = 'View Case Study';
-
-contentWrap.appendChild(badge);
-contentWrap.appendChild(heading);
-contentWrap.appendChild(paragraph);
-contentWrap.appendChild(callToAction);
-
-link.appendChild(imageWrap);
-link.appendChild(contentWrap);
-article.appendChild(link);
-
-return article;
+    return article;
   }
 
   function renderFilters(){
