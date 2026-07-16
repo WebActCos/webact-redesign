@@ -12,7 +12,8 @@
     ];
 
     faviconLinks.forEach(function (config) {
-      var selector = 'link[rel="' + config.rel + '"][data-webact-favicon="true"]';
+      var selector =
+        'link[rel="' + config.rel + '"][data-webact-favicon="true"]';
       var link = document.head.querySelector(selector);
 
       if (!link) {
@@ -44,6 +45,7 @@
 
       var firstScript = document.getElementsByTagName("script")[0];
       var gtmScript = document.createElement("script");
+
       gtmScript.id = "webact-gtm-script";
       gtmScript.async = true;
       gtmScript.src =
@@ -59,6 +61,7 @@
 
     if (!document.getElementById("webact-gtm-noscript")) {
       var noScript = document.createElement("noscript");
+
       noScript.id = "webact-gtm-noscript";
       noScript.innerHTML =
         '<iframe src="https://www.googletagmanager.com/ns.html?id=' +
@@ -97,7 +100,8 @@
         console.error("WebAct include loading error:", error);
       });
   }
-function initializeIncludes() {
+
+  function initializeIncludes() {
     installFavicon();
     installGoogleTagManager();
 
@@ -105,7 +109,7 @@ function initializeIncludes() {
       loadInclude("webact-header", "/includes/header.html"),
       loadInclude("webact-footer", "/includes/footer.html")
     ]).then(function () {
-if (
+      if (
         window.WebActNavigation &&
         typeof window.WebActNavigation.init === "function"
       ) {
