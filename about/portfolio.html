@@ -128,41 +128,112 @@
   <meta name="twitter:title" content="Top 250 Website Designs | WebAct">
   <meta name="twitter:description" content="Explore Top 250 Website Designs from WebAct. Get professional website design, SEO, AEO, digital advertising, marketing strategy, and conversion support.">
   <meta name="robots" content="index,follow">
-<style id="portfolio-uniform-card-layout">
-.portfolio-page .portfolio-grid{align-items:stretch!important}
-.portfolio-page .portfolio-card{display:flex!important;flex-direction:column!important;height:100%!important;min-height:100%!important}
-.portfolio-page .portfolio-card>a{display:flex!important;flex-direction:column!important;height:100%!important}
-.portfolio-page .portfolio-image{
-  width:100%!important;
-  height:320px!important;
-  min-height:320px!important;
-  max-height:320px!important;
-  padding:22px!important;
-  box-sizing:border-box!important;
-  display:flex!important;
-  align-items:center!important;
-  justify-content:center!important;
-  overflow:hidden!important;
-  background:#eef7fc!important
+
+<style id="portfolio-exact-card-and-image-sizing">
+/* Equal card dimensions throughout the portfolio grid. */
+.portfolio-page .portfolio-grid {
+  align-items: stretch !important;
+  grid-auto-rows: 1fr !important;
 }
-.portfolio-page .portfolio-image img{
-  display:block!important;
-  width:100%!important;
-  height:100%!important;
-  max-width:100%!important;
-  max-height:100%!important;
-  object-fit:contain!important;
-  object-position:center center!important
+
+.portfolio-page .portfolio-card {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 650px !important;
 }
-.portfolio-page .portfolio-content{display:flex!important;flex-direction:column!important;flex:1 1 auto!important;min-height:310px!important}
-.portfolio-page .portfolio-content p{flex:1 1 auto!important}
-.portfolio-page .portfolio-content strong{margin-top:auto!important;padding-top:18px!important}
-@media(max-width:1100px){
-  .portfolio-page .portfolio-image{height:290px!important;min-height:290px!important;max-height:290px!important}
+
+.portfolio-page .portfolio-card > a {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  height: 100% !important;
 }
-@media(max-width:700px){
-  .portfolio-page .portfolio-image{height:250px!important;min-height:250px!important;max-height:250px!important;padding:14px!important}
-  .portfolio-page .portfolio-content{min-height:0!important}
+
+/*
+  Every source image is placed inside an identical viewport.
+  object-fit: cover makes the visible artwork the same size even when
+  source files contain different amounts of blank space.
+*/
+.portfolio-page .portfolio-image {
+  position: relative !important;
+  width: 100% !important;
+  height: 320px !important;
+  min-height: 320px !important;
+  max-height: 320px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #eaf5fb !important;
+}
+
+.portfolio-page .portfolio-image img {
+  position: absolute !important;
+  inset: 0 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+.portfolio-page .portfolio-content {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  min-height: 330px !important;
+  padding: 24px !important;
+}
+
+.portfolio-page .portfolio-content h3 {
+  min-height: 54px !important;
+}
+
+.portfolio-page .portfolio-content p {
+  flex: 1 1 auto !important;
+  min-height: 128px !important;
+}
+
+.portfolio-page .portfolio-content strong {
+  margin-top: auto !important;
+  padding-top: 18px !important;
+}
+
+@media (max-width: 1100px) {
+  .portfolio-page .portfolio-card {
+    min-height: 620px !important;
+  }
+
+  .portfolio-page .portfolio-image {
+    height: 290px !important;
+    min-height: 290px !important;
+    max-height: 290px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolio-page .portfolio-card {
+    min-height: 0 !important;
+  }
+
+  .portfolio-page .portfolio-image {
+    height: 250px !important;
+    min-height: 250px !important;
+    max-height: 250px !important;
+  }
+
+  .portfolio-page .portfolio-content {
+    min-height: 0 !important;
+  }
+
+  .portfolio-page .portfolio-content h3,
+  .portfolio-page .portfolio-content p {
+    min-height: 0 !important;
+  }
 }
 </style>
 </head>
@@ -275,11 +346,27 @@
   }
 
   function description(name, category) {
-    return (
-      "Explore this " +
-      String(category || "business").toLowerCase() +
-      " website design example from the WebAct portfolio, focused on clear presentation, mobile-friendly layouts, and stronger online presence."
-    );
+    var businessName = String(name || "This business");
+    var industry = String(category || "business");
+    var industryLower = industry.toLowerCase();
+
+    var templates = [
+      businessName + " is a " + industryLower + " website design example featuring a polished responsive layout, clear brand presentation, and customer-focused navigation.",
+      "See how " + businessName + " presents its " + industryLower + " brand through professional website design, organized content, mobile usability, and clear next-step actions.",
+      businessName + " showcases WebAct website design for the " + industryLower + " industry, with strong visual presentation, responsive pages, and an easy customer journey.",
+      "Explore the " + businessName + " website project, created to give this " + industryLower + " business a credible online presence, clearer information, and mobile-friendly access.",
+      "The " + businessName + " project demonstrates a professional " + industryLower + " website experience built around brand trust, readable content, responsive design, and customer action.",
+      businessName + " features a modern " + industryLower + " website design that organizes key information, strengthens the brand, and helps visitors navigate confidently on any device."
+    ];
+
+    var hash = 0;
+    var key = businessName + "|" + industry;
+    for (var i = 0; i < key.length; i += 1) {
+      hash = ((hash << 5) - hash) + key.charCodeAt(i);
+      hash |= 0;
+    }
+
+    return templates[Math.abs(hash) % templates.length];
   }
 
   function createTextElement(tagName, text) {
