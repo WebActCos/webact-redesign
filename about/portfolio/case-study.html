@@ -70,6 +70,10 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Portfolio Case Study | WebAct">
   <meta name="twitter:description" content="View a WebAct website design, SEO, marketing, and advertising case study.">
+<style id="webact-case-study-image-display-fix">
+.case-media{display:flex!important;align-items:center!important;justify-content:center!important;min-height:280px!important}
+.case-media img,#case-image{display:block!important;visibility:visible!important;opacity:1!important;width:100%!important;height:auto!important;max-height:720px!important;object-fit:contain!important;object-position:center top!important;background:#fff!important}
+</style>
 </head>
 <body>
 <div id="webact-header"></div>
@@ -113,122 +117,118 @@
   </section>
 </main>
 <div id="webact-footer"></div>
-<script src="/assets/js/portfolio-data-all.js"></script>
-<script src="/assets/js/portfolio-content.js"></script>
-<script>
-(function(){
-  const rows = window.webactPortfolioRows || [];
-  const engine = window.webactPortfolioContentEngine;
-  if(!rows.length || !engine) return;
+<script src="/assets/js/portfolio-data-all.js?v=case-study-self-contained-20260717-092700"></script>
+<script id="webact-self-contained-case-study-renderer">
+(function () {
+  "use strict";
 
-  const slug = new URLSearchParams(location.search).get("project") || "";
-  const row = rows.find(r => engine.slugify(r[0]) === slug);
+  function slugify(text) {
+    return String(text || "").toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+
+  function getIndustryPlan(industry) {
+    var key = String(industry || "Business").toLowerCase();
+    var plans = {
+      "restaurant": { audience: "local diners, takeout customers, catering customers, and mobile users searching nearby", needs: "clear menus, location details, ordering options, strong food presentation, reviews, and fast mobile access", services: ["Restaurant Website Design", "Menu Organization", "Local SEO", "Online Ordering Strategy", "Review Visibility", "Mobile UX"] },
+      "bookkeeping": { audience: "business owners, individuals, and organizations looking for accurate financial support", needs: "clear service explanations, trust, professional presentation, easy contact paths, and organized information", services: ["Bookkeeping Website Design", "Service Page Strategy", "Local SEO", "Lead Generation", "Content Organization", "Mobile UX"] },
+      "education": { audience: "students, parents, educators, readers, and people researching learning resources", needs: "organized information, easy browsing, accessible content, clear categories, and dependable search paths", services: ["Education Website Design", "Content Organization", "Search UX", "SEO Structure", "Mobile Design", "Conversion Planning"] },
+      "retail": { audience: "shoppers, product researchers, repeat customers, and mobile buyers", needs: "clear products, confident browsing, organized categories, strong imagery, and simple inquiry or purchase paths", services: ["Retail Website Design", "Product Presentation", "Category Planning", "SEO Content", "Mobile Shopping UX", "Landing Pages"] },
+      "ecommerce": { audience: "online shoppers, repeat customers, product researchers, and mobile buyers", needs: "clear products, shopping confidence, organized categories, conversion-focused pages, and mobile purchase paths", services: ["Ecommerce Website Design", "Product Pages", "Category Structure", "SEO Content", "Digital Advertising", "Mobile Shopping UX"] },
+      "dental": { audience: "new patients, families, emergency patients, and people comparing dental providers", needs: "patient trust, treatment education, appointment paths, local visibility, and clear service information", services: ["Dental Website Design", "Local SEO", "Treatment Pages", "Appointment Paths", "Patient Content", "Review Strategy"] },
+      "dentist": { audience: "new patients, families, emergency patients, and people comparing dental providers", needs: "patient trust, treatment education, appointment paths, local visibility, and clear service information", services: ["Dentist Website Design", "Local SEO", "Treatment Pages", "Appointment Paths", "Patient Content", "Review Strategy"] },
+      "healthcare": { audience: "patients, families, caregivers, referral partners, and people researching care", needs: "trust, accessible information, service education, appointment paths, and a calm mobile experience", services: ["Healthcare Website Design", "Patient-Friendly Content", "Local SEO", "Appointment Paths", "Accessibility", "Reputation Support"] },
+      "legal": { audience: "people comparing attorneys, researching practice areas, and looking for consultation options", needs: "authority, practice-area clarity, trust-building content, consultation calls to action, and local visibility", services: ["Law Firm Website Design", "Practice-Area Pages", "Local SEO", "Consultation Paths", "Attorney Content", "Lead Generation"] },
+      "construction": { audience: "homeowners, builders, commercial clients, and customers comparing contractors", needs: "project credibility, service explanations, estimate paths, galleries, local visibility, and trust signals", services: ["Construction Website Design", "Project Galleries", "Estimate Paths", "Local SEO", "Service-Area Pages", "Brand Messaging"] },
+      "driving school": { audience: "student drivers, parents, adult learners, and customers comparing lesson options", needs: "lesson details, schedules, instructor trust, enrollment paths, service areas, and mobile-friendly contact options", services: ["Driving School Website Design", "Program Pages", "Local SEO", "Enrollment Paths", "Schedule Content", "Mobile UX"] },
+      "default": { audience: "customers researching services, comparing providers, and looking for a trusted business online", needs: "clear messaging, professional presentation, mobile usability, search-friendly structure, and direct calls to action", services: ["Website Design", "Responsive Design", "SEO Structure", "Content Organization", "Landing Pages", "Website Support"] }
+    };
+    return plans[key] || plans.default;
+  }
+
+  function createContent(row, allRows) {
+    var name = row[0] || "Portfolio Project";
+    var industry = row[1] || "Business";
+    var image = row[2] || "/Resources/images/placeholder.png";
+    var plan = getIndustryPlan(industry);
+    var related = allRows.filter(function (candidate) {
+      return candidate[1] === industry && slugify(candidate[0]) !== slugify(name);
+    }).slice(0, 6);
+
+    return {
+      name: name,
+      industry: industry,
+      image: image,
+      slug: slugify(name),
+      title: name + " Website Design Case Study",
+      category: industry + " Website Design",
+      summary: name + " is a WebAct " + industry.toLowerCase() + " website design case study created for " + plan.audience + ". The project highlights clear presentation, mobile usability, organized content, and practical next steps.",
+      overview: "For " + name + ", WebAct focused on creating a polished website experience that helps visitors quickly understand the business, review important information, and take the next step with confidence.",
+      industryStrategy: industry + " websites benefit from " + plan.needs + ". The page structure and content were organized around those priorities.",
+      designStrategy: "The website design combines visual hierarchy, responsive layouts, clear navigation, readable content, and strong use of the project's real website imagery.",
+      seoStrategy: "The SEO foundation uses descriptive headings, relevant page language, logical structure, internal linking, and content aligned with how customers research " + industry.toLowerCase() + " businesses.",
+      marketingStrategy: "The website can support broader growth through " + plan.services.join(", ") + ".",
+      resultsFocus: "This case study focuses on visible improvements such as stronger presentation, clearer service information, better mobile usability, and a more credible customer journey.",
+      services: plan.services,
+      related: related
+    };
+  }
+
+  var rows = Array.isArray(window.webactPortfolioRows) ? window.webactPortfolioRows : [];
+  var slug = new URLSearchParams(window.location.search).get("project") || "";
+
+  if (!rows.length) {
+    document.getElementById("case-title").textContent = "Portfolio projects could not be loaded";
+    document.getElementById("case-summary").textContent = "The portfolio data file did not load.";
+    return;
+  }
+
+  var row = rows.find(function (candidate) { return slugify(candidate[0]) === slug; });
+
   if (!row) {
     document.getElementById("case-title").textContent = "Portfolio project not found";
-    document.getElementById("case-summary").textContent = "Return to the portfolio and choose an available case study.";
+    document.getElementById("case-summary").textContent = "Return to the portfolio and select an available project.";
     document.getElementById("case-image").style.display = "none";
     return;
   }
-  const c = engine.generate(row, rows);
 
-  document.title = c.name + " " + c.industry + " Website Design, SEO and Marketing Case Study | WebAct";
+  var c = createContent(row, rows);
+  var canonical = "https://www.webact.com/about/portfolio/case-study.html?project=" + encodeURIComponent(c.slug);
+
+  document.title = c.title + " | WebAct";
   document.getElementById("case-category").textContent = c.category;
   document.getElementById("case-title").textContent = c.title;
   document.getElementById("case-summary").textContent = c.summary;
   document.getElementById("case-image").src = c.image;
-  document.getElementById("case-image").alt = c.name + " " + c.industry + " website design";
+  document.getElementById("case-image").alt = c.name + " website design case study";
 
-  const sections = document.getElementById("case-sections");
-  sections.innerHTML = `
-    <section class="case-section alt">
-      <div class="case-overview-grid">
-        <div class="case-copy">
-          <p class="eyebrow">Project Overview</p>
-          <h2>A stronger digital presence for ${c.name}.</h2>
-          <p>${c.sections[0].text}</p>
-          <br>
-          <p>${c.sections[1].text}</p>
-        </div>
-        <aside class="case-summary-card">
-          <h3>Project Snapshot</h3>
-          <dl>
-            <div><dt>Industry</dt><dd>${c.industry}</dd></div>
-            <div><dt>Primary Focus</dt><dd>Website Design, SEO, Marketing</dd></div>
-            <div><dt>Website Goal</dt><dd>Trust, Leads, Visibility</dd></div>
-            <div><dt>Experience</dt><dd>Desktop, Tablet, Mobile</dd></div>
-          </dl>
-        </aside>
-      </div>
-    </section>
+  var canonicalTag = document.querySelector('link[rel="canonical"]');
+  if (canonicalTag) canonicalTag.href = canonical;
 
-    <section class="case-section">
-      <div class="case-copy">
-        <p class="eyebrow">Website Strategy</p>
-        <h2>Designed to help ${c.industry.toLowerCase()} customers choose with confidence.</h2>
-        <p>${c.sections[2].text}</p>
-      </div>
-      <div class="strategy-grid">
-        <article class="strategy-card"><span>01</span><h3>Website Planning</h3><p>The site structure helps visitors quickly understand the business, review key services, and move toward the next step.</p></article>
-        <article class="strategy-card"><span>02</span><h3>User Experience</h3><p>Navigation, spacing, headings, and page flow are designed to make the website easier to use across devices.</p></article>
-        <article class="strategy-card"><span>03</span><h3>Content Strategy</h3><p>Industry-specific language helps explain what the business offers and why customers should take action.</p></article>
-        <article class="strategy-card"><span>04</span><h3>Responsive Design</h3><p>The design supports desktop, tablet, and mobile visitors so the brand looks professional everywhere.</p></article>
-        <article class="strategy-card"><span>05</span><h3>Lead Generation</h3><p>Calls, forms, service sections, and conversion paths help turn interested visitors into real opportunities.</p></article>
-        <article class="strategy-card"><span>06</span><h3>Brand Trust</h3><p>The visual direction helps ${c.name} look more credible, polished, and ready to compete online.</p></article>
-      </div>
-    </section>
+  var ogTitle = document.querySelector('meta[property="og:title"]');
+  var ogDescription = document.querySelector('meta[property="og:description"]');
+  var ogUrl = document.querySelector('meta[property="og:url"]');
+  if (ogTitle) ogTitle.content = c.title + " | WebAct";
+  if (ogDescription) ogDescription.content = c.summary;
+  if (ogUrl) ogUrl.content = canonical;
 
-    <section class="case-section dark-strategy">
-      <div class="case-copy">
-        <p class="eyebrow">SEO Strategy</p>
-        <h2>Built for search visibility and long-term growth.</h2>
-        <p>${c.sections[3].text}</p>
-      </div>
-      <div class="seo-grid">
-        <article class="seo-card"><h3>Local SEO</h3><p>Location and service relevance help support search visibility for customers looking for ${c.industry.toLowerCase()} services nearby.</p></article>
-        <article class="seo-card"><h3>Content Optimization</h3><p>Clear page structure, headings, and industry-focused content help search engines better understand the website.</p></article>
-        <article class="seo-card"><h3>Search Intent</h3><p>The content is written around what customers need to know before they call, book, buy, or request information.</p></article>
-      </div>
-    </section>
-
-    <section class="case-section alt">
-      <div class="case-copy">
-        <p class="eyebrow">Marketing and Advertising</p>
-        <h2>Connecting the website to real growth services.</h2>
-        <p>${c.sections[4].text}</p>
-      </div>
-      <div class="marketing-grid">
-        <article class="marketing-card"><h3>Google Ads</h3><p>Paid search campaigns can help drive targeted visitors to high-intent pages when customers are actively looking for services.</p></article>
-        <article class="marketing-card"><h3>Landing Pages</h3><p>Dedicated landing pages help match ads, offers, services, and locations to focused conversion paths.</p></article>
-        <article class="marketing-card"><h3>Local Visibility</h3><p>Listings, reviews, search visibility, and consistent messaging help strengthen trust before a visitor contacts the business.</p></article>
-      </div>
-    </section>
-
-    <section class="case-section">
-      <div class="case-copy">
-        <p class="eyebrow">Results Focus</p>
-        <h2>Built to improve trust, usability, and customer action.</h2>
-        <p>${c.sections[6].text}</p>
-      </div>
-      <div class="results-grid">
-        <article class="result-card"><h3>Better First Impression</h3><p>A polished website helps the business look more established and trustworthy online.</p></article>
-        <article class="result-card"><h3>Clearer Service Presentation</h3><p>Organized content helps visitors understand services faster and with less confusion.</p></article>
-        <article class="result-card"><h3>Stronger Lead Opportunities</h3><p>Conversion-focused page flow helps visitors take the next step when they are ready.</p></article>
-      </div>
-    </section>
-  `;
+  document.getElementById("case-sections").innerHTML =
+    '<section class="case-section alt"><div class="case-overview-grid"><div class="case-copy"><p class="eyebrow">Project Overview</p><h2>A stronger digital presence for ' + c.name + '.</h2><p>' + c.overview + '</p><br><p>' + c.industryStrategy + '</p></div><aside class="case-summary-card"><h3>Project Snapshot</h3><dl><div><dt>Business</dt><dd>' + c.name + '</dd></div><div><dt>Industry</dt><dd>' + c.industry + '</dd></div><div><dt>Primary Focus</dt><dd>Website Design, SEO, Marketing</dd></div><div><dt>Experience</dt><dd>Desktop, Tablet, Mobile</dd></div></dl></aside></div></section>' +
+    '<section class="case-section"><div class="case-copy"><p class="eyebrow">Website Strategy</p><h2>Designed around clarity, trust, and customer action.</h2><p>' + c.designStrategy + '</p></div><div class="strategy-grid"><article class="strategy-card"><span>01</span><h3>Website Planning</h3><p>Clear structure helps visitors understand the business and find the next step.</p></article><article class="strategy-card"><span>02</span><h3>User Experience</h3><p>Navigation, spacing, headings, and flow are designed for easier use.</p></article><article class="strategy-card"><span>03</span><h3>Content Strategy</h3><p>Relevant language explains the business and its value clearly.</p></article><article class="strategy-card"><span>04</span><h3>Responsive Design</h3><p>The experience adapts across desktop, tablet, and mobile.</p></article><article class="strategy-card"><span>05</span><h3>Lead Generation</h3><p>Calls to action and contact paths support real opportunities.</p></article><article class="strategy-card"><span>06</span><h3>Brand Trust</h3><p>The visual direction strengthens credibility and professionalism.</p></article></div></section>' +
+    '<section class="case-section dark-strategy"><div class="case-copy"><p class="eyebrow">SEO Strategy</p><h2>Built for search visibility and long-term growth.</h2><p>' + c.seoStrategy + '</p></div><div class="seo-grid"><article class="seo-card"><h3>Local SEO</h3><p>Service and location relevance support discovery in search.</p></article><article class="seo-card"><h3>Content Optimization</h3><p>Clear structure helps search engines understand the website.</p></article><article class="seo-card"><h3>Search Intent</h3><p>Content addresses what customers need before taking action.</p></article></div></section>' +
+    '<section class="case-section alt"><div class="case-copy"><p class="eyebrow">Marketing and Advertising</p><h2>Connecting the website to real growth services.</h2><p>' + c.marketingStrategy + '</p></div><div class="marketing-grid"><article class="marketing-card"><h3>Google Ads</h3><p>Paid search can drive targeted visitors to focused pages.</p></article><article class="marketing-card"><h3>Landing Pages</h3><p>Dedicated pages align campaigns, offers, and conversion paths.</p></article><article class="marketing-card"><h3>Local Visibility</h3><p>Listings, reviews, and consistent messaging strengthen trust.</p></article></div></section>' +
+    '<section class="case-section"><div class="case-copy"><p class="eyebrow">Results Focus</p><h2>Built to improve trust, usability, and customer action.</h2><p>' + c.resultsFocus + '</p></div><div class="results-grid"><article class="result-card"><h3>Better First Impression</h3><p>A polished design helps the business look more established.</p></article><article class="result-card"><h3>Clearer Presentation</h3><p>Organized content helps visitors understand the business faster.</p></article><article class="result-card"><h3>Stronger Lead Paths</h3><p>Conversion-focused flow helps visitors take the next step.</p></article></div></section>';
 
   document.getElementById("services-title").textContent = "Services connected to the " + c.name + " project.";
-  document.getElementById("services-intro").textContent = "These are the types of website, SEO, marketing, and advertising services WebAct can use to support a " + c.industry.toLowerCase() + " website project.";
-  document.getElementById("service-grid").outerHTML = '<div class="services-pill-grid" id="service-grid">' + c.services.map(function(s){return "<span>&check; " + s + "</span>";}).join("") + "</div>";
+  document.getElementById("services-intro").textContent = "These services can support a stronger " + c.industry.toLowerCase() + " website and digital presence.";
+  document.getElementById("service-grid").outerHTML = '<div class="services-pill-grid" id="service-grid">' + c.services.map(function (service) { return "<span>&check; " + service + "</span>"; }).join("") + "</div>";
 
-  document.getElementById("related-intro").textContent = "Browse additional WebAct portfolio examples related to " + c.industry.toLowerCase() + " websites and similar business categories.";
-  const relatedGrid = document.getElementById("related-grid");
-  relatedGrid.innerHTML = c.related.map(function(r){
-    return '<a class="related-card" href="/about/portfolio/case-study.html?project='+engine.slugify(r[0])+'"><img src="'+r[2]+'" alt="Portfolio Case Study"+r[0]+' website design"><span>'+r[1]+'</span><h3>'+r[0]+'</h3></a>';
-  }).join("") || '<p style="grid-column:1/-1;color:#4b5b66;font-size:18px;text-align:center">More related projects will be added soon.</p>';
+  document.getElementById("related-intro").textContent = "Explore more WebAct projects in the " + c.industry + " category.";
+  document.getElementById("related-grid").innerHTML = c.related.map(function (related) {
+    return '<a class="related-card" href="/about/portfolio/case-study.html?project=' + slugify(related[0]) + '"><img src="' + related[2] + '" alt="' + related[0] + ' website design" loading="lazy"><span>' + related[1] + '</span><h3>' + related[0] + '</h3></a>';
+  }).join("");
 
   document.getElementById("cta-title").textContent = "Need a " + c.industry.toLowerCase() + " website like " + c.name + "?";
-  document.getElementById("cta-text").textContent = "WebAct can help with website design, SEO, digital advertising, landing pages, branding, local visibility, and ongoing website support for businesses in this industry.";
+  document.getElementById("cta-text").textContent = "WebAct can help with website design, SEO, digital advertising, landing pages, branding, local visibility, and ongoing support.";
 })();
 </script>
 <script src="/script.js?v=main-layout-1"></script>
