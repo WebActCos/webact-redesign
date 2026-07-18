@@ -117,63 +117,312 @@
   </section>
 </main>
 <div id="webact-footer"></div>
-<script src="/assets/js/portfolio-data-all.js?v=case-study-self-contained-20260717-092700"></script>
+<script src="/assets/js/portfolio-data-all.js?v=unique-case-study-content-20260718-000750"></script>
 <script id="webact-self-contained-case-study-renderer">
 (function () {
   "use strict";
 
   function slugify(text) {
-    return String(text || "").toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    return String(text || "")
+      .toLowerCase()
+      .replace(/&/g, "and")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
   }
 
-  function getIndustryPlan(industry) {
-    var key = String(industry || "Business").toLowerCase();
-    var plans = {
-      "restaurant": { audience: "local diners, takeout customers, catering customers, and mobile users searching nearby", needs: "clear menus, location details, ordering options, strong food presentation, reviews, and fast mobile access", services: ["Restaurant Website Design", "Menu Organization", "Local SEO", "Online Ordering Strategy", "Review Visibility", "Mobile UX"] },
-      "bookkeeping": { audience: "business owners, individuals, and organizations looking for accurate financial support", needs: "clear service explanations, trust, professional presentation, easy contact paths, and organized information", services: ["Bookkeeping Website Design", "Service Page Strategy", "Local SEO", "Lead Generation", "Content Organization", "Mobile UX"] },
-      "education": { audience: "students, parents, educators, readers, and people researching learning resources", needs: "organized information, easy browsing, accessible content, clear categories, and dependable search paths", services: ["Education Website Design", "Content Organization", "Search UX", "SEO Structure", "Mobile Design", "Conversion Planning"] },
-      "retail": { audience: "shoppers, product researchers, repeat customers, and mobile buyers", needs: "clear products, confident browsing, organized categories, strong imagery, and simple inquiry or purchase paths", services: ["Retail Website Design", "Product Presentation", "Category Planning", "SEO Content", "Mobile Shopping UX", "Landing Pages"] },
-      "ecommerce": { audience: "online shoppers, repeat customers, product researchers, and mobile buyers", needs: "clear products, shopping confidence, organized categories, conversion-focused pages, and mobile purchase paths", services: ["Ecommerce Website Design", "Product Pages", "Category Structure", "SEO Content", "Digital Advertising", "Mobile Shopping UX"] },
-      "dental": { audience: "new patients, families, emergency patients, and people comparing dental providers", needs: "patient trust, treatment education, appointment paths, local visibility, and clear service information", services: ["Dental Website Design", "Local SEO", "Treatment Pages", "Appointment Paths", "Patient Content", "Review Strategy"] },
-      "dentist": { audience: "new patients, families, emergency patients, and people comparing dental providers", needs: "patient trust, treatment education, appointment paths, local visibility, and clear service information", services: ["Dentist Website Design", "Local SEO", "Treatment Pages", "Appointment Paths", "Patient Content", "Review Strategy"] },
-      "healthcare": { audience: "patients, families, caregivers, referral partners, and people researching care", needs: "trust, accessible information, service education, appointment paths, and a calm mobile experience", services: ["Healthcare Website Design", "Patient-Friendly Content", "Local SEO", "Appointment Paths", "Accessibility", "Reputation Support"] },
-      "legal": { audience: "people comparing attorneys, researching practice areas, and looking for consultation options", needs: "authority, practice-area clarity, trust-building content, consultation calls to action, and local visibility", services: ["Law Firm Website Design", "Practice-Area Pages", "Local SEO", "Consultation Paths", "Attorney Content", "Lead Generation"] },
-      "construction": { audience: "homeowners, builders, commercial clients, and customers comparing contractors", needs: "project credibility, service explanations, estimate paths, galleries, local visibility, and trust signals", services: ["Construction Website Design", "Project Galleries", "Estimate Paths", "Local SEO", "Service-Area Pages", "Brand Messaging"] },
-      "driving school": { audience: "student drivers, parents, adult learners, and customers comparing lesson options", needs: "lesson details, schedules, instructor trust, enrollment paths, service areas, and mobile-friendly contact options", services: ["Driving School Website Design", "Program Pages", "Local SEO", "Enrollment Paths", "Schedule Content", "Mobile UX"] },
-      "default": { audience: "customers researching services, comparing providers, and looking for a trusted business online", needs: "clear messaging, professional presentation, mobile usability, search-friendly structure, and direct calls to action", services: ["Website Design", "Responsive Design", "SEO Structure", "Content Organization", "Landing Pages", "Website Support"] }
+  function escapeHtml(value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  function hashText(value) {
+    var hash = 2166136261;
+    var text = String(value || "");
+    for (var i = 0; i < text.length; i += 1) {
+      hash ^= text.charCodeAt(i);
+      hash += (hash << 1) + (hash << 4) + (hash << 7) + (hash << 8) + (hash << 24);
+    }
+    return Math.abs(hash >>> 0);
+  }
+
+  function choose(items, seed, offset) {
+    return items[(seed + (offset || 0)) % items.length];
+  }
+
+  function normalizeIndustry(industry) {
+    return String(industry || "Business").trim();
+  }
+
+  function industryProfile(industry) {
+    var key = normalizeIndustry(industry).toLowerCase();
+
+    var profiles = {
+      "professional services": {
+        audience: "decision-makers, business owners, managers, and organizations comparing experienced service providers",
+        priority: "expertise, credibility, service clarity, consultation paths, and a professional first impression",
+        action: "request a consultation, discuss a project, or learn more about available services",
+        search: "professional expertise, specialized services, and a dependable business partner",
+        services: ["Professional Services Website Design", "Service Page Strategy", "Lead Generation", "SEO Content", "Conversion Planning", "Digital Advertising"]
+      },
+      "restaurant": {
+        audience: "local diners, families, takeout customers, catering clients, and visitors searching for a place to eat",
+        priority: "menu visibility, food presentation, location details, ordering options, reviews, and mobile convenience",
+        action: "view the menu, place an order, make a reservation, or visit the restaurant",
+        search: "local dining options, menu items, takeout, catering, and nearby restaurants",
+        services: ["Restaurant Website Design", "Menu Organization", "Local SEO", "Online Ordering Strategy", "Review Marketing", "Mobile UX"]
+      },
+      "ecommerce": {
+        audience: "online shoppers, product researchers, returning customers, and mobile buyers",
+        priority: "product discovery, category organization, purchase confidence, clear policies, and a smooth shopping path",
+        action: "browse products, compare options, add an item to the cart, or complete a purchase",
+        search: "products, categories, buying options, customer benefits, and online availability",
+        services: ["Ecommerce Website Design", "Product Page Design", "Category Strategy", "Shopping UX", "SEO Content", "Digital Advertising"]
+      },
+      "pet services": {
+        audience: "pet owners, breeders, families, and customers comparing trusted animal-related services",
+        priority: "care standards, service details, trust, animal imagery, availability, and easy contact options",
+        action: "ask about services, check availability, schedule care, or contact the business",
+        search: "trusted pet care, breeders, pet services, availability, and local animal professionals",
+        services: ["Pet Services Website Design", "Local SEO", "Service Content", "Photo Presentation", "Inquiry Paths", "Reputation Marketing"]
+      },
+      "driving school": {
+        audience: "student drivers, parents, adult learners, and customers comparing training programs",
+        priority: "course details, instructor trust, schedules, enrollment information, service areas, and mobile access",
+        action: "review programs, check schedules, register for lessons, or contact an instructor",
+        search: "driving lessons, instructor training, course schedules, licensing preparation, and local driving schools",
+        services: ["Driving School Website Design", "Program Pages", "Local SEO", "Enrollment Strategy", "Schedule Content", "Mobile UX"]
+      },
+      "healthcare": {
+        audience: "patients, families, caregivers, referral partners, and people researching care options",
+        priority: "trust, accessibility, service education, appointment paths, privacy-conscious communication, and reassurance",
+        action: "learn about care, request information, contact the provider, or schedule an appointment",
+        search: "healthcare services, patient support, treatment options, providers, and local care",
+        services: ["Healthcare Website Design", "Patient-Friendly Content", "Local SEO", "Appointment Paths", "Accessibility", "Reputation Support"]
+      },
+      "home care": {
+        audience: "families, seniors, caregivers, discharge planners, and people researching in-home support",
+        priority: "compassion, trust, service explanations, caregiver information, availability, and consultation paths",
+        action: "review care options, ask about availability, request an assessment, or speak with the care team",
+        search: "home care services, senior support, caregivers, in-home assistance, and local care options",
+        services: ["Home Care Website Design", "Care Service Pages", "Local SEO", "Consultation Paths", "Trust Content", "Reputation Support"]
+      },
+      "dental": {
+        audience: "new patients, families, emergency patients, and people comparing dental practices",
+        priority: "patient trust, treatment education, appointment access, provider credentials, reviews, and local visibility",
+        action: "explore treatments, meet the dental team, request an appointment, or contact the office",
+        search: "dentists, dental treatments, patient care, emergency dentistry, and local dental offices",
+        services: ["Dental Website Design", "Treatment Pages", "Local SEO", "Appointment Paths", "Patient Content", "Review Strategy"]
+      },
+      "dentist": {
+        audience: "new patients, families, emergency patients, and people comparing dental practices",
+        priority: "patient trust, treatment education, appointment access, provider credentials, reviews, and local visibility",
+        action: "explore treatments, meet the dental team, request an appointment, or contact the office",
+        search: "dentists, dental treatments, patient care, emergency dentistry, and local dental offices",
+        services: ["Dentist Website Design", "Treatment Pages", "Local SEO", "Appointment Paths", "Patient Content", "Review Strategy"]
+      },
+      "legal": {
+        audience: "individuals, families, businesses, and people comparing attorneys or legal resources",
+        priority: "authority, practice-area clarity, attorney credibility, consultation paths, and useful legal information",
+        action: "review a practice area, understand available help, request a consultation, or contact the firm",
+        search: "attorneys, legal services, practice areas, consultations, and local legal guidance",
+        services: ["Law Firm Website Design", "Practice-Area Pages", "Local SEO", "Consultation Paths", "Attorney Content", "Lead Generation"]
+      },
+      "construction": {
+        audience: "homeowners, builders, property managers, commercial clients, and customers comparing contractors",
+        priority: "project credibility, service explanations, galleries, estimate requests, service areas, and trust signals",
+        action: "review completed work, explore services, request an estimate, or discuss a project",
+        search: "contractors, construction services, completed projects, estimates, and local builders",
+        services: ["Construction Website Design", "Project Galleries", "Estimate Paths", "Local SEO", "Service-Area Pages", "Brand Messaging"]
+      },
+      "landscaping": {
+        audience: "homeowners, property managers, commercial clients, and customers planning outdoor improvements",
+        priority: "service details, project galleries, seasonal needs, estimate paths, service areas, and visual credibility",
+        action: "explore landscaping services, review past work, request an estimate, or schedule a consultation",
+        search: "landscaping companies, outdoor improvements, lawn services, hardscaping, and local contractors",
+        services: ["Landscaping Website Design", "Project Galleries", "Local SEO", "Estimate Paths", "Service-Area Pages", "Seasonal Marketing"]
+      },
+      "plumbing": {
+        audience: "homeowners, property managers, businesses, and customers needing routine or urgent plumbing help",
+        priority: "service availability, urgency, trust, service-area coverage, clear contact options, and customer reassurance",
+        action: "identify a plumbing service, request help, schedule service, or call the company",
+        search: "plumbers, plumbing repairs, emergency service, installations, and local plumbing companies",
+        services: ["Plumbing Website Design", "Local SEO", "Emergency Service Pages", "Service-Area Content", "Call Tracking", "Lead Generation"]
+      },
+      "hvac": {
+        audience: "homeowners, property managers, businesses, and customers needing heating or cooling service",
+        priority: "service availability, seasonal needs, maintenance options, emergency contact paths, trust, and service areas",
+        action: "request HVAC service, schedule maintenance, explore system options, or call for help",
+        search: "heating, air conditioning, HVAC repair, maintenance, installation, and local technicians",
+        services: ["HVAC Website Design", "Local SEO", "Seasonal Campaigns", "Service Pages", "Call Tracking", "Lead Generation"]
+      },
+      "nonprofit": {
+        audience: "supporters, donors, volunteers, community partners, and people learning about a mission",
+        priority: "mission clarity, emotional connection, program information, donation paths, volunteer opportunities, and impact",
+        action: "learn about the mission, support a program, donate, volunteer, or contact the organization",
+        search: "community programs, nonprofit organizations, charitable causes, volunteer opportunities, and ways to help",
+        services: ["Nonprofit Website Design", "Donation Paths", "Program Content", "SEO Strategy", "Volunteer UX", "Campaign Landing Pages"]
+      },
+      "education": {
+        audience: "students, parents, educators, adult learners, and people comparing educational resources",
+        priority: "program clarity, course information, schedules, enrollment paths, trust, and accessible learning content",
+        action: "explore a program, review course details, register, request information, or contact the organization",
+        search: "classes, educational programs, training, enrollment, schedules, and learning resources",
+        services: ["Education Website Design", "Program Pages", "Enrollment UX", "SEO Content", "Course Organization", "Mobile Design"]
+      },
+      "salon & beauty": {
+        audience: "new clients, returning customers, people comparing beauty professionals, and mobile appointment seekers",
+        priority: "service presentation, stylist credibility, galleries, pricing guidance, appointment access, and local visibility",
+        action: "explore services, view results, choose a professional, book an appointment, or contact the salon",
+        search: "salons, beauty services, stylists, appointments, treatments, and local beauty professionals",
+        services: ["Salon Website Design", "Service Menus", "Local SEO", "Booking Paths", "Photo Galleries", "Social Marketing"]
+      },
+      "automotive": {
+        audience: "vehicle owners, fleet managers, shoppers, and customers comparing automotive products or services",
+        priority: "service clarity, product information, trust, location details, quote paths, and convenient contact options",
+        action: "review services, find a product, request a quote, schedule service, or contact the business",
+        search: "automotive services, vehicle products, repairs, pricing, and local automotive businesses",
+        services: ["Automotive Website Design", "Service Pages", "Local SEO", "Quote Paths", "Product Content", "Digital Advertising"]
+      },
+      "default": {
+        audience: "customers researching options, comparing providers, and looking for a dependable business",
+        priority: "clear messaging, professional presentation, useful information, mobile usability, trust, and direct calls to action",
+        action: "understand the business, explore its services, request information, or make contact",
+        search: "relevant services, trusted providers, business information, customer benefits, and local options",
+        services: ["Website Design", "Responsive Design", "SEO Strategy", "Content Organization", "Landing Pages", "Digital Marketing"]
+      }
     };
-    return plans[key] || plans.default;
+
+    return profiles[key] || profiles.default;
   }
 
-  function createContent(row, allRows) {
+  function buildContent(row, allRows) {
     var name = row[0] || "Portfolio Project";
-    var industry = row[1] || "Business";
+    var industry = normalizeIndustry(row[1]);
     var image = row[2] || "/Resources/images/placeholder.png";
-    var plan = getIndustryPlan(industry);
-    var related = allRows.filter(function (candidate) {
-      return candidate[1] === industry && slugify(candidate[0]) !== slugify(name);
-    }).slice(0, 6);
+    var profile = industryProfile(industry);
+    var seed = hashText(name + "|" + industry);
+    var industryLower = industry.toLowerCase();
+
+    var openingStyles = [
+      name + " needed a website experience that could present the business clearly while helping " + profile.audience + " find useful information without unnecessary friction.",
+      "The " + name + " project centers on building a stronger digital presence for a " + industryLower + " business serving " + profile.audience + ".",
+      "WebAct approached " + name + " as a focused " + industryLower + " website project designed around the expectations of " + profile.audience + ".",
+      "For " + name + ", the website strategy was shaped by what matters most to " + profile.audience + ": confidence, clarity, and a direct path to action.",
+      name + " is presented through a professional website experience created to connect with " + profile.audience + " and communicate the value of the business."
+    ];
+
+    var designStyles = [
+      "The visual direction for " + name + " balances strong imagery, readable typography, organized sections, and clear calls to action. Each part of the page supports " + profile.priority + ".",
+      name + "'s design uses a structured hierarchy, responsive spacing, focused messaging, and prominent next steps so visitors can quickly understand the business and move forward.",
+      "The website presentation for " + name + " emphasizes brand credibility and usability. Navigation, content blocks, imagery, and mobile behavior are organized around " + profile.priority + ".",
+      "WebAct's design approach for " + name + " gives the business a polished identity while keeping the visitor journey simple, responsive, and aligned with " + profile.priority + "."
+    ];
+
+    var seoStyles = [
+      "The SEO plan for " + name + " supports searches related to " + profile.search + ". Descriptive headings, relevant industry language, internal structure, and focused page topics help search engines understand the business.",
+      name + "'s search strategy connects the business name and " + industryLower + " category with content about " + profile.search + ". The structure is designed to support both local discovery and broader organic visibility.",
+      "Search optimization for " + name + " begins with clear page topics, useful service language, logical headings, and content aligned with people researching " + profile.search + ".",
+      "The website gives " + name + " an SEO-ready foundation through organized content, descriptive metadata, crawlable page structure, and messaging built around " + profile.search + "."
+    ];
+
+    var marketingStyles = [
+      name + " can use the website as the destination for campaigns involving " + profile.services.join(", ") + ". Each campaign can direct visitors toward a page that matches their intent.",
+      "The digital marketing opportunity for " + name + " includes targeted landing pages, search campaigns, local visibility, and content that encourages visitors to " + profile.action + ".",
+      "Beyond the core website, " + name + " can build visibility through coordinated SEO, advertising, reputation marketing, and conversion-focused pages designed for the " + industryLower + " audience.",
+      "The website gives " + name + " a central platform for paid search, organic content, local marketing, and follow-up campaigns that encourage customers to " + profile.action + "."
+    ];
+
+    var resultStyles = [
+      "The finished direction gives " + name + " a more credible presentation, clearer industry messaging, stronger mobile usability, and more direct paths for visitors to " + profile.action + ".",
+      name + " benefits from a website experience that makes the business easier to understand, improves visual consistency, and gives prospective customers a confident next step.",
+      "The result is a more organized digital presence for " + name + ", with improved clarity, stronger brand trust, responsive access, and conversion paths suited to the " + industryLower + " market.",
+      "This approach positions " + name + " with a professional online foundation that supports customer education, search visibility, campaign traffic, and meaningful inquiries."
+    ];
+
+    var cardHeadings = [
+      ["Audience-Focused Planning", "Industry-Specific Messaging", "Responsive Customer Journey", "Clear Conversion Paths", "Trust-Building Presentation", "Scalable Content Structure"],
+      ["Strategic Page Structure", "Business Value Messaging", "Mobile-First Usability", "Action-Oriented Navigation", "Professional Brand Trust", "Growth-Ready Foundation"],
+      ["Customer Research Path", "Service Communication", "Responsive Page Design", "Inquiry Experience", "Visual Credibility", "Search-Friendly Organization"]
+    ];
+
+    var headingSet = cardHeadings[seed % cardHeadings.length];
+
+    var strategyCards = [
+      { title: headingSet[0], text: name + "'s page flow is organized for " + profile.audience + ", giving them a logical path from first impression to useful information." },
+      { title: headingSet[1], text: "Content is written around the priorities of a " + industryLower + " business, including " + profile.priority + "." },
+      { title: headingSet[2], text: "The layout adapts across desktop, tablet, and mobile so customers can research " + name + " from any device." },
+      { title: headingSet[3], text: "Calls to action guide visitors to " + profile.action + " without making the experience feel crowded or confusing." },
+      { title: headingSet[4], text: "Professional imagery, hierarchy, and brand consistency help " + name + " establish credibility with prospective customers." },
+      { title: headingSet[5], text: "The structure can grow with additional services, locations, campaigns, resources, or industry-specific landing pages." }
+    ];
+
+    var seoCards = [
+      { title: industry + " Search Relevance", text: name + " is connected with language customers use when researching " + profile.search + "." },
+      { title: "Business and Service Signals", text: "Headings, page copy, image descriptions, and internal links reinforce what " + name + " provides and who it serves." },
+      { title: "Qualified Search Intent", text: "The content supports visitors who are ready to compare options, learn more, and " + profile.action + "." }
+    ];
+
+    var marketingCards = [
+      { title: "Targeted Search Campaigns", text: name + " can use paid search to reach people actively looking for " + profile.search + "." },
+      { title: industry + " Landing Pages", text: "Focused pages can promote specific services, programs, products, offers, locations, or seasonal priorities for " + name + "." },
+      { title: "Ongoing Visibility", text: "SEO content, reviews, local listings, social campaigns, and remarketing can keep " + name + " visible throughout the customer journey." }
+    ];
+
+    var resultCards = [
+      { title: "Stronger " + industry + " Positioning", text: name + " is presented with language and visuals that better match its market and intended audience." },
+      { title: "Clearer Customer Decisions", text: "Visitors can understand the business, review relevant information, and decide whether " + name + " fits their needs." },
+      { title: "More Useful Next Steps", text: "The experience makes it easier for customers to " + profile.action + ", supporting more meaningful opportunities." }
+    ];
+
+    var related = allRows
+      .filter(function (candidate) {
+        return normalizeIndustry(candidate[1]).toLowerCase() === industryLower &&
+          slugify(candidate[0]) !== slugify(name);
+      })
+      .slice(0, 6);
 
     return {
       name: name,
       industry: industry,
       image: image,
       slug: slugify(name),
-      title: name + " Website Design Case Study",
+      title: name + " " + industry + " Website Design Case Study",
       category: industry + " Website Design",
-      summary: name + " is a WebAct " + industry.toLowerCase() + " website design case study created for " + plan.audience + ". The project highlights clear presentation, mobile usability, organized content, and practical next steps.",
-      overview: "For " + name + ", WebAct focused on creating a polished website experience that helps visitors quickly understand the business, review important information, and take the next step with confidence.",
-      industryStrategy: industry + " websites benefit from " + plan.needs + ". The page structure and content were organized around those priorities.",
-      designStrategy: "The website design combines visual hierarchy, responsive layouts, clear navigation, readable content, and strong use of the project's real website imagery.",
-      seoStrategy: "The SEO foundation uses descriptive headings, relevant page language, logical structure, internal linking, and content aligned with how customers research " + industry.toLowerCase() + " businesses.",
-      marketingStrategy: "The website can support broader growth through " + plan.services.join(", ") + ".",
-      resultsFocus: "This case study focuses on visible improvements such as stronger presentation, clearer service information, better mobile usability, and a more credible customer journey.",
-      services: plan.services,
-      related: related
+      summary: choose(openingStyles, seed, 0) + " This case study reviews the website design, SEO foundation, marketing opportunities, and conversion strategy created around the " + name + " brand.",
+      overview: choose(openingStyles, seed, 1),
+      industryStrategy: "Successful " + industryLower + " websites depend on " + profile.priority + ". The " + name + " page structure is organized around those expectations so the content feels relevant to the business rather than generic.",
+      designStrategy: choose(designStyles, seed, 2),
+      seoStrategy: choose(seoStyles, seed, 3),
+      marketingStrategy: choose(marketingStyles, seed, 4),
+      resultsFocus: choose(resultStyles, seed, 5),
+      strategyCards: strategyCards,
+      seoCards: seoCards,
+      marketingCards: marketingCards,
+      resultCards: resultCards,
+      services: profile.services,
+      related: related,
+      action: profile.action
     };
   }
 
-  var rows = Array.isArray(window.webactPortfolioRows) ? window.webactPortfolioRows : [];
+  function renderCards(cards, className, numbered) {
+    return cards.map(function (card, index) {
+      return '<article class="' + className + '">' +
+        (numbered ? '<span>' + String(index + 1).padStart(2, "0") + '</span>' : '') +
+        '<h3>' + escapeHtml(card.title) + '</h3>' +
+        '<p>' + escapeHtml(card.text) + '</p>' +
+      '</article>';
+    }).join("");
+  }
+
+  var rows = Array.isArray(window.webactPortfolioRows)
+    ? window.webactPortfolioRows
+    : [];
+
   var slug = new URLSearchParams(window.location.search).get("project") || "";
 
   if (!rows.length) {
@@ -182,7 +431,9 @@
     return;
   }
 
-  var row = rows.find(function (candidate) { return slugify(candidate[0]) === slug; });
+  var row = rows.find(function (candidate) {
+    return slugify(candidate[0]) === slug;
+  });
 
   if (!row) {
     document.getElementById("case-title").textContent = "Portfolio project not found";
@@ -191,44 +442,124 @@
     return;
   }
 
-  var c = createContent(row, rows);
+  var c = buildContent(row, rows);
   var canonical = "https://www.webact.com/about/portfolio/case-study.html?project=" + encodeURIComponent(c.slug);
 
   document.title = c.title + " | WebAct";
+  document.querySelector('meta[name="description"]').content = c.summary;
   document.getElementById("case-category").textContent = c.category;
   document.getElementById("case-title").textContent = c.title;
   document.getElementById("case-summary").textContent = c.summary;
   document.getElementById("case-image").src = c.image;
-  document.getElementById("case-image").alt = c.name + " website design case study";
+  document.getElementById("case-image").alt = c.name + " " + c.industry + " website design case study";
 
   var canonicalTag = document.querySelector('link[rel="canonical"]');
   if (canonicalTag) canonicalTag.href = canonical;
 
-  var ogTitle = document.querySelector('meta[property="og:title"]');
-  var ogDescription = document.querySelector('meta[property="og:description"]');
-  var ogUrl = document.querySelector('meta[property="og:url"]');
-  if (ogTitle) ogTitle.content = c.title + " | WebAct";
-  if (ogDescription) ogDescription.content = c.summary;
-  if (ogUrl) ogUrl.content = canonical;
+  [
+    ['meta[property="og:title"]', c.title + " | WebAct"],
+    ['meta[property="og:description"]', c.summary],
+    ['meta[property="og:url"]', canonical],
+    ['meta[name="twitter:title"]', c.title + " | WebAct"],
+    ['meta[name="twitter:description"]', c.summary]
+  ].forEach(function (item) {
+    var tag = document.querySelector(item[0]);
+    if (tag) tag.content = item[1];
+  });
 
   document.getElementById("case-sections").innerHTML =
-    '<section class="case-section alt"><div class="case-overview-grid"><div class="case-copy"><p class="eyebrow">Project Overview</p><h2>A stronger digital presence for ' + c.name + '.</h2><p>' + c.overview + '</p><br><p>' + c.industryStrategy + '</p></div><aside class="case-summary-card"><h3>Project Snapshot</h3><dl><div><dt>Business</dt><dd>' + c.name + '</dd></div><div><dt>Industry</dt><dd>' + c.industry + '</dd></div><div><dt>Primary Focus</dt><dd>Website Design, SEO, Marketing</dd></div><div><dt>Experience</dt><dd>Desktop, Tablet, Mobile</dd></div></dl></aside></div></section>' +
-    '<section class="case-section"><div class="case-copy"><p class="eyebrow">Website Strategy</p><h2>Designed around clarity, trust, and customer action.</h2><p>' + c.designStrategy + '</p></div><div class="strategy-grid"><article class="strategy-card"><span>01</span><h3>Website Planning</h3><p>Clear structure helps visitors understand the business and find the next step.</p></article><article class="strategy-card"><span>02</span><h3>User Experience</h3><p>Navigation, spacing, headings, and flow are designed for easier use.</p></article><article class="strategy-card"><span>03</span><h3>Content Strategy</h3><p>Relevant language explains the business and its value clearly.</p></article><article class="strategy-card"><span>04</span><h3>Responsive Design</h3><p>The experience adapts across desktop, tablet, and mobile.</p></article><article class="strategy-card"><span>05</span><h3>Lead Generation</h3><p>Calls to action and contact paths support real opportunities.</p></article><article class="strategy-card"><span>06</span><h3>Brand Trust</h3><p>The visual direction strengthens credibility and professionalism.</p></article></div></section>' +
-    '<section class="case-section dark-strategy"><div class="case-copy"><p class="eyebrow">SEO Strategy</p><h2>Built for search visibility and long-term growth.</h2><p>' + c.seoStrategy + '</p></div><div class="seo-grid"><article class="seo-card"><h3>Local SEO</h3><p>Service and location relevance support discovery in search.</p></article><article class="seo-card"><h3>Content Optimization</h3><p>Clear structure helps search engines understand the website.</p></article><article class="seo-card"><h3>Search Intent</h3><p>Content addresses what customers need before taking action.</p></article></div></section>' +
-    '<section class="case-section alt"><div class="case-copy"><p class="eyebrow">Marketing and Advertising</p><h2>Connecting the website to real growth services.</h2><p>' + c.marketingStrategy + '</p></div><div class="marketing-grid"><article class="marketing-card"><h3>Google Ads</h3><p>Paid search can drive targeted visitors to focused pages.</p></article><article class="marketing-card"><h3>Landing Pages</h3><p>Dedicated pages align campaigns, offers, and conversion paths.</p></article><article class="marketing-card"><h3>Local Visibility</h3><p>Listings, reviews, and consistent messaging strengthen trust.</p></article></div></section>' +
-    '<section class="case-section"><div class="case-copy"><p class="eyebrow">Results Focus</p><h2>Built to improve trust, usability, and customer action.</h2><p>' + c.resultsFocus + '</p></div><div class="results-grid"><article class="result-card"><h3>Better First Impression</h3><p>A polished design helps the business look more established.</p></article><article class="result-card"><h3>Clearer Presentation</h3><p>Organized content helps visitors understand the business faster.</p></article><article class="result-card"><h3>Stronger Lead Paths</h3><p>Conversion-focused flow helps visitors take the next step.</p></article></div></section>';
+    '<section class="case-section alt">' +
+      '<div class="case-overview-grid">' +
+        '<div class="case-copy">' +
+          '<p class="eyebrow">Project Overview</p>' +
+          '<h2>A focused digital presence for ' + escapeHtml(c.name) + '.</h2>' +
+          '<p>' + escapeHtml(c.overview) + '</p><br>' +
+          '<p>' + escapeHtml(c.industryStrategy) + '</p>' +
+        '</div>' +
+        '<aside class="case-summary-card">' +
+          '<h3>' + escapeHtml(c.name) + ' Project Snapshot</h3>' +
+          '<dl>' +
+            '<div><dt>Business</dt><dd>' + escapeHtml(c.name) + '</dd></div>' +
+            '<div><dt>Industry</dt><dd>' + escapeHtml(c.industry) + '</dd></div>' +
+            '<div><dt>Primary Focus</dt><dd>' + escapeHtml(c.industry) + ' Website Growth</dd></div>' +
+            '<div><dt>Customer Action</dt><dd>' + escapeHtml(c.action.charAt(0).toUpperCase() + c.action.slice(1)) + '</dd></div>' +
+          '</dl>' +
+        '</aside>' +
+      '</div>' +
+    '</section>' +
 
-  document.getElementById("services-title").textContent = "Services connected to the " + c.name + " project.";
-  document.getElementById("services-intro").textContent = "These services can support a stronger " + c.industry.toLowerCase() + " website and digital presence.";
-  document.getElementById("service-grid").outerHTML = '<div class="services-pill-grid" id="service-grid">' + c.services.map(function (service) { return "<span>&check; " + service + "</span>"; }).join("") + "</div>";
+    '<section class="case-section">' +
+      '<div class="case-copy">' +
+        '<p class="eyebrow">' + escapeHtml(c.name) + ' Website Strategy</p>' +
+        '<h2>Designed for the way ' + escapeHtml(c.industry.toLowerCase()) + ' customers research and respond.</h2>' +
+        '<p>' + escapeHtml(c.designStrategy) + '</p>' +
+      '</div>' +
+      '<div class="strategy-grid">' + renderCards(c.strategyCards, "strategy-card", true) + '</div>' +
+    '</section>' +
 
-  document.getElementById("related-intro").textContent = "Explore more WebAct projects in the " + c.industry + " category.";
-  document.getElementById("related-grid").innerHTML = c.related.map(function (related) {
-    return '<a class="related-card" href="/about/portfolio/case-study.html?project=' + slugify(related[0]) + '"><img src="' + related[2] + '" alt="' + related[0] + ' website design" loading="lazy"><span>' + related[1] + '</span><h3>' + related[0] + '</h3></a>';
-  }).join("");
+    '<section class="case-section dark-strategy">' +
+      '<div class="case-copy">' +
+        '<p class="eyebrow">' + escapeHtml(c.name) + ' SEO Strategy</p>' +
+        '<h2>Search visibility built around ' + escapeHtml(c.name) + ' and the ' + escapeHtml(c.industry.toLowerCase()) + ' market.</h2>' +
+        '<p>' + escapeHtml(c.seoStrategy) + '</p>' +
+      '</div>' +
+      '<div class="seo-grid">' + renderCards(c.seoCards, "seo-card", false) + '</div>' +
+    '</section>' +
 
-  document.getElementById("cta-title").textContent = "Need a " + c.industry.toLowerCase() + " website like " + c.name + "?";
-  document.getElementById("cta-text").textContent = "WebAct can help with website design, SEO, digital advertising, landing pages, branding, local visibility, and ongoing support.";
+    '<section class="case-section alt">' +
+      '<div class="case-copy">' +
+        '<p class="eyebrow">' + escapeHtml(c.name) + ' Marketing Opportunities</p>' +
+        '<h2>A website foundation that can support targeted growth.</h2>' +
+        '<p>' + escapeHtml(c.marketingStrategy) + '</p>' +
+      '</div>' +
+      '<div class="marketing-grid">' + renderCards(c.marketingCards, "marketing-card", false) + '</div>' +
+    '</section>' +
+
+    '<section class="case-section">' +
+      '<div class="case-copy">' +
+        '<p class="eyebrow">' + escapeHtml(c.name) + ' Results Focus</p>' +
+        '<h2>A clearer, more credible experience for prospective customers.</h2>' +
+        '<p>' + escapeHtml(c.resultsFocus) + '</p>' +
+      '</div>' +
+      '<div class="results-grid">' + renderCards(c.resultCards, "result-card", false) + '</div>' +
+    '</section>';
+
+  document.getElementById("services-title").textContent =
+    c.name + " website and marketing services.";
+
+  document.getElementById("services-intro").textContent =
+    "These services are specifically relevant to the goals, audience, and growth opportunities of a " +
+    c.industry.toLowerCase() + " business such as " + c.name + ".";
+
+  document.getElementById("service-grid").outerHTML =
+    '<div class="services-pill-grid" id="service-grid">' +
+      c.services.map(function (service) {
+        return "<span>&check; " + escapeHtml(service) + "</span>";
+      }).join("") +
+    "</div>";
+
+  document.getElementById("related-intro").textContent =
+    "Explore additional " + c.industry.toLowerCase() +
+    " website projects and compare how each business is presented for its own audience.";
+
+  document.getElementById("related-grid").innerHTML =
+    c.related.map(function (related) {
+      return '<a class="related-card" href="/about/portfolio/case-study.html?project=' +
+        slugify(related[0]) + '">' +
+        '<img src="' + escapeHtml(related[2]) + '" alt="' +
+        escapeHtml(related[0]) + ' ' + escapeHtml(related[1]) +
+        ' website design" loading="lazy">' +
+        '<span>' + escapeHtml(related[1]) + '</span>' +
+        '<h3>' + escapeHtml(related[0]) + '</h3>' +
+      '</a>';
+    }).join("");
+
+  document.getElementById("cta-title").textContent =
+    "Need a " + c.industry.toLowerCase() + " website built for your business?";
+
+  document.getElementById("cta-text").textContent =
+    "WebAct can create a strategy tailored to your business name, services, customers, market, and growth goals—just as this case study is tailored to " +
+    c.name + ".";
 })();
 </script>
 <script src="/script.js?v=main-layout-1"></script>
