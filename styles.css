@@ -5179,7 +5179,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .page-card a::after{
-  content:" Ã¢â€ â€™";
+  content:" Ã¢â€ ’";
 }
 
 /* Dark connected strategy CTA bands */
@@ -5283,7 +5283,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .benefit-grid li::before{
-  content:"Ã¢Å“â€œ";
+  content:"Ã¢Å““";
   position:absolute;
   left:0;
   top:0;
@@ -5379,7 +5379,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .detail-list span::before{
-  content:"Ã¢Å“â€œ";
+  content:"Ã¢Å““";
   position:absolute;
   left:16px;
   color:#0878b8;

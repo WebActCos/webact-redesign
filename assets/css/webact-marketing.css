@@ -1,4 +1,4 @@
-﻿/* ===========================================
+/* ===========================================
    WebAct Marketing System
    Shared stylesheet for Marketing hub and Marketing service pages.
    Load after styles.css.
@@ -637,7 +637,7 @@
 
 .marketing-related-section .marketing-service-card a::after,
 .marketing-service-card a::after{
-  content:" â†’";
+  content:" →";
 }
 
 @media(max-width:1180px){

@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
 
 const footer = `
 <footer class="wa-global-footer">
@@ -150,7 +150,7 @@ Trusted by Businesses Across the United States
 </strong>
 
 <span>
-Professional Website Design â€¢ SEO â€¢ Advertising â€¢ AI Optimization
+Professional Website Design • SEO • Advertising • AI Optimization
 </span>
 
 </div>
@@ -171,7 +171,7 @@ Professional Website Design â€¢ SEO â€¢ Advertising â€¢ AI Optimizat
 
 <div>
 
-Â© 2026 WebAct
+© 2026 WebAct
 
 <br>
 
