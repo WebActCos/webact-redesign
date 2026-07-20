@@ -870,3 +870,28 @@
   }
 }
 /* WEBACT NAVIGATION RELIABILITY FIX END */
+/* WEBACT SHARED HEADER LAYER FIX START */
+#webact-header {
+  position: relative;
+  z-index: 1000;
+  overflow: visible;
+}
+
+#webact-header .wa-promodo-header,
+#webact-header .wa-promodo-nav,
+#webact-header .wa-promodo-menu,
+#webact-header .wa-promodo-item {
+  overflow: visible;
+}
+
+@media (min-width: 1061px) {
+  #webact-header .wa-promodo-header {
+    position: relative;
+    z-index: 1001;
+  }
+
+  #webact-header .wa-promodo-mega {
+    z-index: 1002;
+  }
+}
+/* WEBACT SHARED HEADER LAYER FIX END */
