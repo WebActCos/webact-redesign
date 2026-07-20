@@ -232,6 +232,74 @@
   }
 }
 </style>
+<!-- HOMEPAGE HEADER STACKING FIX -->
+<style id="homepage-header-stacking-fix">
+  /*
+   * Keep the universal header and its dropdown navigation
+   * above the homepage hero and all hero overlays.
+   */
+  header,
+  #header,
+  #site-header,
+  .site-header,
+  .main-header,
+  .header,
+  .header-wrapper,
+  .header-container,
+  .universal-header,
+  .navbar,
+  .navigation-wrapper {
+    position: relative;
+    z-index: 100000 !important;
+  }
+
+  header nav,
+  header .nav,
+  header .navbar,
+  header .navigation,
+  header .menu,
+  header .submenu,
+  header .sub-menu,
+  header .dropdown,
+  header .dropdown-menu,
+  header .mega-menu,
+  header [class*="submenu"],
+  header [class*="sub-menu"],
+  header [class*="dropdown"],
+  header [class*="mega-menu"],
+  #header nav,
+  #site-header nav,
+  .site-header nav,
+  .main-header nav,
+  .universal-header nav {
+    z-index: 100001 !important;
+  }
+
+  .hero,
+  #hero,
+  .homepage-hero,
+  .home-hero,
+  .hero-section,
+  .hero-wrapper,
+  main > section:first-of-type {
+    position: relative;
+    z-index: 1 !important;
+  }
+
+  .hero::before,
+  .hero::after,
+  #hero::before,
+  #hero::after,
+  .homepage-hero::before,
+  .homepage-hero::after,
+  .home-hero::before,
+  .home-hero::after,
+  .hero-section::before,
+  .hero-section::after {
+    z-index: 0 !important;
+  }
+</style>
+<!-- END HOMEPAGE HEADER STACKING FIX -->
 </head>
   <body class="wa-home-v2">
 <div id="webact-header"></div>
