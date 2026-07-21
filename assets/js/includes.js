@@ -113,15 +113,9 @@
       };
     })();
 
-    ["pointerdown", "keydown", "touchstart", "scroll"].forEach(function (eventName) {
+    ["pointerdown", "keydown", "touchstart"].forEach(function (eventName) {
       window.addEventListener(eventName, loadGtmOnce, { once: true, passive: true });
     });
-
-    if ("requestIdleCallback" in window) {
-      requestIdleCallback(loadGtmOnce, { timeout: 4000 });
-    } else {
-      setTimeout(loadGtmOnce, 4000);
-    }
 
     Promise.all([
       loadInclude("webact-header", "/includes/header.html"),

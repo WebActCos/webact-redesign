@@ -1,11 +1,58 @@
-(function(){"use strict";
-function loadFrames(){document.querySelectorAll("iframe[data-webact-src]").forEach(function(f){if(!f.src)f.src=f.dataset.webactSrc;f.removeAttribute("data-webact-src")})}
-function init(){
-var imgs=[].slice.call(document.images||[]);
-imgs.forEach(function(img,i){img.decoding="async";if(i===0){img.loading="eager";img.fetchPriority="high"}else if(!img.hasAttribute("loading"))img.loading="lazy"});
-document.querySelectorAll("a[href]").forEach(function(a){if(!(a.textContent||"").trim()&&!a.getAttribute("aria-label")){var im=a.querySelector("img[alt]");a.setAttribute("aria-label",im&&im.alt?im.alt:"Open "+(a.getAttribute("href")||"link").replace(/[-_/]+/g," ").trim())}});
-["pointerdown","keydown","touchstart","scroll"].forEach(function(e){addEventListener(e,loadFrames,{once:true,passive:true})});
-if("requestIdleCallback"in window)requestIdleCallback(loadFrames,{timeout:3500});else setTimeout(loadFrames,3500);
-}
-document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init,{once:true}):init();
+(function () {
+  "use strict";
+
+  function loadDeferredFrames() {
+    document.querySelectorAll("iframe[data-webact-src]").forEach(function (frame) {
+      if (!frame.src) frame.src = frame.getAttribute("data-webact-src");
+      frame.removeAttribute("data-webact-src");
+    });
+  }
+
+  function improveImages() {
+    Array.prototype.slice.call(document.images || []).forEach(function (image, index) {
+      image.decoding = "async";
+      if (index === 0) {
+        image.loading = "eager";
+        image.fetchPriority = "high";
+      } else if (!image.hasAttribute("loading")) {
+        image.loading = "lazy";
+      }
+    });
+  }
+
+  function labelEmptyLinks() {
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var text = (link.textContent || "").replace(/\s+/g, " ").trim();
+      if (text || link.getAttribute("aria-label")) return;
+
+      var image = link.querySelector("img[alt]");
+      var label = image && image.alt ? image.alt.trim() : "";
+
+      if (!label) {
+        label = "Open " + (link.getAttribute("href") || "link")
+          .replace(/[-_/]+/g, " ")
+          .trim();
+      }
+
+      link.setAttribute("aria-label", label);
+    });
+  }
+
+  function init() {
+    improveImages();
+    labelEmptyLinks();
+
+    ["pointerdown", "keydown", "touchstart"].forEach(function (eventName) {
+      window.addEventListener(eventName, loadDeferredFrames, {
+        once: true,
+        passive: true
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init, { once: true });
+  } else {
+    init();
+  }
 })();
