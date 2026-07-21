@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /audit-reports/
-Disallow: /backups/
-Disallow: /backup/
-Sitemap: https://www.webact.com/sitemap.xml
+
+Sitemap: https://co.webact.com/sitemap.xml
