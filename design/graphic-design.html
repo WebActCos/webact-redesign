@@ -53,19 +53,156 @@ body{margin:0}.graphic{color:#071421;background:#fff}.hero{background:linear-gra
 
 
 .section-intro{max-width:900px;margin:0 auto 38px;text-align:center;color:#4b5b66;font-size:1.08rem;line-height:1.75}.dark .section-intro{color:#d6e4ee}.card p{line-height:1.7}.card ul{padding-left:20px}.card li{margin:8px 0;line-height:1.55}.service-detail{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:1280px;margin:auto}.service-detail article{background:#fff;border:1px solid #e0ebf2;border-radius:22px;padding:30px}.service-detail h3{margin-top:0;color:#071421}.service-detail p,.service-detail li{color:#4b5b66;line-height:1.72}.industry-grid,.deliverables{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1280px;margin:auto}.industry-grid article,.deliverables article{background:#fff;border:1px solid #e0ebf2;border-radius:18px;padding:22px}.industry-grid p,.deliverables p{color:#4b5b66;line-height:1.65}.long-copy{max-width:1040px;margin:auto}.long-copy p{font-size:1.05rem;line-height:1.85;color:#4b5b66}.cta-inline{max-width:1180px;margin:34px auto 0;background:#0d2740;color:#fff;border-radius:24px;padding:30px;text-align:center}.cta-inline p{max-width:800px;margin:10px auto;color:#d6e4ee}@media(max-width:1000px){.service-detail,.industry-grid,.deliverables{grid-template-columns:1fr 1fr}}@media(max-width:700px){.service-detail,.industry-grid,.deliverables{grid-template-columns:1fr}}
+
+/* GRAPHIC DESIGN CARD FIXES */
+.process{
+    counter-reset:graphic-process;
+}
+
+.process article{
+    position:relative;
+    background:#ffffff !important;
+    color:#071421 !important;
+    border:1px solid #dce8ef;
+    min-height:230px;
+    padding:72px 26px 28px !important;
+    box-shadow:0 14px 35px rgba(7,20,33,.08);
+}
+
+.process article::before{
+    counter-increment:graphic-process;
+    content:counter(graphic-process);
+    position:absolute;
+    top:22px;
+    left:24px;
+    width:38px;
+    height:38px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:#33abe1;
+    color:#061421;
+    font-size:18px;
+    font-weight:900;
+}
+
+.process article h3{
+    color:#071421 !important;
+    margin-top:0;
+}
+
+.process article p{
+    color:#4b5b66 !important;
+    line-height:1.72;
+}
+
+.industry-grid article{
+    display:flex;
+    flex-direction:column;
+    min-height:290px;
+    padding:30px !important;
+    box-shadow:0 12px 30px rgba(7,20,33,.06);
+    transition:transform .2s ease,box-shadow .2s ease;
+}
+
+.industry-grid article:hover{
+    transform:translateY(-4px);
+    box-shadow:0 18px 38px rgba(7,20,33,.11);
+}
+
+.industry-grid article p{
+    flex-grow:1;
+}
+
+.industry-grid .industry-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    min-height:50px;
+    margin-top:24px;
+    padding:12px 18px;
+    box-sizing:border-box;
+    border-radius:12px;
+    background:#33abe1;
+    border:2px solid #33abe1;
+    color:#061421 !important;
+    font-weight:900;
+    text-decoration:none;
+    transition:.2s ease;
+}
+
+.industry-grid .industry-button:hover{
+    background:#58c4ec;
+    border-color:#58c4ec;
+}
+
+.related-services{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    max-width:1280px;
+    margin:0 auto;
+}
+
+.related-services article{
+    display:flex;
+    flex-direction:column;
+    background:#ffffff;
+    border:1px solid #e0ebf2;
+    border-radius:20px;
+    padding:28px;
+}
+
+.related-services article p{
+    flex-grow:1;
+    color:#4b5b66;
+    line-height:1.7;
+}
+
+.related-services article a{
+    color:#0879ad;
+    font-weight:900;
+    text-decoration:none;
+}
+
+.related-services article a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:1000px){
+    .related-services{
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media(max-width:700px){
+    .related-services{
+        grid-template-columns:1fr;
+    }
+
+    .process article{
+        min-height:auto;
+    }
+
+    .industry-grid article{
+        min-height:auto;
+    }
+}
 </style>
   <link rel="canonical" href="https://www.webact.com/graphic-design/">
-  <meta property="og:title" content="Creative graphics that strengthen every part of your marketing.…">
-  <meta property="og:description" content="Learn about Creative graphics that strengthen every part of your marketing. from WebAct, including website design, SEO, AEO, digital advertising, strategy…">
+  <meta property="og:title" content="Creative graphics that strengthen every part of your marketing.â€¦">
+  <meta property="og:description" content="Learn about Creative graphics that strengthen every part of your marketing. from WebAct, including website design, SEO, AEO, digital advertising, strategyâ€¦">
   <meta property="og:url" content="https://www.webact.com/graphic-design/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Creative graphics that strengthen every part of your marketing.…">
-  <meta name="twitter:description" content="Learn about Creative graphics that strengthen every part of your marketing. from WebAct, including website design, SEO, AEO, digital advertising, strategy…">
+  <meta name="twitter:title" content="Creative graphics that strengthen every part of your marketing.â€¦">
+  <meta name="twitter:description" content="Learn about Creative graphics that strengthen every part of your marketing. from WebAct, including website design, SEO, AEO, digital advertising, strategyâ€¦">
   <meta name="robots" content="index,follow">
 
 <!-- WEBACT SITEWIDE SCHEMA START -->
-<script type="application/ld+json" data-webact-sitewide-schema="true">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.webact.com/#organization","name":"WebAct","url":"https://www.webact.com/","logo":{"@type":"ImageObject","@id":"https://www.webact.com/#logo","url":"https://www.webact.com/images/logo-original.png","contentUrl":"https://www.webact.com/images/logo-original.png","caption":"WebAct"},"telephone":"+1-855-697-4336","contactPoint":[{"@type":"ContactPoint","telephone":"+1-855-697-4336","contactType":"sales","areaServed":"US","availableLanguage":["English"]}]},{"@type":"WebSite","@id":"https://www.webact.com/#website","url":"https://www.webact.com/","name":"WebAct","publisher":{"@id":"https://www.webact.com/#organization"},"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.webact.com/graphic-design/#webpage","url":"https://www.webact.com/graphic-design/","name":"Creative graphics that strengthen every part of your marketing.…","headline":"Creative graphics that strengthen every part of your marketing.","description":"Learn about Creative graphics that strengthen every part of your marketing. from WebAct, including website design, SEO, AEO, digital advertising, strategy…","isPartOf":{"@id":"https://www.webact.com/#website"},"about":{"@id":"https://www.webact.com/#organization"},"publisher":{"@id":"https://www.webact.com/#organization"},"breadcrumb":{"@id":"https://www.webact.com/graphic-design/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://www.webact.com/graphic-design/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.webact.com/"},{"@type":"ListItem","position":2,"name":"Creative graphics that strengthen every part of your marketing.","item":"https://www.webact.com/graphic-design/"}]}]}</script>
+<script type="application/ld+json" data-webact-sitewide-schema="true">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.webact.com/#organization","name":"WebAct","url":"https://www.webact.com/","logo":{"@type":"ImageObject","@id":"https://www.webact.com/#logo","url":"https://www.webact.com/images/logo-original.png","contentUrl":"https://www.webact.com/images/logo-original.png","caption":"WebAct"},"telephone":"+1-855-697-4336","contactPoint":[{"@type":"ContactPoint","telephone":"+1-855-697-4336","contactType":"sales","areaServed":"US","availableLanguage":["English"]}]},{"@type":"WebSite","@id":"https://www.webact.com/#website","url":"https://www.webact.com/","name":"WebAct","publisher":{"@id":"https://www.webact.com/#organization"},"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.webact.com/graphic-design/#webpage","url":"https://www.webact.com/graphic-design/","name":"Creative graphics that strengthen every part of your marketing.â€¦","headline":"Creative graphics that strengthen every part of your marketing.","description":"Learn about Creative graphics that strengthen every part of your marketing. from WebAct, including website design, SEO, AEO, digital advertising, strategyâ€¦","isPartOf":{"@id":"https://www.webact.com/#website"},"about":{"@id":"https://www.webact.com/#organization"},"publisher":{"@id":"https://www.webact.com/#organization"},"breadcrumb":{"@id":"https://www.webact.com/graphic-design/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://www.webact.com/graphic-design/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.webact.com/"},{"@type":"ListItem","position":2,"name":"Creative graphics that strengthen every part of your marketing.","item":"https://www.webact.com/graphic-design/"}]}]}</script>
 <!-- WEBACT SITEWIDE SCHEMA END -->
 <!-- WEBACT TEMPLATE SCHEMA START -->
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Creative graphics that strengthen every part of your marketing.", "url": "https://www.webact.com/design/graphic-design/", "provider": {"@type": "Organization", "name": "WebAct", "url": "https://www.webact.com"}}</script>
@@ -88,10 +225,110 @@ body{margin:0}.graphic{color:#071421;background:#fff}.hero{background:linear-gra
 <article><h3>Packaging and Product Graphics</h3><p>We support labels, boxes, inserts, product cards, retail displays, and branded packaging systems.</p><ul><li>Product labels</li><li>Boxes and sleeves</li><li>Insert cards</li><li>Retail graphics</li></ul></article>
 </div><div class="actions"><a class="button primary" href="/contact/index.html">Discuss Your Design Needs</a><a class="button secondary" href="/pricing/design.html">Compare Design Options</a></div></section>
 <section class="section dark"><h2 style="text-align:center">Graphic design vs. branding</h2><p class="section-intro">These services work together, but they solve different problems. WebAct can help with an individual asset, a refreshed logo, or a complete visual identity.</p><div class="compare"><div class="card"><h3>Graphic Design</h3><p>Graphic design focuses on specific visual assets used in marketing, sales, advertising, print, websites, social media, presentations, and campaigns.</p><div class="comparison-buttons"><a class="button primary" href="/contact/index.html">Start a Project</a><a class="button secondary" href="/pricing/design.html">Design Pricing</a></div></div><div class="card"><h3>Branding and Logo Design</h3><p>Branding creates the visual system behind your company, including the logo, color palette, typography, image style, and standards.</p><div class="comparison-buttons"><a class="button primary" href="/design/branding.html">Explore Branding</a><a class="button secondary" href="/design/logo-design.html">Logo Design</a></div></div></div></section>
-<section class="section soft"><h2 style="text-align:center">Graphic design for different industries</h2><p class="section-intro">Every industry communicates differently. WebAct adjusts the design approach to match the audience, buying process, trust signals, and marketing channels that matter most.</p><div class="industry-grid"><article><h3>Restaurants and Hospitality</h3><p>Menus, promotions, social graphics, signage, event materials, and local advertising creative.</p></article><article><h3>Construction and Home Services</h3><p>Project portfolios, brochures, vehicle graphics, yard signs, estimates, and lead-generation ads.</p></article><article><h3>Medical and Dental</h3><p>Patient-friendly graphics, presentations, educational materials, and appointment campaigns.</p></article><article><h3>Legal and Professional Services</h3><p>Presentations, case studies, service overviews, reports, and proposal templates.</p></article><article><h3>Retail and Ecommerce</h3><p>Product graphics, packaging, promotions, email creative, social ads, and catalogs.</p></article><article><h3>Real Estate</h3><p>Property brochures, listing graphics, presentations, social media, signage, and direct mail.</p></article><article><h3>Manufacturing and B2B</h3><p>Product diagrams, capability sheets, catalogs, trade show graphics, and sales collateral.</p></article><article><h3>Nonprofits</h3><p>Donation campaigns, event graphics, impact reports, sponsor materials, and outreach pieces.</p></article></div><div class="actions"><a class="button primary" href="/industries/index.html">Explore Industries</a><a class="button secondary" href="/contact/index.html">Request a Recommendation</a></div></section>
+<section class="section soft">
+<h2 style="text-align:center">Graphic design for different industries</h2>
+<p class="section-intro">Every industry communicates differently. WebAct adjusts the design approach to match the audience, buying process, trust signals, and marketing channels that matter most.</p>
+
+<div class="industry-grid">
+
+<article>
+<h3>Restaurants and Hospitality</h3>
+<p>Menus, promotions, social graphics, signage, event materials, ordering graphics, and local advertising creative designed to help restaurants attract more customers.</p>
+<a class="industry-button" href="/industries/restaurants/index.html">Explore Restaurant Services</a>
+</article>
+
+<article>
+<h3>Construction and Home Services</h3>
+<p>Project portfolios, service brochures, vehicle graphics, yard signs, estimate materials, and lead-generation advertising for builders and contractors.</p>
+<a class="industry-button" href="/industries/builders-and-contractors/index.html">Explore Construction Services</a>
+</article>
+
+<article>
+<h3>Medical and Dental</h3>
+<p>Patient-friendly graphics, presentations, educational materials, appointment campaigns, service visuals, and location-based healthcare marketing.</p>
+<a class="industry-button" href="/industries/dental-medical/index.html">Explore Medical Services</a>
+</article>
+
+<article>
+<h3>Legal and Professional Services</h3>
+<p>Professional presentations, case studies, service overviews, reports, proposal templates, advertising creative, and trust-focused brand materials.</p>
+<a class="industry-button" href="/industries/law-firms/index.html">Explore Legal Services</a>
+</article>
+
+<article>
+<h3>Retail and Ecommerce</h3>
+<p>Product graphics, packaging, promotions, email creative, social advertisements, catalogs, seasonal campaigns, and ecommerce marketing assets.</p>
+<a class="industry-button" href="/industries/local-retail/index.html">Explore Retail Services</a>
+</article>
+
+<article>
+<h3>Real Estate</h3>
+<p>Property brochures, listing graphics, presentations, social media content, signage, direct mail, agent branding, and lead-generation campaigns.</p>
+<a class="industry-button" href="/industries/real-estate/index.html">Explore Real Estate Services</a>
+</article>
+
+<article>
+<h3>Manufacturing and B2B</h3>
+<p>Product diagrams, capability sheets, catalogs, trade show graphics, technical presentations, sales collateral, and business development materials.</p>
+<a class="industry-button" href="/industries/manufacturing/index.html">Explore Manufacturing Services</a>
+</article>
+
+<article>
+<h3>Nonprofits</h3>
+<p>Donation campaigns, event graphics, impact reports, sponsor materials, community outreach pieces, and mission-focused visual storytelling.</p>
+<a class="industry-button" href="/industries/nonprofits/index.html">Explore Nonprofit Services</a>
+</article>
+
+</div>
+
+<div class="actions">
+<a class="button primary" href="/industries/index.html">View All Industries</a>
+<a class="button secondary" href="/contact/index.html">Discuss Your Industry</a>
+</div>
+</section>
 <section class="section dark"><h2 style="text-align:center">Our graphic design process</h2><p class="section-intro">A clear process helps protect quality, avoid unnecessary revisions, and keep the project aligned with your goals.</p><div class="process"><article><h3>1. Discover</h3><p>We review your business, audience, goals, brand, competitors, and required uses.</p></article><article><h3>2. Plan</h3><p>We organize the message, priorities, visual direction, formats, and production needs.</p></article><article><h3>3. Create</h3><p>We develop initial concepts around clarity, consistency, attention, and action.</p></article><article><h3>4. Refine</h3><p>We review feedback, improve the selected direction, and prepare it for approval.</p></article><article><h3>5. Deliver</h3><p>We export the agreed files for web, print, advertising, social media, or production.</p></article></div></section>
 <section class="section"><h2 style="text-align:center">Common design deliverables</h2><p class="section-intro">The exact files depend on the project, but WebAct can prepare a practical set of assets for the channels and vendors you use.</p><div class="deliverables"><article><h3>Digital Files</h3><p>PNG, JPG, WebP, SVG, PDF, and platform-specific exports.</p></article><article><h3>Print-Ready Files</h3><p>High-resolution PDFs prepared around bleed, trim, size, color, and resolution requirements.</p></article><article><h3>Scalable Artwork</h3><p>Vector-based artwork for logos, signage, packaging, apparel, and large-format printing.</p></article><article><h3>Campaign Variations</h3><p>Multiple sizes, orientations, offers, headlines, calls to action, or audience versions.</p></article></div><div class="cta-inline"><h2>Not sure which design files you need?</h2><p>Tell us where the design will be used, and WebAct can recommend the right sizes, formats, and production setup.</p><div class="actions"><a class="button primary" href="/contact/index.html">Ask About Your Project</a><a class="button secondary" href="tel:8556974336">Call (855) 697-4336</a></div></div></section>
 <section class="section soft"><div class="long-copy"><p class="eyebrow">Why Choose WebAct</p><h2>Graphic design connected to the rest of your marketing.</h2><p>Graphic design performs best when it supports the larger marketing plan. WebAct can connect your creative work with your website, branding, SEO, AI Optimization, Google Ads, social advertising, Television Advertising, email marketing, Local Listings, landing pages, and ongoing digital strategy.</p><p>That connection helps reduce inconsistent messaging and fragmented creative. Instead of designing an isolated brochure, ad, social post, or presentation, we consider where customers will see it, what they need to understand, and what action the design should encourage.</p><h3>Design support for one project or ongoing campaigns</h3><p>WebAct can support individual projects, coordinated launches, seasonal promotions, advertising campaigns, website redesigns, sales initiatives, and ongoing marketing programs.</p><h3>Professional design without unnecessary complexity</h3><p>We gather the right information early, explain what is needed, organize feedback, and prepare files for the channels where they will be used.</p></div><div class="actions"><a class="button primary" href="/contact/index.html">Start a Conversation</a><a class="button secondary" href="/pricing/design.html">Review Design Pricing</a></div></section>
+
+<!-- GRAPHIC DESIGN RELATED SERVICES -->
+<section class="section">
+<h2 style="text-align:center">Related design and marketing services</h2>
+<p class="section-intro">Connect your graphic design with the other services customers see throughout their experience with your business.</p>
+
+<div class="related-services">
+
+<article>
+<h3>Branding</h3>
+<p>Create a consistent brand identity with coordinated colors, typography, imagery, visual standards, and reusable marketing assets.</p>
+<a href="/design/branding.html">Explore Branding →</a>
+</article>
+
+<article>
+<h3>Logo Design</h3>
+<p>Build a professional and recognizable logo with formats and variations prepared for websites, print, advertising, signage, and social media.</p>
+<a href="/design/logo-design.html">Explore Logo Design →</a>
+</article>
+
+<article>
+<h3>Website Design</h3>
+<p>Combine professional graphics with a conversion-focused website designed to explain your services and generate leads.</p>
+<a href="/design/website-design.html">Explore Website Design →</a>
+</article>
+
+<article>
+<h3>Digital Marketing</h3>
+<p>Use coordinated design across SEO, Google Ads, social advertising, email campaigns, landing pages, and ongoing digital marketing.</p>
+<a href="/digital-marketing/index.html">Explore Digital Marketing →</a>
+</article>
+
+</div>
+
+<div class="actions">
+<a class="button primary" href="/contact/index.html">Request a Consultation</a>
+<a class="button secondary" href="/about/portfolio.html">View Our Portfolio</a>
+</div>
+</section>
+
 <section class="section"><h2 style="text-align:center">Graphic design frequently asked questions</h2><p class="section-intro">Answers to common questions about custom graphic design, branding, files, revisions, printing, and project planning.</p><div class="faq">
 <details open><summary>What types of graphic design services does WebAct offer?</summary><p>WebAct offers graphic design for websites, advertising, social media, email, brochures, flyers, business cards, presentations, proposals, reports, signage, trade shows, vehicle graphics, packaging, product materials, infographics, and coordinated campaigns.</p></details>
 <details><summary>How much does professional graphic design cost?</summary><p>Pricing depends on the type of design, number of concepts, content, variations, revision needs, and source-file requirements. Review our <a href="/pricing/design.html">design pricing</a> or contact WebAct for a recommendation.</p></details>
@@ -113,6 +350,31 @@ body{margin:0}.graphic{color:#071421;background:#fff}.hero{background:linear-gra
 <details><summary>Can WebAct support ongoing design needs?</summary><p>Yes. We can support recurring campaigns, seasonal promotions, social media, email, advertising, presentations, print updates, and ongoing creative needs.</p></details>
 <details><summary>Can you work with my printer or production vendor?</summary><p>We can prepare files according to supplied vendor specifications and help coordinate common file requirements.</p></details>
 <details><summary>How do I get started?</summary><p>Send WebAct the project type, intended use, sizes, deadline, brand files, content, examples, and vendor specifications. Then we can recommend the right approach.</p></details>
+<!-- GRAPHIC DESIGN ADDITIONAL FAQS -->
+<details>
+<summary>Can you create reusable graphic design templates?</summary>
+<p>Yes. WebAct can create reusable templates for social posts, presentations, advertisements, email campaigns, sales sheets, promotions, and other recurring marketing needs.</p>
+</details>
+
+<details>
+<summary>Can you improve graphics that were created by another designer?</summary>
+<p>Yes. We can review existing artwork, correct layout problems, improve readability, update colors or typography, recreate low-resolution files, and make the design more consistent with your current brand.</p>
+</details>
+
+<details>
+<summary>Can graphic design help improve website conversions?</summary>
+<p>Yes. Clear visual hierarchy, stronger calls to action, helpful icons, comparison graphics, service illustrations, and better page layouts can make information easier to understand and guide visitors toward contacting your business.</p>
+</details>
+
+<details>
+<summary>Do you offer graphic design for complete marketing campaigns?</summary>
+<p>Yes. WebAct can create coordinated artwork for landing pages, display advertisements, social media, email, print, presentations, signage, and other campaign touchpoints.</p>
+</details>
+
+<details>
+<summary>Can you design graphics for Local Listings and business profiles?</summary>
+<p>Yes. We can create branded graphics for business profiles, location pages, social accounts, promotional posts, offers, and other local marketing channels.</p>
+</details>
 </div></section>
 <section class="cta"><h2>Ready to make your marketing look more professional?</h2><p>Tell WebAct what you need designed, where it will be used, and what you want customers to do next.</p><div class="actions"><a class="button primary" href="/contact/index.html">Start a Design Project</a><a class="button secondary" href="tel:8556974336">Call (855) 697-4336</a></div></section>
 </main>
