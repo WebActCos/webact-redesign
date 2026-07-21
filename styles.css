@@ -5179,7 +5179,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .page-card a::after{
-  content:" ÃƒÂ¢Ã¢â‚¬Â â€™";
+  content:" ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Ã¢â‚¬â„¢";
 }
 
 /* Dark connected strategy CTA bands */
@@ -5283,7 +5283,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .benefit-grid li::before{
-  content:"ÃƒÂ¢Ã…â€œâ€œ";
+  content:"ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“Ã¢â‚¬Å“";
   position:absolute;
   left:0;
   top:0;
@@ -5379,7 +5379,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .detail-list span::before{
-  content:"ÃƒÂ¢Ã…â€œâ€œ";
+  content:"ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“Ã¢â‚¬Å“";
   position:absolute;
   left:16px;
   color:#0878b8;
@@ -5631,3 +5631,23 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .eyebrow,.industry-label,[class*="eyebrow"]{color:#0879ad}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 /* WEBACT LIGHTHOUSE END */
+
+/* WEBACT LIGHTHOUSE CONTRAST START */
+.wa-home-v2 .eyebrow,
+.wa-home-v2 .service-card-v2 > span,
+.wa-home-v2 .portfolio-card-v2 > div > span,
+.wa-home-v2 .logo-rotator .eyebrow {
+    color: #425466 !important;
+}
+
+.wa-home-v2 .wa-section-dark .eyebrow,
+.wa-home-v2 [class*="dark"] .eyebrow {
+    color: #8fd8ff !important;
+}
+
+.wa-footer-bottom a[href="/privacy.html"],
+.wa-footer-bottom a[href="/terms.html"] {
+    color: inherit;
+    text-decoration: underline;
+}
+/* WEBACT LIGHTHOUSE CONTRAST END */
