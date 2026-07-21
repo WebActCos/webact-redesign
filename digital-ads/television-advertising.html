@@ -1,159 +1,229 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Streaming TV ads that put your brand in front of the right…</title>
-  <meta name="description" content="Learn about Streaming TV ads that put your brand in front of the right audience. from WebAct, including website design, SEO, AEO, digital advertising…">
-  <link rel="stylesheet" href="/styles.css?v=main-layout-1">
-  <link rel="stylesheet" href="/assets/css/webact-promodo-nav.css?v=main-layout-1">
-  <link rel="stylesheet" href="/assets/css/webact-footer.css?v=main-layout-1">
-  <style>
-    .tvads-page{color:#071421;background:#fff;overflow:hidden}
-    .tvads-hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:92px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,.72fr);gap:48px;align-items:center}
-    .tvads-hero .eyebrow,.tvads-heading .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
-    .tvads-hero h1{font-size:clamp(42px,6vw,78px);line-height:.96;margin:12px 0 22px;letter-spacing:-.05em}
-    .tvads-hero p{color:#d9edf8;font-size:20px;line-height:1.6}
-    .tvads-proof{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 0}
-    .tvads-proof span{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);border-radius:999px;padding:10px 14px;font-weight:800}
-    .tvads-form{background:rgba(255,255,255,.96);color:#071421;border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.28)}
-    .tvads-form h2{font-size:28px;margin:0 0 8px;letter-spacing:-.02em}
-    .tvads-form p{color:#4b5b66;font-size:16px;line-height:1.55;margin:0 0 18px}
-    .tvads-form label{display:grid;gap:7px;margin-bottom:12px;font-weight:800;font-size:14px;color:#203241}
-    .tvads-form input,.tvads-form select,.tvads-form textarea{width:100%;box-sizing:border-box;border:1px solid #cddce7;border-radius:12px;padding:13px 14px;font:inherit;background:#fff;color:#071421}
-    .tvads-form textarea{resize:vertical;min-height:92px}
-    .tvads-form .button{width:100%;margin-top:6px;border:0;cursor:pointer}
-    .tvads-section{padding:84px min(6vw,72px)}
-    .tvads-soft{background:#f4f8fb}
-    .tvads-dark{background:#071421;color:#fff}
-    .tvads-heading{max-width:920px;margin:0 auto 44px;text-align:center}
-    .tvads-heading .eyebrow{color:#0c9bd2}
-    .tvads-dark .tvads-heading .eyebrow{color:#73d7ff}
-    .tvads-heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}
-    .tvads-heading p{font-size:18px;line-height:1.65;color:#4b5b66}
-    .tvads-dark .tvads-heading p{color:#d4e8f2}
-    .tvads-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1300px;margin:0 auto}
-    .tvads-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:28px;color:#071421;box-shadow:0 18px 42px rgba(7,20,33,.08)}
-    .tvads-card h3{font-size:24px;margin:0 0 10px;color:#071421}
-    .tvads-card p,.tvads-card li{color:#4b5b66;line-height:1.6}
-    .tvads-card ul{padding-left:20px;margin:14px 0 0}
-    .tvads-process{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;max-width:1280px;margin:0 auto;counter-reset:step}
-    .tvads-process article{background:#fff;color:#071421;border-radius:24px;padding:26px}
-    .tvads-process article:before{counter-increment:step;content:counter(step);width:42px;height:42px;border-radius:14px;background:#33abe1;color:#071421;display:grid;place-items:center;font-weight:900;margin-bottom:18px}
-    .tvads-comparison{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
-    .tvads-comparison article{background:#fff;color:#071421;border-radius:26px;padding:30px;border:1px solid #e0ebf2}
-    .tvads-comparison h3{color:#071421}.tvads-comparison p,.tvads-comparison li{color:#44525d}
-    .tvads-faq{max-width:1050px;margin:0 auto;display:grid;gap:14px}
-    .tvads-faq details{background:#fff;border:1px solid #e0ebf2;border-radius:18px;padding:20px}
-    .tvads-faq summary{font-weight:900;cursor:pointer}.tvads-faq p{color:#4b5b66;line-height:1.6}
-    .tvads-section-actions,.comparison-buttons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:42px auto 0}
-    .tvads-section-actions .button,.comparison-buttons .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}
-    .tvads-section-actions .button.primary,.comparison-buttons .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
-    .tvads-section-actions .button.secondary,.comparison-buttons .button.secondary{background:#061421!important;border:2px solid #061421!important;color:#fff!important}
-    .tvads-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}
-    .tvads-cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}
-    .tvads-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:780px;margin:0 auto}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.tvads-cta .hero-actions{justify-content:center}
-    @media(max-width:1080px){.tvads-hero,.tvads-grid,.tvads-comparison{grid-template-columns:1fr}.tvads-process{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(max-width:680px){.tvads-hero,.tvads-section,.tvads-cta{padding:56px 20px}.tvads-process{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}.tvads-proof span{width:100%;text-align:center}}
-  </style>
-  <link rel="canonical" href="https://www.webact.com/digital-ads/television-advertising/">
-  <meta property="og:title" content="Streaming TV ads that put your brand in front of the right…">
-  <meta property="og:description" content="Learn about Streaming TV ads that put your brand in front of the right audience. from WebAct, including website design, SEO, AEO, digital advertising…">
-  <meta property="og:url" content="https://www.webact.com/digital-ads/television-advertising/">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Streaming TV ads that put your brand in front of the right…">
-  <meta name="twitter:description" content="Learn about Streaming TV ads that put your brand in front of the right audience. from WebAct, including website design, SEO, AEO, digital advertising…">
-  <meta name="robots" content="index,follow">
-
-<!-- WEBACT SITEWIDE SCHEMA START -->
-<script type="application/ld+json" data-webact-sitewide-schema="true">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.webact.com/#organization","name":"WebAct","url":"https://www.webact.com/","logo":{"@type":"ImageObject","@id":"https://www.webact.com/#logo","url":"https://www.webact.com/images/logo-original.png","contentUrl":"https://www.webact.com/images/logo-original.png","caption":"WebAct"},"telephone":"+1-855-697-4336","contactPoint":[{"@type":"ContactPoint","telephone":"+1-855-697-4336","contactType":"sales","areaServed":"US","availableLanguage":["English"]}]},{"@type":"WebSite","@id":"https://www.webact.com/#website","url":"https://www.webact.com/","name":"WebAct","publisher":{"@id":"https://www.webact.com/#organization"},"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.webact.com/digital-ads/television-advertising.html/#webpage","url":"https://www.webact.com/digital-ads/television-advertising.html","name":"Streaming TV ads that put your brand in front of the right…","headline":"Streaming TV ads that put your brand in front of the right audience.","description":"Learn about Streaming TV ads that put your brand in front of the right audience. from WebAct, including website design, SEO, AEO, digital advertising…","isPartOf":{"@id":"https://www.webact.com/#website"},"about":{"@id":"https://www.webact.com/#organization"},"publisher":{"@id":"https://www.webact.com/#organization"},"breadcrumb":{"@id":"https://www.webact.com/digital-ads/television-advertising.html/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://www.webact.com/digital-ads/television-advertising.html/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.webact.com/"},{"@type":"ListItem","position":2,"name":"Digital Ads","item":"https://www.webact.com/digital-ads/"},{"@type":"ListItem","position":3,"name":"Streaming TV ads that put your brand in front of the right audience.","item":"https://www.webact.com/digital-ads/television-advertising.html/"}]}]}</script>
-<!-- WEBACT SITEWIDE SCHEMA END -->
-<!-- WEBACT TEMPLATE SCHEMA START -->
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Streaming TV ads that put your brand in front of the right audience.", "url": "https://www.webact.com/digital-ads/television-advertising/", "provider": {"@type": "Organization", "name": "WebAct", "url": "https://www.webact.com"}}</script>
-<!-- WEBACT TEMPLATE SCHEMA END -->
-  <link rel="stylesheet" href="/assets/css/webact-jotform-hero.css?v=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Streaming TV and Connected TV Advertising | WebAct</title>
+<meta name="description" content="Reach targeted households through streaming TV, connected TV, OTT, premium video, and cross-channel advertising managed by WebAct.">
+<link rel="stylesheet" href="/styles.css?v=main-layout-1">
+<link rel="stylesheet" href="/assets/css/webact-promodo-nav.css?v=main-layout-1">
+<link rel="stylesheet" href="/assets/css/webact-footer.css?v=main-layout-1">
+<style>
+.tvads-page{color:#071421;background:#fff;overflow:hidden}
+.tvads-hero{background:radial-gradient(circle at 12% 18%,rgba(51,171,225,.24),transparent 30%),linear-gradient(135deg,#061421,#0d2740 52%,#071421);color:#fff;padding:92px min(6vw,72px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,.72fr);gap:48px;align-items:center}
+.tvads-hero .eyebrow,.tvads-heading .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#73d7ff}
+.tvads-hero h1{font-size:clamp(42px,6vw,78px);line-height:.96;margin:12px 0 22px;letter-spacing:-.05em}
+.tvads-hero p{color:#d9edf8;font-size:20px;line-height:1.6}
+.tvads-proof{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 0}
+.tvads-proof span{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);border-radius:999px;padding:10px 14px;font-weight:800}
+.tvads-section{padding:84px min(6vw,72px)}
+.tvads-soft{background:#f4f8fb}
+.tvads-dark{background:#071421;color:#fff}
+.tvads-heading{max-width:960px;margin:0 auto 44px;text-align:center}
+.tvads-heading .eyebrow{color:#0c9bd2}
+.tvads-dark .tvads-heading .eyebrow{color:#73d7ff}
+.tvads-heading h2{font-size:clamp(32px,4vw,56px);line-height:1;margin:10px 0 16px;letter-spacing:-.04em}
+.tvads-heading p{font-size:18px;line-height:1.7;color:#4b5b66}
+.tvads-dark .tvads-heading p{color:#d4e8f2}
+.tvads-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1300px;margin:0 auto}
+.tvads-card{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:28px;color:#071421;box-shadow:0 18px 42px rgba(7,20,33,.08)}
+.tvads-card h3{font-size:24px;margin:0 0 10px;color:#071421}
+.tvads-card p,.tvads-card li{color:#4b5b66;line-height:1.68}
+.tvads-card ul{padding-left:20px;margin:14px 0 0}
+.tvads-platform-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:1300px;margin:0 auto}
+.tvads-platform{background:#fff;border:1px solid #dce9f0;border-radius:20px;padding:24px;min-height:150px;box-shadow:0 12px 30px rgba(7,20,33,.06)}
+.tvads-platform h3{margin:0 0 10px;color:#071421;font-size:21px}
+.tvads-platform p{margin:0;color:#4b5b66;line-height:1.6}
+.tvads-note{max-width:1100px;margin:30px auto 0;padding:22px 26px;border-radius:18px;background:#eaf6fb;color:#203241;line-height:1.65}
+.tvads-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1200px;margin:0 auto}
+.tvads-two article{background:#fff;border:1px solid #e0ebf2;border-radius:26px;padding:32px;color:#071421}
+.tvads-two h3{font-size:28px;margin:0 0 12px;color:#071421}.tvads-two p,.tvads-two li{color:#4b5b66;line-height:1.7}
+.tvads-process{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;max-width:1280px;margin:0 auto;counter-reset:step}
+.tvads-process article{background:#fff;color:#071421;border-radius:24px;padding:26px}
+.tvads-process article:before{counter-increment:step;content:counter(step);width:42px;height:42px;border-radius:14px;background:#33abe1;color:#071421;display:grid;place-items:center;font-weight:900;margin-bottom:18px}
+.tvads-process h3{color:#071421}.tvads-process p{color:#4b5b66;line-height:1.65}
+.tvads-faq{max-width:1050px;margin:0 auto;display:grid;gap:14px}
+.tvads-faq details{background:#fff;border:1px solid #e0ebf2;border-radius:18px;padding:20px}
+.tvads-faq summary{font-weight:900;cursor:pointer}.tvads-faq p{color:#4b5b66;line-height:1.65}
+.tvads-section-actions,.comparison-buttons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:42px auto 0}
+.tvads-section-actions .button,.comparison-buttons .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:220px!important;min-height:56px!important;padding:14px 24px!important;border-radius:14px!important;font-weight:900!important;text-decoration:none!important}
+.tvads-section-actions .button.primary,.comparison-buttons .button.primary{background:#33abe1!important;border:2px solid #33abe1!important;color:#061421!important}
+.tvads-section-actions .button.secondary,.comparison-buttons .button.secondary{background:#061421!important;border:2px solid #061421!important;color:#fff!important}
+.tvads-cta{background:linear-gradient(135deg,#0b243a,#071421);color:#fff;text-align:center;padding:86px min(6vw,72px)}
+.tvads-cta h2{font-size:clamp(34px,5vw,62px);line-height:1;margin:0 0 16px}
+.tvads-cta p{color:#d4e8f2;font-size:19px;line-height:1.6;max-width:820px;margin:0 auto}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.tvads-cta .hero-actions{justify-content:center}
+@media(max-width:1080px){.tvads-hero,.tvads-grid,.tvads-two{grid-template-columns:1fr}.tvads-platform-grid{grid-template-columns:repeat(2,1fr)}.tvads-process{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.tvads-hero,.tvads-section,.tvads-cta{padding:56px 20px}.tvads-platform-grid,.tvads-process{grid-template-columns:1fr}.hero-actions .button{width:100%;justify-content:center}.tvads-proof span{width:100%;text-align:center}}
+</style>
+<link rel="canonical" href="https://www.webact.com/digital-ads/television-advertising/">
+<meta property="og:title" content="Streaming TV and Connected TV Advertising | WebAct">
+<meta property="og:description" content="Reach targeted households through streaming TV, connected TV, OTT, premium video, and cross-channel advertising managed by WebAct.">
+<meta property="og:url" content="https://www.webact.com/digital-ads/television-advertising/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Streaming TV and Connected TV Advertising | WebAct">
+<meta name="twitter:description" content="Reach targeted households through streaming TV, connected TV, OTT, premium video, and cross-channel advertising managed by WebAct.">
+<meta name="robots" content="index,follow">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Streaming TV and Connected TV Advertising","url":"https://www.webact.com/digital-ads/television-advertising/","provider":{"@type":"Organization","name":"WebAct","url":"https://www.webact.com"}}</script>
+<link rel="stylesheet" href="/assets/css/webact-jotform-hero.css?v=1">
 </head>
 <body>
 <div id="webact-header"></div>
-
 <main class="tvads-page">
-  <section class="tvads-hero webact-jotform-hero">
-    <div>
-      <p class="eyebrow">Streaming TV & Television Advertising</p>
-      <h1>Streaming TV ads that put your brand in front of the right audience.</h1>
-      <p>WebAct helps businesses expand brand awareness and reach targeted viewers through streaming TV, connected TV, OTT, video advertising, and cross-channel campaigns that connect visibility with measurable growth.</p>
-      <div class="hero-actions"><a class="button primary" href="/contact/index.html">Request TV Ads Review</a><a class="button secondary" href="/pricing/advertising.html">Advertising Pricing</a></div>
-      <div class="tvads-proof"><span>Streaming TV</span><span>Connected TV</span><span>OTT Advertising</span><span>Video Campaigns</span></div>
-    </div>
-    <div class="webact-shared-jotform">
-  <iframe
-    id="JotFormIFrame-261900782842056"
-    title="Start a Project"
-    src="https://form.jotform.com/261900782842056"
-    frameborder="0"
-    scrolling="no"
-    allow="geolocation; microphone; camera; fullscreen; payment"
-    style="width:100%;min-height:940px;border:0;">
-  </iframe>
+
+<section class="tvads-hero webact-jotform-hero">
+<div>
+<p class="eyebrow">Streaming TV, CTV, and OTT Advertising</p>
+<h1>Reach targeted viewers on the biggest screen in the home.</h1>
+<p>WebAct helps businesses advertise across streaming television, connected TV, OTT, premium video, and cross-device campaigns. Build brand awareness, reach households in selected markets, and connect television exposure with search, social, retargeting, landing pages, and measurable digital growth.</p>
+<div class="hero-actions"><a class="button primary" href="/contact/index.html">Request a TV Advertising Review</a><a class="button secondary" href="/pricing/advertising.html#streaming-platforms">View Streaming TV Pricing</a></div>
+<div class="tvads-proof"><span>Connected TV</span><span>OTT Advertising</span><span>Streaming Video</span><span>Household Targeting</span><span>Local and Regional Reach</span></div>
 </div>
-  </section>
+<div class="webact-shared-jotform">
+<iframe id="JotFormIFrame-261900782842056" title="Start a Project" src="https://form.jotform.com/261900782842056" frameborder="0" scrolling="no" allow="geolocation; microphone; camera; fullscreen; payment" style="width:100%;min-height:940px;border:0;"></iframe>
+</div>
+</section>
 
-  <section class="tvads-section tvads-soft">
-    <div class="tvads-heading"><p class="eyebrow">Why Streaming TV Advertising</p><h2>Reach viewers where attention has moved.</h2><p>Streaming TV and connected TV advertising help businesses reach audiences watching content outside traditional cable. These campaigns can support brand awareness, local visibility, retargeting, and multi-channel advertising strategies.</p></div>
-    <div class="tvads-grid">
-      <article class="tvads-card"><h3>Premium video visibility</h3><p>Place your brand inside high-attention viewing environments where video can communicate trust, personality, and value faster than text alone.</p></article>
-      <article class="tvads-card"><h3>Audience targeting</h3><p>CTV and OTT campaigns can use geography, audience signals, household data, interests, and campaign goals to reach more relevant viewers.</p></article>
-      <article class="tvads-card"><h3>Brand lift and recall</h3><p>Video advertising supports awareness, trust, and familiarity so your business is more memorable when customers are ready to act.</p></article>
-    </div>
-    <div class="tvads-section-actions"><a class="button primary" href="/contact/index.html">Free Consultation</a><a class="button secondary" href="/pricing/advertising.html">Advertising Pricing</a></div>
-  </section>
+<section class="tvads-section tvads-soft">
+<div class="tvads-heading"><p class="eyebrow">Why Streaming TV</p><h2>Television reach with digital targeting and reporting.</h2><p>Streaming TV advertising combines the impact of full-screen video with audience and geographic controls that are more flexible than many traditional television buys. It can help local, regional, and national businesses reach viewers while they watch ad-supported streaming content on smart TVs and connected devices.</p></div>
+<div class="tvads-grid">
+<article class="tvads-card"><h3>High-attention video</h3><p>Tell a fuller story with sight, sound, motion, offers, customer benefits, and a clear call to action in a premium viewing environment.</p></article>
+<article class="tvads-card"><h3>Audience-focused delivery</h3><p>Build campaigns around geography, household characteristics, demographics, interests, behavioral signals, and campaign objectives where supported.</p></article>
+<article class="tvads-card"><h3>Local market precision</h3><p>Focus reach on selected cities, ZIP codes, service areas, regions, or designated markets rather than paying for viewers outside your target area.</p></article>
+<article class="tvads-card"><h3>Brand awareness and recall</h3><p>Stay visible before customers search so your company feels familiar when they are ready to compare providers, request information, or buy.</p></article>
+<article class="tvads-card"><h3>Cross-channel support</h3><p>Pair TV exposure with Google Ads, social advertising, display retargeting, landing pages, email, and search engine optimization.</p></article>
+<article class="tvads-card"><h3>Measurable campaign signals</h3><p>Review delivery, impressions, reach, frequency, completion rates, geography, audience performance, and available attribution signals.</p></article>
+</div>
+</section>
 
-  <section class="tvads-section">
-    <div class="tvads-heading"><p class="eyebrow">What WebAct Manages</p><h2>Audience strategy, campaign setup, creative direction, and performance review.</h2><p>Streaming TV campaigns work best when the audience, message, creative, landing page, and next-step advertising plan work together. WebAct helps connect the brand awareness campaign to the rest of your digital growth strategy.</p></div>
-    <div class="tvads-grid">
-      <article class="tvads-card"><h3>Streaming TV campaigns</h3><ul><li>Audience planning</li><li>Market targeting</li><li>Campaign setup</li><li>Placement review</li></ul></article>
-      <article class="tvads-card"><h3>Connected TV and OTT</h3><ul><li>Device-based visibility</li><li>Household targeting</li><li>Geo-focused reach</li><li>Brand awareness support</li></ul></article>
-      <article class="tvads-card"><h3>YouTube and video ads</h3><ul><li>Video campaign strategy</li><li>Audience targeting</li><li>Remarketing support</li><li>CTA and landing page alignment</li></ul></article>
-      <article class="tvads-card"><h3>Creative direction</h3><ul><li>Message strategy</li><li>Offer positioning</li><li>Script guidance</li><li>Visual story planning</li></ul></article>
-      <article class="tvads-card"><h3>Landing page support</h3><ul><li>Campaign destination review</li><li>Conversion path support</li><li>Retargeting alignment</li><li>Trust-building content</li></ul></article>
-      <article class="tvads-card"><h3>Reporting and optimization</h3><ul><li>Reach and frequency review</li><li>Performance insights</li><li>Audience refinement</li><li>Cross-channel recommendations</li></ul></article>
-    </div>
-    <div class="tvads-section-actions"><a class="button primary" href="/contact/index.html">Free Consultation</a><a class="button secondary" href="/pricing/advertising.html">Advertising Pricing</a></div>
-  </section>
+<section class="tvads-section" id="platforms">
+<div class="tvads-heading"><p class="eyebrow">Potential Streaming Inventory</p><h2>Where your streaming TV commercial may appear.</h2><p>Campaign access varies by market, audience, budget, inventory availability, targeting method, and buying platform. Depending on the campaign, eligible inventory may include major subscription services, free ad-supported streaming services, smart TV environments, and connected TV devices.</p></div>
+<div class="tvads-platform-grid">
+<article class="tvads-platform"><h3>Roku and The Roku Channel</h3><p>Streaming inventory across Roku environments and eligible ad-supported content.</p></article>
+<article class="tvads-platform"><h3>Hulu</h3><p>Ad-supported streaming inventory for eligible audiences and markets.</p></article>
+<article class="tvads-platform"><h3>Disney+ and ESPN</h3><p>Eligible premium entertainment and sports inventory where campaign access is available.</p></article>
+<article class="tvads-platform"><h3>Peacock</h3><p>Ad-supported entertainment, news, sports, and streaming content inventory.</p></article>
+<article class="tvads-platform"><h3>Paramount+ and Pluto TV</h3><p>Subscription and free ad-supported streaming inventory where available.</p></article>
+<article class="tvads-platform"><h3>Prime Video and Fire TV</h3><p>Eligible streaming video and connected-device inventory across Amazon environments.</p></article>
+<article class="tvads-platform"><h3>Tubi</h3><p>Free ad-supported streaming television and movie inventory for eligible campaigns.</p></article>
+<article class="tvads-platform"><h3>Samsung TV Plus</h3><p>FAST and smart television inventory on supported Samsung devices.</p></article>
+<article class="tvads-platform"><h3>LG Channels</h3><p>Free ad-supported streaming inventory across supported LG smart TVs.</p></article>
+<article class="tvads-platform"><h3>VIZIO WatchFree+</h3><p>Eligible FAST and smart TV advertising environments.</p></article>
+<article class="tvads-platform"><h3>Xumo and Sling</h3><p>Eligible live, FAST, and ad-supported streaming inventory.</p></article>
+<article class="tvads-platform"><h3>YouTube on TV Screens</h3><p>Video campaigns delivered to eligible viewers watching YouTube on connected televisions.</p></article>
+<article class="tvads-platform"><h3>Netflix and Max</h3><p>Ad-supported inventory may be available through approved buying paths, subject to market and campaign eligibility.</p></article>
+<article class="tvads-platform"><h3>Google TV and Android TV</h3><p>Eligible video and connected TV environments across supported devices and apps.</p></article>
+<article class="tvads-platform"><h3>Apple TV Devices</h3><p>Eligible app-based inventory viewed through Apple TV hardware where supported.</p></article>
+<article class="tvads-platform"><h3>Additional Premium Publishers</h3><p>Campaigns may access other premium networks, apps, sports, news, entertainment, and FAST channels through approved inventory partners.</p></article>
+</div>
+<p class="tvads-note"><strong>Inventory disclosure:</strong> Placement on a specific service, program, network, device, or publisher is not guaranteed unless it is explicitly included in the approved media plan. Availability can change based on geography, audience criteria, budget, minimums, inventory, and platform policies.</p>
+<div class="tvads-section-actions"><a class="button primary" href="/contact/index.html">Check Platform Availability</a><a class="button secondary" href="/pricing/advertising.html#streaming-platforms">View Pricing</a></div>
+</section>
 
-  <section class="tvads-section tvads-dark">
-    <div class="tvads-heading"><p class="eyebrow">Streaming TV vs Search Ads</p><h2>Streaming TV builds awareness. Search ads capture active demand.</h2><p>Video advertising helps people remember your brand before they search. Search ads help capture people who already know what they need. Together, they can support a stronger full-funnel advertising strategy.</p></div>
-    <div class="tvads-comparison">
-      <article><h3>Streaming TV Advertising</h3><p>Best for businesses that want local or regional brand awareness, audience reach, video storytelling, and stronger visibility before customers enter the search stage.</p><ul><li>Brand awareness</li><li>Audience and household targeting</li><li>Premium video visibility</li><li>Strong for demand creation</li></ul><div class="comparison-buttons"><a class="button primary" href="/contact/index.html">Free Consultation</a><a class="button secondary" href="/pricing/advertising.html">Advertising Pricing</a></div></article>
-      <article><h3>Google Search Advertising</h3><p>Best for high-intent keywords, lead generation, landing pages, local demand capture, shopping campaigns, and people actively looking for your service.</p><ul><li>Search intent</li><li>Landing page focused</li><li>Lead and sales capture</li><li>Strong for measurable conversions</li></ul><div class="comparison-buttons"><a class="button primary" href="/digital-ads/google-advertising.html">Learn Google Ads</a><a class="button secondary" href="/digital-ads/index.html">Advertising Hub</a></div></article>
-    </div>
-  </section>
+<section class="tvads-section tvads-dark">
+<div class="tvads-heading"><p class="eyebrow">CTV, OTT, and Traditional TV</p><h2>Understand the difference before choosing a campaign.</h2><p>These terms are related but not identical. The right mix depends on where your audience watches, how precisely you need to target, and whether the main goal is broad reach, household-level visibility, local awareness, or measurable digital response.</p></div>
+<div class="tvads-two">
+<article><h3>Connected TV and OTT</h3><p>Connected TV generally refers to video watched on an internet-connected television. OTT refers to video delivered over the internet rather than through a traditional cable or satellite system.</p><ul><li>Smart TVs and streaming devices</li><li>Streaming apps and FAST channels</li><li>Audience and household targeting where supported</li><li>Digital reporting and optimization signals</li></ul></article>
+<article><h3>Traditional Television</h3><p>Traditional television buys can include broadcast, cable, local programming, network schedules, and broader geographic or demographic reach.</p><ul><li>Scheduled programs and dayparts</li><li>Broad local or regional visibility</li><li>Strong reach for mass-market messages</li><li>Can complement targeted streaming campaigns</li></ul></article>
+</div>
+</section>
 
-  <section class="tvads-section tvads-soft"><div class="tvads-heading"><p class="eyebrow">Process</p><h2>A clear TV advertising process from audience planning to campaign review.</h2></div><div class="tvads-process"><article><h3>Discover</h3><p>We review goals, market, audience, offer, current advertising, and brand message.</p></article><article><h3>Plan</h3><p>We define targeting, campaign type, creative direction, budget, and landing page needs.</p></article><article><h3>Build</h3><p>We structure the campaign, audience segments, creative requirements, and tracking path.</p></article><article><h3>Launch</h3><p>We monitor campaign delivery, reach, frequency, audience quality, and early results.</p></article><article><h3>Optimize</h3><p>We review reporting and recommend refinements across video, search, social, and landing pages.</p></article></div></section>
+<section class="tvads-section tvads-soft">
+<div class="tvads-heading"><p class="eyebrow">Audience Targeting</p><h2>Build a campaign around the households most likely to matter.</h2><p>Targeting options vary by inventory source and campaign type, but streaming TV can support far more focused planning than a one-size-fits-all television buy.</p></div>
+<div class="tvads-grid">
+<article class="tvads-card"><h3>Geographic targeting</h3><ul><li>State, region, city, or ZIP code</li><li>Service-area planning</li><li>Local market and DMA alignment</li><li>Location exclusions where available</li></ul></article>
+<article class="tvads-card"><h3>Demographic targeting</h3><ul><li>Age ranges</li><li>Household characteristics</li><li>Income and life-stage signals</li><li>Audience composition where supported</li></ul></article>
+<article class="tvads-card"><h3>Interest and intent audiences</h3><ul><li>Category interests</li><li>Purchase-intent signals</li><li>Content affinities</li><li>Behavioral audience segments</li></ul></article>
+<article class="tvads-card"><h3>First-party audiences</h3><ul><li>Customer lists when permitted</li><li>Website visitor audiences</li><li>CRM-based segments</li><li>Privacy-compliant audience activation</li></ul></article>
+<article class="tvads-card"><h3>Retargeting and sequential messaging</h3><ul><li>Reconnect with previous visitors</li><li>Coordinate TV and display ads</li><li>Use different messages by funnel stage</li><li>Support repeat exposure</li></ul></article>
+<article class="tvads-card"><h3>Lookalike and modeled audiences</h3><ul><li>Find viewers similar to known customers</li><li>Expand beyond existing lists</li><li>Balance reach and relevance</li><li>Refine segments using campaign data</li></ul></article>
+</div>
+</section>
 
-  <section class="tvads-section"><div class="tvads-heading"><p class="eyebrow">FAQ</p><h2>Streaming TV advertising questions businesses ask before starting.</h2></div><div class="tvads-faq"><details open><summary>What is streaming TV advertising?</summary><p>Streaming TV advertising places video ads within internet-connected television and streaming content environments. It can include connected TV, OTT, and related video placements.</p></details><details><summary>Is streaming TV only for large brands?</summary><p>No. Local and regional businesses can use streaming TV to build awareness in specific markets, support launches, and stay visible to defined audiences.</p></details><details><summary>Do I need a video commercial?</summary><p>Yes, you need video creative. WebAct can help with creative direction, messaging, landing page alignment, and how the campaign should connect to the rest of your advertising.</p></details><details><summary>Can TV ads work with Google Ads and social ads?</summary><p>Yes. A strong strategy can use TV ads for awareness, social ads for retargeting, and search ads to capture active demand.</p></details></div></section>
+<section class="tvads-section">
+<div class="tvads-heading"><p class="eyebrow">Commercial Creative</p><h2>Create video that earns attention and gives viewers a reason to act.</h2><p>A successful television campaign needs more than media placement. The message must be easy to understand, visually clear, memorable, and connected to a useful next step.</p></div>
+<div class="tvads-grid">
+<article class="tvads-card"><h3>Messaging and script direction</h3><p>Clarify the audience, problem, value proposition, offer, proof, call to action, and timing before production begins.</p></article>
+<article class="tvads-card"><h3>Storyboards and visual planning</h3><p>Plan scenes, graphics, supers, logo treatment, voiceover, pacing, transitions, and required platform specifications.</p></article>
+<article class="tvads-card"><h3>Editing and motion graphics</h3><p>Combine footage, animation, typography, product visuals, branding, music, voiceover, and calls to action.</p></article>
+<article class="tvads-card"><h3>Multiple commercial lengths</h3><p>Create approved versions for common placements such as 15-second, 30-second, and other supported formats.</p></article>
+<article class="tvads-card"><h3>Campaign landing pages</h3><p>Direct viewers to a page that matches the commercial, reinforces the offer, answers objections, and makes contacting you simple.</p></article>
+<article class="tvads-card"><h3>Creative testing</h3><p>Compare hooks, offers, messages, audiences, or calls to action when the campaign budget and inventory support testing.</p></article>
+</div>
+</section>
 
-  <section class="tvads-cta"><h2>Ready to put your brand in front of more viewers?</h2><p>WebAct can review your audience, market, creative needs, landing pages, and advertising goals to recommend the right streaming TV strategy.</p><div class="hero-actions"><a class="button primary" href="/contact/index.html">Request TV Ads Review</a><a class="button secondary" href="tel:8556974336">Call (855) 697-4336</a></div></section>
+<section class="tvads-section tvads-soft">
+<div class="tvads-heading"><p class="eyebrow">Industries</p><h2>Streaming TV advertising for businesses that need awareness and local reach.</h2><p>Video campaigns can support businesses with a visual story, a competitive local market, a defined service area, or a need to build familiarity before customers begin searching.</p></div>
+<div class="tvads-grid">
+<article class="tvads-card"><h3>Restaurants and Hospitality</h3><p>Promote openings, seasonal offers, events, locations, catering, menus, and brand experiences.</p></article>
+<article class="tvads-card"><h3>Home Services</h3><p>Build local awareness for roofing, HVAC, plumbing, electrical, remodeling, landscaping, and contractor services.</p></article>
+<article class="tvads-card"><h3>Medical and Dental</h3><p>Introduce providers, locations, patient services, technology, appointment offers, and community-focused messages.</p></article>
+<article class="tvads-card"><h3>Legal Services</h3><p>Build recognition for practice areas, attorneys, local offices, consultations, and trust-focused messaging.</p></article>
+<article class="tvads-card"><h3>Retail and Ecommerce</h3><p>Promote products, stores, seasonal campaigns, launches, sales, and brand differentiation.</p></article>
+<article class="tvads-card"><h3>Automotive and Real Estate</h3><p>Support inventory, listings, developments, agents, dealerships, service departments, and local market visibility.</p></article>
+</div>
+</section>
+
+<section class="tvads-section tvads-dark">
+<div class="tvads-heading"><p class="eyebrow">Reporting and Attribution</p><h2>Measure more than whether the commercial aired.</h2><p>Available reporting varies by publisher and buying platform. WebAct reviews the metrics that help explain delivery, audience exposure, creative performance, and the campaign's connection to other marketing channels.</p></div>
+<div class="tvads-grid">
+<article class="tvads-card"><h3>Delivery metrics</h3><ul><li>Impressions</li><li>Spend and pacing</li><li>Reach and frequency</li><li>Geographic delivery</li></ul></article>
+<article class="tvads-card"><h3>Video performance</h3><ul><li>Video completion rate</li><li>Quartile completion</li><li>Creative performance</li><li>Device and inventory signals</li></ul></article>
+<article class="tvads-card"><h3>Business response</h3><ul><li>Website traffic trends</li><li>Branded search activity</li><li>Landing-page engagement</li><li>Available conversion or visit attribution</li></ul></article>
+</div>
+</section>
+
+<section class="tvads-section">
+<div class="tvads-heading"><p class="eyebrow">Full-Funnel Advertising</p><h2>Use streaming TV to create demand, then use digital channels to capture it.</h2><p>Television advertising is strongest when viewers can find and trust your business after seeing the commercial. WebAct can connect the campaign to the website, search visibility, paid search, social ads, retargeting, Local Listings, and conversion tracking.</p></div>
+<div class="tvads-two">
+<article><h3>Streaming TV creates awareness</h3><ul><li>Introduce the company and offer</li><li>Build familiarity before search</li><li>Reach new households</li><li>Support launches and competitive markets</li></ul><div class="comparison-buttons"><a class="button primary" href="/contact/index.html">Plan a TV Campaign</a><a class="button secondary" href="/pricing/advertising.html#streaming-platforms">View TV Pricing</a></div></article>
+<article><h3>Search and retargeting capture response</h3><ul><li>Capture branded and service searches</li><li>Reconnect with website visitors</li><li>Reinforce the commercial offer</li><li>Guide prospects to a conversion-focused landing page</li></ul><div class="comparison-buttons"><a class="button primary" href="/digital-ads/google-advertising.html">Explore Google Ads</a><a class="button secondary" href="/digital-ads/index.html">Advertising Services</a></div></article>
+</div>
+</section>
+
+<section class="tvads-section tvads-soft">
+<div class="tvads-heading"><p class="eyebrow">Our Process</p><h2>A clear path from audience planning to campaign optimization.</h2></div>
+<div class="tvads-process">
+<article><h3>Discover</h3><p>Review goals, market, service area, audience, offer, brand position, current advertising, and available creative.</p></article>
+<article><h3>Plan</h3><p>Define the campaign type, targeting, potential inventory, budget, timing, creative requirements, and reporting plan.</p></article>
+<article><h3>Create</h3><p>Develop or prepare the video, messaging, calls to action, landing pages, tracking, and supporting campaign assets.</p></article>
+<article><h3>Launch</h3><p>Activate the campaign and review delivery, pacing, geography, audience quality, inventory, and early performance.</p></article>
+<article><h3>Optimize</h3><p>Refine audiences, budgets, creative, frequency, landing pages, retargeting, and cross-channel recommendations.</p></article>
+</div>
+</section>
+
+<section class="tvads-section">
+<div class="tvads-heading"><p class="eyebrow">FAQ</p><h2>Streaming television advertising questions.</h2></div>
+<div class="tvads-faq">
+<details open><summary>What is connected TV advertising?</summary><p>Connected TV advertising places video ads within eligible content watched on internet-connected televisions, including smart TVs and televisions connected through streaming devices.</p></details>
+<details><summary>What is OTT advertising?</summary><p>OTT advertising refers to video advertising delivered over the internet rather than through a traditional cable or satellite television connection.</p></details>
+<details><summary>Is streaming TV the same as traditional television?</summary><p>No. Both use television-style video, but streaming TV is delivered through internet-connected apps and devices and can offer different targeting, buying, and reporting options.</p></details>
+<details><summary>Can I target only my city or service area?</summary><p>Many campaigns can be limited by city, ZIP code, region, designated market, or other geographic criteria, depending on inventory and platform capabilities.</p></details>
+<details><summary>Can I choose a specific streaming platform?</summary><p>Sometimes. Specific publisher access depends on the buying method, geography, budget, inventory, audience, and platform rules. A media plan should identify whether a platform is guaranteed or only part of a broader inventory pool.</p></details>
+<details><summary>Can my commercial appear on Roku, Hulu, Peacock, or Tubi?</summary><p>Potentially, when the selected campaign, market, budget, and inventory source provide access. No specific service should be considered guaranteed unless it is listed in the approved media plan.</p></details>
+<details><summary>Do I need a finished television commercial?</summary><p>You need approved video creative that meets the selected platform's technical and editorial requirements. WebAct can help with messaging, creative direction, production planning, editing, and campaign alignment.</p></details>
+<details><summary>How long should a streaming TV commercial be?</summary><p>Common lengths include 15 and 30 seconds, but accepted durations vary by platform and inventory. The media plan and creative specifications should be confirmed before final production.</p></details>
+<details><summary>Can I retarget previous website visitors?</summary><p>Some campaign setups can use privacy-compliant first-party or retargeting audiences, subject to platform policies, consent requirements, data availability, and minimum audience sizes.</p></details>
+<details><summary>How much does streaming TV advertising cost?</summary><p>Cost depends on campaign management, advertising budget, market size, audience, inventory, targeting, duration, creative production, and minimums. Visit the advertising pricing page or request a custom media recommendation.</p></details>
+<details><summary>What metrics can I see?</summary><p>Depending on the platform, reporting may include impressions, reach, frequency, video completion, geography, device, audience delivery, website activity, and available attribution signals.</p></details>
+<details><summary>Can streaming TV work with Google Ads?</summary><p>Yes. Streaming TV can build awareness before a customer searches, while Google Ads can capture active demand after viewers recognize the brand or need the service.</p></details>
+<details><summary>Can small and local businesses use streaming TV?</summary><p>Yes. Local businesses may use streaming TV to focus on selected markets, reach nearby households, promote locations, and support seasonal or competitive campaigns.</p></details>
+<details><summary>Is placement on a specific show guaranteed?</summary><p>Not unless the approved media plan specifically guarantees that show or placement. Many campaigns buy audiences or inventory pools rather than a single named program.</p></details>
+<details><summary>How do I get started?</summary><p>Share your service area, audience, goals, monthly budget, campaign timing, existing video assets, offer, and desired platforms. WebAct can then recommend the appropriate campaign structure.</p></details>
+</div>
+</section>
+
+<section class="tvads-cta"><h2>Ready to reach more viewers through streaming television?</h2><p>WebAct can review your market, audience, available platforms, creative needs, landing pages, budget, and advertising goals to build a connected TV strategy around your business.</p><div class="hero-actions"><a class="button primary" href="/contact/index.html">Request a TV Advertising Review</a><a class="button secondary" href="tel:8556974336">Call (855) 697-4336</a></div></section>
 </main>
-
 <div id="webact-footer"></div>
 <script src="/script.js?v=main-layout-1"></script>
 <script src="/assets/js/routes.js?v=main-layout-1"></script>
 <script src="/assets/js/navigation.js?v=main-layout-1"></script>
 <script src="/assets/js/includes.js?v=main-layout-1"></script>
-
 <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  if (window.jotformEmbedHandler) {
-    window.jotformEmbedHandler(
-      "iframe[id^='JotFormIFrame-']",
-      "https://form.jotform.com/"
-    );
-  }
-});
+document.addEventListener("DOMContentLoaded",function(){if(window.jotformEmbedHandler){window.jotformEmbedHandler("iframe[id^='JotFormIFrame-']","https://form.jotform.com/");}});
 </script>
 </body>
 </html>
