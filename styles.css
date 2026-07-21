@@ -5179,7 +5179,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .page-card a::after{
-  content:" Ã¢â€ ’";
+  content:" ÃƒÂ¢Ã¢â‚¬Â â€™";
 }
 
 /* Dark connected strategy CTA bands */
@@ -5283,7 +5283,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .benefit-grid li::before{
-  content:"Ã¢Å““";
+  content:"ÃƒÂ¢Ã…â€œâ€œ";
   position:absolute;
   left:0;
   top:0;
@@ -5379,7 +5379,7 @@ body:not(.wa-homepage) .page-hero .button.secondary{
 }
 
 .detail-list span::before{
-  content:"Ã¢Å““";
+  content:"ÃƒÂ¢Ã…â€œâ€œ";
   position:absolute;
   left:16px;
   color:#0878b8;
@@ -5623,3 +5623,11 @@ iframe {
 }
 
 /* WEBACT AGENT ACCESSIBILITY END */
+
+/* WEBACT LIGHTHOUSE START */
+img{max-width:100%;height:auto}
+main section:not(:first-child){content-visibility:auto;contain-intrinsic-size:auto 700px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #0b82b5;outline-offset:3px}
+.eyebrow,.industry-label,[class*="eyebrow"]{color:#0879ad}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+/* WEBACT LIGHTHOUSE END */

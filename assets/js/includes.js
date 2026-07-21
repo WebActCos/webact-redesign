@@ -83,7 +83,7 @@
       return Promise.resolve();
     }
 
-    return fetch(filePath, { cache: "no-cache" })
+    return fetch(filePath, { cache: "force-cache" })
       .then(function (response) {
         if (!response.ok) {
           throw new Error(
@@ -103,7 +103,25 @@
 
   function initializeIncludes() {
     installFavicon();
-    installGoogleTagManager();
+
+    var loadGtmOnce = (function () {
+      var loaded = false;
+      return function () {
+        if (loaded) return;
+        loaded = true;
+        installGoogleTagManager();
+      };
+    })();
+
+    ["pointerdown", "keydown", "touchstart", "scroll"].forEach(function (eventName) {
+      window.addEventListener(eventName, loadGtmOnce, { once: true, passive: true });
+    });
+
+    if ("requestIdleCallback" in window) {
+      requestIdleCallback(loadGtmOnce, { timeout: 4000 });
+    } else {
+      setTimeout(loadGtmOnce, 4000);
+    }
 
     Promise.all([
       loadInclude("webact-header", "/includes/header.html"),
