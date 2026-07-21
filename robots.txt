@@ -1,4 +1,10 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://co.webact.com/sitemap.xml
+Disallow: /launch-audit/
+Disallow: /audit-reports/
+Disallow: /includes/
+Disallow: /assets/includes/
+Disallow: /assets/templates/
+
+Sitemap: https://www.webact.com/sitemap.xml

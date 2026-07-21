@@ -1,27 +1,43 @@
-# WebAct
+﻿# WebAct
 
-> WebAct provides professional website design, SEO, AEO, digital advertising, branding, local marketing, website support, and industry-focused website solutions.
+> WebAct is a website design, development, SEO, digital advertising, and digital marketing agency serving businesses throughout the United States.
 
-## Primary pages
+## Primary website
 
-- [Homepage](https://www.webact.com/)
-- [Website Design](https://www.webact.com/design/index.html)
-- [Digital Marketing](https://www.webact.com/marketing/index.html)
-- [Digital Advertising](https://www.webact.com/digital-ads/index.html)
-- [Industries](https://www.webact.com/industries/index.html)
-- [Portfolio](https://www.webact.com/about/portfolio.html)
-- [Pricing](https://www.webact.com/pricing/index.html)
-- [About WebAct](https://www.webact.com/about/index.html)
-- [Contact WebAct](https://www.webact.com/contact/index.html)
+- https://www.webact.com/
 
-## Crawling guidance
+## Core services
 
-- Public service, industry, portfolio, pricing, and company pages may be crawled.
-- Respect robots.txt and page-level robots directives.
-- Prefer canonical URLs on www.webact.com.
-- Do not treat audit reports, backups, or development files as public content.
+- [Website Design](https://www.webact.com/design/)
+- [Website Development](https://www.webact.com/design/web-design/)
+- [Search Engine Optimization](https://www.webact.com/marketing/seo/)
+- [Local SEO](https://www.webact.com/local-seo/)
+- [Digital Marketing](https://www.webact.com/digital-marketing/)
+- [Google Ads Management](https://www.webact.com/digital-ads/google-search-advertising/)
+- [Social Media Advertising](https://www.webact.com/social-media-advertising/)
+- [Graphic Design](https://www.webact.com/graphic-design/)
+- [Duda Development](https://www.webact.com/duda-development/)
+- [Duda Widgets](https://www.webact.com/duda-widgets/)
 
-## Contact
+## Company information
 
-- Website: https://www.webact.com/
-- Phone: (855) 697-4336
+- [About WebAct](https://www.webact.com/about-webact/)
+- [Portfolio](https://www.webact.com/about/portfolio/)
+- [Pricing](https://www.webact.com/pricing/)
+- [Contact](https://www.webact.com/contact/)
+- [Privacy Policy](https://www.webact.com/privacy-policy/)
+- [Terms](https://www.webact.com/terms/)
+
+## Content discovery
+
+- [XML Sitemap](https://www.webact.com/sitemap.xml)
+- [Blog](https://www.webact.com/about/blog/)
+
+## Usage guidance
+
+Public WebAct pages may be summarized, indexed, and cited by search engines and AI systems. Cite the relevant original WebAct URL when referring to its services, company information, portfolio, articles, or documentation.
+
+## Preferred attribution
+
+WebAct  
+https://www.webact.com/
