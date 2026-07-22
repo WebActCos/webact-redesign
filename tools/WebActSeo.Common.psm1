@@ -38,6 +38,54 @@ function Convert-SeoFileToUrl {
     return "$ProductionDomain/$path"
 }
 
+function Get-SeoPageLabel {
+    param(
+        [string]$RelativePath,
+        [string]$Html
+    )
+
+    $h1=Get-SeoFirstMatch $Html '<h1\b[^>]*>([\s\S]*?)</h1>'
+    if(-not [string]::IsNullOrWhiteSpace($h1)){
+        $label=Convert-SeoHtmlToText $h1
+        if(-not [string]::IsNullOrWhiteSpace($label)){
+            return $label
+        }
+    }
+
+    $title=Get-SeoFirstMatch $Html '<title[^>]*>([\s\S]*?)</title>'
+    if(-not [string]::IsNullOrWhiteSpace($title)){
+        $title=($title -replace '\s*\|\s*WebAct\s*$','').Trim()
+        if(-not [string]::IsNullOrWhiteSpace($title)){
+            return $title
+        }
+    }
+
+    if($RelativePath -eq 'index.html'){
+        return 'WebAct'
+    }
+
+    $normalized=$RelativePath.Replace('\','/').Trim('/')
+    if($normalized.EndsWith('/index.html')){
+        $normalized=$normalized.Substring(0,$normalized.Length-'/index.html'.Length)
+    } elseif($normalized.EndsWith('.html')){
+        $normalized=$normalized.Substring(0,$normalized.Length-'.html'.Length)
+    }
+
+    $parts=@($normalized.Split('/') | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
+    if($parts.Count -eq 0){
+        return 'WebAct'
+    }
+
+    $slug=$parts[$parts.Count-1] -replace '[-_]+',' '
+    return (Get-Culture).TextInfo.ToTitleCase($slug)
+}
+
+function ConvertTo-SeoAttribute {
+    param([AllowEmptyString()][string]$Value)
+    if($null -eq $Value){ return '' }
+    return [Net.WebUtility]::HtmlEncode($Value)
+}
+
 function Get-SeoJsonLdInformation {
     param([string]$Html)
     $blocks=[regex]::Matches($Html,'<script\b[^>]*type=["'']application/ld\+json["''][^>]*>([\s\S]*?)</script>','IgnoreCase')
